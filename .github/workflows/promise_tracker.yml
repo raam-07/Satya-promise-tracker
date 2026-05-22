@@ -1,0 +1,87 @@
+name: Satya Promise Tracker
+
+on:
+  schedule:
+    # Runs at 0 minutes past the hour, every 12 hours
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  track_promises:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-promise-tracker
+          restore-keys: |
+            ${{ runner.os }}-pip-promise-tracker
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install gspread oauth2client requests huggingface_hub llama-cpp-python
+
+      - name: Cache Gemma Model
+        id: cache-model
+        uses: actions/cache@v4
+        with:
+          path: ./models
+          key: gemma-2-2b-it-Q6_K_L
+
+      - name: Download Gemma Model
+        if: steps.cache-model.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ./models
+          python -c "
+          from huggingface_hub import hf_hub_download
+          hf_hub_download(
+            repo_id='bartowski/gemma-2-2b-it-GGUF',
+            filename='gemma-2-2b-it-Q6_K_L.gguf',
+            local_dir='./models'
+          )
+          "
+
+      - name: Download current promises.json
+        env:
+          PROMISES_JSON_URL: ${{ secrets.PROMISES_JSON_URL }}
+        run: |
+          curl -L "$PROMISES_JSON_URL" -o ./promises.json
+          echo "Downloaded promises.json"
+
+      - name: Run Promise Tracker
+        env:
+          GCP_SERVICE_ACCOUNT_JSON: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
+          PROMISES_JSON_URL: ${{ secrets.PROMISES_JSON_URL }}
+        run: |
+          python promise_tracker.py
+
+      - name: Commit updated promises.json back to repo
+        run: |
+          git config --local user.email "satya-bot@github.com"
+          git config --local user.name "Satya Bot"
+          git add promises.json review_promises.json
+          git diff --staged --quiet || git commit -m "Auto-update promises.json [$(date '+%Y-%m-%d')]"
+          git push
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: promise-tracker-output-${{ github.run_number }}
+          path: |
+            promises.json
+            review_promises.json
+            *.log
+          retention-days: 14
