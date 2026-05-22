@@ -213,7 +213,7 @@ def build_promise_keywords(promise):
 
     return keywords
 
-def score_article_for_promise(article, promise_keywords, person_name):
+def score_article_for_promise(article, promise_keywords, person_name, promise):
     """
     Score how relevant an article is to a promise.
     Returns a score 0-100.
@@ -279,7 +279,7 @@ def link_articles_to_promises(promises_data, articles):
             if url in existing_per_promise.get(promise_id, set()):
                 continue  # Already linked
 
-            score = score_article_for_promise(article, keywords, person)
+            score = score_article_for_promise(article, keywords, person, promise)
             if score >= 30:  # Minimum relevance threshold
                 scored_articles.append((score, article))
 
