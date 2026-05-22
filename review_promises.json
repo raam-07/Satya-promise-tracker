@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-05-22 22:51:00.328455",
+  "summary": {
+    "total_promises": 20,
+    "promises_with_evidence": 20,
+    "statuses_needing_review": 8
+  },
+  "review_items": [
+    {
+      "promise_id": "p004",
+      "person": "Narendra Modi",
+      "promise": "Build 2 crore pucca houses for the poor by 2022 (PM Awas Yojana)",
+      "current_status": "ongoing",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The promise was made in 2014, and the deadline passed in 2022.",
+      "gemma_confidence": "low",
+      "evidence_count": 3,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p007",
+      "person": "Narendra Modi",
+      "promise": "Electoral bonds will bring transparency to political funding",
+      "current_status": "broken",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is still in effect as it is a policy implemented by the government.",
+      "gemma_confidence": "medium",
+      "evidence_count": 7,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p008",
+      "person": "Narendra Modi",
+      "promise": "Har ghar nal se jal — piped water to every household by 2024",
+      "current_status": "ongoing",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The promise was made in 2014, and the provided evidence does not mention any progress towards it.",
+      "gemma_confidence": "low",
+      "evidence_count": 3,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p013",
+      "person": "Amit Shah",
+      "promise": "Remove Rohingyas from India completely",
+      "current_status": "ongoing",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The provided evidence focuses on political disputes and proposals, not on Amit Shah's specific promise.",
+      "gemma_confidence": "low",
+      "evidence_count": 2,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p014",
+      "person": "Arvind Kejriwal",
+      "promise": "Free and world class government schools in Delhi",
+      "current_status": "kept",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The provided evidence focuses on school upgrades and singing of national songs, not on Arvind Kejriwal's promise of free and world-class government schools.",
+      "gemma_confidence": "low",
+      "evidence_count": 5,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p015",
+      "person": "Arvind Kejriwal",
+      "promise": "Free electricity up to 200 units in Delhi",
+      "current_status": "kept",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "No evidence provided regarding the status of this promise.",
+      "gemma_confidence": "low",
+      "evidence_count": 2,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p017",
+      "person": "Rahul Gandhi",
+      "promise": "Guarantee minimum income of Rs 72,000 per year to poorest families (NYAY scheme)",
+      "current_status": "broken",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is a policy proposal, not a current program.",
+      "gemma_confidence": "medium",
+      "evidence_count": 2,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p018",
+      "person": "Yogi Adityanath",
+      "promise": "End mafia raj and crime completely in Uttar Pradesh",
+      "current_status": "ongoing",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The provided evidence is unrelated to Yogi Adityanath's promise in Uttar Pradesh.",
+      "gemma_confidence": "low",
+      "evidence_count": 1,
+      "action_needed": "Review and update status in promises.json"
+    }
+  ]
+}
