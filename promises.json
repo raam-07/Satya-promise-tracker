@@ -123,7 +123,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise is not directly addressed in the provided evidence.",
+      "gemma_reasoning": "The promise is broken because the government has not created 2 crore jobs annually.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
@@ -156,6 +156,14 @@
           "scraped_at": "2026-05-14 23:37:02.208188",
           "relevance_score": 80,
           "rephrased": "**C. Joseph Vijay**, Tamil Nadu Chief Minister, urged **Prime Minister Narendra Modi** to remove the 11% import duty on cotton to ensure raw material availability for the textile and apparel industry."
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/modi-empowered-ed-to-cleanse-cancer-of-financial-crimes-not-to-target-anyone-mos-pankaj-chaudhary/article70928211.ece",
+          "title": "ED empowered under Modi govt. to fight ‘cancer’ of financial crimes, not target anyone: MoS Finance - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-01 14:04:53.149265",
+          "relevance_score": 80,
+          "rephrased": "**Union Minister of State (MoS) for Finance Pankaj Chaudhary** stated that the **Enforcement Directorate (ED)** has been given necessary powers to combat financial crimes and terror funding, not to ta"
         },
         {
           "url": "https://www.thehindu.com/news/national/telangana/fuel-price-hike-negatively-impacts-economy-triggers-rise-in-essential-commodity-prices-telangana-cm-revanth-reddy/article70985978.ece",
@@ -196,14 +204,6 @@
           "scraped_at": "2026-05-13 07:45:28.644643",
           "relevance_score": 75,
           "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce purchases of non-essential gold and silver over the next year to alleviate pressure on foreign exchange reserves and imports. This policy meas"
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/telangana/pm-modi-to-dedicate-telangana-railway-projects-worth-rs-1535-crore-on-may-10/article70958575.ece",
-          "title": "PM Modi to dedicate Telangana railway projects worth Rs. 1,535 crore on May 10 - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-09 12:15:03.096008",
-          "relevance_score": 75,
-          "rephrased": "**Prime Minister Narendra Modi** will dedicate key railway infrastructure projects in Telangana on Sunday, May 10, 2026. The projects include sections of the Kazipet–Vijayawada multi-tracking project "
         }
       ],
       "notes": "CMIE data consistently showed unemployment rising post-2016. India added far fewer formal jobs than promised annually.",
@@ -251,6 +251,14 @@
           "rephrased": "**C. Joseph Vijay**, Tamil Nadu Chief Minister, urged **Prime Minister Narendra Modi** to remove the 11% import duty on cotton to ensure raw material availability for the textile and apparel industry."
         },
         {
+          "url": "https://www.thehindu.com/news/national/modi-empowered-ed-to-cleanse-cancer-of-financial-crimes-not-to-target-anyone-mos-pankaj-chaudhary/article70928211.ece",
+          "title": "ED empowered under Modi govt. to fight ‘cancer’ of financial crimes, not target anyone: MoS Finance - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-01 14:04:53.149265",
+          "relevance_score": 80,
+          "rephrased": "**Union Minister of State (MoS) for Finance Pankaj Chaudhary** stated that the **Enforcement Directorate (ED)** has been given necessary powers to combat financial crimes and terror funding, not to ta"
+        },
+        {
           "url": "https://www.thehindu.com/news/national/telangana/fuel-price-hike-negatively-impacts-economy-triggers-rise-in-essential-commodity-prices-telangana-cm-revanth-reddy/article70985978.ece",
           "title": "Fuel price hike negatively impacts economy, triggers rise in essential commodity prices: Telangana CM Revanth Reddy - The Hindu",
           "source": "The Hindu",
@@ -297,14 +305,6 @@
           "scraped_at": "2026-05-13 07:45:28.644643",
           "relevance_score": 75,
           "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce purchases of non-essential gold and silver over the next year to alleviate pressure on foreign exchange reserves and imports. This policy meas"
-        },
-        {
-          "url": "https://www.dawn.com/news/1999209/modi-urges-indians-to-reduce-petrol-diesel-consumption-amid-middle-east-war-disruption",
-          "title": "Modi urges Indians to reduce petrol, diesel consumption amid Middle East war disruption - World - DAWN.COM",
-          "source": "The Dawn",
-          "scraped_at": "2026-05-10 18:34:06.013909",
-          "relevance_score": 75,
-          "rephrased": "**Narendra Modi**, the Indian Prime Minister, urged citizens to reduce petrol and diesel consumption due to global supply disruptions caused by the Middle East war.  He emphasized using public transpo"
         }
       ],
       "notes": "No black money repatriation happened. Rs 15 lakh was later called a 'jumla' by BJP president Amit Shah.",
@@ -527,7 +527,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise is not directly related to the provided evidence.",
+      "gemma_reasoning": "The promise is not directly addressed in the provided articles.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/fuel-price-hike-negatively-impacts-economy-triggers-rise-in-essential-commodity-prices-telangana-cm-revanth-reddy/article70985978.ece",
@@ -628,7 +628,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The evidence provided focuses on political events and Modi's visits, not on the impact of electoral bonds on transparency.",
+      "gemma_reasoning": "The evidence provided does not support the claim that electoral bonds bring transparency to political funding.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/pm-modis-appeal-on-fuel-savings-an-admission-of-failure-will-rattle-markets-akhilesh/article70964575.ece",
@@ -740,6 +740,14 @@
           "rephrased": "**Prime Minister Narendra Modi** has been raising concerns about the low attendance of members at parliamentary committees.  Data shows that an average of 53% of members attended meetings of 16 depart"
         },
         {
+          "url": "https://www.thehindu.com/news/national/karnataka/conducting-health-camp-and-distributing-kits-is-not-labour-welfare-says-union-minister-shobha-karandlaje/article70928411.ece",
+          "title": "Conducting health camp and distributing kits is not labour welfare, says Union Minister Shobha Karandlaje - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-01 14:03:19.823242",
+          "relevance_score": 70,
+          "rephrased": "**Shobha Karandlaje**, Union Minister of State for Labour, Employment and MSME, criticized the functioning of the **Karnataka** State Labour Department.  She alleged that construction workers' welfare"
+        },
+        {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
           "title": "Take forward reforms, PM tells Ministers - The Hindu",
           "source": "The Hindu",
@@ -802,14 +810,6 @@
           "scraped_at": "2026-05-09 12:15:03.096008",
           "relevance_score": 65,
           "rephrased": "**Prime Minister Narendra Modi** will dedicate key railway infrastructure projects in Telangana on Sunday, May 10, 2026. The projects include sections of the Kazipet–Vijayawada multi-tracking project "
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/west-bengal-2026-cabinet-ministers-bjp-government-suvendu-adhikari-cm-agnimitra-paul-dilip-ghosh/article70958634.ece",
-          "title": "West Bengal Cabinet 2026: From Dilip Ghosh to Agnimitra Paul, Ministers who were sworn in along with Suvendu Adhikari - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-09 11:31:00.829294",
-          "relevance_score": 65,
-          "rephrased": "**Suvendu Adhikari**, newly sworn in as the Chief Minister of West Bengal, inducted five new ministers into his cabinet on Saturday. The swearing-in ceremony was attended by **Prime Minister Narendra "
         }
       ],
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
@@ -881,6 +881,14 @@
           "rephrased": "The **Bharatiya Janata Party** (BJP) has won a resounding victory in West Bengal, marking the first time the party has held power in the state. This significant win expands the BJP's control over Indi"
         },
         {
+          "url": "https://www.thehindu.com/news/national/haryana/saini-urges-punjab-obcs-to-back-bjp-in-assembly-polls/article70935987.ece",
+          "title": "Saini urges Punjab OBCs to back BJP in Assembly polls - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-03 22:51:43.514605",
+          "relevance_score": 80,
+          "rephrased": "**Haryana Chief Minister Nayab Singh Saini** urged the OBC community in Punjab to unite and support the **BJP** in the upcoming Assembly elections. He claimed that the party ensures equal representati"
+        },
+        {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
           "title": "Take forward reforms, PM tells Ministers - The Hindu",
           "source": "The Hindu",
@@ -903,14 +911,6 @@
           "scraped_at": "2026-05-20 21:02:35.346080",
           "relevance_score": 75,
           "rephrased": "**Rahul Gandhi**, leader of the **Congress** party, criticized **Prime Minister Narendra Modi** and **Union Home Minister Amit Shah**, accusing them of attacking the Constitution and supporting indust"
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/average-of-53-mps-attend-meetings-of-16-parliamentary-standing-committees-pac-data/article70987896.ece",
-          "title": "Average of 53% MPs attend meetings of 16 Parliamentary Standing Committees, PAC: data - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-16 17:06:45.437530",
-          "relevance_score": 75,
-          "rephrased": "**Prime Minister Narendra Modi** has been raising concerns about the low attendance of members at parliamentary committees.  Data shows that an average of 53% of members attended meetings of 16 depart"
         }
       ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
@@ -931,7 +931,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The evidence shows that Modi's call for austerity has not been universally followed.",
+      "gemma_reasoning": "The provided evidence focuses on political controversies and internal party dynamics, not on the implementation of 'One Nation One Election'.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/pm-modis-appeal-on-fuel-savings-an-admission-of-failure-will-rattle-markets-akhilesh/article70964575.ece",
@@ -948,6 +948,14 @@
           "scraped_at": "2026-05-06 21:16:21.197295",
           "relevance_score": 100,
           "rephrased": "**Mamata Banerjee**, the chief minister of West Bengal, refused to resign after her party lost power in state elections to the **BJP**.  The BJP secured over two-thirds of the seats, marking a signifi"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/haryana/saini-urges-punjab-obcs-to-back-bjp-in-assembly-polls/article70935987.ece",
+          "title": "Saini urges Punjab OBCs to back BJP in Assembly polls - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-03 22:51:43.514605",
+          "relevance_score": 100,
+          "rephrased": "**Haryana Chief Minister Nayab Singh Saini** urged the OBC community in Punjab to unite and support the **BJP** in the upcoming Assembly elections. He claimed that the party ensures equal representati"
         },
         {
           "url": "https://www.thehindu.com/news/national/maharashtra/cm-fadnavis-bike-ride-draws-opposition-ire/article70979916.ece",
@@ -1004,14 +1012,6 @@
           "scraped_at": "2026-05-04 15:33:56.317136",
           "relevance_score": 80,
           "rephrased": "**Narendra Modi**, **Indian Prime Minister**, claimed a record victory in the West Bengal state elections for his Hindu nationalist party, the **Bharatiya Janata Party (BJP)**. The BJP secured a major"
-        },
-        {
-          "url": "https://www.aljazeera.com/features/2026/5/4/hegemonic-power-how-modis-bjp-won-indias-bengal-for-the-first-time?traffic_source=rss",
-          "title": "‘Hegemonic power’: How Modi’s BJP won India’s Bengal for the first time | Elections | Al Jazeera",
-          "source": "Al Jazeera",
-          "scraped_at": "2026-05-04 13:11:30.817468",
-          "relevance_score": 80,
-          "rephrased": "The **Bharatiya Janata Party (BJP)** won the West Bengal state elections, marking a significant shift in Indian politics. The party's victory was attributed to factors including religious polarisation"
         }
       ],
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
@@ -1032,7 +1032,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise is contradicted by the evidence of rising inflation and economic concerns.",
+      "gemma_reasoning": "The promise is contradicted by the evidence of rising inflation and concerns about the impact of demonetization.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
@@ -1057,6 +1057,14 @@
           "scraped_at": "2026-05-14 23:37:02.208188",
           "relevance_score": 80,
           "rephrased": "**C. Joseph Vijay**, Tamil Nadu Chief Minister, urged **Prime Minister Narendra Modi** to remove the 11% import duty on cotton to ensure raw material availability for the textile and apparel industry."
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/modi-empowered-ed-to-cleanse-cancer-of-financial-crimes-not-to-target-anyone-mos-pankaj-chaudhary/article70928211.ece",
+          "title": "ED empowered under Modi govt. to fight ‘cancer’ of financial crimes, not target anyone: MoS Finance - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-01 14:04:53.149265",
+          "relevance_score": 80,
+          "rephrased": "**Union Minister of State (MoS) for Finance Pankaj Chaudhary** stated that the **Enforcement Directorate (ED)** has been given necessary powers to combat financial crimes and terror funding, not to ta"
         },
         {
           "url": "https://www.thehindu.com/news/national/telangana/fuel-price-hike-negatively-impacts-economy-triggers-rise-in-essential-commodity-prices-telangana-cm-revanth-reddy/article70985978.ece",
@@ -1105,14 +1113,6 @@
           "scraped_at": "2026-05-13 07:45:28.644643",
           "relevance_score": 75,
           "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce purchases of non-essential gold and silver over the next year to alleviate pressure on foreign exchange reserves and imports. This policy meas"
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/modi-shah-are-traitors-who-are-attacking-the-constitution-says-rahul-at-rae-bareli-meet/article71002954.ece",
-          "title": "Modi, Shah are traitors who are attacking the Constitution, says Rahul at Rae Bareli meet - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-20 21:02:35.346080",
-          "relevance_score": 65,
-          "rephrased": "**Rahul Gandhi**, leader of the **Congress** party, criticized **Prime Minister Narendra Modi** and **Union Home Minister Amit Shah**, accusing them of attacking the Constitution and supporting indust"
         }
       ],
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
@@ -1133,7 +1133,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The project was approved in 2023, but the timeline for completion is not specified.",
+      "gemma_reasoning": "The promise is ongoing as the project is approved, but not yet completed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/average-of-53-mps-attend-meetings-of-16-parliamentary-standing-committees-pac-data/article70987896.ece",
@@ -1158,6 +1158,14 @@
           "scraped_at": "2026-05-15 01:30:15.301460",
           "relevance_score": 70,
           "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/load-testing-on-peenya-flyover-traffic-banned-from-may-5-to-8/article70928836.ece",
+          "title": "Load testing on Peenya flyover, traffic banned from May 5 to 8 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-01 15:16:25.666240",
+          "relevance_score": 70,
+          "rephrased": "**The National Highways Authority of India (NHAI)** will conduct load testing on the Peenya Elevated Flyover from May 5 to 8 between 5 a.m. and 11 a.m., resulting in traffic bans during those days. Th"
         },
         {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
@@ -1206,14 +1214,6 @@
           "scraped_at": "2026-05-10 20:01:37.196779",
           "relevance_score": 65,
           "rephrased": "**Prime Minister Narendra Modi** visited Hyderabad for a series of programs culminating in a public meeting at Parade Grounds. Over 75,000 people attended the meeting, with an additional 10,000 to 15,"
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
-          "title": "PM Modi assures more support to Telangana, asks CM Revanth to collaborate with him - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-10 12:02:18.299435",
-          "relevance_score": 65,
-          "rephrased": "**Prime Minister Narendra Modi** assured **Telangana Chief Minister A. Revanth Reddy** that the **Central government** would continue to support its development, emphasizing the importance of state-le"
         }
       ],
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
@@ -1378,6 +1378,14 @@
           "rephrased": "**UAE** schools, universities, and nurseries are awaiting a decision on May 10th regarding the future of their learning model. The **Ministry of Education**, **Ministry of Higher Education and Scienti"
         },
         {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/students-driving-force-behind-development-of-a-district-says-ntr-collector/article70932646.ece",
+          "title": "Students driving force behind development of a district, says NTR Collector - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-02 18:13:52.482201",
+          "relevance_score": 65,
+          "rephrased": "**NTR District Collector Lakshmisha** praised students for their success in the Class X examinations, highlighting the importance of hard work and determination. He commended **students from NTR distr"
+        },
+        {
           "url": "https://www.thehindu.com/news/national/kerala/minority-commission-recommends-upgrading-pallikkal-govt-school-in-wayanad/article71010684.ece",
           "title": "Minority commission recommends upgrading Pallikkal govt. school in Wayanad - The Hindu",
           "source": "The Hindu",
@@ -1408,14 +1416,6 @@
           "scraped_at": "2026-05-12 15:28:57.234397",
           "relevance_score": 60,
           "rephrased": "**Mexico's** government has reversed its decision to end the school year early due to concerns raised by parents and education experts. The original plan, announced in May, aimed to ease traffic durin"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/quote-of-the-day-by-aristotle-educating-the-mind-without-educating-the-heart-is-no-education-at-all-/articleshow/130989844.cms",
-          "title": "Quote of the day by Aristotle: “Educating the mind without educating the heart is no education at all.” | World News - The Times of India",
-          "source": "Times of India",
-          "scraped_at": "2026-05-10 10:54:14.789579",
-          "relevance_score": 60,
-          "rephrased": "**Aristotle's** famous quote, \"Educating the mind without educating the heart is no education at all,\" highlights the importance of emotional intelligence alongside academic achievement.  The quote em"
         }
       ],
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
@@ -1436,7 +1436,7 @@
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided articles do not mention anything about the status of the free electricity promise.",
+      "gemma_reasoning": "The provided text does not contain any information about the status of the free electricity promise.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/cities/Delhi/delhi-hc-seeks-response-from-aaps-gopal-rai-journalist-in-contempt-plea/article71011372.ece",
@@ -1453,6 +1453,14 @@
           "scraped_at": "2026-05-09 23:28:04.154424",
           "relevance_score": 50,
           "rephrased": "**AAP** leader Arvind Kejriwal accused the **ED** of being a tool for political intimidation, targeting Punjab Minister Sanjeev Arora in raids.  Kejriwal claimed that the BJP is trying to break AAP le"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/punjab/punjab-assembly-congress-akali-dal-allege-cm-mann-was-drunk-during-house-proceedings/article70928207.ece",
+          "title": "High drama in Punjab Assembly; Congress, Akali Dal allege CM Mann was drunk during House proceedings - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-01 18:08:52.912316",
+          "relevance_score": 50,
+          "rephrased": "Opposition parties in Punjab, including the Congress and Shiromani Akali Dal, have accused **Chief Minister Bhagwant Mann** of appearing intoxicated during a session of the Vidhan Sabha.  They demande"
         },
         {
           "url": "https://www.thehindu.com/news/national/tamil-nadu/new-govt-hospital-preventing-waterlogging-are-among-my-priorities-says-katpadi-mla/article71006933.ece",
@@ -1524,6 +1532,14 @@
           "rephrased": "**Gopal Rai**, an AAP leader, and journalist **Saurav Das** were issued notices by the **Delhi High Court** in response to a petition seeking contempt proceedings against them for allegedly orchestrat"
         },
         {
+          "url": "https://www.thehindu.com/news/national/punjab/punjab-assembly-congress-akali-dal-allege-cm-mann-was-drunk-during-house-proceedings/article70928207.ece",
+          "title": "High drama in Punjab Assembly; Congress, Akali Dal allege CM Mann was drunk during House proceedings - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-01 18:08:52.912316",
+          "relevance_score": 50,
+          "rephrased": "Opposition parties in Punjab, including the Congress and Shiromani Akali Dal, have accused **Chief Minister Bhagwant Mann** of appearing intoxicated during a session of the Vidhan Sabha.  They demande"
+        },
+        {
           "url": "https://www.thehindu.com/news/national/tamil-nadu/new-govt-hospital-preventing-waterlogging-are-among-my-priorities-says-katpadi-mla/article71006933.ece",
           "title": "New govt. hospital, preventing waterlogging are among my priorities, says Katpadi MLA - The Hindu",
           "source": "The Hindu",
@@ -1574,7 +1590,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Rahul Gandhi has proposed a NYAY scheme, but it is not yet implemented.",
+      "gemma_reasoning": "Rahul Gandhi has proposed a NYAY scheme, but it has not been implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
@@ -1675,7 +1691,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided articles do not mention Yogi Adityanath's promise regarding mafia raj and crime.",
+      "gemma_reasoning": "The provided articles do not mention anything about Yogi Adityanath's promise regarding mafia and crime.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/uttar-pradesh/yogi-adityanath-launches-first-phase-of-census-2027-in-uttar-pradesh/article70952396.ece",
@@ -1726,6 +1742,14 @@
           "rephrased": "**Yogi Adityanath**, Chief Minister of **Uttar Pradesh**, addressed citizens during a 'janata darshan' program at the Gorakhnath temple in Gorakhpur. He assured residents that his government would eff"
         },
         {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-cm-announces-wage-reform-warns-industrial-unrest-will-harm-progress/article70928795.ece",
+          "title": "U.P. CM announces wage reform, warns industrial unrest will harm progress - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-02 00:00:49.031174",
+          "relevance_score": 70,
+          "rephrased": "**Yogi Adityanath**, Chief Minister of **Uttar Pradesh**, announced the formation of a new wage board to ensure equitable wages for workers, particularly those in industries with 10 or more employees."
+        },
+        {
           "url": "https://www.thehindu.com/news/national/uttar-pradesh/insensitivity-and-lack-of-concern-alleges-congress-on-centers-silence-over-up-storm-deaths/article70983868.ece",
           "title": "Insensitivity and lack of concern, alleges Congress on Center’s silence over U.P. storm deaths - The Hindu",
           "source": "The Hindu",
@@ -1740,6 +1764,14 @@
           "scraped_at": "2026-05-22 01:35:28.806610",
           "relevance_score": 30,
           "rephrased": "Over 2,000 people gathered in San Diego to mourn the three men killed in a shooting at the Islamic Center of San Diego. **Amin Abdullah**, **Mansour Kaziha**, and **Nader Awad** were remembered as her"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/gang-from-up-involved-in-using-old-mobile-phones-for-cybercrime-busted-in-adilabad-four-arrested/article70929494.ece",
+          "title": "Gang from U.P. involved in using old mobile phones for cybercrime busted in Adilabad, 4 held - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-01 22:06:42.664871",
+          "relevance_score": 30,
+          "rephrased": "**Adilabad** police arrested four members of an inter-state gang from **Muzaffarnagar, Uttar Pradesh**, for allegedly buying old mobile phones and using them for cybercrime. The suspects, Arshad, Asim"
         }
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",

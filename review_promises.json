@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23 15:07:45.435363",
+  "generated_at": "2026-05-23 18:24:11.926213",
   "summary": {
     "total_promises": 20,
     "promises_with_evidence": 20,
@@ -34,7 +34,7 @@
       "promise": "One nation one election",
       "current_status": "ongoing",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The evidence shows that Modi's call for austerity has not been universally followed.",
+      "gemma_reasoning": "The provided evidence focuses on political controversies and internal party dynamics, not on the implementation of 'One Nation One Election'.",
       "gemma_confidence": "low",
       "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
@@ -45,7 +45,7 @@
       "promise": "Bullet train between Mumbai and Ahmedabad by 2023",
       "current_status": "broken",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The project was approved in 2023, but the timeline for completion is not specified.",
+      "gemma_reasoning": "The promise is ongoing as the project is approved, but not yet completed.",
       "gemma_confidence": "medium",
       "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
@@ -78,9 +78,9 @@
       "promise": "Free electricity up to 200 units in Delhi",
       "current_status": "kept",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided articles do not mention anything about the status of the free electricity promise.",
+      "gemma_reasoning": "The provided text does not contain any information about the status of the free electricity promise.",
       "gemma_confidence": "low",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "action_needed": "Review and update status in promises.json"
     },
     {
@@ -89,7 +89,7 @@
       "promise": "Guarantee minimum income of Rs 72,000 per year to poorest families (NYAY scheme)",
       "current_status": "broken",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Rahul Gandhi has proposed a NYAY scheme, but it is not yet implemented.",
+      "gemma_reasoning": "Rahul Gandhi has proposed a NYAY scheme, but it has not been implemented.",
       "gemma_confidence": "medium",
       "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
@@ -100,9 +100,9 @@
       "promise": "End mafia raj and crime completely in Uttar Pradesh",
       "current_status": "ongoing",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided articles do not mention Yogi Adityanath's promise regarding mafia raj and crime.",
+      "gemma_reasoning": "The provided articles do not mention anything about Yogi Adityanath's promise regarding mafia and crime.",
       "gemma_confidence": "low",
-      "evidence_count": 8,
+      "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
     },
     {
