@@ -33,7 +33,7 @@ PROMISES_JSON_URL = os.environ.get('PROMISES_JSON_URL', '')
 PROMISES_OUTPUT_PATH = './promises.json'
 REVIEW_PROMISES_PATH = './review_promises.json'
 
-MODEL_PATH = "./models/gemma-2-2b-it-Q6_K_L.gguf"
+MODEL_PATH = "./models/gemma-2-9b-it-Q6_K.gguf"
 
 # Max articles to link per promise
 MAX_EVIDENCE_ARTICLES = 10
@@ -112,9 +112,9 @@ def load_gemma():
         logging.info("Loading Gemma...")
         llm = Llama(
             model_path=MODEL_PATH,
-            n_ctx=2048,
-            n_batch=256,
-            n_threads=4,
+            n_ctx=4096,
+            n_batch=512,
+            n_threads=2,
             verbose=False
         )
         logging.info("Gemma loaded.")
