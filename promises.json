@@ -5,7 +5,7 @@
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 20,
-    "promises_with_evidence": 0
+    "promises_with_evidence": 1
   },
   "promises": [
     {
@@ -402,8 +402,18 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is a long-term goal with no concrete evidence of progress.",
-      "evidence_articles": [],
+      "gemma_reasoning": "The promise is for a future date and progress is being made.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
+          "title": "PM Modi assures more support to Telangana, asks CM Revanth to collaborate with him - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 12:02:18.299435",
+          "relevance_score": 95,
+          "gemma_validated": true,
+          "rephrased": "**Prime Minister Narendra Modi** assured **Telangana Chief Minister A. Revanth Reddy** that the **Central government** would continue to support its development, emphasizing the importance of state-le"
+        }
+      ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-23"
