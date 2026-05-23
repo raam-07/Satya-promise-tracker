@@ -3,6 +3,8 @@
 #
 # Reads promises.json + Classified Sheet and:
 #   1. Links relevant articles to each promise as evidence
+#      - Score-based filtering (threshold 70)
+#      - Gemma pre-validation to confirm relevance before linking
 #   2. Uses Gemma to suggest status (kept/broken/ongoing) based on evidence
 #   3. Generates review_promises.json for manual confirmation
 #   4. Updates promises.json with confirmed evidence article links
@@ -35,6 +37,12 @@ MODEL_PATH = "./models/gemma-2-2b-it-Q6_K_L.gguf"
 
 # Max articles to link per promise
 MAX_EVIDENCE_ARTICLES = 10
+
+# Minimum score to even consider an article for Gemma validation
+MIN_SCORE_THRESHOLD = 70
+
+# Max articles to send to Gemma for relevance check (saves time)
+MAX_GEMMA_VALIDATION_BATCH = 20
 
 logging.basicConfig(
     level=logging.INFO,
@@ -80,7 +88,7 @@ def load_promises():
     if PROMISES_JSON_URL:
         try:
             logging.info("Fetching promises.json from GitHub...")
-            response = requests.get(PROMISES_JSON_URL, timeout=10)
+            response = requests.get(PROMISES_JSON_URL.strip(), timeout=10)
             response.raise_for_status()
             return response.json()
         except Exception as e:
@@ -114,6 +122,43 @@ def load_gemma():
     except Exception as e:
         logging.error(f"Gemma failed to load: {e}")
         return None
+
+def gemma_is_article_relevant(llm, promise_text, person, article_title, article_summary):
+    """
+    Ask Gemma: does this article contain specific information about this promise?
+    Returns True/False.
+    Fast check — very short prompt, yes/no answer only.
+    """
+    if llm is None:
+        return True  # If no Gemma, let it through
+
+    prompt = f"""<start_of_turn>user
+Does the article below contain specific factual information about this political promise?
+
+Promise: "{promise_text}" made by {person}
+
+Article Title: {article_title}
+Article Summary: {article_summary[:300]}
+
+Answer with ONLY a JSON: {{"relevant": "yes" or "no"}}
+No explanation. No extra text.
+<end_of_turn>
+<start_of_turn>model
+"""
+    try:
+        response = llm(
+            prompt,
+            max_tokens=20,
+            temperature=0.1,
+            stop=["<end_of_turn>", "<start_of_turn>"],
+            echo=False
+        )
+        raw = response['choices'][0].get('text', '').strip()
+        raw = re.sub(r'```json|```', '', raw).strip()
+        parsed = json.loads(raw)
+        return parsed.get('relevant', 'no').lower() == 'yes'
+    except Exception:
+        return False  # If Gemma fails, reject the article (safe default)
 
 def gemma_assess_promise(llm, promise_text, person, evidence_texts):
     """
@@ -187,26 +232,28 @@ def build_promise_keywords(promise):
         if len(part) > 3:
             keywords.add(part)
 
-    # Key words from promise text
+    # Key words from promise text — STRICT: only highly specific words
     promise_text = promise.get('promise', '').lower()
-    # Remove common stop words
-    stop_words = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
-                  'of', 'with', 'by', 'from', 'will', 'that', 'this', 'is', 'are', 'was'}
+    stop_words = {
+        'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
+        'of', 'with', 'by', 'from', 'will', 'that', 'this', 'is', 'are', 'was',
+        'every', 'year', 'india', 'indian', 'government', 'make', 'bring', 'end',
+        'complete', 'build', 'crore', 'lakh'
+    }
     for word in promise_text.split():
         word = re.sub(r'[^\w]', '', word)
-        if len(word) > 4 and word not in stop_words:
+        if len(word) > 5 and word not in stop_words:
             keywords.add(word)
 
-    # Category keywords
+    # Highly specific category keywords — only directly related terms
     category_keywords = {
-        'farmer_agriculture': ['farmer', 'agriculture', 'kisan', 'crop', 'msp'],
-        'economy': ['economy', 'gdp', 'jobs', 'employment', 'income', 'rupee'],
-        'infrastructure': ['road', 'railway', 'hospital', 'school', 'electricity', 'water'],
-        'corruption_scam': ['corruption', 'scam', 'black money', 'bribe'],
-        'politics': ['election', 'parliament', 'government', 'policy'],
-        'crime_violence': ['crime', 'police', 'security', 'violence'],
-        'education': ['school', 'college', 'student', 'education'],
-        'health': ['hospital', 'doctor', 'medicine', 'health'],
+        'farmer_agriculture': ['farmer', 'kisan', 'agricultural income', 'farm income', 'msp', 'crop price'],
+        'economy': ['gdp', 'trillion', 'unemployment', 'job creation', 'employment generation', 'black money', 'swiss bank'],
+        'infrastructure': ['bullet train', 'high speed rail', 'piped water', 'jal jeevan', 'pucca house', 'awas yojana'],
+        'corruption_scam': ['electoral bond', 'corruption', 'transparency', 'political funding'],
+        'politics': ['uniform civil code', 'ucc', 'one nation one election', 'rohingya'],
+        'crime_violence': ['mafia', 'crime rate', 'encounter', 'gangster'],
+        'education': ['government school', 'school quality', 'free education'],
     }
     for kw in category_keywords.get(promise.get('category', ''), []):
         keywords.add(kw)
@@ -217,43 +264,63 @@ def score_article_for_promise(article, promise_keywords, person_name, promise):
     """
     Score how relevant an article is to a promise.
     Returns a score 0-100.
+
+    Stricter than before:
+    - Person name alone is not enough
+    - Must have specific keyword matches too
     """
     text = f"{article.get('title', '')} {article.get('rephrased_article', '')} {article.get('content', '')[:400]}".lower()
     score = 0
 
-    # Person name match — highest weight
+    # Person name match
     person_parts = person_name.lower().split()
+    person_match = False
     for part in person_parts:
         if len(part) > 3 and part in text:
-            score += 20
+            score += 10  # Reduced from 20 — person alone doesn't make an article relevant
+            person_match = True
 
-    # Keyword matches
+    # Keyword matches — now much more important
     matched_keywords = 0
+    matched_specific = []
     for kw in promise_keywords:
-        if kw in text:
+        if kw.lower() in text:
             matched_keywords += 1
-            score += 5
+            matched_specific.append(kw)
+            score += 8  # Increased keyword weight
 
     # Bonus for multiple keyword matches
-    if matched_keywords >= 3:
-        score += 10
-    if matched_keywords >= 5:
+    if matched_keywords >= 2:
         score += 15
+    if matched_keywords >= 4:
+        score += 20
 
-    # Category match
+    # Category match bonus
     if article.get('category') == promise.get('category', ''):
         score += 10
 
-    # Skip pure international articles unless promise is about foreign policy
+    # PENALTY: If person mentioned but zero specific keywords → likely irrelevant
+    if person_match and matched_keywords == 0:
+        score = max(0, score - 25)
+
+    # PENALTY: International articles for domestic promises
     if article.get('category') == 'international' and promise.get('category') != 'foreign_policy':
-        score = max(0, score - 30)
+        score = max(0, score - 40)
+
+    # PENALTY: Stock market / finance articles for non-economy promises
+    if promise.get('category') != 'economy':
+        if article.get('source') == 'Economic Times' and 'stock' in text:
+            score = max(0, score - 20)
 
     return min(score, 100)
 
-def link_articles_to_promises(promises_data, articles):
+def link_articles_to_promises(promises_data, articles, llm):
     """
     For each promise, find the most relevant articles from classified sheet.
-    Returns updated promises with evidence_articles filled.
+
+    Two-pass approach:
+    Pass 1: Score-based filtering (fast, no AI)
+    Pass 2: Gemma relevance validation (slow, high accuracy)
     """
     logging.info("--- Linking articles to promises ---")
 
@@ -269,23 +336,47 @@ def link_articles_to_promises(promises_data, articles):
         person = promise.get('person', '')
         promise_text = promise.get('promise', '')
 
-        logging.info(f"Linking articles for: [{promise_id}] {promise_text[:60]}...")
+        logging.info(f"Linking: [{promise_id}] {promise_text[:60]}...")
 
         keywords = build_promise_keywords(promise)
         scored_articles = []
 
+        # --- PASS 1: Score-based filtering ---
         for article in articles:
             url = article.get('url', '')
             if url in existing_per_promise.get(promise_id, set()):
-                continue  # Already linked
+                continue
 
             score = score_article_for_promise(article, keywords, person, promise)
-            if score >= 30:  # Minimum relevance threshold
+            if score >= MIN_SCORE_THRESHOLD:
                 scored_articles.append((score, article))
 
-        # Sort by score, take top N
+        # Sort by score, take top batch for Gemma validation
         scored_articles.sort(key=lambda x: x[0], reverse=True)
-        top_articles = scored_articles[:MAX_EVIDENCE_ARTICLES]
+        candidates = scored_articles[:MAX_GEMMA_VALIDATION_BATCH]
+
+        logging.info(f"  Pass 1: {len(candidates)} candidates above threshold {MIN_SCORE_THRESHOLD}")
+
+        # --- PASS 2: Gemma relevance validation ---
+        validated_articles = []
+        for score, article in candidates:
+            title = article.get('title', '')
+            summary = article.get('rephrased_article', '')
+
+            is_relevant = gemma_is_article_relevant(
+                llm, promise_text, person, title, summary
+            )
+
+            if is_relevant:
+                validated_articles.append((score, article))
+                logging.info(f"  ✓ Gemma APPROVED: {title[:60]}")
+            else:
+                logging.info(f"  ✗ Gemma REJECTED: {title[:60]}")
+
+        logging.info(f"  Pass 2: {len(validated_articles)} articles validated by Gemma")
+
+        # Take top MAX_EVIDENCE_ARTICLES
+        top_articles = validated_articles[:MAX_EVIDENCE_ARTICLES]
 
         new_links = []
         for score, article in top_articles:
@@ -295,25 +386,30 @@ def link_articles_to_promises(promises_data, articles):
                 "source": article.get('source', ''),
                 "scraped_at": article.get('scraped_at', ''),
                 "relevance_score": score,
+                "gemma_validated": True,
                 "rephrased": article.get('rephrased_article', '')[:200]
             })
 
         if new_links:
-            # Merge with existing evidence
             existing = promise.get('evidence_articles', [])
+            # Remove old unvalidated articles (those without gemma_validated flag)
+            existing = [a for a in existing if a.get('gemma_validated', False)]
             all_urls = {a['url'] for a in existing}
+
             for link in new_links:
                 if link['url'] not in all_urls:
                     existing.append(link)
                     all_urls.add(link['url'])
 
-            # Keep top MAX_EVIDENCE_ARTICLES by relevance
             existing.sort(key=lambda x: x.get('relevance_score', 0), reverse=True)
             promise['evidence_articles'] = existing[:MAX_EVIDENCE_ARTICLES]
 
-            logging.info(f"  Linked {len(new_links)} new articles. Total evidence: {len(promise['evidence_articles'])}")
+            logging.info(f"  Saved {len(new_links)} validated articles. Total: {len(promise['evidence_articles'])}")
         else:
-            logging.info(f"  No new articles found.")
+            # Clear old unvalidated evidence if we found no new valid articles
+            old_evidence = promise.get('evidence_articles', [])
+            promise['evidence_articles'] = [a for a in old_evidence if a.get('gemma_validated', False)]
+            logging.info(f"  No new validated articles found.")
 
     return promises_data
 
@@ -323,23 +419,27 @@ def link_articles_to_promises(promises_data, articles):
 
 def assess_promise_statuses(promises_data, llm):
     """
-    For each promise with evidence articles, ask Gemma to suggest status.
-    Populates gemma_suggestion and gemma_reasoning fields.
+    For each promise with validated evidence, ask Gemma to suggest status.
+    Only runs on promises that have gemma_validated evidence articles.
+    Ignores low confidence Gemma suggestions when current status is manually set.
     """
     logging.info("--- Assessing promise statuses with Gemma ---")
     review_items = []
 
     for promise in promises_data['promises']:
         evidence = promise.get('evidence_articles', [])
-        if not evidence:
+
+        # Only assess if we have Gemma-validated evidence
+        validated_evidence = [a for a in evidence if a.get('gemma_validated', False)]
+        if not validated_evidence:
+            logging.info(f"[{promise['id']}] Skipping — no validated evidence articles")
             continue
 
         person = promise.get('person', '')
         promise_text = promise.get('promise', '')
         current_status = promise.get('status', 'ongoing')
 
-        # Extract evidence texts
-        evidence_texts = [a.get('rephrased', '') for a in evidence if a.get('rephrased')]
+        evidence_texts = [a.get('rephrased', '') for a in validated_evidence if a.get('rephrased')]
 
         if not evidence_texts:
             continue
@@ -354,10 +454,11 @@ def assess_promise_statuses(promises_data, llm):
             promise['gemma_confidence'] = confidence
             promise['gemma_assessed_at'] = str(datetime.now().date())
 
-            logging.info(f"[{promise['id']}] Current: {current_status} | Gemma suggests: {suggested_status} ({confidence}) — {reasoning}")
+            logging.info(f"[{promise['id']}] Current: {current_status} | Gemma: {suggested_status} ({confidence}) — {reasoning}")
 
-            # Flag for review if Gemma disagrees with current status
-            if suggested_status != current_status:
+            # Only flag for review if Gemma disagrees AND has medium/high confidence
+            # Low confidence disagreements are too unreliable to surface
+            if suggested_status != current_status and confidence in ['medium', 'high']:
                 review_items.append({
                     "promise_id": promise['id'],
                     "person": person,
@@ -366,11 +467,13 @@ def assess_promise_statuses(promises_data, llm):
                     "gemma_suggestion": suggested_status,
                     "gemma_reasoning": reasoning,
                     "gemma_confidence": confidence,
-                    "evidence_count": len(evidence),
+                    "evidence_count": len(validated_evidence),
                     "action_needed": "Review and update status in promises.json"
                 })
+            elif suggested_status != current_status and confidence == 'low':
+                logging.info(f"  → Gemma disagrees but low confidence — ignoring suggestion")
 
-    logging.info(f"Gemma disagrees on {len(review_items)} promises — flagged for review.")
+    logging.info(f"Gemma disagrees (medium/high confidence) on {len(review_items)} promises.")
     return promises_data, review_items
 
 # ==============================================================================
@@ -388,31 +491,34 @@ def main():
 
     logging.info(f"Loaded {len(promises_data['promises'])} promises.")
 
-    # 2. Link articles to promises
-    promises_data = link_articles_to_promises(promises_data, articles)
-
-    # 3. Load Gemma and assess statuses
+    # 2. Load Gemma early — needed for both linking and assessment
     llm = load_gemma()
+
+    # 3. Link articles to promises (with Gemma validation)
+    promises_data = link_articles_to_promises(promises_data, articles, llm)
+
+    # 4. Assess promise statuses with Gemma
     promises_data, review_items = assess_promise_statuses(promises_data, llm)
 
-    # 4. Update metadata
+    # 5. Update metadata
     promises_data['metadata']['last_updated'] = str(datetime.now().date())
     promises_data['metadata']['total_promises'] = len(promises_data['promises'])
     promises_data['metadata']['promises_with_evidence'] = sum(
-        1 for p in promises_data['promises'] if p.get('evidence_articles')
+        1 for p in promises_data['promises']
+        if any(a.get('gemma_validated') for a in p.get('evidence_articles', []))
     )
 
-    # 5. Save updated promises.json
+    # 6. Save updated promises.json
     with open(PROMISES_OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(promises_data, f, indent=2, ensure_ascii=False)
     logging.info("Saved promises.json")
 
-    # 6. Save review file
+    # 7. Save review file
     review_output = {
         "generated_at": str(datetime.now()),
         "summary": {
             "total_promises": len(promises_data['promises']),
-            "promises_with_evidence": promises_data['metadata']['promises_with_evidence'],
+            "promises_with_validated_evidence": promises_data['metadata']['promises_with_evidence'],
             "statuses_needing_review": len(review_items)
         },
         "review_items": review_items
