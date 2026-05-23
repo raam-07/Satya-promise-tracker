@@ -2,4 +2,3 @@ gspread
 oauth2client
 requests
 huggingface_hub
-llama-cpp-python
