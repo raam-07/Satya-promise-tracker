@@ -402,7 +402,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is for a future date and progress is being made.",
+      "gemma_reasoning": "The promise is for 2047, and the current date is before that.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
@@ -415,7 +415,7 @@
         }
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "high",
       "gemma_assessed_at": "2026-05-23"
     }
   ]
