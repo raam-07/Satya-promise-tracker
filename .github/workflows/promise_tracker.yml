@@ -34,6 +34,8 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
+          CMAKE_ARGS="-DLLAMA_AVX=OFF -DLLAMA_AVX2=OFF -DLLAMA_FMA=OFF" \
+          pip install --no-binary :all: llama-cpp-python==0.2.90
 
       - name: Cache Gemma Model
         id: cache-model
