@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-22 22:51:00.328455",
+  "generated_at": "2026-05-23 15:07:45.435363",
   "summary": {
     "total_promises": 20,
     "promises_with_evidence": 20,
-    "statuses_needing_review": 8
+    "statuses_needing_review": 10
   },
   "review_items": [
     {
@@ -14,29 +14,40 @@
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The promise was made in 2014, and the deadline passed in 2022.",
       "gemma_confidence": "low",
-      "evidence_count": 3,
+      "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
     },
     {
-      "promise_id": "p007",
+      "promise_id": "p009",
       "person": "Narendra Modi",
-      "promise": "Electoral bonds will bring transparency to political funding",
-      "current_status": "broken",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is still in effect as it is a policy implemented by the government.",
-      "gemma_confidence": "medium",
-      "evidence_count": 7,
-      "action_needed": "Review and update status in promises.json"
-    },
-    {
-      "promise_id": "p008",
-      "person": "Narendra Modi",
-      "promise": "Har ghar nal se jal — piped water to every household by 2024",
+      "promise": "Uniform Civil Code implementation",
       "current_status": "ongoing",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise was made in 2014, and the provided evidence does not mention any progress towards it.",
+      "gemma_reasoning": "The provided evidence focuses on austerity measures and political appointments, not on the implementation of the Uniform Civil Code.",
       "gemma_confidence": "low",
-      "evidence_count": 3,
+      "evidence_count": 10,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p010",
+      "person": "Narendra Modi",
+      "promise": "One nation one election",
+      "current_status": "ongoing",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The evidence shows that Modi's call for austerity has not been universally followed.",
+      "gemma_confidence": "low",
+      "evidence_count": 10,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p012",
+      "person": "Narendra Modi",
+      "promise": "Bullet train between Mumbai and Ahmedabad by 2023",
+      "current_status": "broken",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The project was approved in 2023, but the timeline for completion is not specified.",
+      "gemma_confidence": "medium",
+      "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
     },
     {
@@ -45,9 +56,9 @@
       "promise": "Remove Rohingyas from India completely",
       "current_status": "ongoing",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on political disputes and proposals, not on Amit Shah's specific promise.",
+      "gemma_reasoning": "The provided text does not mention Amit Shah's promise to remove Rohingyas from India.",
       "gemma_confidence": "low",
-      "evidence_count": 2,
+      "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
     },
     {
@@ -55,10 +66,10 @@
       "person": "Arvind Kejriwal",
       "promise": "Free and world class government schools in Delhi",
       "current_status": "kept",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on school upgrades and singing of national songs, not on Arvind Kejriwal's promise of free and world-class government schools.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "No information provided about Arvind Kejriwal's promise regarding free and world-class government schools in Delhi.",
       "gemma_confidence": "low",
-      "evidence_count": 5,
+      "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
     },
     {
@@ -66,10 +77,10 @@
       "person": "Arvind Kejriwal",
       "promise": "Free electricity up to 200 units in Delhi",
       "current_status": "kept",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "No evidence provided regarding the status of this promise.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The provided articles do not mention anything about the status of the free electricity promise.",
       "gemma_confidence": "low",
-      "evidence_count": 2,
+      "evidence_count": 6,
       "action_needed": "Review and update status in promises.json"
     },
     {
@@ -78,9 +89,9 @@
       "promise": "Guarantee minimum income of Rs 72,000 per year to poorest families (NYAY scheme)",
       "current_status": "broken",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is a policy proposal, not a current program.",
+      "gemma_reasoning": "Rahul Gandhi has proposed a NYAY scheme, but it is not yet implemented.",
       "gemma_confidence": "medium",
-      "evidence_count": 2,
+      "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
     },
     {
@@ -89,9 +100,20 @@
       "promise": "End mafia raj and crime completely in Uttar Pradesh",
       "current_status": "ongoing",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence is unrelated to Yogi Adityanath's promise in Uttar Pradesh.",
+      "gemma_reasoning": "The provided articles do not mention Yogi Adityanath's promise regarding mafia raj and crime.",
       "gemma_confidence": "low",
-      "evidence_count": 1,
+      "evidence_count": 8,
+      "action_needed": "Review and update status in promises.json"
+    },
+    {
+      "promise_id": "p019",
+      "person": "Mamata Banerjee",
+      "promise": "Ma Mati Manush — government for people of Bengal",
+      "current_status": "ongoing",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The promise is not directly related to the provided news articles.",
+      "gemma_confidence": "low",
+      "evidence_count": 10,
       "action_needed": "Review and update status in promises.json"
     }
   ]

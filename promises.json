@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-05-22",
+    "last_updated": "2026-05-23",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 20,
@@ -22,7 +22,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise was made in 2014, and the deadline has passed.",
+      "gemma_reasoning": "The promise was made in 2014, and the provided evidence is from 2026.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
@@ -33,6 +33,38 @@
           "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
         },
         {
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 01:30:15.301460",
+          "relevance_score": 65,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/pm-modi-urges-citizens-to-cut-fuel-use-avoid-foreign-travel/article70963121.ece",
+          "title": "PM Modi urges citizens to cut fuel use, avoid foreign travel - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 17:09:00.477106",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** called for collective action to strengthen India's economic resilience and promote responsible living amidst global economic uncertainties. He urged citizens to reduce"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/inauguration-of-dhyan-mandir-at-art-of-living-pm-modi-stresses-on-mental-wellbeing/article70962019.ece",
+          "title": "Inauguration of Dhyan Mandir at Art of Living: PM Modi stresses on mental wellbeing - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 10:51:13.444283",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** emphasized the importance of mental well-being in an era of rapid technological change during the inauguration of Dhyan Mandir in Bengaluru. **Modi** stressed the need"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/haryana/only-congress-party-can-defeat-bjp-in-the-battle-of-ideologies-says-rahul-gandhi/article70956411.ece",
+          "title": "Only Congress party can defeat BJP in the battle of ideologies, says Rahul Gandhi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-08 21:38:27.389329",
+          "relevance_score": 65,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress**, asserted that only his party could defeat the **BJP**, characterizing the upcoming election as a clash between the **RSS’s** ideology of hatred and partit"
+        },
+        {
           "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
           "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
           "source": "Economic Times",
@@ -41,17 +73,41 @@
           "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
         },
         {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/parle-industries-hits-upper-circuit-amid-melody-confusion/articleshow/131237700.cms",
+          "title": "Parle Industries hits upper circuit amid ‘Melody’ confusion - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-21 00:15:11.462928",
+          "relevance_score": 50,
+          "rephrased": "**Parle Industries** shares surged 5% on Wednesday after a social media video showed **Prime Minister Narendra Modi** giving a 'Melody' toffee to his Italian counterpart, **Giorgia Meloni**. The stock"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 30,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 50,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/modi-shah-are-traitors-who-are-attacking-the-constitution-says-rahul-at-rae-bareli-meet/article71002954.ece",
+          "title": "Modi, Shah are traitors who are attacking the Constitution, says Rahul at Rae Bareli meet - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:02:35.346080",
+          "relevance_score": 50,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress** party, criticized **Prime Minister Narendra Modi** and **Union Home Minister Amit Shah**, accusing them of attacking the Constitution and supporting indust"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/average-of-53-mps-attend-meetings-of-16-parliamentary-standing-committees-pac-data/article70987896.ece",
+          "title": "Average of 53% MPs attend meetings of 16 Parliamentary Standing Committees, PAC: data - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 17:06:45.437530",
+          "relevance_score": 50,
+          "rephrased": "**Prime Minister Narendra Modi** has been raising concerns about the low attendance of members at parliamentary committees.  Data shows that an average of 53% of members attended meetings of 16 depart"
         }
       ],
       "notes": "Multiple government reports and farmer groups confirmed income did not double by 2022. Inflation-adjusted farm income actually declined in several states.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p002",
@@ -67,52 +123,92 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on Modi's visit to Italy and government meetings, not on job creation.",
+      "gemma_reasoning": "The promise is not directly addressed in the provided evidence.",
       "evidence_articles": [
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 60,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
-          "title": "Take forward reforms, PM tells Ministers - The Hindu",
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:05:07.798462",
-          "relevance_score": 50,
-          "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 90,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
         },
         {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
+          "url": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
+          "title": "Indian economy: Why Modi wants Indians to buy less gold and travel less",
+          "source": "BBC",
+          "scraped_at": "2026-05-15 11:30:29.206513",
+          "relevance_score": 80,
+          "rephrased": "**Prime Minister Narendra Modi** urged Indians to reduce their consumption of gold, foreign travel, fuel, and other goods as the war in Iran has led to increased energy prices.  The appeal, delivered "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 40,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
+          "scraped_at": "2026-05-15 01:30:15.301460",
+          "relevance_score": 80,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/lic-announces-11-bonus-issue-sets-may-29-as-record-date/articleshow/131247457.cms",
-          "title": "LIC announces 1:1 bonus issue, sets May 29 as record date - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-21 16:04:41.575396",
-          "relevance_score": 35,
-          "rephrased": "**LIC**, the State-owned insurance company, announced a 1:1 share swap for existing shareholders. The company reported strong Q4 earnings with a 23% year-on-year increase in consolidated net profit to"
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/remove-import-duty-on-cotton-to-ensure-supply-cm-vijay-urges-modi/article70979198.ece",
+          "title": "Remove import duty on cotton to ensure supply, CM Vijay urges Modi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 23:37:02.208188",
+          "relevance_score": 80,
+          "rephrased": "**C. Joseph Vijay**, Tamil Nadu Chief Minister, urged **Prime Minister Narendra Modi** to remove the 11% import duty on cotton to ensure raw material availability for the textile and apparel industry."
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-proposes-changes-to-pre-open-listing-session-of-ipos-for-better-price-discovery/articleshow/131247339.cms",
-          "title": "Sebi proposes changes to pre-open listing session of IPOs for better price discovery - The Economic Times",
+          "url": "https://www.thehindu.com/news/national/telangana/fuel-price-hike-negatively-impacts-economy-triggers-rise-in-essential-commodity-prices-telangana-cm-revanth-reddy/article70985978.ece",
+          "title": "Fuel price hike negatively impacts economy, triggers rise in essential commodity prices: Telangana CM Revanth Reddy - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 06:29:56.087297",
+          "relevance_score": 75,
+          "rephrased": "**A Revanth Reddy**, **Telangana Chief Minister**, criticized the **Union Government’s** decision to increase petrol and diesel prices, arguing it would negatively impact the economy and ordinary citi"
+        },
+        {
+          "url": "https://www.dawn.com/news/1999889/india-hikes-gold-silver-duties-to-protect-sliding-rupee",
+          "title": "India hikes gold, silver duties to protect sliding rupee - World - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-13 21:59:29.785181",
+          "relevance_score": 75,
+          "rephrased": "**India** has increased import tariffs on gold and silver to about 15 percent, aiming to bolster its sagging rupee and replenish depleted foreign currency reserves. This move comes amid a worsening ru"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-sinks-past-95-73-per-us-dollar-to-hit-lifetime-low-as-persistent-outflows-wipe-comfort-from-gold-duty-hike/articleshow/131059422.cms",
+          "title": "Rupee hits all-time low of 95.74 vs USD as outflows, oil risks weigh on outlook - The Economic Times",
           "source": "Economic Times",
-          "scraped_at": "2026-05-21 16:01:11.633178",
-          "relevance_score": 35,
-          "rephrased": "**Sebi**, the Securities and Exchange Board of India, has released a consultation paper seeking public feedback on proposed changes to the Call Auction Session framework used for relisted stocks. The "
+          "scraped_at": "2026-05-13 13:21:34.577549",
+          "relevance_score": 75,
+          "rephrased": "The **rupee** weakened against the US dollar, reaching its new all-time low of 95.7450 per dollar.  Rising energy prices due to the U.S.-Iran war have contributed to India's macroeconomic challenges, "
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/manappuram-finance-iifl-finance-other-stocks-rally-up-to-11-as-gold-prices-soar-after-import-duty-hike/articleshow/131060298.cms",
+          "title": "Manappuram Finance, IIFL Finance, other stocks rally up to 11% as gold prices soar after import duty hike - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 10:37:22.827679",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce non-essential gold purchases, citing the need to stabilize the rupee and reduce imports. **India**'s government implemented a hike in import d"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hindustan-zinc-shares-surge-5-as-silver-prices-near-rs-3-lakh/kg-after-import-duty-hike-vedanta-shares-jump-4/articleshow/131056130.cms",
+          "title": "Hindustan Zinc shares surge 5% as silver prices near Rs 3 lakh/kg after import duty hike; Vedanta shares jump 4% - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 07:45:28.644643",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce purchases of non-essential gold and silver over the next year to alleviate pressure on foreign exchange reserves and imports. This policy meas"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/pm-modi-to-dedicate-telangana-railway-projects-worth-rs-1535-crore-on-may-10/article70958575.ece",
+          "title": "PM Modi to dedicate Telangana railway projects worth Rs. 1,535 crore on May 10 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 12:15:03.096008",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi** will dedicate key railway infrastructure projects in Telangana on Sunday, May 10, 2026. The projects include sections of the Kazipet–Vijayawada multi-tracking project "
         }
       ],
       "notes": "CMIE data consistently showed unemployment rising post-2016. India added far fewer formal jobs than promised annually.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p003",
@@ -131,41 +227,89 @@
       "gemma_reasoning": "The promise is not mentioned in the provided articles.",
       "evidence_articles": [
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 60,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
+          "url": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
+          "title": "Indian economy: Why Modi wants Indians to buy less gold and travel less",
+          "source": "BBC",
+          "scraped_at": "2026-05-15 11:30:29.206513",
+          "relevance_score": 100,
+          "rephrased": "**Prime Minister Narendra Modi** urged Indians to reduce their consumption of gold, foreign travel, fuel, and other goods as the war in Iran has led to increased energy prices.  The appeal, delivered "
         },
         {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 55,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 90,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
         },
         {
-          "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
-          "title": "Take forward reforms, PM tells Ministers - The Hindu",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/remove-import-duty-on-cotton-to-ensure-supply-cm-vijay-urges-modi/article70979198.ece",
+          "title": "Remove import duty on cotton to ensure supply, CM Vijay urges Modi - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:05:07.798462",
-          "relevance_score": 50,
-          "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
+          "scraped_at": "2026-05-14 23:37:02.208188",
+          "relevance_score": 80,
+          "rephrased": "**C. Joseph Vijay**, Tamil Nadu Chief Minister, urged **Prime Minister Narendra Modi** to remove the 11% import duty on cotton to ensure raw material availability for the textile and apparel industry."
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-proposes-changes-to-pre-open-listing-session-of-ipos-for-better-price-discovery/articleshow/131247339.cms",
-          "title": "Sebi proposes changes to pre-open listing session of IPOs for better price discovery - The Economic Times",
+          "url": "https://www.thehindu.com/news/national/telangana/fuel-price-hike-negatively-impacts-economy-triggers-rise-in-essential-commodity-prices-telangana-cm-revanth-reddy/article70985978.ece",
+          "title": "Fuel price hike negatively impacts economy, triggers rise in essential commodity prices: Telangana CM Revanth Reddy - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 06:29:56.087297",
+          "relevance_score": 75,
+          "rephrased": "**A Revanth Reddy**, **Telangana Chief Minister**, criticized the **Union Government’s** decision to increase petrol and diesel prices, arguing it would negatively impact the economy and ordinary citi"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 01:30:15.301460",
+          "relevance_score": 75,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
+        },
+        {
+          "url": "https://www.dawn.com/news/1999889/india-hikes-gold-silver-duties-to-protect-sliding-rupee",
+          "title": "India hikes gold, silver duties to protect sliding rupee - World - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-13 21:59:29.785181",
+          "relevance_score": 75,
+          "rephrased": "**India** has increased import tariffs on gold and silver to about 15 percent, aiming to bolster its sagging rupee and replenish depleted foreign currency reserves. This move comes amid a worsening ru"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-sinks-past-95-73-per-us-dollar-to-hit-lifetime-low-as-persistent-outflows-wipe-comfort-from-gold-duty-hike/articleshow/131059422.cms",
+          "title": "Rupee hits all-time low of 95.74 vs USD as outflows, oil risks weigh on outlook - The Economic Times",
           "source": "Economic Times",
-          "scraped_at": "2026-05-21 16:01:11.633178",
-          "relevance_score": 35,
-          "rephrased": "**Sebi**, the Securities and Exchange Board of India, has released a consultation paper seeking public feedback on proposed changes to the Call Auction Session framework used for relisted stocks. The "
+          "scraped_at": "2026-05-13 13:21:34.577549",
+          "relevance_score": 75,
+          "rephrased": "The **rupee** weakened against the US dollar, reaching its new all-time low of 95.7450 per dollar.  Rising energy prices due to the U.S.-Iran war have contributed to India's macroeconomic challenges, "
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/manappuram-finance-iifl-finance-other-stocks-rally-up-to-11-as-gold-prices-soar-after-import-duty-hike/articleshow/131060298.cms",
+          "title": "Manappuram Finance, IIFL Finance, other stocks rally up to 11% as gold prices soar after import duty hike - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 10:37:22.827679",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce non-essential gold purchases, citing the need to stabilize the rupee and reduce imports. **India**'s government implemented a hike in import d"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hindustan-zinc-shares-surge-5-as-silver-prices-near-rs-3-lakh/kg-after-import-duty-hike-vedanta-shares-jump-4/articleshow/131056130.cms",
+          "title": "Hindustan Zinc shares surge 5% as silver prices near Rs 3 lakh/kg after import duty hike; Vedanta shares jump 4% - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 07:45:28.644643",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce purchases of non-essential gold and silver over the next year to alleviate pressure on foreign exchange reserves and imports. This policy meas"
+        },
+        {
+          "url": "https://www.dawn.com/news/1999209/modi-urges-indians-to-reduce-petrol-diesel-consumption-amid-middle-east-war-disruption",
+          "title": "Modi urges Indians to reduce petrol, diesel consumption amid Middle East war disruption - World - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-10 18:34:06.013909",
+          "relevance_score": 75,
+          "rephrased": "**Narendra Modi**, the Indian Prime Minister, urged citizens to reduce petrol and diesel consumption due to global supply disruptions caused by the Middle East war.  He emphasized using public transpo"
         }
       ],
       "notes": "No black money repatriation happened. Rs 15 lakh was later called a 'jumla' by BJP president Amit Shah.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p004",
@@ -184,6 +328,46 @@
       "gemma_reasoning": "The promise was made in 2014, and the deadline passed in 2022.",
       "evidence_articles": [
         {
+          "url": "https://www.thehindu.com/news/national/average-of-53-mps-attend-meetings-of-16-parliamentary-standing-committees-pac-data/article70987896.ece",
+          "title": "Average of 53% MPs attend meetings of 16 Parliamentary Standing Committees, PAC: data - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 17:06:45.437530",
+          "relevance_score": 70,
+          "rephrased": "**Prime Minister Narendra Modi** has been raising concerns about the low attendance of members at parliamentary committees.  Data shows that an average of 53% of members attended meetings of 16 depart"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
+          "title": "PM Modi assures more support to Telangana, asks CM Revanth to collaborate with him - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 12:02:18.299435",
+          "relevance_score": 70,
+          "rephrased": "**Prime Minister Narendra Modi** assured **Telangana Chief Minister A. Revanth Reddy** that the **Central government** would continue to support its development, emphasizing the importance of state-le"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/pm-modi-to-dedicate-telangana-railway-projects-worth-rs-1535-crore-on-may-10/article70958575.ece",
+          "title": "PM Modi to dedicate Telangana railway projects worth Rs. 1,535 crore on May 10 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 12:15:03.096008",
+          "relevance_score": 70,
+          "rephrased": "**Prime Minister Narendra Modi** will dedicate key railway infrastructure projects in Telangana on Sunday, May 10, 2026. The projects include sections of the Kazipet–Vijayawada multi-tracking project "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/cabinet-panel-clears-railway-ministrys-three-multitracking-projects-in-six-states/article70943928.ece",
+          "title": "Cabinet panel clears Railway Ministry’s three multitracking projects in six States - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 21:11:28.056011",
+          "relevance_score": 70,
+          "rephrased": "The **Cabinet Committee on Economic Affairs**, chaired by Prime Minister Narendra Modi, approved three multitracking projects for the **Railway Ministry** with a total cost of ₹23,437 crore. These pro"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/pm-modi-bjp-election-results-bengal-assam-puducherry-may-4-2026/article70939219.ece",
+          "title": "PM Modi on West Bengal election result: ‘Lotus’ is blooming from Gangotri to Gangasagar - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 00:00:01.462886",
+          "relevance_score": 70,
+          "rephrased": "**Prime Minister Narendra Modi** praised the outcomes of the elections in four States and a Union Territory as a triumph of democracy and the Constitution, attributing the BJP's success to voters seek"
+        },
+        {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
           "title": "Take forward reforms, PM tells Ministers - The Hindu",
           "source": "The Hindu",
@@ -192,25 +376,41 @@
           "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 50,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 01:30:15.301460",
+          "relevance_score": 65,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
         },
         {
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/new-govt-hospital-preventing-waterlogging-are-among-my-priorities-says-katpadi-mla/article71006933.ece",
-          "title": "New govt. hospital, preventing waterlogging are among my priorities, says Katpadi MLA - The Hindu",
+          "url": "https://www.thehindu.com/news/national/rajasthan/mos-arjun-ram-meghwal-takes-e-rickshaw-ride-in-rajasthans-bikaner-to-promote-fuel-conservation/article70977759.ece",
+          "title": "MoS Arjun Ram Meghwal takes e-rickshaw ride in Rajasthan’s Bikaner to promote fuel conservation - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:06:14.100448",
-          "relevance_score": 30,
-          "rephrased": "**M. Sudhakar**, Katpadi MLA, has identified traffic congestion between the railway station and Green Circle roundabout as a top priority for his constituency. He proposes diverting trucks and goods l"
+          "scraped_at": "2026-05-14 11:04:13.554032",
+          "relevance_score": 65,
+          "rephrased": "**Arjun Ram Meghwal**, Union Minister of State for Law and Justice, traveled to his residence in Bikaner by e-rickshaw on Thursday to promote fuel conservation.  He joined **Prime Minister Narendra Mo"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/green-energy-key-to-indias-future-growth-naidu/article70966522.ece",
+          "title": "Green energy key to India’s future growth: Naidu - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-12 00:07:39.534965",
+          "relevance_score": 65,
+          "rephrased": "**Narendra Modi** urged citizens to reduce edible oil consumption and increase public transport usage, while **N. Chandrababu Naidu**, Andhra Pradesh's Chief Minister, emphasized India's need for ener"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/cm-is-unsettled-by-pms-remarks-bjp/article70966902.ece",
+          "title": "CM is unsettled by PM’s remarks: BJP - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-11 22:36:41.538246",
+          "relevance_score": 65,
+          "rephrased": "The **BJP** in Karnataka responded to **Chief Minister Siddaramaiah's** criticism of **Prime Minister Narendra Modi**, stating that the Prime Minister's speech at a BJP event was within his democratic"
         }
       ],
       "notes": "Target missed in 2022, deadline extended. Partial completion achieved but far short of original target.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p005",
@@ -226,8 +426,72 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on domestic and international relations, not economic progress.",
+      "gemma_reasoning": "The promise is broken because the provided evidence focuses on energy prices and economic policies, not the economic growth target.",
       "evidence_articles": [
+        {
+          "url": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
+          "title": "Indian economy: Why Modi wants Indians to buy less gold and travel less",
+          "source": "BBC",
+          "scraped_at": "2026-05-15 11:30:29.206513",
+          "relevance_score": 100,
+          "rephrased": "**Prime Minister Narendra Modi** urged Indians to reduce their consumption of gold, foreign travel, fuel, and other goods as the war in Iran has led to increased energy prices.  The appeal, delivered "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 95,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 01:30:15.301460",
+          "relevance_score": 80,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/remove-import-duty-on-cotton-to-ensure-supply-cm-vijay-urges-modi/article70979198.ece",
+          "title": "Remove import duty on cotton to ensure supply, CM Vijay urges Modi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 23:37:02.208188",
+          "relevance_score": 80,
+          "rephrased": "**C. Joseph Vijay**, Tamil Nadu Chief Minister, urged **Prime Minister Narendra Modi** to remove the 11% import duty on cotton to ensure raw material availability for the textile and apparel industry."
+        },
+        {
+          "url": "https://www.dawn.com/news/1999889/india-hikes-gold-silver-duties-to-protect-sliding-rupee",
+          "title": "India hikes gold, silver duties to protect sliding rupee - World - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-13 21:59:29.785181",
+          "relevance_score": 80,
+          "rephrased": "**India** has increased import tariffs on gold and silver to about 15 percent, aiming to bolster its sagging rupee and replenish depleted foreign currency reserves. This move comes amid a worsening ru"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-sinks-past-95-73-per-us-dollar-to-hit-lifetime-low-as-persistent-outflows-wipe-comfort-from-gold-duty-hike/articleshow/131059422.cms",
+          "title": "Rupee hits all-time low of 95.74 vs USD as outflows, oil risks weigh on outlook - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 13:21:34.577549",
+          "relevance_score": 80,
+          "rephrased": "The **rupee** weakened against the US dollar, reaching its new all-time low of 95.7450 per dollar.  Rising energy prices due to the U.S.-Iran war have contributed to India's macroeconomic challenges, "
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/manappuram-finance-iifl-finance-other-stocks-rally-up-to-11-as-gold-prices-soar-after-import-duty-hike/articleshow/131060298.cms",
+          "title": "Manappuram Finance, IIFL Finance, other stocks rally up to 11% as gold prices soar after import duty hike - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 10:37:22.827679",
+          "relevance_score": 80,
+          "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce non-essential gold purchases, citing the need to stabilize the rupee and reduce imports. **India**'s government implemented a hike in import d"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hindustan-zinc-shares-surge-5-as-silver-prices-near-rs-3-lakh/kg-after-import-duty-hike-vedanta-shares-jump-4/articleshow/131056130.cms",
+          "title": "Hindustan Zinc shares surge 5% as silver prices near Rs 3 lakh/kg after import duty hike; Vedanta shares jump 4% - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 07:45:28.644643",
+          "relevance_score": 80,
+          "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce purchases of non-essential gold and silver over the next year to alleviate pressure on foreign exchange reserves and imports. This policy meas"
+        },
         {
           "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
           "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
@@ -237,57 +501,17 @@
           "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
         },
         {
-          "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
-          "title": "Take forward reforms, PM tells Ministers - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:05:07.798462",
-          "relevance_score": 50,
-          "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 40,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-proposes-changes-to-pre-open-listing-session-of-ipos-for-better-price-discovery/articleshow/131247339.cms",
-          "title": "Sebi proposes changes to pre-open listing session of IPOs for better price discovery - The Economic Times",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/parle-industries-hits-upper-circuit-amid-melody-confusion/articleshow/131237700.cms",
+          "title": "Parle Industries hits upper circuit amid ‘Melody’ confusion - The Economic Times",
           "source": "Economic Times",
-          "scraped_at": "2026-05-21 16:01:11.633178",
-          "relevance_score": 40,
-          "rephrased": "**Sebi**, the Securities and Exchange Board of India, has released a consultation paper seeking public feedback on proposed changes to the Call Auction Session framework used for relisted stocks. The "
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/rubios-maiden-india-visit-aims-to-repair-strained-ties-boost-quad-cooperation/article71012335.ece",
-          "title": "Rubio's maiden India visit aims to repair strained ties; boost Quad cooperation - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-22 19:57:14.674362",
-          "relevance_score": 35,
-          "rephrased": "**U.S. Secretary of State Marco Rubio** will visit **India** from May 23 to 26, 2026, aiming to repair strained bilateral ties.  He will meet with **External Affairs Minister S. Jaishankar**, **Prime "
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/5/22/marco-rubio-visits-india-whats-at-stake-with-trump-modi-ties-strained?traffic_source=rss",
-          "title": "Marco Rubio visits India: What’s at stake with Trump-Modi ties strained? | International Trade News | Al Jazeera",
-          "source": "Al Jazeera",
-          "scraped_at": "2026-05-22 15:41:08.787751",
-          "relevance_score": 35,
-          "rephrased": "**Marco Rubio**, US Secretary of State, is visiting India for a three-day trip ahead of the Quad meeting on May 26th.  Rubio's visit comes amidst strained relations between **Donald Trump** and **Nare"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/us/boo-of-jobs-real-anger-about-artificial-intelligence-at-us-convocations/articleshow/131248921.cms",
-          "title": "Boo of Jobs: Real anger about Artificial Intelligence at US convocations - The Times of India",
-          "source": "Times of India",
-          "scraped_at": "2026-05-21 15:59:56.865914",
-          "relevance_score": 35,
-          "rephrased": "Across the United States, commencement speakers who mention **artificial intelligence** are facing backlash from graduates and communities concerned about job displacement and the uneven distribution "
+          "scraped_at": "2026-05-21 00:15:11.462928",
+          "relevance_score": 75,
+          "rephrased": "**Parle Industries** shares surged 5% on Wednesday after a social media video showed **Prime Minister Narendra Modi** giving a 'Melody' toffee to his Italian counterpart, **Giorgia Meloni**. The stock"
         }
       ],
       "notes": "India's GDP remains around $3.5 trillion. Target missed significantly. COVID cited as reason.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p006",
@@ -303,8 +527,32 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence does not relate to the promise of ending corruption.",
+      "gemma_reasoning": "The promise is not directly related to the provided evidence.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/fuel-price-hike-negatively-impacts-economy-triggers-rise-in-essential-commodity-prices-telangana-cm-revanth-reddy/article70985978.ece",
+          "title": "Fuel price hike negatively impacts economy, triggers rise in essential commodity prices: Telangana CM Revanth Reddy - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 06:29:56.087297",
+          "relevance_score": 65,
+          "rephrased": "**A Revanth Reddy**, **Telangana Chief Minister**, criticized the **Union Government’s** decision to increase petrol and diesel prices, arguing it would negatively impact the economy and ordinary citi"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/compromised-pm-didnt-sign-trade-deal-with-us-but-a-bargain-for-adanis-release-rahul/article70981631.ece",
+          "title": "Compromised PM didn't sign trade deal with U.S., but a bargain for Adani's release: Rahul - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 05:35:23.222877",
+          "relevance_score": 65,
+          "rephrased": "**Rahul Gandhi** accused **Prime Minister Narendra Modi** of negotiating a trade deal with the U.S. to secure the release of billionaire businessman **Gautam Adani**.  The **U.S.** government agreed t"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/ce8pdvp5x5ro?at_medium=RSS&at_campaign=rss",
+          "title": "West Bengal: Modi's BJP conquers one of India's toughest political frontiers",
+          "source": "BBC",
+          "scraped_at": "2026-05-04 13:10:52.454037",
+          "relevance_score": 65,
+          "rephrased": "The Bharatiya Janata Party (BJP) won a decisive victory in West Bengal, marking a significant breakthrough for **Narendra Modi** and his 12-year reign.  This unexpected outcome comes after years of th"
+        },
         {
           "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
           "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
@@ -322,17 +570,49 @@
           "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
         },
         {
-          "url": "https://www.thehindu.com/news/national/ncert-book-row-supreme-court-modifies-earlier-order-concerning-3-academics/article71009924.ece",
-          "title": "NCERT book row: SC modifies earlier order concerning 3 academics - The Hindu",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/parle-industries-hits-upper-circuit-amid-melody-confusion/articleshow/131237700.cms",
+          "title": "Parle Industries hits upper circuit amid ‘Melody’ confusion - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-21 00:15:11.462928",
+          "relevance_score": 50,
+          "rephrased": "**Parle Industries** shares surged 5% on Wednesday after a social media video showed **Prime Minister Narendra Modi** giving a 'Melody' toffee to his Italian counterpart, **Giorgia Meloni**. The stock"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 09:40:39.608261",
-          "relevance_score": 30,
-          "rephrased": "The **Supreme Court** on Friday reversed its March 11 order that directed the Centre, States, and others to disassociate from three academics involved in a controversial chapter of the NCERT's Class 8"
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 50,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/modi-shah-are-traitors-who-are-attacking-the-constitution-says-rahul-at-rae-bareli-meet/article71002954.ece",
+          "title": "Modi, Shah are traitors who are attacking the Constitution, says Rahul at Rae Bareli meet - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:02:35.346080",
+          "relevance_score": 50,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress** party, criticized **Prime Minister Narendra Modi** and **Union Home Minister Amit Shah**, accusing them of attacking the Constitution and supporting indust"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/average-of-53-mps-attend-meetings-of-16-parliamentary-standing-committees-pac-data/article70987896.ece",
+          "title": "Average of 53% MPs attend meetings of 16 Parliamentary Standing Committees, PAC: data - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 17:06:45.437530",
+          "relevance_score": 50,
+          "rephrased": "**Prime Minister Narendra Modi** has been raising concerns about the low attendance of members at parliamentary committees.  Data shows that an average of 53% of members attended meetings of 16 depart"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/remove-bandi-sanjay-from-union-cabinet-kavitha-tells-modi/article70987855.ece",
+          "title": "Remove Bandi Sanjay from Union Cabinet, Kavitha tells Modi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 15:39:59.887875",
+          "relevance_score": 50,
+          "rephrased": "**Kalvakuntla Kavitha**, president of the **Telangana Rakshana Sena**, urged **Prime Minister Narendra Modi** to remove **Union Minister of State for Home Affairs Bandi Sanjay Kumar** from his positio"
         }
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p007",
@@ -347,9 +627,49 @@
       "source_description": "Union Budget 2017-18 announcement",
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is still in effect as it is a policy implemented by the government.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The evidence provided focuses on political events and Modi's visits, not on the impact of electoral bonds on transparency.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/pm-modis-appeal-on-fuel-savings-an-admission-of-failure-will-rattle-markets-akhilesh/article70964575.ece",
+          "title": "Modi’s austerity drive is an admission of failure on economic and foreign policy fronts, alleges Akhilesh - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-11 17:41:34.776125",
+          "relevance_score": 100,
+          "rephrased": "**Akhilesh Yadav**, president of the **Samajwadi Party**, criticized **Prime Minister Narendra Modi's** appeal for austerity in light of the Iran conflict, accusing the **BJP government** of failing o"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/modi-to-set-the-tone-for-capturing-telangana-after-bengal/article70960013.ece",
+          "title": "Modi to set the tone for capturing Telangana after Bengal - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 17:36:17.982929",
+          "relevance_score": 100,
+          "rephrased": "**Prime Minister Narendra Modi** is scheduled to visit Telangana on Sunday, marking a significant push by the **Bharatiya Janata Party (BJP)** to establish itself as a major electoral force in the sta"
+        },
+        {
+          "url": "https://www.dawn.com/news/1997948/west-bengal-cm-refuses-to-resign-after-poll-defeat",
+          "title": "West Bengal CM refuses to resign after poll defeat - Newspaper - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-06 21:16:21.197295",
+          "relevance_score": 100,
+          "rephrased": "**Mamata Banerjee**, the chief minister of West Bengal, refused to resign after her party lost power in state elections to the **BJP**.  The BJP secured over two-thirds of the seats, marking a signifi"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/may/04/modis-bjp-party-win-election-west-bengal-first-time",
+          "title": "Narendra Modi’s BJP wins election in West Bengal for the first time | India | The Guardian",
+          "source": "The Guardian",
+          "scraped_at": "2026-05-04 19:53:10.805927",
+          "relevance_score": 100,
+          "rephrased": "The **Bharatiya Janata Party** (BJP) has won a resounding victory in West Bengal, marking the first time the party has held power in the state. This significant win expands the BJP's control over Indi"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/push-for-public-transport-exposes-structural-gaps/article70984445.ece",
+          "title": "Push for public transport exposes structural gaps - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 14:28:22.265907",
+          "relevance_score": 90,
+          "rephrased": "**Prime Minister Narendra Modi's** push for public transport, particularly metro rail, has prompted politicians and bureaucrats to use such systems. However, the renewed spotlight on public transit hi"
+        },
         {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
           "title": "Take forward reforms, PM tells Ministers - The Hindu",
@@ -359,57 +679,41 @@
           "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 50,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/5/22/turkish-court-ousts-leader-of-main-opposition-party?traffic_source=rss",
-          "title": "Turkish court ousts leader of main opposition party | Politics News | Al Jazeera",
-          "source": "Al Jazeera",
-          "scraped_at": "2026-05-22 05:54:24.996920",
-          "relevance_score": 35,
-          "rephrased": "A Turkish court overturned the 2023 leadership election of the main opposition **Republican People’s Party (CHP)**, reinstating former chair Kemal Kilicdaroglu as interim leader. The ruling is seen as"
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/gujarat/voter-confusion-fears-over-simultaneous-polls-misplaced-says-onoe-jpc-chairman/article71007174.ece",
-          "title": "Voter confusion fears over simultaneous polls ‘misplaced’, says ONOE JPC chairman - The Hindu",
+          "url": "https://www.thehindu.com/news/national/maharashtra/cm-fadnavis-bike-ride-draws-opposition-ire/article70979916.ece",
+          "title": "CM Fadnavis’ bike ride draws Opposition ire - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 01:36:30.670214",
-          "relevance_score": 35,
-          "rephrased": "**P.P. Chaudhary**, chairman of the Joint Parliamentary Committee on ‘One Nation One Election’, defended the proposal, arguing that Indian voters are politically astute and can differentiate between n"
+          "scraped_at": "2026-05-14 23:34:01.335760",
+          "relevance_score": 80,
+          "rephrased": "**Devendra Fadnavis**, the **Maharashtra** Chief Minister, rode a motorbike to Vidhan Bhavan after Prime Minister **Narendra Modi** called for austerity measures. The move drew criticism from the Oppo"
         },
         {
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/room-for-reconciliation-within-the-aiadmk/article71007061.ece",
-          "title": "Room for reconciliation within the AIADMK - The Hindu",
+          "url": "https://www.thehindu.com/elections/assam-assembly/assam-bjp-government-formation-himanta-biswa-sarma-swearing-in-oath-ceremony-live-updates-may-12-2026/article70968167.ece",
+          "title": "Assam swearing-in LIVE: Himanta Biswa Sarma takes oath as Assam CM; Four MLAs sworn in as Ministers - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 18:11:37.848331",
-          "relevance_score": 35,
-          "rephrased": "**Tamilaga Vettri Kazhagam (TVK)** and the rebel camp of the **All India Anna Dravida Munnetra Kazhagam (AIADMK)** are attempting to reconcile after a recent trust vote where the rebels supported the "
+          "scraped_at": "2026-05-12 07:29:42.619275",
+          "relevance_score": 80,
+          "rephrased": "**Himanta Biswa Sarma** was sworn in as the Chief Minister of Assam for a second consecutive term on Tuesday, May 2, 2026. **Governor Lakshman Prasad Acharya** administered the oath of office at a cer"
         },
         {
-          "url": "https://www.theguardian.com/world/2026/may/21/gerry-hutch-dublin-byelection-campaign-extremist-views-irish-mainstream",
-          "title": "Dublin gangland figure brings extremist views to Irish mainstream on campaign trail | Ireland | The Guardian",
-          "source": "The Guardian",
-          "scraped_at": "2026-05-21 08:40:28.384236",
-          "relevance_score": 35,
-          "rephrased": "**Gerry \"the monk\" Hutch**, a prominent gangland figure, is running as an independent candidate in the Dublin Central byelection.  His campaign has been fueled by xenophobic rhetoric and hostility tow"
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/cm-is-unsettled-by-pms-remarks-bjp/article70966902.ece",
+          "title": "CM is unsettled by PM’s remarks: BJP - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 30,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
+          "scraped_at": "2026-05-11 22:36:41.538246",
+          "relevance_score": 80,
+          "rephrased": "The **BJP** in Karnataka responded to **Chief Minister Siddaramaiah's** criticism of **Prime Minister Narendra Modi**, stating that the Prime Minister's speech at a BJP event was within his democratic"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/ramchander-rao-says-public-response-to-modi-rally-points-to-partys-rise-in-telangana/article70963165.ece",
+          "title": "Ramchander Rao says public response to Modi rally points to party’s rise in Telangana - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 17:11:00.095099",
+          "relevance_score": 80,
+          "rephrased": "**N. Ramchander Rao**, the **BJP** State president, claimed a massive turnout at the party's public meeting in Secunderabad indicated growing support for the BJP in Telangana.  He attributed the large"
         }
       ],
       "notes": "Supreme Court struck down electoral bonds as unconstitutional in Feb 2024. SBI data showed BJP received largest share of anonymous donations.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_confidence": "low",
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p008",
@@ -424,9 +728,17 @@
       "source_description": "Independence Day address, Jal Jeevan Mission launch",
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise was made in 2014, and the provided evidence does not mention any progress towards it.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is a long-term goal with no specific timeline provided.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/average-of-53-mps-attend-meetings-of-16-parliamentary-standing-committees-pac-data/article70987896.ece",
+          "title": "Average of 53% MPs attend meetings of 16 Parliamentary Standing Committees, PAC: data - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 17:06:45.437530",
+          "relevance_score": 70,
+          "rephrased": "**Prime Minister Narendra Modi** has been raising concerns about the low attendance of members at parliamentary committees.  Data shows that an average of 53% of members attended meetings of 16 depart"
+        },
         {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
           "title": "Take forward reforms, PM tells Ministers - The Hindu",
@@ -436,25 +748,73 @@
           "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 50,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
+          "url": "https://www.thehindu.com/news/national/rajasthan/mos-arjun-ram-meghwal-takes-e-rickshaw-ride-in-rajasthans-bikaner-to-promote-fuel-conservation/article70977759.ece",
+          "title": "MoS Arjun Ram Meghwal takes e-rickshaw ride in Rajasthan’s Bikaner to promote fuel conservation - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 11:04:13.554032",
+          "relevance_score": 65,
+          "rephrased": "**Arjun Ram Meghwal**, Union Minister of State for Law and Justice, traveled to his residence in Bikaner by e-rickshaw on Thursday to promote fuel conservation.  He joined **Prime Minister Narendra Mo"
         },
         {
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/new-govt-hospital-preventing-waterlogging-are-among-my-priorities-says-katpadi-mla/article71006933.ece",
-          "title": "New govt. hospital, preventing waterlogging are among my priorities, says Katpadi MLA - The Hindu",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/gold-housing-plays-take-a-hit-as-modis-austerity-pitch-rattles-consumer-facing-stocks/articleshow/131036677.cms",
+          "title": "Gold, housing plays take a hit as PM Modi's austerity pitch rattles consumer-facing stocks - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-12 17:41:30.212984",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi's** recent advice to work from home to reduce fuel consumption sparked a market reaction, impacting sectors like jewellery and real estate. **Titan Company Limited**, **"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/green-energy-key-to-indias-future-growth-naidu/article70966522.ece",
+          "title": "Green energy key to India’s future growth: Naidu - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:06:14.100448",
-          "relevance_score": 30,
-          "rephrased": "**M. Sudhakar**, Katpadi MLA, has identified traffic congestion between the railway station and Green Circle roundabout as a top priority for his constituency. He proposes diverting trucks and goods l"
+          "scraped_at": "2026-05-12 00:07:39.534965",
+          "relevance_score": 65,
+          "rephrased": "**Narendra Modi** urged citizens to reduce edible oil consumption and increase public transport usage, while **N. Chandrababu Naidu**, Andhra Pradesh's Chief Minister, emphasized India's need for ener"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/congress-government-spending-more-time-to-solve-its-internal-dispute-rather-than-peoples-problems-says-prime-minister-narendra-modi/article70962197.ece",
+          "title": "Congress government spending more time to solve its internal dispute rather than people’s problems, says Prime Minister Narendra Modi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 20:03:44.356007",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** criticized the **Congress government in Karnataka** during a speech on Sunday, stating that it has been preoccupied with internal disputes instead of addressing the ne"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/pm-visit-turns-city-into-high-security-zone-as-crowds-throng-parade-grounds/article70963138.ece",
+          "title": "PM visit turns city into high security zone as crowds throng Parade Grounds - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 20:01:37.196779",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** visited Hyderabad for a series of programs culminating in a public meeting at Parade Grounds. Over 75,000 people attended the meeting, with an additional 10,000 to 15,"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
+          "title": "PM Modi assures more support to Telangana, asks CM Revanth to collaborate with him - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 12:02:18.299435",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** assured **Telangana Chief Minister A. Revanth Reddy** that the **Central government** would continue to support its development, emphasizing the importance of state-le"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/pm-modi-to-dedicate-telangana-railway-projects-worth-rs-1535-crore-on-may-10/article70958575.ece",
+          "title": "PM Modi to dedicate Telangana railway projects worth Rs. 1,535 crore on May 10 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 12:15:03.096008",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** will dedicate key railway infrastructure projects in Telangana on Sunday, May 10, 2026. The projects include sections of the Kazipet–Vijayawada multi-tracking project "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal-2026-cabinet-ministers-bjp-government-suvendu-adhikari-cm-agnimitra-paul-dilip-ghosh/article70958634.ece",
+          "title": "West Bengal Cabinet 2026: From Dilip Ghosh to Agnimitra Paul, Ministers who were sworn in along with Suvendu Adhikari - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 11:31:00.829294",
+          "relevance_score": 65,
+          "rephrased": "**Suvendu Adhikari**, newly sworn in as the Chief Minister of West Bengal, inducted five new ministers into his cabinet on Saturday. The swearing-in ceremony was attended by **Prime Minister Narendra "
         }
       ],
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p009",
@@ -469,9 +829,57 @@
       "source_description": "BJP Election Manifesto 2014, 2019, 2024",
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is still being implemented, but no concrete timeline or details have been provided.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The provided evidence focuses on austerity measures and political appointments, not on the implementation of the Uniform Civil Code.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/pm-modis-appeal-on-fuel-savings-an-admission-of-failure-will-rattle-markets-akhilesh/article70964575.ece",
+          "title": "Modi’s austerity drive is an admission of failure on economic and foreign policy fronts, alleges Akhilesh - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-11 17:41:34.776125",
+          "relevance_score": 100,
+          "rephrased": "**Akhilesh Yadav**, president of the **Samajwadi Party**, criticized **Prime Minister Narendra Modi's** appeal for austerity in light of the Iran conflict, accusing the **BJP government** of failing o"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/maharashtra/cm-fadnavis-bike-ride-draws-opposition-ire/article70979916.ece",
+          "title": "CM Fadnavis’ bike ride draws Opposition ire - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 23:34:01.335760",
+          "relevance_score": 80,
+          "rephrased": "**Devendra Fadnavis**, the **Maharashtra** Chief Minister, rode a motorbike to Vidhan Bhavan after Prime Minister **Narendra Modi** called for austerity measures. The move drew criticism from the Oppo"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/west-bengal-oath-taking-new-government-formation-suvendu-adhikariswearing-in-as-first-bjp-cm-live-updates-may-9-2026/article70958048.ece",
+          "title": "West Bengal oath-taking LIVE: Suvendu Adhikari sworn in as first BJP CM of West Bengal, five other MLAs also take oath - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 06:39:18.299777",
+          "relevance_score": 80,
+          "rephrased": "**Suvendu Adhikari**, the newly sworn-in BJP Chief Minister of West Bengal, was inaugurated by Governor R.N. Ravi alongside five other MLAs who will join his cabinet. The ceremony was attended by Prim"
+        },
+        {
+          "url": "https://www.dawn.com/news/1997948/west-bengal-cm-refuses-to-resign-after-poll-defeat",
+          "title": "West Bengal CM refuses to resign after poll defeat - Newspaper - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-06 21:16:21.197295",
+          "relevance_score": 80,
+          "rephrased": "**Mamata Banerjee**, the chief minister of West Bengal, refused to resign after her party lost power in state elections to the **BJP**.  The BJP secured over two-thirds of the seats, marking a signifi"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/bjp-gears-up-to-pick-bengal-cm-suvendu-adhikari-front-runner/article70943722.ece",
+          "title": "BJP gears up to pick Bengal CM; Suvendu Adhikari front runner - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-06 03:37:37.938946",
+          "relevance_score": 80,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, has been appointed as the central observer for the election of the leader of the Legislature Party in West Bengal, with **Odisha Chief Minister Mohan Charan Maj"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/may/04/modis-bjp-party-win-election-west-bengal-first-time",
+          "title": "Narendra Modi’s BJP wins election in West Bengal for the first time | India | The Guardian",
+          "source": "The Guardian",
+          "scraped_at": "2026-05-04 19:53:10.805927",
+          "relevance_score": 80,
+          "rephrased": "The **Bharatiya Janata Party** (BJP) has won a resounding victory in West Bengal, marking the first time the party has held power in the state. This significant win expands the BJP's control over Indi"
+        },
         {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
           "title": "Take forward reforms, PM tells Ministers - The Hindu",
@@ -481,17 +889,33 @@
           "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 50,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 75,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/modi-shah-are-traitors-who-are-attacking-the-constitution-says-rahul-at-rae-bareli-meet/article71002954.ece",
+          "title": "Modi, Shah are traitors who are attacking the Constitution, says Rahul at Rae Bareli meet - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:02:35.346080",
+          "relevance_score": 75,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress** party, criticized **Prime Minister Narendra Modi** and **Union Home Minister Amit Shah**, accusing them of attacking the Constitution and supporting indust"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/average-of-53-mps-attend-meetings-of-16-parliamentary-standing-committees-pac-data/article70987896.ece",
+          "title": "Average of 53% MPs attend meetings of 16 Parliamentary Standing Committees, PAC: data - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 17:06:45.437530",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi** has been raising concerns about the low attendance of members at parliamentary committees.  Data shows that an average of 53% of members attended meetings of 16 depart"
         }
       ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_confidence": "low",
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p010",
@@ -506,69 +930,93 @@
       "source_description": "Multiple addresses and BJP manifesto",
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is mentioned in the context of a government reform agenda, but no specific details or timeline are provided.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The evidence shows that Modi's call for austerity has not been universally followed.",
       "evidence_articles": [
         {
-          "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
-          "title": "Take forward reforms, PM tells Ministers - The Hindu",
+          "url": "https://www.thehindu.com/news/national/pm-modis-appeal-on-fuel-savings-an-admission-of-failure-will-rattle-markets-akhilesh/article70964575.ece",
+          "title": "Modi’s austerity drive is an admission of failure on economic and foreign policy fronts, alleges Akhilesh - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:05:07.798462",
-          "relevance_score": 75,
-          "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
+          "scraped_at": "2026-05-11 17:41:34.776125",
+          "relevance_score": 100,
+          "rephrased": "**Akhilesh Yadav**, president of the **Samajwadi Party**, criticized **Prime Minister Narendra Modi's** appeal for austerity in light of the Iran conflict, accusing the **BJP government** of failing o"
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 50,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
+          "url": "https://www.dawn.com/news/1997948/west-bengal-cm-refuses-to-resign-after-poll-defeat",
+          "title": "West Bengal CM refuses to resign after poll defeat - Newspaper - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-06 21:16:21.197295",
+          "relevance_score": 100,
+          "rephrased": "**Mamata Banerjee**, the chief minister of West Bengal, refused to resign after her party lost power in state elections to the **BJP**.  The BJP secured over two-thirds of the seats, marking a signifi"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/5/22/marco-rubio-visits-india-whats-at-stake-with-trump-modi-ties-strained?traffic_source=rss",
-          "title": "Marco Rubio visits India: What’s at stake with Trump-Modi ties strained? | International Trade News | Al Jazeera",
+          "url": "https://www.thehindu.com/news/national/maharashtra/cm-fadnavis-bike-ride-draws-opposition-ire/article70979916.ece",
+          "title": "CM Fadnavis’ bike ride draws Opposition ire - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 23:34:01.335760",
+          "relevance_score": 80,
+          "rephrased": "**Devendra Fadnavis**, the **Maharashtra** Chief Minister, rode a motorbike to Vidhan Bhavan after Prime Minister **Narendra Modi** called for austerity measures. The move drew criticism from the Oppo"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/west-bengal-oath-taking-new-government-formation-suvendu-adhikariswearing-in-as-first-bjp-cm-live-updates-may-9-2026/article70958048.ece",
+          "title": "West Bengal oath-taking LIVE: Suvendu Adhikari sworn in as first BJP CM of West Bengal, five other MLAs also take oath - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 06:39:18.299777",
+          "relevance_score": 80,
+          "rephrased": "**Suvendu Adhikari**, the newly sworn-in BJP Chief Minister of West Bengal, was inaugurated by Governor R.N. Ravi alongside five other MLAs who will join his cabinet. The ceremony was attended by Prim"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/congress-slams-modi-government-over-womens-safety-citing-ncrb-data/article70956240.ece",
+          "title": "Congress slams Modi Government over women’s safety citing NCRB data - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-08 21:39:41.145635",
+          "relevance_score": 80,
+          "rephrased": "**Congress** party leaders, including **Mallikarjun Kharge**, criticized the **Narendra Modi Government** for its handling of women's safety and rising crime rates.  Kharge cited data from the Nationa"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/bjp-gears-up-to-pick-bengal-cm-suvendu-adhikari-front-runner/article70943722.ece",
+          "title": "BJP gears up to pick Bengal CM; Suvendu Adhikari front runner - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-06 03:37:37.938946",
+          "relevance_score": 80,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, has been appointed as the central observer for the election of the leader of the Legislature Party in West Bengal, with **Odisha Chief Minister Mohan Charan Maj"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/5/5/what-modis-big-win-in-indian-state-elections-could-mean-for-its-democracy?traffic_source=rss",
+          "title": "What Modi’s big win in Indian state elections could mean for its democracy | Elections News | Al Jazeera",
           "source": "Al Jazeera",
-          "scraped_at": "2026-05-22 15:41:08.787751",
-          "relevance_score": 35,
-          "rephrased": "**Marco Rubio**, US Secretary of State, is visiting India for a three-day trip ahead of the Quad meeting on May 26th.  Rubio's visit comes amidst strained relations between **Donald Trump** and **Nare"
+          "scraped_at": "2026-05-05 12:10:02.447872",
+          "relevance_score": 80,
+          "rephrased": "The Bharatiya Janata Party (BJP) won the West Bengal state assembly elections, marking a significant victory for the party and raising concerns about potential authoritarianism. The BJP's win comes af"
         },
         {
-          "url": "https://www.thehindu.com/news/national/gujarat/voter-confusion-fears-over-simultaneous-polls-misplaced-says-onoe-jpc-chairman/article71007174.ece",
-          "title": "Voter confusion fears over simultaneous polls ‘misplaced’, says ONOE JPC chairman - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-22 01:36:30.670214",
-          "relevance_score": 35,
-          "rephrased": "**P.P. Chaudhary**, chairman of the Joint Parliamentary Committee on ‘One Nation One Election’, defended the proposal, arguing that Indian voters are politically astute and can differentiate between n"
-        },
-        {
-          "url": "https://www.theguardian.com/australia-news/2026/may/21/pauline-hanson-announces-norway-inspired-gas-policy-as-she-decries-25-export-tax-as-economic-vandalism",
-          "title": "Pauline Hanson announces Norway-inspired gas policy as she decries 25% export tax as ‘economic vandalism’ | One Nation | The Guardian",
+          "url": "https://www.theguardian.com/world/2026/may/04/modis-bjp-party-win-election-west-bengal-first-time",
+          "title": "Narendra Modi’s BJP wins election in West Bengal for the first time | India | The Guardian",
           "source": "The Guardian",
-          "scraped_at": "2026-05-21 12:23:30.107067",
-          "relevance_score": 35,
-          "rephrased": "**One Nation** leader Pauline Hanson proposed a new policy to replace the petroleum resource rent tax (PRRT) with a royalty regime and acquire equity stakes in gas ventures.  Hanson’s proposal, which "
+          "scraped_at": "2026-05-04 19:53:10.805927",
+          "relevance_score": 80,
+          "rephrased": "The **Bharatiya Janata Party** (BJP) has won a resounding victory in West Bengal, marking the first time the party has held power in the state. This significant win expands the BJP's control over Indi"
         },
         {
-          "url": "https://www.bbc.com/news/articles/cy82gkr7xzlo?at_medium=RSS&at_campaign=rss",
-          "title": "UK scientists developing Ebola vaccine that could be ready for trials in months",
-          "source": "BBC",
-          "scraped_at": "2026-05-22 15:39:54.585124",
-          "relevance_score": 30,
-          "rephrased": "**Oxford University** scientists are developing a new Ebola vaccine using the same technology employed during the COVID-19 pandemic. The experimental vaccine, which uses a modified chimpanzee cold vir"
+          "url": "https://www.dawn.com/news/1997401/indias-modi-celebrates-record-win-in-opposition-held-west-bengal",
+          "title": "India's Modi celebrates 'record' win in opposition-held West Bengal - World - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-04 15:33:56.317136",
+          "relevance_score": 80,
+          "rephrased": "**Narendra Modi**, **Indian Prime Minister**, claimed a record victory in the West Bengal state elections for his Hindu nationalist party, the **Bharatiya Janata Party (BJP)**. The BJP secured a major"
         },
         {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 30,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
+          "url": "https://www.aljazeera.com/features/2026/5/4/hegemonic-power-how-modis-bjp-won-indias-bengal-for-the-first-time?traffic_source=rss",
+          "title": "‘Hegemonic power’: How Modi’s BJP won India’s Bengal for the first time | Elections | Al Jazeera",
+          "source": "Al Jazeera",
+          "scraped_at": "2026-05-04 13:11:30.817468",
+          "relevance_score": 80,
+          "rephrased": "The **Bharatiya Janata Party (BJP)** won the West Bengal state elections, marking a significant shift in Indian politics. The party's victory was attributed to factors including religious polarisation"
         }
       ],
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_confidence": "low",
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p011",
@@ -584,44 +1032,92 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on Modi's visit to Italy and government meetings, not on the status of demonetization.",
+      "gemma_reasoning": "The promise is contradicted by the evidence of rising inflation and economic concerns.",
       "evidence_articles": [
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 60,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
-          "title": "Take forward reforms, PM tells Ministers - The Hindu",
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:05:07.798462",
-          "relevance_score": 50,
-          "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 90,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
         },
         {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
+          "url": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
+          "title": "Indian economy: Why Modi wants Indians to buy less gold and travel less",
+          "source": "BBC",
+          "scraped_at": "2026-05-15 11:30:29.206513",
+          "relevance_score": 80,
+          "rephrased": "**Prime Minister Narendra Modi** urged Indians to reduce their consumption of gold, foreign travel, fuel, and other goods as the war in Iran has led to increased energy prices.  The appeal, delivered "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/remove-import-duty-on-cotton-to-ensure-supply-cm-vijay-urges-modi/article70979198.ece",
+          "title": "Remove import duty on cotton to ensure supply, CM Vijay urges Modi - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 40,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
+          "scraped_at": "2026-05-14 23:37:02.208188",
+          "relevance_score": 80,
+          "rephrased": "**C. Joseph Vijay**, Tamil Nadu Chief Minister, urged **Prime Minister Narendra Modi** to remove the 11% import duty on cotton to ensure raw material availability for the textile and apparel industry."
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-proposes-changes-to-pre-open-listing-session-of-ipos-for-better-price-discovery/articleshow/131247339.cms",
-          "title": "Sebi proposes changes to pre-open listing session of IPOs for better price discovery - The Economic Times",
+          "url": "https://www.thehindu.com/news/national/telangana/fuel-price-hike-negatively-impacts-economy-triggers-rise-in-essential-commodity-prices-telangana-cm-revanth-reddy/article70985978.ece",
+          "title": "Fuel price hike negatively impacts economy, triggers rise in essential commodity prices: Telangana CM Revanth Reddy - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 06:29:56.087297",
+          "relevance_score": 75,
+          "rephrased": "**A Revanth Reddy**, **Telangana Chief Minister**, criticized the **Union Government’s** decision to increase petrol and diesel prices, arguing it would negatively impact the economy and ordinary citi"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 01:30:15.301460",
+          "relevance_score": 75,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
+        },
+        {
+          "url": "https://www.dawn.com/news/1999889/india-hikes-gold-silver-duties-to-protect-sliding-rupee",
+          "title": "India hikes gold, silver duties to protect sliding rupee - World - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-13 21:59:29.785181",
+          "relevance_score": 75,
+          "rephrased": "**India** has increased import tariffs on gold and silver to about 15 percent, aiming to bolster its sagging rupee and replenish depleted foreign currency reserves. This move comes amid a worsening ru"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-sinks-past-95-73-per-us-dollar-to-hit-lifetime-low-as-persistent-outflows-wipe-comfort-from-gold-duty-hike/articleshow/131059422.cms",
+          "title": "Rupee hits all-time low of 95.74 vs USD as outflows, oil risks weigh on outlook - The Economic Times",
           "source": "Economic Times",
-          "scraped_at": "2026-05-21 16:01:11.633178",
-          "relevance_score": 35,
-          "rephrased": "**Sebi**, the Securities and Exchange Board of India, has released a consultation paper seeking public feedback on proposed changes to the Call Auction Session framework used for relisted stocks. The "
+          "scraped_at": "2026-05-13 13:21:34.577549",
+          "relevance_score": 75,
+          "rephrased": "The **rupee** weakened against the US dollar, reaching its new all-time low of 95.7450 per dollar.  Rising energy prices due to the U.S.-Iran war have contributed to India's macroeconomic challenges, "
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/manappuram-finance-iifl-finance-other-stocks-rally-up-to-11-as-gold-prices-soar-after-import-duty-hike/articleshow/131060298.cms",
+          "title": "Manappuram Finance, IIFL Finance, other stocks rally up to 11% as gold prices soar after import duty hike - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 10:37:22.827679",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce non-essential gold purchases, citing the need to stabilize the rupee and reduce imports. **India**'s government implemented a hike in import d"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hindustan-zinc-shares-surge-5-as-silver-prices-near-rs-3-lakh/kg-after-import-duty-hike-vedanta-shares-jump-4/articleshow/131056130.cms",
+          "title": "Hindustan Zinc shares surge 5% as silver prices near Rs 3 lakh/kg after import duty hike; Vedanta shares jump 4% - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-05-13 07:45:28.644643",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi** urged citizens to reduce purchases of non-essential gold and silver over the next year to alleviate pressure on foreign exchange reserves and imports. This policy meas"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/modi-shah-are-traitors-who-are-attacking-the-constitution-says-rahul-at-rae-bareli-meet/article71002954.ece",
+          "title": "Modi, Shah are traitors who are attacking the Constitution, says Rahul at Rae Bareli meet - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:02:35.346080",
+          "relevance_score": 65,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress** party, criticized **Prime Minister Narendra Modi** and **Union Home Minister Amit Shah**, accusing them of attacking the Constitution and supporting indust"
         }
       ],
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p012",
@@ -636,9 +1132,33 @@
       "source_description": "Bullet train project launch with Japan PM",
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise was made in 2015, and the deadline has passed.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The project was approved in 2023, but the timeline for completion is not specified.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/average-of-53-mps-attend-meetings-of-16-parliamentary-standing-committees-pac-data/article70987896.ece",
+          "title": "Average of 53% MPs attend meetings of 16 Parliamentary Standing Committees, PAC: data - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 17:06:45.437530",
+          "relevance_score": 70,
+          "rephrased": "**Prime Minister Narendra Modi** has been raising concerns about the low attendance of members at parliamentary committees.  Data shows that an average of 53% of members attended meetings of 16 depart"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/push-for-public-transport-exposes-structural-gaps/article70984445.ece",
+          "title": "Push for public transport exposes structural gaps - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 14:28:22.265907",
+          "relevance_score": 70,
+          "rephrased": "**Prime Minister Narendra Modi's** push for public transport, particularly metro rail, has prompted politicians and bureaucrats to use such systems. However, the renewed spotlight on public transit hi"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 01:30:15.301460",
+          "relevance_score": 70,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
+        },
         {
           "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
           "title": "Take forward reforms, PM tells Ministers - The Hindu",
@@ -648,57 +1168,57 @@
           "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
+          "url": "https://www.thehindu.com/news/national/rajasthan/mos-arjun-ram-meghwal-takes-e-rickshaw-ride-in-rajasthans-bikaner-to-promote-fuel-conservation/article70977759.ece",
+          "title": "MoS Arjun Ram Meghwal takes e-rickshaw ride in Rajasthan’s Bikaner to promote fuel conservation - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 11:04:13.554032",
+          "relevance_score": 65,
+          "rephrased": "**Arjun Ram Meghwal**, Union Minister of State for Law and Justice, traveled to his residence in Bikaner by e-rickshaw on Thursday to promote fuel conservation.  He joined **Prime Minister Narendra Mo"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-sinks-past-95-73-per-us-dollar-to-hit-lifetime-low-as-persistent-outflows-wipe-comfort-from-gold-duty-hike/articleshow/131059422.cms",
+          "title": "Rupee hits all-time low of 95.74 vs USD as outflows, oil risks weigh on outlook - The Economic Times",
           "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 50,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
+          "scraped_at": "2026-05-13 13:21:34.577549",
+          "relevance_score": 65,
+          "rephrased": "The **rupee** weakened against the US dollar, reaching its new all-time low of 95.7450 per dollar.  Rising energy prices due to the U.S.-Iran war have contributed to India's macroeconomic challenges, "
         },
         {
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/new-govt-hospital-preventing-waterlogging-are-among-my-priorities-says-katpadi-mla/article71006933.ece",
-          "title": "New govt. hospital, preventing waterlogging are among my priorities, says Katpadi MLA - The Hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/green-energy-key-to-indias-future-growth-naidu/article70966522.ece",
+          "title": "Green energy key to India’s future growth: Naidu - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:06:14.100448",
-          "relevance_score": 50,
-          "rephrased": "**M. Sudhakar**, Katpadi MLA, has identified traffic congestion between the railway station and Green Circle roundabout as a top priority for his constituency. He proposes diverting trucks and goods l"
+          "scraped_at": "2026-05-12 00:07:39.534965",
+          "relevance_score": 65,
+          "rephrased": "**Narendra Modi** urged citizens to reduce edible oil consumption and increase public transport usage, while **N. Chandrababu Naidu**, Andhra Pradesh's Chief Minister, emphasized India's need for ener"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/5/22/marco-rubio-visits-india-whats-at-stake-with-trump-modi-ties-strained?traffic_source=rss",
-          "title": "Marco Rubio visits India: What’s at stake with Trump-Modi ties strained? | International Trade News | Al Jazeera",
-          "source": "Al Jazeera",
-          "scraped_at": "2026-05-22 15:41:08.787751",
-          "relevance_score": 40,
-          "rephrased": "**Marco Rubio**, US Secretary of State, is visiting India for a three-day trip ahead of the Quad meeting on May 26th.  Rubio's visit comes amidst strained relations between **Donald Trump** and **Nare"
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/rubios-maiden-india-visit-aims-to-repair-strained-ties-boost-quad-cooperation/article71012335.ece",
-          "title": "Rubio's maiden India visit aims to repair strained ties; boost Quad cooperation - The Hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/congress-government-spending-more-time-to-solve-its-internal-dispute-rather-than-peoples-problems-says-prime-minister-narendra-modi/article70962197.ece",
+          "title": "Congress government spending more time to solve its internal dispute rather than people’s problems, says Prime Minister Narendra Modi - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 19:57:14.674362",
-          "relevance_score": 35,
-          "rephrased": "**U.S. Secretary of State Marco Rubio** will visit **India** from May 23 to 26, 2026, aiming to repair strained bilateral ties.  He will meet with **External Affairs Minister S. Jaishankar**, **Prime "
+          "scraped_at": "2026-05-10 20:03:44.356007",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** criticized the **Congress government in Karnataka** during a speech on Sunday, stating that it has been preoccupied with internal disputes instead of addressing the ne"
         },
         {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/pm-visit-turns-city-into-high-security-zone-as-crowds-throng-parade-grounds/article70963138.ece",
+          "title": "PM visit turns city into high security zone as crowds throng Parade Grounds - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 30,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
+          "scraped_at": "2026-05-10 20:01:37.196779",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** visited Hyderabad for a series of programs culminating in a public meeting at Parade Grounds. Over 75,000 people attended the meeting, with an additional 10,000 to 15,"
         },
         {
-          "url": "https://www.thehindu.com/news/national/maharashtra/infrastructure-is-foundation-of-economic-growth-says-m-jamshed/article71011815.ece",
-          "title": "Infrastructure is foundation of economic growth, says M. Jamshed - The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
+          "title": "PM Modi assures more support to Telangana, asks CM Revanth to collaborate with him - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 21:20:05.900842",
-          "relevance_score": 30,
-          "rephrased": "**M. Jamshed**, during a special address at **The Hindu’s Maharashtra Infrastructure Conclave 2026**, highlighted the crucial role of infrastructure in development, emphasizing its importance for Indi"
+          "scraped_at": "2026-05-10 12:02:18.299435",
+          "relevance_score": 65,
+          "rephrased": "**Prime Minister Narendra Modi** assured **Telangana Chief Minister A. Revanth Reddy** that the **Central government** would continue to support its development, emphasizing the importance of state-le"
         }
       ],
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p013",
@@ -714,28 +1234,92 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on political disputes and proposals, not on Amit Shah's specific promise.",
+      "gemma_reasoning": "The provided text does not mention Amit Shah's promise to remove Rohingyas from India.",
       "evidence_articles": [
         {
-          "url": "https://www.dawn.com/news/2002047/seems-pti-will-now-have-to-resort-to-agitation-says-mna-after-party-leaders-yet-again-denied-meeting-with-imran",
-          "title": "Seems PTI will now have to 'resort to agitation', says MNA after party leaders yet again denied meeting with Imran - Pakistan - DAWN.COM",
-          "source": "The Dawn",
-          "scraped_at": "2026-05-21 18:11:25.092832",
-          "relevance_score": 40,
-          "rephrased": "**Ahad Ali Shah**, a member of the **Pakistan Tehreek-e-Insaf (PTI)**, stated that his party would resort to agitation after being denied another meeting with former prime minister **Imran Khan**.  Th"
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/suvendu-adhikari-elected-bjp-legislature-party-leader-in-bengal-set-to-become-cm/article70955183.ece",
+          "title": "Suvendu Adhikari to become the first BJP Chief Minister of West Bengal - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-08 23:05:12.552923",
+          "relevance_score": 80,
+          "rephrased": "**Suvendu Adhikari** was unanimously elected leader of the Bharatiya Janata Party's legislature party in West Bengal following their victory in the recent assembly elections. **Amit Shah**, Union Home"
         },
         {
-          "url": "https://www.thehindu.com/news/national/gujarat/voter-confusion-fears-over-simultaneous-polls-misplaced-says-onoe-jpc-chairman/article71007174.ece",
-          "title": "Voter confusion fears over simultaneous polls ‘misplaced’, says ONOE JPC chairman - The Hindu",
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/amit-shah-kolkata-bjp-meeting-swearing-in-cm-government-may-8-2026/article70954189.ece",
+          "title": "BJP’s victory in Bengal will plug a big hole in national security, says Amit Shah - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 01:36:30.670214",
-          "relevance_score": 35,
-          "rephrased": "**P.P. Chaudhary**, chairman of the Joint Parliamentary Committee on ‘One Nation One Election’, defended the proposal, arguing that Indian voters are politically astute and can differentiate between n"
+          "scraped_at": "2026-05-08 20:12:22.611605",
+          "relevance_score": 80,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, stated that the BJP's victory in West Bengal was significant for national security, as it plugs a major hole and will make infiltration and cattle smuggling imp"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/west-bengal-government-formation-live-updates-new-cm-to-be-elected-suvendu-adhikari-aide-death-sparks-unrest/article70954007.ece",
+          "title": "West Bengal government formation LIVE: Amit Shah arrives in Kolkata for BJP legislature party meet to elect new CM - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-08 06:58:00.243592",
+          "relevance_score": 80,
+          "rephrased": "**The BJP legislature party** will meet in Kolkata on Friday, May 8, 2026, to elect its leader with **Suvendu Adhikari** emerging as the frontrunner.  Following the BJP's historic victory in the West "
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/bjp-gears-up-to-pick-bengal-cm-suvendu-adhikari-front-runner/article70943722.ece",
+          "title": "BJP gears up to pick Bengal CM; Suvendu Adhikari front runner - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-06 03:37:37.938946",
+          "relevance_score": 80,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, has been appointed as the central observer for the election of the leader of the Legislature Party in West Bengal, with **Odisha Chief Minister Mohan Charan Maj"
+        },
+        {
+          "url": "https://www.thehindu.com/opinion/editorial/lost-and-found-on-the-five-2026-assembly-elections/article70939648.ece",
+          "title": "​Lost and found: The Hindu Editorial on the 2026 Assembly elections - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-04 22:37:51.195754",
+          "relevance_score": 80,
+          "rephrased": "The 2026 Assembly elections in Assam, West Bengal, Tamil Nadu, Kerala and Puducherry resulted in significant shifts in India's political landscape. The BJP secured victories in Assam and Puducherry wh"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/modi-shah-are-traitors-who-are-attacking-the-constitution-says-rahul-at-rae-bareli-meet/article71002954.ece",
+          "title": "Modi, Shah are traitors who are attacking the Constitution, says Rahul at Rae Bareli meet - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:02:35.346080",
+          "relevance_score": 75,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress** party, criticized **Prime Minister Narendra Modi** and **Union Home Minister Amit Shah**, accusing them of attacking the Constitution and supporting indust"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/assam-assembly/assam-bjp-government-formation-himanta-biswa-sarma-swearing-in-oath-ceremony-live-updates-may-12-2026/article70968167.ece",
+          "title": "Assam swearing-in LIVE: Himanta Biswa Sarma takes oath as Assam CM; Four MLAs sworn in as Ministers - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-12 07:29:42.619275",
+          "relevance_score": 75,
+          "rephrased": "**Himanta Biswa Sarma** was sworn in as the Chief Minister of Assam for a second consecutive term on Tuesday, May 2, 2026. **Governor Lakshman Prasad Acharya** administered the oath of office at a cer"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal-2026-cabinet-ministers-bjp-government-suvendu-adhikari-cm-agnimitra-paul-dilip-ghosh/article70958634.ece",
+          "title": "West Bengal Cabinet 2026: From Dilip Ghosh to Agnimitra Paul, Ministers who were sworn in along with Suvendu Adhikari - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 11:31:00.829294",
+          "relevance_score": 75,
+          "rephrased": "**Suvendu Adhikari**, newly sworn in as the Chief Minister of West Bengal, inducted five new ministers into his cabinet on Saturday. The swearing-in ceremony was attended by **Prime Minister Narendra "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/nitish-kumars-son-nishant-among-32-to-take-oath-as-bihar-ministers/article70950245.ece",
+          "title": "Nitish Kumar’s son Nishant among 32 to take oath as Bihar Ministers - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-07 07:52:06.627224",
+          "relevance_score": 75,
+          "rephrased": "**Nitish Kumar's** son, **Nishant Kumar**, and 30 others were sworn in as ministers in the Bihar government on Thursday.  The ceremony was attended by Prime Minister **Narendra Modi**, Home Minister *"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/bihar-govts-cabinet-expansion-on-may-7-pm-modi-amit-shah-to-attend-state-bjp-chief/article70941742.ece",
+          "title": "Bihar Cabinet expansion on May 7, Modi, Shah and Nabin to attend event - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 22:34:54.705963",
+          "relevance_score": 75,
+          "rephrased": "**Prime Minister Narendra Modi**, **Union Home Minister Amit Shah**, and **BJP president Nitin Nabin** will be present for the expansion of the **Bihar Cabinet** in Patna on Thursday, May 7, 2026.  Th"
         }
       ],
       "notes": "Rohingya population continues to live in India. Deportations happen occasionally but not systematically.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p014",
@@ -750,9 +1334,49 @@
       "source_description": "AAP manifesto 2015",
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on school upgrades and singing of national songs, not on Arvind Kejriwal's promise of free and world-class government schools.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "No information provided about Arvind Kejriwal's promise regarding free and world-class government schools in Delhi.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-to-upgrade-19-secondary-ashram-schools-to-junior-college-for-tribals/article70943366.ece",
+          "title": "Maharashtra to upgrade 19 secondary ashram schools to junior college for tribals - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 23:56:03.151419",
+          "relevance_score": 70,
+          "rephrased": "The **Maharashtra** government approved upgrading 19 secondary schools and 5 primary ashram schools to higher levels under the Tribal Development Department.  This decision aims to prevent dropouts an"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/limited-traditional-and-religious-symbols-to-be-allowed-with-prescribed-uniforms-in-karnataka-schools-and-colleges/article70974812.ece",
+          "title": "‘Limited’ religious symbols to be allowed with uniforms in Karnataka schools and colleges - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 01:31:18.266654",
+          "relevance_score": 65,
+          "rephrased": "**The Karnataka government** withdrew its 2022 order requiring prescribed uniforms in educational institutions and replaced it with a new order allowing students to wear “limited” traditional and fait"
+        },
+        {
+          "url": "https://www.dawn.com/news/1999709/pmdc-says-medical-students-must-qualify-for-mdcat-obtain-registration-before-going-abroad",
+          "title": "PMDC says medical students must qualify for MDCAT, obtain registration before going abroad - Pakistan - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-12 17:40:20.508004",
+          "relevance_score": 65,
+          "rephrased": "The **Pakistan Medical and Dental Council (PMDC)** announced new regulations for students pursuing medical or dental education abroad. The PMDC stated that all students must qualify for the **MDCAT** "
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-hc-seeks-response-from-aaps-gopal-rai-journalist-in-contempt-plea/article71011372.ece",
+          "title": "Delhi HC seeks response from AAP’s Gopal Rai, journalist in contempt plea - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-23 04:29:31.650039",
+          "relevance_score": 65,
+          "rephrased": "**Gopal Rai**, an AAP leader, and journalist **Saurav Das** were issued notices by the **Delhi High Court** in response to a petition seeking contempt proceedings against them for allegedly orchestrat"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-to-decide-on-remote-or-in-person-classes-on-may-10-as-schools-and-universities-remain-on-alert/articleshow/130974232.cms",
+          "title": "Uae Education: UAE to decide on remote or in-person classes on May 10 as schools and universities remain on alert | World News - The Times of India",
+          "source": "Times of India",
+          "scraped_at": "2026-05-09 10:11:50.257828",
+          "relevance_score": 65,
+          "rephrased": "**UAE** schools, universities, and nurseries are awaiting a decision on May 10th regarding the future of their learning model. The **Ministry of Education**, **Ministry of Higher Education and Scienti"
+        },
         {
           "url": "https://www.thehindu.com/news/national/kerala/minority-commission-recommends-upgrading-pallikkal-govt-school-in-wayanad/article71010684.ece",
           "title": "Minority commission recommends upgrading Pallikkal govt. school in Wayanad - The Hindu",
@@ -770,33 +1394,33 @@
           "rephrased": "The **West Bengal Directorate of Madrasa Education** has mandated the singing of \"Vande Mataram\" during assembly prayers in all government, aided, and recognized madrasas across the state. The order, "
         },
         {
-          "url": "https://www.thehindu.com/news/national/telangana/four-from-telangana-state-colleges-to-go-on-sakura-science-programme/article71011735.ece",
-          "title": "Four from Telangana State colleges to go on Sakura Science Programme - The Hindu",
+          "url": "https://www.thehindu.com/news/cities/Kochi/good-show-by-ernakulam-schools-in-class-12-exams/article70974990.ece",
+          "title": "Good show by Ernakulam schools in Class 12 exams - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 15:43:40.701987",
-          "relevance_score": 40,
-          "rephrased": "**Four students** from Telangana have been selected to participate in the **Japan Science and Technology Agency’s (JST)** SAKURA Science Programme. The seven-day program, starting May 24th, will allow"
+          "scraped_at": "2026-05-13 20:24:48.301662",
+          "relevance_score": 60,
+          "rephrased": "**Schools** under the **Central Board of Secondary Education (CBSE)** in Ernakulam district achieved high pass rates in Class 12 examinations.  **Bhavan’s Vidya Mandir, Elamakkara**, and **Rajagiri Pu"
         },
         {
-          "url": "https://www.bbc.com/news/articles/cy82y34y101o?at_medium=RSS&at_campaign=rss",
-          "title": "Charges dismissed against official at school where 6-year-old shot teacher",
+          "url": "https://www.bbc.com/news/articles/cy02w7nzdg1o?at_medium=RSS&at_campaign=rss",
+          "title": "Mexico cancels plans to end school year early for World Cup",
           "source": "BBC",
-          "scraped_at": "2026-05-21 16:02:30.933120",
-          "relevance_score": 35,
-          "rephrased": "**Ebony Parker**, former assistant principal at a Virginia elementary school, has been cleared of all charges against her stemming from the shooting incident in January 2023. **Judge Rebecca Robinson*"
+          "scraped_at": "2026-05-12 15:28:57.234397",
+          "relevance_score": 60,
+          "rephrased": "**Mexico's** government has reversed its decision to end the school year early due to concerns raised by parents and education experts. The original plan, announced in May, aimed to ease traffic durin"
         },
         {
-          "url": "https://www.thehindu.com/news/national/bihar/bihar-midday-meal-incident-hc-asks-whether-ngo-can-continue-providing-meals/article71007201.ece",
-          "title": "Bihar midday meal incident: HC asks whether NGO can continue providing meals - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-21 20:26:27.636471",
-          "relevance_score": 30,
-          "rephrased": "The **Patna High Court** has expressed concern over delays in the investigation of a midday meal incident where over 150 students fell ill in Saharsa district. The court questioned whether the NGO sup"
+          "url": "https://timesofindia.indiatimes.com/world/rest-of-world/quote-of-the-day-by-aristotle-educating-the-mind-without-educating-the-heart-is-no-education-at-all-/articleshow/130989844.cms",
+          "title": "Quote of the day by Aristotle: “Educating the mind without educating the heart is no education at all.” | World News - The Times of India",
+          "source": "Times of India",
+          "scraped_at": "2026-05-10 10:54:14.789579",
+          "relevance_score": 60,
+          "rephrased": "**Aristotle's** famous quote, \"Educating the mind without educating the heart is no education at all,\" highlights the importance of emotional intelligence alongside academic achievement.  The quote em"
         }
       ],
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p015",
@@ -811,9 +1435,25 @@
       "source_description": "AAP manifesto 2015",
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "No evidence provided regarding the status of this promise.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The provided articles do not mention anything about the status of the free electricity promise.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-hc-seeks-response-from-aaps-gopal-rai-journalist-in-contempt-plea/article71011372.ece",
+          "title": "Delhi HC seeks response from AAP’s Gopal Rai, journalist in contempt plea - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-23 04:29:31.650039",
+          "relevance_score": 65,
+          "rephrased": "**Gopal Rai**, an AAP leader, and journalist **Saurav Das** were issued notices by the **Delhi High Court** in response to a petition seeking contempt proceedings against them for allegedly orchestrat"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/punjab/bjp-hits-back-at-kejriwal-over-aurangzeb-remark-on-modi-ed-raids-in-punjab/article70959047.ece",
+          "title": "Kejriwal slams PM Modi over ED raids in Punjab - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 23:28:04.154424",
+          "relevance_score": 50,
+          "rephrased": "**AAP** leader Arvind Kejriwal accused the **ED** of being a tool for political intimidation, targeting Punjab Minister Sanjeev Arora in raids.  Kejriwal claimed that the BJP is trying to break AAP le"
+        },
         {
           "url": "https://www.thehindu.com/news/national/tamil-nadu/new-govt-hospital-preventing-waterlogging-are-among-my-priorities-says-katpadi-mla/article71006933.ece",
           "title": "New govt. hospital, preventing waterlogging are among my priorities, says Katpadi MLA - The Hindu",
@@ -829,11 +1469,27 @@
           "scraped_at": "2026-05-22 21:20:05.900842",
           "relevance_score": 30,
           "rephrased": "**M. Jamshed**, during a special address at **The Hindu’s Maharashtra Infrastructure Conclave 2026**, highlighted the crucial role of infrastructure in development, emphasizing its importance for Indi"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/Delhi/dmrc-rolls-out-hydrogen-buses-in-central-vista/article70982911.ece",
+          "title": "DMRC rolls out hydrogen buses in Central Vista - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 13:20:59.383837",
+          "relevance_score": 30,
+          "rephrased": "**Delhi Metro Rail Corporation (DMRC)**, in collaboration with the **Ministry of Housing and Urban Affairs** and the **Ministry of Petroleum and Natural Gas**, launched a hydrogen-powered shuttle bus "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/woman-stabbed-by-son-in-law-in-belagavi-for-preventing-him-from-talking-to-his-pregnant-wife/article70941518.ece",
+          "title": "Woman stabbed by son-in-law for preventing him from talking to his pregnant wife - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 06:25:53.653913",
+          "relevance_score": 30,
+          "rephrased": "**Arvind Gawali**, a man from Belagavi, Karnataka, allegedly stabbed his mother-in-law **Mahadevi** (45) after she refused to allow him to speak with his wife.  Gawali fled the scene and posted on soc"
         }
       ],
       "notes": "Implemented and sustained. Free electricity up to 200 units provided to Delhi households.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p016",
@@ -849,8 +1505,24 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on traffic congestion in Katpadi, not the Yamuna river.",
+      "gemma_reasoning": "The provided articles do not mention anything about Arvind Kejriwal's promise to clean the Yamuna river.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/punjab/bjp-hits-back-at-kejriwal-over-aurangzeb-remark-on-modi-ed-raids-in-punjab/article70959047.ece",
+          "title": "Kejriwal slams PM Modi over ED raids in Punjab - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 23:28:04.154424",
+          "relevance_score": 50,
+          "rephrased": "**AAP** leader Arvind Kejriwal accused the **ED** of being a tool for political intimidation, targeting Punjab Minister Sanjeev Arora in raids.  Kejriwal claimed that the BJP is trying to break AAP le"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/Delhi/delhi-hc-seeks-response-from-aaps-gopal-rai-journalist-in-contempt-plea/article71011372.ece",
+          "title": "Delhi HC seeks response from AAP’s Gopal Rai, journalist in contempt plea - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-23 04:29:31.650039",
+          "relevance_score": 50,
+          "rephrased": "**Gopal Rai**, an AAP leader, and journalist **Saurav Das** were issued notices by the **Delhi High Court** in response to a petition seeking contempt proceedings against them for allegedly orchestrat"
+        },
         {
           "url": "https://www.thehindu.com/news/national/tamil-nadu/new-govt-hospital-preventing-waterlogging-are-among-my-priorities-says-katpadi-mla/article71006933.ece",
           "title": "New govt. hospital, preventing waterlogging are among my priorities, says Katpadi MLA - The Hindu",
@@ -858,11 +1530,35 @@
           "scraped_at": "2026-05-21 22:06:14.100448",
           "relevance_score": 30,
           "rephrased": "**M. Sudhakar**, Katpadi MLA, has identified traffic congestion between the railway station and Green Circle roundabout as a top priority for his constituency. He proposes diverting trucks and goods l"
+        },
+        {
+          "url": "https://www.thehindu.com/news/cities/Delhi/dmrc-rolls-out-hydrogen-buses-in-central-vista/article70982911.ece",
+          "title": "DMRC rolls out hydrogen buses in Central Vista - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 13:20:59.383837",
+          "relevance_score": 30,
+          "rephrased": "**Delhi Metro Rail Corporation (DMRC)**, in collaboration with the **Ministry of Housing and Urban Affairs** and the **Ministry of Petroleum and Natural Gas**, launched a hydrogen-powered shuttle bus "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/cpim-calls-for-cleanliness-drive-along-nagavali-riverbank/article70959165.ece",
+          "title": "CPIM calls for cleanliness drive along Nagavali riverbank - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 14:02:26.955379",
+          "relevance_score": 30,
+          "rephrased": "**D. Govinda Rao**, CPIM-Srikakulam District Secretary, urged the **Srikakulam Municipal Corporation** to launch a special cleanliness drive along the Nagavali riverbank due to its accumulation of gar"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/woman-stabbed-by-son-in-law-in-belagavi-for-preventing-him-from-talking-to-his-pregnant-wife/article70941518.ece",
+          "title": "Woman stabbed by son-in-law for preventing him from talking to his pregnant wife - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 06:25:53.653913",
+          "relevance_score": 30,
+          "rephrased": "**Arvind Gawali**, a man from Belagavi, Karnataka, allegedly stabbed his mother-in-law **Mahadevi** (45) after she refused to allow him to speak with his wife.  Gawali fled the scene and posted on soc"
         }
       ],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p017",
@@ -878,8 +1574,48 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is a policy proposal, not a current program.",
+      "gemma_reasoning": "Rahul Gandhi has proposed a NYAY scheme, but it is not yet implemented.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 90,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/all-india-strike-by-mgnrega-workers-on-may-15/article70970126.ece",
+          "title": "MGNREGS workers togo on strike on May 15 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-12 21:27:35.421269",
+          "relevance_score": 70,
+          "rephrased": "**NREGA Sangharsh Morcha** and **All India Kisan Sabha (AIKS)** are calling for a nationwide strike by MGNREGA workers on May 15th in protest of the government's decision to repeal the Act, which will"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/modi-shah-are-traitors-who-are-attacking-the-constitution-says-rahul-at-rae-bareli-meet/article71002954.ece",
+          "title": "Modi, Shah are traitors who are attacking the Constitution, says Rahul at Rae Bareli meet - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-20 21:02:35.346080",
+          "relevance_score": 65,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress** party, criticized **Prime Minister Narendra Modi** and **Union Home Minister Amit Shah**, accusing them of attacking the Constitution and supporting indust"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/compromised-pm-no-longer-capable-of-running-country-rahul-slams-modi/article70964378.ece",
+          "title": "‘Compromised PM’ no longer capable of running country: Rahul slams Modi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-11 04:47:24.109605",
+          "relevance_score": 65,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress**, criticized **Prime Minister Narendra Modi** for urging citizens to make sacrifices during the West Asia conflict, calling it evidence of failure.  Gandhi "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/vb-g-ram-g-act-to-come-into-force-from-july-1-mgnrega-to-be-repealed-says-government/article70964935.ece",
+          "title": "VB-G RAM G to come into force on July 1: govt. - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-12 00:06:34.319527",
+          "relevance_score": 60,
+          "rephrased": "The **Union government** announced the repeal of the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) and the implementation of the Viksit Bharat – Guarantee for Rozgar and Ajeevika Mi"
+        },
         {
           "url": "https://www.thehindu.com/news/national/karnataka/dk-shivakumar-challenges-bjp-leaders-to-travel-by-public-transport-on-a-daily-basis/article71003159.ece",
           "title": "D.K. Shivakumar challenges BJP leaders to travel by public transport daily - The Hindu",
@@ -889,17 +1625,41 @@
           "rephrased": "**D.K. Shivakumar**, Deputy Chief Minister of **Karnataka**, criticized **BJP** leaders for using public transport only for photoshoots in response to the Prime Minister's call for austerity measures."
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/5/21/uk-launches-great-british-summer-savings-to-ease-family-costs?traffic_source=rss",
-          "title": "UK launches ‘Great British Summer Savings’ to ease family costs | Business and Economy News | Al Jazeera",
-          "source": "Al Jazeera",
-          "scraped_at": "2026-05-21 22:03:38.114532",
-          "relevance_score": 35,
-          "rephrased": "**The UK government** launched the “Great British Summer Savings” scheme to help families afford summer activities.  From June 25th to September 1st, 2026, VAT will be temporarily reduced from 20 perc"
+          "url": "https://www.thehindu.com/news/national/neet-paper-leak-row-rahul-gandhi-demands-dharmendra-pradhans-removal/article70987362.ece",
+          "title": "NEET paper leak row: Congress demands resignation of Education Minister Dharmendra Pradhan - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-16 17:04:49.980878",
+          "relevance_score": 50,
+          "rephrased": "**Congress** leaders demanded the resignation of **Dharmendra Pradhan**, the **Union Education Minister**, over the NEET-UG paper leak scandal.  They accused the government of a \"money-making racket\" "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/compromised-pm-didnt-sign-trade-deal-with-us-but-a-bargain-for-adanis-release-rahul/article70981631.ece",
+          "title": "Compromised PM didn't sign trade deal with U.S., but a bargain for Adani's release: Rahul - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 05:35:23.222877",
+          "relevance_score": 50,
+          "rephrased": "**Rahul Gandhi** accused **Prime Minister Narendra Modi** of negotiating a trade deal with the U.S. to secure the release of billionaire businessman **Gautam Adani**.  The **U.S.** government agreed t"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/maharashtra/cm-fadnavis-bike-ride-draws-opposition-ire/article70979916.ece",
+          "title": "CM Fadnavis’ bike ride draws Opposition ire - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 23:34:01.335760",
+          "relevance_score": 50,
+          "rephrased": "**Devendra Fadnavis**, the **Maharashtra** Chief Minister, rode a motorbike to Vidhan Bhavan after Prime Minister **Narendra Modi** called for austerity measures. The move drew criticism from the Oppo"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/aicc-begins-consultations-with-kerala-leaders-in-new-delhi-to-decide-on-congress-chief-minister-candidate/article70968619.ece",
+          "title": "AICC begins consultations with Kerala leaders in New Delhi to decide on Congress’ CM candidate - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-12 22:44:52.856918",
+          "relevance_score": 50,
+          "rephrased": "**Rahul Gandhi**, **Sonia Gandhi**, and **Mallikarjun Kharge** met with top Kerala leaders in New Delhi on Tuesday to discuss the selection of a Chief Minister nominee for the state. The high command "
         }
       ],
       "notes": "Congress lost 2019 election. NYAY scheme never implemented. Remains a campaign promise.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p018",
@@ -915,8 +1675,64 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence is unrelated to Yogi Adityanath's promise in Uttar Pradesh.",
+      "gemma_reasoning": "The provided articles do not mention Yogi Adityanath's promise regarding mafia raj and crime.",
       "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/yogi-adityanath-launches-first-phase-of-census-2027-in-uttar-pradesh/article70952396.ece",
+          "title": "Yogi Adityanath launches first phase of Census 2027 in Uttar Pradesh - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-07 19:23:02.075983",
+          "relevance_score": 90,
+          "rephrased": "**Yogi Adityanath**, the **Uttar Pradesh Chief Minister**, launched the first phase of Census-2027, a digital census aimed at supporting data-driven planning and welfare delivery. The exercise, runnin"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-rain-storm-death-toll-updates/article70976987.ece",
+          "title": "Unseasonal storms leave 111 dead in Uttar Pradesh - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 23:34:42.475680",
+          "relevance_score": 70,
+          "rephrased": "At least 111 people were killed and hundreds more injured in **Uttar Pradesh** after a powerful storm brought heavy rain, strong winds, and thunderstorms.  The **U.P. Relief Commissioner’s office** re"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/prateek-yadav-mulayam-singh-yadavs-younger-son-passes-away-in-lucknow/article70972485.ece",
+          "title": "Prateek Yadav, Mulayam Singh Yadav’s younger son, passes away in Lucknow - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-13 04:37:22.385309",
+          "relevance_score": 70,
+          "rephrased": "**Prateek Yadav**, the son of former Uttar Pradesh Chief Minister **Mulayam Singh Yadav** and husband of BJP leader **Aparna Bisht Yadav**, passed away on Wednesday morning at the age of 38.  He was p"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-government-expansion-yogi-adityanath-ministry/article70962176.ece",
+          "title": "Uttar Pradesh Cabinet expanded with six new Ministers - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 16:04:07.239412",
+          "relevance_score": 70,
+          "rephrased": "**Yogi Adityanath**, the Chief Minister of **Uttar Pradesh**, expanded his state cabinet by adding six new ministers and elevating two to independent charge.  **Bhupendra Singh Chaudhary** and **Manoj"
+        },
+        {
+          "url": "https://www.thehindu.com/opinion/op-ed/how-bulldozer-justice-undermines-the-law/article70944406.ece",
+          "title": "How ‘bulldozer justice’ undermines the law - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 22:36:25.392137",
+          "relevance_score": 70,
+          "rephrased": "A five-year-old girl gifted a bulldozer toy to **Yogi Adityanath**, the Chief Minister of Uttar Pradesh, sparking concerns about the normalization of \"bulldozer justice\" and its potential influence on"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/strict-action-against-anyone-forcibly-occupying-others-land-yogi-adityanath/article70941496.ece",
+          "title": "Strict action against anyone forcibly occupying others' land: Yogi Adityanath - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 06:26:45.493471",
+          "relevance_score": 70,
+          "rephrased": "**Yogi Adityanath**, Chief Minister of **Uttar Pradesh**, addressed citizens during a 'janata darshan' program at the Gorakhnath temple in Gorakhpur. He assured residents that his government would eff"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/insensitivity-and-lack-of-concern-alleges-congress-on-centers-silence-over-up-storm-deaths/article70983868.ece",
+          "title": "Insensitivity and lack of concern, alleges Congress on Center’s silence over U.P. storm deaths - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 23:58:55.500064",
+          "relevance_score": 40,
+          "rephrased": "Following a powerful storm that killed at least 111 people in Uttar Pradesh, the **Uttar Pradesh** government directed Ministers to assess the situation and provide financial assistance. The **Congres"
+        },
         {
           "url": "https://www.aljazeera.com/news/2026/5/21/over-2000-gather-in-san-diego-to-mourn-three-men-killed-in-mosque-attack?traffic_source=rss",
           "title": "Over 2,000 gather in San Diego to mourn three men killed in mosque attack | Gun Violence News | Al Jazeera",
@@ -928,7 +1744,7 @@
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p019",
@@ -943,29 +1759,93 @@
       "source_description": "TMC campaign promise and ideology",
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is a long-standing slogan and not directly related to the provided news.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The promise is not directly related to the provided news articles.",
       "evidence_articles": [
         {
-          "url": "https://www.thehindu.com/entertainment/politics-to-parties-kolkatas-latest-viral-trend-has-people-dancing-to-political-slogans/article70996818.ece",
-          "title": "From rallies to reels: political catchphrases turn dance anthems in Kolkata - The Hindu",
+          "url": "https://www.thehindu.com/news/national/west-bengal/trinamool-nominates-sobhandeb-as-opposition-leader-firhad-as-chief-whip/article70960231.ece",
+          "title": "Trinamool nominates Sobhandeb as Opposition leader, Firhad as Chief Whip - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:00:30.395005",
-          "relevance_score": 80,
-          "rephrased": "A new genre of political techno remixes has emerged in Kolkata, using catchy hooks and meme-friendly punchlines to criticize politicians. The trend began with songs like \"Khela Hobe\" and continues wit"
+          "scraped_at": "2026-05-09 20:12:02.922140",
+          "relevance_score": 100,
+          "rephrased": "**Trinamool Congress** nominated **Sobhandeb Chattopadhyay**, 82, as the Leader of Opposition in the 18th West Bengal Legislative Assembly.  The party will have two deputy leaders of opposition: **Asi"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/5/22/turkish-court-ousts-leader-of-main-opposition-party?traffic_source=rss",
-          "title": "Turkish court ousts leader of main opposition party | Politics News | Al Jazeera",
-          "source": "Al Jazeera",
-          "scraped_at": "2026-05-22 05:54:24.996920",
-          "relevance_score": 35,
-          "rephrased": "A Turkish court overturned the 2023 leadership election of the main opposition **Republican People’s Party (CHP)**, reinstating former chair Kemal Kilicdaroglu as interim leader. The ruling is seen as"
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/abhishek-questions-credibility-of-bengals-electoral-process-accuses-eci-of-being-partisan/article70958640.ece",
+          "title": "Abhishek questions credibility of Bengal's electoral process, accuses ECI of being 'partisan' - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 10:11:23.290322",
+          "relevance_score": 100,
+          "rephrased": "**Abhishek Banerjee**, senior **TMC** leader, criticized the **Election Commission of India** for alleged partisan conduct and irregularities in the West Bengal Assembly elections won by the **BJP**. "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/haryana/aap-has-made-situation-in-punjab-worse-than-what-it-was-in-west-bengal-says-haryana-cm-nayab-singh-saini/article70954822.ece",
+          "title": "Punjab worse than West Bengal under AAP rule, says Haryana CM Saini - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-09 00:09:14.843960",
+          "relevance_score": 100,
+          "rephrased": "**Haryana Chief Minister Nayab Singh Saini** criticized the **AAP government in Punjab**, accusing it of failing to control drug trafficking, illegal mining, and lawlessness. He compared the current s"
+        },
+        {
+          "url": "https://www.thehindu.com/opinion/editorial/take-east-on-the-bjp-government-in-west-bengal/article70956112.ece",
+          "title": "​Take east: On the BJP government in West Bengal - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-08 23:02:12.307311",
+          "relevance_score": 100,
+          "rephrased": "The **Bharatiya Janata Party (BJP)** secured a resounding victory in the West Bengal Assembly elections, winning 207 out of 294 seats.  **Suvendu Adhikari**, former Leader of the Opposition and now th"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/west-bengal-government-formation-live-updates-new-cm-to-be-elected-suvendu-adhikari-aide-death-sparks-unrest/article70954007.ece",
+          "title": "West Bengal government formation LIVE: Amit Shah arrives in Kolkata for BJP legislature party meet to elect new CM - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-08 06:58:00.243592",
+          "relevance_score": 100,
+          "rephrased": "**The BJP legislature party** will meet in Kolkata on Friday, May 8, 2026, to elect its leader with **Suvendu Adhikari** emerging as the frontrunner.  Following the BJP's historic victory in the West "
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/west-bengal-governor-dissolves-state-legislative-assembly/article70952247.ece",
+          "title": "West Bengal Governor dissolves State Legislative Assembly - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-07 23:32:36.554236",
+          "relevance_score": 100,
+          "rephrased": "**R. N. Ravi**, the Governor of West Bengal, dissolved the state's Legislative Assembly on May 7, 2026, ending the 17th assembly term. The move follows the BJP's victory in the recent assembly electio"
+        },
+        {
+          "url": "https://www.dawn.com/news/1997948/west-bengal-cm-refuses-to-resign-after-poll-defeat",
+          "title": "West Bengal CM refuses to resign after poll defeat - Newspaper - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-06 21:16:21.197295",
+          "relevance_score": 100,
+          "rephrased": "**Mamata Banerjee**, the chief minister of West Bengal, refused to resign after her party lost power in state elections to the **BJP**.  The BJP secured over two-thirds of the seats, marking a signifi"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/what-happens-if-a-chief-minister-refuses-to-relinquish-office-after-electoral-defeat/article70945645.ece",
+          "title": "What happens if a Chief Minister refuses to relinquish office after electoral defeat? - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-06 13:17:38.874656",
+          "relevance_score": 100,
+          "rephrased": "Following the BJP's victory in the West Bengal elections, **Mamata Banerjee**, chairperson of the **Trinamool Congress**, refused to resign as Chief Minister, claiming the results were a result of a c"
+        },
+        {
+          "url": "https://www.thehindu.com/elections/west-bengal-assembly/bjp-gears-up-to-pick-bengal-cm-suvendu-adhikari-front-runner/article70943722.ece",
+          "title": "BJP gears up to pick Bengal CM; Suvendu Adhikari front runner - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-06 03:37:37.938946",
+          "relevance_score": 100,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, has been appointed as the central observer for the election of the leader of the Legislature Party in West Bengal, with **Odisha Chief Minister Mohan Charan Maj"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/assembly-election-2026-results-live-west-bengal-tamil-nadu-kerala-puducherry-assam-may-5-2026/article70941224.ece",
+          "title": "Assembly Election 2026 results LIVE: TN, Kerala, West Bengal head into Govt formation mode - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 03:44:09.432326",
+          "relevance_score": 100,
+          "rephrased": "**Mamata Banerjee**, **M.K. Stalin**, and **Pinarayi Vijayan** have lost their respective elections, paving the way for new governments in **Tamil Nadu**, **West Bengal**, and **Kerala**. The BJP secu"
         }
       ],
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_confidence": "low",
+      "gemma_assessed_at": "2026-05-23"
     },
     {
       "id": "p020",
@@ -981,76 +1861,92 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is a long-term goal, not a specific policy or promise broken or kept.",
+      "gemma_reasoning": "The promise is a long-term goal with no concrete evidence of progress.",
       "evidence_articles": [
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/picked-wrong-melody-parle-industries-shares-hit-5-upper-circuit-for-3rd-day/articleshow/131257556.cms",
-          "title": "Picked wrong Melody? Parle Industries shares hit 5% upper circuit for 3rd day - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-22 12:26:55.962937",
-          "relevance_score": 75,
-          "rephrased": "During a visit to Italy, **Prime Minister Narendra Modi** gifted **Italian Prime Minister Giorgia Meloni** a bag of candies called \"Melody.\" The viral video of the exchange sparked interest in Indian "
+          "url": "https://www.bbc.com/news/articles/c775v7dlndyo?at_medium=RSS&at_campaign=rss",
+          "title": "Indian economy: Why Modi wants Indians to buy less gold and travel less",
+          "source": "BBC",
+          "scraped_at": "2026-05-15 11:30:29.206513",
+          "relevance_score": 100,
+          "rephrased": "**Prime Minister Narendra Modi** urged Indians to reduce their consumption of gold, foreign travel, fuel, and other goods as the war in Iran has led to increased energy prices.  The appeal, delivered "
         },
         {
-          "url": "https://www.thehindu.com/news/national/take-forward-reforms-pm-tells-ministers/article71007783.ece",
-          "title": "Take forward reforms, PM tells Ministers - The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
+          "title": "PM Modi assures more support to Telangana, asks CM Revanth to collaborate with him - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-21 22:05:07.798462",
-          "relevance_score": 50,
-          "rephrased": "**Prime Minister Narendra Modi** convened a full Council of Ministers meeting in New Delhi on Thursday, May 21, 2026. The session focused on the government's reform agenda amidst geopolitical shifts a"
+          "scraped_at": "2026-05-10 12:02:18.299435",
+          "relevance_score": 100,
+          "rephrased": "**Prime Minister Narendra Modi** assured **Telangana Chief Minister A. Revanth Reddy** that the **Central government** would continue to support its development, emphasizing the importance of state-le"
         },
         {
-          "url": "https://www.thehindu.com/news/national/uttar-pradesh/focus-on-infrastructure-agricultural-productivity-developing-clusters-for-export-up-state-transformation-commission-ceo/article71007339.ece",
-          "title": "Focus on infrastructure, agricultural productivity, developing clusters for export: U.P. State Transformation Commission CEO - The Hindu",
+          "url": "https://www.thehindu.com/news/national/pm-busy-handing-out-candies-in-italy-amid-economic-storm-at-home-says-congress/article71003284.ece",
+          "title": "PM busy handing out candies in Italy amid economic storm at home, says Congress - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 05:49:40.130946",
-          "relevance_score": 40,
-          "rephrased": "**Uttar Pradesh** is focusing on infrastructure development, agricultural productivity, and export-oriented clusters to bridge the income gap between Western and Eastern districts. **Manoj Kumar Singh"
+          "scraped_at": "2026-05-20 21:06:50.090605",
+          "relevance_score": 95,
+          "rephrased": "**Congress** president Mallikarjun Kharge and **Rahul Gandhi** criticized the **Narendra Modi** government's economic policies, accusing it of prioritizing publicity over addressing rising inflation, "
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-proposes-changes-to-pre-open-listing-session-of-ipos-for-better-price-discovery/articleshow/131247339.cms",
-          "title": "Sebi proposes changes to pre-open listing session of IPOs for better price discovery - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-21 16:01:11.633178",
-          "relevance_score": 40,
-          "rephrased": "**Sebi**, the Securities and Exchange Board of India, has released a consultation paper seeking public feedback on proposed changes to the Call Auction Session framework used for relisted stocks. The "
-        },
-        {
-          "url": "https://www.thehindu.com/news/national/rubios-maiden-india-visit-aims-to-repair-strained-ties-boost-quad-cooperation/article71012335.ece",
-          "title": "Rubio's maiden India visit aims to repair strained ties; boost Quad cooperation - The Hindu",
+          "url": "https://www.thehindu.com/news/national/opposition-parties-are-spreading-panic-over-pms-voluntary-precautionary-appeal-bjp/article70971181.ece",
+          "title": "Opposition parties are spreading panic over PM’s voluntary, precautionary appeal: BJP - The Hindu",
           "source": "The Hindu",
-          "scraped_at": "2026-05-22 19:57:14.674362",
-          "relevance_score": 35,
-          "rephrased": "**U.S. Secretary of State Marco Rubio** will visit **India** from May 23 to 26, 2026, aiming to repair strained bilateral ties.  He will meet with **External Affairs Minister S. Jaishankar**, **Prime "
+          "scraped_at": "2026-05-13 00:10:50.901986",
+          "relevance_score": 90,
+          "rephrased": "The **Bharatiya Janata Party (BJP)** criticized opposition parties, accusing them of spreading misinformation about Prime Minister **Narendra Modi**’s call for voluntary gold purchases and foreign tra"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/5/22/marco-rubio-visits-india-whats-at-stake-with-trump-modi-ties-strained?traffic_source=rss",
-          "title": "Marco Rubio visits India: What’s at stake with Trump-Modi ties strained? | International Trade News | Al Jazeera",
-          "source": "Al Jazeera",
-          "scraped_at": "2026-05-22 15:41:08.787751",
-          "relevance_score": 35,
-          "rephrased": "**Marco Rubio**, US Secretary of State, is visiting India for a three-day trip ahead of the Quad meeting on May 26th.  Rubio's visit comes amidst strained relations between **Donald Trump** and **Nare"
+          "url": "https://www.thehindu.com/news/national/karnataka/inauguration-of-dhyan-mandir-at-art-of-living-pm-modi-stresses-on-mental-wellbeing/article70962019.ece",
+          "title": "Inauguration of Dhyan Mandir at Art of Living: PM Modi stresses on mental wellbeing - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10 10:51:13.444283",
+          "relevance_score": 90,
+          "rephrased": "**Prime Minister Narendra Modi** emphasized the importance of mental well-being in an era of rapid technological change during the inauguration of Dhyan Mandir in Bengaluru. **Modi** stressed the need"
         },
         {
-          "url": "https://timesofindia.indiatimes.com/world/us/boo-of-jobs-real-anger-about-artificial-intelligence-at-us-convocations/articleshow/131248921.cms",
-          "title": "Boo of Jobs: Real anger about Artificial Intelligence at US convocations - The Times of India",
-          "source": "Times of India",
-          "scraped_at": "2026-05-21 15:59:56.865914",
-          "relevance_score": 35,
-          "rephrased": "Across the United States, commencement speakers who mention **artificial intelligence** are facing backlash from graduates and communities concerned about job displacement and the uneven distribution "
+          "url": "https://www.thehindu.com/elections/pm-modi-bjp-election-results-bengal-assam-puducherry-may-4-2026/article70939219.ece",
+          "title": "PM Modi on West Bengal election result: ‘Lotus’ is blooming from Gangotri to Gangasagar - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05 00:00:01.462886",
+          "relevance_score": 90,
+          "rephrased": "**Prime Minister Narendra Modi** praised the outcomes of the elections in four States and a Union Territory as a triumph of democracy and the Constitution, attributing the BJP's success to voters seek"
         },
         {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-rising-today-sensex-gains-560-points-nifty-above-23800-key-factors-behind-todays-d-st-rally/articleshow/131239307.cms",
-          "title": "Sensex gains 560 points, Nifty above 23,800. Key factors behind today's Dalal Street rally - The Economic Times",
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15 01:30:15.301460",
+          "relevance_score": 80,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to "
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/remove-import-duty-on-cotton-to-ensure-supply-cm-vijay-urges-modi/article70979198.ece",
+          "title": "Remove import duty on cotton to ensure supply, CM Vijay urges Modi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14 23:37:02.208188",
+          "relevance_score": 80,
+          "rephrased": "**C. Joseph Vijay**, Tamil Nadu Chief Minister, urged **Prime Minister Narendra Modi** to remove the 11% import duty on cotton to ensure raw material availability for the textile and apparel industry."
+        },
+        {
+          "url": "https://www.dawn.com/news/1999889/india-hikes-gold-silver-duties-to-protect-sliding-rupee",
+          "title": "India hikes gold, silver duties to protect sliding rupee - World - DAWN.COM",
+          "source": "The Dawn",
+          "scraped_at": "2026-05-13 21:59:29.785181",
+          "relevance_score": 80,
+          "rephrased": "**India** has increased import tariffs on gold and silver to about 15 percent, aiming to bolster its sagging rupee and replenish depleted foreign currency reserves. This move comes amid a worsening ru"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-sinks-past-95-73-per-us-dollar-to-hit-lifetime-low-as-persistent-outflows-wipe-comfort-from-gold-duty-hike/articleshow/131059422.cms",
+          "title": "Rupee hits all-time low of 95.74 vs USD as outflows, oil risks weigh on outlook - The Economic Times",
           "source": "Economic Times",
-          "scraped_at": "2026-05-21 04:58:29.623483",
-          "relevance_score": 35,
-          "rephrased": "The **Sensex** and **Nifty 50** gained significantly on Thursday, driven by a combination of factors including cooled bond yields, declining oil prices, and hopes for an Iran-US peace deal.  The **Rup"
+          "scraped_at": "2026-05-13 13:21:34.577549",
+          "relevance_score": 80,
+          "rephrased": "The **rupee** weakened against the US dollar, reaching its new all-time low of 95.7450 per dollar.  Rising energy prices due to the U.S.-Iran war have contributed to India's macroeconomic challenges, "
         }
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-22"
+      "gemma_assessed_at": "2026-05-23"
     }
   ]
 }
