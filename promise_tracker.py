@@ -172,8 +172,9 @@ def gemma_assess_promise(llm, promise_text, person, evidence_texts):
 
     combined_evidence = " | ".join(evidence_texts[:3])[:800]
 
+current_date = datetime.now().strftime("%B %d, %Y")
     prompt = f"""<start_of_turn>user
-You are a fact-checker. Based on the evidence articles below, assess the status of this political promise.
+You are a fact-checker. Today's date is {current_date}. Based on the evidence articles below, assess the status of this political promise.
 
 Person: {person}
 Promise: {promise_text}
