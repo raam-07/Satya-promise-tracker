@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-05-24",
+    "last_updated": "2026-05-25",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 20,
-    "promises_with_evidence": 1
+    "promises_with_evidence": 2
   },
   "promises": [
     {
@@ -181,12 +181,22 @@
       "source_description": "BJP Election Manifesto 2014, 2019, 2024",
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on austerity measures and political appointments, not on the implementation of the Uniform Civil Code.",
-      "evidence_articles": [],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "Discussions and consultations regarding UCC implementation are ongoing.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/assam/ucc-implementation-in-assam-muslim-organisations-seek-consultations-with-government/article71017321.ece",
+          "title": "UCC implementation in Assam: Muslim organisations seek consultations with government - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-24 15:50:48.926292",
+          "relevance_score": 77,
+          "gemma_validated": true,
+          "rephrased": "**Muslim religious and social organizations** in Assam have urged the **Assam government** to consult with them before implementing the Uniform Civil Code (UCC). The organizations, including factions "
+        }
+      ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-25"
     },
     {
       "id": "p010",
@@ -402,7 +412,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is for 2047, and the current year is 2023.",
+      "gemma_reasoning": "The promise is for 2047 and is still many years away.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
@@ -416,7 +426,7 @@
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-05-24"
+      "gemma_assessed_at": "2026-05-25"
     }
   ]
 }
