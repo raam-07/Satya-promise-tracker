@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-05-25",
+    "last_updated": "2026-05-26",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 20,
@@ -196,7 +196,7 @@
       ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-25"
+      "gemma_assessed_at": "2026-05-26"
     },
     {
       "id": "p010",
@@ -426,7 +426,7 @@
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-05-25"
+      "gemma_assessed_at": "2026-05-26"
     }
   ]
 }
