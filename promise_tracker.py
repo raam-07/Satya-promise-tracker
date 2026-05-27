@@ -388,7 +388,8 @@ def link_articles_to_promises(promises_data, articles, llm):
                 "scraped_at": article.get('scraped_at', ''),
                 "relevance_score": score,
                 "gemma_validated": True,
-                "rephrased": article.get('rephrased_article', '')[:200]
+                "rephrased": article.get('rephrased_article', '')[:200],
+                "content": article.get('content', '')  # <--- ADD THIS LINE
             })
 
         if new_links:
