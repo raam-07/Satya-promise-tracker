@@ -39,7 +39,7 @@ MODEL_PATH = "./models/gemma-2-9b-it-Q6_K.gguf"
 MAX_EVIDENCE_ARTICLES = 10
 
 # Minimum score to even consider an article for Gemma validation
-MIN_SCORE_THRESHOLD = 70
+MIN_SCORE_THRESHOLD = 55
 
 # Max articles to send to Gemma for relevance check (saves time)
 MAX_GEMMA_VALIDATION_BATCH = 20
@@ -278,7 +278,7 @@ def score_article_for_promise(article, promise_keywords, person_name, promise):
     person_match = False
     for part in person_parts:
         if len(part) > 3 and part in text:
-            score += 10  # Reduced from 20 — person alone doesn't make an article relevant
+            score += 20  # Restored to 20 to ensure high-signal matching
             person_match = True
 
     # Keyword matches — now much more important
