@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-05-26",
+    "last_updated": "2026-05-27",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 20,
@@ -196,7 +196,7 @@
       ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-26"
+      "gemma_assessed_at": "2026-05-27"
     },
     {
       "id": "p010",
@@ -412,7 +412,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is for 2047 and the current date is 2026.",
+      "gemma_reasoning": "The promise is for 2047 and is still many years away.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
@@ -426,7 +426,7 @@
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-05-26"
+      "gemma_assessed_at": "2026-05-27"
     }
   ]
 }
