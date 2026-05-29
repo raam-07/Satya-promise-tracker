@@ -45,7 +45,7 @@ MAX_EVIDENCE_ARTICLES = 10
 MIN_SCORE_THRESHOLD = 55
 
 # Max articles to send to Gemma for relevance check (saves time)
-MAX_GEMMA_VALIDATION_BATCH = 20
+MAX_GEMMA_VALIDATION_BATCH = 3
 
 # Maximum rows to process in a single execution to prevent timeouts
 MAX_ROWS_PER_RUN = 150
@@ -293,6 +293,40 @@ No explanation. No extra text. Only JSON.
 # --- AUTONOMOUS PROMISE EXTRACTION ---
 # ==============================================================================
 
+def find_politician_in_text(content_lower, minister_lookup):
+    """
+    Precisely matches politicians in text using word boundaries and name-specific exclusions.
+    Returns (canonical_name, matched_alias) or (None, None).
+    """
+    # Sort aliases by length descending to match longer specific aliases first
+    sorted_aliases = sorted(minister_lookup.keys(), key=len, reverse=True)
+    
+    for alias in sorted_aliases:
+        # Match as whole word only to prevent matching "modi" in "modifies" or "ak" in "Pakistan"
+        pattern = r'\b' + re.escape(alias) + r'\b'
+        if re.search(pattern, content_lower):
+            canonical_name = minister_lookup[alias]
+            
+            # --- SPECIFIC EXCLUSIONS FOR HIGH-FALSE-POSITIVE ALIASES ---
+            if alias == 'shah':
+                # Exclude Pakistani cricketer Naseem Shah, Sindh CM Murad Ali Shah, Shah Rukh Khan, etc.
+                if any(x in content_lower for x in ['naseem shah', 'murad ali shah', 'shah rukh', 'sher shah', 'danial shah']):
+                    continue
+            
+            elif alias == 'arvind':
+                # Exclude economist Arvind Panagariya, Arvind Subramanian, etc.
+                if any(x in content_lower for x in ['arvind panagariya', 'arvind subramanian', 'arvind gupta']):
+                    continue
+            
+            elif alias == 'modi':
+                # Exclude Lalit Modi, Nirav Modi, Sushil Modi (unless it's PM Modi)
+                if any(x in content_lower for x in ['nirav modi', 'lalit modi', 'sushil modi']) and not any(x in content_lower for x in ['narendra modi', 'pm modi', 'modiji']):
+                    continue
+
+            return canonical_name, alias
+            
+    return None, None
+
 def extract_new_promises_from_articles(llm, articles, existing_promises, minister_lookup):
     """
     Evaluates new articles and uses Gemma to discover and extract new concrete policy promises.
@@ -311,14 +345,8 @@ def extract_new_promises_from_articles(llm, articles, existing_promises, ministe
         content = f"{title} {summary}"
         content_lower = content.lower()
 
-        # 1. Match against master dynamic politician list in less than 1 millisecond
-        matched_canonical = None
-        matched_keyword = None
-        for alias_lower, canonical_name in minister_lookup.items():
-            if alias_lower in content_lower:
-                matched_canonical = canonical_name
-                matched_keyword = alias_lower
-                break
+        # 1. Match against master dynamic politician list using high-precision regex and name exclusions
+        matched_canonical, matched_keyword = find_politician_in_text(content_lower, minister_lookup)
 
         if not matched_canonical:
             continue
@@ -462,10 +490,25 @@ def score_article_for_promise(article, promise_keywords, person_name, promise):
     # Person name match
     person_parts = person_name.lower().split()
     person_match = False
-    for part in person_parts:
-        if len(part) > 3 and part in text:
-            score += 20
-            person_match = True
+    
+    # Exclusions for matching name parts in this specific article
+    has_exclusion = False
+    p_name_lower = person_name.lower()
+    if p_name_lower == 'amit shah':
+        if any(x in text for x in ['naseem shah', 'murad ali shah', 'shah rukh', 'sher shah', 'danial shah']):
+            has_exclusion = True
+    elif p_name_lower == 'arvind kejriwal':
+        if any(x in text for x in ['arvind panagariya', 'arvind subramanian', 'arvind gupta']):
+            has_exclusion = True
+    elif p_name_lower == 'narendra modi':
+        if any(x in text for x in ['nirav modi', 'lalit modi', 'sushil modi']) and not any(x in text for x in ['narendra modi', 'pm modi', 'modiji']):
+            has_exclusion = True
+
+    if not has_exclusion:
+        for part in person_parts:
+            if len(part) > 3 and re.search(r'\b' + re.escape(part) + r'\b', text):
+                score += 20
+                person_match = True
 
     # Keyword matches
     matched_keywords = 0
