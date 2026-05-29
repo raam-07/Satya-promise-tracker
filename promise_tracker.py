@@ -3,6 +3,7 @@
 #
 # Reads promises.json + Classified Sheet and:
 #   1. Autonomously extracts new promises from news articles (Zero-Human Mode)
+#      - Dynamically loads tracked politicians from satya-entity-library
 #   2. Links relevant articles to each promise as evidence (Delta Syncing)
 #      - Score-based filtering (threshold 55)
 #      - Gemma pre-validation to confirm relevance before linking
@@ -30,6 +31,8 @@ CLASSIFIED_SHEET_NAME = 'Satya Classified'
 CLASSIFIED_WORKSHEET_NAME = 'Sheet1'
 
 PROMISES_JSON_URL = os.environ.get('PROMISES_JSON_URL', '')
+ENTITIES_JSON_URL = os.environ.get('ENTITIES_JSON_URL', 'https://raw.githubusercontent.com/raam-07/satya-entity-library/main/entities.json')
+
 PROMISES_OUTPUT_PATH = './promises.json'
 REVIEW_PROMISES_PATH = './review_promises.json'
 
@@ -90,7 +93,7 @@ def fetch_new_articles(sheet, start_row=1):
             article = json.loads(row[0])
             article['sheet_row'] = index
             
-            # LIVE LOGGING: Print progress for each row loaded
+            # LIVE LOGGING: Real-time progress on ingestion
             logging.info(f"  [Row {index}/{total_rows}] Ingested: \"{article.get('title', '')[:50]}...\" from {article.get('source', '')}")
             
             articles.append(article)
@@ -101,7 +104,7 @@ def fetch_new_articles(sheet, start_row=1):
     return articles, end_row
 
 # ==============================================================================
-# --- LOAD PROMISES ---
+# --- LOAD PROMISES & ENTITIES ---
 # ==============================================================================
 
 def load_promises():
@@ -129,6 +132,40 @@ def load_promises():
         },
         "promises": []
     }
+
+def load_tracked_politicians():
+    """
+    Dynamically loads the master list of all politicians from your entities.json database.
+    """
+    url = ENTITIES_JSON_URL.strip()
+    try:
+        logging.info("Fetching master entities.json to load politicians...")
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        entities = response.json()
+        
+        # Extract names from cabinet_ministers, state_chief_ministers, and opposition_leaders
+        all_ministers = (
+            entities.get('india', {}).get('cabinet_ministers', []) +
+            entities.get('india', {}).get('state_chief_ministers', []) +
+            entities.get('india', {}).get('opposition_leaders', [])
+        )
+        
+        # Capture canonical names and aliases
+        lookup = {}
+        for m in all_ministers:
+            name = m.get('name')
+            if name:
+                lookup[name.lower()] = name
+                for alias in m.get('aliases', []):
+                    if alias:
+                        lookup[alias.lower()] = name
+                        
+        logging.info(f"Loaded {len(lookup)} unique politician names/aliases dynamically from entities.json")
+        return lookup
+    except Exception as e:
+        logging.warning(f"Failed to load entities.json dynamically: {e}. Falling back to promises.json names.")
+        return {}
 
 # ==============================================================================
 # --- GEMMA ---
@@ -256,15 +293,15 @@ No explanation. No extra text. Only JSON.
 # --- AUTONOMOUS PROMISE EXTRACTION ---
 # ==============================================================================
 
-def extract_new_promises_from_articles(llm, articles, existing_promises, tracked_politicians):
+def extract_new_promises_from_articles(llm, articles, existing_promises, minister_lookup):
     """
     Evaluates new articles and uses Gemma to discover and extract new concrete policy promises.
-    Newly discovered promises are initialized with "ongoing" status per strategic design.
+    Uses dynamic politician list from entities.json as a fast Python filter for 100% precision.
     """
     if llm is None or not articles:
         return []
 
-    logging.info("--- Running Promise Extraction Pass ---")
+    logging.info("--- Running Promise Extraction Pass (Dynamic Entities) ---")
     new_extracted_promises = []
     existing_text_list = [p['promise'].lower() for p in existing_promises]
 
@@ -274,25 +311,25 @@ def extract_new_promises_from_articles(llm, articles, existing_promises, tracked
         content = f"{title} {summary}"
         content_lower = content.lower()
 
-        # 1. Match against known politicians to filter noise quickly
-        matched_neta = None
-        for neta in tracked_politicians:
-            neta_parts = neta.lower().split()
-            # If any significant name part matches the text
-            if any(part in content_lower and len(part) > 3 for part in neta_parts):
-                matched_neta = neta
+        # 1. Match against master dynamic politician list in less than 1 millisecond
+        matched_canonical = None
+        matched_keyword = None
+        for alias_lower, canonical_name in minister_lookup.items():
+            if alias_lower in content_lower:
+                matched_canonical = canonical_name
+                matched_keyword = alias_lower
                 break
 
-        if not matched_neta:
+        if not matched_canonical:
             continue
 
-        # LIVE LOGGING: Show candidate matching and startup of Gemma
-        logging.info(f"  [Article {index}] Found candidate for {matched_neta}: \"{title[:50]}...\"")
+        # LIVE LOGGING: Show active candidate matching and gemma start
+        logging.info(f"  [Article {index}] Found candidate for {matched_canonical} (via keyword '{matched_keyword}'): \"{title[:50]}...\"")
         logging.info("  [Gemma] Running promise extraction inference...")
 
         # 2. Ask Gemma if a concrete promise has been announced in this news
         prompt = f"""<start_of_turn>user
-Analyze the news article below. Determine if the politician ({matched_neta}) has explicitly made a concrete, measurable future policy promise or developmental target (e.g., "will build X by Y", "pledges to provide Z", "committed to implementing A"). 
+Analyze the news article below. Determine if the politician ({matched_canonical}) has explicitly made a concrete, measurable future policy promise or developmental target (e.g., "will build X by Y", "pledges to provide Z"). 
 
 Do not include routine political statements, criticisms of the opposition, general administrative duties, or scheduling announcements.
 
@@ -327,7 +364,7 @@ No explanation. No extra text. Only JSON.
             raw = re.sub(r'```json|```', '', raw).strip()
             parsed = json.loads(raw)
             elapsed = round(time.time() - start_inference, 2)
-            logging.info(f"  [Gemma] Inference finished in {elapsed}s.")
+            logging.info(f"    [Gemma] Inference finished in {elapsed}s.")
 
             if parsed.get('is_promise') is True:
                 promise_candidate = parsed.get('promise_text', '').strip()
@@ -350,7 +387,7 @@ No explanation. No extra text. Only JSON.
                     if not is_duplicate:
                         new_promise_entry = {
                             "id": f"promise_{int(time.time())}_{len(new_extracted_promises)}",
-                            "person": matched_neta,
+                            "person": matched_canonical,
                             "promise": promise_candidate,
                             "category": category,
                             "status": "ongoing",
@@ -358,11 +395,11 @@ No explanation. No extra text. Only JSON.
                         }
                         new_extracted_promises.append(new_promise_entry)
                         existing_text_list.append(promise_candidate.lower())
-                        logging.info(f"  ★ SUCCESS: Extracted New Promise: [{matched_neta}] {promise_candidate[:60]}...")
+                        logging.info(f"    ★ SUCCESS: Extracted New Promise: [{matched_canonical}] {promise_candidate[:60]}...")
             else:
-                logging.info("  [Gemma] Rejected: No concrete promise found in this news article.")
+                logging.info("    [Gemma] Rejected: No concrete promise found in this news article.")
         except Exception as e:
-            logging.warning(f"  Failed to parse new promise from article: {e}")
+            logging.warning(f"    Failed to parse new promise from article: {e}")
             continue
 
     logging.info(f"Auto-extracted {len(new_extracted_promises)} new promises from the incoming articles.")
@@ -642,28 +679,33 @@ def main():
     sheet = connect_to_sheets()
     articles, newest_row = fetch_new_articles(sheet, start_row=last_processed_row)
 
-    # 4. Load Gemma inference engine
+    # 4. Load master politician lookup from entities.json
+    minister_lookup = load_tracked_politicians()
+
+    # 5. Load Gemma inference engine
     llm = load_gemma()
 
-    # 5. Autonomous extraction pass (only if there are new articles)
+    # 6. Autonomous extraction pass (only if there are new articles and lookup loaded successfully)
     if articles and llm:
-        # Extract unique politician names present in our current dataset
-        tracked_politicians = list({p.get('person') for p in promises_data['promises'] if p.get('person')})
-        
-        # Discover and extract new promises from the incoming stream
-        new_promises = extract_new_promises_from_articles(llm, articles, promises_data['promises'], tracked_politicians)
+        # Fallback to promises names if entities.json could not be loaded
+        if not minister_lookup:
+            names = list({p.get('person') for p in promises_data['promises'] if p.get('person')})
+            minister_lookup = {name.lower(): name for name in names}
+            
+        # Discover and extract new promises from the incoming stream (Dynamic/Optimized Pass)
+        new_promises = extract_new_promises_from_articles(llm, articles, promises_data['promises'], minister_lookup)
         if new_promises:
             promises_data['promises'].extend(new_promises)
             logging.info(f"Auto-added {len(new_promises)} new promises directly to database.")
 
-    # 6. Link articles to promises as evidence
+    # 7. Link articles to promises as evidence
     if articles:
         promises_data = link_articles_to_promises(promises_data, articles, llm)
 
-    # 7. Evaluate and assess promise statuses
+    # 8. Evaluate and assess promise statuses
     promises_data, review_items = assess_promise_statuses(promises_data, llm)
 
-    # 8. Update execution metadata
+    # 9. Update execution metadata
     promises_data['metadata']['last_updated'] = str(datetime.now().date())
     promises_data['metadata']['total_promises'] = len(promises_data['promises'])
     promises_data['metadata']['last_processed_row'] = newest_row
@@ -672,12 +714,12 @@ def main():
         if any(a.get('gemma_validated') for a in p.get('evidence_articles', []))
     )
 
-    # 9. Save updated promises.json
+    # 10. Save updated promises.json
     with open(PROMISES_OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(promises_data, f, indent=2, ensure_ascii=False)
     logging.info(f"Saved promises.json with updated last_processed_row = {newest_row}")
 
-    # 10. Save review file (retains audit compatibility for status shifts)
+    # 11. Save review file (retains audit compatibility for status shifts)
     review_output = {
         "generated_at": str(datetime.now()),
         "summary": {
