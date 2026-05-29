@@ -29,15 +29,15 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-promise-tracker-v1
+          key: ${{ runner.os }}-pip-promise-tracker-v2 # Bust cache from previous unaccelerated runs
 
       - name: Install Dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          # Force the compiler to build llama-cpp with native AVX/AVX2 CPU vector acceleration (using GGML flags)
+          # Force clean compilation from source with native AVX/AVX2 CPU vector acceleration
           CMAKE_ARGS="-DGGML_AVX=ON -DGGML_AVX2=ON -DGGML_FMA=ON" \
-          pip install --no-binary :all: llama-cpp-python==0.2.90
+          pip install --no-cache-dir --force-reinstall --no-binary :all: llama-cpp-python==0.2.90
 
       - name: Cache Gemma Model
         id: cache-model
