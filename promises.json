@@ -5,7 +5,8 @@
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 20,
-    "promises_with_evidence": 4
+    "promises_with_evidence": 4,
+    "last_processed_row": 151
   },
   "promises": [
     {
@@ -119,10 +120,10 @@
       "deadline": "ongoing",
       "source_url": "https://www.bjp.org/manifesto2014",
       "source_description": "BJP campaign slogan and multiple rallies",
-      "status": "broken",
+      "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Ongoing corruption investigations suggest the promise is not yet fulfilled.",
+      "gemma_reasoning": "Ongoing investigations suggest corruption persists.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",

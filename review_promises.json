@@ -1,21 +1,20 @@
 {
-  "generated_at": "2026-05-29 13:34:11.687180",
+  "generated_at": "2026-05-29 22:40:55.998202",
   "summary": {
     "total_promises": 20,
     "promises_with_validated_evidence": 4,
-    "statuses_needing_review": 1
+    "statuses_automatically_updated": 1
   },
-  "review_items": [
+  "updated_items": [
     {
       "promise_id": "p006",
       "person": "Narendra Modi",
       "promise": "End corruption completely — 'Na khaunga, na khane dunga'",
-      "current_status": "broken",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Ongoing corruption investigations suggest the promise is not yet fulfilled.",
+      "previous_status": "broken",
+      "new_status": "ongoing",
+      "gemma_reasoning": "Ongoing investigations suggest corruption persists.",
       "gemma_confidence": "medium",
-      "evidence_count": 1,
-      "action_needed": "Review and update status in promises.json"
+      "evidence_count": 1
     }
   ]
 }
