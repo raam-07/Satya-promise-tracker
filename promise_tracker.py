@@ -293,35 +293,56 @@ No explanation. No extra text. Only JSON.
 # --- AUTONOMOUS PROMISE EXTRACTION ---
 # ==============================================================================
 
-def find_politician_in_text(content_lower, minister_lookup):
+def find_politician_in_text(content, content_lower, minister_lookup):
     """
-    Precisely matches politicians in text using word boundaries and name-specific exclusions.
-    Returns (canonical_name, matched_alias) or (None, None).
+    Precisely and dynamically matches politicians in text without any hardcoded names or words.
+    Uses surrounding capitalization and allowed wordlists from entities.json.
     """
-    # Sort aliases by length descending to match longer specific aliases first
+    # Sort aliases by length descending so longer specific aliases match first
     sorted_aliases = sorted(minister_lookup.keys(), key=len, reverse=True)
     
+    # Dynamically build a map of allowed words for each politician based on entities.json
+    allowed_words_map = {}
+    for alias_lower, canonical_name in minister_lookup.items():
+        if canonical_name not in allowed_words_map:
+            words = set()
+            for w in canonical_name.lower().split():
+                words.add(w)
+            for a_lower, c_name in minister_lookup.items():
+                if c_name == canonical_name:
+                    for w in a_lower.split():
+                        words.add(w)
+            allowed_words_map[canonical_name] = words
+
     for alias in sorted_aliases:
-        # Match as whole word only to prevent matching "modi" in "modifies" or "ak" in "Pakistan"
+        # Match as whole word only to prevent matching "modi" in "modifies"
         pattern = r'\b' + re.escape(alias) + r'\b'
-        if re.search(pattern, content_lower):
+        match = re.search(pattern, content_lower)
+        
+        if match:
             canonical_name = minister_lookup[alias]
+            allowed_words = allowed_words_map.get(canonical_name, set())
             
-            # --- SPECIFIC EXCLUSIONS FOR HIGH-FALSE-POSITIVE ALIASES ---
-            if alias == 'shah':
-                # Exclude Pakistani cricketer Naseem Shah, Sindh CM Murad Ali Shah, Shah Rukh Khan, etc.
-                if any(x in content_lower for x in ['naseem shah', 'murad ali shah', 'shah rukh', 'sher shah', 'danial shah']):
-                    continue
-            
-            elif alias == 'arvind':
-                # Exclude economist Arvind Panagariya, Arvind Subramanian, etc.
-                if any(x in content_lower for x in ['arvind panagariya', 'arvind subramanian', 'arvind gupta']):
-                    continue
-            
-            elif alias == 'modi':
-                # Exclude Lalit Modi, Nirav Modi, Sushil Modi (unless it's PM Modi)
-                if any(x in content_lower for x in ['nirav modi', 'lalit modi', 'sushil modi']) and not any(x in content_lower for x in ['narendra modi', 'pm modi', 'modiji']):
-                    continue
+            # If the alias is a single word, check surrounding capitalized words to avoid false positive names
+            if ' ' not in alias:
+                start_idx = match.start()
+                end_idx = match.end()
+                
+                # Check preceding word casing
+                preceding_part = content[:start_idx].strip()
+                preceding_words = re.findall(r'\b\w+\b', preceding_part)
+                if preceding_words:
+                    prec_word = preceding_words[-1]
+                    if prec_word[0].isupper() and prec_word.lower() not in allowed_words:
+                        continue
+                
+                # Check succeeding word casing
+                succeeding_part = content[end_idx:].strip()
+                succeeding_words = re.findall(r'\b\w+\b', succeeding_part)
+                if succeeding_words:
+                    succ_word = succeeding_words[0]
+                    if succ_word[0].isupper() and succ_word.lower() not in allowed_words:
+                        continue
 
             return canonical_name, alias
             
@@ -345,8 +366,8 @@ def extract_new_promises_from_articles(llm, articles, existing_promises, ministe
         content = f"{title} {summary}"
         content_lower = content.lower()
 
-        # 1. Match against master dynamic politician list using high-precision regex and name exclusions
-        matched_canonical, matched_keyword = find_politician_in_text(content_lower, minister_lookup)
+        # 1. Match against master dynamic politician list using high-precision regex and dynamic exclusions
+        matched_canonical, matched_keyword = find_politician_in_text(content, content_lower, minister_lookup)
 
         if not matched_canonical:
             continue
@@ -484,25 +505,47 @@ def score_article_for_promise(article, promise_keywords, person_name, promise):
     Score how relevant an article is to a promise.
     Returns a score 0-100.
     """
-    text = f"{article.get('title', '')} {article.get('rephrased_article', '')} {article.get('content', '')[:400]}".lower()
+    content = f"{article.get('title', '')} {article.get('rephrased_article', '')} {article.get('content', '')[:400]}"
+    text = content.lower()
     score = 0
 
     # Person name match
     person_parts = person_name.lower().split()
     person_match = False
     
-    # Exclusions for matching name parts in this specific article
+    # Dynamically build allowed words list for this person
+    allowed_words = {w.lower() for w in person_name.lower().split() if w}
+    for kw in promise_keywords:
+        for part in kw.split():
+            allowed_words.add(part.lower())
+
     has_exclusion = False
-    p_name_lower = person_name.lower()
-    if p_name_lower == 'amit shah':
-        if any(x in text for x in ['naseem shah', 'murad ali shah', 'shah rukh', 'sher shah', 'danial shah']):
-            has_exclusion = True
-    elif p_name_lower == 'arvind kejriwal':
-        if any(x in text for x in ['arvind panagariya', 'arvind subramanian', 'arvind gupta']):
-            has_exclusion = True
-    elif p_name_lower == 'narendra modi':
-        if any(x in text for x in ['nirav modi', 'lalit modi', 'sushil modi']) and not any(x in text for x in ['narendra modi', 'pm modi', 'modiji']):
-            has_exclusion = True
+    # Check if any part of the name matches but is surrounded by an unallowed capitalized name
+    for part in person_parts:
+        if len(part) > 3:
+            pattern = r'\b' + re.escape(part) + r'\b'
+            match = re.search(pattern, text)
+            if match:
+                start_idx = match.start()
+                end_idx = match.end()
+                
+                # Check preceding
+                preceding_part = content[:start_idx].strip()
+                preceding_words = re.findall(r'\b\w+\b', preceding_part)
+                if preceding_words:
+                    prec_word = preceding_words[-1]
+                    if prec_word[0].isupper() and prec_word.lower() not in allowed_words:
+                        has_exclusion = True
+                        break
+                
+                # Check succeeding
+                succeeding_part = content[end_idx:].strip()
+                succeeding_words = re.findall(r'\b\w+\b', succeeding_part)
+                if succeeding_words:
+                    succ_word = succeeding_words[0]
+                    if succ_word[0].isupper() and succ_word.lower() not in allowed_words:
+                        has_exclusion = True
+                        break
 
     if not has_exclusion:
         for part in person_parts:
