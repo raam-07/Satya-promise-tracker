@@ -89,6 +89,10 @@ def fetch_new_articles(sheet, start_row=1):
         try:
             article = json.loads(row[0])
             article['sheet_row'] = index
+            
+            # LIVE LOGGING: Print progress for each row loaded
+            logging.info(f"  [Row {index}/{total_rows}] Ingested: \"{article.get('title', '')[:50]}...\" from {article.get('source', '')}")
+            
             articles.append(article)
         except json.JSONDecodeError:
             continue
@@ -172,6 +176,7 @@ No explanation. No extra text.
 <start_of_turn>model
 """
     try:
+        start_time = time.time()
         response = llm(
             prompt,
             max_tokens=20,
@@ -182,6 +187,8 @@ No explanation. No extra text.
         raw = response['choices'][0].get('text', '').strip()
         raw = re.sub(r'```json|```', '', raw).strip()
         parsed = json.loads(raw)
+        elapsed = round(time.time() - start_time, 2)
+        logging.info(f"    [Gemma] Relevance check completed in {elapsed}s.")
         return parsed.get('relevant', 'no').lower() == 'yes'
     except Exception:
         return False  # If Gemma fails, reject the article (safe default)
@@ -218,6 +225,7 @@ No explanation. No extra text. Only JSON.
 <start_of_turn>model
 """
     try:
+        start_time = time.time()
         response = llm(
             prompt,
             max_tokens=150,
@@ -235,6 +243,8 @@ No explanation. No extra text. Only JSON.
 
         reasoning = str(parsed.get('reasoning', '')).strip()
         confidence = parsed.get('confidence', 'low').lower()
+        elapsed = round(time.time() - start_time, 2)
+        logging.info(f"    [Gemma] Status assessment completed in {elapsed}s.")
 
         return status, reasoning, confidence
 
@@ -258,7 +268,7 @@ def extract_new_promises_from_articles(llm, articles, existing_promises, tracked
     new_extracted_promises = []
     existing_text_list = [p['promise'].lower() for p in existing_promises]
 
-    for article in articles:
+    for index, article in enumerate(articles, start=1):
         title = article.get('title', '')
         summary = article.get('rephrased_article', '')
         content = f"{title} {summary}"
@@ -275,6 +285,10 @@ def extract_new_promises_from_articles(llm, articles, existing_promises, tracked
 
         if not matched_neta:
             continue
+
+        # LIVE LOGGING: Show candidate matching and startup of Gemma
+        logging.info(f"  [Article {index}] Found candidate for {matched_neta}: \"{title[:50]}...\"")
+        logging.info("  [Gemma] Running promise extraction inference...")
 
         # 2. Ask Gemma if a concrete promise has been announced in this news
         prompt = f"""<start_of_turn>user
@@ -301,6 +315,7 @@ No explanation. No extra text. Only JSON.
 <start_of_turn>model
 """
         try:
+            start_inference = time.time()
             response = llm(
                 prompt,
                 max_tokens=150,
@@ -311,6 +326,8 @@ No explanation. No extra text. Only JSON.
             raw = response['choices'][0].get('text', '').strip()
             raw = re.sub(r'```json|```', '', raw).strip()
             parsed = json.loads(raw)
+            elapsed = round(time.time() - start_inference, 2)
+            logging.info(f"  [Gemma] Inference finished in {elapsed}s.")
 
             if parsed.get('is_promise') is True:
                 promise_candidate = parsed.get('promise_text', '').strip()
@@ -341,7 +358,9 @@ No explanation. No extra text. Only JSON.
                         }
                         new_extracted_promises.append(new_promise_entry)
                         existing_text_list.append(promise_candidate.lower())
-                        logging.info(f"  ★ Extracted Promise: [{matched_neta}] {promise_candidate[:60]}...")
+                        logging.info(f"  ★ SUCCESS: Extracted New Promise: [{matched_neta}] {promise_candidate[:60]}...")
+            else:
+                logging.info("  [Gemma] Rejected: No concrete promise found in this news article.")
         except Exception as e:
             logging.warning(f"  Failed to parse new promise from article: {e}")
             continue
