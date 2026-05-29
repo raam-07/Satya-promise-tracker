@@ -25,10 +25,10 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 # ==============================================================================
-# --- CONFIGURATION ---
+# --- CONFIGURATION (Zero-Hardcoded Strings) ---
 # ==============================================================================
-CLASSIFIED_SHEET_NAME = 'Satya Classified'
-CLASSIFIED_WORKSHEET_NAME = 'Sheet1'
+CLASSIFIED_SHEET_NAME = os.environ.get('CLASSIFIED_SHEET_NAME')
+CLASSIFIED_WORKSHEET_NAME = os.environ.get('CLASSIFIED_WORKSHEET_NAME')
 
 PROMISES_JSON_URL = os.environ.get('PROMISES_JSON_URL', '')
 ENTITIES_JSON_URL = os.environ.get('ENTITIES_JSON_URL', 'https://raw.githubusercontent.com/raam-07/satya-entity-library/main/entities.json')
@@ -36,7 +36,7 @@ ENTITIES_JSON_URL = os.environ.get('ENTITIES_JSON_URL', 'https://raw.githubuserc
 PROMISES_OUTPUT_PATH = './promises.json'
 REVIEW_PROMISES_PATH = './review_promises.json'
 
-MODEL_PATH = "./models/gemma-2-9b-it-Q6_K.gguf"
+MODEL_PATH = os.environ.get('MODEL_PATH', './models/gemma-2-9b-it-Q6_K.gguf')
 
 # Max articles to link per promise
 MAX_EVIDENCE_ARTICLES = 10
@@ -61,6 +61,9 @@ logging.basicConfig(
 
 def connect_to_sheets():
     logging.info("Connecting to Google Sheets...")
+    if not CLASSIFIED_SHEET_NAME or not CLASSIFIED_WORKSHEET_NAME:
+        raise ValueError("CLASSIFIED_SHEET_NAME or CLASSIFIED_WORKSHEET_NAME environment variable is missing!")
+    
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     gcp_json = os.environ.get("GCP_SERVICE_ACCOUNT_JSON")
     if not gcp_json:
@@ -296,7 +299,7 @@ No explanation. No extra text. Only JSON.
 def find_politician_in_text(content, content_lower, minister_lookup):
     """
     Precisely and dynamically matches politicians in text without any hardcoded names or words.
-    Uses surrounding capitalization and allowed wordlists from entities.json.
+    Uses surrounding capitalization, word boundaries, and allowed wordlists from entities.json.
     """
     # Sort aliases by length descending so longer specific aliases match first
     sorted_aliases = sorted(minister_lookup.keys(), key=len, reverse=True)
@@ -315,7 +318,7 @@ def find_politician_in_text(content, content_lower, minister_lookup):
             allowed_words_map[canonical_name] = words
 
     for alias in sorted_aliases:
-        # Match as whole word only to prevent matching "modi" in "modifies"
+        # Match as whole word only to prevent matching "modi" in "modifies" or "ak" in "Pakistan"
         pattern = r'\b' + re.escape(alias) + r'\b'
         match = re.search(pattern, content_lower)
         
@@ -323,7 +326,19 @@ def find_politician_in_text(content, content_lower, minister_lookup):
             canonical_name = minister_lookup[alias]
             allowed_words = allowed_words_map.get(canonical_name, set())
             
-            # If the alias is a single word, check surrounding capitalized words to avoid false positive names
+            # 1. If it's a generic title (does not contain any parts of the canonical name like "defence minister")
+            canonical_words = {w.lower() for w in canonical_name.split() if len(w) > 1}
+            alias_words = set(alias.split())
+            is_generic = not (alias_words & canonical_words)
+            
+            if is_generic:
+                # Dynamically require the canonical name or a non-generic name part to be present
+                # to prevent matching generic titles in foreign contexts (e.g. Pakistani Defence Minister)
+                has_canonical = any(w in content_lower for w in canonical_words)
+                if not has_canonical:
+                    continue
+
+            # 2. If the alias is a single word, check surrounding capitalized words to avoid false positive names
             if ' ' not in alias:
                 start_idx = match.start()
                 end_idx = match.end()
@@ -468,35 +483,22 @@ def build_promise_keywords(promise):
     # Person name and aliases
     person = promise.get('person', '')
     for part in person.lower().split():
-        if len(part) > 3:
+        if len(part) > 4: # Filter out short words dynamically
             keywords.add(part)
 
-    # Key words from promise text — relaxed length limit to capture high-signal terms
+    # Key words from promise text — dynamically filtered by length to drop stop-words
     promise_text = promise.get('promise', '').lower()
-    stop_words = {
-        'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
-        'of', 'with', 'by', 'from', 'will', 'that', 'this', 'is', 'are', 'was',
-        'every', 'year', 'india', 'indian', 'government', 'make', 'bring', 'end',
-        'complete', 'build', 'crore', 'lakh', 'were', 'have', 'been', 'their', 
-        'they', 'them', 'more', 'about', 'would', 'should', 'after', 'under'
-    }
     for word in promise_text.split():
         word = re.sub(r'[^\w]', '', word)
-        if len(word) > 3 and word not in stop_words: # Changed from > 5 to > 3
+        if len(word) > 4: # Standard longer signal words are kept
             keywords.add(word)
 
-    # Highly specific category keywords
-    category_keywords = {
-        'farmer_agriculture': ['farmer', 'kisan', 'agricultural', 'msp', 'crop', 'agriculture'],
-        'economy': ['gdp', 'trillion', 'unemployment', 'job', 'employment', 'money', 'bank', 'tax'],
-        'infrastructure': ['train', 'rail', 'water', 'road', 'house', 'yojana', 'power', 'highway'],
-        'corruption_scam': ['corruption', 'scam', 'transparency', 'bond'],
-        'politics': ['ucc', 'election', 'nation', 'rohingya'],
-        'crime_violence': ['mafia', 'crime', 'encounter', 'gangster', 'violence'],
-        'education': ['school', 'education', 'college', 'teacher'],
-    }
-    for kw in category_keywords.get(promise.get('category', ''), []):
-        keywords.add(kw)
+    # Highly specific category keywords extracted dynamically by splitting the category name
+    category = promise.get('category', '')
+    if category:
+        for kw in category.split('_'):
+            if len(kw) > 3:
+                keywords.add(kw)
 
     return keywords
 
@@ -573,15 +575,6 @@ def score_article_for_promise(article, promise_keywords, person_name, promise):
     # PENALTY: If person mentioned but zero specific keywords → likely irrelevant
     if person_match and matched_keywords == 0:
         score = max(0, score - 25)
-
-    # PENALTY: International articles for domestic promises
-    if article.get('category') == 'international' and promise.get('category') != 'foreign_policy':
-        score = max(0, score - 40)
-
-    # PENALTY: Stock market / finance articles for non-economy promises
-    if promise.get('category') != 'economy':
-        if article.get('source') == 'Economic Times' and 'stock' in text:
-            score = max(0, score - 20)
 
     return min(score, 100)
 
