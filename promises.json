@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 20,
     "promises_with_evidence": 4,
-    "last_processed_row": 151
+    "last_processed_row": 301
   },
   "promises": [
     {
@@ -123,7 +123,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Ongoing investigations suggest corruption persists.",
+      "gemma_reasoning": "Ongoing corruption investigations suggest the promise is not yet fulfilled.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -445,7 +445,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is for 2047 and is still many years away.",
+      "gemma_reasoning": "The promise is for 2047 and the current date is 2026.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
