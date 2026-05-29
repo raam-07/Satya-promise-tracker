@@ -35,8 +35,8 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          CMAKE_ARGS="-DLLAMA_AVX=OFF -DLLAMA_AVX2=OFF -DLLAMA_FMA=OFF" \
-          pip install --no-binary :all: llama-cpp-python==0.2.90
+          # Installs llama-cpp-python with default auto-detection to enable native AVX/AVX2 CPU vector acceleration
+          pip install llama-cpp-python==0.2.90
 
       - name: Cache Gemma Model
         id: cache-model
@@ -69,6 +69,7 @@ jobs:
         env:
           GCP_SERVICE_ACCOUNT_JSON: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
           PROMISES_JSON_URL: ${{ secrets.PROMISES_JSON_URL }}
+          PYTHONUNBUFFERED: "1"  # Forces Python to flush every log line to the screen instantly
         run: |
           python promise_tracker.py
 
