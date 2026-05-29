@@ -25,10 +25,10 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 # ==============================================================================
-# --- CONFIGURATION (Zero-Hardcoded Strings) ---
+# --- CONFIGURATION ---
 # ==============================================================================
-CLASSIFIED_SHEET_NAME = os.environ.get('CLASSIFIED_SHEET_NAME')
-CLASSIFIED_WORKSHEET_NAME = os.environ.get('CLASSIFIED_WORKSHEET_NAME')
+CLASSIFIED_SHEET_NAME = 'Satya Classified'
+CLASSIFIED_WORKSHEET_NAME = 'Sheet1'
 
 PROMISES_JSON_URL = os.environ.get('PROMISES_JSON_URL', '')
 ENTITIES_JSON_URL = os.environ.get('ENTITIES_JSON_URL', 'https://raw.githubusercontent.com/raam-07/satya-entity-library/main/entities.json')
@@ -61,9 +61,6 @@ logging.basicConfig(
 
 def connect_to_sheets():
     logging.info("Connecting to Google Sheets...")
-    if not CLASSIFIED_SHEET_NAME or not CLASSIFIED_WORKSHEET_NAME:
-        raise ValueError("CLASSIFIED_SHEET_NAME or CLASSIFIED_WORKSHEET_NAME environment variable is missing!")
-    
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     gcp_json = os.environ.get("GCP_SERVICE_ACCOUNT_JSON")
     if not gcp_json:
