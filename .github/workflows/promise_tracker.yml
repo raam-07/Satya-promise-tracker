@@ -35,7 +35,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          # Forces compiling from source to activate AVX/AVX2 CPU vector acceleration
+          # Force the compiler to build llama-cpp with native AVX/AVX2 CPU vector acceleration
           CMAKE_ARGS="-DLLAMA_AVX=ON -DLLAMA_AVX2=ON -DLLAMA_FMA=ON" \
           pip install --no-binary :all: llama-cpp-python==0.2.90
 
