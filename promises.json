@@ -4,9 +4,9 @@
     "last_updated": "2026-05-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 26,
+    "total_promises": 28,
     "promises_with_evidence": 6,
-    "last_processed_row": 1
+    "last_processed_row": 501
   },
   "promises": [
     {
@@ -202,7 +202,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Discussions and consultations regarding UCC implementation are ongoing.",
+      "gemma_reasoning": "Evidence shows ongoing discussion and consultation regarding UCC implementation.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -432,7 +432,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as the evidence shows active work.",
+      "gemma_reasoning": "The promise is ongoing as the evidence shows active work by the government.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -500,7 +500,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The announcement mentions plans for restructuring, indicating ongoing work.",
+      "gemma_reasoning": "The announcement indicates plans for restructuring, but no completion is confirmed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-21 08:37:33.591765"
@@ -563,6 +563,24 @@
       "category": "economy",
       "status": "ongoing",
       "created_at": "2026-05-14 19:24:34.499414",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780152434_0",
+      "person": "Nirmala Sitharaman",
+      "promise": "The Cabinet Committee on Economic Affairs approved a proposal where PFC acquired 52.63% of the government's holding in REC, consolidating them into a single balance sheet.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-05-21 08:37:33.591765",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780153152_1",
+      "person": "V.D. Satheesan",
+      "promise": "V.D. Satheesan indicated that the full list of Ministers will be presented to Governor Rajendra Vishwanath Arlekar by Sunday evening.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-05-16 17:08:19.361913",
       "evidence_articles": []
     }
   ]
