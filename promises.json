@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 20,
     "promises_with_evidence": 20,
-    "last_processed_row": 0
+    "last_processed_row": 1000
   },
   "promises": [
     {
@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise was made in 2014, and the provided evidence is from 2026.",
+      "gemma_reasoning": "The deadline of 2022 has passed and evidence suggests the promise was not kept.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -37,8 +37,8 @@
         }
       ],
       "notes": "Multiple government reports and farmer groups confirmed income did not double by 2022. Inflation-adjusted farm income actually declined in several states.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -54,8 +54,8 @@
       "source_description": "BJP Election Manifesto 2014",
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise is broken because the government has not created 2 crore jobs annually.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The evidence shows ongoing debate about the promise, not confirmation of completion.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -69,8 +69,8 @@
         }
       ],
       "notes": "CMIE data consistently showed unemployment rising post-2016. India added far fewer formal jobs than promised annually.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise is not mentioned in the provided articles.",
+      "gemma_reasoning": "The promise was not kept as no evidence suggests Rs 15 lakh was deposited in every Indian's account.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -101,8 +101,8 @@
         }
       ],
       "notes": "No black money repatriation happened. Rs 15 lakh was later called a 'jumla' by BJP president Amit Shah.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -116,10 +116,10 @@
       "deadline": "2022-12-31",
       "source_url": "https://pmaymis.gov.in",
       "source_description": "PM Awas Yojana launch announcement",
-      "status": "ongoing",
+      "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise was made in 2014, and the deadline passed in 2022.",
+      "gemma_reasoning": "The target deadline year of 2022 has passed.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/policy/305-cities-and-towns-identified-for-building-homes-under-housing-for-all-by-2022-mission/articleshow/48740523.cms",
@@ -133,8 +133,8 @@
         }
       ],
       "notes": "Target missed in 2022, deadline extended. Partial completion achieved but far short of original target.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise is broken because the provided evidence focuses on energy prices and economic policies, not the economic growth target.",
+      "gemma_reasoning": "The target deadline of 2024-25 has passed and the promise was not met.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -165,8 +165,8 @@
         }
       ],
       "notes": "India's GDP remains around $3.5 trillion. Target missed significantly. COVID cited as reason.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -214,8 +214,8 @@
       "source_description": "Union Budget 2017-18 announcement",
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The evidence provided does not support the claim that electoral bonds bring transparency to political funding.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The evidence shows the scheme is in operation and being defended.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/politics-and-nation/electoral-bonds-pm-modi-rejects-corruption-charge-says-scheme-was-aimed-at-curbing-black-money/articleshow/108316209.cms",
@@ -229,8 +229,8 @@
         }
       ],
       "notes": "Supreme Court struck down electoral bonds as unconstitutional in Feb 2024. SBI data showed BJP received largest share of anonymous donations.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -244,10 +244,10 @@
       "deadline": "2024-12-31",
       "source_url": "https://jaljeevanmission.gov.in",
       "source_description": "Independence Day address, Jal Jeevan Mission launch",
-      "status": "ongoing",
+      "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is a long-term goal with no specific timeline provided.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The target deadline of 2024 has passed and the project is likely to miss its goal.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/centres-potable-water-mission-may-miss-2024-target/article67029584.ece",
@@ -261,8 +261,8 @@
         }
       ],
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -319,8 +319,8 @@
       "source_description": "Multiple addresses and BJP manifesto",
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided evidence focuses on political controversies and internal party dynamics, not on the implementation of 'One Nation One Election'.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The committee has proposed a transition plan, but implementation is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -334,8 +334,8 @@
         }
       ],
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -351,8 +351,8 @@
       "source_description": "PM address to nation on demonetization",
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The promise is contradicted by the evidence of rising inflation and concerns about the impact of demonetization.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The government is defending demonetization in court, indicating ongoing efforts.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/india/demonetisation-a-well-considered-decision-to-combat-black-money-terror-financing-centre-tells-sc/articleshow/95556277.cms",
@@ -366,8 +366,8 @@
         }
       ],
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -383,8 +383,8 @@
       "source_description": "Bullet train project launch with Japan PM",
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as the project is approved, but not yet completed.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The deadline of 2023 has passed and the project is facing delays.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -398,8 +398,8 @@
         }
       ],
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -415,8 +415,8 @@
       "source_description": "Multiple public addresses",
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided text does not mention Amit Shah's promise to remove Rohingyas from India.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article reports ongoing efforts to identify and deport Rohingya immigrants.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/shah-asks-delhi-police-to-take-action-against-networks-helping-illegal-bangladeshis-rohingyas/article69275250.ece",
@@ -430,8 +430,8 @@
         }
       ],
       "notes": "Rohingya population continues to live in India. Deportations happen occasionally but not systematically.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -448,7 +448,7 @@
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "No information provided about Arvind Kejriwal's promise regarding free and world-class government schools in Delhi.",
+      "gemma_reasoning": "Evidence shows ongoing work on school infrastructure upgrades.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/cities/Delhi/atishi-turns-spotlight-on-world-class-govt-schools-in-delhi-bjp-dismisses-her-claims/article68503297.ece",
@@ -462,8 +462,8 @@
         }
       ],
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -479,8 +479,8 @@
       "source_description": "AAP manifesto 2015",
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided text does not contain any information about the status of the free electricity promise.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article discusses ongoing work to resolve issues with the prepaid meter scheme.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/delhi-assembly/kejriwal-promises-free-200-units-electricity-for-tenants/article69114073.ece",
@@ -494,8 +494,8 @@
         }
       ],
       "notes": "Implemented and sustained. Free electricity up to 200 units provided to Delhi households.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided articles do not mention anything about Arvind Kejriwal's promise to clean the Yamuna river.",
+      "gemma_reasoning": "The target deadline year of 2025 has passed.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -526,8 +526,8 @@
         }
       ],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -544,7 +544,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Rahul Gandhi has proposed a NYAY scheme, but it has not been implemented.",
+      "gemma_reasoning": "The article describes the announcement of the scheme, not its implementation.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -559,7 +559,7 @@
       ],
       "notes": "Congress lost 2019 election. NYAY scheme never implemented. Remains a campaign promise.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
@@ -575,8 +575,8 @@
       "source_description": "CM oath taking speech and subsequent addresses",
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "The provided articles do not mention anything about Yogi Adityanath's promise regarding mafia and crime.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states ongoing work towards a zero-tolerance policy.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/other-states/with-zero-tolerance-for-crime-and-criminals-up-has-created-sense-of-security-for-industry-yogi-adityanath/article66169337.ece",
@@ -590,8 +590,8 @@
         }
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-30"
     },
     {
