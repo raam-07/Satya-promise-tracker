@@ -5,7 +5,7 @@
 #   1. Autonomously extracts new promises from news articles (Zero-Human Mode)
 #      - Dynamically loads tracked politicians from satya-entity-library
 #   2. Links relevant articles to each promise as evidence (Delta Syncing)
-#      - Score-based filtering (threshold 55)
+#      - Score-based filtering (threshold 45)
 #      - Gemma pre-validation to confirm relevance before linking
 #   3. Uses Gemma to suggest status (kept/broken/ongoing) based on evidence
 #   4. Updates promises.json with newly discovered promises and evidence
@@ -23,6 +23,43 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+from sentence_transformers import SentenceTransformer, util
+
+# === HELPERS FOR PRECISION TRACKING ===
+
+def parse_date_string(date_str):
+    """
+    Safely parses different ISO or custom date strings into a datetime object.
+    Falls back to current time if parsing fails.
+    """
+    if not date_str:
+        return datetime.now()
+    date_str = str(date_str).strip()
+    for fmt in ('%Y-%m-%d', '%Y-%m-%dT%H:%M:%S', '%Y-%m-%dT%H:%M:%S.%fZ', '%d-%m-%Y', '%Y/%m/%d'):
+        try:
+            return datetime.strptime(date_str, fmt)
+        except ValueError:
+            continue
+    # Try custom extraction using regex for YYYY-MM-DD
+    match = re.search(r'(\d{4})[-/](\d{2})[-/](\d{2})', date_str)
+    if match:
+        try:
+            return datetime(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+        except ValueError:
+            pass
+    return datetime.now()
+
+def extract_deadline_year(promise_text):
+    """
+    Extracts future or recent target years (e.g. 2024, 2025, 2026) from the promise text.
+    Returns the integer year if found, otherwise None.
+    """
+    if not promise_text:
+        return None
+    years = re.findall(r'\b(202[0-9]|203[0-5])\b', promise_text)
+    if years:
+        return int(years[0])
+    return None
 
 # ==============================================================================
 # --- CONFIGURATION ---
@@ -41,8 +78,8 @@ MODEL_PATH = os.environ.get('MODEL_PATH', './models/gemma-2-9b-it-Q6_K.gguf')
 # Max articles to link per promise
 MAX_EVIDENCE_ARTICLES = 10
 
-# Minimum score to even consider an article for Gemma validation
-MIN_SCORE_THRESHOLD = 55
+# Minimum score to even consider an article for Gemma validation (Semantic similarity threshold)
+MIN_SCORE_THRESHOLD = 45
 
 # Max articles to send to Gemma for relevance check (saves time)
 MAX_GEMMA_VALIDATION_BATCH = 3
@@ -54,6 +91,15 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
+# === LOAD SENTENCE TRANSFORMERS MODEL ===
+try:
+    logging.info("Loading Sentence Transformer model (all-MiniLM-L6-v2) for Pass 1...")
+    encoder_model = SentenceTransformer('all-MiniLM-L6-v2')
+    logging.info("Sentence Transformer loaded successfully.")
+except Exception as e:
+    logging.error(f"Failed to load Sentence Transformer model: {e}")
+    encoder_model = None
 
 # ==============================================================================
 # --- GOOGLE SHEETS & DELTA SYNCING ---
@@ -200,12 +246,16 @@ def gemma_is_article_relevant(llm, promise_text, person, article_title, article_
         return True  # If no Gemma, let it through
 
     prompt = f"""<start_of_turn>user
-Does the article below contain specific factual information about this political promise?
+Determine if the news article contains specific, factual information or updates regarding the progress, implementation, or roadblocks of this specific political promise.
 
 Promise: "{promise_text}" made by {person}
 
+CRITICAL RULES:
+- The article MUST describe factual progress or updates about the exact action and target of the promise (e.g., if the promise is to 'build a bridge', the article must discuss progress or issues about building that specific bridge).
+- Reject if the article only contains general background discussion or keywords without describing specific updates/progress related to this promise.
+
 Article Title: {article_title}
-Article Summary: {article_summary[:300]}
+Article Summary: {article_summary[:400]}
 
 Answer with ONLY a JSON: {{"relevant": "yes" or "no"}}
 No explanation. No extra text.
@@ -230,7 +280,7 @@ No explanation. No extra text.
     except Exception:
         return False  # If Gemma fails, reject the article (safe default)
 
-def gemma_assess_promise(llm, promise_text, person, evidence_texts):
+def gemma_assess_promise(llm, promise_text, person, evidence_texts, deadline_year=None):
     """
     Given a promise and evidence articles, Gemma suggests:
     - status: kept / broken / ongoing
@@ -243,14 +293,25 @@ def gemma_assess_promise(llm, promise_text, person, evidence_texts):
     combined_evidence = " | ".join(evidence_texts[:3])[:800]
 
     current_date = datetime.now().strftime("%B %d, %Y")
+    current_year = datetime.now().year
+
+    deadline_context = ""
+    if deadline_year:
+        deadline_context = f"\nNote: The promise specifies a target deadline year of {deadline_year}. Today's year is {current_year}."
+
     prompt = f"""<start_of_turn>user
-You are a fact-checker. Today's date is {current_date}. Based on the evidence articles below, assess the status of this political promise.
+You are a factual promise fact-checker. Today's date is {current_date}. Based on the evidence articles below, assess the status of this political promise.{deadline_context}
 
 Person: {person}
 Promise: {promise_text}
 
 Evidence from news articles:
 {combined_evidence}
+
+CRITICAL ASSESSMENT RULES:
+- If a target deadline year ({deadline_year if deadline_year else 'N/A'}) has passed, and the evidence does not clearly confirm successful completion, mark the status as "broken".
+- If the target deadline year has NOT passed, or if there is no deadline, and there is active ongoing work, mark the status as "ongoing".
+- Mark status as "kept" ONLY if the evidence clearly confirms the promise is fully completed/delivered.
 
 Return ONLY a JSON object with these fields:
 - "status": one of "kept", "broken", "ongoing"
@@ -298,10 +359,8 @@ def find_politician_in_text(content, content_lower, minister_lookup):
     Precisely and dynamically matches politicians in text without any hardcoded names or words.
     Uses surrounding capitalization, word boundaries, and allowed wordlists from entities.json.
     """
-    # Sort aliases by length descending so longer specific aliases match first
     sorted_aliases = sorted(minister_lookup.keys(), key=len, reverse=True)
     
-    # Dynamically build a map of allowed words for each politician based on entities.json
     allowed_words_map = {}
     for alias_lower, canonical_name in minister_lookup.items():
         if canonical_name not in allowed_words_map:
@@ -315,7 +374,6 @@ def find_politician_in_text(content, content_lower, minister_lookup):
             allowed_words_map[canonical_name] = words
 
     for alias in sorted_aliases:
-        # Match as whole word only to prevent matching "modi" in "modifies" or "ak" in "Pakistan"
         pattern = r'\b' + re.escape(alias) + r'\b'
         match = re.search(pattern, content_lower)
         
@@ -323,24 +381,19 @@ def find_politician_in_text(content, content_lower, minister_lookup):
             canonical_name = minister_lookup[alias]
             allowed_words = allowed_words_map.get(canonical_name, set())
             
-            # 1. If it's a generic title (does not contain any parts of the canonical name like "defence minister")
             canonical_words = {w.lower() for w in canonical_name.split() if len(w) > 1}
             alias_words = set(alias.split())
             is_generic = not (alias_words & canonical_words)
             
             if is_generic:
-                # Dynamically require the canonical name or a non-generic name part to be present
-                # to prevent matching generic titles in foreign contexts (e.g. Pakistani Defence Minister)
                 has_canonical = any(w in content_lower for w in canonical_words)
                 if not has_canonical:
                     continue
 
-            # 2. If the alias is a single word, check surrounding capitalized words to avoid false positive names
             if ' ' not in alias:
                 start_idx = match.start()
                 end_idx = match.end()
                 
-                # Check preceding word casing
                 preceding_part = content[:start_idx].strip()
                 preceding_words = re.findall(r'\b\w+\b', preceding_part)
                 if preceding_words:
@@ -348,7 +401,6 @@ def find_politician_in_text(content, content_lower, minister_lookup):
                     if prec_word[0].isupper() and prec_word.lower() not in allowed_words:
                         continue
                 
-                # Check succeeding word casing
                 succeeding_part = content[end_idx:].strip()
                 succeeding_words = re.findall(r'\b\w+\b', succeeding_part)
                 if succeeding_words:
@@ -378,33 +430,35 @@ def extract_new_promises_from_articles(llm, articles, existing_promises, ministe
         content = f"{title} {summary}"
         content_lower = content.lower()
 
-        # 1. Match against master dynamic politician list using high-precision regex and dynamic exclusions
         matched_canonical, matched_keyword = find_politician_in_text(content, content_lower, minister_lookup)
 
         if not matched_canonical:
             continue
 
-        # LIVE LOGGING: Show active candidate matching and gemma start
         logging.info(f"  [Article {index}] Found candidate for {matched_canonical} (via keyword '{matched_keyword}'): \"{title[:50]}...\"")
         logging.info("  [Gemma] Running promise extraction inference...")
 
-        # 2. Ask Gemma if a concrete promise has been announced in this news
         prompt = f"""<start_of_turn>user
-Analyze the news article below. Determine if the politician ({matched_canonical}) has explicitly made a concrete, measurable future policy promise or developmental target (e.g., "will build X by Y", "pledges to provide Z"). 
+You are a factual promise extractor. Analyze the news article below and determine if the politician ({matched_canonical}) has explicitly announced a concrete, measurable future policy promise or developmental target.
 
-Do not include routine political statements, criticisms of the opposition, general administrative duties, or scheduling announcements.
+A valid promise MUST announce a concrete future target, developmental objective, or physical/digital/legislative deliverable (e.g., 'will build 50 schools', 'pledges to distribute laptops by 2026', 'will construct the dry port').
+
+CRITICAL REJECTION RULES:
+- Reject general administrative routines (e.g., 'will attend a meeting', 'will inspect a project', 'will travel to').
+- Reject standard political statements, wishes, criticisms of other parties, or budget announcements that do not define clear, actionable future targets.
+- Reject vague intentions without any specific deliverable.
 
 Article Title: {title}
 Article Summary: {summary[:400]}
 
 Return ONLY a JSON response:
-If a concrete policy promise is identified:
+If a concrete policy promise matching the criteria above is identified:
 {{
   "is_promise": true,
   "promise_text": "A clear, concise, single-sentence statement of the specific promise made (e.g. 'Committed to installing drinking water taps in all rural households.')",
   "category": "one of: farmer_agriculture, economy, infrastructure, corruption_scam, politics, crime_violence, education"
 }}
-If no concrete promise is identified:
+If no concrete promise matching the strict criteria is identified:
 {{
   "is_promise": false
 }}
@@ -432,7 +486,6 @@ No explanation. No extra text. Only JSON.
                 category = parsed.get('category', 'politics')
 
                 if promise_candidate and category in ['farmer_agriculture', 'economy', 'infrastructure', 'corruption_scam', 'politics', 'crime_violence', 'education']:
-                    # 3. De-duplication check against existing promises
                     is_duplicate = False
                     words_candidate = set(re.findall(r'\w+', promise_candidate.lower()))
                     
@@ -452,6 +505,7 @@ No explanation. No extra text. Only JSON.
                             "promise": promise_candidate,
                             "category": category,
                             "status": "ongoing",
+                            "created_at": article.get('scraped_at', str(datetime.now().date())),
                             "evidence_articles": []
                         }
                         new_extracted_promises.append(new_promise_entry)
@@ -472,54 +526,42 @@ No explanation. No extra text. Only JSON.
 
 def build_promise_keywords(promise):
     """
-    Build a keyword set for matching articles to a promise.
-    Combines person name, promise text keywords, and category.
+    Fallback method to build keywords if encoder is disabled.
     """
     keywords = set()
-
-    # Person name and aliases
     person = promise.get('person', '')
     for part in person.lower().split():
-        if len(part) > 4: # Filter out short words dynamically
+        if len(part) > 4:
             keywords.add(part)
-
-    # Key words from promise text — dynamically filtered by length to drop stop-words
     promise_text = promise.get('promise', '').lower()
     for word in promise_text.split():
         word = re.sub(r'[^\w]', '', word)
-        if len(word) > 4: # Standard longer signal words are kept
+        if len(word) > 4:
             keywords.add(word)
-
-    # Highly specific category keywords extracted dynamically by splitting the category name
     category = promise.get('category', '')
     if category:
         for kw in category.split('_'):
             if len(kw) > 3:
                 keywords.add(kw)
-
     return keywords
 
 def score_article_for_promise(article, promise_keywords, person_name, promise):
     """
-    Score how relevant an article is to a promise.
-    Returns a score 0-100.
+    Fallback score computation based on keywords.
     """
     content = f"{article.get('title', '')} {article.get('rephrased_article', '')} {article.get('content', '')[:400]}"
     text = content.lower()
     score = 0
 
-    # Person name match
     person_parts = person_name.lower().split()
     person_match = False
     
-    # Dynamically build allowed words list for this person
     allowed_words = {w.lower() for w in person_name.lower().split() if w}
     for kw in promise_keywords:
         for part in kw.split():
             allowed_words.add(part.lower())
 
     has_exclusion = False
-    # Check if any part of the name matches but is surrounded by an unallowed capitalized name
     for part in person_parts:
         if len(part) > 3:
             pattern = r'\b' + re.escape(part) + r'\b'
@@ -528,7 +570,6 @@ def score_article_for_promise(article, promise_keywords, person_name, promise):
                 start_idx = match.start()
                 end_idx = match.end()
                 
-                # Check preceding
                 preceding_part = content[:start_idx].strip()
                 preceding_words = re.findall(r'\b\w+\b', preceding_part)
                 if preceding_words:
@@ -537,7 +578,6 @@ def score_article_for_promise(article, promise_keywords, person_name, promise):
                         has_exclusion = True
                         break
                 
-                # Check succeeding
                 succeeding_part = content[end_idx:].strip()
                 succeeding_words = re.findall(r'\b\w+\b', succeeding_part)
                 if succeeding_words:
@@ -552,24 +592,20 @@ def score_article_for_promise(article, promise_keywords, person_name, promise):
                 score += 20
                 person_match = True
 
-    # Keyword matches
     matched_keywords = 0
     for kw in promise_keywords:
         if kw.lower() in text:
             matched_keywords += 1
             score += 8
 
-    # Bonus for multiple keyword matches
     if matched_keywords >= 2:
         score += 15
     if matched_keywords >= 4:
         score += 20
 
-    # Category match bonus
     if article.get('category') == promise.get('category', ''):
         score += 10
 
-    # PENALTY: If person mentioned but zero specific keywords → likely irrelevant
     if person_match and matched_keywords == 0:
         score = max(0, score - 25)
 
@@ -579,10 +615,10 @@ def link_articles_to_promises(promises_data, articles, llm):
     """
     For each promise, find the most relevant articles from the newly fetched batch.
     Two-pass approach:
-    Pass 1: Score-based filtering (fast, no AI)
+    Pass 1: Semantic Embedding similarity OR Score-based pre-filter (fast, no AI)
     Pass 2: Gemma relevance validation (slow, high accuracy)
     """
-    logging.info("--- Linking articles to promises ---")
+    logging.info("--- Linking articles to promises (Semantic Match Mode) ---")
 
     # Build existing URL set per promise to avoid duplicates
     existing_per_promise = {}
@@ -591,6 +627,26 @@ def link_articles_to_promises(promises_data, articles, llm):
             a['url'] for a in promise.get('evidence_articles', [])
         }
 
+    if not articles:
+        return promises_data
+
+    # Pre-encode all incoming articles (Title + Summary) to save compute
+    article_embeddings = []
+    valid_articles = []
+    if encoder_model:
+        logging.info("Pre-encoding article texts...")
+        article_texts = []
+        for article in articles:
+            title = article.get('title', '')
+            summary = article.get('rephrased_article', '')
+            article_texts.append(f"{title} {summary[:400]}")
+            valid_articles.append(article)
+        
+        if article_texts:
+            article_embeddings = encoder_model.encode(article_texts, convert_to_tensor=True)
+    else:
+        valid_articles = articles
+
     for promise in promises_data['promises']:
         promise_id = promise['id']
         person = promise.get('person', '')
@@ -598,18 +654,103 @@ def link_articles_to_promises(promises_data, articles, llm):
 
         logging.info(f"Linking: [{promise_id}] {promise_text[:60]}...")
 
-        keywords = build_promise_keywords(promise)
+        # Resolve promise creation date for temporal matching
+        promise_created_at_str = promise.get('created_at')
+        if not promise_created_at_str:
+            evidence = promise.get('evidence_articles', [])
+            dates = [a.get('scraped_at') for a in evidence if a.get('scraped_at')]
+            if dates:
+                promise_created_at_str = min(dates)
+            else:
+                promise_created_at_str = str(datetime.now().date())
+            promise['created_at'] = promise_created_at_str
+        
+        promise_created_at = parse_date_string(promise_created_at_str)
+
         scored_articles = []
 
-        # --- PASS 1: Score-based filtering ---
-        for article in articles:
-            url = article.get('url', '')
-            if url in existing_per_promise.get(promise_id, set()):
-                continue
+        # --- PASS 1: Score-based filtering (Semantic Embeddings or Keyword Fallback) ---
+        if encoder_model and len(article_embeddings) > 0:
+            promise_embedding = encoder_model.encode(promise_text, convert_to_tensor=True)
+            cos_scores = util.cos_sim(promise_embedding, article_embeddings)[0]
+            
+            for a_idx, article in enumerate(valid_articles):
+                url = article.get('url', '')
+                if url in existing_per_promise.get(promise_id, set()):
+                    continue
 
-            score = score_article_for_promise(article, keywords, person, promise)
-            if score >= MIN_SCORE_THRESHOLD:
-                scored_articles.append((score, article))
+                # TEMPORAL MATCHING: Reject evidence published before promise creation
+                article_date_str = article.get('scraped_at')
+                if article_date_str:
+                    article_date = parse_date_string(article_date_str)
+                    if article_date.date() < promise_created_at.date() - timedelta(days=1):
+                        continue
+
+                # Politician Match Check
+                content = f"{article.get('title', '')} {article.get('rephrased_article', '')} {article.get('content', '')[:400]}"
+                content_lower = content.lower()
+                
+                person_parts = person.lower().split()
+                person_match = False
+                
+                allowed_words = {w.lower() for w in person.lower().split() if w}
+                has_exclusion = False
+                for part in person_parts:
+                    if len(part) > 3:
+                        pattern = r'\b' + re.escape(part) + r'\b'
+                        match = re.search(pattern, content_lower)
+                        if match:
+                            start_idx = match.start()
+                            end_idx = match.end()
+                            
+                            preceding_part = content[:start_idx].strip()
+                            preceding_words = re.findall(r'\b\w+\b', preceding_part)
+                            if preceding_words:
+                                prec_word = preceding_words[-1]
+                                if prec_word[0].isupper() and prec_word.lower() not in allowed_words:
+                                    has_exclusion = True
+                                    break
+                            
+                            succeeding_part = content[end_idx:].strip()
+                            succeeding_words = re.findall(r'\b\w+\b', succeeding_part)
+                            if succeeding_words:
+                                succ_word = succeeding_words[0]
+                                if succ_word[0].isupper() and succ_word.lower() not in allowed_words:
+                                    has_exclusion = True
+                                    break
+
+                if not has_exclusion:
+                    for part in person_parts:
+                        if len(part) > 3 and re.search(r'\b' + re.escape(part) + r'\b', content_lower):
+                            person_match = True
+                            break
+
+                if person_match:
+                    similarity = cos_scores[a_idx].item()
+                    score = int(similarity * 100)
+                    
+                    if article.get('category') == promise.get('category', ''):
+                        score = min(score + 10, 100)
+                        
+                    if score >= MIN_SCORE_THRESHOLD:
+                        scored_articles.append((score, article))
+        else:
+            # Fallback to pure keyword scoring
+            keywords = build_promise_keywords(promise)
+            for article in valid_articles:
+                url = article.get('url', '')
+                if url in existing_per_promise.get(promise_id, set()):
+                    continue
+
+                article_date_str = article.get('scraped_at')
+                if article_date_str:
+                    article_date = parse_date_string(article_date_str)
+                    if article_date.date() < promise_created_at.date() - timedelta(days=1):
+                        continue
+
+                score = score_article_for_promise(article, keywords, person, promise)
+                if score >= MIN_SCORE_THRESHOLD:
+                    scored_articles.append((score, article))
 
         # Sort by score, take top batch for Gemma validation
         scored_articles.sort(key=lambda x: x[0], reverse=True)
@@ -635,7 +776,6 @@ def link_articles_to_promises(promises_data, articles, llm):
 
         logging.info(f"  Pass 2: {len(validated_articles)} articles validated by Gemma")
 
-        # Take top MAX_EVIDENCE_ARTICLES
         top_articles = validated_articles[:MAX_EVIDENCE_ARTICLES]
 
         new_links = []
@@ -653,7 +793,6 @@ def link_articles_to_promises(promises_data, articles, llm):
 
         if new_links:
             existing = promise.get('evidence_articles', [])
-            # Remove old unvalidated articles
             existing = [a for a in existing if a.get('gemma_validated', False)]
             all_urls = {a['url'] for a in existing}
 
@@ -702,12 +841,13 @@ def assess_promise_statuses(promises_data, llm):
         if not evidence_texts:
             continue
 
+        deadline_year = extract_deadline_year(promise_text)
+
         suggested_status, reasoning, confidence = gemma_assess_promise(
-            llm, promise_text, person, evidence_texts
+            llm, promise_text, person, evidence_texts, deadline_year=deadline_year
         )
 
         if suggested_status:
-            # Save the suggestion metadata inside the promise itself
             promise['gemma_suggestion'] = suggested_status
             promise['gemma_reasoning'] = reasoning
             promise['gemma_confidence'] = confidence
@@ -715,11 +855,13 @@ def assess_promise_statuses(promises_data, llm):
 
             logging.info(f"[{promise['id']}] Current: {current_status} | Gemma: {suggested_status} ({confidence})")
 
-            # Disagreement flag check (for manual reviews or audit lists if needed)
-            if suggested_status != current_status and confidence in ['medium', 'high']:
-                # Update status directly if we are in fully automated mode (can be toggled)
-                promise['status'] = suggested_status
-                logging.info(f"  → Automatically updated status to {suggested_status} based on {confidence} confidence")
+            # Disagreement flag check with strictly high confidence gating for auto-updates
+            if suggested_status != current_status:
+                if confidence == 'high':
+                    promise['status'] = suggested_status
+                    logging.info(f"  → Automatically updated status to {suggested_status} based on {confidence} confidence")
+                else:
+                    logging.info(f"  → Gated auto-update: Gemma suggests {suggested_status} but confidence is only {confidence}. Keeping as {current_status}")
                 
                 review_items.append({
                     "promise_id": promise['id'],
@@ -740,7 +882,7 @@ def assess_promise_statuses(promises_data, llm):
 
 def main():
     start_time = time.time()
-    logging.info("--- Satya Promise Tracker Started (Autonomous/Delta Mode) ---")
+    logging.info("--- Satya Promise Tracker Started (Semantic/Autonomous Mode) ---")
 
     # 1. Load active promise registry
     promises_data = load_promises()
@@ -761,14 +903,12 @@ def main():
     # 5. Load Gemma inference engine
     llm = load_gemma()
 
-    # 6. Autonomous extraction pass (only if there are new articles and lookup loaded successfully)
+    # 6. Autonomous extraction pass
     if articles and llm:
-        # Fallback to promises names if entities.json could not be loaded
         if not minister_lookup:
             names = list({p.get('person') for p in promises_data['promises'] if p.get('person')})
             minister_lookup = {name.lower(): name for name in names}
             
-        # Discover and extract new promises from the incoming stream (Dynamic/Optimized Pass)
         new_promises = extract_new_promises_from_articles(llm, articles, promises_data['promises'], minister_lookup)
         if new_promises:
             promises_data['promises'].extend(new_promises)

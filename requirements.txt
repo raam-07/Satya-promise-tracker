@@ -3,3 +3,4 @@ oauth2client
 requests
 huggingface_hub
 numpy==1.26.4
+sentence-transformers
