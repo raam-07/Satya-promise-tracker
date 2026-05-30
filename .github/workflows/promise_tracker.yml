@@ -29,7 +29,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-promise-tracker-v2 # Bust cache from previous unaccelerated runs
+          key: ${{ runner.os }}-pip-promise-tracker-v3 # Bust cache for semantic transformers update
 
       - name: Install Dependencies
         run: |
@@ -39,56 +39,31 @@ jobs:
           CMAKE_ARGS="-DGGML_AVX=ON -DGGML_AVX2=ON -DGGML_FMA=ON" \
           pip install --no-cache-dir --force-reinstall --no-binary :all: llama-cpp-python==0.2.90
 
-      - name: Cache Gemma Model
-        id: cache-model
-        uses: actions/cache@v4
-        with:
-          path: ./models
-          key: gemma-2-9b-it-Q6_K
-
-      - name: Download Gemma Model
-        if: steps.cache-model.outputs.cache-hit != 'true'
+      - name: Download Gemma LLM Model
         run: |
-          mkdir -p ./models
-          python -c "
+          mkdir -p models
+          # Download gemma-2-9b-it quantized model from Hugging Face if not present
+          python -c '
+          import os
           from huggingface_hub import hf_hub_download
-          hf_hub_download(
-            repo_id='bartowski/gemma-2-9b-it-GGUF',
-            filename='gemma-2-9b-it-Q6_K.gguf',
-            local_dir='./models'
-          )
-          "
-
-      - name: Download current promises.json
-        env:
-          PROMISES_JSON_URL: ${{ secrets.PROMISES_JSON_URL }}
-        run: |
-          curl -L "$PROMISES_JSON_URL" -o ./promises.json
-          echo "Downloaded promises.json"
+          model_path = "./models/gemma-2-9b-it-Q6_K.gguf"
+          if not os.path.exists(model_path):
+              hf_hub_download(repo_id="lmstudio-community/gemma-2-9b-it-GGUF", filename="gemma-2-9b-it-Q6_K.gguf", local_dir="./models")
+          '
 
       - name: Run Promise Tracker
         env:
           GCP_SERVICE_ACCOUNT_JSON: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
-          PROMISES_JSON_URL: ${{ secrets.PROMISES_JSON_URL }}
-          PYTHONUNBUFFERED: "1"  # Forces Python to flush every log line to the screen instantly
+          PROMISES_JSON_URL: 'https://raw.githubusercontent.com/raam-07/Satya-promise-tracker/main/promises.json'
         run: |
           python promise_tracker.py
 
-      - name: Commit updated promises.json back to repo
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --local user.email "satya-bot@github.com"
-          git config --local user.name "Satya Bot"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git add promises.json review_promises.json
-          git diff --staged --quiet || git commit -m "Auto-update promises.json [$(date '+%Y-%m-%d')]"
-          git push
-
-      - name: Upload artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: promise-tracker-output-${{ github.run_number }}
-          path: |
-            promises.json
-            review_promises.json
-            *.log
-          retention-days: 14
+          # Commit only if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update promises registry and evidence logs [skip ci]" && git push)
