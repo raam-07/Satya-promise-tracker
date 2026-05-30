@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 28,
     "promises_with_evidence": 6,
-    "last_processed_row": 501
+    "last_processed_row": 1001
   },
   "promises": [
     {
@@ -202,7 +202,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Evidence shows ongoing discussion and consultation regarding UCC implementation.",
+      "gemma_reasoning": "Ongoing discussions and consultations regarding UCC implementation.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -432,7 +432,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as the evidence shows active work by the government.",
+      "gemma_reasoning": "The evidence shows ongoing work related to the promise.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
