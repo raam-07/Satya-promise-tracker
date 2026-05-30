@@ -541,10 +541,10 @@
       "deadline": "2019-12-31",
       "source_url": "https://www.inc.in",
       "source_description": "Congress manifesto 2019 and campaign promise",
-      "status": "broken",
+      "status": "void",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article describes the announcement of the scheme, not its implementation.",
+      "gemma_suggestion": "void",
+      "gemma_reasoning": "Lapsed: The opposition candidate was not elected to power to implement this campaign promise.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",

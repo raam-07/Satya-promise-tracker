@@ -280,10 +280,10 @@ No explanation. No extra text.
     except Exception:
         return False  # If Gemma fails, reject the article (safe default)
 
-def gemma_assess_promise(llm, promise_text, person, evidence_texts, deadline_year=None):
+def gemma_assess_promise(llm, promise_text, person, evidence_texts, deadline_year=None, notes=None):
     """
     Given a promise and evidence articles, Gemma suggests:
-    - status: kept / broken / ongoing
+    - status: kept / broken / ongoing / void
     - reasoning: one sentence explanation
     - confidence: high / medium / low
     """
@@ -299,8 +299,12 @@ def gemma_assess_promise(llm, promise_text, person, evidence_texts, deadline_yea
     if deadline_year:
         deadline_context = f"\nNote: The promise specifies a target deadline year of {deadline_year}. Today's year is {current_year}."
 
+    notes_context = ""
+    if notes:
+        notes_context = f"\nVerified historical/ground-truth facts (Notes): {notes}"
+
     prompt = f"""<start_of_turn>user
-You are a factual promise fact-checker. Today's date is {current_date}. Based on the evidence articles below, assess the status of this political promise.{deadline_context}
+You are a factual promise fact-checker. Today's date is {current_date}. Based on the evidence articles and ground-truth facts below, assess the status of this political promise.{deadline_context}{notes_context}
 
 Person: {person}
 Promise: {promise_text}
@@ -309,12 +313,16 @@ Evidence from news articles:
 {combined_evidence}
 
 CRITICAL ASSESSMENT RULES:
-- If a target deadline year ({deadline_year if deadline_year else 'N/A'}) has passed, and the evidence does not clearly confirm successful completion, mark the status as "broken".
-- If the target deadline year has NOT passed, or if there is no deadline, and there is active ongoing work, mark the status as "ongoing".
-- Mark status as "kept" ONLY if the evidence clearly confirms the promise is fully completed/delivered.
+1. Ground-Truth Priority: Treat the provided "Verified historical/ground-truth facts (Notes)" as absolute ground truth. If they state a promise was never implemented, was struck down, or was fully kept, let that override any speculative, ongoing, or contradictory news articles.
+2. Opposition Campaign Promises (Lapsed/Void): If the promise was made by an opposition party/leader (e.g. INC, Rahul Gandhi) as a campaign promise, and they lost the election/were not elected to power to implement it, mark the status as "void" (lapsed/cancelled out).
+3. Struck Down / Cancelled Schemes: If a government scheme or policy was struck down by the courts (e.g. Electoral Bonds) or officially abolished/withdrawn, mark the status as "broken".
+4. One-Time Historical Actions: If the promise was a one-time policy or action (e.g., Demonetization in 2016) that has already concluded, and its target was missed, mark the status as "broken", not "ongoing" (even if debates or court cases continue).
+5. Fully Delivered & Maintained Kept Status: If the promise was successfully delivered and implemented (e.g., free electricity, schools built), mark it as "kept". Subsequent routine upgrades, maintenance, or debate do NOT downgrade it to "ongoing".
+6. Target Deadlines: If a target deadline year ({deadline_year if deadline_year else 'N/A'}) has passed, and the target was not met, mark it as "broken" (not "ongoing").
+7. Active Ongoing Work: Mark as "ongoing" ONLY if the target deadline has not passed, the politicians are currently in power, and there is active implementation work in progress.
 
 Return ONLY a JSON object with these fields:
-- "status": one of "kept", "broken", "ongoing"
+- "status": one of "kept", "broken", "ongoing", "void"
 - "reasoning": one sentence explaining why (max 30 words)
 - "confidence": one of "high", "medium", "low"
 
@@ -336,7 +344,7 @@ No explanation. No extra text. Only JSON.
         parsed = json.loads(raw)
 
         status = parsed.get('status', 'ongoing').lower()
-        if status not in ['kept', 'broken', 'ongoing']:
+        if status not in ['kept', 'broken', 'ongoing', 'void']:
             status = 'ongoing'
 
         reasoning = str(parsed.get('reasoning', '')).strip()
@@ -844,9 +852,10 @@ def assess_promise_statuses(promises_data, llm):
             continue
 
         deadline_year = extract_deadline_year(promise_text)
+        notes = promise.get('notes', '')
 
         suggested_status, reasoning, confidence = gemma_assess_promise(
-            llm, promise_text, person, evidence_texts, deadline_year=deadline_year
+            llm, promise_text, person, evidence_texts, deadline_year=deadline_year, notes=notes
         )
 
         if suggested_status:
