@@ -439,20 +439,22 @@ def extract_new_promises_from_articles(llm, articles, existing_promises, ministe
         logging.info("  [Gemma] Running promise extraction inference...")
 
         prompt = f"""<start_of_turn>user
-You are a factual promise extractor. Analyze the news article below and determine if the politician ({matched_canonical}) has explicitly announced a concrete, measurable future policy promise or developmental target.
+You are a factual promise extractor. Analyze the news article below and determine if the politician ({matched_canonical}) has explicitly announced a concrete, trackable, and measurable forward-looking political or policy promise to the public.
 
-A valid promise MUST announce a concrete future target, developmental objective, or physical/digital/legislative deliverable (e.g., 'will build 50 schools', 'pledges to distribute laptops by 2026', 'will construct the dry port').
+A VALID political promise MUST be a measurable future target, developmental pledge, policy objective, or public deliverable (e.g., 'will build 50 schools', 'pledges to distribute laptops by 2026', 'will construct the dry port').
 
-CRITICAL REJECTION RULES:
-- Reject general administrative routines (e.g., 'will attend a meeting', 'will inspect a project', 'will travel to').
-- Reject standard political statements, wishes, criticisms of other parties, or budget announcements that do not define clear, actionable future targets.
-- Reject vague intentions without any specific deliverable.
+CRITICAL REJECTION RULES (You MUST return is_promise: false if any of these apply):
+1. REJECT Demands, Appeals, and Stances: If the politician is calling on another authority to do something (e.g., "seeks a rollback of fuel prices", "demands the central government take action", "urges action on X"), this is a political demand, NOT a promise of action by that politician.
+2. REJECT Routine Cabinet/Administrative Approvals: Reports of a cabinet, committee, or government body approving a project or deal (e.g., "The Cabinet approved a ₹20,000 crore rail project", "approved a proposal for a company merger") are completed administrative events, NOT forward-looking policy promises.
+3. REJECT Post-Disaster/Routine Administrative Assurances: Immediate reactions to current incidents (e.g., "promised a thorough investigation into the explosion", "assured victims that action will be taken", "promised to resolve their grievances") are routine administrative duties or standard crisis PR, NOT trackable developmental promises.
+4. REJECT Standard Operational Schedules and Transition Routines: Internal logistics or administrative tasks (e.g., "indicated the list of ministers will be presented to the Governor by Sunday evening", "will take oath as CM on Monday") are operational routines, NOT developmental promises.
+5. REJECT Vague/Non-measurable Ideological Statements: Slogans or statements of general philosophy (e.g., "government for the people", "will end corruption" without specific policy metrics) are too vague to be trackable.
 
 Article Title: {title}
 Article Summary: {summary[:400]}
 
 Return ONLY a JSON response:
-If a concrete policy promise matching the criteria above is identified:
+If a concrete, measurable political promise matching the strict criteria above is identified:
 {{
   "is_promise": true,
   "promise_text": "A clear, concise, single-sentence statement of the specific promise made (e.g. 'Committed to installing drinking water taps in all rural households.')",

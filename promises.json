@@ -4,8 +4,8 @@
     "last_updated": "2026-05-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 28,
-    "promises_with_evidence": 6,
+    "total_promises": 20,
+    "promises_with_evidence": 4,
     "last_processed_row": 1001
   },
   "promises": [
@@ -480,108 +480,6 @@
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-30",
       "created_at": "2026-05-10 12:02:18.299435"
-    },
-    {
-      "id": "promise_1780107759_0",
-      "person": "Nirmala Sitharaman",
-      "promise": "The government will restructure Power Finance Corporation (PFC) and Rural Electrification Corporation (REC) for streamlined operations.",
-      "category": "infrastructure",
-      "status": "ongoing",
-      "evidence_articles": [
-        {
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/mega-merger-incoming-should-you-buy-pfc-rec-shares-ahead-of-merger-heres-what-analysts-say/articleshow/131239710.cms",
-          "title": "Mega merger incoming: Should you buy PFC, REC shares ahead of merger? Here's what analysts say - The Economic Times",
-          "source": "Economic Times",
-          "scraped_at": "2026-05-21 08:37:33.591765",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "**Nirmala Sitharaman**, the **Union Finance Minister**, announced plans to restructure **Power Finance Corporation (PFC)** and **Rural Electrification Corporation (REC)** for streamlined operations. T",
-          "content": "Earlier in February this year, Union Finance Minister Nirmala Sitharaman after presenting the Union Budget, said that the government will restructure Power Finance Corporation (PFC) and Rural Electrification Corporation (REC) in order to streamline operations. The shares of the two companies had sharply jumped following the announcement. The Cabinet Committee on Economic Affairs earlier cleared a proposal under which PFC acquired 52.63% of the government's holding in REC. With this acquisition, PFC and REC are currently operating in a holding subsidiary structure. The proposed merger would consolidate the two entities into a single balance sheet, subject to statutory approvals and detailed structuring. What should investors do? Fresh exposure in PFC and REC will be better if staggered than chased after the merger headline, said Harshal Dasani, Business Head at INVasset PMS. He highlighted that the boards of the two companies have cleared the merger proposal, while completion may still depend on regulatory and structural approvals. “That means the trade is no longer only about power financing fundamentals. It is also about swap ratio, timing and execution clarity,” the analyst said.Between the two, PFC offers cleaner visibility because it is the parent entity and is better placed as the consolidation anchor, Dasani said, adding that REC’s underperformance may create a catch-up trade if the swap ratio is favourable, but that is not the same as fundamental comfort. “The core business remains structurally supported by power capex, transmission, renewable financing and improving state utility discipline, but valuations have already priced in a fair amount of that cycle,” he said. “For fresh money, the prudent approach is to wait for the swap ratio or accumulate only in tranches. PFC looks better suited for conservative exposure. REC is more of a merger-arbitrage call and carries higher event risk. The one thing to avoid is treating the merger as guaranteed upside. In PSU financials, structure can matter as much as earnings,” the analyst further said. PFC and REC share prices PFC shares have fallen more than 3% in one week and 9% in one month to close at Rs 429.35 apiece on Wednesday. The stock is overall up nearly 19% in 2026 so far. In the longer term, the shares of the company delivered 6% returns over one year, 226% returns over three years and 362% in five years. The company currently has a market capitalisation of nearly Rs 1.43 lakh crore.REC shares meanwhile declined over 3% in one week and 12% in one month, closing at Rs 333 apiece on Wednesday. The stock has declined 9% in 2026 so far and 15% in one year. In the longer term, the shares of the company jumped 158% in three years and 217% in five years. The company currently has a market capitalisation of more than Rs 88,210 crore. (Disclaimer: Recommendations, suggestions, views and opinions given by the experts are their own. These do not represent the views of The Economic Times) (What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest news alerts on financial markets, investment strategies and stocks alerts, subscribe to our Telegram feeds .) Subscribe to ET Prime and read the Economic Times ePaper Online.and Sensex Today. Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price"
-        }
-      ],
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The announcement indicates plans for restructuring, but no completion is confirmed.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-30",
-      "created_at": "2026-05-21 08:37:33.591765"
-    },
-    {
-      "id": "promise_1780122872_0",
-      "person": "V.D. Satheesan",
-      "promise": "Satheesan assured them that he would resolve their grievances.",
-      "category": "politics",
-      "status": "ongoing",
-      "evidence_articles": [],
-      "created_at": "2026-05-30"
-    },
-    {
-      "id": "promise_1780132738_0",
-      "person": "C. Joseph Vijay",
-      "promise": "Seeks an immediate rollback of the fuel price hike.",
-      "category": "economy",
-      "status": "ongoing",
-      "evidence_articles": [
-        {
-          "url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-opposes-hike-in-fuel-prices-seeks-immediate-rollback/article70983390.ece",
-          "title": "Vijay opposes hike in fuel prices; seeks immediate rollback - The Hindu",
-          "source": "The Hindu",
-          "scraped_at": "2026-05-16 06:31:03.650084",
-          "relevance_score": 93,
-          "gemma_validated": true,
-          "rephrased": "**Tamil Nadu Chief Minister C. Joseph Vijay** criticized the recent fuel price hike, arguing that it disproportionately impacts low-income individuals and businesses.  He called for an immediate rollb",
-          "content": "Tamil Nadu Chief Minister C. Joseph Vijay on Friday opposed the fuel price hike and urged the Union government to roll back the hike immediately. In a statement, Mr. Vijay said that it was unacceptable, contending that it would severely affect the buying capacity of the poor and the downtrodden. He pointed that the oil marketing companies do not decrease the prices of fuel when the crude oil prices fall and instead realised the profits. The hike in fuel prices especially after the Assembly election in some States and Union territory was unacceptable. “The monthly income of the poor, the downtrodden and the middle class, who use two-wheelers and mini buses would be affected,” Mr. Vijay said. Those who obtained loans to operate vehicles would be forced to incur additional expenditure and their economy would be affected too,” the CM said. Due to the rise in the prices of fuel, the vehicle rentals are also set to increase, the CM said. “It would increase inflation and it would affect the purchasing power of the poor and the downtrodden.” Mr. Vijay further said that the manufacturing cost in the MSME sector would go up and it would lead to stagnation in the market and affect the export of goods. Published - May 15, 2026 07:46 pm IST"
-        }
-      ],
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The evidence shows the promise is being discussed but not implemented.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-30",
-      "created_at": "2026-05-16 06:31:03.650084"
-    },
-    {
-      "id": "promise_1780147805_0",
-      "person": "Amit Shah",
-      "promise": "The Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project.",
-      "category": "infrastructure",
-      "status": "ongoing",
-      "created_at": "2026-05-15 01:30:15.301460",
-      "evidence_articles": []
-    },
-    {
-      "id": "promise_1780147893_1",
-      "person": "Mohan Yadav",
-      "promise": "Promised a thorough investigation into the firecracker factory explosion.",
-      "category": "crime_violence",
-      "status": "ongoing",
-      "created_at": "2026-05-15 01:26:37.887541",
-      "evidence_articles": []
-    },
-    {
-      "id": "promise_1780148359_2",
-      "person": "Revanth Reddy",
-      "promise": "The Ramakrishnapur Opencast (RKP OC) Phase-2 project will create 5,000 jobs.",
-      "category": "economy",
-      "status": "ongoing",
-      "created_at": "2026-05-14 19:24:34.499414",
-      "evidence_articles": []
-    },
-    {
-      "id": "promise_1780152434_0",
-      "person": "Nirmala Sitharaman",
-      "promise": "The Cabinet Committee on Economic Affairs approved a proposal where PFC acquired 52.63% of the government's holding in REC, consolidating them into a single balance sheet.",
-      "category": "economy",
-      "status": "ongoing",
-      "created_at": "2026-05-21 08:37:33.591765",
-      "evidence_articles": []
-    },
-    {
-      "id": "promise_1780153152_1",
-      "person": "V.D. Satheesan",
-      "promise": "V.D. Satheesan indicated that the full list of Ministers will be presented to Governor Rajendra Vishwanath Arlekar by Sunday evening.",
-      "category": "politics",
-      "status": "ongoing",
-      "created_at": "2026-05-16 17:08:19.361913",
-      "evidence_articles": []
     }
   ]
 }
