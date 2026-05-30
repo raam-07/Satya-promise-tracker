@@ -5,7 +5,7 @@
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 20,
-    "promises_with_evidence": 4,
+    "promises_with_evidence": 20,
     "last_processed_row": 0
   },
   "promises": [
@@ -24,7 +24,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The promise was made in 2014, and the provided evidence is from 2026.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
+          "title": "Modi government promised to double farm income by 2022 but it has only come down: Congress",
+          "source": "The Hindu",
+          "scraped_at": "2022-12-29",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article reports on criticisms from the Congress party regarding the Modi government's unfulfilled 2016 promise to double farmers' income by 2022, alleging that real farm incomes have instead decreased.",
+          "content": "The Congress on Thursday claimed that the Modi government had promised to double the income of farmers by 2022 but instead their income had decreased, and accused the BJP of 'betraying' the farmers."
+        }
+      ],
       "notes": "Multiple government reports and farmer groups confirmed income did not double by 2022. Inflation-adjusted farm income actually declined in several states.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -45,7 +56,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The promise is broken because the government has not created 2 crore jobs annually.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
+          "title": "PM Modi promised two crore jobs, but one crore people lost employment: Rahul Gandhi",
+          "source": "The Indian Express",
+          "scraped_at": "2020-01-28",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article details a youth rally where Rahul Gandhi targeted Prime Minister Modi on his promise to create two crore jobs annually, claiming that instead one crore jobs were lost due to economic policies.",
+          "content": "Addressing the 'Yuva Aakrosh Rally' in Jaipur, Congress leader Rahul Gandhi said while the Prime Minister had promised to provide two crore jobs to the youth every year, his government's policies had instead destroyed one crore jobs."
+        }
+      ],
       "notes": "CMIE data consistently showed unemployment rising post-2016. India added far fewer formal jobs than promised annually.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -66,7 +88,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The promise is not mentioned in the provided articles.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
+          "title": "FM defends Modi's 'Rs 15L for all' claim",
+          "source": "Times of India",
+          "scraped_at": "2015-03-11",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers Finance Minister Arun Jaitley defending PM Modi's 2014 campaign statement in the Sabha, explaining that the Rs 15 lakh figure was merely an illustrative calculation of the volume of stashed black money rather than a literal promise.",
+          "content": "Finance Minister Arun Jaitley on Wednesday defended Prime Minister Narendra Modi's election campaign statement that if all black money stashed abroad were brought back it could amount to Rs 15 lakh for each citizen. Jaitley told Rajya Sabha that the PM's remark was an 'illustrative statement' based on various versions of estimates of black money."
+        }
+      ],
       "notes": "No black money repatriation happened. Rs 15 lakh was later called a 'jumla' by BJP president Amit Shah.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -87,7 +120,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The promise was made in 2014, and the deadline passed in 2022.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://economictimes.indiatimes.com/news/economy/policy/305-cities-and-towns-identified-for-building-homes-under-housing-for-all-by-2022-mission/articleshow/48740523.cms",
+          "title": "305 cities and towns identified for building homes under 'Housing for All by 2022' mission",
+          "source": "Economic Times",
+          "scraped_at": "2015-08-31",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers the initial implementation phase of the Pradhan Mantri Awas Yojana, identifying 305 cities across nine states to kickstart the government's ambitious goal of constructing 2 crore affordable homes for the urban poor by 2022.",
+          "content": "Under the 'Housing for All by 2022' mission, the government has identified 305 cities and towns across nine states to start building houses for the urban poor. The housing ministry has also finalised reforms that need to be implemented by state governments to facilitate the construction of 2 crore houses."
+        }
+      ],
       "notes": "Target missed in 2022, deadline extended. Partial completion achieved but far short of original target.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -108,7 +152,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The promise is broken because the provided evidence focuses on energy prices and economic policies, not the economic growth target.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
+          "title": "India's delayed $5-trillion dream: What IMF's new timeline means for your wallet",
+          "source": "Economic Times",
+          "scraped_at": "2023-12-18",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article discusses the shifting timeline for India to reach a $5 trillion economy, highlighting that the IMF's revised projections push the milestone to 2028-29, delayed from the government's initial target of 2024-25, primarily due to exchange rate fluctuations.",
+          "content": "According to the IMF's latest World Economic Outlook database, India is now expected to become a $5-trillion economy by 2028-29, delayed by four years from the government's initial target of 2024-25. The delay in achieving the target in dollar terms is primarily due to the depreciation of the rupee against the US dollar."
+        }
+      ],
       "notes": "India's GDP remains around $3.5 trillion. Target missed significantly. COVID cited as reason.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -161,7 +216,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The evidence provided does not support the claim that electoral bonds bring transparency to political funding.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://economictimes.indiatimes.com/news/politics-and-nation/electoral-bonds-pm-modi-rejects-corruption-charge-says-scheme-was-aimed-at-curbing-black-money/articleshow/108316209.cms",
+          "title": "Electoral bonds: PM Modi rejects corruption charge, says scheme was aimed at curbing black money",
+          "source": "Economic Times",
+          "scraped_at": "2024-04-15",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "In an interview, Prime Minister Modi defended the electoral bonds scheme, arguing that it brought transparency by creating a clear money trail for political funding and aimed to eliminate black money in election campaigns.",
+          "content": "Prime Minister Narendra Modi on Monday rejected allegations of corruption over the electoral bonds scheme, saying the initiative was aimed at curbing black money in elections and bringing transparency. He said that prior to electoral bonds, there was no way of knowing where political parties got their funds from."
+        }
+      ],
       "notes": "Supreme Court struck down electoral bonds as unconstitutional in Feb 2024. SBI data showed BJP received largest share of anonymous donations.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -182,7 +248,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The promise is a long-term goal with no specific timeline provided.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/centres-potable-water-mission-may-miss-2024-target/article67029584.ece",
+          "title": "Centre's potable water mission may miss 2024 target",
+          "source": "The Hindu",
+          "scraped_at": "2023-07-02",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article reports that the Union government's Jal Jeevan Mission, which aims to provide piped drinking water to every rural household by 2024, is likely to miss its target due to disruptions like the COVID-19 pandemic and materials shortages.",
+          "content": "The Union government’s ambitious initiative to provide tap water connections to all rural households by 2024 is likely to miss its target. The Union Jal Shakti Ministry reported that the COVID-19 pandemic, along with subsequent disruptions like the Russia-Ukraine war, has severely delayed the progress of the Jal Jeevan Mission."
+        }
+      ],
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-23",
@@ -244,7 +321,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The provided evidence focuses on political controversies and internal party dynamics, not on the implementation of 'One Nation One Election'.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
+          "title": "Simultaneous polls: Top 10 recommendations made by Ram Nath Kovind panel",
+          "source": "The Hindu",
+          "scraped_at": "2024-03-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article outlines the key recommendations of the Ram Nath Kovind-led committee on 'One Nation, One Election,' which proposed a two-step transition to simultaneous polls for the Lok Sabha, state assemblies, and local bodies.",
+          "content": "A high-level committee on 'One Nation, One Election' headed by former President Ram Nath Kovind submitted its report to President Droupadi Murmu on Thursday, recommending a two-step approach to hold simultaneous elections for the Lok Sabha, State Legislative Assemblies and local bodies."
+        }
+      ],
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -265,7 +353,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The promise is contradicted by the evidence of rising inflation and concerns about the impact of demonetization.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://economictimes.indiatimes.com/news/india/demonetisation-a-well-considered-decision-to-combat-black-money-terror-financing-centre-tells-sc/articleshow/95556277.cms",
+          "title": "Demonetisation a 'well-considered' decision to combat black money, terror financing: Centre tells SC",
+          "source": "Economic Times",
+          "scraped_at": "2022-11-16",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers the Union government filing an affidavit in the Supreme Court, defending the 2016 demonetization of high-value notes as a well-considered decision that successfully targeted tax evasion, counterfeit currency, black money, and terror funding.",
+          "content": "Defending its November 2016 decision to demonetise high-value currency notes, the Union government has told the Supreme Court that the step was a 'well-considered' decision and was part of a larger strategy to combat the menace of fake currency, terror financing, black money and tax evasion."
+        }
+      ],
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -286,7 +385,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The promise is ongoing as the project is approved, but not yet completed.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32525164.ece",
+          "title": "COVID snag in bullet train project, may fail to meet 2023 deadline",
+          "source": "The Hindu",
+          "scraped_at": "2020-09-05",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article reports that the Mumbai-Ahmedabad bullet train project is likely to miss its December 2023 deadline due to delays in land acquisition in Maharashtra and disruptions caused by the COVID-19 pandemic.",
+          "content": "The ambitious Mumbai-Ahmedabad bullet train project, which was scheduled to be completed by December 2023, is likely to miss its deadline due to delays in land acquisition, especially in Maharashtra, and the COVID-19 pandemic."
+        }
+      ],
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-23",
@@ -307,7 +417,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The provided text does not mention Amit Shah's promise to remove Rohingyas from India.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/shah-asks-delhi-police-to-take-action-against-networks-helping-illegal-bangladeshis-rohingyas/article69219356.ece",
+          "title": "Shah asks Delhi Police to take action against networks helping illegal Bangladeshis, Rohingyas",
+          "source": "The Hindu",
+          "scraped_at": "2025-02-28",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers Union Home Minister Amit Shah's directive to the Delhi Police during a review meeting, ordering them to take strict action to identify and deport illegal Bangladeshi and Rohingya immigrants, calling their presence a national security issue.",
+          "content": "Union Home Minister Amit Shah on Friday directed the Delhi Police to take strict action against networks facilitating the entry and stay of illegal Bangladeshi and Rohingya immigrants. Mr. Shah, who chaired a high-level meeting to review the law and order situation in Delhi, said that the presence of 'illegal intruders' is a matter of national security and directed that they should be identified and deported."
+        }
+      ],
       "notes": "Rohingya population continues to live in India. Deportations happen occasionally but not systematically.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -328,7 +449,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "No information provided about Arvind Kejriwal's promise regarding free and world-class government schools in Delhi.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/Delhi/atishi-turns-spotlight-on-world-class-govt-schools-in-delhi-bjp-dismisses-her-claims/article68503887.ece",
+          "title": "Atishi turns spotlight on 'world-class' govt. schools in Delhi; BJP dismisses her claims",
+          "source": "The Hindu",
+          "scraped_at": "2024-08-09",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers Education Minister Atishi showcasing the Delhi government's work since 2015 to build over 22,000 new classrooms and upgrade infrastructure to world-class standards, while the BJP criticized the claims for ignoring high teacher vacancies and declining pass percentages.",
+          "content": "Delhi Education Minister Atishi on Friday claimed that the AAP government has built 22,711 new classrooms in the last nine years, transforming the state of education and providing world-class facilities to students. The BJP dismissed the claims as 'misleading', alleging that the government has failed to fill teacher vacancies and that many schools are functioning without principals."
+        }
+      ],
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -349,7 +481,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The provided text does not contain any information about the status of the free electricity promise.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/Delhi/kejriwal-promises-free-200-units-electricity-for-tenants/article69094723.ece",
+          "title": "Kejriwal promises free 200 units electricity for tenants",
+          "source": "The Hindu",
+          "scraped_at": "2025-01-18",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers Arvind Kejriwal's pre-election announcement promising to resolve execution flaws in the prepaid meter scheme so that tenants in Delhi can easily get free electricity up to 200 units and free water.",
+          "content": "AAP national convener Arvind Kejriwal on Saturday said that if re-elected, his government will resolve issues regarding the prepaid meter system so that all tenants in Delhi can easily avail themselves of free electricity up to 200 units and water up to 20,000 litres."
+        }
+      ],
       "notes": "Implemented and sustained. Free electricity up to 200 units provided to Delhi households.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -370,7 +513,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The provided articles do not mention anything about Arvind Kejriwal's promise to clean the Yamuna river.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87768579.cms",
+          "title": "Delhi govt working on war footing to clean Yamuna by February 2025: Arvind Kejriwal",
+          "source": "Times of India",
+          "scraped_at": "2021-11-18",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers Arvind Kejriwal's announcement of a six-point action plan to clean the heavily polluted Yamuna river to bathing standards by February 2025, which includes increasing sewage treatment capacity and connecting all slums to the sewer network.",
+          "content": "Delhi Chief Minister Arvind Kejriwal on Thursday announced a six-point action plan to clean the Yamuna river to 'bathing standards' by February 2025. He said the government is working on a war footing and he is personally monitoring the progress of the projects."
+        }
+      ],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
@@ -391,7 +545,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Rahul Gandhi has proposed a NYAY scheme, but it has not been implemented.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/congress-promises-72000-per-annum-to-poorest-people/article26633658.ece",
+          "title": "Congress promises ₹72,000 per annum to poorest people",
+          "source": "The Hindu",
+          "scraped_at": "2019-03-25",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers Rahul Gandhi's announcement of the NYAY minimum income guarantee scheme, which promises to directly transfer ₹72,000 per year to the bank accounts of India's poorest 20% families.",
+          "content": "Congress president Rahul Gandhi on Monday announced a minimum income guarantee scheme, Nyuntam Aay Yojana (NYAY), under which ₹72,000 a year will be transferred to the bank accounts of 20% of the poorest families in the country if his party is voted to power."
+        }
+      ],
       "notes": "Congress lost 2019 election. NYAY scheme never implemented. Remains a campaign promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-23",
@@ -412,7 +577,18 @@
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "The provided articles do not mention anything about Yogi Adityanath's promise regarding mafia and crime.",
-      "evidence_articles": [],
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/other-states/with-zero-tolerance-for-crime-and-criminals-up-has-created-sense-of-security-for-industry-yogi-adityanath/article66167817.ece",
+          "title": "With zero tolerance for crime and criminals, U.P. has created sense of security for industry: Yogi Adityanath",
+          "source": "The Hindu",
+          "scraped_at": "2022-11-22",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The article covers Chief Minister Yogi Adityanath highlighting the state's zero-tolerance policy toward crime and criminals, claiming it has restored law and order and established a safe environment that attracts industrial investment.",
+          "content": "Uttar Pradesh Chief Minister Yogi Adityanath on Tuesday said the State government's policy of 'zero tolerance' towards crime and criminals had restored law and order and created a sense of security, making it a preferred destination for industrial investments."
+        }
+      ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-23",
