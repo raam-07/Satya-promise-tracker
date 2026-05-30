@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 23,
     "promises_with_evidence": 6,
-    "last_processed_row": 751
+    "last_processed_row": 901
   },
   "promises": [
     {
@@ -123,7 +123,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Ongoing corruption investigations suggest the promise remains unfulfilled.",
+      "gemma_reasoning": "Ongoing investigations into corruption suggest the promise is not yet fulfilled.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -414,7 +414,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is still in effect and being implemented.",
+      "gemma_reasoning": "The provided evidence focuses on voter roll issues, not the overall fulfillment of the promise.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -428,7 +428,7 @@
         }
       ],
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "low",
       "gemma_assessed_at": "2026-05-30"
     },
     {
@@ -511,7 +511,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states Vijay called for a rollback but does not confirm if it occurred.",
+      "gemma_reasoning": "The news article states Vijay called for a rollback but does not indicate if it occurred.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-30"
     }
