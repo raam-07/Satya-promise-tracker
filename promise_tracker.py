@@ -85,7 +85,7 @@ MIN_SCORE_THRESHOLD = 45
 MAX_GEMMA_VALIDATION_BATCH = 3
 
 # Maximum rows to process in a single execution to prevent timeouts
-MAX_ROWS_PER_RUN = 500
+MAX_ROWS_PER_RUN = 1000
 
 logging.basicConfig(
     level=logging.INFO,
