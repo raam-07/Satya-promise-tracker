@@ -4,9 +4,9 @@
     "last_updated": "2026-05-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 23,
+    "total_promises": 26,
     "promises_with_evidence": 6,
-    "last_processed_row": 901
+    "last_processed_row": 1051
   },
   "promises": [
     {
@@ -27,7 +27,8 @@
       "evidence_articles": [],
       "notes": "Multiple government reports and farmer groups confirmed income did not double by 2022. Inflation-adjusted farm income actually declined in several states.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p002",
@@ -47,7 +48,8 @@
       "evidence_articles": [],
       "notes": "CMIE data consistently showed unemployment rising post-2016. India added far fewer formal jobs than promised annually.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p003",
@@ -67,7 +69,8 @@
       "evidence_articles": [],
       "notes": "No black money repatriation happened. Rs 15 lakh was later called a 'jumla' by BJP president Amit Shah.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p004",
@@ -87,7 +90,8 @@
       "evidence_articles": [],
       "notes": "Target missed in 2022, deadline extended. Partial completion achieved but far short of original target.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p005",
@@ -107,7 +111,8 @@
       "evidence_articles": [],
       "notes": "India's GDP remains around $3.5 trillion. Target missed significantly. COVID cited as reason.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p006",
@@ -123,7 +128,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Ongoing investigations into corruption suggest the promise is not yet fulfilled.",
+      "gemma_reasoning": "Ongoing investigations suggest corruption persists.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -138,7 +143,8 @@
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-30"
+      "gemma_assessed_at": "2026-05-30",
+      "created_at": "2026-04-06 10:20:23.758142"
     },
     {
       "id": "p007",
@@ -158,7 +164,8 @@
       "evidence_articles": [],
       "notes": "Supreme Court struck down electoral bonds as unconstitutional in Feb 2024. SBI data showed BJP received largest share of anonymous donations.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p008",
@@ -178,7 +185,8 @@
       "evidence_articles": [],
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p009",
@@ -218,7 +226,8 @@
       ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-30"
+      "gemma_assessed_at": "2026-05-30",
+      "created_at": "2026-04-11 17:42:10.589164"
     },
     {
       "id": "p010",
@@ -238,7 +247,8 @@
       "evidence_articles": [],
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p011",
@@ -258,7 +268,8 @@
       "evidence_articles": [],
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p012",
@@ -278,7 +289,8 @@
       "evidence_articles": [],
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p013",
@@ -298,7 +310,8 @@
       "evidence_articles": [],
       "notes": "Rohingya population continues to live in India. Deportations happen occasionally but not systematically.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p014",
@@ -318,7 +331,8 @@
       "evidence_articles": [],
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p015",
@@ -338,7 +352,8 @@
       "evidence_articles": [],
       "notes": "Implemented and sustained. Free electricity up to 200 units provided to Delhi households.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p016",
@@ -358,7 +373,8 @@
       "evidence_articles": [],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p017",
@@ -378,7 +394,8 @@
       "evidence_articles": [],
       "notes": "Congress lost 2019 election. NYAY scheme never implemented. Remains a campaign promise.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p018",
@@ -398,7 +415,8 @@
       "evidence_articles": [],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-23"
+      "gemma_assessed_at": "2026-05-23",
+      "created_at": "2026-05-30"
     },
     {
       "id": "p019",
@@ -414,7 +432,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The provided evidence focuses on voter roll issues, not the overall fulfillment of the promise.",
+      "gemma_reasoning": "The promise is ongoing as the evidence shows active work.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -428,8 +446,9 @@
         }
       ],
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-05-30"
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
+      "created_at": "2026-04-08 02:52:04.016076"
     },
     {
       "id": "p020",
@@ -445,7 +464,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is for 2047 and the current date is 2026.",
+      "gemma_reasoning": "The target year is 2047 and active work is mentioned.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
@@ -458,8 +477,9 @@
         }
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-05-30"
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-05-30",
+      "created_at": "2026-05-10 12:02:18.299435"
     },
     {
       "id": "promise_1780107759_0",
@@ -480,9 +500,10 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The announcement was made, but no concrete evidence of restructuring completion exists.",
+      "gemma_reasoning": "The announcement mentions plans for restructuring, indicating ongoing work.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-30"
+      "gemma_assessed_at": "2026-05-30",
+      "created_at": "2026-05-21 08:37:33.591765"
     },
     {
       "id": "promise_1780122872_0",
@@ -490,7 +511,8 @@
       "promise": "Satheesan assured them that he would resolve their grievances.",
       "category": "politics",
       "status": "ongoing",
-      "evidence_articles": []
+      "evidence_articles": [],
+      "created_at": "2026-05-30"
     },
     {
       "id": "promise_1780132738_0",
@@ -511,9 +533,37 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states Vijay called for a rollback but does not indicate if it occurred.",
+      "gemma_reasoning": "The evidence shows the promise is being discussed but not implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-05-30"
+      "gemma_assessed_at": "2026-05-30",
+      "created_at": "2026-05-16 06:31:03.650084"
+    },
+    {
+      "id": "promise_1780147805_0",
+      "person": "Amit Shah",
+      "promise": "The Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-05-15 01:30:15.301460",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780147893_1",
+      "person": "Mohan Yadav",
+      "promise": "Promised a thorough investigation into the firecracker factory explosion.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-05-15 01:26:37.887541",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780148359_2",
+      "person": "Revanth Reddy",
+      "promise": "The Ramakrishnapur Opencast (RKP OC) Phase-2 project will create 5,000 jobs.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-05-14 19:24:34.499414",
+      "evidence_articles": []
     }
   ]
 }
