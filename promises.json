@@ -4,9 +4,9 @@
     "last_updated": "2026-05-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 21,
+    "total_promises": 22,
     "promises_with_evidence": 5,
-    "last_processed_row": 451
+    "last_processed_row": 601
   },
   "promises": [
     {
@@ -123,7 +123,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Ongoing corruption investigations suggest the promise remains unfulfilled.",
+      "gemma_reasoning": "Ongoing corruption investigations suggest the promise is not yet fulfilled.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -414,7 +414,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The evidence shows ongoing political conflict related to voter rolls.",
+      "gemma_reasoning": "The promise is still in effect and being implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -428,7 +428,7 @@
         }
       ],
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
-      "gemma_confidence": "low",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-30"
     },
     {
@@ -445,7 +445,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is for 2047 and is still many years away.",
+      "gemma_reasoning": "The promise is for 2047 and the current date is 2026.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
@@ -483,6 +483,14 @@
       "gemma_reasoning": "The announcement was made, but no concrete evidence of restructuring completion exists.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-05-30"
+    },
+    {
+      "id": "promise_1780122872_0",
+      "person": "V.D. Satheesan",
+      "promise": "Satheesan assured them that he would resolve their grievances.",
+      "category": "politics",
+      "status": "ongoing",
+      "evidence_articles": []
     }
   ]
 }
