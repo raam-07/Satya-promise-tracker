@@ -1,21 +1,11 @@
 {
-  "generated_at": "2026-05-30 23:32:01.519159",
+  "generated_at": "2026-05-31 07:24:29.492672",
   "summary": {
-    "total_promises": 20,
-    "promises_with_validated_evidence": 20,
-    "statuses_automatically_updated": 2
+    "total_promises": 29,
+    "promises_with_validated_evidence": 21,
+    "statuses_automatically_updated": 1
   },
   "updated_items": [
-    {
-      "promise_id": "p006",
-      "person": "Narendra Modi",
-      "promise": "End corruption completely — 'Na khaunga, na khane dunga'",
-      "previous_status": "ongoing",
-      "new_status": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
-      "gemma_confidence": "high",
-      "evidence_count": 1
-    },
     {
       "promise_id": "p018",
       "person": "Yogi Adityanath",
