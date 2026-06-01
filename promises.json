@@ -4,9 +4,9 @@
     "last_updated": "2026-06-01",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 44,
+    "total_promises": 47,
     "promises_with_evidence": 21,
-    "last_processed_row": 6000
+    "last_processed_row": 7000
   },
   "promises": [
     {
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced in Parliament, Joint Parliamentary Committee examining it.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
+      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -416,7 +416,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah's directive to deport Rohingyas is an ongoing action.",
+      "gemma_reasoning": "Amit Shah is in power and actively directing deportations.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/shah-asks-delhi-police-to-take-action-against-networks-helping-illegal-bangladeshis-rohingyas/article69275250.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
+      "gemma_reasoning": "The target deadline of 2025 has passed and the Yamuna river remains polluted.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
+      "gemma_reasoning": "Political violence and worker dominance continue, making a full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -886,6 +886,33 @@
       "category": "politics",
       "status": "ongoing",
       "created_at": "2026-04-26 11:19:58.585847",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780307050_0",
+      "person": "Mohan Yadav",
+      "promise": "Mohan Yadav's government will double the market price of land acquired for farmers.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-04-23 23:53:40.087187",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780308062_1",
+      "person": "Chandrababu Naidu",
+      "promise": "The government will establish a Commissionerate of Skill, Employment and Training with District Skill Development Plans to identify priority sectors and employment opportunities aligned with local economic potential.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-04-23 16:04:14.767894",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780309047_2",
+      "person": "Narendra Modi",
+      "promise": "Prime Minister Narendra Modi called for reduced foreign travel.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-05-24 11:00:03.260070",
       "evidence_articles": []
     }
   ]
