@@ -4,9 +4,9 @@
     "last_updated": "2026-06-01",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 47,
+    "total_promises": 50,
     "promises_with_evidence": 21,
-    "last_processed_row": 7000
+    "last_processed_row": 8000
   },
   "promises": [
     {
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -416,7 +416,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is in power and actively directing deportations.",
+      "gemma_reasoning": "Amit Shah's directive to deport Rohingyas is an ongoing action.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/shah-asks-delhi-police-to-take-action-against-networks-helping-illegal-bangladeshis-rohingyas/article69275250.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2025 has passed and the Yamuna river remains polluted.",
+      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
+      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and worker dominance continue, making a full assessment difficult.",
+      "gemma_reasoning": "Political violence and worker dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -913,6 +913,33 @@
       "category": "economy",
       "status": "ongoing",
       "created_at": "2026-05-24 11:00:03.260070",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780313116_0",
+      "person": "Mohan Yadav",
+      "promise": "Mohan Yadav will increase compensation for agricultural land acquisition to four times the market price.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-04-22 23:33:48.487081",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780316240_1",
+      "person": "V.D. Satheesan",
+      "promise": "V.D. Satheesan pledged to develop a master plan to transform Kochi into a model city within six months.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-05-24 20:15:17.286499",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780317544_2",
+      "person": "Narendra Modi",
+      "promise": "Modi announced financial assistance to the victims' families.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-04-20 21:18:10.291495",
       "evidence_articles": []
     }
   ]
