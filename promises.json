@@ -4,9 +4,9 @@
     "last_updated": "2026-06-01",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 38,
+    "total_promises": 44,
     "promises_with_evidence": 21,
-    "last_processed_row": 5000
+    "last_processed_row": 6000
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
+      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced in Parliament, Joint Parliamentary Committee examining it.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2025 has passed.",
+      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -832,6 +832,60 @@
       "category": "crime_violence",
       "status": "ongoing",
       "created_at": "2026-04-30 00:04:34.497300",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780291365_0",
+      "person": "Narendra Modi",
+      "promise": "Prime Minister Narendra Modi announced financial assistance for the victims of the road accident.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-04-29 21:12:50.018706",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780292606_1",
+      "person": "Revanth Reddy",
+      "promise": "Chief Minister A. Revanth Reddy announced plans to complete unfinished Indiramma houses.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-05-23 17:09:52.164425",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780292965_2",
+      "person": "Rahul Gandhi",
+      "promise": "Rahul Gandhi promised to fight against the Union government's ₹92,000 crore infrastructure project.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-04-29 01:25:13.208546",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780293623_3",
+      "person": "Mohan Yadav",
+      "promise": "Mohan Yadav proposed a resolution to implement women's reservation in the Madhya Pradesh Assembly after the delimitation process is complete.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-28 01:20:52.857945",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780295382_4",
+      "person": "Chandrababu Naidu",
+      "promise": "Chandrababu Naidu has promised to reduce Andhra Pradesh's power purchase cost to ₹4.60 per unit by the end of the year.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-04-27 14:09:53.068208",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780297953_5",
+      "person": "Narendra Modi",
+      "promise": "All refugees fleeing religious persecution in neighboring countries would be granted citizenship through the Citizenship Amendment Act procedures.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-26 11:19:58.585847",
       "evidence_articles": []
     }
   ]
