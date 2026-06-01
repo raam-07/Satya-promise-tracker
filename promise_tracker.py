@@ -190,11 +190,12 @@ def load_tracked_politicians():
         response.raise_for_status()
         entities = response.json()
         
-        # Extract names from cabinet_ministers, state_chief_ministers, and opposition_leaders
+        # Extract names from cabinet_ministers, state_chief_ministers, opposition_leaders, and generic_politicians
         all_ministers = (
             entities.get('india', {}).get('cabinet_ministers', []) +
             entities.get('india', {}).get('state_chief_ministers', []) +
-            entities.get('india', {}).get('opposition_leaders', [])
+            entities.get('india', {}).get('opposition_leaders', []) +
+            entities.get('india', {}).get('generic_politicians', [])
         )
         
         # Capture canonical names and aliases
