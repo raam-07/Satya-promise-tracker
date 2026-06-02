@@ -4,9 +4,9 @@
     "last_updated": "2026-06-02",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 79,
+    "total_promises": 86,
     "promises_with_evidence": 27,
-    "last_processed_row": 12000
+    "last_processed_row": 13000
   },
   "promises": [
     {
@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
+      "gemma_reasoning": "The target deadline of 2022 passed, and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and the $5 trillion GDP goal was not achieved.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and India's GDP remains below $5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed and the project is delayed.",
+      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
+      "gemma_reasoning": "The target deadline of 2025 has passed.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and worker dominance continue, making full assessment difficult.",
+      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -740,7 +740,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing work on the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -1211,7 +1211,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
+      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -1291,6 +1291,69 @@
       "category": "crime_violence",
       "status": "ongoing",
       "created_at": "2026-05-28 17:00:38.029122",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780397382_0",
+      "person": "Amit Shah",
+      "promise": "If the BJP comes to power, all infiltrators from Assam, Tripura, and Bengal will be sent back to their countries.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-04-07 12:12:50.536828",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780398318_1",
+      "person": "Chandrababu Naidu",
+      "promise": "Chandrababu Naidu will inaugurate newly procured fire service vehicles and equipment as part of the State’s fire safety modernization program.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-04-07 06:59:38.239579",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780401148_2",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy promised to complete all pending irrigation projects in Telangana.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-04-06 20:13:16.204507",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780402918_3",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy launched over ₹900 crore in development projects for the erstwhile united Adilabad district.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-04-06 11:34:51.229625",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780403944_4",
+      "person": "Pinarayi Vijayan",
+      "promise": "Pinarayi Vijayan launched a name change initiative.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-06 02:58:04.688468",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780405021_5",
+      "person": "Nirmala Sitharaman",
+      "promise": "Nirmala Sitharaman announced plans to increase India's installed nuclear power generation capacity to 100 GW by 2047.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-04-05 19:42:51.079567",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780405920_6",
+      "person": "Devendra Fadnavis",
+      "promise": "The Enforcement Directorate (ED) will investigate the assets of self-styled godman Ashok Kharat.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-04-05 16:53:38.245409",
       "evidence_articles": []
     }
   ]
