@@ -4,9 +4,9 @@
     "last_updated": "2026-06-02",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 86,
-    "promises_with_evidence": 27,
-    "last_processed_row": 13000
+    "total_promises": 97,
+    "promises_with_evidence": 28,
+    "last_processed_row": 14000
   },
   "promises": [
     {
@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 passed, and farm income did not double.",
+      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
+      "gemma_reasoning": "No black money repatriation happened, and the promise was called a 'jumla'.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and schemes.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is ongoing, despite state-level implementations.",
+      "gemma_reasoning": "UCC implementation is ongoing at the state level and nationally.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "Congress lost the 2019 election, so the NYAY scheme was not implemented.",
+      "gemma_reasoning": "The promise was a campaign promise made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -740,7 +740,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing work on the promise.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -1100,7 +1100,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is currently touring border areas and planning the 'Smart Border Concept'.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -1262,7 +1262,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is in opposition and the deadline is in the future.",
+      "gemma_reasoning": "The Congress is still in power and has not missed the 2029 deadline.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -1354,6 +1354,120 @@
       "category": "crime_violence",
       "status": "ongoing",
       "created_at": "2026-04-05 16:53:38.245409",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780412054_0",
+      "person": "Chandrababu Naidu",
+      "promise": "Chandrababu Naidu promised to implement a 100-day action plan focused on maximizing water use and groundwater recharge, launching April 6th.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-04-05 14:12:26.801479",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780412337_1",
+      "person": "Devendra Fadnavis",
+      "promise": "The Maharashtra government will provide assistance to farmers who have suffered crop damage and financial losses due to unseasonal rains.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-04-05 13:10:34.739347",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780413034_2",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy directed officials to implement Tirumala-style regulations prohibiting political meetings and demonstrations within temple grounds.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-05 09:47:36.336259",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780413185_3",
+      "person": "Himanta Biswa Sarma",
+      "promise": "Promised legal action against Himanta Biswa Sarma after the Congress forms a government.",
+      "category": "corruption_scam",
+      "status": "void",
+      "created_at": "2026-04-05 09:46:31.078131",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/elections/assam-assembly/assam-assembly-polls-like-zubeen-garg-cong-works-to-unite-people-says-rahul-gandhi/article70826244.ece",
+          "title": "Assam Assembly polls: Like Zubeen Garg, Cong works to unite people, says Rahul Gandhi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-05 09:46:31.078131",
+          "relevance_score": 60,
+          "gemma_validated": true,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress party**,  compared his party's philosophy to that of musician **Zubeen Garg**, who worked to unite Assam. He accused **Himanta Biswa Sarma**, the current Chi",
+          "content": "Congress leader Rahul Gandhi on Sunday (April 5, 2026) said the philosophy of his party is that of the celebrated musician Zubeen Garg, who worked his entire life to unite Assam. Addressing an election rally in Assam's Biswanath district, he alleged that Chief Minister Himanta Biswa Sarma is the \"most corrupt CM\" in India and action will be taken against him after the Congress forms a government in the State. \"Zubeen Garg worked his entire life to unite people of Assam, he never misbehaved with anyone. The Congress philosophy is also like that, to spread love against hatred,\" Mr. Gandhi said. He alleged that the BJP government led by Sarma is spreading hatred against people and communities. \"Let him speak for some more days. After that, the Congress will form government in Assam and legal action will follow even if he asks for forgiveness,\" Mr. Gandhi said. Published - April 05, 2026 02:26 pm IST"
+        }
+      ],
+      "gemma_suggestion": "void",
+      "gemma_reasoning": "The Congress party did not form the government.",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-06-02"
+    },
+    {
+      "id": "promise_1780415119_4",
+      "person": "Yogi Adityanath",
+      "promise": "Yogi Adityanath pledged to reduce the school dropout rate in Uttar Pradesh from 3% to zero.",
+      "category": "education",
+      "status": "ongoing",
+      "created_at": "2026-04-04 23:37:49.034211",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780415677_5",
+      "person": "Mamata Banerjee",
+      "promise": "Mamata Banerjee promised to compensate farmers for their losses and provide cold storage facilities.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-04-04 19:42:01.103978",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780416787_6",
+      "person": "Narendra Modi",
+      "promise": "States with stabilized populations will not lose their Lok Sabha seats.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-04 16:46:25.863289",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780418142_7",
+      "person": "Mamata Banerjee",
+      "promise": "Urged her supporters to submit applications before tribunals for re-inclusion of names wrongly deleted from voter lists.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-04 10:09:58.839611",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780421696_8",
+      "person": "Narendra Modi",
+      "promise": "If re-elected, the BJP will provide a cow and a buffalo to each tribal family in Assam.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-04-03 15:44:30.898522",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780421844_9",
+      "person": "Revanth Reddy",
+      "promise": "Telangana aims to become the textile capital of South Asia by 2047.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-04-03 13:50:39.305082",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780422268_10",
+      "person": "Suvendu Adhikari",
+      "promise": "Suvendu Adhikari announced the commencement of the West Bengal Census 2027 between August 1 and February 2028.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-05-29 17:38:38.295279",
       "evidence_articles": []
     }
   ]

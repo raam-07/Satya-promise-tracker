@@ -1,9 +1,20 @@
 {
-  "generated_at": "2026-06-02 14:24:52.345101",
+  "generated_at": "2026-06-02 19:16:06.326137",
   "summary": {
-    "total_promises": 86,
-    "promises_with_validated_evidence": 27,
-    "statuses_automatically_updated": 0
+    "total_promises": 97,
+    "promises_with_validated_evidence": 28,
+    "statuses_automatically_updated": 1
   },
-  "updated_items": []
+  "updated_items": [
+    {
+      "promise_id": "promise_1780413185_3",
+      "person": "Himanta Biswa Sarma",
+      "promise": "Promised legal action against Himanta Biswa Sarma after the Congress forms a government.",
+      "previous_status": "ongoing",
+      "new_status": "void",
+      "gemma_reasoning": "The Congress party did not form the government.",
+      "gemma_confidence": "high",
+      "evidence_count": 1
+    }
+  ]
 }
