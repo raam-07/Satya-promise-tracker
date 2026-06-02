@@ -1,20 +1,9 @@
 {
-  "generated_at": "2026-06-02 02:31:46.574931",
+  "generated_at": "2026-06-02 06:27:00.739089",
   "summary": {
-    "total_promises": 68,
-    "promises_with_validated_evidence": 24,
-    "statuses_automatically_updated": 1
+    "total_promises": 75,
+    "promises_with_validated_evidence": 26,
+    "statuses_automatically_updated": 0
   },
-  "updated_items": [
-    {
-      "promise_id": "p018",
-      "person": "Yogi Adityanath",
-      "promise": "End mafia raj and crime completely in Uttar Pradesh",
-      "previous_status": "ongoing",
-      "new_status": "broken",
-      "gemma_reasoning": "Crime stats show mixed results and encounter killings rose significantly.",
-      "gemma_confidence": "high",
-      "evidence_count": 1
-    }
-  ]
+  "updated_items": []
 }

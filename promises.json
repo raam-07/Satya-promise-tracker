@@ -4,9 +4,9 @@
     "last_updated": "2026-06-02",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 68,
-    "promises_with_evidence": 24,
-    "last_processed_row": 10000
+    "total_promises": 75,
+    "promises_with_evidence": 26,
+    "last_processed_row": 11000
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
+      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is ongoing, despite state-level implementations.",
+      "gemma_reasoning": "National UCC implementation is not yet completed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Mamata Banerjee is still in power and political violence remains an issue.",
+      "gemma_reasoning": "Political violence and worker dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -740,7 +740,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing work on the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -995,7 +995,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The bill is still under discussion and has not been passed.",
+      "gemma_reasoning": "The Indian government is still working on passing the bill.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -1147,6 +1147,99 @@
       "category": "politics",
       "status": "ongoing",
       "created_at": "2026-05-26 23:49:55.347847",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780368596_0",
+      "person": "Chandrababu Naidu",
+      "promise": "Chandrababu Naidu promised to ensure all government welfare hostels are fully equipped and ready before schools reopen in June.",
+      "category": "education",
+      "status": "ongoing",
+      "created_at": "2026-04-13 23:56:59.408648",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780369978_1",
+      "person": "Piyush Goyal",
+      "promise": "Piyush Goyal promised to implement a 33% reservation for women in Parliament and Assemblies by 2029.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-13 22:01:44.704848",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780370419_2",
+      "person": "Amit Shah",
+      "promise": "Amit Shah ordered the demolition of buildings within 15km of the border with Pakistan.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-05-27 20:39:05.390304",
+      "evidence_articles": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
+          "title": "India orders demolition drive along border as Pakistan tensions simmer | India-Pakistan Tensions News | Al Jazeera",
+          "source": "Al Jazeera",
+          "scraped_at": "2026-05-27 20:39:05.390304",
+          "relevance_score": 77,
+          "gemma_validated": true,
+          "rephrased": "**India's** interior minister, Amit Shah, ordered the demolition of buildings within 15km of the border with **Pakistan**, citing the need to address \"trans-border crimes\" including infiltration and n",
+          "content": "India orders demolition drive along border as Pakistan tensions simmer The interior minister also urged officials to address infiltration, narcotics, smuggling, and other ‘trans-border crimes’. India’s interior minister has ordered the demolition of buildings along the border with Pakistan, as well as actions to combat a variety of “trans-border crimes”. Home Minister Amit Shah announced on Wednesday that buildings deemed “illegal” would be destroyed. In a statement, he explained that means that buildings within 15km (nine miles) of the border will be torn down. Recommended Stories list of 4 items- list 1 of 4Why is India turning to crocodiles and snakes to ‘fence’ Bangladesh border? - list 2 of 4Are India and Pakistan quietly preparing to restart dialogue? - list 3 of 4Train bomb in Pakistan’s Baloch region: Why violence is on the rise - list 4 of 4‘Naturally scared’: India’s Muslims denied public spaces for Eid prayers The order builds on the deepened tension between the South Asian neighbours. Relations hit new lows last year when India accused Pakistan of being behind a deadly attack in Kashmir, setting off a four-day war that killed more than 70 people, their worst conflict in decades. “Amit Shah stressed the need for strict enforcement of a zero-tolerance policy against illegal constructions, particularly within 0-15 km of the international border,” the Ministry of Home Affairs statement read. “He directed the concerned authorities to demolish all such unauthorised constructions.” Shah also urged officials to boost efforts “to effectively address infiltration, narcotics smuggling, encroachment, terror financing, and other trans-border crimes”, according to the statement. New Delhi has accused Islamabad of aiding narcotics and weapons smuggling into India, and has spent heavily on reinforcing its highly patrolled borders. Shah is known for his hardline stance on national security, irregular migration and transnational crimes. He unveiled the order while in the western state of Rajasthan, which borders Pakistan. India’s frontier with Pakistan, including the de facto border through the disputed Himalayan territory of Kashmir, stretches for 3,300km (2,050 miles). India and Pakistan accuse each other of backing proxy forces, and each side fiercely rejects the claims of the other. The brief war broke out last year after an attack in Indian-administered Kashmir killed 26 men, mostly Hindu tourists. India accused Pakistan of backing the attack – a charge Islamabad denied – triggering tit-for-tat diplomatic measures and air strikes, drone swarms and heavy mortar fire."
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is actively being implemented.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-02"
+    },
+    {
+      "id": "promise_1780373808_3",
+      "person": "Revanth Reddy",
+      "promise": "The BRS party will conduct a state-wide padayatra in 2027.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-12 17:13:16.614112",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
+          "title": "KTR hints at padayatra in 2027, rules out tie-up with BJP - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-12 17:13:16.614112",
+          "relevance_score": 71,
+          "gemma_validated": true,
+          "rephrased": "**K.T. Rama Rao**, working president of the **Bharat Rashtra Samithi (BRS)**, stated that the party will contest the upcoming elections independently and return to power. He also hinted at a state-wid",
+          "content": "Hyderabad Bharat Rashtra Samithi (BRS) working president K.T. Rama Rao ruled out any alliance with any party in the coming elections, and also hinted at a padayatra next year to reconnect with people. Mr. Rama Rao, who was in Kyatanpally municipality on Sunday to felicitate the newly-elected members, said, “Alliances have not worked for us. We will contest alone and return to power,” and denied any tie-up with the BJP in future. He also hinted at undertaking a State-wide padayatra in 2027 focusing on public issues, as part of efforts to reconnect with the people and strengthen the party. He admitted that a gap had developed between the party and the people during its decade in power. On delimitation, Mr. Rama Rao said that the proposed increase in Assembly and Parliamentary constituencies would create new political opportunities. He maintained that if the current proportional representation is retained, there would be no objection. “If all states receive a uniform increase in seats without reducing existing share, there is no reason for concern,” he observed. Admitting shortcomings during the BRS government’s tenure, KTR said the party failed to maintain effective coordination with grassroots leaders, including cadre, sarpanches, MPTCs and mandal-level representatives. He also acknowledged that despite a large migrant workforce from north Telangana districts, the government could not formulate a comprehensive Gulf policy. He criticised the Revanth Reddy government, alleging that key welfare schemes such as Rythu Bandhu and farm loan waivers were not being implemented properly. He also flagged delays in fee reimbursement affecting students and claimed that public confidence in the government was declining. KTR criticised the allocation of funds to the Pranahita project despite objections from Maharashtra and demanded early completion of the Chennur lift irrigation scheme. On Singareni, he said that expansion of opencast mining was reducing employment opportunities and leading to worker discontent. Published - April 12, 2026 10:05 pm IST"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-02"
+    },
+    {
+      "id": "promise_1780376713_4",
+      "person": "Ashwini Vaishnaw",
+      "promise": "Ashwini Vaishnaw approved the introduction of a Vande Bharat sleeper train service between KSR Bengaluru and Chhatrapati Shivaji Maharaj Terminus in Mumbai.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-04-11 22:43:52.894126",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780377309_5",
+      "person": "Devendra Fadnavis",
+      "promise": "Devendra Fadnavis promised to investigate the helicopter landing incident.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-11 21:40:27.762170",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780377761_6",
+      "person": "Nitish Kumar",
+      "promise": "Nitish Kumar promised an ex gratia of ₹2 lakh to the families of the deceased and ₹50,000 to each injured person.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-04-11 17:41:40.906165",
       "evidence_articles": []
     }
   ]
