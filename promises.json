@@ -1,12 +1,12 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-06-02",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 58,
-    "promises_with_evidence": 23,
-    "last_processed_row": 9000
+    "total_promises": 68,
+    "promises_with_evidence": 24,
+    "last_processed_row": 10000
   },
   "promises": [
     {
@@ -38,7 +38,7 @@
       ],
       "notes": "Multiple government reports and farmer groups confirmed income did not double by 2022. Inflation-adjusted farm income actually declined in several states.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -70,7 +70,7 @@
       ],
       "notes": "CMIE data consistently showed unemployment rising post-2016. India added far fewer formal jobs than promised annually.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -102,7 +102,7 @@
       ],
       "notes": "No black money repatriation happened. Rs 15 lakh was later called a 'jumla' by BJP president Amit Shah.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -134,7 +134,7 @@
       ],
       "notes": "Target missed in 2022, deadline extended. Partial completion achieved but far short of original target.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -166,7 +166,7 @@
       ],
       "notes": "India's GDP remains around $3.5 trillion. Target missed significantly. COVID cited as reason.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -198,7 +198,7 @@
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-04-06 10:20:23.758142"
     },
     {
@@ -230,7 +230,7 @@
       ],
       "notes": "Supreme Court struck down electoral bonds as unconstitutional in Feb 2024. SBI data showed BJP received largest share of anonymous donations.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -247,7 +247,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2024 has passed and the promise was not met.",
+      "gemma_reasoning": "Target deadline of 2024 has passed and the promise was not met.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/centres-potable-water-mission-may-miss-2024-target/article67029584.ece",
@@ -262,7 +262,7 @@
       ],
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -303,7 +303,7 @@
       ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-04-11 17:42:10.589164"
     },
     {
@@ -335,7 +335,7 @@
       ],
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -367,7 +367,7 @@
       ],
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -399,7 +399,7 @@
       ],
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -431,7 +431,7 @@
       ],
       "notes": "Rohingya population continues to live in India. Deportations happen occasionally but not systematically.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -463,7 +463,7 @@
       ],
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -495,7 +495,7 @@
       ],
       "notes": "Implemented and sustained. Free electricity up to 200 units provided to Delhi households.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -527,7 +527,7 @@
       ],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -559,7 +559,7 @@
       ],
       "notes": "Congress lost 2019 election. NYAY scheme never implemented. Remains a campaign promise.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -573,7 +573,7 @@
       "deadline": "ongoing",
       "source_url": "https://www.bjp.org",
       "source_description": "CM oath taking speech and subsequent addresses",
-      "status": "ongoing",
+      "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "Crime stats show mixed results and encounter killings rose significantly.",
@@ -590,8 +590,8 @@
         }
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
-      "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
     {
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and dominance continue, making a full assessment difficult.",
+      "gemma_reasoning": "Mamata Banerjee is still in power and political violence remains an issue.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -623,7 +623,7 @@
       ],
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-04-08 02:52:04.016076"
     },
     {
@@ -654,7 +654,7 @@
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01",
+      "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-10 12:02:18.299435"
     },
     {
@@ -740,9 +740,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01"
+      "gemma_assessed_at": "2026-06-02"
     },
     {
       "id": "promise_1780208617_8",
@@ -964,7 +964,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01"
+      "gemma_assessed_at": "2026-06-02"
     },
     {
       "id": "promise_1780334199_1",
@@ -995,9 +995,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Indian government is still working on passing the bill.",
+      "gemma_reasoning": "The bill is still under discussion and has not been passed.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-01"
+      "gemma_assessed_at": "2026-06-02"
     },
     {
       "id": "promise_1780335440_3",
@@ -1042,6 +1042,111 @@
       "category": "politics",
       "status": "ongoing",
       "created_at": "2026-04-16 21:56:58.257998",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780355440_0",
+      "person": "Chandrababu Naidu",
+      "promise": "Chandrababu Naidu plans to introduce legislation to incentivize more children per family.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-16 10:01:10.455404",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780355653_1",
+      "person": "Narendra Modi",
+      "promise": "Postal voting will be conducted for senior citizens aged 85 and above, and persons with benchmark disabilities in Chennai district from April 16th to 18th, 2026.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-16 06:10:28.585104",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780356274_2",
+      "person": "Mamata Banerjee",
+      "promise": "The BJP will prioritize resolving issues for Gurkha residents in Darjeeling, including withdrawing all pending police cases against community leaders and workers.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-16 00:13:10.366366",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780357387_3",
+      "person": "Mohan Yadav",
+      "promise": "Mohan Yadav promised to build a 'Saraswati Lok' corridor and a Raja Bhoj Research Institute.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-05-26 00:11:23.669563",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780357675_4",
+      "person": "Amit Shah",
+      "promise": "Amit Shah plans to unveil a 'Smart Border Concept' equipped with drones and radars.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-05-25 22:42:07.159461",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/amit-shah-to-visit-border-areas-over-next-three-weeks/article71022402.ece",
+          "title": "Amit Shah to visit border areas over next three weeks - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-25 22:42:07.159461",
+          "relevance_score": 71,
+          "gemma_validated": true,
+          "rephrased": "**Union Home Minister Amit Shah** began a three-week tour of India's border areas on Tuesday, May 26, 2026, visiting Rajasthan and Gujarat. He will meet with state officials, BSF officers, and represe",
+          "content": "Starting with Rajasthan on Tuesday (May 26, 2026), Union Home Minister Amit Shah will visit the country’s border areas over the next three weeks, a government official said. During his visits to border outposts along Pakistan and Bangladesh borders, Mr. Shah is expected to take stock of the security situation with State government and Border Security Force (BSF) officials. Mr. Shah arrived in Rajasthan’s Bikaner on Monday night. He will visit the BSF border outpost at Sanchu on Tuesday, where he will attend the “Prahari Sammelan” and virtually inaugurate barracks for women personnel. Later in the day, he will review the border security with senior BSF officers in Bikaner. The meeting will also include representatives from the Union Home Ministry and senior officials from the five districts that share a border with Pakistan, the official said. Mr. Shah will travel to Bhuj in Gujarat on May 29, where he is scheduled to visit another BSF border outpost. In June, the Minister is likely to visit border areas along the Bangladesh frontier, beginning with Tripura on June 5, followed by a visit to West Bengal around June 15, the official added. On May 22, Mr. Shah said that a “Smart Border Concept” will be unveiled soon to make the Pakistan and Bangladesh borders “impregnable.” The project, equipped with drones, radars, cameras, and other technical resources, is expected to plug gaps in border security. The Minister said that a high-powered demography mission would be announced soon to identify infiltration routes and provide the information to the BSF. Published - May 25, 2026 10:08 pm IST"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-02"
+    },
+    {
+      "id": "promise_1780361059_5",
+      "person": "Narendra Modi",
+      "promise": "The BJP will ensure the lighting of the Karthigai Deepam at the Thiruparankundram Hill in Madurai, Tamil Nadu.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-04-15 00:10:09.265691",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780361541_6",
+      "person": "Yogi Adityanath",
+      "promise": "Launched the 'Dr. Bhimrao Ramji Ambedkar Statue Development Scheme' to beautify and conserve statues.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-04-14 23:26:27.431962",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780362157_7",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy promised to enact legislation against hate speech.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-04-14 21:32:27.668928",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780362360_8",
+      "person": "C. Joseph Vijay",
+      "promise": "TVK will establish a global e-commerce platform for weaver products.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-04-14 21:30:11.642869",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780363480_9",
+      "person": "Revanth Reddy",
+      "promise": "The government will release ₹50 crore monthly to ensure timely salary payments to over 50,000 village panchayat staff.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-05-26 23:49:55.347847",
       "evidence_articles": []
     }
   ]

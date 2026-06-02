@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-01 19:53:29.459878",
+  "generated_at": "2026-06-02 02:31:46.574931",
   "summary": {
-    "total_promises": 58,
-    "promises_with_validated_evidence": 23,
+    "total_promises": 68,
+    "promises_with_validated_evidence": 24,
     "statuses_automatically_updated": 1
   },
   "updated_items": [
@@ -13,7 +13,7 @@
       "previous_status": "ongoing",
       "new_status": "broken",
       "gemma_reasoning": "Crime stats show mixed results and encounter killings rose significantly.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "high",
       "evidence_count": 1
     }
   ]
