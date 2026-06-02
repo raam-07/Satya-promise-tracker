@@ -4,9 +4,9 @@
     "last_updated": "2026-06-02",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 97,
-    "promises_with_evidence": 28,
-    "last_processed_row": 14000
+    "total_promises": 101,
+    "promises_with_evidence": 29,
+    "last_processed_row": 15000
   },
   "promises": [
     {
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and the promise was called a 'jumla'.",
+      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and India's GDP remains below $5 trillion.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and the $5 trillion GDP goal was not achieved.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and schemes.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "UCC implementation is ongoing at the state level and nationally.",
+      "gemma_reasoning": "National UCC implementation is not yet completed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -590,7 +590,7 @@
         }
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-02",
       "created_at": "2026-05-30"
     },
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
+      "gemma_reasoning": "Political violence and worker dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -1100,7 +1100,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and planning the 'Smart Border Concept'.",
+      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -1262,7 +1262,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is still in power and has not missed the 2029 deadline.",
+      "gemma_reasoning": "The Congress is still in power and has stated plans to implement the law.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-02"
     },
@@ -1468,6 +1468,57 @@
       "category": "politics",
       "status": "ongoing",
       "created_at": "2026-05-29 17:38:38.295279",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780428926_0",
+      "person": "Himanta Biswa Sarma",
+      "promise": "Promised to deliver justice for singer Zubeen Garg's death within 100 days if the Congress wins.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-04-02 11:55:53.239333",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780430117_1",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy promised to build a swimming pool at S",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-04-02 03:22:17.587303",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780432651_2",
+      "person": "Amit Shah",
+      "promise": "Amit Shah agreed in principle to raising an all-woman police battalion for Manipur.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-04-01 17:58:00.019839",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
+          "title": "Amit Shah asks Manipur CM to accelerate peace process, approves formation of all-woman police battalion - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-01 17:58:00.019839",
+          "relevance_score": 72,
+          "gemma_validated": true,
+          "rephrased": "**Union Home Minister Amit Shah** met with **Manipur Chief Minister Yumnam Khemchand Singh** on Wednesday to discuss the ongoing peace process in the state.  Shah asked Mr. Singh to accelerate the pea",
+          "content": "Union Home Minister Amit Shah on Wednesday (April 1, 2026) asked Manipur Chief Minister Yumnam Khemchand Singh to accelerate the ongoing peace process in the State and approved the creation of an all-woman police battalion, according to a Manipur Government statement. Mr. Singh called on the Home Minister at Parliament House complex, where the two leaders discussed the law and order situation in the State. During the meeting, Mr. Shah asked the Chief Minister to accelerate the peace process and consolidate the growing bonhomie among different communities, the statement said. “Reviewing the prevailing security scenario in Manipur with the Chief Minister, Mr. Shah agreed in principle to raising a Mahila India Reserve Battalion (IRB) for the State and asked Mr. Singh to send the proposal,” the statement said. Ethnic violence between the Meitei and Kuki-Zo communities erupted in the State on May 3, 2023, which has claimed around 250 lives so far. The State was placed under President’s Rule on February 13, 2024, and Mr. Singh assumed the office as Chief Minister on February 4 this year. Meanwhile, the burial of Vungzagin Valte, a BJP MLA from Manipur who was assaulted by a mob in Imphal on May 4, 2023 and passed away at a hospital in Haryana’s Gurugram on February 21, is yet to take place. His body is being preserved at the morgue of Churachandpur district hospital. Family members and Zomi community leaders have put forth certain conditions before the last rites are performed. To press for their demands—including a probe by the National Investigation Agency (NIA) into the assault and a political solution—the Zomi Coordination Committee (ZCC) was formed. On March 31, the ZCC said that the month-long Zomi National Mourning, observed in honour of the MLA, has concluded, and in the absence of a meaningful response from the authorities concerned on the issues of justice and accountability, democratic agitations would begin across Zomi areas in a phased and coordinated manner with immediate effect. Published - April 01, 2026 11:17 pm IST"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-02"
+    },
+    {
+      "id": "promise_1780436701_3",
+      "person": "V.D. Satheesan",
+      "promise": "V.D. Satheesan promised to resign from politics if the UDF does not win the upcoming Kerala elections.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-03-30 22:08:22.374467",
       "evidence_articles": []
     }
   ]
