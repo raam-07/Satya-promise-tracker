@@ -4,9 +4,9 @@
     "last_updated": "2026-06-03",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 110,
+    "total_promises": 113,
     "promises_with_evidence": 31,
-    "last_processed_row": 17000
+    "last_processed_row": 18000
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
+      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and India's GDP remains below $5 trillion.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and the $5 trillion GDP goal was not achieved.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -197,7 +197,7 @@
         }
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-04-06 10:20:23.758142"
     },
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is not yet completed.",
+      "gemma_reasoning": "National UCC implementation is ongoing, despite state-level implementations.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
+      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -416,7 +416,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is in power and has directed action against Rohingya immigrants.",
+      "gemma_reasoning": "Amit Shah is in power and actively directing deportations.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/shah-asks-delhi-police-to-take-action-against-networks-helping-illegal-bangladeshis-rohingyas/article69275250.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2025 has passed and the river remains polluted.",
+      "gemma_reasoning": "The target deadline of 2025 has passed.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -526,7 +526,7 @@
         }
       ],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and dominance continue, making a full assessment impossible.",
+      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -1100,7 +1100,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and planning the 'Smart Border Concept'.",
+      "gemma_reasoning": "Amit Shah is actively touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03"
     },
@@ -1187,7 +1187,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is actively being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03"
     },
@@ -1262,7 +1262,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is still in power and has not missed the 2029 deadline.",
+      "gemma_reasoning": "The Congress is still in power and has stated plans to implement the law.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03"
     },
@@ -1508,7 +1508,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is in progress.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying continued work on the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03"
     },
@@ -1630,6 +1630,33 @@
       "category": "crime_violence",
       "status": "ongoing",
       "created_at": "2026-05-30 23:05:30.763840",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780483022_0",
+      "person": "Nirmala Sitharaman",
+      "promise": "The Indian government aims to reduce delays in resolving insolvent companies through a new creditor-led resolution process with a 150-day deadline.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-03-25 19:30:13.372364",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780484789_1",
+      "person": "Himanta Biswa Sarma",
+      "promise": "Himanta Biswa Sarma promised to expand the Assam Council of Ministers to a maximum of 19 members.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-05-31 21:08:30.937809",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780484944_2",
+      "person": "C. Joseph Vijay",
+      "promise": "C. Joseph Vijay promised to release a White Paper on the state's finances upon assuming office.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-05-31 21:08:05.235239",
       "evidence_articles": []
     }
   ]
