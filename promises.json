@@ -4,9 +4,9 @@
     "last_updated": "2026-06-03",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 108,
+    "total_promises": 110,
     "promises_with_evidence": 31,
-    "last_processed_row": 16000
+    "last_processed_row": 17000
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
+      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2024 has passed and the $5 trillion GDP goal was not achieved.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and India's GDP remains below $5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2025 has passed.",
+      "gemma_reasoning": "The target deadline of 2025 has passed and the river remains polluted.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -526,7 +526,7 @@
         }
       ],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
+      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -590,7 +590,7 @@
         }
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and worker dominance continue, making full assessment difficult.",
+      "gemma_reasoning": "Political violence and dominance continue, making a full assessment impossible.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -740,7 +740,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
+      "gemma_reasoning": "The BJP government is in power and actively implementing policies.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03"
     },
@@ -1100,7 +1100,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is currently touring border areas and planning the 'Smart Border Concept'.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03"
     },
@@ -1262,7 +1262,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is still in power and has stated plans to implement the law.",
+      "gemma_reasoning": "The Congress is still in power and has not missed the 2029 deadline.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03"
     },
@@ -1508,7 +1508,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah discussed the proposal with the Manipur Chief Minister.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is in progress.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-03"
     },
@@ -1612,6 +1612,24 @@
       "category": "infrastructure",
       "status": "ongoing",
       "created_at": "2026-03-28 07:34:06.617977",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780463061_0",
+      "person": "Sukhvinder Singh Sukhu",
+      "promise": "Sukhvinder Singh Sukhu directed all departments to implement mandatory drug testing for government service applicants.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-05-30 21:41:57.704773",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780466905_1",
+      "person": "Devendra Fadnavis",
+      "promise": "Devendra Fadnavis promised to dismantle the entire spurious liquor ecosystem.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-05-30 23:05:30.763840",
       "evidence_articles": []
     }
   ]
