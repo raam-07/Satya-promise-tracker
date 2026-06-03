@@ -1,12 +1,12 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-03",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 101,
-    "promises_with_evidence": 29,
-    "last_processed_row": 15000
+    "total_promises": 108,
+    "promises_with_evidence": 31,
+    "last_processed_row": 16000
   },
   "promises": [
     {
@@ -38,7 +38,7 @@
       ],
       "notes": "Multiple government reports and farmer groups confirmed income did not double by 2022. Inflation-adjusted farm income actually declined in several states.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -70,7 +70,7 @@
       ],
       "notes": "CMIE data consistently showed unemployment rising post-2016. India added far fewer formal jobs than promised annually.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -102,7 +102,7 @@
       ],
       "notes": "No black money repatriation happened. Rs 15 lakh was later called a 'jumla' by BJP president Amit Shah.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -134,7 +134,7 @@
       ],
       "notes": "Target missed in 2022, deadline extended. Partial completion achieved but far short of original target.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and the $5 trillion GDP goal was not achieved.",
+      "gemma_reasoning": "The target deadline of 2024 has passed and the $5 trillion GDP goal was not achieved.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -166,7 +166,7 @@
       ],
       "notes": "India's GDP remains around $3.5 trillion. Target missed significantly. COVID cited as reason.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -198,7 +198,7 @@
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-04-06 10:20:23.758142"
     },
     {
@@ -230,7 +230,7 @@
       ],
       "notes": "Supreme Court struck down electoral bonds as unconstitutional in Feb 2024. SBI data showed BJP received largest share of anonymous donations.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -262,7 +262,7 @@
       ],
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -303,7 +303,7 @@
       ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-04-11 17:42:10.589164"
     },
     {
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
+      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -335,7 +335,7 @@
       ],
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -367,7 +367,7 @@
       ],
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -399,7 +399,7 @@
       ],
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -416,7 +416,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah's directive to deport Rohingyas is an ongoing action.",
+      "gemma_reasoning": "Amit Shah is in power and has directed action against Rohingya immigrants.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/shah-asks-delhi-police-to-take-action-against-networks-helping-illegal-bangladeshis-rohingyas/article69275250.ece",
@@ -431,7 +431,7 @@
       ],
       "notes": "Rohingya population continues to live in India. Deportations happen occasionally but not systematically.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -463,7 +463,7 @@
       ],
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -495,7 +495,7 @@
       ],
       "notes": "Implemented and sustained. Free electricity up to 200 units provided to Delhi households.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -527,7 +527,7 @@
       ],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -559,7 +559,7 @@
       ],
       "notes": "Congress lost 2019 election. NYAY scheme never implemented. Remains a campaign promise.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -591,7 +591,7 @@
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-30"
     },
     {
@@ -623,7 +623,7 @@
       ],
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-04-08 02:52:04.016076"
     },
     {
@@ -654,7 +654,7 @@
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02",
+      "gemma_assessed_at": "2026-06-03",
       "created_at": "2026-05-10 12:02:18.299435"
     },
     {
@@ -742,7 +742,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780208617_8",
@@ -964,7 +964,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780334199_1",
@@ -997,7 +997,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The Indian government is still working on passing the bill.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780335440_3",
@@ -1102,7 +1102,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780361059_5",
@@ -1187,9 +1187,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
+      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780373808_3",
@@ -1211,9 +1211,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
+      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780376713_4",
@@ -1264,7 +1264,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The Congress is still in power and has stated plans to implement the law.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780383641_1",
@@ -1405,7 +1405,7 @@
       "gemma_suggestion": "void",
       "gemma_reasoning": "The Congress party did not form the government.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780415119_4",
@@ -1508,9 +1508,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
+      "gemma_reasoning": "Amit Shah discussed the proposal with the Manipur Chief Minister.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-02"
+      "gemma_assessed_at": "2026-06-03"
     },
     {
       "id": "promise_1780436701_3",
@@ -1519,6 +1519,99 @@
       "category": "politics",
       "status": "ongoing",
       "created_at": "2026-03-30 22:08:22.374467",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780442427_0",
+      "person": "Rahul Gandhi",
+      "promise": "Rahul Gandhi promised to raise the rubber price to ₹250 per kg as the first decision of the new government.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-03-30 19:10:39.551594",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780443681_1",
+      "person": "Narendra Modi",
+      "promise": "Modi promised a 'Viksit Kerala' under an NDA government, emphasizing faster development and curbing youth migration.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-03-29 23:39:39.177794",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780443870_2",
+      "person": "Amit Shah",
+      "promise": "Amit Shah set a deadline for eradicating Left Wing Extremism.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-03-29 21:40:40.770274",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780444756_3",
+      "person": "C. Joseph Vijay",
+      "promise": "TVK will provide collateral-free education loans to youth.",
+      "category": "education",
+      "status": "ongoing",
+      "created_at": "2026-03-29 19:42:22.111185",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780446424_4",
+      "person": "Amit Shah",
+      "promise": "The BJP will introduce the Uniform Civil Code in Assam if re-elected for a third consecutive term.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-03-29 16:43:09.012278",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/elections/assam-assembly/amit-shah-promises-ucc-in-assam/article70799693.ece",
+          "title": "Amit Shah promises UCC in Assam - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-29 16:43:09.012278",
+          "relevance_score": 72,
+          "gemma_validated": true,
+          "rephrased": "**Amit Shah**, Union Home Minister, stated that the **BJP** would introduce the Uniform Civil Code (UCC) in Assam if re-elected for a third consecutive term. The proposed UCC includes a provision to b",
+          "content": "Union Home Minister Amit Shah on Sunday (March 29, 2026) said the Uniform Civil Code (UCC) would be introduced in Assam if the Bharatiya Janata Party (BJP) forms the government for the third straight term. Addressing a rally in western Assam’s Tihu, he said the UCC would have a provision to ban polygamy. “The move is aimed at bringing uniformity in civil laws and strengthening social reforms in Assam,” he said. Uttarakhand was the first State to pass and implement the UCC in the first half of 2025. Gujarat passed a Bill in March to implement the UCC. The Himanta Biswa Sarma-led Assam government had earlier passed the Assam Prohibition of Polygamy Bill in November 2025, seeking to criminalise the practice of having more than one spouse simultaneously, irrespective of religion. The legislation was seen as a step towards implementing the UCC in the State. Published - March 29, 2026 07:42 pm IST"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The BJP is currently in power and Amit Shah has stated the UCC will be introduced if re-elected.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-03"
+    },
+    {
+      "id": "promise_1780446983_5",
+      "person": "M.K. Stalin",
+      "promise": "M.K. Stalin will provide non-income tax assessee housewives with an ₹8,000 coupon to purchase household appliances.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-03-29 14:10:10.469164",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
+          "title": "Stalin promises ₹8,000 coupon to housewives to buy household appliances - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-29 14:10:10.469164",
+          "relevance_score": 80,
+          "gemma_validated": true,
+          "rephrased": "**M.K. Stalin**, DMK president and Tamil Nadu Chief Minister, unveiled a new manifesto for the upcoming Assembly elections, promising various welfare schemes. The \"Illatharasi Scheme\" will provide non",
+          "content": "Releasing what he described as a “Superstar” manifesto for the Tamil Nadu Assembly elections on Sunday (March 29, 2026), DMK President and Chief Minister M.K. Stalin announced the Illatharasi Scheme under which all non-income tax assessee housewives will be given a coupon valued at ₹8,000 to purchase or replace household electronic appliances. They can choose from a range of appliances including a washing machine, a TV, a grinder, a fridge, mixies microwave oven and an induction stove. Follow updates for the Assembly elections 2026 “The DMK’s election manifesto has always been a hero. The manifesto is also the heroine of the election. Now the manifesto will enter the fray as a superstar,” he said, adding the coupon would be the better way to serve homemakers. “Otherwise, they will spend the money,” he told journalists at Anna Arivalayam, the party headquarters in Chennai. When asked whether the government would have funds to implement the new schemes, Mr. Stalin said similar doubts were raised in the 2021 election, but the DMK government fulfilled all its promises. Mr. Stalin also said the Chief Minister’s Breakfast Scheme will be extended to students up to class 8. It is now being implemented for the benefit of student of 1 to 5th standard. He also announced that the Kalaignar Magalir Urimai Thoagai for women heads of families will be increased to ₹2000 from ₹1000. The old age pension scheme will be increased from ₹1200 to ₹2000. In the case of the differently abled the amount will be ₹2,500. Mr. Stalin also announced that a free meter would be fixed for farmers who were getting free electricity. The annual salary limit for the Chief Minister’s insurance scheme would be ₹5 lakh per year, and the insurance amount would be ₹10 lakh. Published - March 29, 2026 07:25 pm IST"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise was made in a manifesto and the politician is currently in power.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-03"
+    },
+    {
+      "id": "promise_1780451941_6",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy plans to build religious structures along the Musi River as part of the Musi Riverfront Development Project.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-03-28 07:34:06.617977",
       "evidence_articles": []
     }
   ]
