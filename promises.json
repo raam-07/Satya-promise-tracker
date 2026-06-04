@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 139,
     "promises_with_evidence": 33,
-    "last_processed_row": 22664
+    "last_processed_row": 22720
   },
   "promises": [
     {
@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
+      "gemma_reasoning": "The target deadline of 2022 passed, and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
+      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed, and the project is not complete.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "Congress lost the 2019 election, so the NYAY scheme was not implemented.",
+      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -740,7 +740,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing work on the promise.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -995,7 +995,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Indian government is still working on passing the bill.",
+      "gemma_reasoning": "The government is still pushing for the bill, though it has not yet passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1100,7 +1100,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is actively touring border areas to implement the Smart Border Concept.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1187,7 +1187,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is actively being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1211,7 +1211,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not passed.",
+      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1262,7 +1262,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is in opposition, but the deadline is not yet reached.",
+      "gemma_reasoning": "The Congress is still in power and has stated plans to implement the law.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1508,7 +1508,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is in progress.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying the promise is still under consideration.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1577,7 +1577,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The BJP is currently in power and Amit Shah has stated the UCC will be introduced if re-elected.",
+      "gemma_reasoning": "The BJP is currently in power and Amit Shah has stated the intention to implement the UCC.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1601,7 +1601,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is from a recent manifesto and the election has not yet taken place.",
+      "gemma_reasoning": "The promise was made in a manifesto and the politician is currently in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1733,8 +1733,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The TMC is contesting the elections, the outcome is pending.",
-      "gemma_confidence": "medium",
+      "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
+      "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-04"
     },
     {
