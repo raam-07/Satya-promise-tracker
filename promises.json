@@ -4,9 +4,9 @@
     "last_updated": "2026-06-04",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 129,
+    "total_promises": 135,
     "promises_with_evidence": 32,
-    "last_processed_row": 21000
+    "last_processed_row": 22000
   },
   "promises": [
     {
@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
+      "gemma_reasoning": "The target deadline of 2022 has passed, and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is not yet completed.",
+      "gemma_reasoning": "National UCC implementation is not yet complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
+      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
+      "gemma_reasoning": "Mamata Banerjee is still in power and the promise is a broad policy goal.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -962,7 +962,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
+      "gemma_reasoning": "No evidence suggests the promise was fulfilled or abandoned.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1100,7 +1100,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is actively touring border areas to implement the Smart Border Concept.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1187,7 +1187,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah remains in power and the policy is actively being implemented.",
+      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -1816,6 +1816,60 @@
       "category": "infrastructure",
       "status": "ongoing",
       "created_at": "2026-03-18 12:13:36.168745",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780559127_0",
+      "person": "Omar Abdullah",
+      "promise": "Omar Abdullah called on SKUAST, Kashmir to support the initiative of local production of tulip bulbs.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-03-16 23:40:36.884163",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780561198_1",
+      "person": "Mohan Yadav",
+      "promise": "Mohan Yadav will relaunch a state-wide public transport bus service, 'Mukhya Mantri Sugam Parivahan Sewa', in phases across Madhya Pradesh.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-06-03 00:13:31.156464",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780565846_2",
+      "person": "Revanth Reddy",
+      "promise": "Chief Minister A. Revanth Reddy will deposit the first installment of ₹3,590 crore into the accounts of 70 lakh farmers on March 22nd.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-03-15 15:00:36.163787",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780565917_3",
+      "person": "Revanth Reddy",
+      "promise": "Chief Minister A. Revanth Reddy is considering appointing at least 20% of chairperson positions in corporations and government agencies to women in the next phase of appointments.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-03-15 15:00:16.429610",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780566479_4",
+      "person": "Chandrababu Naidu",
+      "promise": "Chandrababu Naidu has approved the distribution of 44,346 energy-efficient induction stoves to Anganwadi Centres across Andhra Pradesh.",
+      "category": "education",
+      "status": "ongoing",
+      "created_at": "2026-03-15 13:04:41.359113",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780567376_5",
+      "person": "Narendra Modi",
+      "promise": "PM Modi announced Rs 2 Lakh compensation for the families of those who died in the Delhi hotel fire.",
+      "category": "crime_violence",
+      "status": "ongoing",
+      "created_at": "2026-06-03 10:23:37.631872",
       "evidence_articles": []
     }
   ]
