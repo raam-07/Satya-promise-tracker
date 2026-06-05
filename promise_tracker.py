@@ -517,6 +517,8 @@ No explanation. No extra text. Only JSON.
                             "category": category,
                             "status": "ongoing",
                             "created_at": article.get('scraped_at', str(datetime.now().date())),
+                            "source_url": article.get('url'),
+                            "source_description": f"{article.get('source', 'News Source')} report: \"{article.get('title', '')}\"",
                             "evidence_articles": []
                         }
                         new_extracted_promises.append(new_promise_entry)
