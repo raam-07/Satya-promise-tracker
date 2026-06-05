@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 139,
     "promises_with_evidence": 33,
-    "last_processed_row": 22856
+    "last_processed_row": 22928
   },
   "promises": [
     {
@@ -38,7 +38,7 @@
       ],
       "notes": "Multiple government reports and farmer groups confirmed income did not double by 2022. Inflation-adjusted farm income actually declined in several states.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -70,7 +70,7 @@
       ],
       "notes": "CMIE data consistently showed unemployment rising post-2016. India added far fewer formal jobs than promised annually.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -102,7 +102,7 @@
       ],
       "notes": "No black money repatriation happened. Rs 15 lakh was later called a 'jumla' by BJP president Amit Shah.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -134,7 +134,7 @@
       ],
       "notes": "Target missed in 2022, deadline extended. Partial completion achieved but far short of original target.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -166,7 +166,7 @@
       ],
       "notes": "India's GDP remains around $3.5 trillion. Target missed significantly. COVID cited as reason.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and policies occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -198,7 +198,7 @@
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-04-06 10:20:23.758142"
     },
     {
@@ -230,7 +230,7 @@
       ],
       "notes": "Supreme Court struck down electoral bonds as unconstitutional in Feb 2024. SBI data showed BJP received largest share of anonymous donations.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -262,7 +262,7 @@
       ],
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is not yet complete.",
+      "gemma_reasoning": "National UCC implementation is not yet completed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -303,7 +303,7 @@
       ],
       "notes": "In three consecutive manifestos. Uttarakhand passed state UCC in 2024. National UCC not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-04-11 17:42:10.589164"
     },
     {
@@ -335,7 +335,7 @@
       ],
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -367,7 +367,7 @@
       ],
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -399,7 +399,7 @@
       ],
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -431,7 +431,7 @@
       ],
       "notes": "Rohingya population continues to live in India. Deportations happen occasionally but not systematically.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -463,7 +463,7 @@
       ],
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -495,7 +495,7 @@
       ],
       "notes": "Implemented and sustained. Free electricity up to 200 units provided to Delhi households.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2025 has passed.",
+      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -527,7 +527,7 @@
       ],
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
+      "gemma_reasoning": "The promise was made by an opposition party during a lost election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -559,7 +559,7 @@
       ],
       "notes": "Congress lost 2019 election. NYAY scheme never implemented. Remains a campaign promise.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -591,7 +591,7 @@
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
     {
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Mamata Banerjee is still in power and the promise is a broad policy goal.",
+      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -623,7 +623,7 @@
       ],
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-04-08 02:52:04.016076"
     },
     {
@@ -654,7 +654,7 @@
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04",
+      "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-10 12:02:18.299435"
     },
     {
@@ -740,9 +740,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing work on the promise.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780208617_8",
@@ -962,9 +962,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "No evidence suggests the promise was fulfilled or abandoned.",
+      "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780334199_1",
@@ -995,7 +995,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The bill is still under discussion and has not been passed.",
+      "gemma_reasoning": "The Indian government is still working on passing the bill.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1100,7 +1100,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is actively touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1187,7 +1187,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in power and the policy is actively being implemented.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1211,7 +1211,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
+      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1262,7 +1262,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is still in power and has stated plans to implement the law.",
+      "gemma_reasoning": "The Congress is in opposition and the deadline is in the future.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1508,7 +1508,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying continued work on the promise.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying ongoing work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1577,7 +1577,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The BJP is currently in power and Amit Shah has stated the UCC will be introduced if re-elected.",
+      "gemma_reasoning": "The BJP is currently in power and Amit Shah has stated the intention to implement the UCC.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1601,7 +1601,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is from a current manifesto and the election hasn't happened yet.",
+      "gemma_reasoning": "The promise was made in a manifesto and the politician is currently in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
