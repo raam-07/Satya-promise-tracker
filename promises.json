@@ -1,12 +1,12 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-06-04",
+    "last_updated": "2026-06-05",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 139,
     "promises_with_evidence": 33,
-    "last_processed_row": 22813
+    "last_processed_row": 22856
   },
   "promises": [
     {
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and the promise was called a 'jumla'.",
+      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is ongoing, despite state-level implementations.",
+      "gemma_reasoning": "National UCC implementation is not yet complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed, and the project is not complete.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
+      "gemma_reasoning": "Mamata Banerjee is still in power and the promise is a broad policy goal.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -740,7 +740,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-04"
     },
@@ -995,9 +995,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Indian government is still working on passing the bill.",
+      "gemma_reasoning": "The bill is still under discussion and has not been passed.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780335440_3",
@@ -1102,7 +1102,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Amit Shah is actively touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780361059_5",
@@ -1187,9 +1187,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is actively being implemented.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780373808_3",
@@ -1211,9 +1211,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
+      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780376713_4",
@@ -1262,9 +1262,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is in opposition and the deadline is in the future.",
+      "gemma_reasoning": "The Congress is still in power and has stated plans to implement the law.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780383641_1",
@@ -1405,7 +1405,7 @@
       "gemma_suggestion": "void",
       "gemma_reasoning": "The Congress party did not form the government.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780415119_4",
@@ -1508,9 +1508,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying continued work on the promise.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780436701_3",
@@ -1579,7 +1579,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The BJP is currently in power and Amit Shah has stated the UCC will be introduced if re-elected.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780446983_5",
@@ -1601,9 +1601,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was made in a manifesto and the government is still in power.",
+      "gemma_reasoning": "The promise is from a current manifesto and the election hasn't happened yet.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780451941_6",
@@ -1733,9 +1733,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The TMC is contesting the election, the outcome is pending.",
+      "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780521517_7",
@@ -1903,7 +1903,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "AIMIM is currently leading a door-to-door voter registration drive.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-04"
+      "gemma_assessed_at": "2026-06-05"
     },
     {
       "id": "promise_1780576542_2",
