@@ -4,9 +4,9 @@
     "last_updated": "2026-06-05",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 139,
-    "promises_with_evidence": 33,
-    "last_processed_row": 23078
+    "total_promises": 141,
+    "promises_with_evidence": 34,
+    "last_processed_row": 23143
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
+      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and GDP remains below $5 trillion.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and India's GDP remains below $5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and worker dominance continue in Bengal.",
+      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, indicating the BJP is working towards the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
+      "gemma_reasoning": "Target deadline is in the future, and the party is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1372,7 +1372,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is still in power and has stated plans to implement the law.",
+      "gemma_reasoning": "The Congress is still in power and has not missed the 2029 deadline.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05",
       "source_url": "https://www.thehindu.com/news/national/cwc-meet-updates-congress-opposition-delimitation-womens-quota-west-asia-situation/article70847091.ece",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying continued work on the promise.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying the promise is still under consideration.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1931,8 +1931,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The TMC is contesting the West Bengal assembly elections.",
-      "gemma_confidence": "high",
+      "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
       "source_description": "The Hindu report: \"Full list of TMC candidates contesting in West Bengal - The Hindu\""
@@ -2160,6 +2160,43 @@
       "evidence_articles": [],
       "source_url": "https://indianexpress.com/article/cities/ahmedabad/pm-narendra-modi-to-launch-lay-stone-for-infra-initiatives-worth-rs-18k-crore-in-surat-tomorrow-10722961/",
       "source_description": "Indian Express report: \"PM Narendra Modi to launch, lay stone for infra initiatives worth Rs 18K crore in Surat tomorrow | Ahmedabad News - The Indian Express\""
+    },
+    {
+      "id": "promise_1780686215_0",
+      "person": "Narendra Modi",
+      "promise": "The joint action plan aims to double bilateral trade, investments, and the number of Swedish companies in India by 2030.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-06-05 15:39:50.415489",
+      "source_url": "https://www.ndtv.com/india-news/india-sweden-ties-in-india-we-almost-find-a-global-market-swedish-ambassador-jan-thesleff-to-ndtv-11596251#publisher=newsstand",
+      "source_description": "NDTV report: \"India Sweden Ties 'In India, We Almost Find A Global Market': Swedish Ambassador Jan Thesleff To NDTV\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780686372_1",
+      "person": "Bhagwant Mann",
+      "promise": "Bhagwant Mann promised to provide monthly financial assistance to women registered under the Mukh Mantri Mawan Dheeyan Satkar Yojna starting July 1st.",
+      "category": "economy",
+      "status": "ongoing",
+      "created_at": "2026-06-05 15:39:22.414556",
+      "source_url": "https://www.ndtv.com/india-news/women-in-punjab-to-get-rs-1-000-per-month-from-july-1-bhagwant-mann-11596603#publisher=newsstand",
+      "source_description": "NDTV report: \"97% Of Women In Punjab To Get Financial Aid From July 1: Bhagwant Mann\"",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/women-in-punjab-to-get-rs-1-000-per-month-from-july-1-bhagwant-mann-11596603#publisher=newsstand",
+          "title": "97% Of Women In Punjab To Get Financial Aid From July 1: Bhagwant Mann",
+          "source": "NDTV",
+          "scraped_at": "2026-06-05 15:39:22.414556",
+          "relevance_score": 83,
+          "gemma_validated": true,
+          "rephrased": "**Bhagwant Mann**, the **Punjab Chief Minister**, announced that women registered under the Mukh Mantri Mawan Dheeyan Satkar Yojna will receive monthly financial assistance starting July 1st. The sche",
+          "content": "Punjab Chief Minister Bhagwant Mann has said women registered under the Mukh Mantri Mawan Dheeyan Satkar Yojna will start getting Rs 1,000 monthly financial assistance from July 1. Under the state government's ambitious scheme, women beneficiaries from the general category will receive a monthly assistance of Rs 1,000, while those from the scheduled castes will get Rs 1,500. \"Funds will be directly transferred to beneficiaries' bank accounts, and women who are already receiving social security pensions will also be eligible under the scheme. Around 97 per cent of women in Punjab are expected to benefit from this initiative, and the Punjab Government has allocated Rs 9,300 crore in the budget for its implementation,\" he stated. There were a total of 52 lakh women beneficiaries, Mann said, of which 36 lakh have been issued cards under the scheme. \"From July 1, the money will be transferred to their bank accounts,\" he said. The chief minister asserted that the scheme will not be stopped. \"We started this scheme when we had a proper budget for it,\" he told reporters here. \"Women deserve the highest respect because they are the source of life itself. The blessings of mothers and sisters can help overcome every challenge in the world. Strengthening women's financial autonomy is essential for improving household welfare, promoting gender equity and enhancing women's participation in social and economic decision-making,\" he said. Women aged 18 years or above, who are registered as voters in Punjab and possess valid Aadhaar cards reflecting Punjab residency, will be eligible to be enrolled as a beneficiary. \"Around two lakh Mahila Satkar Sakhis have been assigned the responsibility of registering eligible beneficiaries,\" he said. Those excluded from the scheme include regular or retired employees of the Punjab government, Central government or any other state or UT governments; elected MLAs or MPs; and spouses of serving ministers, MPs or MLAs. The Rs 1,000 monthly assistance per woman was a key poll promise of the ruling Aam Aadmi Party before the 2022 Punjab assembly elections. \"This initiative will go a long way in empowering women across Punjab and ensuring that they are able to lead their lives with dignity and confidence,\" he added. Track Latest News Live on NDTV.com and get news updates from India and around the world"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is set to begin July 1st, 2026, and is still in progress.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-05"
     }
   ]
 }
