@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 139,
     "promises_with_evidence": 33,
-    "last_processed_row": 22978
+    "last_processed_row": 23025
   },
   "promises": [
     {
@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
+      "gemma_reasoning": "The target deadline of 2022 passed, and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
+      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the promise.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party that lost the election.",
+      "gemma_reasoning": "The promise was made by an opposition party and they lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -590,7 +590,7 @@
         }
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05",
       "created_at": "2026-05-30"
     },
@@ -740,7 +740,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The BJP government is in power and actively implementing policies.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -962,7 +962,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "No evidence suggests the promise was fulfilled or abandoned.",
+      "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1187,7 +1187,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1211,7 +1211,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not passed.",
+      "gemma_reasoning": "The target deadline is in 2027 and the party is still in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1508,7 +1508,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah met with the Chief Minister to discuss the peace process, indicating ongoing discussions.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1577,7 +1577,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The BJP is currently in power and Amit Shah has stated the intention to implement the UCC.",
+      "gemma_reasoning": "The BJP is currently in power and Amit Shah has stated the UCC will be introduced if re-elected.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
@@ -1733,8 +1733,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
-      "gemma_confidence": "high",
+      "gemma_reasoning": "TMC announced contesting 291 seats, elections are ongoing.",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-05"
     },
     {
