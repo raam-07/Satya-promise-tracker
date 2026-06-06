@@ -4,9 +4,9 @@
     "last_updated": "2026-06-06",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 144,
+    "total_promises": 145,
     "promises_with_evidence": 36,
-    "last_processed_row": 23314
+    "last_processed_row": 23377
   },
   "promises": [
     {
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and institutions occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -416,7 +416,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is in power and actively directing deportations.",
+      "gemma_reasoning": "Amit Shah's directive to deport Rohingyas is an ongoing action.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/shah-asks-delhi-police-to-take-action-against-networks-helping-illegal-bangladeshis-rohingyas/article69275250.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Mamata Banerjee is still in power and the promise is a broad policy goal.",
+      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1022,7 +1022,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
+      "gemma_reasoning": "No evidence suggests the promise was fulfilled or abandoned.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
@@ -1372,7 +1372,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is in opposition, but the deadline is not yet reached.",
+      "gemma_reasoning": "The Congress is still in power and has not missed the 2029 deadline.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/news/national/cwc-meet-updates-congress-opposition-delimitation-womens-quota-west-asia-situation/article70847091.ece",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah discussed the proposal with the Manipur Chief Minister.",
+      "gemma_reasoning": "Amit Shah agreed in principle, and discussions are ongoing.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1947,7 +1947,7 @@
       ],
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
       "source_description": "The Hindu report: \"Full list of TMC candidates contesting in West Bengal - The Hindu\""
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
+      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is still in progress.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06"
     },
@@ -2257,9 +2257,20 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre is actively working to provide surface water for drinking purposes in rural areas.",
+      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority and is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06"
+    },
+    {
+      "id": "promise_1780745252_0",
+      "person": "Ashwini Vaishnaw",
+      "promise": "Ashwini Vaishnaw promised to introduce 60 next-generation trains for the Kolkata Metro over the next five years.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-06-06 08:41:11.665941",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/sixty-next-generation-trains-to-be-introduced-for-kolkata-metro-in-5-years-vaishnaw/article71068997.ece",
+      "source_description": "The Hindu report: \"Sixty next-generation trains to be introduced for Kolkata Metro in 5 years: Vaishnaw - The Hindu\"",
+      "evidence_articles": []
     }
   ]
 }
