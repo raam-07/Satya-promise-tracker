@@ -4,9 +4,9 @@
     "last_updated": "2026-06-06",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 145,
+    "total_promises": 146,
     "promises_with_evidence": 36,
-    "last_processed_row": 23518
+    "last_processed_row": 23561
   },
   "promises": [
     {
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC not yet implemented, but Uttarakhand passed state UCC in 2024.",
+      "gemma_reasoning": "National UCC implementation is not yet completed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
+      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -1184,7 +1184,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is actively touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/news/national/amit-shah-to-visit-border-areas-over-next-three-weeks/article71022402.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is actively being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
+      "gemma_reasoning": "The target deadline year of 2027 has not passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah discussed the proposal with the Manipur CM, indicating active consideration.",
+      "gemma_reasoning": "Amit Shah agreed in principle, discussions are ongoing.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1773,7 +1773,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was made in a manifesto and the politician is currently in power.",
+      "gemma_reasoning": "The promise was made in a manifesto and the government is still in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -1845,7 +1845,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The cabinet expansion is ongoing, with 17 members appointed so far.",
+      "gemma_reasoning": "The cabinet expansion reached 17 members, but the maximum promised size is 19.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06"
     },
@@ -1947,7 +1947,7 @@
       ],
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
       "source_description": "The Hindu report: \"Full list of TMC candidates contesting in West Bengal - The Hindu\""
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is still in progress.",
+      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-06"
     },
@@ -2270,6 +2270,17 @@
       "created_at": "2026-06-06 08:41:11.665941",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/sixty-next-generation-trains-to-be-introduced-for-kolkata-metro-in-5-years-vaishnaw/article71068997.ece",
       "source_description": "The Hindu report: \"Sixty next-generation trains to be introduced for Kolkata Metro in 5 years: Vaishnaw - The Hindu\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780773116_0",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy laid the foundation for a fruit market and a Sub-Registrar office complex at Koheda.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-06-06 17:21:12.029261",
+      "source_url": "https://www.thehindu.com/news/national/telangana/revanth-accuses-opposition-of-obstructing-development-lays-foundation-for-fruit-market-sub-registrar-office-complex-at-koheda/article71070709.ece",
+      "source_description": "The Hindu report: \"Revanth accuses Opposition of obstructing development, lays foundation for fruit market, Sub-Registrar office complex at Koheda - The Hindu\"",
       "evidence_articles": []
     }
   ]
