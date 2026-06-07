@@ -4,9 +4,9 @@
     "last_updated": "2026-06-07",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 151,
-    "promises_with_evidence": 36,
-    "last_processed_row": 23904
+    "total_promises": 153,
+    "promises_with_evidence": 37,
+    "last_processed_row": 23943
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
+      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
+      "gemma_reasoning": "No black money repatriation happened, and the promise was called a 'jumla'.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
+      "gemma_reasoning": "Multiple corruption scandals occurred during Modi's tenure.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -247,7 +247,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 has passed and the promise was not met.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and the promise was not met.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/centres-potable-water-mission-may-miss-2024-target/article67029584.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is ongoing, despite state-level implementations.",
+      "gemma_reasoning": "National UCC implementation is not yet completed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -480,7 +480,7 @@
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "kept",
-      "gemma_reasoning": "Free electricity up to 200 units is implemented and sustained in Delhi.",
+      "gemma_reasoning": "Free electricity up to 200 units has been implemented and sustained in Delhi.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/delhi-assembly/kejriwal-promises-free-200-units-electricity-for-tenants/article69114073.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
+      "gemma_reasoning": "The target deadline of 2025 has passed.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
+      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1022,7 +1022,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
+      "gemma_reasoning": "No evidence suggests the promise was fulfilled or abandoned.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
@@ -1059,7 +1059,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The bill is still under discussion and has not been passed.",
+      "gemma_reasoning": "The bill is still under consideration and the government is pushing for its passage.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
+      "gemma_reasoning": "The target deadline year of 2027 has not passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah discussed the proposal with the Manipur Chief Minister.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying the promise is still under consideration.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1773,7 +1773,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is part of a manifesto and the election has not yet taken place.",
+      "gemma_reasoning": "The promise was made in a manifesto and the politician is currently in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
+      "gemma_reasoning": "The promise was announced with a July 1st start date, and the date has not passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07"
     },
@@ -2257,7 +2257,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority and is in power.",
+      "gemma_reasoning": "Khandre is actively working to provide surface water for rural drinking purposes.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07"
     },
@@ -2310,11 +2310,26 @@
       "person": "Revanth Reddy",
       "promise": "Revanth Reddy will participate in a ceremony for road infrastructure projects and the Malkajgiri Municipal Corporation building on Sunday, June 7, 2026.",
       "category": "infrastructure",
-      "status": "ongoing",
+      "status": "kept",
       "created_at": "2026-06-07 06:31:03.532353",
       "source_url": "https://www.thehindu.com/news/national/telangana/telangana-dca-issues-notices-to-41-online-pharmacy-linked-medical-shops-after-statewide-inspections/article71072413.ece",
       "source_description": "The Hindu report: \"Telangana CM to lay foundation stone for alternate road around AOC Centre, MMC office in Uppal Bhagayath - The Hindu\"",
-      "evidence_articles": []
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabads-growth-hinges-on-decentralised-governance-says-revanth-reddy-while-launching-projects-worth-1511-crore-in-malkajgiri/article71073814.ece",
+          "title": "Hyderabad’s growth hinges on decentralised governance, says Revanth Reddy while launching projects worth ₹1,511-crore in Malkajgiri - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-06-07 18:52:16.799159",
+          "relevance_score": 59,
+          "gemma_validated": true,
+          "rephrased": "**A. Revanth Reddy**, the **Telangana Chief Minister**, launched projects worth ₹1,511.5 crore in Malkajgiri on Sunday, emphasizing the need for decentralized administration, integrated urban planning",
+          "content": "Telangana Chief Minister A. Revanth Reddy on Sunday said Hyderabad’s future growth depended on decentralised administration, integrated urban planning and large-scale infrastructure investments as he launched projects worth ₹1,511.5 crore in Malkajgiri and outlined his government’s vision for transforming the city into a globally competitive urban centre. Addressing a public meeting after laying foundation stones for four major projects under the Malkajgiri Municipal Corporation (MMC), Mr. Reddy said Hyderabad’s rapid expansion required a new model of governance capable of serving the 1.34 crore people living within the 160-km Outer Ring Road (ORR) limits. Published - June 07, 2026 09:44 pm IST"
+        }
+      ],
+      "gemma_suggestion": "kept",
+      "gemma_reasoning": "Revanth Reddy launched projects in Malkajgiri on June 7, 2026.",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-06-07"
     },
     {
       "id": "promise_1780827401_1",
@@ -2336,6 +2351,28 @@
       "created_at": "2026-06-07 14:04:24.502645",
       "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/naidu-to-distribute-revised-pattadar-passbooks-to-farmers-in-west-godavari-district-on-june-8/article71073226.ece",
       "source_description": "The Hindu report: \"Naidu to distribute revised Pattadar Passbooks to farmers in West Godavari district on June 8 - The Hindu\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780861334_0",
+      "person": "Chandrababu Naidu",
+      "promise": "Chief Minister N. Chandrababu Naidu has approved the establishment of 107 waste processing units across the state by July.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-06-07 18:52:32.909041",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/waste-treatment-plants-will-soon-turn-wealth-generating-units-says-maampud-minister-narayana/article71072907.ece",
+      "source_description": "The Hindu report: \"Waste treatment plants will soon turn wealth generating units, says MA&UD Minister Narayana - The Hindu\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780862040_1",
+      "person": "Suvendu Adhikari",
+      "promise": "The West Bengal government will provide jobs to the families of 315 deceased BJP workers from the 2021 post-election violence.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-06-07 18:52:14.586970",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-government-to-provide-jobs-to-kin-of-bjp-workers-killed-in-2021-post-poll-violence/article71073527.ece",
+      "source_description": "The Hindu report: \"West Bengal Government to provide jobs to kin of BJP workers killed in 2021 post-poll violence - The Hindu\"",
       "evidence_articles": []
     }
   ]
