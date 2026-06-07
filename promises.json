@@ -4,9 +4,9 @@
     "last_updated": "2026-06-07",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 150,
+    "total_promises": 151,
     "promises_with_evidence": 36,
-    "last_processed_row": 23799
+    "last_processed_row": 23853
   },
   "promises": [
     {
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2024 has passed and the $5 trillion GDP goal was not met.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and the $5 trillion GDP goal was not achieved.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -197,7 +197,7 @@
         }
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-07",
       "created_at": "2026-04-06 10:20:23.758142"
     },
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
+      "gemma_reasoning": "The target deadline of 2023 has passed, and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, indicating the BJP is working on the promise.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
+      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying continued work on the promise.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1845,7 +1845,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing, with the current size at 17 members.",
+      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07"
     },
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
+      "gemma_reasoning": "The promise is set to begin July 1st, 2026, and is currently in progress.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07"
     },
@@ -2325,6 +2325,17 @@
       "created_at": "2026-06-07 06:30:45.786987",
       "source_url": "https://www.thehindu.com/news/cities/Hyderabad/telangana-cm-to-lay-foundation-stone-for-road-projects-in-malkajgiri-municipal-corporation-mmc-office-in-uppal-bhagayath/article71072447.ece",
       "source_description": "The Hindu report: \"Telangana CM to lay foundation stone for alternate road around AOC Centre, MMC office in Uppal Bhagayath - The Hindu\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780849766_0",
+      "person": "Chandrababu Naidu",
+      "promise": "Chandrababu Naidu will distribute revised Pattadar Passbooks to farmers in West Godavari district on June 8.",
+      "category": "farmer_agriculture",
+      "status": "ongoing",
+      "created_at": "2026-06-07 14:04:24.502645",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/naidu-to-distribute-revised-pattadar-passbooks-to-farmers-in-west-godavari-district-on-june-8/article71073226.ece",
+      "source_description": "The Hindu report: \"Naidu to distribute revised Pattadar Passbooks to farmers in West Godavari district on June 8 - The Hindu\"",
       "evidence_articles": []
     }
   ]
