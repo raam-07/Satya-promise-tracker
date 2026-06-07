@@ -4,9 +4,9 @@
     "last_updated": "2026-06-07",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 148,
+    "total_promises": 150,
     "promises_with_evidence": 36,
-    "last_processed_row": 23670
+    "last_processed_row": 23713
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
+      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals occurred during Modi's tenure.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and schemes occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -247,7 +247,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 has passed and the promise was not met.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and the promise was not met.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/centres-potable-water-mission-may-miss-2024-target/article67029584.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is ongoing, as per news articles.",
+      "gemma_reasoning": "National UCC implementation is not yet completed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing work on the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1022,7 +1022,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "No evidence suggests the promise was fulfilled or abandoned.",
+      "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not passed.",
+      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is actively being implemented.",
+      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07"
     },
@@ -2303,6 +2303,28 @@
       "created_at": "2026-06-06 21:40:24.086516",
       "source_url": "https://indianexpress.com/article/cities/pune/maharashtra-mlc-election-horse-trading-supriya-sule-voting-reform-10727306/",
       "source_description": "Indian Express report: \"‘Will introduce Bill in Parliament to stop horse-trading’: Supriya Sule after Maharashtra MLC poll row | Pune News - The Indian Express\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780827335_0",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy will participate in a ceremony for road infrastructure projects and the Malkajgiri Municipal Corporation building on Sunday, June 7, 2026.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-06-07 06:31:03.532353",
+      "source_url": "https://www.thehindu.com/news/national/telangana/telangana-dca-issues-notices-to-41-online-pharmacy-linked-medical-shops-after-statewide-inspections/article71072413.ece",
+      "source_description": "The Hindu report: \"Telangana CM to lay foundation stone for alternate road around AOC Centre, MMC office in Uppal Bhagayath - The Hindu\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1780827401_1",
+      "person": "Revanth Reddy",
+      "promise": "Revanth Reddy will lay the foundation stone for an alternate road around the AOC Centre and MMC office in Uppal Bhagayath.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-06-07 06:30:45.786987",
+      "source_url": "https://www.thehindu.com/news/cities/Hyderabad/telangana-cm-to-lay-foundation-stone-for-road-projects-in-malkajgiri-municipal-corporation-mmc-office-in-uppal-bhagayath/article71072447.ece",
+      "source_description": "The Hindu report: \"Telangana CM to lay foundation stone for alternate road around AOC Centre, MMC office in Uppal Bhagayath - The Hindu\"",
       "evidence_articles": []
     }
   ]
