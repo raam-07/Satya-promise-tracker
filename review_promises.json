@@ -1,20 +1,9 @@
 {
-  "generated_at": "2026-06-07 21:24:09.709597",
+  "generated_at": "2026-06-07 23:05:56.402671",
   "summary": {
     "total_promises": 153,
     "promises_with_validated_evidence": 37,
-    "statuses_automatically_updated": 1
+    "statuses_automatically_updated": 0
   },
-  "updated_items": [
-    {
-      "promise_id": "promise_1780827335_0",
-      "person": "Revanth Reddy",
-      "promise": "Revanth Reddy will participate in a ceremony for road infrastructure projects and the Malkajgiri Mun",
-      "previous_status": "ongoing",
-      "new_status": "kept",
-      "gemma_reasoning": "Revanth Reddy launched projects in Malkajgiri on June 7, 2026.",
-      "gemma_confidence": "high",
-      "evidence_count": 1
-    }
-  ]
+  "updated_items": []
 }
