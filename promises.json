@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 151,
     "promises_with_evidence": 36,
-    "last_processed_row": 23853
+    "last_processed_row": 23904
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
+      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is not yet completed.",
+      "gemma_reasoning": "National UCC implementation is ongoing, despite state-level implementations.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed, and the project is not complete.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -480,7 +480,7 @@
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "kept",
-      "gemma_reasoning": "Free electricity up to 200 units has been implemented and sustained in Delhi.",
+      "gemma_reasoning": "Free electricity up to 200 units is implemented and sustained in Delhi.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/delhi-assembly/kejriwal-promises-free-200-units-electricity-for-tenants/article69114073.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2025 has passed.",
+      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
+      "gemma_reasoning": "Amit Shah discussed the proposal with the Manipur Chief Minister.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1773,7 +1773,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was made in a manifesto and the politician is currently in power.",
+      "gemma_reasoning": "The promise is part of a manifesto and the election has not yet taken place.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -1845,7 +1845,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17.",
+      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17 members.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07"
     },
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is set to begin July 1st, 2026, and is currently in progress.",
+      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07"
     },
@@ -2257,7 +2257,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre is actively working to provide surface water for drinking purposes in rural areas.",
+      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority and is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-07"
     },
