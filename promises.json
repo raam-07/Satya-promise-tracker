@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 153,
     "promises_with_evidence": 37,
-    "last_processed_row": 24095
+    "last_processed_row": 24151
   },
   "promises": [
     {
@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 passed, and farm income did not double.",
+      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and the promise was called a 'jumla'.",
+      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -215,7 +215,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Electoral bonds were struck down as unconstitutional in February 2024.",
+      "gemma_reasoning": "Electoral bonds were struck down as unconstitutional in Feb 2024.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/politics-and-nation/electoral-bonds-pm-modi-rejects-corruption-charge-says-scheme-was-aimed-at-curbing-black-money/articleshow/108316209.cms",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
+      "gemma_reasoning": "The target deadline of 2025 has passed.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party that lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
+      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The BJP government is in power and actively implementing policies.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
+      "gemma_reasoning": "Amit Shah is still in office and the policy is being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
+      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1372,7 +1372,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is in opposition and the deadline is in the future.",
+      "gemma_reasoning": "The Congress is still in power and has not missed the 2029 deadline.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/cwc-meet-updates-congress-opposition-delimitation-womens-quota-west-asia-situation/article70847091.ece",
@@ -1773,7 +1773,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is part of a manifesto and the election has not yet taken place.",
+      "gemma_reasoning": "The promise was made in a manifesto and the politician is currently in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -1845,7 +1845,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17.",
+      "gemma_reasoning": "The cabinet expansion is ongoing, with 17 members appointed so far.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08"
     },
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was announced with a July 1st start date, and the date has not passed.",
+      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is still in progress.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08"
     },
@@ -2257,7 +2257,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority and is in power.",
+      "gemma_reasoning": "Khandre is actively working to provide surface water for rural drinking purposes.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08"
     },
