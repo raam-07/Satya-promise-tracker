@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 153,
     "promises_with_evidence": 37,
-    "last_processed_row": 24151
+    "last_processed_row": 24167
   },
   "promises": [
     {
@@ -215,7 +215,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Electoral bonds were struck down as unconstitutional in Feb 2024.",
+      "gemma_reasoning": "Electoral bonds were struck down as unconstitutional in February 2024.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/politics-and-nation/electoral-bonds-pm-modi-rejects-corruption-charge-says-scheme-was-aimed-at-curbing-black-money/articleshow/108316209.cms",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
+      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was a campaign promise made by the opposition party and they lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party that lost the election.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -590,7 +590,7 @@
         }
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-08",
       "created_at": "2026-05-30"
     },
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
+      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, indicating the BJP is working on the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1184,7 +1184,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is actively touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/amit-shah-to-visit-border-areas-over-next-three-weeks/article71022402.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in office and the policy is being implemented.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is actively being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
+      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1372,7 +1372,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress is still in power and has not missed the 2029 deadline.",
+      "gemma_reasoning": "The Congress is in opposition and the deadline is in the future.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/cwc-meet-updates-congress-opposition-delimitation-womens-quota-west-asia-situation/article70847091.ece",
@@ -1541,7 +1541,7 @@
         }
       ],
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The Congress party did not form the government.",
+      "gemma_reasoning": "The Congress party did not form a government.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/elections/assam-assembly/assam-assembly-polls-like-zubeen-garg-cong-works-to-unite-people-says-rahul-gandhi/article70826244.ece",
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is still in progress.",
+      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08"
     },
@@ -2257,7 +2257,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre is actively working to provide surface water for rural drinking purposes.",
+      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority and is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08"
     },
