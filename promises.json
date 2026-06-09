@@ -1,12 +1,12 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-06-08",
+    "last_updated": "2026-06-09",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 153,
     "promises_with_evidence": 37,
-    "last_processed_row": 24199
+    "last_processed_row": 24286
   },
   "promises": [
     {
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials contradict the promise.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC implementation is not yet complete.",
+      "gemma_reasoning": "National UCC implementation is not yet completed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The BJP government is in power and Dilip Ghosh's statement suggests ongoing work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing work on the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1059,7 +1059,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Indian government is still working on passing the bill.",
+      "gemma_reasoning": "The bill is still under discussion and has not been passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
@@ -1184,7 +1184,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is actively touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/amit-shah-to-visit-border-areas-over-next-three-weeks/article71022402.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
+      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
+      "gemma_reasoning": "The target deadline year of 2027 has not passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying continued work on the promise.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1845,7 +1845,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The cabinet has been expanded to 17 members, below the promised maximum of 19.",
+      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08"
     },
@@ -1946,7 +1946,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
+      "gemma_reasoning": "The TMC is contesting the elections, and the results are pending.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is still in progress.",
+      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-08"
     },
@@ -2329,7 +2329,7 @@
       "gemma_suggestion": "kept",
       "gemma_reasoning": "Revanth Reddy launched projects in Malkajgiri on June 7, 2026.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-08"
+      "gemma_assessed_at": "2026-06-09"
     },
     {
       "id": "promise_1780827401_1",
