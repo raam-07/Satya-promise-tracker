@@ -4,9 +4,9 @@
     "last_updated": "2026-06-09",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 154,
+    "total_promises": 157,
     "promises_with_evidence": 37,
-    "last_processed_row": 24598
+    "last_processed_row": 24667
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
+      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP officials and parties contradict the promise.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -247,7 +247,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 has passed and the promise was not met.",
+      "gemma_reasoning": "Target deadline of 2024 has passed and the target was not met.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/centres-potable-water-mission-may-miss-2024-target/article67029584.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
+      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -384,7 +384,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2023 has passed, and the project is delayed.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
+      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The BJP government is in power and actively working on promoting self-sufficiency in fish production.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, suggesting ongoing work on the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-09",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1184,7 +1184,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is actively touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-09",
       "source_url": "https://www.thehindu.com/news/national/amit-shah-to-visit-border-areas-over-next-three-weeks/article71022402.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is actively being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-09",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah met with the Chief Minister to discuss the peace process, indicating ongoing discussion.",
+      "gemma_reasoning": "Shah met with the CM to discuss peace process, implying ongoing work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-09",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1773,7 +1773,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The scheme was announced in a manifesto and is likely in implementation.",
+      "gemma_reasoning": "The promise was made in a manifesto and the government is still in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-09",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -1947,7 +1947,7 @@
       ],
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-09",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
       "source_description": "The Hindu report: \"Full list of TMC candidates contesting in West Bengal - The Hindu\""
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is to start in July 2026, the deadline has not passed.",
+      "gemma_reasoning": "The promise is set to begin July 1st, 2026, and is still in progress.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-09"
     },
@@ -2257,7 +2257,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre is the Rural Development Minister and actively working on the promise.",
+      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority and is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-09"
     },
@@ -2384,6 +2384,39 @@
       "created_at": "2026-06-08 22:58:36.627587",
       "source_url": "https://indianexpress.com/article/cities/lucknow/up-weather-satellite-isro-early-warning-system-yogi-adityanath-10730469/",
       "source_description": "Indian Express report: \"Uttar Pradesh may send satellite to space for weather warning: CM Yogi Adityanath | Lucknow News - The Indian Express\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1781042252_0",
+      "person": "Suvendu Adhikari",
+      "promise": "The West Bengal government will remove the word 'Dham' from the name of the Jagannath temple in Digha.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-06-09 18:10:55.701145",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/bengal-government-to-remove-dham-tag-from-name-of-digha-temple/article71080968.ece",
+      "source_description": "The Hindu report: \"Bengal government to remove ‘Dham’ tag from name of Digha temple - The Hindu\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1781042751_1",
+      "person": "Devendra Fadnavis",
+      "promise": "Devendra Fadnavis directed the collectors to withdraw notices issued to tanker operators.",
+      "category": "infrastructure",
+      "status": "ongoing",
+      "created_at": "2026-06-09 20:31:14.442506",
+      "source_url": "https://indianexpress.com/article/cities/mumbai/mumbai-water-tanker-strike-ends-cm-fadnavis-intervention-10731972/",
+      "source_description": "Indian Express report: \"Mumbai water tanker strike called off after CM Fadnavis intervenes, operators assured notices will be revoked | Mumbai News - The Indian Express\"",
+      "evidence_articles": []
+    },
+    {
+      "id": "promise_1781043204_2",
+      "person": "Mamata Banerjee",
+      "promise": "Mamata Banerjee vowed to rebuild the party and fight again on the streets.",
+      "category": "politics",
+      "status": "ongoing",
+      "created_at": "2026-06-09 20:30:31.100079",
+      "source_url": "https://www.ndtv.com/india-news/trinamool-congress-crisis-trinamool-she-said-will-fight-rebuild-kirti-azad-on-mamata-banerjees-crisis-plan-11614451#publisher=newsstand",
+      "source_description": "NDTV report: \"Trinamool Congress Crisis, Trinamool: \"She Said Will Fight, Rebuild\": Kirti Azad On Mamata Banerjee's Crisis Plan\"",
       "evidence_articles": []
     }
   ]
