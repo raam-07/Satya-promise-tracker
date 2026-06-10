@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 158,
     "promises_with_evidence": 37,
-    "last_processed_row": 24750
+    "last_processed_row": 24806
   },
   "promises": [
     {
@@ -55,7 +55,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "CMIE data consistently showed rising unemployment post-2016.",
+      "gemma_reasoning": "CMIE data showed rising unemployment post-2016, contradicting the job creation promise.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/india/pm-modi-promised-two-crore-jobs-but-one-crore-people-lost-employment-rahul-gandhi-6238612/",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and schemes.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP officials occurred.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -512,7 +512,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2025 has passed.",
+      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "Congress lost the 2019 election, so the NYAY scheme was not implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -1184,7 +1184,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is currently touring border areas and meeting with officials.",
+      "gemma_reasoning": "Amit Shah is actively touring border areas and meeting with officials.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/news/national/amit-shah-to-visit-border-areas-over-next-three-weeks/article71022402.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
+      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
+      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying the promise is still under consideration.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1773,7 +1773,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is part of a manifesto for upcoming elections.",
+      "gemma_reasoning": "The promise is part of a manifesto and the election has not yet taken place.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -1845,7 +1845,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing with 17 members appointed.",
+      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10"
     },
@@ -1946,8 +1946,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The TMC is contesting the West Bengal assembly elections.",
-      "gemma_confidence": "high",
+      "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
       "source_description": "The Hindu report: \"Full list of TMC candidates contesting in West Bengal - The Hindu\""
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is currently in progress.",
+      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is still in progress.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10"
     },
