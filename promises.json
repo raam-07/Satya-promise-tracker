@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 158,
     "promises_with_evidence": 37,
-    "last_processed_row": 24859
+    "last_processed_row": 24909
   },
   "promises": [
     {
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP ministers and parties contradict the promise.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and policies.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "Congress lost the 2019 election, so the NYAY scheme was not implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -590,7 +590,7 @@
         }
       ],
       "notes": "Bulldozer politics became signature. Crime stats show mixed results. Encounter killings rose significantly raising human rights concerns.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "created_at": "2026-05-30"
     },
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
+      "gemma_reasoning": "Political violence and worker dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -754,7 +754,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The BJP government is in power and actively implementing policies.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing work on the promise.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah remains in power and the policy is actively being implemented.",
+      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1313,7 +1313,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
+      "gemma_reasoning": "The target deadline year of 2027 has not yet passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah met with the CM to discuss peace, implying work is in progress.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying ongoing work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1773,7 +1773,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is part of a manifesto and the election has not yet taken place.",
+      "gemma_reasoning": "The promise was made in a manifesto and the politician is currently in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -1845,7 +1845,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17.",
+      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17 members.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10"
     },
@@ -1946,8 +1946,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The TMC is contesting the elections, the outcome is pending.",
-      "gemma_confidence": "medium",
+      "gemma_reasoning": "The TMC is currently contesting the West Bengal assembly elections.",
+      "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
       "source_description": "The Hindu report: \"Full list of TMC candidates contesting in West Bengal - The Hindu\""
@@ -2257,7 +2257,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre is actively working to provide surface water for drinking purposes in rural areas.",
+      "gemma_reasoning": "Khandre is actively working to provide surface water for rural drinking purposes.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10"
     },
