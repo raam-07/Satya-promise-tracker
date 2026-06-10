@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 158,
     "promises_with_evidence": 37,
-    "last_processed_row": 24725
+    "last_processed_row": 24750
   },
   "promises": [
     {
@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 passed, and farm income did not double.",
+      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and GDP remains below $5 trillion.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and India's GDP remains below $5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and government contracts occurred.",
+      "gemma_reasoning": "Multiple corruption scandals involving BJP leaders and schemes.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Political violence and dominance continue, making full assessment difficult.",
+      "gemma_reasoning": "Political violence and worker dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -1287,7 +1287,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is ongoing as Amit Shah is still in power and news reports indicate implementation is underway.",
+      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1666,7 +1666,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying the promise is still under consideration.",
+      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying work is ongoing.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1845,7 +1845,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17.",
+      "gemma_reasoning": "Cabinet expansion is ongoing with 17 members appointed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10"
     },
@@ -1946,8 +1946,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "TMC announced contesting 291 seats, elections are ongoing processes.",
-      "gemma_confidence": "medium",
+      "gemma_reasoning": "The TMC is contesting the West Bengal assembly elections.",
+      "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-10",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
       "source_description": "The Hindu report: \"Full list of TMC candidates contesting in West Bengal - The Hindu\""
@@ -2209,7 +2209,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is still in progress.",
+      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and is currently in progress.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10"
     },
@@ -2257,7 +2257,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre is actively working to provide surface water for rural drinking purposes.",
+      "gemma_reasoning": "Khandre is actively working to provide surface water for drinking purposes in rural areas.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-10"
     },
