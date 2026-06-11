@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
+      "gemma_reasoning": "Rs 15 lakh promise was called a 'jumla' and no black money repatriation happened.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and GDP remains below $5 trillion.",
+      "gemma_reasoning": "Target year of 2024 passed, and India's GDP remains around $3.5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals occurred during Modi's tenure.",
+      "gemma_reasoning": "Multiple corruption allegations against BJP ministers and ongoing scams indicate failure to end corruption.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -769,7 +769,7 @@
       ],
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, suggesting the BJP is promoting fish production.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
       "source_description": "The Hindu report: \"Mamata created false narrative on BJP restricting consumption of fish: Dilip Ghosh - The Hindu\"",
@@ -1083,7 +1083,7 @@
       ],
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The news article states I-PAC is still managing the party's campaign.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
       "source_description": "The Hindu report: \"Amid speculation of I-PAC suspending Bengal operations, Mamata says will engage its members in her party - The Hindu\"",
@@ -1123,7 +1123,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The government failed to pass the bill, but is still pushing for it.",
+      "gemma_reasoning": "The government failed to pass the bill, but Modi continues to push for it.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
@@ -1387,7 +1387,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states the order was given, but its implementation status is unclear.",
+      "gemma_reasoning": "The news article states the order was given, but does not indicate completion.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1454,7 +1454,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress plans to implement the law by 2029, and the deadline has not passed.",
+      "gemma_reasoning": "The Congress plans to implement the law by 2029 and the deadline has not passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/cwc-meet-updates-congress-opposition-delimitation-womens-quota-west-asia-situation/article70847091.ece",
@@ -1796,7 +1796,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, implying continued discussion on the battalion.",
+      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, implying continued discussion.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1917,8 +1917,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states the scheme was announced in a manifesto.",
-      "gemma_confidence": "low",
+      "gemma_reasoning": "The promise was made in a manifesto for upcoming elections.",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
       "source_description": "The Hindu report: \"Stalin promises ₹8,000 coupon to housewives to buy household appliances - The Hindu\"",
@@ -1999,7 +1999,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing with 17 members appointed so far.",
+      "gemma_reasoning": "Cabinet expansion is ongoing with 17 members appointed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "party": "BJP",
@@ -2475,7 +2475,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre aims to provide surface water over 25 years, the deadline is in the future.",
+      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority, with a 25-year timeframe.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "party": "INC",
