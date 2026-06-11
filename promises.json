@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Rs 15 lakh promise was called a 'jumla' and no black money repatriation happened.",
+      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -151,7 +151,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target year of 2024 passed, and India's GDP remains around $3.5 trillion.",
+      "gemma_reasoning": "Target year of 2024 passed, and GDP remains below $5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC not yet implemented.",
+      "gemma_reasoning": "National UCC not yet implemented, but Uttarakhand passed state UCC in 2024.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -1083,7 +1083,7 @@
       ],
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The news article states I-PAC is still managing the party's campaign.",
-      "gemma_confidence": "low",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
       "source_description": "The Hindu report: \"Amid speculation of I-PAC suspending Bengal operations, Mamata says will engage its members in her party - The Hindu\"",
@@ -1123,7 +1123,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The government failed to pass the bill, but Modi continues to push for it.",
+      "gemma_reasoning": "The government failed to pass the bill but is still pushing for it.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
@@ -1454,7 +1454,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress plans to implement the law by 2029 and the deadline has not passed.",
+      "gemma_reasoning": "The Congress plans to implement the law by 2029, and the deadline has not passed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/cwc-meet-updates-congress-opposition-delimitation-womens-quota-west-asia-situation/article70847091.ece",
@@ -1651,7 +1651,7 @@
         }
       ],
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The Congress party lost the election and did not form a government.",
+      "gemma_reasoning": "The Congress party did not form a government.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/elections/assam-assembly/assam-assembly-polls-like-zubeen-garg-cong-works-to-unite-people-says-rahul-gandhi/article70826244.ece",
@@ -1796,7 +1796,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, implying continued discussion.",
+      "gemma_reasoning": "Shah discussed the peace process and asked for acceleration, no confirmation of implementation.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
