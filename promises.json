@@ -247,7 +247,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2024 has passed and the promise was not met.",
+      "gemma_reasoning": "Target deadline of 2024 has passed and the promise was not met.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/centres-potable-water-mission-may-miss-2024-target/article67029584.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, Joint Parliamentary Committee examining it.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -544,7 +544,7 @@
       "status": "void",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The promise was made by an opposition party that lost the election.",
+      "gemma_reasoning": "The promise was a campaign promise made by the opposition party.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/lok-sabha-2019/congress-promises-72000-per-annum-to-poorest-people/article26632638.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Mamata Banerjee is still in power and actively governing West Bengal.",
+      "gemma_reasoning": "Political violence and worker dominance continue, making full assessment difficult.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -640,7 +640,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Long-term vision, target deadline is 2047.",
+      "gemma_reasoning": "Long-term vision; target deadline is 2047.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
@@ -768,7 +768,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted claims the BJP would restrict fish consumption, indicating ongoing policy work.",
+      "gemma_reasoning": "Dilip Ghosh refuted claims of fish restrictions, indicating ongoing policy work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1082,7 +1082,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress's campaigns.",
+      "gemma_reasoning": "I-PAC continues to manage the Trinamool Congress campaign.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
@@ -1123,7 +1123,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The bill is still under discussion and has not been passed.",
+      "gemma_reasoning": "The bill is still under consideration and the government is pushing for its passage.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
@@ -1387,7 +1387,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah is still in power and the policy is being implemented.",
+      "gemma_reasoning": "Amit Shah is still in office and the policy is actively being implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1415,7 +1415,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The target deadline is in 2027 and the party is still in power.",
+      "gemma_reasoning": "The target deadline is in 2027 and the party is in power.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/telangana/ktr-hints-at-padayatra-in-2027-rules-out-tie-up-with-bjp/article70854908.ece",
@@ -1824,7 +1824,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Amit Shah met with the Manipur CM to discuss peace, implying continued work on the promise.",
+      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, implying ongoing work.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1945,7 +1945,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise is part of a manifesto and the election is ongoing.",
+      "gemma_reasoning": "The promise is part of a manifesto for upcoming elections.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -2027,7 +2027,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17.",
+      "gemma_reasoning": "The cabinet expansion is ongoing, with 17 members appointed so far.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "party": "BJP",
@@ -2449,7 +2449,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was announced with a start date of July 1st, 2026.",
+      "gemma_reasoning": "The promise is set to begin July 1st, 2026, and is currently in progress.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "party": "AAP",
@@ -2503,7 +2503,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre is actively working to provide surface water for drinking purposes in rural areas.",
+      "gemma_reasoning": "Khandre is actively working to provide surface water for rural drinking purposes.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-11",
       "party": "INC",
