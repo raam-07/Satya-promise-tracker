@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-11 11:25:06.258320",
+  "generated_at": "2026-06-11 15:33:12.037228",
   "summary": {
-    "total_promises": 158,
-    "promises_with_validated_evidence": 37,
-    "statuses_automatically_updated": 0
+    "total_promises": 157,
+    "promises_with_validated_evidence": 36,
+    "statuses_automatically_updated": 0,
+    "status_suggestions_gated": 0
   },
   "updated_items": []
 }
