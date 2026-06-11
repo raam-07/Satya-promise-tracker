@@ -481,6 +481,7 @@ If a concrete, measurable political promise matching the strict criteria above i
   "is_promise": true,
   "promise_maker": "the exact name of the politician who personally made this promise, as written in the article",
   "promise_text": "A clear, concise, single-sentence statement of the specific promise made (e.g. 'Committed to installing drinking water taps in all rural households.')",
+  "supporting_quote": "the EXACT sentence or phrase copied verbatim from the article that contains this promise",
   "category": "one of: farmer_agriculture, economy, infrastructure, corruption_scam, politics, crime_violence, education"
 }}
 If no concrete promise matching the strict criteria is identified:
@@ -543,6 +544,23 @@ No explanation. No extra text. Only JSON.
                             break
 
                     if not is_duplicate:
+                        # GATE 1: supporting quote must exist verbatim in the article
+                        quote = str(parsed.get('supporting_quote', '')).strip()
+                        _norm = lambda s: re.sub(r'\s+', ' ', s.lower()).strip()
+                        if not quote or _norm(quote) not in _norm(content):
+                            logging.info(f"    ✗ QUOTE GATE rejected: cited quote not found verbatim in article.")
+                            continue
+
+                        # GATE 2: independent adversarial second opinion
+                        if not gemma_skeptic_check(llm, matched_canonical, promise_candidate, title, summary):
+                            continue
+
+                        # GATE 3 (structural): person, category, dedup already
+                        # verified above; source URL must exist
+                        if not article.get('url'):
+                            logging.info("    ✗ STRUCTURE GATE rejected: no source URL.")
+                            continue
+
                         _made_dt = parse_date_string(article.get('scraped_at'))
                         new_promise_entry = {
                             "id": f"promise_{int(time.time())}_{len(new_extracted_promises)}",
@@ -568,6 +586,57 @@ No explanation. No extra text. Only JSON.
 
     logging.info(f"Auto-extracted {len(new_extracted_promises)} new promises from the incoming articles.")
     return new_extracted_promises
+
+def gemma_skeptic_check(llm, person, promise_text, title, summary):
+    """
+    GATE 2 — independent second opinion before a promise enters the database.
+    Framed adversarially: the model is asked to find a reason to REJECT.
+    Returns True only if it cannot.
+    """
+    if llm is None:
+        return False  # no validator available -> do not add
+
+    prompt = f"""<start_of_turn>user
+You are a strict fact-check auditor. A system claims the article below contains this promise:
+
+Claimed promise: "{promise_text}"
+Claimed promise-maker: {person}
+
+Your job is to find ANY reason this claim is WRONG. Reasons to reject:
+- The promise was actually made by a different person than {person}
+- It is a demand/appeal to another authority, not a commitment by {person}
+- It is a completed administrative event, not a forward-looking promise
+- It is routine crisis PR or an operational schedule
+- It is too vague to ever verify
+- The article does not actually support the claimed promise text
+
+Article Title: {title}
+Article Summary: {summary[:400]}
+
+Return ONLY a JSON: {{"verdict": "valid" or "reject", "reason": "one short sentence"}}
+No extra text.
+<end_of_turn>
+<start_of_turn>model
+"""
+    try:
+        response = llm(
+            prompt,
+            max_tokens=80,
+            temperature=0.3,
+            stop=["<end_of_turn>", "<start_of_turn>"],
+            echo=False
+        )
+        raw = response['choices'][0].get('text', '').strip()
+        raw = re.sub(r'```json|```', '', raw).strip()
+        parsed = json.loads(raw)
+        verdict = str(parsed.get('verdict', 'reject')).lower()
+        if verdict != 'valid':
+            logging.info(f"    ✗ SKEPTIC GATE rejected: {parsed.get('reason', '')[:100]}")
+        return verdict == 'valid'
+    except Exception as e:
+        logging.warning(f"    Skeptic gate failed to parse: {e}. Rejecting (safe default).")
+        return False
+
 
 # ==============================================================================
 # --- ARTICLE LINKING & SCORING ---

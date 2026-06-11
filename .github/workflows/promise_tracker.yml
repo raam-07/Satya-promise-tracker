@@ -60,6 +60,27 @@ jobs:
         run: |
           python promise_tracker.py
 
+      - name: Guard — block accidental promise deletions
+        run: |
+          python - << 'EOF'
+          import json, subprocess, sys
+          # promises.json as it was at HEAD (before this run modified it)
+          try:
+              old_raw = subprocess.check_output(['git', 'show', 'HEAD:promises.json'])
+              old_ids = {p['id'] for p in json.loads(old_raw)['promises']}
+          except Exception:
+              print('No previous promises.json at HEAD — skipping guard.')
+              sys.exit(0)
+          new_ids = {p['id'] for p in json.load(open('promises.json'))['promises']}
+          removed = old_ids - new_ids
+          if removed:
+              print(f'BLOCKED: this run would DELETE {len(removed)} promise(s): {sorted(removed)[:10]}')
+              print('The tracker never legitimately auto-removes promises. Restoring previous file and failing.')
+              subprocess.check_call(['git', 'checkout', 'HEAD', '--', 'promises.json'])
+              sys.exit(1)
+          print(f'Deletion guard passed: {len(old_ids)} -> {len(new_ids)} promises (additions only).')
+          EOF
+
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
