@@ -33,7 +33,7 @@ def parse_date_string(date_str):
     Falls back to current time if parsing fails.
     """
     if not date_str:
-        return datetime.now()
+        return None
     date_str = str(date_str).strip()
     for fmt in ('%Y-%m-%d', '%Y-%m-%dT%H:%M:%S', '%Y-%m-%dT%H:%M:%S.%fZ', '%d-%m-%Y', '%Y/%m/%d'):
         try:
@@ -47,7 +47,7 @@ def parse_date_string(date_str):
             return datetime(int(match.group(1)), int(match.group(2)), int(match.group(3)))
         except ValueError:
             pass
-    return datetime.now()
+    return None
 
 def extract_deadline_year(promise_text):
     """
@@ -118,7 +118,7 @@ def connect_to_sheets():
     logging.info("Connected.")
     return sheet
 
-def fetch_new_articles(sheet, start_row=1):
+def fetch_new_articles(sheet, start_row=0):
     """
     Downloads classified articles in a single batch, parsing only new rows 
     starting from start_row index up to MAX_ROWS_PER_RUN limit to avoid timeouts.
@@ -174,7 +174,7 @@ def load_promises():
             "last_updated": str(datetime.now().date()),
             "total_promises": 0,
             "promises_with_evidence": 0,
-            "last_processed_row": 1
+            "last_processed_row": 0
         },
         "promises": []
     }
@@ -198,21 +198,24 @@ def load_tracked_politicians():
             entities.get('india', {}).get('generic_politicians', [])
         )
         
-        # Capture canonical names and aliases
+        # Capture canonical names, aliases, and party affiliation
         lookup = {}
+        party_map = {}
         for m in all_ministers:
             name = m.get('name')
             if name:
                 lookup[name.lower()] = name
+                if m.get('party'):
+                    party_map[name] = m['party']
                 for alias in m.get('aliases', []):
                     if alias:
                         lookup[alias.lower()] = name
                         
         logging.info(f"Loaded {len(lookup)} unique politician names/aliases dynamically from entities.json")
-        return lookup
+        return lookup, party_map
     except Exception as e:
         logging.warning(f"Failed to load entities.json dynamically: {e}. Falling back to promises.json names.")
-        return {}
+        return {}, {}
 
 # ==============================================================================
 # --- GEMMA ---
@@ -421,7 +424,7 @@ def find_politician_in_text(content, content_lower, minister_lookup):
             
     return None, None
 
-def extract_new_promises_from_articles(llm, articles, existing_promises, minister_lookup):
+def extract_new_promises_from_articles(llm, articles, existing_promises, minister_lookup, person_party_map=None):
     """
     Evaluates new articles and uses Gemma to discover and extract new concrete policy promises.
     Uses dynamic politician list from entities.json as a fast Python filter for 100% precision.
@@ -510,13 +513,16 @@ No explanation. No extra text. Only JSON.
                             break
 
                     if not is_duplicate:
+                        _made_dt = parse_date_string(article.get('scraped_at'))
                         new_promise_entry = {
                             "id": f"promise_{int(time.time())}_{len(new_extracted_promises)}",
                             "person": matched_canonical,
+                            "party": (person_party_map or {}).get(matched_canonical, ''),
                             "promise": promise_candidate,
                             "category": category,
                             "status": "ongoing",
                             "created_at": article.get('scraped_at', str(datetime.now().date())),
+                            "made_on": str(_made_dt.date()) if _made_dt else str(datetime.now().date()),
                             "source_url": article.get('url'),
                             "source_description": f"{article.get('source', 'News Source')} report: \"{article.get('title', '')}\"",
                             "evidence_articles": []
@@ -694,9 +700,9 @@ def link_articles_to_promises(promises_data, articles, llm):
 
                 # TEMPORAL MATCHING: Reject evidence published before promise creation
                 article_date_str = article.get('scraped_at')
-                if article_date_str:
+                if article_date_str and promise_created_at:
                     article_date = parse_date_string(article_date_str)
-                    if article_date.date() < promise_created_at.date() - timedelta(days=1):
+                    if article_date and article_date.date() < promise_created_at.date() - timedelta(days=1):
                         continue
 
                 # Politician Match Check
@@ -756,9 +762,9 @@ def link_articles_to_promises(promises_data, articles, llm):
                     continue
 
                 article_date_str = article.get('scraped_at')
-                if article_date_str:
+                if article_date_str and promise_created_at:
                     article_date = parse_date_string(article_date_str)
-                    if article_date.date() < promise_created_at.date() - timedelta(days=1):
+                    if article_date and article_date.date() < promise_created_at.date() - timedelta(days=1):
                         continue
 
                 score = score_article_for_promise(article, keywords, person, promise)
@@ -806,7 +812,9 @@ def link_articles_to_promises(promises_data, articles, llm):
 
         if new_links:
             existing = promise.get('evidence_articles', [])
-            existing = [a for a in existing if a.get('gemma_validated', False)]
+            # Keep evidence unless it was explicitly marked invalid.
+            # Manual/legacy evidence (missing flag) is preserved.
+            existing = [a for a in existing if a.get('gemma_validated') is not False]
             all_urls = {a['url'] for a in existing}
 
             for link in new_links:
@@ -820,7 +828,7 @@ def link_articles_to_promises(promises_data, articles, llm):
             logging.info(f"  Saved {len(new_links)} validated articles. Total: {len(promise['evidence_articles'])}")
         else:
             old_evidence = promise.get('evidence_articles', [])
-            promise['evidence_articles'] = [a for a in old_evidence if a.get('gemma_validated', False)]
+            promise['evidence_articles'] = [a for a in old_evidence if a.get('gemma_validated') is not False]
             logging.info(f"  No new validated articles found.")
 
     return promises_data
@@ -905,32 +913,46 @@ def main():
     # 2. Extract last processed row index from metadata (defaulting to 1 if first run)
     if 'metadata' not in promises_data:
         promises_data['metadata'] = {}
-    last_processed_row = promises_data['metadata'].get('last_processed_row', 1)
+    last_processed_row = promises_data['metadata'].get('last_processed_row', 0)
 
-    # 3. Connect to sheets and ingest delta (only new rows)
+    # 3. Connect to sheets
     sheet = connect_to_sheets()
-    articles, newest_row = fetch_new_articles(sheet, start_row=last_processed_row)
 
     # 4. Load master politician lookup from entities.json
-    minister_lookup = load_tracked_politicians()
+    minister_lookup, person_party_map = load_tracked_politicians()
+    if not minister_lookup:
+        names = list({p.get('person') for p in promises_data['promises'] if p.get('person')})
+        minister_lookup = {name.lower(): name for name in names}
+        person_party_map = {p.get('person'): p.get('party', '') for p in promises_data['promises'] if p.get('person')}
 
     # 5. Load Gemma inference engine
     llm = load_gemma()
 
-    # 6. Autonomous extraction pass
-    if articles and llm:
-        if not minister_lookup:
-            names = list({p.get('person') for p in promises_data['promises'] if p.get('person')})
-            minister_lookup = {name.lower(): name for name in names}
-            
-        new_promises = extract_new_promises_from_articles(llm, articles, promises_data['promises'], minister_lookup)
-        if new_promises:
-            promises_data['promises'].extend(new_promises)
-            logging.info(f"Auto-added {len(new_promises)} new promises directly to database.")
+    # 6+7. Ingest, extract, and link in chunks until caught up or time budget hit.
+    # Prevents permanent backlog when classifier throughput > one chunk per run.
+    TIME_BUDGET_SECONDS = int(os.environ.get('TRACKER_TIME_BUDGET_SECONDS', 4 * 3600))
+    newest_row = last_processed_row
+    while True:
+        articles, newest_row = fetch_new_articles(sheet, start_row=last_processed_row)
+        if not articles and newest_row <= last_processed_row:
+            logging.info("Caught up — no new rows to process.")
+            break
 
-    # 7. Link articles to promises as evidence
-    if articles:
-        promises_data = link_articles_to_promises(promises_data, articles, llm)
+        if articles and llm:
+            new_promises = extract_new_promises_from_articles(llm, articles, promises_data['promises'], minister_lookup, person_party_map)
+            if new_promises:
+                promises_data['promises'].extend(new_promises)
+                logging.info(f"Auto-added {len(new_promises)} new promises directly to database.")
+
+        if articles:
+            promises_data = link_articles_to_promises(promises_data, articles, llm)
+
+        last_processed_row = newest_row
+        promises_data['metadata']['last_processed_row'] = newest_row
+
+        if time.time() - start_time > TIME_BUDGET_SECONDS:
+            logging.warning("Time budget reached — saving progress; remaining rows next run.")
+            break
 
     # 8. Evaluate and assess promise statuses
     promises_data, review_items = assess_promise_statuses(promises_data, llm)
