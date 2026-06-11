@@ -124,7 +124,10 @@ def fetch_new_articles(sheet, start_row=0):
     starting from start_row index up to MAX_ROWS_PER_RUN limit to avoid timeouts.
     """
     logging.info(f"Fetching classified articles starting from row {start_row} (max cap: {MAX_ROWS_PER_RUN})...")
-    all_rows = sheet.get_all_values()
+    if isinstance(sheet, list):
+        all_rows = sheet  # pre-fetched rows (avoids re-downloading per chunk)
+    else:
+        all_rows = sheet.get_all_values()
     total_rows = len(all_rows)
     
     # Calculate the end index for our slice
@@ -154,6 +157,13 @@ def fetch_new_articles(sheet, start_row=0):
 # ==============================================================================
 
 def load_promises():
+    # In CI the repo is freshly checked out, so the local file is always the
+    # newest state. The raw.githubusercontent URL is CDN-cached (up to ~5 min)
+    # and can serve STALE data — using it first caused lost-update risk.
+    if os.path.exists(PROMISES_OUTPUT_PATH):
+        with open(PROMISES_OUTPUT_PATH, 'r') as f:
+            return json.load(f)
+
     if PROMISES_JSON_URL:
         try:
             logging.info("Fetching promises.json from GitHub...")
@@ -161,11 +171,7 @@ def load_promises():
             response.raise_for_status()
             return response.json()
         except Exception as e:
-            logging.warning(f"Failed to fetch from GitHub: {e}. Trying local.")
-
-    if os.path.exists(PROMISES_OUTPUT_PATH):
-        with open(PROMISES_OUTPUT_PATH, 'r') as f:
-            return json.load(f)
+            logging.warning(f"Failed to fetch from GitHub: {e}.")
 
     # Initialize a clean structure if not found
     logging.info("Creating a fresh promises structure...")
@@ -309,6 +315,8 @@ def gemma_assess_promise(llm, promise_text, person, evidence_texts, deadline_yea
 
     prompt = f"""<start_of_turn>user
 You are a factual promise fact-checker. Today's date is {current_date}. Based on the evidence articles and ground-truth facts below, assess the status of this political promise.{deadline_context}{notes_context}
+
+IMPORTANT: Base your judgment ONLY on the evidence articles and verified notes provided below. Do NOT rely on your own memory of elections, governments, or events — your training data is outdated and the political situation may have changed. If the evidence is insufficient to decide, answer "ongoing" with confidence "low".
 
 Person: {person}
 Promise: {promise_text}
@@ -465,10 +473,13 @@ CRITICAL REJECTION RULES (You MUST return is_promise: false if any of these appl
 Article Title: {title}
 Article Summary: {summary[:400]}
 
+CRITICAL ATTRIBUTION RULE: The promise MUST have been made by {matched_canonical} personally. Articles often quote several politicians — if the promise in this article was made by someone else (a rival, another party's leader, a different minister), return is_promise: false.
+
 Return ONLY a JSON response:
 If a concrete, measurable political promise matching the strict criteria above is identified:
 {{
   "is_promise": true,
+  "promise_maker": "the exact name of the politician who personally made this promise, as written in the article",
   "promise_text": "A clear, concise, single-sentence statement of the specific promise made (e.g. 'Committed to installing drinking water taps in all rural households.')",
   "category": "one of: farmer_agriculture, economy, infrastructure, corruption_scam, politics, crime_violence, education"
 }}
@@ -498,6 +509,25 @@ No explanation. No extra text. Only JSON.
             if parsed.get('is_promise') is True:
                 promise_candidate = parsed.get('promise_text', '').strip()
                 category = parsed.get('category', 'politics')
+
+                # --- ATTRIBUTION VERIFICATION ---
+                # The maker named by Gemma must resolve to the same politician we
+                # matched, otherwise the promise belongs to someone else in the
+                # article (e.g. KTR's pledge wrongly credited to Revanth Reddy).
+                maker_raw = str(parsed.get('promise_maker', '')).strip()
+                if maker_raw:
+                    maker_canonical = minister_lookup.get(maker_raw.lower())
+                    if maker_canonical is None:
+                        # try word-overlap with the matched politician's name
+                        maker_words = {w for w in re.findall(r'\w+', maker_raw.lower()) if len(w) > 2}
+                        matched_words = {w for w in re.findall(r'\w+', matched_canonical.lower()) if len(w) > 2}
+                        maker_canonical = matched_canonical if (maker_words & matched_words) else None
+                    if maker_canonical != matched_canonical:
+                        logging.info(
+                            f"    ✗ ATTRIBUTION MISMATCH: promise made by '{maker_raw}' "
+                            f"but article matched '{matched_canonical}'. Rejected."
+                        )
+                        continue
 
                 if promise_candidate and category in ['farmer_agriculture', 'economy', 'infrastructure', 'corruption_scam', 'politics', 'crime_violence', 'education']:
                     is_duplicate = False
@@ -886,6 +916,7 @@ def assess_promise_statuses(promises_data, llm):
                     logging.info(f"  → Gated auto-update: Gemma suggests {suggested_status} but confidence is only {confidence}. Keeping as {current_status}")
                 
                 review_items.append({
+                    "applied": confidence == 'high',
                     "promise_id": promise['id'],
                     "person": person,
                     "promise": promise_text[:100],
@@ -932,8 +963,10 @@ def main():
     # Prevents permanent backlog when classifier throughput > one chunk per run.
     TIME_BUDGET_SECONDS = int(os.environ.get('TRACKER_TIME_BUDGET_SECONDS', 4 * 3600))
     newest_row = last_processed_row
+    all_rows = sheet.get_all_values()  # download once; chunks slice in memory
+    logging.info(f"Downloaded sheet once: {len(all_rows)} rows.")
     while True:
-        articles, newest_row = fetch_new_articles(sheet, start_row=last_processed_row)
+        articles, newest_row = fetch_new_articles(all_rows, start_row=last_processed_row)
         if not articles and newest_row <= last_processed_row:
             logging.info("Caught up — no new rows to process.")
             break
@@ -949,6 +982,11 @@ def main():
 
         last_processed_row = newest_row
         promises_data['metadata']['last_processed_row'] = newest_row
+
+        # Checkpoint after every chunk — a crash/timeout loses at most one chunk
+        with open(PROMISES_OUTPUT_PATH, 'w', encoding='utf-8') as f:
+            json.dump(promises_data, f, indent=2, ensure_ascii=False)
+        logging.info(f"Checkpoint saved (last_processed_row={newest_row}).")
 
         if time.time() - start_time > TIME_BUDGET_SECONDS:
             logging.warning("Time budget reached — saving progress; remaining rows next run.")
@@ -977,7 +1015,12 @@ def main():
         "summary": {
             "total_promises": len(promises_data['promises']),
             "promises_with_validated_evidence": promises_data['metadata']['promises_with_evidence'],
-            "statuses_automatically_updated": len(review_items)
+            "statuses_automatically_updated": sum(
+                1 for r in review_items if r.get('applied') is True
+            ),
+            "status_suggestions_gated": sum(
+                1 for r in review_items if r.get('applied') is not True
+            )
         },
         "updated_items": review_items
     }
