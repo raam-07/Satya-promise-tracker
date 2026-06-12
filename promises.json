@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-12",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 157,
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
+      "gemma_reasoning": "Rs 15 lakh promise was called a 'jumla' and no black money repatriation happened.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -183,7 +183,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption allegations against BJP ministers and ongoing scams indicate failure to end corruption.",
+      "gemma_reasoning": "Multiple corruption scandals occurred during Modi's tenure.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -279,7 +279,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC not yet implemented, but Uttarakhand passed state UCC in 2024.",
+      "gemma_reasoning": "National UCC not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -320,7 +320,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
+      "gemma_reasoning": "Bill introduced, under examination by a Joint Parliamentary Committee.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -608,7 +608,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The provided information does not indicate if the promise was kept, broken, or void.",
+      "gemma_reasoning": "The provided information does not indicate the promise was fulfilled or broken.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -623,7 +623,7 @@
       ],
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "created_at": "2026-04-08 02:52:04.016076"
     },
     {
@@ -654,7 +654,7 @@
       ],
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "created_at": "2026-05-10 12:02:18.299435"
     },
     {
@@ -768,9 +768,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, suggesting the BJP is promoting fish production.",
-      "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, indicating the BJP is working on the promise.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
       "source_description": "The Hindu report: \"Mamata created false narrative on BJP restricting consumption of fish: Dilip Ghosh - The Hindu\"",
       "party": "TMC",
@@ -1084,7 +1084,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The news article states I-PAC is still managing the party's campaign.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
       "source_description": "The Hindu report: \"Amid speculation of I-PAC suspending Bengal operations, Mamata says will engage its members in her party - The Hindu\"",
       "party": "TMC",
@@ -1123,9 +1123,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The government failed to pass the bill but is still pushing for it.",
+      "gemma_reasoning": "The government failed to pass the bill, but is still pushing for it.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
       "source_description": "The Hindu report: \"PM Modi says 'will get more chances' to push for women's quota, blames Congress as 'anti-reform party' | LIVE - The Hindu\"",
       "party": "BJP",
@@ -1270,7 +1270,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Amit Shah began a tour of border areas to discuss the Smart Border Concept.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/amit-shah-to-visit-border-areas-over-next-three-weeks/article71022402.ece",
       "source_description": "The Hindu report: \"Amit Shah to visit border areas over next three weeks - The Hindu\"",
       "party": "BJP",
@@ -1389,7 +1389,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The news article states the order was given, but does not indicate completion.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
       "source_description": "Al Jazeera report: \"India orders demolition drive along border as Pakistan tensions simmer | India-Pakistan Tensions News | Al Jazeera\"",
       "party": "BJP",
@@ -1454,9 +1454,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The Congress plans to implement the law by 2029, and the deadline has not passed.",
+      "gemma_reasoning": "The Congress plans to formulate a strategy for implementation by 2029.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/cwc-meet-updates-congress-opposition-delimitation-womens-quota-west-asia-situation/article70847091.ece",
       "source_description": "The Hindu report: \"Congress discusses women’s reservation law and delimitation; Kharge to meet other Opposition leaders for joint strategy - The Hindu\"",
       "party": "INC",
@@ -1651,9 +1651,9 @@
         }
       ],
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The Congress party did not form a government.",
+      "gemma_reasoning": "Congress did not form a government, so the promise lapsed.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/elections/assam-assembly/assam-assembly-polls-like-zubeen-garg-cong-works-to-unite-people-says-rahul-gandhi/article70826244.ece",
       "source_description": "The Hindu report: \"Assam Assembly polls: Like Zubeen Garg, Cong works to unite people, says Rahul Gandhi - The Hindu\"",
       "party": "BJP",
@@ -1796,9 +1796,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah discussed the peace process and asked for acceleration, no confirmation of implementation.",
+      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, implying ongoing discussion.",
       "gemma_confidence": "low",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
       "source_description": "The Hindu report: \"Amit Shah asks Manipur CM to accelerate peace process, approves formation of all-woman police battalion - The Hindu\"",
       "party": "BJP",
@@ -1891,7 +1891,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The BJP is currently in power and Amit Shah stated the UCC would be introduced if re-elected.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/elections/assam-assembly/modi-himanta-prepared-roadmap-for-tribal-development-bjps-win-will-ensure-implementation-amit-shah/article70819253.ece",
       "source_description": "The Hindu report: \"Cow, buffalo for each Assam tribal family, promises Amit Shah - The Hindu\"",
       "party": "BJP",
@@ -1919,7 +1919,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The promise was made in a manifesto for upcoming elections.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
       "source_description": "The Hindu report: \"Stalin promises ₹8,000 coupon to housewives to buy household appliances - The Hindu\"",
       "party": "DMK",
@@ -2001,7 +2001,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Cabinet expansion is ongoing with 17 members appointed.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "party": "BJP",
       "made_on": "2026-05-31"
     },
@@ -2118,7 +2118,7 @@
       "gemma_suggestion": "kept",
       "gemma_reasoning": "TMC contested 291 seats in the West Bengal assembly elections.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-assembly-elections-2026-full-list-of-tmc-candidates-contesting-in-west-bengal/article70753654.ece",
       "source_description": "The Hindu report: \"Full list of TMC candidates contesting in West Bengal - The Hindu\"",
       "party": "TMC",
@@ -2352,9 +2352,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "AIMIM is leading a door-to-door voter registration drive.",
+      "gemma_reasoning": "The news article states AIMIM will lead a door-to-door campaign.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/telangana/aimim-to-embark-on-door-to-door-campaign-to-assist-in-sir-mapping/article70743190.ece",
       "source_description": "The Hindu report: \"AIMIM to embark on door-to-door campaign to assist in SIR mapping - The Hindu\"",
       "party": "AIMIM",
@@ -2421,9 +2421,9 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and the date is June 11th, 2026.",
+      "gemma_reasoning": "The promise has a start date of July 1st, 2026, and the date is June 12th, 2026.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "party": "AAP",
       "made_on": "2026-06-05"
     },
@@ -2477,7 +2477,7 @@
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Khandre has identified clean drinking water access as a priority, with a 25-year timeframe.",
       "gemma_confidence": "medium",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "party": "INC",
       "made_on": "2026-06-05"
     },
@@ -2557,7 +2557,7 @@
       "gemma_suggestion": "kept",
       "gemma_reasoning": "Revanth Reddy launched projects in Malkajgiri on June 7, 2026.",
       "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-11",
+      "gemma_assessed_at": "2026-06-12",
       "party": "INC",
       "made_on": "2026-06-07"
     },
