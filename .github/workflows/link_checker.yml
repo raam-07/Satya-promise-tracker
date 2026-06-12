@@ -1,0 +1,67 @@
+name: Satya Promise Link Checker
+
+on:
+  schedule:
+    # Weekly, Sunday 03:00 UTC
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
+    inputs:
+      archive_live:
+        description: 'Also save live URLs to the Wayback Machine (slow, throttled)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: satya-link-checker
+  cancel-in-progress: false
+
+jobs:
+  check_links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Link Checker
+        env:
+          ARCHIVE_LIVE: ${{ inputs.archive_live && 'true' || 'false' }}
+        run: python link_checker.py
+
+      - name: Guard — block accidental promise deletions
+        run: |
+          python - << 'PYEOF'
+          import json, subprocess, sys
+          try:
+              old_raw = subprocess.check_output(['git', 'show', 'HEAD:promises.json'])
+              old_ids = {p['id'] for p in json.loads(old_raw)['promises']}
+          except Exception:
+              sys.exit(0)
+          new_ids = {p['id'] for p in json.load(open('promises.json'))['promises']}
+          removed = old_ids - new_ids
+          if removed:
+              print(f'BLOCKED: link checker would delete {len(removed)} promises')
+              subprocess.check_call(['git', 'checkout', 'HEAD', '--', 'promises.json'])
+              sys.exit(1)
+          print('Deletion guard passed.')
+          PYEOF
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "satya-bot@github.com"
+          git config --local user.name "Satya Bot"
+          git add promises.json
+          git diff --staged --quiet || (git commit -m "Link check: update url_status/archived_url [skip ci]" && git pull --rebase origin main && git push origin HEAD:main)

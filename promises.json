@@ -135,7 +135,8 @@
       "notes": "Target missed in 2022, deadline extended. Partial completion achieved but far short of original target.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p005",
@@ -167,7 +168,8 @@
       "notes": "India's GDP remains around $3.5 trillion. Target missed significantly. COVID cited as reason.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p006",
@@ -231,7 +233,8 @@
       "notes": "Supreme Court struck down electoral bonds as unconstitutional in Feb 2024. SBI data showed BJP received largest share of anonymous donations.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p008",
@@ -263,7 +266,8 @@
       "notes": "Government claims high coverage but ground reports show many connections non-functional or irregular supply.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p009",
@@ -336,7 +340,8 @@
       "notes": "Bill introduced in Parliament in 2024. Joint Parliamentary Committee examining it. Not yet implemented.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p011",
@@ -368,7 +373,8 @@
       "notes": "RBI reported 99.3% of demonetized notes returned. Black money holdings largely unaffected. Terrorism funding continued.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p012",
@@ -400,7 +406,8 @@
       "notes": "Land acquisition issues, cost overruns. New deadline pushed to 2027-2028. Less than 30% construction complete.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p013",
@@ -432,7 +439,8 @@
       "notes": "Rohingya population continues to live in India. Deportations happen occasionally but not systematically.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p014",
@@ -464,7 +472,8 @@
       "notes": "Delhi government school results improved significantly. International recognition received. One of AAP's few kept promises.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p015",
@@ -496,7 +505,8 @@
       "notes": "Implemented and sustained. Free electricity up to 200 units provided to Delhi households.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p016",
@@ -528,7 +538,8 @@
       "notes": "Yamuna remains one of India's most polluted rivers. Supreme Court repeatedly pulled up Delhi government over inaction.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p017",
@@ -560,7 +571,8 @@
       "notes": "Congress lost 2019 election. NYAY scheme never implemented. Remains a campaign promise.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-30"
+      "created_at": "2026-05-30",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p018",
@@ -624,7 +636,8 @@
       "notes": "Bengal saw significant political violence. Syndicate raj and TMC worker dominance reported widely.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-04-08 02:52:04.016076"
+      "created_at": "2026-04-08 02:52:04.016076",
+      "source_quality": "homepage_only"
     },
     {
       "id": "p020",
@@ -655,7 +668,8 @@
       "notes": "Long term vision. Too early to assess. Used as campaign narrative in 2024 elections.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-12",
-      "created_at": "2026-05-10 12:02:18.299435"
+      "created_at": "2026-05-10 12:02:18.299435",
+      "source_quality": "homepage_only"
     },
     {
       "id": "promise_1780198151_0",
@@ -813,7 +827,8 @@
       "source_url": "https://www.thehindu.com/news/national/india-vietnam-elevate-ties-to-enhanced-comprehensive-strategic-partnership-set-25-billion-trade-target/article70946765.ece",
       "source_description": "The Hindu report: \"India, Vietnam elevate ties to enhanced comprehensive strategic partnership; set $25 billion trade target - The Hindu\"",
       "party": "BJP",
-      "made_on": "2026-05-06"
+      "made_on": "2026-05-06",
+      "deadline": "2030"
     },
     {
       "id": "promise_1780256031_1",
@@ -826,7 +841,8 @@
       "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/chief-minister-chandrababu-naidu-unveils-nabard-credit-plan-of-511-lakh-crore-for-202627-fiscal/article70943558.ece",
       "source_description": "The Hindu report: \"Chief Minister Chandrababu Naidu unveils NABARD credit plan of ₹5.11 lakh crore for 2026–27 fiscal - The Hindu\"",
       "party": "TDP",
-      "made_on": "2026-05-05"
+      "made_on": "2026-05-05",
+      "deadline": "2026"
     },
     {
       "id": "promise_1780262008_2",
@@ -1142,7 +1158,8 @@
       "source_url": "https://www.thehindu.com/news/national/union-cabinet-approves-2-increase-in-dearness-allowance/article70877190.ece",
       "source_description": "The Hindu report: \"Union Cabinet approves 2% increase in Dearness Allowance - The Hindu\"",
       "party": "BJP",
-      "made_on": "2026-04-18"
+      "made_on": "2026-04-18",
+      "deadline": "2026"
     },
     {
       "id": "promise_1780336330_4",
@@ -1220,7 +1237,8 @@
       "source_url": "https://www.thehindu.com/news/national/assembly-elections-2026-west-bengal-tamil-nadu-kerala-assam-puducherry-april-16-2026-live-updates/article70867507.ece",
       "source_description": "The Hindu report: \"Assembly Elections 2026 LIVE: Bengal faced decade of lawlessness, says PM Modi - The Hindu\"",
       "party": "BJP",
-      "made_on": "2026-04-16"
+      "made_on": "2026-04-16",
+      "deadline": "2026"
     },
     {
       "id": "promise_1780356274_2",
@@ -1365,7 +1383,8 @@
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/delimitation-will-not-affect-southern-states-says-goyal/article70857651.ece",
       "source_description": "The Hindu report: \"Delimitation will not affect southern States, says Goyal - The Hindu\"",
       "party": "BJP",
-      "made_on": "2026-04-13"
+      "made_on": "2026-04-13",
+      "deadline": "2029"
     },
     {
       "id": "promise_1780370419_2",
@@ -1460,7 +1479,8 @@
       "source_url": "https://www.thehindu.com/news/national/cwc-meet-updates-congress-opposition-delimitation-womens-quota-west-asia-situation/article70847091.ece",
       "source_description": "The Hindu report: \"Congress discusses women’s reservation law and delimitation; Kharge to meet other Opposition leaders for joint strategy - The Hindu\"",
       "party": "INC",
-      "made_on": "2026-04-10"
+      "made_on": "2026-04-10",
+      "deadline": "2029"
     },
     {
       "id": "promise_1780383641_1",
@@ -1748,7 +1768,8 @@
       "source_url": "https://www.thehindu.com/news/national/west-bengal/census-in-bengal-to-be-held-from-august-1-to-february-end-next-year-cm/article71036958.ece",
       "source_description": "The Hindu report: \"Census in West Bengal to start from August 1: CM Suvendu - The Hindu\"",
       "party": "BJP",
-      "made_on": "2026-05-29"
+      "made_on": "2026-05-29",
+      "deadline": "2027"
     },
     {
       "id": "promise_1780428926_0",
@@ -2068,7 +2089,8 @@
       "source_url": "https://www.thehindu.com/news/national/tamil-nadu/vckadopts-resolution-seeking-two-digit-assembly-seats-and-onerajya-sabha-seat/article70776897.ece",
       "source_description": "The Hindu report: \"VCK adopts resolution seeking two-digit Assembly seats and one Rajya Sabha seat - The Hindu\"",
       "party": "VCK",
-      "made_on": "2026-03-23"
+      "made_on": "2026-03-23",
+      "deadline": "2026"
     },
     {
       "id": "promise_1780518790_4",
@@ -2161,7 +2183,8 @@
       "source_url": "https://www.thehindu.com/news/national/telangana/cm-reviews-bhadrachalam-temple-development-plans/article70770245.ece",
       "source_description": "The Hindu report: \"CM reviews Bhadrachalam temple development plans - The Hindu\"",
       "party": "INC",
-      "made_on": "2026-03-21"
+      "made_on": "2026-03-21",
+      "deadline": "2027"
     },
     {
       "id": "promise_1780534305_1",
@@ -2371,7 +2394,8 @@
       "source_url": "https://www.thehindu.com/news/national/gujarat/gujarat-cabinet-approves-wire-free-city-mission-500-crore-allocated-for-first-phase/article71057135.ece",
       "source_description": "The Hindu report: \"Gujarat cabinet approves ‘wire-free city mission’; ₹500 crore allocated for first phase - The Hindu\"",
       "party": "BJP",
-      "made_on": "2026-06-03"
+      "made_on": "2026-06-03",
+      "deadline": "2030"
     },
     {
       "id": "promise_1780577145_3",
@@ -2397,7 +2421,8 @@
       "source_description": "NDTV report: \"India Sweden Ties 'In India, We Almost Find A Global Market': Swedish Ambassador Jan Thesleff To NDTV\"",
       "evidence_articles": [],
       "party": "BJP",
-      "made_on": "2026-06-05"
+      "made_on": "2026-06-05",
+      "deadline": "2030"
     },
     {
       "id": "promise_1780686372_1",
@@ -2559,7 +2584,8 @@
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-12",
       "party": "INC",
-      "made_on": "2026-06-07"
+      "made_on": "2026-06-07",
+      "deadline": "2026"
     },
     {
       "id": "promise_1780827401_1",
@@ -2611,7 +2637,8 @@
       "source_description": "The Hindu report: \"West Bengal Government to provide jobs to kin of BJP workers killed in 2021 post-poll violence - The Hindu\"",
       "evidence_articles": [],
       "party": "BJP",
-      "made_on": "2026-06-07"
+      "made_on": "2026-06-07",
+      "deadline": "2021"
     },
     {
       "id": "promise_1780964125_0",
