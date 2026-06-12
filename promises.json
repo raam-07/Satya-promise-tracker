@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 passed, and farm income did not double.",
+      "gemma_reasoning": "Target deadline of 2022 passed, and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -152,7 +152,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and the $5 trillion GDP goal was not met.",
+      "gemma_reasoning": "Target year of 2024 passed, and GDP remains around $3.5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -185,7 +185,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption scandals occurred during Modi's tenure.",
+      "gemma_reasoning": "Multiple corruption allegations against BJP ministers and ongoing scams indicate failure to end corruption.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -199,7 +199,7 @@
         }
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
-      "gemma_confidence": "high",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-12",
       "created_at": "2026-04-06 10:20:23.758142"
     },
@@ -283,7 +283,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "National UCC not yet implemented.",
+      "gemma_reasoning": "National UCC not yet implemented, but Uttarakhand passed state UCC in 2024.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/bengal-polls-2026-modi-mamata-spar-over-ucc-implementation/article70851739.ece",
@@ -489,7 +489,7 @@
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "kept",
-      "gemma_reasoning": "Free electricity up to 200 units has been implemented and sustained in Delhi.",
+      "gemma_reasoning": "Free electricity up to 200 units is implemented and sustained in Delhi.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/delhi-assembly/kejriwal-promises-free-200-units-electricity-for-tenants/article69114073.ece",
@@ -620,7 +620,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The provided information does not indicate if the promise was kept, broken, or void.",
+      "gemma_reasoning": "The provided information does not indicate the promise's fulfillment or failure.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -653,7 +653,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Long term vision, target deadline is 2047.",
+      "gemma_reasoning": "Long term vision, too early to assess.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/telangana/centre-to-support-telangana-more-vigorously-pm-modi-in-hyderabad/article70962140.ece",
@@ -782,8 +782,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, suggesting the BJP is promoting fish production.",
-      "gemma_confidence": "medium",
+      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, indicating the BJP is working on the promise.",
+      "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
       "source_description": "The Hindu report: \"Mamata created false narrative on BJP restricting consumption of fish: Dilip Ghosh - The Hindu\"",
@@ -1098,8 +1098,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states I-PAC is still managing the party's campaign.",
-      "gemma_confidence": "medium",
+      "gemma_reasoning": "The news article states I-PAC's operations are not suspended.",
+      "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
       "source_description": "The Hindu report: \"Amid speculation of I-PAC suspending Bengal operations, Mamata says will engage its members in her party - The Hindu\"",
@@ -1406,7 +1406,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states the order was given, but does not confirm completion.",
+      "gemma_reasoning": "The news article states the order was given, but does not confirm its implementation.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1817,7 +1817,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, no confirmation of implementation.",
+      "gemma_reasoning": "Shah discussed the peace process and asked for acceleration, no confirmation of implementation.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -2375,7 +2375,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states AIMIM will lead a door-to-door campaign.",
+      "gemma_reasoning": "AIMIM is leading a door-to-door voter registration drive.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-12",
       "source_url": "https://www.thehindu.com/news/national/telangana/aimim-to-embark-on-door-to-door-campaign-to-assist-in-sir-mapping/article70743190.ece",
@@ -2500,7 +2500,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority and is the Rural Development and Panchayat Raj Minister.",
+      "gemma_reasoning": "Khandre has identified clean drinking water access as a priority and is the Rural Development Minister.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-12",
       "party": "INC",
