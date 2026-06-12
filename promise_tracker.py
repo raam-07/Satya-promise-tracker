@@ -567,6 +567,7 @@ No explanation. No extra text. Only JSON.
                             "person": matched_canonical,
                             "party": (person_party_map or {}).get(matched_canonical, ''),
                             "promise": promise_candidate,
+                            "supporting_quote": quote,
                             "category": category,
                             "status": "ongoing",
                             "created_at": article.get('scraped_at', str(datetime.now().date())),
