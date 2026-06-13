@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13 08:20:55.107423",
+  "generated_at": "2026-06-13 11:11:17.631801",
   "summary": {
     "total_promises": 157,
     "promises_with_validated_evidence": 36,
@@ -14,8 +14,8 @@
       "promise": "End corruption completely — 'Na khaunga, na khane dunga'",
       "previous_status": "broken",
       "new_status": "ongoing",
-      "gemma_reasoning": "Multiple corruption allegations exist against BJP ministers.",
-      "gemma_confidence": "low",
+      "gemma_reasoning": "Corruption allegations persist against BJP ministers and related entities.",
+      "gemma_confidence": "medium",
       "evidence_count": 1
     }
   ]

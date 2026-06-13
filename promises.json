@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
+      "gemma_reasoning": "Target deadline of 2022 passed, and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and Rs 15 lakh was called a 'jumla'.",
+      "gemma_reasoning": "No black money repatriation happened, Rs 15 lakh was called a 'jumla'.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -152,7 +152,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and GDP remains below $5 trillion.",
+      "gemma_reasoning": "Target year of 2024 passed, and GDP remains around $3.5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -185,7 +185,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Multiple corruption allegations exist against BJP ministers.",
+      "gemma_reasoning": "Corruption allegations persist against BJP ministers and related entities.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -199,7 +199,7 @@
         }
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
-      "gemma_confidence": "low",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "created_at": "2026-04-06 10:20:23.758142"
     },
@@ -250,7 +250,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 has passed and the promise is likely to be missed.",
+      "gemma_reasoning": "The target deadline of 2024 has passed and the promise is likely to be missed.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/centres-potable-water-mission-may-miss-2024-target/article67029584.ece",
@@ -324,7 +324,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
+      "gemma_reasoning": "Bill introduced, under examination by a Joint Parliamentary Committee.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -522,7 +522,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2025 has passed.",
+      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -782,7 +782,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, indicating the BJP is working on the promise.",
+      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, suggesting the BJP is promoting fish production.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1098,7 +1098,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states I-PAC is still managing the party's campaign.",
+      "gemma_reasoning": "The news article states that I-PAC is still managing the party's campaign.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
@@ -1139,7 +1139,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The government failed to pass the bill but continues to push for it.",
+      "gemma_reasoning": "The government failed to pass the bill, but Modi continues to push for it.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
@@ -1406,7 +1406,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states the order was given, but does not indicate completion.",
+      "gemma_reasoning": "The news article states the order was given, but does not confirm its implementation status.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1671,7 +1671,7 @@
         }
       ],
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The Congress party lost the election and did not form a government.",
+      "gemma_reasoning": "The Congress party did not form a government.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/elections/assam-assembly/assam-assembly-polls-like-zubeen-garg-cong-works-to-unite-people-says-rahul-gandhi/article70826244.ece",
@@ -1938,7 +1938,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The evidence states the scheme was unveiled in a manifesto.",
+      "gemma_reasoning": "The promise was made in a manifesto for upcoming elections.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -2020,7 +2020,7 @@
       "source_url": "https://www.thehindu.com/news/national/assam/assam-cabinet-to-be-expanded-on-june-5-says-cm-himanta-biswa-sarma/article71043870.ece",
       "source_description": "The Hindu report: \"Assam’s Council of Ministers to be expanded on June 5 - The Hindu\"",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Cabinet expansion is ongoing, current size is 17 out of a promised maximum of 19.",
+      "gemma_reasoning": "Cabinet expansion is ongoing with 17 members appointed.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "party": "BJP",
