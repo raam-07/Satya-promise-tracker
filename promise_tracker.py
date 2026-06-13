@@ -21,8 +21,8 @@ import re
 import requests
 from datetime import datetime, timedelta
 from collections import defaultdict
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
+import sqlite3
+import zlib
 from sentence_transformers import SentenceTransformer, util
 
 # === HELPERS FOR PRECISION TRACKING ===
@@ -64,9 +64,6 @@ def extract_deadline_year(promise_text):
 # ==============================================================================
 # --- CONFIGURATION ---
 # ==============================================================================
-CLASSIFIED_SHEET_NAME = 'Satya Classified'
-CLASSIFIED_WORKSHEET_NAME = 'Sheet1'
-
 PROMISES_JSON_URL = os.environ.get('PROMISES_JSON_URL', '')
 ENTITIES_JSON_URL = os.environ.get('ENTITIES_JSON_URL', 'https://raw.githubusercontent.com/raam-07/satya-entity-library/main/entities.json')
 
@@ -102,55 +99,109 @@ except Exception as e:
     encoder_model = None
 
 # ==============================================================================
-# --- GOOGLE SHEETS & DELTA SYNCING ---
+# --- DATABASE CONFIGURATION ---
 # ==============================================================================
+def load_env():
+    env_paths = [
+        os.path.join(os.path.dirname(__file__), '.env'),
+        os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
+    ]
+    for env_path in env_paths:
+        if os.path.exists(env_path):
+            with open(env_path, 'r') as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and '=' in line:
+                        key, val = line.split('=', 1)
+                        os.environ[key.strip()] = val.strip()
 
-def connect_to_sheets():
-    logging.info("Connecting to Google Sheets...")
-    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    gcp_json = os.environ.get("GCP_SERVICE_ACCOUNT_JSON")
-    if not gcp_json:
-        raise ValueError("GCP_SERVICE_ACCOUNT_JSON missing!")
-    creds_dict = json.loads(gcp_json)
-    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
-    client = gspread.authorize(creds)
-    sheet = client.open(CLASSIFIED_SHEET_NAME).worksheet(CLASSIFIED_WORKSHEET_NAME)
-    logging.info("Connected.")
-    return sheet
+load_env()
 
-def fetch_new_articles(sheet, start_row=0):
-    """
-    Downloads classified articles in a single batch, parsing only new rows 
-    starting from start_row index up to MAX_ROWS_PER_RUN limit to avoid timeouts.
-    """
-    logging.info(f"Fetching classified articles starting from row {start_row} (max cap: {MAX_ROWS_PER_RUN})...")
-    if isinstance(sheet, list):
-        all_rows = sheet  # pre-fetched rows (avoids re-downloading per chunk)
-    else:
-        all_rows = sheet.get_all_values()
-    total_rows = len(all_rows)
+default_db_path = '/Users/mac/Downloads/Code/Satya/satya.db'
+if not os.path.exists(os.path.dirname(default_db_path)):
+    default_db_path = os.path.join(os.path.dirname(__file__), 'satya.db')
+
+DB_PATH = os.environ.get('SATYA_DB_PATH', default_db_path)
+
+def get_db_connection():
+    db_url = os.environ.get('SATYA_DB_URL')
+    db_token = os.environ.get('SATYA_DB_TOKEN')
     
-    # Calculate the end index for our slice
-    end_row = min(start_row + MAX_ROWS_PER_RUN, total_rows)
-    
-    articles = []
-    # Process only rows within the start_row to end_row slice
-    for index, row in enumerate(all_rows[start_row:end_row], start=start_row + 1):
-        if not row or not row[0]:
-            continue
+    if db_url and (db_url.startswith('libsql://') or db_url.startswith('https://')):
         try:
-            article = json.loads(row[0])
-            article['sheet_row'] = index
+            import libsql
+            return libsql.connect(database=db_url, auth_token=db_token)
+        except ImportError:
+            logging.error("libsql package not installed. Falling back to local sqlite3.")
             
-            # LIVE LOGGING: Real-time progress on ingestion
-            logging.info(f"  [Row {index}/{total_rows}] Ingested: \"{article.get('title', '')[:50]}...\" from {article.get('source', '')}")
-            
-            articles.append(article)
-        except json.JSONDecodeError:
-            continue
-            
-    logging.info(f"Fetched {len(articles)} new articles. Processed up to row {end_row} of {total_rows}.")
-    return articles, end_row
+    return sqlite3.connect(DB_PATH)
+
+def fetch_new_articles(conn):
+    """
+    Fetches articles from SQLite/Turso database that have status = 'entity_processed'.
+    """
+    logging.info(f"Fetching articles with status = 'entity_processed' from Database (max cap: {MAX_ROWS_PER_RUN})...")
+    articles = []
+    try:
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT id, title, url, scraped_at, content, rephrased_article, 
+                   ministers_mentioned, party_mentioned, states_mentioned, status
+            FROM articles
+            WHERE status = 'entity_processed'
+            ORDER BY id ASC
+            LIMIT ?
+        """, (MAX_ROWS_PER_RUN,))
+        rows = cursor.fetchall()
+    except Exception as e:
+        logging.error(f"Failed to query database for promise tracking: {e}")
+        return []
+
+    for r in rows:
+        article_id = r[0]
+        title = r[1]
+        url = r[2]
+        scraped_timestamp = r[3]
+        compressed_content = r[4]
+        compressed_rephrased = r[5]
+        ministers_str = r[6]
+        party_str = r[7]
+        states_str = r[8]
+        status_val = r[9]
+
+        try:
+            content = zlib.decompress(compressed_content).decode('utf-8') if compressed_content else ""
+        except Exception:
+            content = ""
+
+        try:
+            rephrased = zlib.decompress(compressed_rephrased).decode('utf-8') if compressed_rephrased else content
+        except Exception:
+            rephrased = content
+
+        scraped_at_str = ""
+        if scraped_timestamp:
+            try:
+                scraped_at_str = datetime.fromtimestamp(scraped_timestamp).strftime("%Y-%m-%d %H:%M:%S")
+            except Exception:
+                pass
+
+        articles.append({
+            'id': article_id,
+            'sheet_row': article_id,  # Map sheet_row to article_id for compatibility
+            'title': title,
+            'url': url,
+            'scraped_at': scraped_at_str,
+            'content': content,
+            'rephrased_article': rephrased if rephrased else content,
+            'ministers_mentioned': json.loads(ministers_str) if ministers_str else [],
+            'party_mentioned': json.loads(party_str) if party_str else [],
+            'states_mentioned': json.loads(states_str) if states_str else [],
+            'status': status_val
+        })
+
+    logging.info(f"Fetched {len(articles)} articles from database for promise tracking.")
+    return articles
 
 # ==============================================================================
 # --- LOAD PROMISES & ENTITIES ---
@@ -1011,34 +1062,31 @@ def main():
     promises_data = load_promises()
     logging.info(f"Loaded {len(promises_data['promises'])} existing promises.")
 
-    # 2. Extract last processed row index from metadata (defaulting to 1 if first run)
-    if 'metadata' not in promises_data:
-        promises_data['metadata'] = {}
-    last_processed_row = promises_data['metadata'].get('last_processed_row', 0)
+    # 2. Connect to database
+    try:
+        conn = get_db_connection()
+    except Exception as e:
+        logging.critical(f"Failed to connect to database: {e}")
+        return
 
-    # 3. Connect to sheets
-    sheet = connect_to_sheets()
-
-    # 4. Load master politician lookup from entities.json
+    # 3. Load master politician lookup from entities.json
     minister_lookup, person_party_map = load_tracked_politicians()
     if not minister_lookup:
         names = list({p.get('person') for p in promises_data['promises'] if p.get('person')})
         minister_lookup = {name.lower(): name for name in names}
         person_party_map = {p.get('person'): p.get('party', '') for p in promises_data['promises'] if p.get('person')}
 
-    # 5. Load Gemma inference engine
+    # 4. Load Gemma inference engine
     llm = load_gemma()
 
-    # 6+7. Ingest, extract, and link in chunks until caught up or time budget hit.
-    # Prevents permanent backlog when classifier throughput > one chunk per run.
+    # 5. Ingest, extract, and link in chunks until caught up or time budget hit.
     TIME_BUDGET_SECONDS = int(os.environ.get('TRACKER_TIME_BUDGET_SECONDS', 4 * 3600))
-    newest_row = last_processed_row
-    all_rows = sheet.get_all_values()  # download once; chunks slice in memory
-    logging.info(f"Downloaded sheet once: {len(all_rows)} rows.")
+    processed_articles_count = 0
+
     while True:
-        articles, newest_row = fetch_new_articles(all_rows, start_row=last_processed_row)
-        if not articles and newest_row <= last_processed_row:
-            logging.info("Caught up — no new rows to process.")
+        articles = fetch_new_articles(conn)
+        if not articles:
+            logging.info("Caught up — no new articles to process.")
             break
 
         if articles and llm:
@@ -1050,36 +1098,43 @@ def main():
         if articles:
             promises_data = link_articles_to_promises(promises_data, articles, llm)
 
-        last_processed_row = newest_row
-        promises_data['metadata']['last_processed_row'] = newest_row
+            # Mark processed in the DB
+            try:
+                cursor = conn.cursor()
+                for art in articles:
+                    cursor.execute("UPDATE articles SET status = 'processed' WHERE id = ?", (art['id'],))
+                conn.commit()
+            except Exception as e:
+                logging.error(f"Failed to update article status in database: {e}")
+
+        processed_articles_count += len(articles)
 
         # Checkpoint after every chunk — a crash/timeout loses at most one chunk
         with open(PROMISES_OUTPUT_PATH, 'w', encoding='utf-8') as f:
             json.dump(promises_data, f, indent=2, ensure_ascii=False)
-        logging.info(f"Checkpoint saved (last_processed_row={newest_row}).")
+        logging.info(f"Checkpoint saved (processed {len(articles)} articles).")
 
         if time.time() - start_time > TIME_BUDGET_SECONDS:
             logging.warning("Time budget reached — saving progress; remaining rows next run.")
             break
 
-    # 8. Evaluate and assess promise statuses
+    # 6. Evaluate and assess promise statuses
     promises_data, review_items = assess_promise_statuses(promises_data, llm)
 
-    # 9. Update execution metadata
+    # 7. Update execution metadata
     promises_data['metadata']['last_updated'] = str(datetime.now().date())
     promises_data['metadata']['total_promises'] = len(promises_data['promises'])
-    promises_data['metadata']['last_processed_row'] = newest_row
     promises_data['metadata']['promises_with_evidence'] = sum(
         1 for p in promises_data['promises']
         if any(a.get('gemma_validated') for a in p.get('evidence_articles', []))
     )
 
-    # 10. Save updated promises.json
+    # 8. Save updated promises.json
     with open(PROMISES_OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(promises_data, f, indent=2, ensure_ascii=False)
-    logging.info(f"Saved promises.json with updated last_processed_row = {newest_row}")
+    logging.info("Saved promises.json with updated metadata")
 
-    # 11. Save review file (retains audit compatibility for status shifts)
+    # 9. Save review file (retains audit compatibility for status shifts)
     review_output = {
         "generated_at": str(datetime.now()),
         "summary": {
@@ -1099,6 +1154,7 @@ def main():
         json.dump(review_output, f, indent=2, ensure_ascii=False)
     logging.info(f"Saved review_promises.json ({len(review_items)} updates audited)")
 
+    conn.close()
     elapsed = round(time.time() - start_time, 2)
     logging.info(f"--- Promise Tracker Finished in {elapsed}s ---")
     print(json.dumps(review_output['summary'], indent=2))
