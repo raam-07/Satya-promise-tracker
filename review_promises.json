@@ -1,22 +1,10 @@
 {
-  "generated_at": "2026-06-13 11:11:17.631801",
+  "generated_at": "2026-06-13 13:07:33.757728",
   "summary": {
     "total_promises": 157,
     "promises_with_validated_evidence": 36,
     "statuses_automatically_updated": 0,
-    "status_suggestions_gated": 1
+    "status_suggestions_gated": 0
   },
-  "updated_items": [
-    {
-      "applied": false,
-      "promise_id": "p006",
-      "person": "Narendra Modi",
-      "promise": "End corruption completely — 'Na khaunga, na khane dunga'",
-      "previous_status": "broken",
-      "new_status": "ongoing",
-      "gemma_reasoning": "Corruption allegations persist against BJP ministers and related entities.",
-      "gemma_confidence": "medium",
-      "evidence_count": 1
-    }
-  ]
+  "updated_items": []
 }
