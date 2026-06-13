@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, Rs 15 lakh was called a 'jumla'.",
+      "gemma_reasoning": "Rs 15 lakh promise was called a 'jumla' and no black money repatriation happened.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -152,7 +152,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target year of 2024 passed, and India's GDP remains around $3.5 trillion.",
+      "gemma_reasoning": "Target deadline of 2024 passed, and GDP remains below $5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -184,8 +184,8 @@
       "source_description": "BJP campaign slogan and multiple rallies",
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "Multiple corruption allegations against BJP ministers and ongoing scams indicate failure to end corruption.",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "Multiple corruption allegations exist against BJP ministers.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -199,7 +199,7 @@
         }
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
-      "gemma_confidence": "medium",
+      "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "created_at": "2026-04-06 10:20:23.758142"
     },
@@ -324,7 +324,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Bill introduced, under examination by a Joint Parliamentary Committee.",
+      "gemma_reasoning": "Bill introduced, under parliamentary examination, not yet implemented.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/simultaneous-polls-top-10-recommendations-made-by-ram-nath-kovind-panel/article68984920.ece",
@@ -390,7 +390,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2023 passed, project delayed to 2027-2028.",
+      "gemma_reasoning": "The target deadline of 2023 has passed and the project is not complete.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/business/Industry/covid-snag-in-bullet-train-project-may-fail-to-meet-2023-deadline/article32529283.ece",
@@ -489,7 +489,7 @@
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "kept",
-      "gemma_reasoning": "Free electricity up to 200 units has been implemented and sustained in Delhi.",
+      "gemma_reasoning": "Free electricity up to 200 units is implemented and sustained in Delhi.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/delhi-assembly/kejriwal-promises-free-200-units-electricity-for-tenants/article69114073.ece",
@@ -522,7 +522,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2025 has passed and the river remains polluted.",
+      "gemma_reasoning": "The target deadline of 2025 has passed.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-working-on-war-footing-to-clean-yamuna-by-february-2025-arvind-kejriwal/articleshow/87782346.cms",
@@ -620,7 +620,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The provided information does not indicate if the promise was fulfilled or not.",
+      "gemma_reasoning": "The provided information does not indicate if the promise was kept, broken, or void.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -1139,7 +1139,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The government failed to pass the bill, but Modi continues to push for it.",
+      "gemma_reasoning": "The government failed to pass the bill but continues to push for it.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
@@ -1406,7 +1406,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states the order was given, but does not confirm its implementation.",
+      "gemma_reasoning": "The news article states the order was given, but does not confirm its implementation status.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.aljazeera.com/news/2026/5/27/india-orders-demolition-drive-along-border-as-pakistan-tensions-simmer?traffic_source=rss",
@@ -1671,7 +1671,7 @@
         }
       ],
       "gemma_suggestion": "void",
-      "gemma_reasoning": "The Congress party did not form a government.",
+      "gemma_reasoning": "The Congress party lost the election and did not form the government.",
       "gemma_confidence": "high",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/elections/assam-assembly/assam-assembly-polls-like-zubeen-garg-cong-works-to-unite-people-says-rahul-gandhi/article70826244.ece",
@@ -1817,7 +1817,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, implying ongoing discussion.",
+      "gemma_reasoning": "Shah discussed the peace process and asked for acceleration, but no implementation details are provided.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1938,8 +1938,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was made in a manifesto for upcoming elections.",
-      "gemma_confidence": "medium",
+      "gemma_reasoning": "The promise was made in a manifesto and the election is upcoming.",
+      "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
       "source_description": "The Hindu report: \"Stalin promises ₹8,000 coupon to housewives to buy household appliances - The Hindu\"",
