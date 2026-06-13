@@ -1,15 +1,15 @@
 name: Satya Promise Link Checker
 
-on:
-  schedule:
-    # Weekly, Sunday 03:00 UTC
-    - cron: '0 3 * * 0'
-  workflow_dispatch:
-    inputs:
-      archive_live:
-        description: 'Also save live URLs to the Wayback Machine (slow, throttled)'
-        type: boolean
-        default: false
+# on:
+#   schedule:
+#     # Weekly, Sunday 03:00 UTC
+#     - cron: '0 3 * * 0'
+#   workflow_dispatch:
+#     inputs:
+#       archive_live:
+#         description: 'Also save live URLs to the Wayback Machine (slow, throttled)'
+#         type: boolean
+#         default: false
 
 concurrency:
   group: satya-link-checker
