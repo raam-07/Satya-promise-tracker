@@ -23,7 +23,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "The target deadline of 2022 has passed and farm income did not double.",
+      "gemma_reasoning": "Target deadline of 2022 passed, and farm income did not double.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/modi-government-promised-to-double-farm-income-by-2022-but-it-has-only-come-down-congress/article66318536.ece",
@@ -87,7 +87,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "No black money repatriation happened, and Rs 15 lakh was called a 'jumla'.",
+      "gemma_reasoning": "No black money repatriation happened, and the Rs 15 lakh promise was called a 'jumla'.",
       "evidence_articles": [
         {
           "url": "https://timesofindia.indiatimes.com/india/fm-defends-modis-rs-15l-for-all-claim/articleshow/46522502.cms",
@@ -152,7 +152,7 @@
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2024 passed, and GDP remains below $5 trillion.",
+      "gemma_reasoning": "Target year of 2024 passed, and India's GDP remains around $3.5 trillion.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-delayed-5-trillion-dream-what-imfs-new-timeline-means-for-your-wallet/articleshow/106103444.cms",
@@ -184,8 +184,8 @@
       "source_description": "BJP campaign slogan and multiple rallies",
       "status": "broken",
       "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Multiple corruption allegations exist against BJP ministers.",
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "Multiple corruption allegations against BJP ministers and ongoing scams indicate failure to end corruption.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/na-khaunga-na-khane-doonga-a-complete-hoax-congress-dig-at-pm-on-arunachal-cms-kin-matter-in-sc/article70829720.ece",
@@ -199,7 +199,7 @@
         }
       ],
       "notes": "Multiple electoral bond scam revelations, Adani controversy, and multiple BJP ministers facing corruption allegations.",
-      "gemma_confidence": "low",
+      "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "created_at": "2026-04-06 10:20:23.758142"
     },
@@ -489,7 +489,7 @@
       "status": "kept",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "kept",
-      "gemma_reasoning": "Free electricity up to 200 units is implemented and sustained in Delhi.",
+      "gemma_reasoning": "Free electricity up to 200 units has been implemented and sustained in Delhi.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/delhi-assembly/kejriwal-promises-free-200-units-electricity-for-tenants/article69114073.ece",
@@ -620,7 +620,7 @@
       "status": "ongoing",
       "status_last_reviewed": "2026-05-23",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The provided information does not indicate the promise's fulfillment or failure.",
+      "gemma_reasoning": "The provided information does not indicate if the promise was kept, broken, or void.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/elections/west-bengal-assembly/names-of-people-belonging-to-specific-communities-deleted-from-post-sir-voter-rolls-west-bengal-cm-mamata-banerjee/article70833430.ece",
@@ -782,7 +782,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, indicating the BJP is working on the promise.",
+      "gemma_reasoning": "Dilip Ghosh refuted Mamata Banerjee's claims, suggesting the BJP is promoting fish production.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/elections/west-bengal-assembly/mamata-created-false-narrative-on-bjp-restricting-consumption-of-fish-dilip-ghosh/article70962430.ece",
@@ -1098,8 +1098,8 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states I-PAC is still managing the party's campaign.",
-      "gemma_confidence": "medium",
+      "gemma_reasoning": "The news article states I-PAC's operations are not suspended.",
+      "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/news/national/west-bengal/tmc-dismisses-reports-of-i-pac-halting-wb-operations-mamata-says-party-to-give-jobs-to-staffers-if-needed/article70881278.ece",
       "source_description": "The Hindu report: \"Amid speculation of I-PAC suspending Bengal operations, Mamata says will engage its members in her party - The Hindu\"",
@@ -1139,7 +1139,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The government failed to pass the bill, but Modi continues to push for it.",
+      "gemma_reasoning": "The government failed to pass the bill but continues to push for it.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/news/national/pm-modi-address-to-nation-live-updates-womens-reservation-bill-delimitation-april-18-2026/article70877110.ece",
@@ -1817,7 +1817,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, no mention of implementation status.",
+      "gemma_reasoning": "Shah met with the Chief Minister to discuss peace process, implying ongoing discussions.",
       "gemma_confidence": "low",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/news/national/manipur/amit-shah-asks-manipur-cm-to-accelerate-peace-process-approves-formation-of-all-woman-police-battalion/article70812785.ece",
@@ -1938,7 +1938,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The promise was made in a manifesto for upcoming elections.",
+      "gemma_reasoning": "The promise was made in a manifesto and the election has not yet taken place.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
@@ -2375,7 +2375,7 @@
         }
       ],
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The news article states AIMIM will lead a door-to-door campaign.",
+      "gemma_reasoning": "AIMIM is leading a door-to-door voter registration drive.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-13",
       "source_url": "https://www.thehindu.com/news/national/telangana/aimim-to-embark-on-door-to-door-campaign-to-assist-in-sir-mapping/article70743190.ece",
