@@ -1,9 +1,9 @@
 name: Satya Promise Tracker
 
 on:
-  repository_dispatch:
-    types: [trigger-promise-tracker]  # Listens for the dispatch event from the other repository
-  workflow_dispatch:                  # Allows manually running the workflow from the GitHub UI
+  # repository_dispatch:
+  #   types: [trigger-promise-tracker]  # Listens for the dispatch event from the other repository
+  # workflow_dispatch:                  # Allows manually running the workflow from the GitHub UI
 
 concurrency:
   group: satya-promise-tracker
