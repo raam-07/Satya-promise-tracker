@@ -50,6 +50,8 @@ jobs:
 
       - name: Download Gemma LLM Models
         if: steps.cache-models.outputs.cache-hit != 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           mkdir -p models
           # Download gemma-2-2b-it and gemma-2-9b-it Q4_K_M quantized models from Hugging Face if not present
