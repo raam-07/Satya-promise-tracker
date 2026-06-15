@@ -1,0 +1,57 @@
+{
+  "p003": {
+    "url": "https://web.archive.org/web/20190208201614/http://www.bjp.org:80/manifesto2014",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p006": {
+    "url": "https://web.archive.org/web/20190208201614/http://www.bjp.org:80/manifesto2014",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p010": {
+    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2056059",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p011": {
+    "url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=153404",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p012": {
+    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1503463",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p020": {
+    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1949023",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p014": {
+    "url": "https://aamaadmiparty.org/delhi-manifesto-2015",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p015": {
+    "url": "https://aamaadmiparty.org/delhi-manifesto-2015",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p016": {
+    "url": "https://aamaadmiparty.org/delhi-manifesto-2020",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p018": {
+    "url": "https://timesofindia.indiatimes.com/assembly-elections-2017/uttar-pradesh/bjp-up-manifesto-2017-key-highlights-of-lok-kalyan-sankalp-patra/articleshow/56832269.cms",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  },
+  "p019": {
+    "url": "https://timesofindia.indiatimes.com/assembly-elections-2011/west-bengal/trinamool-congress-manifesto-highlights/articleshow/7786440.cms",
+    "status": "ERROR: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "content_verified": "MISMATCH"
+  }
+}
