@@ -260,7 +260,7 @@ If there is any error, hallucination, or vague target, reply ONLY with "REJECTED
 
 def main():
     parser = argparse.ArgumentParser(description="Satya Automated Local Promise Tracker Pipeline")
-    parser.add_argument('--batch-size', type=int, default=100, help="Number of articles to process in this run (default 100)")
+    parser.add_argument('--batch-size', type=int, default=500, help="Number of articles to process in this run (default 500)")
     parser.add_argument('--reset-pointer', action='store_true', help="Reset the last_processed_row pointer to 0 and scan from beginning")
     parser.add_argument('--dry-run', action='store_true', help="Run without writing changes to promises.json or archiving URLs")
     args = parser.parse_args()
