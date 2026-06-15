@@ -298,7 +298,7 @@ def main():
         cursor.execute("""
             SELECT id, title, url, scraped_at, content, rephrased_article, ministers_mentioned, party_mentioned, states_mentioned
             FROM articles
-            WHERE status = 'classified'
+            WHERE status IN ('classified', 'entity_processed')
             ORDER BY id ASC
             LIMIT ?
         """, (args.batch_size,))
