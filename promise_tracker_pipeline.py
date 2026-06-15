@@ -284,186 +284,186 @@ def main():
         logging.critical(f"Failed to connect to database: {e}")
         sys.exit(1)
 
-    # Fetch batch of classified articles
-    cursor = conn.cursor()
-    cursor.execute("""
-        SELECT id, title, url, scraped_at, content, rephrased_article, ministers_mentioned, party_mentioned, states_mentioned
-        FROM articles
-        WHERE status = 'classified' AND id > ?
-        ORDER BY id ASC
-        LIMIT ?
-    """, (last_processed, args.batch_size))
-    rows = cursor.fetchall()
-    
-    if not rows:
-        logging.info("No new classified articles found to process.")
-        conn.close()
-        sys.exit(0)
-        
-    logging.info(f"Retrieved {len(rows)} classified articles to evaluate.")
-
-    # 3. Load Gemma Models
+    # 3. Load Gemma Models once (lazy loading when first required, then persistent)
     llm_2b = None
     llm_9b = None
-    
-    # We only load the LLM models if at least one article passes the regex pre-screen
-    pre_screened_rows = []
-    for r in rows:
-        article_id, title, url, scraped_at, compressed_content, compressed_rephrased, ministers_str, party_str, states_str = r
-        
-        try:
-            content = zlib.decompress(compressed_content).decode('utf-8') if compressed_content else ""
-        except Exception:
-            content = ""
-            
-        if regex_pre_screen(title, content):
-            pre_screened_rows.append((r, content))
-            
-    logging.info(f"Regex screening complete: {len(pre_screened_rows)} out of {len(rows)} articles passed to Stage 1.")
-
-    if pre_screened_rows:
-        llm_2b = init_llm(MODEL_2B_PATH, 2048)
-        llm_9b = init_llm(MODEL_9B_PATH, 4096)
-        
-        if not llm_2b or not llm_9b:
-            logging.critical("Failed to load local Gemma engines. Exiting pipeline.")
-            conn.close()
-            sys.exit(1)
-    else:
-        logging.info("No articles passed the regex screen. No local models needed in memory.")
 
     highest_processed_id = last_processed
     new_promise_count = 0
     updated_promise_count = 0
 
-    # Process each pre-screened article
-    for r_data, content in pre_screened_rows:
-        r = r_data
-        article_id, title, url, scraped_at, _, compressed_rephrased, _, _, _ = r
-        highest_processed_id = max(highest_processed_id, article_id)
+    while True:
+        # Fetch batch of classified articles
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT id, title, url, scraped_at, content, rephrased_article, ministers_mentioned, party_mentioned, states_mentioned
+            FROM articles
+            WHERE status = 'classified' AND id > ?
+            ORDER BY id ASC
+            LIMIT ?
+        """, (highest_processed_id, args.batch_size))
+        rows = cursor.fetchall()
         
-        try:
-            rephrased = zlib.decompress(compressed_rephrased).decode('utf-8') if compressed_rephrased else content
-        except Exception:
-            rephrased = content
+        if not rows:
+            logging.info("No more new classified articles found to process.")
+            break
+            
+        logging.info(f"Retrieved {len(rows)} classified articles to evaluate.")
 
-        logging.info(f"\n--- Evaluating Article ID {article_id}: {title[:60]}... ---")
+        # We only load the LLM models if not loaded and at least one article passes the regex pre-screen
+        pre_screened_rows = []
+        for r in rows:
+            article_id, title, url, scraped_at, compressed_content, compressed_rephrased, ministers_str, party_str, states_str = r
+            
+            try:
+                content = zlib.decompress(compressed_content).decode('utf-8') if compressed_content else ""
+            except Exception:
+                content = ""
+                
+            if regex_pre_screen(title, content):
+                pre_screened_rows.append((r, content))
+                
+        logging.info(f"Regex screening complete: {len(pre_screened_rows)} out of {len(rows)} articles passed to Stage 1.")
 
-        # STAGE 1: Noise Filter
-        if not run_stage1_noise_filter(llm_2b, title, rephrased):
-            logging.info("Stage 1 Noise Filter: Discarded as noise.")
-            continue
+        if pre_screened_rows and (not llm_2b or not llm_9b):
+            llm_2b = init_llm(MODEL_2B_PATH, 2048)
+            llm_9b = init_llm(MODEL_9B_PATH, 4096)
+            
+            if not llm_2b or not llm_9b:
+                logging.critical("Failed to load local Gemma engines. Exiting pipeline.")
+                conn.close()
+                sys.exit(1)
 
-        # STAGE 2: Structured Extractor
-        extracted_json = run_stage2_extractor(llm_9b, title, rephrased, promises_data["promises"])
-        if not extracted_json:
-            logging.info("Stage 2 Extractor: Failed to parse valid JSON payload.")
-            continue
+        # Process each pre-screened article in this batch
+        for r_data, content in pre_screened_rows:
+            r = r_data
+            article_id, title, url, scraped_at, _, compressed_rephrased, _, _, _ = r
+            
+            try:
+                rephrased = zlib.decompress(compressed_rephrased).decode('utf-8') if compressed_rephrased else content
+            except Exception:
+                rephrased = content
 
-        logging.info(f"Stage 2 Extractor Draft JSON:\n{json.dumps(extracted_json, indent=2)}")
+            logging.info(f"\n--- Evaluating Article ID {article_id}: {title[:60]}... ---")
 
-        # STAGE 3: Critic Check
-        approved, critic_msg = run_stage3_critic(llm_9b, rephrased, extracted_json)
-        if not approved:
-            logging.info(f"Stage 3 Critic Rejected: {critic_msg}")
-            continue
+            # STAGE 1: Noise Filter
+            if not run_stage1_noise_filter(llm_2b, title, rephrased):
+                logging.info("Stage 1 Noise Filter: Discarded as noise.")
+                continue
 
-        logging.info("Stage 3 Critic Approved! Committing changes...")
+            # STAGE 2: Structured Extractor
+            extracted_json = run_stage2_extractor(llm_9b, title, rephrased, promises_data["promises"])
+            if not extracted_json:
+                logging.info("Stage 2 Extractor: Failed to parse valid JSON payload.")
+                continue
 
-        # Wayback Archiving (skip if dry-run)
-        final_url = url
-        if not args.dry_run:
-            final_url = archive_url_wayback(url)
+            logging.info(f"Stage 2 Extractor Draft JSON:\n{json.dumps(extracted_json, indent=2)}")
 
-        # Map to evidence article format
-        evidence_item = {
-            "url": final_url,
-            "title": title,
-            "source": extracted_json.get("source", "News Article"),
-            "scraped_at": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
-            "relevance_score": 100,
-            "gemma_validated": True,
-            "rephrased": rephrased[:300] + "...",
-            "content": content[:400] + "..."
-        }
+            # STAGE 3: Critic Check
+            approved, critic_msg = run_stage3_critic(llm_9b, rephrased, extracted_json)
+            if not approved:
+                logging.info(f"Stage 3 Critic Rejected: {critic_msg}")
+                continue
 
-        # Update JSON schema structures
-        is_new = extracted_json.get("is_new_promise", True)
-        matched_id = extracted_json.get("matched_existing_promise_id")
+            logging.info("Stage 3 Critic Approved! Committing changes...")
 
-        if not is_new and matched_id:
-            # Update existing promise
-            found = False
-            for p in promises_data["promises"]:
-                if p["id"] == matched_id:
-                    # Append evidence
-                    if "evidence_articles" not in p:
-                        p["evidence_articles"] = []
-                    
-                    # Prevent duplicate URLs
-                    if not any(e["url"] == final_url for e in p["evidence_articles"]):
-                        p["evidence_articles"].append(evidence_item)
-                        
-                    p["status"] = extracted_json.get("verdict", p["status"])
-                    p["status_last_reviewed"] = time.strftime("%Y-%m-%d")
-                    p["gemma_suggestion"] = extracted_json.get("verdict", p.get("gemma_suggestion"))
-                    p["gemma_reasoning"] = extracted_json.get("reasoning", p.get("gemma_reasoning"))
-                    p["evidence_count"] = len(p["evidence_articles"])
-                    found = True
-                    updated_promise_count += 1
-                    logging.info(f"Updated existing promise ID: {matched_id}")
-                    break
-            if not found:
-                logging.warning(f"Extracted matched ID {matched_id} not found in promises.json. Treating as new.")
-                is_new = True
+            # Wayback Archiving (skip if dry-run)
+            final_url = url
+            if not args.dry_run:
+                final_url = archive_url_wayback(url)
 
-        if is_new:
-            # Generate next sequential ID
-            existing_ids = [int(p["id"][1:]) for p in promises_data["promises"] if p["id"].startswith('p')]
-            next_id_num = max(existing_ids) + 1 if existing_ids else 1
-            next_id = f"p{next_id_num:03d}"
-
-            new_promise = {
-                "id": next_id,
-                "person": extracted_json.get("politician", "Unknown Politician"),
-                "party": extracted_json.get("party", "Unknown Party"),
-                "role": "Politician",
-                "promise": extracted_json.get("promise_text", title),
-                "category": "general",
-                "made_on": time.strftime("%Y-%m-%d"),
-                "deadline": extracted_json.get("deadline_year", "ongoing"),
-                "source_url": final_url,
-                "source_description": title,
-                "status": extracted_json.get("verdict", "ongoing"),
-                "status_last_reviewed": time.strftime("%Y-%m-%d"),
-                "gemma_suggestion": extracted_json.get("verdict", "ongoing"),
-                "gemma_reasoning": extracted_json.get("reasoning", ""),
-                "evidence_articles": [evidence_item],
-                "notes": extracted_json.get("reasoning", ""),
-                "gemma_confidence": "high",
-                "gemma_assessed_at": time.strftime("%Y-%m-%d"),
-                "created_at": time.strftime("%Y-%m-%d"),
-                "url_status": "ok",
-                "url_checked_at": time.strftime("%Y-%m-%d"),
-                "promise_type": "specific",
-                "evidence_count": 1
+            # Map to evidence article format
+            evidence_item = {
+                "url": final_url,
+                "title": title,
+                "source": extracted_json.get("source", "News Article"),
+                "scraped_at": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
+                "relevance_score": 100,
+                "gemma_validated": True,
+                "rephrased": rephrased[:300] + "...",
+                "content": content[:400] + "..."
             }
-            promises_data["promises"].append(new_promise)
-            new_promise_count += 1
-            logging.info(f"Created new promise ID: {next_id}")
 
-    # Track pointer even if no article passed filters, so we don't scan them again next time
-    for r in rows:
-        highest_processed_id = max(highest_processed_id, r[0])
+            # Update JSON schema structures
+            is_new = extracted_json.get("is_new_promise", True)
+            matched_id = extracted_json.get("matched_existing_promise_id")
 
-    # 4. Save metadata pointer
-    promises_data["metadata"]["last_processed_row"] = highest_processed_id
-    promises_data["metadata"]["last_updated"] = time.strftime("%Y-%m-%d")
-    promises_data["metadata"]["total_promises"] = len(promises_data["promises"])
-    promises_data["metadata"]["promises_with_evidence"] = sum(1 for p in promises_data["promises"] if p.get("evidence_count", 0) > 0)
+            if not is_new and matched_id:
+                # Update existing promise
+                found = False
+                for p in promises_data["promises"]:
+                    if p["id"] == matched_id:
+                        # Append evidence
+                        if "evidence_articles" not in p:
+                            p["evidence_articles"] = []
+                        
+                        # Prevent duplicate URLs
+                        if not any(e["url"] == final_url for e in p["evidence_articles"]):
+                            p["evidence_articles"].append(evidence_item)
+                            
+                        p["status"] = extracted_json.get("verdict", p["status"])
+                        p["status_last_reviewed"] = time.strftime("%Y-%m-%d")
+                        p["gemma_suggestion"] = extracted_json.get("verdict", p.get("gemma_suggestion"))
+                        p["gemma_reasoning"] = extracted_json.get("reasoning", p.get("gemma_reasoning"))
+                        p["evidence_count"] = len(p["evidence_articles"])
+                        found = True
+                        updated_promise_count += 1
+                        logging.info(f"Updated existing promise ID: {matched_id}")
+                        break
+                if not found:
+                    logging.warning(f"Extracted matched ID {matched_id} not found in promises.json. Treating as new.")
+                    is_new = True
+
+            if is_new:
+                # Generate next sequential ID
+                existing_ids = [int(p["id"][1:]) for p in promises_data["promises"] if p["id"].startswith('p')]
+                next_id_num = max(existing_ids) + 1 if existing_ids else 1
+                next_id = f"p{next_id_num:03d}"
+
+                new_promise = {
+                    "id": next_id,
+                    "person": extracted_json.get("politician", "Unknown Politician"),
+                    "party": extracted_json.get("party", "Unknown Party"),
+                    "role": "Politician",
+                    "promise": extracted_json.get("promise_text", title),
+                    "category": "general",
+                    "made_on": time.strftime("%Y-%m-%d"),
+                    "deadline": extracted_json.get("deadline_year", "ongoing"),
+                    "source_url": final_url,
+                    "source_description": title,
+                    "status": extracted_json.get("verdict", "ongoing"),
+                    "status_last_reviewed": time.strftime("%Y-%m-%d"),
+                    "gemma_suggestion": extracted_json.get("verdict", "ongoing"),
+                    "gemma_reasoning": extracted_json.get("reasoning", ""),
+                    "evidence_articles": [evidence_item],
+                    "notes": extracted_json.get("reasoning", ""),
+                    "gemma_confidence": "high",
+                    "gemma_assessed_at": time.strftime("%Y-%m-%d"),
+                    "created_at": time.strftime("%Y-%m-%d"),
+                    "url_status": "ok",
+                    "url_checked_at": time.strftime("%Y-%m-%d"),
+                    "promise_type": "specific",
+                    "evidence_count": 1
+                }
+                promises_data["promises"].append(new_promise)
+                new_promise_count += 1
+                logging.info(f"Created new promise ID: {next_id}")
+
+        # Track pointer even if no article passed filters, so we don't scan them again next time
+        for r in rows:
+            highest_processed_id = max(highest_processed_id, r[0])
+
+        # Track pointer and save metadata pointer after every batch to prevent progress loss
+        promises_data["metadata"]["last_processed_row"] = highest_processed_id
+        promises_data["metadata"]["last_updated"] = time.strftime("%Y-%m-%d")
+        promises_data["metadata"]["total_promises"] = len(promises_data["promises"])
+        promises_data["metadata"]["promises_with_evidence"] = sum(1 for p in promises_data["promises"] if p.get("evidence_count", 0) > 0)
+
+        if not args.dry_run:
+            save_promises(promises_data)
+            logging.info(f"Progress saved: pointer advanced to row ID {highest_processed_id}")
 
     if not args.dry_run:
-        save_promises(promises_data)
         logging.info(f"Pipeline complete: {new_promise_count} new promises added, {updated_promise_count} promises updated.")
     else:
         logging.info(f"Dry run complete. No modifications saved. (Discovered {new_promise_count} new, {updated_promise_count} updates).")
