@@ -62,12 +62,12 @@ jobs:
           # Gemma 2B
           model_2b = "./models/gemma-2-2b-it-Q4_K_M.gguf"
           if not os.path.exists(model_2b):
-              hf_hub_download(repo_id="bartowski/gemma-2-2b-it-GGUF", filename="gemma-2-2b-it-Q4_K_M.gguf", local_dir="./models")
+              hf_hub_download(repo_id="bartowski/gemma-2-2b-it-GGUF", filename="gemma-2-2b-it-Q4_K_M.gguf", local_dir="./models", local_dir_use_symlinks=False)
               
           # Gemma 9B
           model_9b = "./models/gemma-2-9b-it-Q4_K_M.gguf"
           if not os.path.exists(model_9b):
-              hf_hub_download(repo_id="bartowski/gemma-2-9b-it-GGUF", filename="gemma-2-9b-it-Q4_K_M.gguf", local_dir="./models")
+              hf_hub_download(repo_id="bartowski/gemma-2-9b-it-GGUF", filename="gemma-2-9b-it-Q4_K_M.gguf", local_dir="./models", local_dir_use_symlinks=False)
           '
 
       - name: Run Promise Tracker
