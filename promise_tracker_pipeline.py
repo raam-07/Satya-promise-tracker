@@ -298,10 +298,10 @@ def main():
         cursor.execute("""
             SELECT id, title, url, scraped_at, content, rephrased_article, ministers_mentioned, party_mentioned, states_mentioned
             FROM articles
-            WHERE status = 'classified' AND id > ?
+            WHERE status = 'classified'
             ORDER BY id ASC
             LIMIT ?
-        """, (highest_processed_id, args.batch_size))
+        """, (args.batch_size,))
         rows = cursor.fetchall()
         
         if not rows:
@@ -458,6 +458,18 @@ def main():
         promises_data["metadata"]["last_updated"] = time.strftime("%Y-%m-%d")
         promises_data["metadata"]["total_promises"] = len(promises_data["promises"])
         promises_data["metadata"]["promises_with_evidence"] = sum(1 for p in promises_data["promises"] if p.get("evidence_count", 0) > 0)
+
+        # Mark all articles fetched in this batch as 'processed' in the database
+        if not args.dry_run and rows:
+            try:
+                db_cursor = conn.cursor()
+                article_ids = [r[0] for r in rows]
+                placeholders = ",".join("?" for _ in article_ids)
+                db_cursor.execute(f"UPDATE articles SET status = 'processed' WHERE id IN ({placeholders})", article_ids)
+                conn.commit()
+                logging.info(f"Database updated: Marked {len(rows)} articles as processed.")
+            except Exception as e:
+                logging.error(f"Failed to update article status in database: {e}")
 
         if not args.dry_run:
             save_promises(promises_data)
