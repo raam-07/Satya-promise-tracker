@@ -4,9 +4,9 @@
     "last_updated": "2026-06-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 35,
-    "promises_with_evidence": 35,
-    "last_processed_row": 40466,
+    "total_promises": 36,
+    "promises_with_evidence": 36,
+    "last_processed_row": 40909,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -1449,6 +1449,54 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p036",
+      "person": "D.K. Suresh",
+      "party": "Congress",
+      "role": "MP",
+      "promise": "pay a 'Ugadi Bonus' of ₹1 per litre to its 1.27 lakh milk farmers",
+      "supporting_quote": "BAMUL president D.K. Suresh also announced plans to pay casual workers ₹5,000, clear DA dues, confirm appointments for three years, and provide financial support to 2,300 milk cooperative societies.",
+      "category": "economy",
+      "made_on": "2026-03-12",
+      "deadline": "2026",
+      "source_url": "https://web.archive.org/web/20260616221931/https://www.thehindu.com/news/national/karnataka/ugadi-bonus-from-bamul-to-milk-producers/article70736341.ece",
+      "source_description": "Ugadi bonus from BAMUL to milk producers - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-16",
+          "evidence_url": "https://web.archive.org/web/20260616221931/https://www.thehindu.com/news/national/karnataka/ugadi-bonus-from-bamul-to-milk-producers/article70736341.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states this is a planned bonus, but doesn't confirm if it's been paid yet.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260616221931/https://www.thehindu.com/news/national/karnataka/ugadi-bonus-from-bamul-to-milk-producers/article70736341.ece",
+          "title": "Ugadi bonus from BAMUL to milk producers - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-12",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Bengaluru Milk Union Ltd. (BAMUL)** is set to report a record turnover of ₹3,400 crore by the end of the 2025-2026 financial year and has decided to pay a 'Ugadi Bonus' of ₹1 per litre to its 1.27 lakh milk farmers. The bonus will cost approximately ₹59.39 crore and comes after BAMUL reported a pr...",
+          "content": "As Bengaluru Milk Union Ltd. (BAMUL) is expected to report a record turnover of about ₹3,400 crore by the end of the 2025-2026 financial year, it has decided to pay ₹1 per litre as ‘Ugadi Bonus’ to 1.27 lakh farmers from whom milk is procured from April 1 to March 31, 2026. This year, BAMUL has procured 59.39 crore litres of milk this year, and the ‘Ugadi Bonus’ will entail an expenditure of about...",
+          "quote": "BAMUL president D.K. Suresh also announced plans to pay casual workers ₹5,000, clear DA dues, confirm appointments for three years, and provide financial support to 2,300 milk cooperative societies."
+        }
+      ],
+      "notes": "The article states this is a planned bonus, but doesn't confirm if it's been paid yet.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-16",
+      "created_at": "2026-06-16",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: role 'MP' is not senior cabinet/exec level"
     }
   ]
 }
