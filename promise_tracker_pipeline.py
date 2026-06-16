@@ -274,6 +274,7 @@ def normalize_category(cat):
         "corruption/governance": "corruption/governance",
         "corruption_scam": "corruption/governance",
         "governance": "corruption/governance",
+        "politics": "corruption/governance",
     }
     return mapping.get(c, c)
 

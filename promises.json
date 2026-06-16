@@ -298,8 +298,8 @@
       "evidence_count": 1,
       "supporting_quote": "The Supreme Court struck down the anonymous Electoral Bonds scheme, ordering the State Bank of India to stop issuing bonds and disclose all political donor data.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
     },
     {
       "id": "p008",
@@ -379,8 +379,8 @@
       "evidence_count": 1,
       "supporting_quote": "Uttarakhand passed the Uniform Civil Code Bill, making it the first state to implement the code. The law covers marriage, divorce, inheritance, and live-in relationships.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
     },
     {
       "id": "p010",
@@ -420,8 +420,8 @@
       "evidence_count": 1,
       "supporting_quote": "The Union Cabinet approved the simultaneous elections proposal. The implementation requires constitutional amendments and consensus among state assemblies.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
     },
     {
       "id": "p011",
@@ -543,8 +543,8 @@
       "evidence_count": 1,
       "supporting_quote": "The Home Ministry stated that illegal migrants are identified and deported in accordance with legal processes, but deportations remain slow and subject to legal challenges.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Union Cabinet Minister)"
     },
     {
       "id": "p014",
@@ -788,8 +788,8 @@
       "evidence_count": 1,
       "supporting_quote": "Mamata Banerjee reiterated her administration's commitment to protecting citizen identities and welfare benefits under the regional Ma Mati Manush governance framework.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
     },
     {
       "id": "p020",
