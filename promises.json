@@ -298,8 +298,8 @@
       "evidence_count": 1,
       "supporting_quote": "The Supreme Court struck down the anonymous Electoral Bonds scheme, ordering the State Bank of India to stop issuing bonds and disclose all political donor data.",
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
+      "importance": "minor",
+      "importance_reason": "minor: category 'politics' not in high-impact list"
     },
     {
       "id": "p008",
@@ -379,8 +379,8 @@
       "evidence_count": 1,
       "supporting_quote": "Uttarakhand passed the Uniform Civil Code Bill, making it the first state to implement the code. The law covers marriage, divorce, inheritance, and live-in relationships.",
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
+      "importance": "minor",
+      "importance_reason": "minor: category 'politics' not in high-impact list"
     },
     {
       "id": "p010",
@@ -420,8 +420,8 @@
       "evidence_count": 1,
       "supporting_quote": "The Union Cabinet approved the simultaneous elections proposal. The implementation requires constitutional amendments and consensus among state assemblies.",
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
+      "importance": "minor",
+      "importance_reason": "minor: category 'politics' not in high-impact list"
     },
     {
       "id": "p011",
@@ -543,8 +543,8 @@
       "evidence_count": 1,
       "supporting_quote": "The Home Ministry stated that illegal migrants are identified and deported in accordance with legal processes, but deportations remain slow and subject to legal challenges.",
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "high-impact category (corruption/governance) + senior role (Union Cabinet Minister)"
+      "importance": "minor",
+      "importance_reason": "minor: category 'politics' not in high-impact list"
     },
     {
       "id": "p014",
@@ -788,8 +788,8 @@
       "evidence_count": 1,
       "supporting_quote": "Mamata Banerjee reiterated her administration's commitment to protecting citizen identities and welfare benefits under the regional Ma Mati Manush governance framework.",
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
+      "importance": "minor",
+      "importance_reason": "minor: category 'politics' not in high-impact list"
     },
     {
       "id": "p020",
@@ -838,7 +838,7 @@
       "party": "null",
       "role": "Politician",
       "promise": "Construct a model colony in Velugumatla for poor people with amenities like electricity, water, roads, and a hospital",
-      "category": "general",
+      "category": "infrastructure",
       "made_on": "2026-06-16",
       "deadline": "2026",
       "source_url": "https://web.archive.org/web/20260616042903/https://www.thehindu.com/news/national/telangana/house-site-pattas-distributed-indiramma-houses-sanctioned-to-eligible-poor-people-on-bhoodan-lands-in-velugumatla/article70731688.ece",
@@ -870,7 +870,7 @@
       "supporting_quote": "**Deputy Chief Minister Mallu Bhatti Vikramarka**, during a visit to Khammam, announced plans for the construction of a model colony in Velugumatla for poor people.  The colony will include amenities like electricity, water, roads, and a hospital, with completion expected by December 9, 2026. **Mr. ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p022",
@@ -878,7 +878,7 @@
       "party": "BJP",
       "role": "Politician",
       "promise": "Expedite construction of newly-sanctioned medical colleges",
-      "category": "general",
+      "category": "health",
       "made_on": "2026-06-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616044843/https://www.thehindu.com/news/national/andhra-pradesh/minister-urged-to-expedite-construction-work-on-medical-colleges/article70731796.ece",
@@ -910,7 +910,7 @@
       "supporting_quote": "**Praja Arogya Vedika (PAV)**, an organization advocating for medical education, urged **Minister for Health, Medical Education and Family Welfare, Satya Kumar Yadav**, to expedite the remaining construction work on newly-sanctioned medical colleges. PAV emphasized that these colleges are nearing co...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p023",
@@ -918,7 +918,7 @@
       "party": "None specified",
       "role": "Politician",
       "promise": "Recruit 400 permanent veterinary officers",
-      "category": "general",
+      "category": "farmers/agriculture",
       "made_on": "2026-06-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616071050/https://www.thehindu.com/news/national/karnataka/recruitment-of-400-veterinary-officers-under-way-through-kpsc-minister/article70731087.ece",
@@ -950,7 +950,7 @@
       "supporting_quote": "**K. Venkatesh**, the **Animal Husbandry Minister** of Karnataka, announced that the recruitment process for 400 vacant permanent veterinary officer positions is underway through the **Karnataka Public Service Commission**.  The appointments are expected to address the shortage of veterinary doctors...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p024",
@@ -958,7 +958,7 @@
       "party": "Congress",
       "role": "MP",
       "promise": "Pay a 'Ugadi Bonus' of ₹1 per litre to its 1.27 lakh milk farmers",
-      "category": "general",
+      "category": "farmers/agriculture",
       "made_on": "2026-06-16",
       "deadline": "2026",
       "source_url": "https://web.archive.org/web/20260616081925/https://www.thehindu.com/news/national/karnataka/ugadi-bonus-from-bamul-to-milk-producers/article70736341.ece",
@@ -990,7 +990,7 @@
       "supporting_quote": "**Bengaluru Milk Union Ltd. (BAMUL)** is set to report a record turnover of ₹3,400 crore by the end of the 2025-2026 financial year and has decided to pay a 'Ugadi Bonus' of ₹1 per litre to its 1.27 lakh milk farmers. The bonus will cost approximately ₹59.39 crore and comes after BAMUL reported a pr...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'MP' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'MP' is not senior cabinet/exec level"
     },
     {
       "id": "p025",
@@ -998,7 +998,7 @@
       "party": "Congress",
       "role": "Politician",
       "promise": "Ban illegal tree felling in forest areas",
-      "category": "general",
+      "category": "other",
       "made_on": "2026-06-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616084014/https://www.thehindu.com/news/national/karnataka/tree-felling-banned-in-view-of-likely-increase-in-demand-for-firewood/article70735947.ece",
@@ -1030,7 +1030,7 @@
       "supporting_quote": "**Minister for Forests and Ecology Eshwar Khandre** has banned illegal tree felling in various forest areas, including government plantations and roadside plantations. This follows concerns raised by **wildlife conservationist Giridhar Kulkarni**, who warned of increased demand for firewood due to L...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: category 'other' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p026",
@@ -1038,7 +1038,7 @@
       "party": "BJP",
       "role": "Union Home Minister",
       "promise": "Complete eradication of Maoism",
-      "category": "general",
+      "category": "law_and_order",
       "made_on": "2026-06-16",
       "deadline": "2026",
       "source_url": "https://web.archive.org/web/20260616090358/https://www.thehindu.com/news/national/chhattisgarh/108-maoists-surrender-in-chhattisgarh/article70730005.ece",
@@ -1080,7 +1080,7 @@
       "supporting_quote": "**Ten** **Maoist** rebels surrendered to Indian security forces in Chhattisgarh, bringing the total number of surrendered fighters to 108.  The group, representing various districts within the Dandakaranya Special Zonal Committee, collectively carry a reward of ₹3.95 crore and included six divisiona...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list"
+      "importance_reason": "minor: category 'law_and_order' not in high-impact list"
     },
     {
       "id": "p027",
@@ -1088,7 +1088,7 @@
       "party": "BJP",
       "role": "Chief Minister",
       "promise": "Economic target of $4.30 trillion by 2047",
-      "category": "general",
+      "category": "economy",
       "made_on": "2026-06-16",
       "deadline": "2047",
       "source_url": "https://web.archive.org/web/20260616091739/https://www.thehindu.com/news/national/rajasthan/cii-rajasthan-annual-session-held-with-call-to-promote-entrepreneurship-among-youth/article70735481.ece",
@@ -1119,8 +1119,8 @@
       "evidence_count": 1,
       "supporting_quote": "**Chief Minister Bhajan Lal Sharma** addressed the annual session of the **Confederation of Indian Industry (CII)-Rajasthan**, calling for entrepreneurship among youth and an economic target of $4.30 trillion by 2047.  Sharma highlighted Rajasthan's favorable conditions for growth, citing government...",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
     },
     {
       "id": "p028",
@@ -1128,7 +1128,7 @@
       "party": "Congress",
       "role": "Politician",
       "promise": "Prioritize commercial LPG supply for hospitals, hostels, and residential schools",
-      "category": "general",
+      "category": "welfare",
       "made_on": "2026-06-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616103551/https://www.thehindu.com/newsletter/karnataka-today/here-are-the-big-stories-from-karnataka-today/article70739763.ece",
@@ -1160,7 +1160,7 @@
       "supporting_quote": "**Bengaluru** residents are experiencing difficulties booking domestic LPG cylinders due to a surge in demand and technical glitches on booking platforms. **The Bengaluru City Police** launched a drive against illegal hoarding and marketing of LPG cylinders, inspecting over 50 godowns. **Food and Ci...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p029",
@@ -1168,7 +1168,7 @@
       "party": "Congress",
       "role": "Politician",
       "promise": "Complete one lakh Indiramma houses by the end of this month",
-      "category": "general",
+      "category": "infrastructure",
       "made_on": "2026-06-16",
       "deadline": "2023",
       "source_url": "https://web.archive.org/web/20260616105455/https://www.thehindu.com/news/national/telangana/one-lakh-indiramma-houses-will-be-completed-across-the-state-by-this-month-end-ponguleti-srinivasa-reddy/article70740578.ece",
@@ -1200,7 +1200,7 @@
       "supporting_quote": "**Minister for Revenue and Housing Ponguleti Srinivasa Reddy** announced that **one lakh Indiramma houses** will be completed by the end of this month, with a second phase planned for April.  He stated that all eligible poor people will receive these homes in a phased manner across the state. **Mr. ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p030",
@@ -1208,7 +1208,7 @@
       "party": "CPI(M)",
       "role": "Politician",
       "promise": "Achieve hunger-free status",
-      "category": "general",
+      "category": "welfare",
       "made_on": "2026-06-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616110254/https://www.thehindu.com/news/national/kerala/kerala-has-become-a-hunger-free-state-minister-gr-anil/article70740176.ece",
@@ -1240,7 +1240,7 @@
       "supporting_quote": "**G.R Anil**, the **Food and Civil Supplies Minister of Kerala**, announced that the state has achieved hunger-free status, a significant achievement for Keralites worldwide.  He highlighted various welfare measures implemented by the government to ensure food security, including direct delivery of ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p031",
@@ -1248,7 +1248,7 @@
       "party": "TDP",
       "role": "Politician",
       "promise": "Relocate the garbage dumping yard",
-      "category": "general",
+      "category": "infrastructure",
       "made_on": "2026-06-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616114750/https://www.thehindu.com/news/national/andhra-pradesh/residents-of-16-villages-to-launch-indefinite-strike-from-march-20-against-gvmcs-garbage-dump-in-gajuwaka/article70739441.ece",
@@ -1280,7 +1280,7 @@
       "supporting_quote": "**Residents** of 16 localities in Gajuwaka, affected by the **Greater Visakhapatnam Municipal Corporation (GVMC)** Garbage Transfer Station (GTS), announced they will lock the facility and protest from March 20th.  The protesters, led by **B. Ramana**, a CPI(M) activist, claim that despite promises ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p032",
@@ -1288,7 +1288,7 @@
       "party": "TDP",
       "role": "Politician",
       "promise": "Complete Polavaram Irrigation Project by June 2026",
-      "category": "general",
+      "category": "infrastructure",
       "made_on": "2026-06-16",
       "deadline": "2026",
       "source_url": "https://web.archive.org/web/20260616115433/https://www.thehindu.com/news/national/andhra-pradesh/cabinet-move-to-accelerate-execution-of-polavaram-irrigation-project/article70739680.ece",
@@ -1320,7 +1320,7 @@
       "supporting_quote": "The **State Cabinet**, chaired by Chief Minister N. Chandrababu Naidu, approved measures to accelerate the Polavaram Irrigation Project.  These interventions include an additional ₹24.51 crore for Package No. 64's headworks and the \"pre-closure\" of legacy contracts for packages 8, 8A, and 8B. The Ca...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p033",
@@ -1328,7 +1328,7 @@
       "party": "NCP",
       "role": "Politician",
       "promise": "Come Early, Go Early scheme for women government employees in MMR",
-      "category": "general",
+      "category": "other",
       "made_on": "2026-06-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616125718/https://www.thehindu.com/news/national/maharashtra/maharashtra-announces-early-departure-scheme-for-women-staff-in-mmr/article70727666.ece",
@@ -1360,7 +1360,7 @@
       "supporting_quote": "**Deputy Chief Minister Sunetra Pawar** announced a new \"Come Early, Go Early\" scheme for women government employees in the Mumbai Metropolitan Region (MMR) to assist them with managing work and domestic responsibilities. The policy will allow women arriving between 9:15 a.m. and 9:45 a.m. to leave ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: category 'other' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p034",
@@ -1368,7 +1368,7 @@
       "party": "Congress",
       "role": "Chief Minister",
       "promise": "Additional funding for the third phase of the Upper Krishna Project (UKP)",
-      "category": "general",
+      "category": "infrastructure",
       "made_on": "2026-06-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616143830/https://www.thehindu.com/news/national/karnataka/chief-minister-promises-additional-grants-for-phase-iii-of-upper-krishna-project/article70743495.ece",
@@ -1399,8 +1399,8 @@
       "evidence_count": 1,
       "supporting_quote": "## Karnataka Government Promises Development for North Karnataka\n\nKarnataka Chief Minister Siddaramaiah reiterated his commitment to addressing regional imbalances in the state, particularly focusing on development projects in North Karnataka. He highlighted that his government has been actively wor...",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (infrastructure) + senior role (Chief Minister)"
     }
   ]
 }

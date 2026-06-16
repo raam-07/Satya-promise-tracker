@@ -274,7 +274,6 @@ def normalize_category(cat):
         "corruption/governance": "corruption/governance",
         "corruption_scam": "corruption/governance",
         "governance": "corruption/governance",
-        "politics": "corruption/governance",
     }
     return mapping.get(c, c)
 
@@ -642,6 +641,124 @@ If everything passes, reply ONLY "APPROVED". Otherwise "REJECTED: [brief reason]
         return False, f"REJECTED: critic logic failure: {e}"
 
 
+def classify_category_gemma(llm_9b, promise_text, supporting_quote):
+    prompt = f"""<start_of_turn>user
+You are a political analyst. Classify the following political promise/policy commitment into EXACTLY ONE of the canonical categories.
+
+Canonical Categories:
+- jobs/employment (work, recruitment, vacancies, training, labor)
+- economy (finance, taxes, budget, GDP, growth, inflation, investment, business)
+- farmers/agriculture (farming, crops, loan waiver, animal husbandry, veterinary, milk, seeds)
+- health (hospitals, clinics, medical colleges, medicine, treatment, doctors)
+- education (schools, universities, teaching, literacy, student benefits)
+- infrastructure (roads, bridges, highways, railways, public transport, ports, telecom, electricity, power grids, water supply, dams, rivers, canals, sanitation, waste management)
+- welfare (subsidies, direct benefit transfer, pensions, allowances, housing, pucca houses, food security, free rations)
+- corruption/governance (transparency, accountability, corruption, bribery, bureaucracy reforms, elections, bills/legislation like UCC/ONOE)
+- law_and_order (crime, safety, security, policing, mafia, terrorism, Maoism, borders)
+- other (for anything that doesn't fit the above)
+
+Reply ONLY with the exact canonical category name (e.g. "jobs/employment", "economy", etc.). No formatting, no punctuation, no markdown, no explanation.
+
+Promise: "{promise_text}"
+Supporting Quote: "{supporting_quote}"
+<end_of_turn>
+<start_of_turn>model
+"""
+    try:
+        output = llm_9b(prompt, max_tokens=30, temperature=0.0)
+        res = output['choices'][0]['text'].strip().lower()
+        
+        # Clean up common formatting issues
+        res = res.replace("`", "").replace("'", "").replace('"', '').strip()
+        if res.endswith("."):
+            res = res[:-1]
+            
+        # Map some common aliases / off-list outputs to canonical list
+        mapping = {
+            "jobs": "jobs/employment",
+            "employment": "jobs/employment",
+            "economy": "economy",
+            "finance": "economy",
+            "agriculture": "farmers/agriculture",
+            "farmers": "farmers/agriculture",
+            "farming": "farmers/agriculture",
+            "health": "health",
+            "education": "education",
+            "infrastructure": "infrastructure",
+            "water": "infrastructure",
+            "transportation": "infrastructure",
+            "electricity": "infrastructure",
+            "welfare": "welfare",
+            "housing": "welfare",
+            "pension": "welfare",
+            "governance": "corruption/governance",
+            "corruption": "corruption/governance",
+            "politics": "corruption/governance",
+            "law and order": "law_and_order",
+            "law & order": "law_and_order",
+            "security": "law_and_order",
+            "crime": "law_and_order",
+            "other": "other"
+        }
+        
+        canonical_categories = [
+            "jobs/employment", "economy", "farmers/agriculture", "health", 
+            "education", "infrastructure", "welfare", "corruption/governance", 
+            "law_and_order", "other"
+        ]
+        
+        # Direct match in canonical categories
+        if res in canonical_categories:
+            return res
+            
+        # Check mapping
+        if res in mapping:
+            return mapping[res]
+            
+        # Fallback substring checks
+        for cat in canonical_categories:
+            if cat in res:
+                return cat
+        for key, val in mapping.items():
+            if key in res:
+                return val
+                
+        # If still off-list, log a warning and return "other"
+        logging.warning(f"Gemma returned off-list category '{res}' for promise: '{promise_text}'. Falling back to 'other'.")
+        return "other"
+    except Exception as e:
+        logging.error(f"Error classifying category with Gemma: {e}")
+        return "other"
+
+
+def recategorize_promises(promises_data, llm_9b, dry_run=False):
+    logging.info("Running one-time idempotent recategorize pass for promises with 'general' or missing categories...")
+    total = len(promises_data["promises"])
+    recategorized_count = 0
+    
+    for p in promises_data["promises"]:
+        cat = p.get("category", "").lower().strip()
+        # Only classify if category is 'general', empty, or missing (never re-trigger 'other' or other valid categories)
+        if cat in ["general", "", "null", "none"]:
+            promise_text = p.get("promise", "")
+            quote = p.get("supporting_quote", "")
+            
+            logging.info(f"Classifying category for promise ID {p['id']}: '{promise_text[:50]}...'")
+            new_cat = classify_category_gemma(llm_9b, promise_text, quote)
+            
+            logging.info(f"Promise ID {p['id']} recategorized: '{cat}' -> '{new_cat}'")
+            p["category"] = new_cat
+            recategorized_count += 1
+            
+    logging.info(f"Recategorization pass complete. Total: {total}, Recategorized: {recategorized_count}.")
+    
+    if not dry_run and recategorized_count > 0:
+        save_promises(promises_data)
+        logging.info("Saved recategorized categories to promises.json")
+    else:
+        logging.info("No changes saved (dry-run or no updates needed).")
+
+
 def backfill_promise_importance(promises_data, known_politicians_details, dry_run=False):
     logging.info("Running one-time backfill of importance fields for all existing promises...")
     total = len(promises_data["promises"])
@@ -694,6 +811,7 @@ def main():
     parser.add_argument('--reset-pointer', action='store_true', help="Reset the last_processed_row pointer to 0 and scan from beginning")
     parser.add_argument('--dry-run', action='store_true', help="Run without writing changes to promises.json or archiving URLs")
     parser.add_argument('--backfill-importance', action='store_true', help="Run a one-time backfill of importance fields for all promises in promises.json and exit")
+    parser.add_argument('--recategorize', action='store_true', help="Run a one-time category classification for promises with 'general' or empty categories and exit")
     args = parser.parse_args()
 
     logging.info("Starting Satya Promise Tracker Pipeline...")
@@ -701,6 +819,15 @@ def main():
     # 1. Load existing promises data and known politician entities registry
     promises_data = load_promises()
     known_politicians, known_politicians_metadata, known_politicians_details = load_known_politicians()
+
+    if args.recategorize:
+        llm_9b = init_llm(MODEL_9B_PATH, 4096)
+        if not llm_9b:
+            logging.critical("Failed to load Gemma 9B model for recategorization.")
+            sys.exit(1)
+        recategorize_promises(promises_data, llm_9b, args.dry_run)
+        backfill_promise_importance(promises_data, known_politicians_details, args.dry_run)
+        sys.exit(0)
 
     if args.backfill_importance:
         backfill_promise_importance(promises_data, known_politicians_details, args.dry_run)
@@ -952,9 +1079,16 @@ def main():
                     p["supporting_quote"] = extracted_json.get("supporting_quote", p.get("supporting_quote", ""))
                     p["evidence_count"] = len(p["evidence_articles"])
                     
-                    # Update category if extracted
-                    if extracted_json.get("category"):
-                        p["category"] = extracted_json["category"]
+                    # Update category if extracted and valid, otherwise heal if general
+                    new_cat = extracted_json.get("category")
+                    if new_cat and new_cat.lower().strip() not in ["general", "", "null", "none"]:
+                        p["category"] = new_cat
+                        
+                    current_cat = p.get("category", "").lower().strip()
+                    if current_cat in ["general", "", "null", "none"]:
+                        logging.info(f"Promise ID {p['id']} has stale/general category. Re-classifying dynamically...")
+                        healed_cat = classify_category_gemma(llm_9b, p.get("promise", ""), p.get("supporting_quote", ""))
+                        p["category"] = healed_cat
                         
                     # Resolve canonical role
                     pol_info = known_politicians_details.get(p["person"].lower().strip(), {})
