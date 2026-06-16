@@ -217,10 +217,19 @@ Article Content: {content[:2500]}
             if lines[0].startswith("```json") or lines[0].startswith("```"):
                 json_text = "\n".join(lines[1:-1]).strip()
                 
-        return json.loads(json_text)
+        data = json.loads(json_text)
+        if isinstance(data, list):
+            if len(data) > 0 and isinstance(data[0], dict):
+                data = data[0]
+            else:
+                return None
+        if not isinstance(data, dict):
+            return None
+        return data
     except Exception as e:
         logging.error(f"Stage 2 Extractor error/invalid JSON: {e}")
         return None
+
 
 def run_stage3_critic(llm_9b, original_content, proposed_json):
     """
