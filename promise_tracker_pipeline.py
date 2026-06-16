@@ -247,12 +247,17 @@ def run_stage1_noise_filter(llm_2b, title, content):
     Binary classification to verify if the article contains a real promise or progress update.
     """
     prompt = f"""<start_of_turn>user
-Determine if the following news article contains specific information about a political promise made by an Indian politician, or an active progress/status update about an existing promise.
+You are a strict filter for an INDIAN political accountability tracker.
+Reply "YES" only if BOTH are true:
+1. The article states a concrete promise, pledge, or a progress/status update on one.
+2. It was made by a specific, NAMED INDIAN politician (PM, CM, minister, MP, MLA, party leader).
 
-CRITICAL RULES:
-- Reply ONLY with "YES" if there is a concrete promise or progress update mentioned.
-- Reply ONLY with "NO" if the article is general news, opinion, debate, or does not contain a specific promise/timeline update.
-- Do not write any explanation, introduction, or other characters.
+Reply "NO" if:
+- The speaker is a foreign politician or foreign official.
+- The "speaker" is an institution, department, government, court, or office — not a named person.
+- It is general news, opinion, debate, or has no concrete promise.
+
+Reply with ONLY one word: YES or NO. No explanation.
 
 Title: {title}
 Article snippet: {content[:1500]}
@@ -278,26 +283,29 @@ def run_stage2_extractor(llm_9b, title, content, existing_promises):
         promises_context += f"- ID: {p['id']}, Politician: {p['person']}, Promise: \"{p['promise']}\", Current Status: {p['status']}\n"
 
     prompt = f"""<start_of_turn>user
-Analyze the news article below and extract political promise information. 
-Output ONLY a raw JSON object matching the schema. Do not wrap in markdown code blocks.
+Analyze the article and extract political promise information.
+Output ONLY a raw JSON object matching the schema. No markdown.
 
-CRITICAL EXTRACTION RULES:
-1. The 'politician' MUST be a specific, named Indian political leader, minister, MP, MLA, or Chief Minister (e.g. "M.K. Stalin", "Siddaramaiah", "Narendra Modi").
-2. NEVER extract generic government bodies, departments, or administrations (e.g. do NOT extract "Tamil Nadu government", "Cabinet", "Ministry of Finance", "Central Government").
-3. NEVER extract non-political officials (e.g. do NOT extract academic officials like "Vice-Chancellor", bureaucratic officials, police officers, or judges).
-4. NEVER extract foreign or international politicians (e.g. do NOT extract Chinese politicians like "Yao Ming", US politicians, etc.).
-5. If the article does not contain a promise from a valid named Indian politician, return a JSON with all null values or an empty dictionary {{}}.
+CRITICAL RULES:
+1. 'politician' MUST be a specific, named Indian political leader (e.g. "M.K. Stalin", "Siddaramaiah").
+2. NEVER extract government bodies/departments ("Tamil Nadu government", "Cabinet", "Ministry of Finance").
+3. NEVER extract non-political officials (Vice-Chancellor, bureaucrats, police, judges).
+4. NEVER extract foreign/international politicians.
+5. The promise MUST have been made by this politician PERSONALLY. If the article's promise was made by someone else quoted in it, return {{}}.
+6. 'supporting_quote' MUST be copied word-for-word from the article — the exact sentence where the promise/update appears. If you cannot find such a sentence, return {{}}.
+7. If no valid promise from a named Indian politician, return {{}}.
 
 JSON SCHEMA:
 {{
-  "politician": "Specific name of the Indian politician making the promise",
-  "party": "Political party (e.g. BJP, Congress, AAP, TMC, etc.)",
-  "promise_text": "Exact promise title or goal (keep it concise, e.g. 'Build 20,000 houses')",
-  "deadline_year": "YYYY target year, or 'ongoing'",
-  "is_new_promise": true if this is a brand new promise, false if it updates one of the existing promises below,
-  "matched_existing_promise_id": "pXXX ID if it matches an existing promise, otherwise null",
-  "verdict": "kept, broken, or ongoing based on the article facts",
-  "reasoning": "1-2 sentence explanation of the status/verdict based on the article text"
+  "politician": "Name of the Indian politician",
+  "party": "Their party (BJP, Congress, AAP, DMK, TDP, etc.) — use the well-known party if not stated",
+  "promise_text": "Concise promise/goal (e.g. 'Build 20,000 houses')",
+  "supporting_quote": "the EXACT sentence from the article, copied verbatim",
+  "deadline_year": "YYYY or 'ongoing'",
+  "is_new_promise": true or false,
+  "matched_existing_promise_id": "pXXX or null",
+  "verdict": "kept, broken, or ongoing",
+  "reasoning": "1-2 sentences grounded only in the article"
 }}
 
 Existing Promises to Match Against:
@@ -339,21 +347,20 @@ def run_stage3_critic(llm_9b, original_content, proposed_json):
     Audits the extraction JSON against original text to reject hallucinations or vague items.
     """
     prompt = f"""<start_of_turn>user
-Adversarial Audit Task: Review the original article and the proposed extraction JSON.
-Ensure absolute logical alignment, facts, and strict policy matching.
+Adversarial audit. Review the original article against the proposed JSON.
 
 Original Article: {original_content[:2000]}
 Proposed JSON: {json.dumps(proposed_json, indent=2)}
 
-Audit Checks:
-1. Is the 'politician' a specific named Indian politician, minister, or leader? You MUST reject generic terms like "Tamil Nadu government", non-politician officials like "Vice-Chancellor", or foreign figures like "Yao Ming".
-2. Is the politician's name correct and explicitly stated in the article?
-3. Is the extracted target deadline year explicitly mentioned or logically clear in the article?
-4. Is the verdict (kept/broken/ongoing) mathematically/logically aligned with the article facts? (e.g., target passed with no result = broken, target successfully finished = kept).
-5. If the promise is vague, rhetorical, or an opinion, you MUST reject it.
+Reject (reply "REJECTED: [reason]") if ANY check fails:
+1. 'politician' is not a specific named Indian politician — reject generic bodies ("Tamil Nadu government"), non-politicians ("Vice-Chancellor"), or foreign figures ("Yao Ming").
+2. The politician's name is not explicitly stated in the article.
+3. 'supporting_quote' does NOT appear word-for-word in the article, OR does not actually contain the promise. (This is the most important check — reject fabricated quotes.)
+4. The promise was actually made by someone else in the article, not this politician.
+5. The promise is vague, rhetorical, or opinion.
+6. The verdict contradicts the article facts.
 
-If the extraction is correct and supported, reply ONLY with "APPROVED".
-If there is any error, hallucination, or vague target, reply ONLY with "REJECTED: [Brief reason]".
+If everything passes, reply ONLY "APPROVED". Otherwise "REJECTED: [brief reason]".
 <end_of_turn>
 <start_of_turn>model
 """
@@ -508,6 +515,26 @@ def main():
 
         logging.info(f"Stage 2 Extractor Draft JSON:\n{json.dumps(extracted_json, indent=2)}")
 
+        # 1. Hard check: Politician verification
+        politician_name = extracted_json.get("politician", "")
+        if not is_valid_indian_politician(politician_name) or not is_known_politician(politician_name, known_politicians):
+            logging.warning(f"Stage 2 Extractor: Discarding due to invalid or unregistered politician '{politician_name}'.")
+            continue
+
+        # 2. Hard check: Supporting quote verbatim match
+        supporting_quote = extracted_json.get("supporting_quote", "")
+        if not supporting_quote:
+            logging.warning("Stage 2 Extractor: Discarding due to missing supporting_quote.")
+            continue
+            
+        norm_quote = " ".join(supporting_quote.lower().split())
+        norm_rephrased = " ".join(rephrased.lower().split())
+        norm_full_content = " ".join(content.lower().split())
+        
+        if norm_quote not in norm_rephrased and norm_quote not in norm_full_content:
+            logging.warning(f"Stage 2 Extractor: Discarding because supporting_quote '{supporting_quote}' does not appear verbatim in article.")
+            continue
+
         # STAGE 3: Critic Check
         approved, critic_msg = run_stage3_critic(llm_9b, rephrased, extracted_json)
         if not approved:
@@ -531,7 +558,7 @@ def main():
             "gemma_validated": True,
             "rephrased": rephrased[:300] + "...",
             "content": content[:400] + "...",
-            "quote": extracted_json.get("proof_quote", "")
+            "quote": extracted_json.get("supporting_quote", "")
         }
 
         # Update JSON schema structures
