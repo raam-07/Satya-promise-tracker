@@ -436,7 +436,8 @@ def main():
             "relevance_score": 100,
             "gemma_validated": True,
             "rephrased": rephrased[:300] + "...",
-            "content": content[:400] + "..."
+            "content": content[:400] + "...",
+            "quote": extracted_json.get("proof_quote", "")
         }
 
         # Update JSON schema structures
@@ -488,7 +489,18 @@ def main():
             # Normalize party
             party_val = extracted_json.get("party")
             if not party_val or str(party_val).lower().strip() in ["null", "none", "n/a", ""]:
-                party_val = "Unknown Party"
+                # Try parsing database party_str fallback
+                if party_str:
+                    try:
+                        parties = json.loads(party_str)
+                        if isinstance(parties, list) and len(parties) > 0:
+                            party_val = parties[0]
+                        else:
+                            party_val = "Unknown Party"
+                    except Exception:
+                        party_val = "Unknown Party"
+                else:
+                    party_val = "Unknown Party"
 
             new_promise = {
                 "id": next_id,
