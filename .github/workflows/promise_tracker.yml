@@ -7,7 +7,8 @@ on:
 
 concurrency:
   group: satya-promise-tracker
-  cancel-in-progress: false
+  cancel-in-progress: true
+
 
 jobs:
   track_promises:
@@ -15,6 +16,8 @@ jobs:
     timeout-minutes: 300
     permissions:
       contents: write  # Added permission to commit and push changes back to the repository
+      actions: write
+
 
     steps:
       - name: Checkout Repository
@@ -71,6 +74,7 @@ jobs:
           '
 
       - name: Run Promise Tracker
+        id: run-step
         env:
           PROMISES_JSON_URL: 'https://raw.githubusercontent.com/raam-07/Satya-promise-tracker/main/promises.json'
           SATYA_DB_URL: ${{ secrets.SATYA_DB_URL }}
@@ -137,3 +141,16 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+      - name: Trigger Self Loop
+        if: steps.run-step.outputs.has_more == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "More unprocessed articles remain in the Database. Triggering next batch run..."
+          curl -X POST \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/promise_tracker.yml/dispatches \
+            -d '{"ref":"main"}'
+
