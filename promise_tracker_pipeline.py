@@ -139,9 +139,11 @@ def is_valid_indian_politician(name):
         "high court", "panchayat", "corporation", "municipality", "bureaucracy"
     ]
     
-    if any(term in name_lower for term in generic_blocklist):
-        logging.info(f"Rejected generic/administrative politician name: {name}")
-        return False
+    for term in generic_blocklist:
+        pattern = r'\b' + re.escape(term) + r'\b'
+        if re.search(pattern, name_lower):
+            logging.info(f"Rejected generic/administrative politician name: {name}")
+            return False
         
     # Check length and ensure it contains alphabetic characters
     if len(name_lower) < 3 or len(name_lower) > 50:
@@ -582,6 +584,7 @@ def main():
                     p["status_last_reviewed"] = time.strftime("%Y-%m-%d")
                     p["gemma_suggestion"] = extracted_json.get("verdict", p.get("gemma_suggestion"))
                     p["gemma_reasoning"] = extracted_json.get("reasoning", p.get("gemma_reasoning"))
+                    p["supporting_quote"] = extracted_json.get("supporting_quote", p.get("supporting_quote", ""))
                     p["evidence_count"] = len(p["evidence_articles"])
                     found = True
                     updated_promise_count += 1
@@ -633,6 +636,7 @@ def main():
                 "party": party_val,
                 "role": "Politician",
                 "promise": extracted_json.get("promise_text", title),
+                "supporting_quote": extracted_json.get("supporting_quote", ""),
                 "category": "general",
                 "made_on": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
                 "deadline": deadline_val,

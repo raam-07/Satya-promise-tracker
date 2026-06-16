@@ -51,7 +51,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The report notes that despite the 2022 target date, real farm incomes failed to double, citing agricultural economists and survey assessments."
     },
     {
       "id": "p002",
@@ -87,7 +88,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "Government's own PLFS data confirmed unemployment reached a 45-year high of 6.1% in 2017-18, contradicting large-scale job creation targets."
     },
     {
       "id": "p003",
@@ -123,7 +125,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The Finance Minister defended the PM's claim in Parliament, stating the Rs 15 lakh figure was illustrative of the total estimated size of illicit black money stashed abroad."
     },
     {
       "id": "p004",
@@ -160,7 +163,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The Union Cabinet approved the extension of the PMAY-Urban scheme to December 2024, confirming that the original 2022 target of 2 crore houses was not fully completed on time."
     },
     {
       "id": "p005",
@@ -198,7 +202,8 @@
       "url_checked_at": "2026-06-14",
       "archived_url": "https://web.archive.org/web/20251127205534/https://www.pib.gov.in/",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The IMF updated growth forecasts showing that due to the pandemic, India's target of becoming a $5 trillion economy by 2024-25 would be delayed by several years."
     },
     {
       "id": "p006",
@@ -234,7 +239,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "vision",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "India's ranking on the Corruption Perception Index (CPI) remained stagnant around 85th out of 180 countries, indicating persistent structural corruption challenges."
     },
     {
       "id": "p007",
@@ -271,7 +277,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "policy",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The Supreme Court struck down the anonymous Electoral Bonds scheme, ordering the State Bank of India to stop issuing bonds and disclose all political donor data."
     },
     {
       "id": "p008",
@@ -308,7 +315,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The report notes that while tap water connections grew from 16% in 2019 to over 65% in 2023, the Jal Jeevan Mission is likely to miss its December 2024 target for 100% coverage."
     },
     {
       "id": "p009",
@@ -344,7 +352,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "policy",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "Uttarakhand passed the Uniform Civil Code Bill, making it the first state to implement the code. The law covers marriage, divorce, inheritance, and live-in relationships."
     },
     {
       "id": "p010",
@@ -381,7 +390,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "policy",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The Union Cabinet approved the simultaneous elections proposal. The implementation requires constitutional amendments and consensus among state assemblies."
     },
     {
       "id": "p011",
@@ -418,7 +428,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "policy",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The RBI's annual report revealed that Rs 15.31 lakh crore out of Rs 15.41 lakh crore in demonetized currency notes were returned, indicating negligible black money extinguishment."
     },
     {
       "id": "p012",
@@ -455,7 +466,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The National High-Speed Rail Corporation admitted that land acquisition delays and the COVID pandemic had pushed the project completion date far past the original 2023 target."
     },
     {
       "id": "p013",
@@ -492,7 +504,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "policy",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The Home Ministry stated that illegal migrants are identified and deported in accordance with legal processes, but deportations remain slow and subject to legal challenges."
     },
     {
       "id": "p014",
@@ -529,7 +542,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "policy",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "Delhi's education department highlighted infrastructure upgrades, international teacher training programs, and CBSE board pass rates as evidence of successful government school reforms."
     },
     {
       "id": "p015",
@@ -566,7 +580,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The Delhi government approved a full subsidy for households consuming up to 200 units of electricity per month, fulfilling a major manifesto pledge."
     },
     {
       "id": "p016",
@@ -603,7 +618,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "While the government announced action plans to clean the Yamuna by 2025, pollution monitoring reports and NGT audits show critical sewage treatment gaps remain, making the target unmet."
     },
     {
       "id": "p017",
@@ -640,7 +656,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "Congress President Rahul Gandhi announced the Nyuntam Aay Yojana (NYAY), promising to transfer Rs 72,000 annually to the poorest 20% of Indian families if voted to power."
     },
     {
       "id": "p018",
@@ -676,7 +693,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "vision",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "Chief Minister Yogi Adityanath claimed a dramatic improvement in law and order under the zero-tolerance policy, though independent observers note high numbers of extrajudicial encounters."
     },
     {
       "id": "p019",
@@ -713,7 +731,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "vision",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "Mamata Banerjee reiterated her administration's commitment to protecting citizen identities and welfare benefits under the regional Ma Mati Manush governance framework."
     },
     {
       "id": "p020",
@@ -750,7 +769,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "vision",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "Prime Minister Narendra Modi urged state CMs to align local infrastructure plans with the national Viksit Bharat developed-nation targets for 2047."
     },
     {
       "id": "p021",
@@ -786,12 +806,13 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Deputy Chief Minister Mallu Bhatti Vikramarka**, during a visit to Khammam, announced plans for the construction of a model colony in Velugumatla for poor people.  The colony will include amenities like electricity, water, roads, and a hospital, with completion expected by December 9, 2026. **Mr. ..."
     },
     {
       "id": "p022",
       "person": "Satya Kumar Yadav",
-      "party": null,
+      "party": "BJP",
       "role": "Politician",
       "promise": "Expedite construction of newly-sanctioned medical colleges",
       "category": "general",
@@ -822,7 +843,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Praja Arogya Vedika (PAV)**, an organization advocating for medical education, urged **Minister for Health, Medical Education and Family Welfare, Satya Kumar Yadav**, to expedite the remaining construction work on newly-sanctioned medical colleges. PAV emphasized that these colleges are nearing co..."
     },
     {
       "id": "p023",
@@ -858,12 +880,13 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**K. Venkatesh**, the **Animal Husbandry Minister** of Karnataka, announced that the recruitment process for 400 vacant permanent veterinary officer positions is underway through the **Karnataka Public Service Commission**.  The appointments are expected to address the shortage of veterinary doctors..."
     },
     {
       "id": "p024",
       "person": "D.K. Suresh",
-      "party": null,
+      "party": "Congress",
       "role": "Politician",
       "promise": "Pay a 'Ugadi Bonus' of ₹1 per litre to its 1.27 lakh milk farmers",
       "category": "general",
@@ -894,12 +917,13 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Bengaluru Milk Union Ltd. (BAMUL)** is set to report a record turnover of ₹3,400 crore by the end of the 2025-2026 financial year and has decided to pay a 'Ugadi Bonus' of ₹1 per litre to its 1.27 lakh milk farmers. The bonus will cost approximately ₹59.39 crore and comes after BAMUL reported a pr..."
     },
     {
       "id": "p025",
       "person": "Eshwar Khandre",
-      "party": null,
+      "party": "Congress",
       "role": "Politician",
       "promise": "Ban illegal tree felling in forest areas",
       "category": "general",
@@ -930,7 +954,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Minister for Forests and Ecology Eshwar Khandre** has banned illegal tree felling in various forest areas, including government plantations and roadside plantations. This follows concerns raised by **wildlife conservationist Giridhar Kulkarni**, who warned of increased demand for firewood due to L..."
     },
     {
       "id": "p026",
@@ -976,12 +1001,13 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 2
+      "evidence_count": 2,
+      "supporting_quote": "**Ten** **Maoist** rebels surrendered to Indian security forces in Chhattisgarh, bringing the total number of surrendered fighters to 108.  The group, representing various districts within the Dandakaranya Special Zonal Committee, collectively carry a reward of ₹3.95 crore and included six divisiona..."
     },
     {
       "id": "p027",
       "person": "Bhajan Lal Sharma",
-      "party": null,
+      "party": "BJP",
       "role": "Politician",
       "promise": "Economic target of $4.30 trillion by 2047",
       "category": "general",
@@ -1012,12 +1038,13 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Chief Minister Bhajan Lal Sharma** addressed the annual session of the **Confederation of Indian Industry (CII)-Rajasthan**, calling for entrepreneurship among youth and an economic target of $4.30 trillion by 2047.  Sharma highlighted Rajasthan's favorable conditions for growth, citing government..."
     },
     {
       "id": "p028",
       "person": "K.H. Muniyappa",
-      "party": null,
+      "party": "Congress",
       "role": "Politician",
       "promise": "Prioritize commercial LPG supply for hospitals, hostels, and residential schools",
       "category": "general",
@@ -1048,12 +1075,13 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Bengaluru** residents are experiencing difficulties booking domestic LPG cylinders due to a surge in demand and technical glitches on booking platforms. **The Bengaluru City Police** launched a drive against illegal hoarding and marketing of LPG cylinders, inspecting over 50 godowns. **Food and Ci..."
     },
     {
       "id": "p029",
       "person": "Ponguleti Srinivasa Reddy",
-      "party": null,
+      "party": "Congress",
       "role": "Politician",
       "promise": "Complete one lakh Indiramma houses by the end of this month",
       "category": "general",
@@ -1084,12 +1112,13 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Minister for Revenue and Housing Ponguleti Srinivasa Reddy** announced that **one lakh Indiramma houses** will be completed by the end of this month, with a second phase planned for April.  He stated that all eligible poor people will receive these homes in a phased manner across the state. **Mr. ..."
     },
     {
       "id": "p030",
       "person": "G.R Anil",
-      "party": null,
+      "party": "CPI(M)",
       "role": "Politician",
       "promise": "Achieve hunger-free status",
       "category": "general",
@@ -1120,7 +1149,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**G.R Anil**, the **Food and Civil Supplies Minister of Kerala**, announced that the state has achieved hunger-free status, a significant achievement for Keralites worldwide.  He highlighted various welfare measures implemented by the government to ensure food security, including direct delivery of ..."
     },
     {
       "id": "p031",
@@ -1156,7 +1186,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Residents** of 16 localities in Gajuwaka, affected by the **Greater Visakhapatnam Municipal Corporation (GVMC)** Garbage Transfer Station (GTS), announced they will lock the facility and protest from March 20th.  The protesters, led by **B. Ramana**, a CPI(M) activist, claim that despite promises ..."
     },
     {
       "id": "p032",
@@ -1192,12 +1223,13 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "The **State Cabinet**, chaired by Chief Minister N. Chandrababu Naidu, approved measures to accelerate the Polavaram Irrigation Project.  These interventions include an additional ₹24.51 crore for Package No. 64's headworks and the \"pre-closure\" of legacy contracts for packages 8, 8A, and 8B. The Ca..."
     },
     {
       "id": "p033",
       "person": "Sunetra Pawar",
-      "party": null,
+      "party": "NCP",
       "role": "Politician",
       "promise": "Come Early, Go Early scheme for women government employees in MMR",
       "category": "general",
@@ -1228,7 +1260,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "**Deputy Chief Minister Sunetra Pawar** announced a new \"Come Early, Go Early\" scheme for women government employees in the Mumbai Metropolitan Region (MMR) to assist them with managing work and domestic responsibilities. The policy will allow women arriving between 9:15 a.m. and 9:45 a.m. to leave ..."
     },
     {
       "id": "p034",
@@ -1264,7 +1297,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1
+      "evidence_count": 1,
+      "supporting_quote": "## Karnataka Government Promises Development for North Karnataka\n\nKarnataka Chief Minister Siddaramaiah reiterated his commitment to addressing regional imbalances in the state, particularly focusing on development projects in North Karnataka. He highlighted that his government has been actively wor..."
     }
   ]
 }
