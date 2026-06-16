@@ -122,6 +122,38 @@ def regex_pre_screen(title, content):
                 "welfare", "scheme", "deadline", "verdict", "manifesto", "sankalp"]
     return any(kw in text for kw in keywords)
 
+# Politician Name Validation Helper
+def is_valid_indian_politician(name):
+    if not name:
+        return False
+    
+    name_lower = name.lower().strip()
+    
+    # Block list of generic administrative/institutional titles or non-person entities
+    generic_blocklist = [
+        "government", "ministry", "cabinet", "court", "judge", "assembly", "parliament",
+        "committee", "board", "commission", "department", "administration", "authority",
+        "university", "vice-chancellor", "vice chancellor", "principal", "director",
+        "police", "commissioner", "officer", "secretary", "spokesperson", "advisor",
+        "governor", "bank", "rbi", "center", "state", "hc", "sc", "supreme court",
+        "high court", "panchayat", "corporation", "municipality", "bureaucracy"
+    ]
+    
+    if any(term in name_lower for term in generic_blocklist):
+        logging.info(f"Rejected generic/administrative politician name: {name}")
+        return False
+        
+    # Check length and ensure it contains alphabetic characters
+    if len(name_lower) < 3 or len(name_lower) > 50:
+        logging.info(f"Rejected politician name due to length: {name}")
+        return False
+        
+    if not re.search(r'[a-zA-Z]', name):
+        return False
+        
+    return True
+
+
 # LLM Loading Helper
 def init_llm(model_path, ctx_size):
     try:
@@ -187,9 +219,16 @@ def run_stage2_extractor(llm_9b, title, content, existing_promises):
 Analyze the news article below and extract political promise information. 
 Output ONLY a raw JSON object matching the schema. Do not wrap in markdown code blocks.
 
+CRITICAL EXTRACTION RULES:
+1. The 'politician' MUST be a specific, named Indian political leader, minister, MP, MLA, or Chief Minister (e.g. "M.K. Stalin", "Siddaramaiah", "Narendra Modi").
+2. NEVER extract generic government bodies, departments, or administrations (e.g. do NOT extract "Tamil Nadu government", "Cabinet", "Ministry of Finance", "Central Government").
+3. NEVER extract non-political officials (e.g. do NOT extract academic officials like "Vice-Chancellor", bureaucratic officials, police officers, or judges).
+4. NEVER extract foreign or international politicians (e.g. do NOT extract Chinese politicians like "Yao Ming", US politicians, etc.).
+5. If the article does not contain a promise from a valid named Indian politician, return a JSON with all null values or an empty dictionary {{}}.
+
 JSON SCHEMA:
 {{
-  "politician": "Name of the politician making the promise",
+  "politician": "Specific name of the Indian politician making the promise",
   "party": "Political party (e.g. BJP, Congress, AAP, TMC, etc.)",
   "promise_text": "Exact promise title or goal (keep it concise, e.g. 'Build 20,000 houses')",
   "deadline_year": "YYYY target year, or 'ongoing'",
@@ -207,6 +246,7 @@ Article Content: {content[:2500]}
 <end_of_turn>
 <start_of_turn>model
 """
+
     try:
         output = llm_9b(prompt, max_tokens=350, temperature=0.0)
         json_text = output['choices'][0]['text'].strip()
@@ -238,16 +278,17 @@ def run_stage3_critic(llm_9b, original_content, proposed_json):
     """
     prompt = f"""<start_of_turn>user
 Adversarial Audit Task: Review the original article and the proposed extraction JSON.
-Ensure absolute logical alignment and facts.
+Ensure absolute logical alignment, facts, and strict policy matching.
 
 Original Article: {original_content[:2000]}
 Proposed JSON: {json.dumps(proposed_json, indent=2)}
 
 Audit Checks:
-1. Is the politician's name correct and explicitly stated in the article?
-2. Is the extracted target deadline year explicitly mentioned or logically clear in the article?
-3. Is the verdict (kept/broken/ongoing) mathematically/logically aligned with the article facts? (e.g., target passed with no result = broken, target successfully finished = kept).
-4. If the promise is vague, rhetorical, or an opinion, you MUST reject it.
+1. Is the 'politician' a specific named Indian politician, minister, or leader? You MUST reject generic terms like "Tamil Nadu government", non-politician officials like "Vice-Chancellor", or foreign figures like "Yao Ming".
+2. Is the politician's name correct and explicitly stated in the article?
+3. Is the extracted target deadline year explicitly mentioned or logically clear in the article?
+4. Is the verdict (kept/broken/ongoing) mathematically/logically aligned with the article facts? (e.g., target passed with no result = broken, target successfully finished = kept).
+5. If the promise is vague, rhetorical, or an opinion, you MUST reject it.
 
 If the extraction is correct and supported, reply ONLY with "APPROVED".
 If there is any error, hallucination, or vague target, reply ONLY with "REJECTED: [Brief reason]".
@@ -262,6 +303,7 @@ If there is any error, hallucination, or vague target, reply ONLY with "REJECTED
     except Exception as e:
         logging.error(f"Stage 3 Critic error: {e}")
         return False, f"REJECTED: critic logic failure: {e}"
+
 
 # ==============================================================================
 # --- MAIN PIPELINE EXECUTION ---
@@ -304,10 +346,11 @@ def main():
     # Fetch batch of classified articles
     cursor = conn.cursor()
     cursor.execute("""
-        SELECT id, title, url, scraped_at, content, rephrased_article, ministers_mentioned, party_mentioned, states_mentioned
-        FROM articles
-        WHERE status IN ('classified', 'entity_processed')
-        ORDER BY id ASC
+        SELECT a.id, a.title, a.url, a.scraped_at, a.content, a.rephrased_article, a.ministers_mentioned, a.party_mentioned, a.states_mentioned, s.name AS source_name
+        FROM articles a
+        LEFT JOIN sources s ON a.source_id = s.id
+        WHERE a.status IN ('classified', 'entity_processed')
+        ORDER BY a.id ASC
         LIMIT ?
     """, (args.batch_size,))
     rows = cursor.fetchall()
@@ -325,7 +368,7 @@ def main():
     # We only load the LLM models if not loaded and at least one article passes the regex pre-screen
     pre_screened_rows = []
     for r in rows:
-        article_id, title, url, scraped_at, compressed_content, compressed_rephrased, ministers_str, party_str, states_str = r
+        article_id, title, url, scraped_at, compressed_content, compressed_rephrased, ministers_str, party_str, states_str, source_name = r
         
         try:
             content = zlib.decompress(compressed_content).decode('utf-8') if compressed_content else ""
@@ -349,7 +392,7 @@ def main():
     # Process each pre-screened article in this batch
     for r_data, content in pre_screened_rows:
         r = r_data
-        article_id, title, url, scraped_at, _, compressed_rephrased, _, _, _ = r
+        article_id, title, url, scraped_at, _, compressed_rephrased, _, _, _, source_name = r
         
         try:
             rephrased = zlib.decompress(compressed_rephrased).decode('utf-8') if compressed_rephrased else content
@@ -388,7 +431,7 @@ def main():
         evidence_item = {
             "url": final_url,
             "title": title,
-            "source": extracted_json.get("source", "News Article"),
+            "source": source_name if source_name else "News Article",
             "scraped_at": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
             "relevance_score": 100,
             "gemma_validated": True,
@@ -427,20 +470,35 @@ def main():
                 is_new = True
 
         if is_new:
+            politician_name = extracted_json.get("politician", "Unknown Politician")
+            if not is_valid_indian_politician(politician_name):
+                logging.warning(f"Skipping promise extraction: Invalid/generic political entity name: '{politician_name}'")
+                continue
+
             # Generate next sequential ID
             existing_ids = [int(p["id"][1:]) for p in promises_data["promises"] if p["id"].startswith('p')]
             next_id_num = max(existing_ids) + 1 if existing_ids else 1
             next_id = f"p{next_id_num:03d}"
 
+            # Normalize deadline
+            deadline_val = extracted_json.get("deadline_year", "ongoing")
+            if not deadline_val or str(deadline_val).lower().strip() in ["null", "none", "n/a", ""]:
+                deadline_val = "ongoing"
+
+            # Normalize party
+            party_val = extracted_json.get("party")
+            if not party_val or str(party_val).lower().strip() in ["null", "none", "n/a", ""]:
+                party_val = "Unknown Party"
+
             new_promise = {
                 "id": next_id,
-                "person": extracted_json.get("politician", "Unknown Politician"),
-                "party": extracted_json.get("party", "Unknown Party"),
+                "person": politician_name,
+                "party": party_val,
                 "role": "Politician",
                 "promise": extracted_json.get("promise_text", title),
                 "category": "general",
-                "made_on": time.strftime("%Y-%m-%d"),
-                "deadline": extracted_json.get("deadline_year", "ongoing"),
+                "made_on": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
+                "deadline": deadline_val,
                 "source_url": final_url,
                 "source_description": title,
                 "status": extracted_json.get("verdict", "ongoing"),
@@ -460,6 +518,7 @@ def main():
             promises_data["promises"].append(new_promise)
             new_promise_count += 1
             logging.info(f"Created new promise ID: {next_id}")
+
 
     # Track pointer even if no article passed filters, so we don't scan them again next time
     for r in rows:
