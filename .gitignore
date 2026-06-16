@@ -1,0 +1,16 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editors / Swap files
+.DS_Store
+*.swp
+*.swo
+*~
+.!*
+
+# Local outputs / Scratch files
+candidate_results.json
+review_promises.json
