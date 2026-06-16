@@ -8,6 +8,8 @@ import sqlite3
 import zlib
 import argparse
 import sys
+import string
+from difflib import SequenceMatcher
 
 # Configure logging
 logging.basicConfig(
@@ -107,6 +109,73 @@ def save_promises(data):
         logging.info(f"Successfully saved data to: {PROMISES_JSON_PATH}")
     except Exception as e:
         logging.error(f"Failed to write to promises.json: {e}")
+
+def save_to_review_queue(promise_or_item, proposed_json, reason, filepath='./review_promises.json'):
+    try:
+        data = {
+            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "summary": {
+                "total_promises": 0,
+                "promises_with_validated_evidence": 0,
+                "statuses_automatically_updated": 0,
+                "status_suggestions_gated": 0
+            },
+            "updated_items": []
+        }
+        if os.path.exists(filepath):
+            with open(filepath, 'r', encoding='utf-8') as f:
+                try:
+                    data = json.load(f)
+                except Exception:
+                    pass
+        
+        # Add new item
+        item = {
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "reason": reason,
+            "promise_id": promise_or_item.get("id") if isinstance(promise_or_item, dict) else None,
+            "politician": promise_or_item.get("person") if isinstance(promise_or_item, dict) else promise_or_item.get("politician"),
+            "proposed_json": proposed_json
+        }
+        if "updated_items" not in data:
+            data["updated_items"] = []
+        data["updated_items"].append(item)
+        
+        # Update gated counter
+        if "summary" in data:
+            data["summary"]["status_suggestions_gated"] = data["summary"].get("status_suggestions_gated", 0) + 1
+            
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        logging.info(f"Saved suggestion to review queue {filepath} due to: {reason}")
+            
+    except Exception as e:
+        logging.error(f"Failed to write to review_promises.json: {e}")
+
+def normalize_text(text):
+    if not text:
+        return ""
+    text_lower = text.lower().strip()
+    translator = str.maketrans('', '', string.punctuation)
+    return " ".join(text_lower.translate(translator).split())
+
+def find_similar_promise(new_promise_text, politician, existing_promises):
+    new_norm = normalize_text(new_promise_text)
+    if not new_norm:
+        return None, 0.0
+        
+    best_match = None
+    best_score = 0.0
+    
+    for p in existing_promises:
+        if p.get("person", "").lower().strip() == politician.lower().strip():
+            existing_norm = normalize_text(p.get("promise", ""))
+            score = SequenceMatcher(None, new_norm, existing_norm).ratio()
+            if score > best_score:
+                best_score = score
+                best_match = p
+                
+    return best_match, best_score
 
 # Regex Screening Helper
 def regex_pre_screen(title, content):
@@ -302,11 +371,13 @@ JSON SCHEMA:
   "politician": "Name of the Indian politician",
   "party": "Their party (BJP, Congress, AAP, DMK, TDP, etc.) — use the well-known party if not stated",
   "promise_text": "Concise promise/goal (e.g. 'Build 20,000 houses')",
+  "category": "One of: farmer_agriculture, economy, infrastructure, health, education, foreign_policy, governance, justice, world, general",
   "supporting_quote": "the EXACT sentence from the article, copied verbatim",
   "deadline_year": "YYYY or 'ongoing'",
   "is_new_promise": true or false,
   "matched_existing_promise_id": "pXXX or null",
   "verdict": "kept, broken, or ongoing",
+  "confidence": "high, medium, or low (use high only if the text explicitly confirms the verdict)",
   "reasoning": "1-2 sentences grounded only in the article"
 }}
 
@@ -567,6 +638,23 @@ def main():
         is_new = extracted_json.get("is_new_promise", True)
         matched_id = extracted_json.get("matched_existing_promise_id")
 
+        # 1. Similarity Check for Duplicate Prevention (Finding #2)
+        if is_new or not matched_id:
+            politician_name = extracted_json.get("politician", "Unknown Politician")
+            promise_text = extracted_json.get("promise_text", title)
+            similar_p, score = find_similar_promise(promise_text, politician_name, promises_data["promises"])
+            if similar_p:
+                if score > 0.75:
+                    logging.info(f"Duplicate check: Auto-merging new promise '{promise_text}' with existing ID '{similar_p['id']}' (Similarity: {score:.2f})")
+                    is_new = False
+                    matched_id = similar_p["id"]
+                    extracted_json["is_new_promise"] = False
+                    extracted_json["matched_existing_promise_id"] = similar_p["id"]
+                elif score >= 0.60:
+                    logging.info(f"Duplicate check: Borderline similarity ({score:.2f}) between new promise '{promise_text}' and existing '{similar_p['id']}'. Sending to review.")
+                    save_to_review_queue(similar_p, extracted_json, f"borderline_duplicate_similarity_{score:.2f}")
+                    continue
+
         if not is_new and matched_id:
             # Update existing promise
             found = False
@@ -580,7 +668,24 @@ def main():
                     if not any(e["url"] == final_url for e in p["evidence_articles"]):
                         p["evidence_articles"].append(evidence_item)
                         
-                    p["status"] = extracted_json.get("verdict", p["status"])
+                    new_status = extracted_json.get("verdict", p["status"])
+                    confidence = extracted_json.get("confidence", "low").lower()
+                    
+                    # If status is changing, apply confidence & source count gating (Finding #1)
+                    if new_status != p["status"]:
+                        if confidence != "high":
+                            logging.info(f"Verdict change from '{p['status']}' to '{new_status}' rejected: confidence is '{confidence}' (needs 'high'). Sending to review.")
+                            save_to_review_queue(p, extracted_json, "low_confidence_verdict_change")
+                            new_status = p["status"]
+                        elif new_status == "broken":
+                            existing_urls = {e["url"] for e in p.get("evidence_articles", [])}
+                            all_urls = existing_urls | {final_url}
+                            if len(all_urls) < 2:
+                                logging.info(f"Verdict change to 'broken' rejected: requires 2+ independent sources (has {len(all_urls)}). Sending to review.")
+                                save_to_review_queue(p, extracted_json, "insufficient_sources_for_broken")
+                                new_status = p["status"]
+                                
+                    p["status"] = new_status
                     p["status_last_reviewed"] = time.strftime("%Y-%m-%d")
                     p["gemma_suggestion"] = extracted_json.get("verdict", p.get("gemma_suggestion"))
                     p["gemma_reasoning"] = extracted_json.get("reasoning", p.get("gemma_reasoning"))
@@ -630,6 +735,17 @@ def main():
                 else:
                     party_val = "Unknown Party"
 
+            # Confidence and independent source gating for new promises (Finding #1)
+            initial_status = extracted_json.get("verdict", "ongoing")
+            if initial_status == "broken":
+                logging.info(f"New promise created with 'broken' verdict: forcing to 'ongoing' (requires 2+ independent sources). Sending to review.")
+                save_to_review_queue({"person": politician_name, "id": next_id}, extracted_json, "new_promise_broken_gated")
+                initial_status = "ongoing"
+            elif extracted_json.get("confidence", "low").lower() != "high" and initial_status != "ongoing":
+                logging.info(f"New promise created with '{initial_status}' verdict: forcing to 'ongoing' (low confidence). Sending to review.")
+                save_to_review_queue({"person": politician_name, "id": next_id}, extracted_json, "new_promise_low_confidence_gated")
+                initial_status = "ongoing"
+
             new_promise = {
                 "id": next_id,
                 "person": politician_name,
@@ -637,18 +753,18 @@ def main():
                 "role": "Politician",
                 "promise": extracted_json.get("promise_text", title),
                 "supporting_quote": extracted_json.get("supporting_quote", ""),
-                "category": "general",
+                "category": extracted_json.get("category", "general"),
                 "made_on": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
                 "deadline": deadline_val,
                 "source_url": final_url,
                 "source_description": title,
-                "status": extracted_json.get("verdict", "ongoing"),
+                "status": initial_status,
                 "status_last_reviewed": time.strftime("%Y-%m-%d"),
                 "gemma_suggestion": extracted_json.get("verdict", "ongoing"),
                 "gemma_reasoning": extracted_json.get("reasoning", ""),
                 "evidence_articles": [evidence_item],
                 "notes": extracted_json.get("reasoning", ""),
-                "gemma_confidence": "high",
+                "gemma_confidence": extracted_json.get("confidence", "low"),
                 "gemma_assessed_at": time.strftime("%Y-%m-%d"),
                 "created_at": time.strftime("%Y-%m-%d"),
                 "url_status": "ok",
@@ -660,10 +776,14 @@ def main():
             new_promise_count += 1
             logging.info(f"Created new promise ID: {next_id}")
 
-
     # Track pointer even if no article passed filters, so we don't scan them again next time
     for r in rows:
         highest_processed_id = max(highest_processed_id, r[0])
+
+    # Prevent infinite runner loop when pointer doesn't advance (Finding #4)
+    if rows and highest_processed_id <= last_processed:
+        logging.critical(f"Pointer stagnation detected! rows fetched: {len(rows)}, highest ID: {highest_processed_id}, last_processed: {last_processed}. Stopping loop to prevent infinite GHA runs.")
+        sys.exit(1)
 
     # Track pointer and save metadata pointer after every batch to prevent progress loss
     promises_data["metadata"]["last_processed_row"] = highest_processed_id
