@@ -412,7 +412,7 @@ def main():
         SELECT a.id, a.title, a.url, a.scraped_at, a.content, a.rephrased_article, a.ministers_mentioned, a.party_mentioned, a.states_mentioned, s.name AS source_name
         FROM articles a
         LEFT JOIN sources s ON a.source_id = s.id
-        WHERE a.status IN ('classified', 'entity_processed')
+        WHERE a.status = 'entity_processed'
         ORDER BY a.id ASC
         LIMIT ?
     """, (args.batch_size,))
@@ -428,7 +428,7 @@ def main():
         
     logging.info(f"Retrieved {len(rows)} classified articles to evaluate.")
 
-    # We only load the LLM models if not loaded and at least one article passes the regex pre-screen
+    # We only load the LLM models if not loaded and at least one article passes the filters
     pre_screened_rows = []
     for r in rows:
         article_id, title, url, scraped_at, compressed_content, compressed_rephrased, ministers_str, party_str, states_str, source_name = r
@@ -437,6 +437,37 @@ def main():
             content = zlib.decompress(compressed_content).decode('utf-8') if compressed_content else ""
         except Exception:
             content = ""
+            
+        # Check if the article mentions any known registered politician from entities.json
+        has_known_politician = False
+        ministers_list = []
+        if ministers_str:
+            try:
+                ministers_list = json.loads(ministers_str)
+            except Exception:
+                ministers_list = []
+                
+        if isinstance(ministers_list, list) and ministers_list:
+            for m in ministers_list:
+                if is_known_politician(m, known_politicians):
+                    has_known_politician = True
+                    break
+                    
+        # Fallback: substring search of the known politicians/aliases in the title or content
+        if not has_known_politician:
+            text_to_scan = (title + " " + content).lower()
+            for kp in known_politicians:
+                if len(kp) >= 4 and kp in text_to_scan:
+                    has_known_politician = True
+                    break
+                elif len(kp) < 4:
+                    if re.search(r'\b' + re.escape(kp) + r'\b', text_to_scan):
+                        has_known_politician = True
+                        break
+                        
+        if not has_known_politician:
+            logging.info(f"Article ID {article_id} skipped: No known registered Indian politician mentioned.")
+            continue
             
         if regex_pre_screen(title, content):
             pre_screened_rows.append((r, content))
