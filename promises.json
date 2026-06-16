@@ -1,12 +1,12 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-06-15",
+    "last_updated": "2026-06-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 20,
-    "promises_with_evidence": 20,
-    "last_processed_row": 40196,
+    "total_promises": 22,
+    "promises_with_evidence": 22,
+    "last_processed_row": 40269,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -750,6 +750,78 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "vision",
+      "evidence_count": 1
+    },
+    {
+      "id": "p021",
+      "person": "Mallu Bhatti Vikramarka",
+      "party": "null",
+      "role": "Politician",
+      "promise": "Construct a model colony in Velugumatla for poor people with amenities like electricity, water, roads, and a hospital",
+      "category": "general",
+      "made_on": "2026-06-16",
+      "deadline": "2026",
+      "source_url": "https://web.archive.org/web/20260616042903/https://www.thehindu.com/news/national/telangana/house-site-pattas-distributed-indiramma-houses-sanctioned-to-eligible-poor-people-on-bhoodan-lands-in-velugumatla/article70731688.ece",
+      "source_description": "House site pattas distributed, Indiramma houses sanctioned to eligible poor people on Bhoodan lands in Velugumatla - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-16",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The colony is planned to be completed by December 9, 2026.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260616042903/https://www.thehindu.com/news/national/telangana/house-site-pattas-distributed-indiramma-houses-sanctioned-to-eligible-poor-people-on-bhoodan-lands-in-velugumatla/article70731688.ece",
+          "title": "House site pattas distributed, Indiramma houses sanctioned to eligible poor people on Bhoodan lands in Velugumatla - The Hindu",
+          "source": "News Article",
+          "scraped_at": "2026-03-11",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Deputy Chief Minister Mallu Bhatti Vikramarka**, during a visit to Khammam, announced plans for the construction of a model colony in Velugumatla for poor people.  The colony will include amenities like electricity, water, roads, and a hospital, with completion expected by December 9, 2026. **Mr. ...",
+          "content": "A model colony will be constructed with all amenities for the poor people in Velugumatla in Khammam city in such a way that people from other States in the country will come and visit it, said Deputy Chief Minister Mallu Bhatti Vikramarka. He said that the remaining 16 acres of land in Velugumatla, after distributing house sites to the poor, will be utilised for the construction of a Telangana Pub..."
+        }
+      ],
+      "notes": "The colony is planned to be completed by December 9, 2026.",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-06-16",
+      "created_at": "2026-06-16",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-16",
+      "promise_type": "specific",
+      "evidence_count": 1
+    },
+    {
+      "id": "p022",
+      "person": "Satya Kumar Yadav",
+      "party": null,
+      "role": "Politician",
+      "promise": "Expedite construction of newly-sanctioned medical colleges",
+      "category": "general",
+      "made_on": "2026-06-16",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260616044843/https://www.thehindu.com/news/national/andhra-pradesh/minister-urged-to-expedite-construction-work-on-medical-colleges/article70731796.ece",
+      "source_description": "Minister urged to expedite construction work on medical colleges - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-16",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the colleges are nearing completion and require minimal funding and administrative action.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260616044843/https://www.thehindu.com/news/national/andhra-pradesh/minister-urged-to-expedite-construction-work-on-medical-colleges/article70731796.ece",
+          "title": "Minister urged to expedite construction work on medical colleges - The Hindu",
+          "source": "News Article",
+          "scraped_at": "2026-03-11",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Praja Arogya Vedika (PAV)**, an organization advocating for medical education, urged **Minister for Health, Medical Education and Family Welfare, Satya Kumar Yadav**, to expedite the remaining construction work on newly-sanctioned medical colleges. PAV emphasized that these colleges are nearing co...",
+          "content": "Praja Arogya Vedika (PAV) wrote to Minister for Health, Medical Education and Family Welfare, Satya Kumar Yadav, urging him to expedite the remaining construction work on newly-sanctioned medical colleges and operationalise them at the earliest, before the beginning of the academic year, for the benefit of students. In the letter, they wrote that the construction of medical colleges and associated..."
+        }
+      ],
+      "notes": "The article states the colleges are nearing completion and require minimal funding and administrative action.",
+      "gemma_confidence": "high",
+      "gemma_assessed_at": "2026-06-16",
+      "created_at": "2026-06-16",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-16",
+      "promise_type": "specific",
       "evidence_count": 1
     }
   ]
