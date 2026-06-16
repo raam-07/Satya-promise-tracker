@@ -181,15 +181,30 @@ def find_similar_promise(new_promise_text, politician, existing_promises):
 def regex_pre_screen(title, content):
     text = (title + " " + content).lower()
     
-    # Scan for years ranging from 2014 to 2035
-    has_year = any(str(yr) in text for yr in range(2014, 2036))
-    if not has_year:
-        return False
-        
     # Standard keywords describing future goals, timelines, updates, or verdicts
     keywords = ["promise", "pledge", "target", "launch", "guarantee", "subsidy", 
                 "welfare", "scheme", "deadline", "verdict", "manifesto", "sankalp"]
-    return any(kw in text for kw in keywords)
+    has_keyword = any(kw in text for kw in keywords)
+    
+    # Scan for years ranging from 2014 to 2035
+    has_year = any(str(yr) in text for yr in range(2014, 2036))
+    
+    # Strong promise phrases or specific terms that indicate a commitment without a year
+    strong_promise_phrases = [
+        "will provide", "will give", "will build", "will create", "will make", "will end", 
+        "will clean", "will launch", "will double", "will ensure", "will deliver",
+        "promises to", "pledges to", "guarantees to", "vows to", "commits to",
+        "free electricity", "free water", "loan waiver", "debt waiver",
+        "na khaunga", "na khane dunga", "election promise", "poll promise", 
+        "manifesto promise", "broken promise", "kept promise",
+        "manifesto", "sankalp patra", "sankalp"
+    ]
+    has_strong_phrase = any(phrase in text for phrase in strong_promise_phrases)
+    
+    # We pass the pre-screen if the text contains:
+    # 1. A year AND one of the standard keywords, OR
+    # 2. Any of the strong promise phrases directly
+    return (has_year and has_keyword) or has_strong_phrase
 
 # Politician Name Validation Helper
 def is_valid_indian_politician(name):
