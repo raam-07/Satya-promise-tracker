@@ -228,8 +228,10 @@ def is_valid_indian_politician(name):
 def load_known_politicians():
     """
     Loads known politician names and aliases from entities.json (via GitHub raw URL or local file).
+    Returns a tuple: (set of lowercase names, dict mapping lowercase name -> party).
     """
     names = set()
+    metadata = {}
     url = "https://raw.githubusercontent.com/raam-07/satya-entity-library/main/entities.json"
     local_path = "../satya-entity-library/entities.json"
     
@@ -254,20 +256,38 @@ def load_known_politicians():
     if data and "india" in data:
         for cat in ['cabinet_ministers', 'opposition_leaders', 'state_chief_ministers', 'generic_politicians']:
             for p in data['india'].get(cat, []):
-                names.add(p['name'].lower().strip())
+                name = p['name'].strip()
+                party = p.get('party', '').strip()
+                names.add(name.lower())
+                metadata[name.lower()] = party
                 for alias in p.get('aliases', []):
                     names.add(alias.lower().strip())
+                    metadata[alias.lower().strip()] = party
                     
     # Seed with core/newly validated politicians just in case network/file fetch fails
-    core_names = [
-        "narendra modi", "amit shah", "arvind kejriwal", "rahul gandhi", "yogi adityanath",
-        "mamata banerjee", "siddaramaiah", "nitin gadkari", "d.k. shivakumar", "d.k. suresh",
-        "bhajan lal sharma", "revanth reddy", "stalin", "m.k. stalin", "chandrababu naidu"
-    ]
-    for n in core_names:
+    core_mappings = {
+        "narendra modi": "BJP",
+        "amit shah": "BJP",
+        "arvind kejriwal": "AAP",
+        "rahul gandhi": "Congress",
+        "yogi adityanath": "BJP",
+        "mamata banerjee": "TMC",
+        "siddaramaiah": "Congress",
+        "nitin gadkari": "BJP",
+        "d.k. shivakumar": "Congress",
+        "d.k. suresh": "Congress",
+        "bhajan lal sharma": "BJP",
+        "revanth reddy": "Congress",
+        "m.k. stalin": "DMK",
+        "stalin": "DMK",
+        "chandrababu naidu": "TDP"
+    }
+    for n, p in core_mappings.items():
         names.add(n)
-        
-    return names
+        if n not in metadata:
+            metadata[n] = p
+            
+    return names, metadata
 
 def is_known_politician(name, known_set):
     if not name:
@@ -284,6 +304,28 @@ def is_known_politician(name, known_set):
             return True
             
     return False
+
+def ask_llm_if_same_promise(llm_9b, promise_a, promise_b):
+    prompt = f"""<start_of_turn>user
+Determine if the following two political promise/welfare goal descriptions refer to the exact same promise or target.
+
+Promise A: {promise_a}
+Promise B: {promise_b}
+
+Reply ONLY with "YES" if they represent the same promise/goal (even if rephrased).
+Reply ONLY with "NO" if they represent different promises, targets, or projects.
+Do not write any explanation, introduction, or other characters.
+<end_of_turn>
+<start_of_turn>model
+"""
+    try:
+        output = llm_9b(prompt, max_tokens=10, temperature=0.0)
+        res = output['choices'][0]['text'].strip().upper()
+        logging.info(f"LLM Same Promise comparison result: {res}")
+        return "YES" in res
+    except Exception as e:
+        logging.error(f"Failed to compare promises via LLM: {e}")
+        return False
 
 
 
@@ -462,7 +504,7 @@ def main():
     
     # 1. Load existing promises data and known politician entities registry
     promises_data = load_promises()
-    known_politicians = load_known_politicians()
+    known_politicians, known_politicians_metadata = load_known_politicians()
     
     last_processed = promises_data["metadata"].get("last_processed_row", 0)
     if args.reset_pointer:
@@ -651,9 +693,17 @@ def main():
                     extracted_json["is_new_promise"] = False
                     extracted_json["matched_existing_promise_id"] = similar_p["id"]
                 elif score >= 0.60:
-                    logging.info(f"Duplicate check: Borderline similarity ({score:.2f}) between new promise '{promise_text}' and existing '{similar_p['id']}'. Sending to review.")
-                    save_to_review_queue(similar_p, extracted_json, f"borderline_duplicate_similarity_{score:.2f}")
-                    continue
+                    logging.info(f"Duplicate check: Borderline similarity ({score:.2f}) between new promise '{promise_text}' and existing '{similar_p['id']}'. Querying LLM-decider...")
+                    # LLM decides duplicates (Finding #2)
+                    if ask_llm_if_same_promise(llm_9b, promise_text, similar_p["promise"]):
+                        logging.info(f"LLM-decider resolved: Auto-merging with existing ID '{similar_p['id']}'")
+                        is_new = False
+                        matched_id = similar_p["id"]
+                        extracted_json["is_new_promise"] = False
+                        extracted_json["matched_existing_promise_id"] = similar_p["id"]
+                    else:
+                        logging.info(f"LLM-decider resolved: Treating as a separate distinct promise.")
+                        # Proceed as new promise
 
         if not is_new and matched_id:
             # Update existing promise
@@ -685,6 +735,16 @@ def main():
                                 save_to_review_queue(p, extracted_json, "insufficient_sources_for_broken")
                                 new_status = p["status"]
                                 
+                    if new_status != p["status"]:
+                        # Append to status history trajectory (Finding #5)
+                        if "status_history" not in p:
+                            p["status_history"] = []
+                        p["status_history"].append({
+                            "status": new_status,
+                            "changed_at": time.strftime("%Y-%m-%d"),
+                            "evidence_url": final_url
+                        })
+                        
                     p["status"] = new_status
                     p["status_last_reviewed"] = time.strftime("%Y-%m-%d")
                     p["gemma_suggestion"] = extracted_json.get("verdict", p.get("gemma_suggestion"))
@@ -719,21 +779,22 @@ def main():
             if not deadline_val or str(deadline_val).lower().strip() in ["null", "none", "n/a", ""]:
                 deadline_val = "ongoing"
 
-            # Normalize party
+            # Normalize party (Finding #7)
             party_val = extracted_json.get("party")
             if not party_val or str(party_val).lower().strip() in ["null", "none", "n/a", ""]:
-                # Try parsing database party_str fallback
+                party_val = known_politicians_metadata.get(politician_name.lower().strip())
+                
+            if not party_val or str(party_val).lower().strip() in ["null", "none", "n/a", ""]:
                 if party_str:
                     try:
                         parties = json.loads(party_str)
                         if isinstance(parties, list) and len(parties) > 0:
                             party_val = parties[0]
-                        else:
-                            party_val = "Unknown Party"
                     except Exception:
-                        party_val = "Unknown Party"
-                else:
-                    party_val = "Unknown Party"
+                        pass
+                        
+            if not party_val or str(party_val).lower().strip() in ["null", "none", "n/a", ""]:
+                party_val = "party unconfirmed"
 
             # Confidence and independent source gating for new promises (Finding #1)
             initial_status = extracted_json.get("verdict", "ongoing")
@@ -760,6 +821,13 @@ def main():
                 "source_description": title,
                 "status": initial_status,
                 "status_last_reviewed": time.strftime("%Y-%m-%d"),
+                "status_history": [
+                    {
+                        "status": initial_status,
+                        "changed_at": time.strftime("%Y-%m-%d"),
+                        "evidence_url": final_url
+                    }
+                ],
                 "gemma_suggestion": extracted_json.get("verdict", "ongoing"),
                 "gemma_reasoning": extracted_json.get("reasoning", ""),
                 "evidence_articles": [evidence_item],
