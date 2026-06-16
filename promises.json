@@ -4,8 +4,8 @@
     "last_updated": "2026-06-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 42,
-    "promises_with_evidence": 42,
+    "total_promises": 34,
+    "promises_with_evidence": 34,
     "last_processed_row": 41538,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
@@ -826,42 +826,6 @@
     },
     {
       "id": "p023",
-      "person": "Yao Ming",
-      "party": "NPC",
-      "role": "Politician",
-      "promise": "Address shortage of physical education teachers in schools and curb youth internet addiction",
-      "category": "general",
-      "made_on": "2026-06-16",
-      "deadline": "ongoing",
-      "source_url": "https://web.archive.org/web/20260616065916/https://www.sixthtone.com/news/1018292/2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence",
-      "source_description": "2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article states these were proposals discussed at the Two Sessions, indicating they are ongoing priorities.",
-      "evidence_articles": [
-        {
-          "url": "https://web.archive.org/web/20260616065916/https://www.sixthtone.com/news/1018292/2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence",
-          "title": "2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence",
-          "source": "News Article",
-          "scraped_at": "2026-03-11",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "**Yao Ming**, a former basketball player and NPC deputy, proposed measures to address the shortage of physical education teachers in schools and curb youth internet addiction. **Zhou Shihong**, a CPPCC member and lawyer, called for the abolition of China's labor dispatch system, arguing it has becom...",
-          "content": "2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence Physical education and labor rights have emerged as some of the most discussed topics at this year’s Two Sessions. The annual Two Sessions, or lianghui, bring together the nation’s top legislative and political advisory bodies — the National People’s Congress (NPC) and the Chinese People’s Political Consultative Conference (CPP..."
-        }
-      ],
-      "notes": "The article states these were proposals discussed at the Two Sessions, indicating they are ongoing priorities.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-16",
-      "created_at": "2026-06-16",
-      "url_status": "ok",
-      "url_checked_at": "2026-06-16",
-      "promise_type": "specific",
-      "evidence_count": 1
-    },
-    {
-      "id": "p024",
       "person": "K. Venkatesh",
       "party": "None specified",
       "role": "Politician",
@@ -897,7 +861,7 @@
       "evidence_count": 1
     },
     {
-      "id": "p025",
+      "id": "p024",
       "person": "D.K. Suresh",
       "party": null,
       "role": "Politician",
@@ -933,7 +897,7 @@
       "evidence_count": 1
     },
     {
-      "id": "p026",
+      "id": "p025",
       "person": "Eshwar Khandre",
       "party": null,
       "role": "Politician",
@@ -969,7 +933,7 @@
       "evidence_count": 1
     },
     {
-      "id": "p027",
+      "id": "p026",
       "person": "Amit Shah",
       "party": "BJP",
       "role": "Politician",
@@ -1015,7 +979,7 @@
       "evidence_count": 2
     },
     {
-      "id": "p028",
+      "id": "p027",
       "person": "Bhajan Lal Sharma",
       "party": null,
       "role": "Politician",
@@ -1051,86 +1015,14 @@
       "evidence_count": 1
     },
     {
-      "id": "p029",
-      "person": "Israel Katz",
-      "party": null,
-      "role": "Politician",
-      "promise": "Expand attacks in Lebanon and seize territory",
-      "category": "general",
-      "made_on": "2026-06-16",
-      "deadline": "null",
-      "source_url": "https://web.archive.org/web/20260616092445/https://www.dawn.com/news/1981537/strike-on-beirut-kills-12-after-israels-land-grab-threat",
-      "source_description": "Strike on Beirut kills 12 after Israel’s ‘land grab’ threat - World - DAWN.COM",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article states that Israel's Defence Minister Israel Katz ordered the expansion of attacks and seizure of territory, indicating this is an ongoing action.",
-      "evidence_articles": [
-        {
-          "url": "https://web.archive.org/web/20260616092445/https://www.dawn.com/news/1981537/strike-on-beirut-kills-12-after-israels-land-grab-threat",
-          "title": "Strike on Beirut kills 12 after Israel’s ‘land grab’ threat - World - DAWN.COM",
-          "source": "News Article",
-          "scraped_at": "2026-03-12",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "A **Hezbollah** retaliatory operation, involving 200 rockets and drones, targeted Israeli military sites in Tel Aviv and Haifa after a deadly Israeli strike on a Beirut seafront refugee camp killed 12 people and wounded 28.  The attack, which Israel claims was its \"biggest barrage\" since the conflic...",
-          "content": "• 28 hurt in seafront attack targeting civilians, displaced families; death toll in Lebanon near 700 • Hezbollah retaliates with ‘biggest barrage’, fires 200 rockets BEIRUT: A brutal Israeli strike on a central Beirut seafront, where displaced families were also sheltering in tents, killed 12 people and wounded 28 on Thursday, Lebanon’s health ministry said, as Israel threatened to expand operatio..."
-        }
-      ],
-      "notes": "The article states that Israel's Defence Minister Israel Katz ordered the expansion of attacks and seizure of territory, indicating this is an ongoing action.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-16",
-      "created_at": "2026-06-16",
-      "url_status": "ok",
-      "url_checked_at": "2026-06-16",
-      "promise_type": "specific",
-      "evidence_count": 1
-    },
-    {
-      "id": "p030",
-      "person": "John Lee Ka-chiu",
-      "party": null,
-      "role": "Politician",
-      "promise": "Align Hong Kong with China's 15th five-year plan, including building a commodity trading ecosystem, a high-quality supply chain service centre, and a global hub for high-end talent",
-      "category": "general",
-      "made_on": "2026-06-16",
-      "deadline": "2030",
-      "source_url": "https://web.archive.org/web/20260616093156/https://www.scmp.com/news/hong-kong/politics/article/3346399/hong-kongs-john-lee-pledges-align-chinas-new-5-year-plan?utm_source=rss_feed",
-      "source_description": "Hong Kong’s John Lee pledges to align with nation’s new 5-year plan | South China Morning Post",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article states Lee pledged to align Hong Kong with the plan, which outlines targets for 2026 to 2030.",
-      "evidence_articles": [
-        {
-          "url": "https://web.archive.org/web/20260616093156/https://www.scmp.com/news/hong-kong/politics/article/3346399/hong-kongs-john-lee-pledges-align-chinas-new-5-year-plan?utm_source=rss_feed",
-          "title": "Hong Kong’s John Lee pledges to align with nation’s new 5-year plan | South China Morning Post",
-          "source": "News Article",
-          "scraped_at": "2026-03-13",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "**John Lee Ka-chiu**, Hong Kong's Chief Executive, pledged to align the city with China's 15th five-year plan, transforming assigned \"new positioning, functions and missions\" into tangible economic outcomes.  Lee stated that Hong Kong must proactively seize opportunities aligned with national strate...",
-          "content": "Hong Kong’s John Lee pledges to align with nation’s new 5-year plan ‘Hong Kong must seize every opportunity to align proactively with national strategic requirements,’ city leader says Hong Kong’s leader has pledged to align with national strategies outlined in the country’s latest five-year plan and transform the city’s “new positionings, functions and missions” assigned by Beijing into “tangible..."
-        }
-      ],
-      "notes": "The article states Lee pledged to align Hong Kong with the plan, which outlines targets for 2026 to 2030.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-16",
-      "created_at": "2026-06-16",
-      "url_status": "ok",
-      "url_checked_at": "2026-06-16",
-      "promise_type": "specific",
-      "evidence_count": 1
-    },
-    {
-      "id": "p031",
+      "id": "p028",
       "person": "K.H. Muniyappa",
       "party": null,
       "role": "Politician",
       "promise": "Prioritize commercial LPG supply for hospitals, hostels, and residential schools",
       "category": "general",
       "made_on": "2026-06-16",
-      "deadline": "null",
+      "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616103551/https://www.thehindu.com/newsletter/karnataka-today/here-are-the-big-stories-from-karnataka-today/article70739763.ece",
       "source_description": "Here are the big stories from Karnataka today - The Hindu",
       "status": "ongoing",
@@ -1159,43 +1051,7 @@
       "evidence_count": 1
     },
     {
-      "id": "p032",
-      "person": "Andhra Pradesh Backward Classes Welfare Department",
-      "party": null,
-      "role": "Politician",
-      "promise": "Free coaching for Railway Recruitment Board Group D 2026 exam for BC, SC, and ST communities in former West Godavari district",
-      "category": "general",
-      "made_on": "2026-06-16",
-      "deadline": "2026",
-      "source_url": "https://web.archive.org/web/20260616104135/https://www.thehindu.com/news/national/andhra-pradesh/free-coaching-for-railway-group-d-exam-bc-study-circle-invites-applications/article70738950.ece",
-      "source_description": "Free coaching for Railway Group D exam: BC Study Circle invites applications - The Hindu",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The program has been announced and applications are open until March 23rd.",
-      "evidence_articles": [
-        {
-          "url": "https://web.archive.org/web/20260616104135/https://www.thehindu.com/news/national/andhra-pradesh/free-coaching-for-railway-group-d-exam-bc-study-circle-invites-applications/article70738950.ece",
-          "title": "Free coaching for Railway Group D exam: BC Study Circle invites applications - The Hindu",
-          "source": "News Article",
-          "scraped_at": "2026-03-13",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "**The Backward Classes Welfare Department** of Andhra Pradesh has announced a free coaching program for eligible candidates from BC, SC, and ST communities in the former West Godavari district who wish to take the Railway Recruitment Board Group D 2026 examination. The program will provide two month...",
-          "content": "The Backward Classes Welfare Department has invited applications from eligible candidates belonging to BC, SC and ST communities of the erstwhile West Godavari district for free coaching for the Railway Recruitment Board Group D 2026 examination. District Backward Classes Welfare Officer V. Nagarani said the programme is being implemented as per the directions of the Andhra Pradesh Backward Classe..."
-        }
-      ],
-      "notes": "The program has been announced and applications are open until March 23rd.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-16",
-      "created_at": "2026-06-16",
-      "url_status": "ok",
-      "url_checked_at": "2026-06-16",
-      "promise_type": "specific",
-      "evidence_count": 1
-    },
-    {
-      "id": "p033",
+      "id": "p029",
       "person": "Ponguleti Srinivasa Reddy",
       "party": null,
       "role": "Politician",
@@ -1231,7 +1087,7 @@
       "evidence_count": 1
     },
     {
-      "id": "p034",
+      "id": "p030",
       "person": "G.R Anil",
       "party": null,
       "role": "Politician",
@@ -1267,14 +1123,14 @@
       "evidence_count": 1
     },
     {
-      "id": "p035",
+      "id": "p031",
       "person": "Palla Srinivasa Rao",
       "party": "TDP",
       "role": "Politician",
       "promise": "Relocate the garbage dumping yard",
       "category": "general",
       "made_on": "2026-06-16",
-      "deadline": "null",
+      "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616114750/https://www.thehindu.com/news/national/andhra-pradesh/residents-of-16-villages-to-launch-indefinite-strike-from-march-20-against-gvmcs-garbage-dump-in-gajuwaka/article70739441.ece",
       "source_description": "Residents of 16 localities to go on strike from March 20 against GVMC’s garbage dump in Gajuwaka - The Hindu",
       "status": "broken",
@@ -1303,7 +1159,7 @@
       "evidence_count": 1
     },
     {
-      "id": "p036",
+      "id": "p032",
       "person": "N. Chandrababu Naidu",
       "party": "TDP",
       "role": "Politician",
@@ -1339,43 +1195,7 @@
       "evidence_count": 1
     },
     {
-      "id": "p037",
-      "person": "Virender Sambyal",
-      "party": "NHAI",
-      "role": "Politician",
-      "promise": "Complete the Chennai Port-Maduravoyal elevated corridor",
-      "category": "general",
-      "made_on": "2026-06-16",
-      "deadline": "2027",
-      "source_url": "https://web.archive.org/web/20260616125043/https://www.thehindu.com/news/cities/chennai/chennai-port-maduravoyal-elevated-corridor-to-be-completed-by-november-2027-nhai/article70728078.ece",
-      "source_description": "Chennai Port-Maduravoyal elevated corridor to be completed by November 2027: NHAI - The Hindu",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The project is expected to be completed by November 2027.",
-      "evidence_articles": [
-        {
-          "url": "https://web.archive.org/web/20260616125043/https://www.thehindu.com/news/cities/chennai/chennai-port-maduravoyal-elevated-corridor-to-be-completed-by-november-2027-nhai/article70728078.ece",
-          "title": "Chennai Port-Maduravoyal elevated corridor to be completed by November 2027: NHAI - The Hindu",
-          "source": "News Article",
-          "scraped_at": "2026-03-10",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "The **National Highways Authority of India (NHAI)** is on track to complete the construction of the two-tier Chennai Port-Maduravoyal elevated corridor by November 2027. The project, which will improve connectivity for port-bound vehicles, involves pre-casting single-cell box girders and removing ri...",
-          "content": "With work to pre-cast single-cell box girders progressing fast at their 64-acre casting yard near Chembarambakkam, the National Highways Authority of India (NHAI) is set to complete construction of the two-tier Chennai Port-Maduravoyal elevated corridor by November 2027. “The State government is cooperating with us and has promised to help us increase the number of working hours daily from 11 to 1..."
-        }
-      ],
-      "notes": "The project is expected to be completed by November 2027.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-16",
-      "created_at": "2026-06-16",
-      "url_status": "ok",
-      "url_checked_at": "2026-06-16",
-      "promise_type": "specific",
-      "evidence_count": 1
-    },
-    {
-      "id": "p038",
+      "id": "p033",
       "person": "Sunetra Pawar",
       "party": null,
       "role": "Politician",
@@ -1411,122 +1231,14 @@
       "evidence_count": 1
     },
     {
-      "id": "p039",
-      "person": "Yao Ming",
-      "party": "NPC",
-      "role": "Politician",
-      "promise": "Address shortage of physical education teachers in schools and curb youth internet addiction",
-      "category": "general",
-      "made_on": "2026-06-16",
-      "deadline": "ongoing",
-      "source_url": "https://web.archive.org/web/20260616133540/https://www.sixthtone.com/news/1018292/2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence",
-      "source_description": "2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article states these are proposals discussed at the Two Sessions, indicating they are ongoing and not yet implemented.",
-      "evidence_articles": [
-        {
-          "url": "https://web.archive.org/web/20260616133540/https://www.sixthtone.com/news/1018292/2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence",
-          "title": "2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence",
-          "source": "News Article",
-          "scraped_at": "2026-03-11",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "**Yao Ming**, a former basketball player and NPC deputy, proposed measures to address the shortage of physical education teachers in schools and curb youth internet addiction. **Zhou Shihong**, a CPPCC member and lawyer, called for the abolition of China's labor dispatch system, arguing it has becom...",
-          "content": "2026’s Two Sessions Takeaways: PE, Labor Rights, and Domestic Violence Physical education and labor rights have emerged as some of the most discussed topics at this year’s Two Sessions. The annual Two Sessions, or lianghui, bring together the nation’s top legislative and political advisory bodies — the National People’s Congress (NPC) and the Chinese People’s Political Consultative Conference (CPP..."
-        }
-      ],
-      "notes": "The article states these are proposals discussed at the Two Sessions, indicating they are ongoing and not yet implemented.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-16",
-      "created_at": "2026-06-16",
-      "url_status": "ok",
-      "url_checked_at": "2026-06-16",
-      "promise_type": "specific",
-      "evidence_count": 1
-    },
-    {
-      "id": "p040",
-      "person": "Tamil Nadu government",
-      "party": null,
-      "role": "Politician",
-      "promise": "₹2-per-unit electricity subsidy for hotels, tea stalls, and cloud kitchens using electric stoves",
-      "category": "general",
-      "made_on": "2026-06-16",
-      "deadline": "ongoing",
-      "source_url": "https://web.archive.org/web/20260616135220/https://www.thehindu.com/news/national/tamil-nadu/tn-announces-2-per-unit-electricity-subsidy-for-hotels-cloud-kitchens-using-electric-stoves/article70742965.ece",
-      "source_description": "T.N. announces ₹2-per-unit electricity subsidy for hotels, cloud kitchens using electric stoves - The Hindu",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article states this is a new decision made to address the LPG shortage.",
-      "evidence_articles": [
-        {
-          "url": "https://web.archive.org/web/20260616135220/https://www.thehindu.com/news/national/tamil-nadu/tn-announces-2-per-unit-electricity-subsidy-for-hotels-cloud-kitchens-using-electric-stoves/article70742965.ece",
-          "title": "T.N. announces ₹2-per-unit electricity subsidy for hotels, cloud kitchens using electric stoves - The Hindu",
-          "source": "News Article",
-          "scraped_at": "2026-03-14",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "**The Tamil Nadu government** announced a ₹2-per-unit electricity subsidy for hotels, tea stalls, and cloud kitchens using electric stoves. This decision was made to address the LPG shortage caused by the war in West Asia. The government also allocated kerosene for ration card holders and offered lo...",
-          "content": "The Tamil Nadu government on Saturday (March 14, 2026) announced a ₹2-per-unit subsidy on electricity for hotels, tea stalls, and cloud kitchens that use electric stoves instead of LPG cylinders. The decision was taken at a meeting chaired by Chief Minister M.K. Stalin to discuss the crisis caused by the lack of adequate LPG in the wake of the war in West Asia. A State government press release sai..."
-        }
-      ],
-      "notes": "The article states this is a new decision made to address the LPG shortage.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-16",
-      "created_at": "2026-06-16",
-      "url_status": "ok",
-      "url_checked_at": "2026-06-16",
-      "promise_type": "specific",
-      "evidence_count": 1
-    },
-    {
-      "id": "p041",
-      "person": "Vice-Chancellor of CU",
-      "party": null,
-      "role": "Politician",
-      "promise": "Set up a committee to address the reasons behind the disaffiliation and suggest changes",
-      "category": "general",
-      "made_on": "2026-06-16",
-      "deadline": "null",
-      "source_url": "https://web.archive.org/web/20260616140915/https://www.thehindu.com/news/national/kerala/old-courses-on-their-way-out-in-calicut-varsitys-affiliated-colleges/article70743098.ece",
-      "source_description": "Old courses on their way out in Calicut varsity’s affiliated colleges - The Hindu",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
-      "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article states the Vice-Chancellor has promised to set up the committee, but doesn't indicate if it's been formed or what actions have been taken.",
-      "evidence_articles": [
-        {
-          "url": "https://web.archive.org/web/20260616140915/https://www.thehindu.com/news/national/kerala/old-courses-on-their-way-out-in-calicut-varsitys-affiliated-colleges/article70743098.ece",
-          "title": "Old courses on their way out in Calicut varsity’s affiliated colleges - The Hindu",
-          "source": "News Article",
-          "scraped_at": "2026-03-14",
-          "relevance_score": 100,
-          "gemma_validated": true,
-          "rephrased": "**University of Calicut** (CU) in Kerala discontinued 68 courses across 52 colleges during the 2024-25 academic year, with some colleges replacing them with new integrated and honors courses.  The disaffiliated courses included BVoc (Agriculture), BSc (Mathematics), BSc (Electronics), BSc (Physics),...",
-          "content": "The four-year undergraduate programme was launched in Kerala’s universities in the 2024-25 academic year. In the same year, 68 courses in 52 colleges in the University of Calicut (CU), the State’s largest university in terms of the number of affiliated institutions, were discontinued. At the same time, some of the colleges launched new-age integrated and honours courses as well, reflecting the chu..."
-        }
-      ],
-      "notes": "The article states the Vice-Chancellor has promised to set up the committee, but doesn't indicate if it's been formed or what actions have been taken.",
-      "gemma_confidence": "high",
-      "gemma_assessed_at": "2026-06-16",
-      "created_at": "2026-06-16",
-      "url_status": "ok",
-      "url_checked_at": "2026-06-16",
-      "promise_type": "specific",
-      "evidence_count": 1
-    },
-    {
-      "id": "p042",
+      "id": "p034",
       "person": "Siddaramaiah",
       "party": "Congress",
       "role": "Politician",
       "promise": "Additional funding for the third phase of the Upper Krishna Project (UKP)",
       "category": "general",
       "made_on": "2026-06-16",
-      "deadline": "null",
+      "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260616143830/https://www.thehindu.com/news/national/karnataka/chief-minister-promises-additional-grants-for-phase-iii-of-upper-krishna-project/article70743495.ece",
       "source_description": "Chief Minister promises additional grants for Phase III of Upper Krishna Project - The Hindu",
       "status": "ongoing",
