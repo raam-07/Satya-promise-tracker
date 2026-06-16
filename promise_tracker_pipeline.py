@@ -153,6 +153,68 @@ def is_valid_indian_politician(name):
         
     return True
 
+# Load Known Politician Registry
+def load_known_politicians():
+    """
+    Loads known politician names and aliases from entities.json (via GitHub raw URL or local file).
+    """
+    names = set()
+    url = "https://raw.githubusercontent.com/raam-07/satya-entity-library/main/entities.json"
+    local_path = "../satya-entity-library/entities.json"
+    
+    data = None
+    if os.path.exists(local_path):
+        try:
+            with open(local_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            logging.info("Loaded entities.json from local path.")
+        except Exception as e:
+            logging.warning(f"Failed to load local entities.json: {e}")
+            
+    if not data:
+        try:
+            logging.info(f"Fetching entities.json from remote: {url}")
+            r = requests.get(url, timeout=10)
+            if r.status_code == 200:
+                data = r.json()
+        except Exception as e:
+            logging.warning(f"Failed to fetch remote entities.json: {e}")
+            
+    if data and "india" in data:
+        for cat in ['cabinet_ministers', 'opposition_leaders', 'state_chief_ministers', 'generic_politicians']:
+            for p in data['india'].get(cat, []):
+                names.add(p['name'].lower().strip())
+                for alias in p.get('aliases', []):
+                    names.add(alias.lower().strip())
+                    
+    # Seed with core/newly validated politicians just in case network/file fetch fails
+    core_names = [
+        "narendra modi", "amit shah", "arvind kejriwal", "rahul gandhi", "yogi adityanath",
+        "mamata banerjee", "siddaramaiah", "nitin gadkari", "d.k. shivakumar", "d.k. suresh",
+        "bhajan lal sharma", "revanth reddy", "stalin", "m.k. stalin", "chandrababu naidu"
+    ]
+    for n in core_names:
+        names.add(n)
+        
+    return names
+
+def is_known_politician(name, known_set):
+    if not name:
+        return False
+    name_clean = name.lower().strip()
+    
+    # Direct match
+    if name_clean in known_set:
+        return True
+        
+    # Substring match (e.g. "PM Narendra Modi" matches "narendra modi")
+    for k in known_set:
+        if k in name_clean or name_clean in k:
+            return True
+            
+    return False
+
+
 
 # LLM Loading Helper
 def init_llm(model_path, ctx_size):
@@ -318,8 +380,9 @@ def main():
 
     logging.info("Starting Satya Promise Tracker Pipeline...")
     
-    # 1. Load existing promises data
+    # 1. Load existing promises data and known politician entities registry
     promises_data = load_promises()
+    known_politicians = load_known_politicians()
     
     last_processed = promises_data["metadata"].get("last_processed_row", 0)
     if args.reset_pointer:
@@ -474,6 +537,10 @@ def main():
             politician_name = extracted_json.get("politician", "Unknown Politician")
             if not is_valid_indian_politician(politician_name):
                 logging.warning(f"Skipping promise extraction: Invalid/generic political entity name: '{politician_name}'")
+                continue
+
+            if not is_known_politician(politician_name, known_politicians):
+                logging.warning(f"Skipping promise extraction: Politician '{politician_name}' is not registered in the entities database.")
                 continue
 
             # Generate next sequential ID
