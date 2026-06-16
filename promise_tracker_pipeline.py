@@ -240,13 +240,126 @@ def is_valid_indian_politician(name):
     return True
 
 # Load Known Politician Registry
+# Constants for Promise Importance Tagging
+HIGH_IMPACT_CATEGORIES = [
+    "jobs/employment",
+    "economy",
+    "corruption/governance",
+    "farmers/agriculture",
+    "health",
+    "education",
+    "welfare",
+    "infrastructure"
+]
+
+SENIOR_ROLES = [
+    "Prime Minister",
+    "Union Cabinet Minister",
+    "Chief Minister",
+    "Deputy CM",
+    "State Cabinet Minister"
+]
+
+def normalize_category(cat):
+    if not cat:
+        return ""
+    c = cat.lower().strip()
+    mapping = {
+        "farmer_agriculture": "farmers/agriculture",
+        "farmer/agriculture": "farmers/agriculture",
+        "farmers_agriculture": "farmers/agriculture",
+        "jobs_employment": "jobs/employment",
+        "jobs/employment": "jobs/employment",
+        "corruption_governance": "corruption/governance",
+        "corruption/governance": "corruption/governance",
+        "corruption_scam": "corruption/governance",
+        "governance": "corruption/governance",
+    }
+    return mapping.get(c, c)
+
+def get_senior_role_classification(role, category):
+    if not role:
+        return None
+    r_lower = role.lower()
+    c_lower = category.lower() if category else ""
+    
+    # 1. Prime Minister
+    if "prime minister" in r_lower:
+        return "Prime Minister"
+    
+    # 2. Chief Minister
+    if "chief minister" in r_lower and "former" not in r_lower and "deputy" not in r_lower:
+        return "Chief Minister"
+        
+    # 3. Deputy CM
+    if "deputy chief minister" in r_lower or "deputy cm" in r_lower:
+        return "Deputy CM"
+        
+    # 4. Union Cabinet Minister
+    if c_lower == "cabinet_ministers" or "union minister" in r_lower or "union cabinet minister" in r_lower:
+        return "Union Cabinet Minister"
+        
+    # 5. State Cabinet Minister
+    if "minister" in r_lower and "former" not in r_lower and "union" not in r_lower:
+        return "State Cabinet Minister"
+        
+    return None
+
+def classify_importance(promise_obj, known_politicians_details):
+    person = promise_obj.get("person", "")
+    promise_text = promise_obj.get("promise", "")
+    category = promise_obj.get("category", "")
+    
+    # Look up politician info
+    pol_info = known_politicians_details.get(person.lower().strip(), {})
+    role = pol_info.get("role", promise_obj.get("role", "Politician"))
+    pol_cat = pol_info.get("category", "")
+    
+    norm_cat = normalize_category(category)
+    has_high_impact_cat = norm_cat in HIGH_IMPACT_CATEGORIES
+    
+    senior_role = get_senior_role_classification(role, pol_cat)
+    has_senior_role = senior_role in SENIOR_ROLES
+    
+    # Strict Override check (explicit scale signals)
+    text = promise_text.lower()
+    mass_indicators = [
+        "crore", "lakh", "million", 
+        "every household", "every family", "every farmer", "every citizen", 
+        "all farmers", "all families", "all households", "all citizens",
+        "nationwide", "statewide", "across the state", "across the country"
+    ]
+    has_mass_scale = any(ind in text for ind in mass_indicators)
+    
+    # We require the leader to be CM/PM/Minister to trigger the scale override (keeps it realistic)
+    is_senior_leader = senior_role is not None or any(r in role.lower() for r in ["minister", "cm", "pm"])
+    is_override = has_mass_scale and is_senior_leader
+    
+    if has_high_impact_cat and has_senior_role:
+        reason = f"high-impact category ({norm_cat}) + senior role ({senior_role or role})"
+        return "critical", reason
+    elif is_override:
+        reason = f"strict scale override ({' & '.join(ind for ind in mass_indicators if ind in text)}) by senior leader"
+        return "critical", reason
+    else:
+        # Build reason why it is minor
+        reasons = []
+        if not has_high_impact_cat:
+            reasons.append(f"category '{category}' not in high-impact list")
+        if not has_senior_role:
+            reasons.append(f"role '{role}' is not senior cabinet/exec level")
+        reason = "minor: " + ", ".join(reasons)
+        return "minor", reason
+
+# Load Known Politician Registry
 def load_known_politicians():
     """
     Loads known politician names and aliases from entities.json (via GitHub raw URL or local file).
-    Returns a tuple: (set of lowercase names, dict mapping lowercase name -> party).
+    Returns a tuple: (set of lowercase names, dict mapping lowercase name -> party, dict mapping lowercase name -> details).
     """
     names = set()
     metadata = {}
+    details = {}
     url = "https://raw.githubusercontent.com/raam-07/satya-entity-library/main/entities.json"
     local_path = "../satya-entity-library/entities.json"
     
@@ -271,38 +384,61 @@ def load_known_politicians():
     if data and "india" in data:
         for cat in ['cabinet_ministers', 'opposition_leaders', 'state_chief_ministers', 'generic_politicians']:
             for p in data['india'].get(cat, []):
-                name = p['name'].strip()
-                party = p.get('party', '').strip()
+                name = (p.get('name') or '').strip()
+                party = (p.get('party') or '').strip()
+                role = (p.get('role') or '').strip()
                 names.add(name.lower())
                 metadata[name.lower()] = party
+                
+                info = {
+                    "name": name,
+                    "party": party,
+                    "role": role,
+                    "category": cat,
+                    "state": (p.get('state') or '').strip()
+                }
+                details[name.lower()] = info
+                
                 for alias in p.get('aliases', []):
-                    names.add(alias.lower().strip())
-                    metadata[alias.lower().strip()] = party
+                    alias_lower = alias.lower().strip()
+                    names.add(alias_lower)
+                    metadata[alias_lower] = party
+                    details[alias_lower] = info
                     
     # Seed with core/newly validated politicians just in case network/file fetch fails
     core_mappings = {
-        "narendra modi": "BJP",
-        "amit shah": "BJP",
-        "arvind kejriwal": "AAP",
-        "rahul gandhi": "Congress",
-        "yogi adityanath": "BJP",
-        "mamata banerjee": "TMC",
-        "siddaramaiah": "Congress",
-        "nitin gadkari": "BJP",
-        "d.k. shivakumar": "Congress",
-        "d.k. suresh": "Congress",
-        "bhajan lal sharma": "BJP",
-        "revanth reddy": "Congress",
-        "m.k. stalin": "DMK",
-        "stalin": "DMK",
-        "chandrababu naidu": "TDP"
+        "narendra modi": ("BJP", "Prime Minister"),
+        "amit shah": ("BJP", "Union Home Minister"),
+        "arvind kejriwal": ("AAP", "Chief Minister"),
+        "rahul gandhi": ("Congress", "Leader of Opposition"),
+        "yogi adityanath": ("BJP", "Chief Minister"),
+        "mamata banerjee": ("TMC", "Chief Minister"),
+        "siddaramaiah": ("Congress", "Chief Minister"),
+        "nitin gadkari": ("BJP", "Union Minister"),
+        "d.k. shivakumar": ("Congress", "Chief Minister"),
+        "d.k. suresh": ("Congress", "MP"),
+        "bhajan lal sharma": ("BJP", "Chief Minister"),
+        "revanth reddy": ("Congress", "Chief Minister"),
+        "m.k. stalin": ("DMK", "Chief Minister"),
+        "stalin": ("DMK", "Chief Minister"),
+        "chandrababu naidu": ("TDP", "Chief Minister")
     }
-    for n, p in core_mappings.items():
+    for n, (party, role) in core_mappings.items():
         names.add(n)
-        if n not in metadata:
-            metadata[n] = p
+        metadata[n] = party
+        if n not in details:
+            details[n] = {
+                "name": n.title(),
+                "party": party,
+                "role": role,
+                "category": "cabinet_ministers" if "minister" in role.lower() or "pm" in role.lower() else "generic_politicians",
+                "state": ""
+            }
+        else:
+            details[n]["role"] = role
+            details[n]["party"] = party
             
-    return names, metadata
+    return names, metadata, details
 
 def is_known_politician(name, known_set):
     if not name:
@@ -435,6 +571,7 @@ JSON SCHEMA:
   "matched_existing_promise_id": "pXXX or null",
   "verdict": "kept, broken, or ongoing",
   "confidence": "high, medium, or low (use high only if the text explicitly confirms the verdict)",
+  "importance": "critical or minor (advisory hint: mark critical if it is a major state/national promise affecting millions, otherwise minor)",
   "reasoning": "1-2 sentences grounded only in the article"
 }}
 
@@ -504,6 +641,48 @@ If everything passes, reply ONLY "APPROVED". Otherwise "REJECTED: [brief reason]
         return False, f"REJECTED: critic logic failure: {e}"
 
 
+def backfill_promise_importance(promises_data, known_politicians_details, dry_run=False):
+    logging.info("Running one-time backfill of importance fields for all existing promises...")
+    total = len(promises_data["promises"])
+    critical_count = 0
+    minor_count = 0
+    updated_count = 0
+    
+    for p in promises_data["promises"]:
+        old_imp = p.get("importance")
+        old_reason = p.get("importance_reason")
+        old_role = p.get("role")
+        
+        # Resolve canonical role
+        pol_info = known_politicians_details.get(p["person"].lower().strip(), {})
+        p["role"] = pol_info.get("role", p.get("role", "Politician"))
+        
+        if "importance_hint" not in p:
+            p["importance_hint"] = "minor"
+            
+        imp, reason = classify_importance(p, known_politicians_details)
+        p["importance"] = imp
+        p["importance_reason"] = reason
+        
+        if imp == "critical":
+            critical_count += 1
+        else:
+            minor_count += 1
+            
+        if old_imp != imp or old_reason != reason or old_role != p["role"]:
+            updated_count += 1
+            
+    pct_critical = (critical_count / total * 100) if total > 0 else 0
+    logging.info(f"Backfill Complete. Total Promises: {total}. Critical: {critical_count} ({pct_critical:.1f}%), Minor: {minor_count} ({100-pct_critical:.1f}%).")
+    logging.info(f"Updated {updated_count} promises with new values.")
+    
+    if not dry_run and updated_count > 0:
+        save_promises(promises_data)
+        logging.info("Saved backfilled importance fields to promises.json")
+    else:
+        logging.info("No changes saved (dry-run or no updates needed).")
+
+
 # ==============================================================================
 # --- MAIN PIPELINE EXECUTION ---
 # ==============================================================================
@@ -513,13 +692,18 @@ def main():
     parser.add_argument('--batch-size', type=int, default=500, help="Number of articles to process in this run (default 500)")
     parser.add_argument('--reset-pointer', action='store_true', help="Reset the last_processed_row pointer to 0 and scan from beginning")
     parser.add_argument('--dry-run', action='store_true', help="Run without writing changes to promises.json or archiving URLs")
+    parser.add_argument('--backfill-importance', action='store_true', help="Run a one-time backfill of importance fields for all promises in promises.json and exit")
     args = parser.parse_args()
 
     logging.info("Starting Satya Promise Tracker Pipeline...")
     
     # 1. Load existing promises data and known politician entities registry
     promises_data = load_promises()
-    known_politicians, known_politicians_metadata = load_known_politicians()
+    known_politicians, known_politicians_metadata, known_politicians_details = load_known_politicians()
+
+    if args.backfill_importance:
+        backfill_promise_importance(promises_data, known_politicians_details, args.dry_run)
+        sys.exit(0)
     
     last_processed = promises_data["metadata"].get("last_processed_row", 0)
     if args.reset_pointer:
@@ -766,6 +950,20 @@ def main():
                     p["gemma_reasoning"] = extracted_json.get("reasoning", p.get("gemma_reasoning"))
                     p["supporting_quote"] = extracted_json.get("supporting_quote", p.get("supporting_quote", ""))
                     p["evidence_count"] = len(p["evidence_articles"])
+                    
+                    # Update category if extracted
+                    if extracted_json.get("category"):
+                        p["category"] = extracted_json["category"]
+                        
+                    # Resolve canonical role
+                    pol_info = known_politicians_details.get(p["person"].lower().strip(), {})
+                    p["role"] = pol_info.get("role", p.get("role", "Politician"))
+                    
+                    # Store LLM advisory hint and compute importance via code rule
+                    p["importance_hint"] = extracted_json.get("importance", "minor")
+                    imp, reason = classify_importance(p, known_politicians_details)
+                    p["importance"] = imp
+                    p["importance_reason"] = reason
                     found = True
                     updated_promise_count += 1
                     logging.info(f"Updated existing promise ID: {matched_id}")
@@ -822,11 +1020,15 @@ def main():
                 save_to_review_queue({"person": politician_name, "id": next_id}, extracted_json, "new_promise_low_confidence_gated")
                 initial_status = "ongoing"
 
+            # Resolve canonical role
+            pol_info = known_politicians_details.get(politician_name.lower().strip(), {})
+            pol_role = pol_info.get("role", "Politician")
+
             new_promise = {
                 "id": next_id,
                 "person": politician_name,
                 "party": party_val,
-                "role": "Politician",
+                "role": pol_role,
                 "promise": extracted_json.get("promise_text", title),
                 "supporting_quote": extracted_json.get("supporting_quote", ""),
                 "category": extracted_json.get("category", "general"),
@@ -853,8 +1055,14 @@ def main():
                 "url_status": "ok",
                 "url_checked_at": time.strftime("%Y-%m-%d"),
                 "promise_type": "specific",
-                "evidence_count": 1
+                "evidence_count": 1,
+                "importance_hint": extracted_json.get("importance", "minor")
             }
+            # Compute importance using pure code rule
+            imp_val, imp_reason = classify_importance(new_promise, known_politicians_details)
+            new_promise["importance"] = imp_val
+            new_promise["importance_reason"] = imp_reason
+
             promises_data["promises"].append(new_promise)
             new_promise_count += 1
             logging.info(f"Created new promise ID: {next_id}")
