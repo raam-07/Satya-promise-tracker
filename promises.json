@@ -4,9 +4,9 @@
     "last_updated": "2026-06-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 34,
-    "promises_with_evidence": 34,
-    "last_processed_row": 39976,
+    "total_promises": 35,
+    "promises_with_evidence": 35,
+    "last_processed_row": 40466,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -1401,6 +1401,54 @@
       "importance_hint": "minor",
       "importance": "critical",
       "importance_reason": "high-impact category (infrastructure) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p035",
+      "person": "A. Revanth Reddy",
+      "party": "Telangana Rashtra Samithi (TRS)",
+      "role": "Politician",
+      "promise": "achieve a $1 trillion economy by 2035",
+      "supporting_quote": "Reddy emphasized the state's ambition to attract Fortune 500 companies and achieve a $1 trillion economy by 2035.",
+      "category": "economy",
+      "made_on": "2026-03-12",
+      "deadline": "2035",
+      "source_url": "https://web.archive.org/web/20260616213059/https://www.thehindu.com/news/cities/Hyderabad/telangana-cm-inaugurates-netflix-eyeline-studios-vfx-hub-in-hyderabad/article70734306.ece",
+      "source_description": "Telangana CM inaugurates Netflix Eyeline Studio’s VFX hub in Hyderabad - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-16",
+          "evidence_url": "https://web.archive.org/web/20260616213059/https://www.thehindu.com/news/cities/Hyderabad/telangana-cm-inaugurates-netflix-eyeline-studios-vfx-hub-in-hyderabad/article70734306.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is stated as a goal for the state's economic development.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260616213059/https://www.thehindu.com/news/cities/Hyderabad/telangana-cm-inaugurates-netflix-eyeline-studios-vfx-hub-in-hyderabad/article70734306.ece",
+          "title": "Telangana CM inaugurates Netflix Eyeline Studio’s VFX hub in Hyderabad - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-12",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Telangana Chief Minister A. Revanth Reddy** inaugurated **Netflix Eyeline Studio’s** VFX hub in Hyderabad on Thursday, March 12, 2026.  Reddy emphasized the state's ambition to attract Fortune 500 companies and achieve a $1 trillion economy by 2035. He suggested that **Netflix** consider establish...",
+          "content": "Netflix Eyeline Studio’s VFX hub in Hyderabad was inaugurated by Telangana Chief Minister A. Revanth Reddy on Thursday (March 12, 2026). Addressing the gathering, the Chief Minister said the State government is keen on hosting the facilities of all Fortune 500 companies. This is part of the strategy to achieve the $1 trillion economy target by 2035 it has set. Telangana’s economy now is $200 milli...",
+          "quote": "Reddy emphasized the state's ambition to attract Fortune 500 companies and achieve a $1 trillion economy by 2035."
+        }
+      ],
+      "notes": "The promise is stated as a goal for the state's economic development.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-16",
+      "created_at": "2026-06-16",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     }
   ]
 }
