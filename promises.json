@@ -4,9 +4,9 @@
     "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 48,
-    "promises_with_evidence": 48,
-    "last_processed_row": 46320,
+    "total_promises": 51,
+    "promises_with_evidence": 51,
+    "last_processed_row": 46820,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -803,9 +803,9 @@
       "source_url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1949023",
       "source_description": "PIB: PM's address to the nation on 76th Independence Day (Viksit Bharat)",
       "status": "ongoing",
-      "status_last_reviewed": "2026-05-23",
+      "status_last_reviewed": "2026-06-17",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "Long term vision, too early to assess.",
+      "gemma_reasoning": "The promise is stated as a key goal for an NDA government in Kerala, implying a significant impact on the state's economy and development.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/pm-modi-assures-more-support-to-telangana-asks-cm-to-align-with-viksit-bharat/article67923405.ece",
@@ -816,6 +816,17 @@
           "gemma_validated": true,
           "rephrased": "Prime Minister Narendra Modi urged state CMs to align local infrastructure plans with the national Viksit Bharat developed-nation targets for 2047.",
           "content": "Prime Minister Narendra Modi stated that every state must coordinate with the Centre to ensure the collective realization of the developed India vision by 2047."
+        },
+        {
+          "url": "https://web.archive.org/web/20260617160948/https://www.thehindu.com/elections/kerala-assembly/modi-targets-ldf-udf-over-decades-of-corruption-calls-bjp-keralas-real-a-team/article70799220.ece",
+          "title": "BJP is the ‘A team’ of Kerala, says Modi at campaign meet - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-29",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Prime Minister Narendra Modi** intensified the **National Democratic Alliance (NDA)**'s campaign for the April 9 Kerala Assembly election, accusing both the ruling **Left Democratic Front (LDF)** and the opposition **United Democratic Front (UDF)** of corruption and misgovernance.  He promised a \"...",
+          "content": "Prime Minister Narendra Modi on Sunday (March 29, 2026) intensified the National Democratic Alliance (NDA)’s campaign for the April 9 Kerala Assembly election with a sharp attack on both the ruling Left Democratic Front (LDF) and the opposition United Democratic Front (UDF). Alleging that the two fronts had alternated in power for decades while “looting” the State through corruption and misgoverna...",
+          "quote": "He promised a \"Viksit Kerala\" under an NDA government, emphasizing faster development and curbing youth migration."
         }
       ],
       "notes": "PM Modi announced the 'Viksit Bharat' vision, aiming to make India a fully developed country by 2047. NITI Aayog is currently drafting the master vision document for sector-wise targets.",
@@ -826,9 +837,9 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "vision",
-      "evidence_count": 1,
-      "supporting_quote": "Prime Minister Narendra Modi urged state CMs to align local infrastructure plans with the national Viksit Bharat developed-nation targets for 2047.",
-      "importance_hint": "minor",
+      "evidence_count": 2,
+      "supporting_quote": "He promised a \"Viksit Kerala\" under an NDA government, emphasizing faster development and curbing youth migration.",
+      "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "high-impact category (economy) + senior role (Prime Minister)"
     },
@@ -2095,6 +2106,150 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p049",
+      "person": "M.K. Stalin",
+      "party": "DMK",
+      "role": "Chief Minister",
+      "promise": "₹8,000 coupon to housewives to buy household appliances",
+      "supporting_quote": "The \"Illatharasi Scheme\" will provide non-income tax assessee housewives with a ₹8,000 coupon to purchase household appliances like washing machines, TVs, and refrigerators.",
+      "category": "economy",
+      "made_on": "2026-03-29",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617153304/https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
+      "source_description": "Stalin promises ₹8,000 coupon to housewives to buy household appliances - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617153304/https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states this is part of a new manifesto for upcoming elections, but doesn't specify if it's a new promise or a continuation of an existing one.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617153304/https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-elections-2026-dmk-election-manifesto/article70799667.ece",
+          "title": "Stalin promises ₹8,000 coupon to housewives to buy household appliances - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-29",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**M.K. Stalin**, DMK president and Tamil Nadu Chief Minister, unveiled a new manifesto for the upcoming Assembly elections, promising various welfare schemes. The \"Illatharasi Scheme\" will provide non-income tax assessee housewives with a ₹8,000 coupon to purchase household appliances like washing m...",
+          "content": "Releasing what he described as a “Superstar” manifesto for the Tamil Nadu Assembly elections on Sunday (March 29, 2026), DMK President and Chief Minister M.K. Stalin announced the Illatharasi Scheme under which all non-income tax assessee housewives will be given a coupon valued at ₹8,000 to purchase or replace household electronic appliances. They can choose from a range of appliances including a...",
+          "quote": "The \"Illatharasi Scheme\" will provide non-income tax assessee housewives with a ₹8,000 coupon to purchase household appliances like washing machines, TVs, and refrigerators."
+        }
+      ],
+      "notes": "The article states this is part of a new manifesto for upcoming elections, but doesn't specify if it's a new promise or a continuation of an existing one.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p050",
+      "person": "C. Joseph Vijay",
+      "party": "Tamilaga Vettri Kazhagam (TVK)",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "collateral-free education loans, unemployment allowances, and internship opportunities for Tamil youth",
+      "supporting_quote": "These included collateral-free education loans, unemployment allowances, and internship opportunities for Tamil youth.",
+      "category": "economy",
+      "made_on": "2026-03-29",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617155452/https://www.thehindu.com/elections/tamil-nadu-assembly/tn-assembly-election-tvk-promises-free-education-loans-unemployment-allowance-and-incentives-for-firms-that-employ-tamil-workers/article70799780.ece",
+      "source_description": "T.N. Assembly election: collateral-free education loans, unemployment allowance, and incentives for firms that employ 75% Tamil workers figure among TVK’s poll promises - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617155452/https://www.thehindu.com/elections/tamil-nadu-assembly/tn-assembly-election-tvk-promises-free-education-loans-unemployment-allowance-and-incentives-for-firms-that-employ-tamil-workers/article70799780.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states these are election promises, implying they are intended to be fulfilled if the party comes to power.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617155452/https://www.thehindu.com/elections/tamil-nadu-assembly/tn-assembly-election-tvk-promises-free-education-loans-unemployment-allowance-and-incentives-for-firms-that-employ-tamil-workers/article70799780.ece",
+          "title": "T.N. Assembly election: collateral-free education loans, unemployment allowance, and incentives for firms that employ 75% Tamil workers figure among TVK’s poll promises - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-29",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**C. Joseph Vijay**, president of the **Tamilaga Vettri Kazhagam (TVK)**, outlined a series of election promises aimed at youth welfare. These included collateral-free education loans, unemployment allowances, and internship opportunities for Tamil youth.  He also proposed a Tamil employment credit ...",
+          "content": "Tamilaga Vettri Kazhagam president C. Joseph Vijay on Sunday (March 29, 2026) made a slew of election promises for the welfare of the youth. He promised collateral-free education loans of up to ₹20 lakh for students pursuing higher education, a monthly unemployment allowance of ₹4,000 for graduates, and ₹2,500 for diploma-holders aged above 29, if his party is voted to power. Mr. Vijay, before rel...",
+          "quote": "These included collateral-free education loans, unemployment allowances, and internship opportunities for Tamil youth."
+        }
+      ],
+      "notes": "The article states these are election promises, implying they are intended to be fulfilled if the party comes to power.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p051",
+      "person": "Rahul Gandhi",
+      "party": "Congress",
+      "role": "Leader of Opposition",
+      "promise": "raise rubber price to ₹250 per kg",
+      "supporting_quote": "He announced a rubber price hike to ₹250 per kg as the first decision of the new government",
+      "category": "economy",
+      "made_on": "2026-03-30",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617161948/https://www.thehindu.com/elections/kerala-assembly/at-central-travancore-rally-rahul-promises-to-raise-rubber-price-to-250/article70804028.ece",
+      "source_description": "At central Travancore rally, Rahul promises to raise rubber price to ₹250 - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617161948/https://www.thehindu.com/elections/kerala-assembly/at-central-travancore-rally-rahul-promises-to-raise-rubber-price-to-250/article70804028.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states this as a proposed action if the Congress comes to power, but doesn't specify how it will be achieved.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617161948/https://www.thehindu.com/elections/kerala-assembly/at-central-travancore-rally-rahul-promises-to-raise-rubber-price-to-250/article70804028.ece",
+          "title": "At central Travancore rally, Rahul promises to raise rubber price to ₹250 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-30",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Rahul Gandhi**, leader of the **Congress**, toured Kerala's Pathanamthitta and Kottayam districts, campaigning for the UDF in the upcoming elections.  He announced a rubber price hike to ₹250 per kg as the first decision of the new government and pledged to name the public health insurance scheme ...",
+          "content": "Congress leader Rahul Gandhi on Monday took out a whirlwind tour of Pathanamthitta and Kottayam districts, addressing election rallies organised by the United Democratic Front (UDF). The campaign trail, which began from Adoor in the morning, also saw him take a brief bicycle ride at Pampady in the Puthuppally constituency, where he was canvassing for UDF candidate Chandy Oommen. The events were at...",
+          "quote": "He announced a rubber price hike to ₹250 per kg as the first decision of the new government"
+        }
+      ],
+      "notes": "The article states this as a proposed action if the Congress comes to power, but doesn't specify how it will be achieved.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: role 'Leader of Opposition' is not senior cabinet/exec level"
     }
   ]
 }
