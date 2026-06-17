@@ -4,9 +4,9 @@
     "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 44,
-    "promises_with_evidence": 44,
-    "last_processed_row": 43819,
+    "total_promises": 48,
+    "promises_with_evidence": 48,
+    "last_processed_row": 44319,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -1903,6 +1903,198 @@
       "importance_hint": "minor",
       "importance": "critical",
       "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p045",
+      "person": "Rahul Gandhi",
+      "party": "Congress",
+      "role": "Leader of Opposition",
+      "promise": "proposed \"guarantee card\"",
+      "supporting_quote": "The rally will focus on key promises of the United Democratic Front (UDF), including the proposed \"guarantee card.\"",
+      "category": "general",
+      "made_on": "2026-03-21",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617121850/https://www.thehindu.com/elections/kerala-assembly/kerala-assembly-polls-2026-rahul-gandhi-to-launch-kerala-poll-campaign-on-march-25/article70770161.ece",
+      "source_description": "Kerala Assembly polls 2026: Rahul Gandhi to launch Kerala poll campaign on March 25 - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617121850/https://www.thehindu.com/elections/kerala-assembly/kerala-assembly-polls-2026-rahul-gandhi-to-launch-kerala-poll-campaign-on-march-25/article70770161.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article mentions the \"guarantee card\" as a key promise but does not provide details about its contents.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617121850/https://www.thehindu.com/elections/kerala-assembly/kerala-assembly-polls-2026-rahul-gandhi-to-launch-kerala-poll-campaign-on-march-25/article70770161.ece",
+          "title": "Kerala Assembly polls 2026: Rahul Gandhi to launch Kerala poll campaign on March 25 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-21",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Rahul Gandhi** will launch his campaign for the upcoming Kerala Assembly elections on March 25th with a rally in Kozhikode. The event, scheduled at Kozhikode Beach, is expected to be attended by **Ramesh Chennithala**, head of the election campaign committee and other senior party leaders.  The ra...",
+          "content": "Senior Congress leader Rahul Gandhi will kick off his election campaign for the upcoming Assembly polls in Kerala on March 25 with a major rally in Kozhikode. The rally is scheduled to be held at Kozhikode Beach, marking the beginning of his campaign tour in the state ahead of the April 9 elections, senior Congress leader Ramesh Chennithala said on Saturday. Chennithala, who heads the election cam...",
+          "quote": "The rally will focus on key promises of the United Democratic Front (UDF), including the proposed \"guarantee card.\""
+        }
+      ],
+      "notes": "The article mentions the \"guarantee card\" as a key promise but does not provide details about its contents.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list, role 'Leader of Opposition' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p046",
+      "person": "Hemant Soren",
+      "party": "JMM",
+      "role": "Chief Minister",
+      "promise": "safeguarding nature is essential for human survival",
+      "supporting_quote": "He performed prayers and rituals, emphasizing the importance of preserving traditional customs and the deep connection between humans and nature. Mr. Soren also expressed his belief that safeguarding nature is essential for human survival.",
+      "category": "world",
+      "made_on": "2026-03-21",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617122808/https://www.thehindu.com/news/national/jharkhand/without-nature-human-life-is-unimaginable-says-hemant-soren-on-sharhul/article70769579.ece",
+      "source_description": "Without nature, human life is unimaginable, says Hemant Soren on Sharhul - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617122808/https://www.thehindu.com/news/national/jharkhand/without-nature-human-life-is-unimaginable-says-hemant-soren-on-sharhul/article70769579.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The statement expresses a belief, not a concrete plan or policy.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617122808/https://www.thehindu.com/news/national/jharkhand/without-nature-human-life-is-unimaginable-says-hemant-soren-on-sharhul/article70769579.ece",
+          "title": "Without nature, human life is unimaginable, says Hemant Soren on Sharhul - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-21",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Hemant Soren**, **Jharkhand Chief Minister**, participated in the Sarhul festival in Ranchi on Saturday, March 21, 2026.  He performed prayers and rituals, emphasizing the importance of preserving traditional customs and the deep connection between humans and nature. Mr. Soren also expressed his b...",
+          "content": "Jharkhand Chief Minister Hemant Soren, accompanied by his wife—MLA Kalpana Soren on Saturday (March 21, 2026) participated in the Sarhul festival in Ranchi. Participating in the festival organised to mark the nature festival of Sarhul, the Chief Minister performed prayers and rituals in accordance with traditional customs, praying for the welfare of all the residents of Jharkhand. Speaking on this...",
+          "quote": "He performed prayers and rituals, emphasizing the importance of preserving traditional customs and the deep connection between humans and nature. Mr. Soren also expressed his belief that safeguarding nature is essential for human survival."
+        }
+      ],
+      "notes": "The statement expresses a belief, not a concrete plan or policy.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'world' not in high-impact list"
+    },
+    {
+      "id": "p047",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Politician",
+      "promise": "Siddipet would be represented by a Congress MLA in the next Assembly elections",
+      "supporting_quote": "He announced that Siddipet would be represented by a Congress MLA in the next Assembly elections",
+      "category": "general",
+      "made_on": "2026-03-22",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617124542/https://www.thehindu.com/news/national/telangana/revanth-dismisses-discrimination-foresees-a-congress-mla-from-siddipet-in-next-elections/article70773059.ece",
+      "source_description": "Revanth dismisses discrimination, foresees a Congress MLA from Siddipet in next elections - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617124542/https://www.thehindu.com/news/national/telangana/revanth-dismisses-discrimination-foresees-a-congress-mla-from-siddipet-in-next-elections/article70773059.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is about electoral representation and lacks specifics on policy impact.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617124542/https://www.thehindu.com/news/national/telangana/revanth-dismisses-discrimination-foresees-a-congress-mla-from-siddipet-in-next-elections/article70773059.ece",
+          "title": "Revanth dismisses discrimination, foresees a Congress MLA from Siddipet in next elections - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-22",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**A. Revanth Reddy**, Chief Minister of **Hyderabad**, targeted **T. Harish Rao**, a **BRS** leader, claiming the establishment of an oil palm processing factory in Siddipet was intended to benefit farmers and not any specific MLA. He announced that Siddipet would be represented by a Congress MLA in...",
+          "content": "Hyderabad Chief Minister A. Revanth Reddy targeted BRS leader T. Harish Rao, asserting that the establishment of the oil palm processing factory in Siddipet was aimed at benefiting farmers and not any particular MLA. Addressing a public gathering on Sunday, he observed that for several years, Siddipet constituency had been represented by members of a single family, and urged voters to give an oppo...",
+          "quote": "He announced that Siddipet would be represented by a Congress MLA in the next Assembly elections"
+        }
+      ],
+      "notes": "The promise is about electoral representation and lacks specifics on policy impact.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p048",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Politician",
+      "promise": "a total of ₹9,000 crore would be disbursed in three phases within 45 days to 70 lakh farmers",
+      "supporting_quote": "He promised a total of ₹9,000 crore would be disbursed in three phases within 45 days to 70 lakh farmers.",
+      "category": "farmer_agriculture",
+      "made_on": "2026-03-22",
+      "deadline": "2023",
+      "source_url": "https://web.archive.org/web/20260617125442/https://www.thehindu.com/news/national/telangana/first-tranche-of-rythu-bharosa-released-by-cm-revanth/article70772998.ece",
+      "source_description": "First tranche of Rythu Bharosa released by CM Revanth - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617125442/https://www.thehindu.com/news/national/telangana/first-tranche-of-rythu-bharosa-released-by-cm-revanth/article70772998.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "This promise involves a significant financial commitment to farmers and is likely to impact a large number of people in Telangana.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617125442/https://www.thehindu.com/news/national/telangana/first-tranche-of-rythu-bharosa-released-by-cm-revanth/article70772998.ece",
+          "title": "First tranche of Rythu Bharosa released by CM Revanth - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-22",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Chief Minister A. Revanth Reddy** released the first tranche of **₹3,600 crore** from the Rythu Bharosa fund to support farmers in Telangana during the “Rythu Utsavalu” event on Sunday.  He promised a total of ₹9,000 crore would be disbursed in three phases within 45 days to 70 lakh farmers. **Red...",
+          "content": "Hyderabad The first tranche of Rythu Bharosa funds was released by Chief Minister A. Revanth Reddy during the “Rythu Utsavalu” at Narmetta in Nangunuru mandal of Siddipet district on Sunday. He promised earlier that a total amount of ₹9,000 crore would be released in three phases within 45 days to 70 lakh farmers. The Chief Minister said that the first tranche of payment, ₹3,600 crore, will be cre...",
+          "quote": "He promised a total of ₹9,000 crore would be disbursed in three phases within 45 days to 70 lakh farmers."
+        }
+      ],
+      "notes": "This promise involves a significant financial commitment to farmers and is likely to impact a large number of people in Telangana.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     }
   ]
 }
