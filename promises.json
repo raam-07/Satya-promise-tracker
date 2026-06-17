@@ -4,9 +4,9 @@
     "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 38,
-    "promises_with_evidence": 38,
-    "last_processed_row": 41409,
+    "total_promises": 41,
+    "promises_with_evidence": 41,
+    "last_processed_row": 41909,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -1385,9 +1385,9 @@
       "source_url": "https://web.archive.org/web/20260616143830/https://www.thehindu.com/news/national/karnataka/chief-minister-promises-additional-grants-for-phase-iii-of-upper-krishna-project/article70743495.ece",
       "source_description": "Chief Minister promises additional grants for Phase III of Upper Krishna Project - The Hindu",
       "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
+      "status_last_reviewed": "2026-06-17",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article states the promise was made, but doesn't indicate if it's been fulfilled.",
+      "gemma_reasoning": "The article states the promise is part of a larger effort to address regional imbalances and mentions the project's importance, but doesn't give specifics on the funding amount or impact.",
       "evidence_articles": [
         {
           "url": "https://web.archive.org/web/20260616143830/https://www.thehindu.com/news/national/karnataka/chief-minister-promises-additional-grants-for-phase-iii-of-upper-krishna-project/article70743495.ece",
@@ -1398,6 +1398,17 @@
           "gemma_validated": true,
           "rephrased": "## Karnataka Government Promises Development for North Karnataka\n\nKarnataka Chief Minister Siddaramaiah reiterated his commitment to addressing regional imbalances in the state, particularly focusing on development projects in North Karnataka. He highlighted that his government has been actively wor...",
           "content": "Chief Minister Siddaramaiah reiterated the State government’s commitment to redressing the regional imbalance in North Karnataka and said that his government has acted according to its words. He also promised to release additional grants for the third phase of the Upper Krishna Project (UKP). He was addressing a public gathering after laying the foundation stone for the Bagalkot Medical College an..."
+        },
+        {
+          "url": "https://web.archive.org/web/20260617063029/https://www.thehindu.com/news/national/karnataka/chief-minister-promises-additional-grants-for-phase-iii-of-upper-krishna-project/article70743495.ece",
+          "title": "Chief Minister promises additional grants for Phase III of Upper Krishna Project - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "## Karnataka Government Promises Development for North Karnataka\n\nKarnataka Chief Minister Siddaramaiah reiterated his commitment to addressing regional imbalances in the state, particularly focusing on development projects in North Karnataka. He highlighted that his government has been actively wor...",
+          "content": "Chief Minister Siddaramaiah reiterated the State government’s commitment to redressing the regional imbalance in North Karnataka and said that his government has acted according to its words. He also promised to release additional grants for the third phase of the Upper Krishna Project (UKP). He was addressing a public gathering after laying the foundation stone for the Bagalkot Medical College an...",
+          "quote": "He highlighted that his government has been actively working towards this goal and promised additional funding for the third phase of the Upper Krishna Project (UKP)."
         }
       ],
       "notes": "The article states the promise was made, but doesn't indicate if it's been fulfilled.",
@@ -1407,8 +1418,8 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1,
-      "supporting_quote": "## Karnataka Government Promises Development for North Karnataka\n\nKarnataka Chief Minister Siddaramaiah reiterated his commitment to addressing regional imbalances in the state, particularly focusing on development projects in North Karnataka. He highlighted that his government has been actively wor...",
+      "evidence_count": 2,
+      "supporting_quote": "He highlighted that his government has been actively working towards this goal and promised additional funding for the third phase of the Upper Krishna Project (UKP).",
       "importance_hint": "minor",
       "importance": "critical",
       "importance_reason": "high-impact category (infrastructure) + senior role (Chief Minister)"
@@ -1604,6 +1615,150 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p039",
+      "person": "Nitish Kumar",
+      "party": "JD(U)",
+      "role": "Chief Minister / JDU President",
+      "promise": "create employment opportunities for one million youths over the next five years",
+      "supporting_quote": "Kumar pledged to continue development efforts in Bihar, aiming to create employment opportunities for one million youths over the next five years.",
+      "category": "economy",
+      "made_on": "2026-03-14",
+      "deadline": "2028",
+      "source_url": "https://web.archive.org/web/20260617065000/https://www.thehindu.com/news/national/bihar/as-samriddhi-yatra-ends-in-bihar-nitish-promises-more-development/article70743663.ece",
+      "source_description": "As Samriddhi Yatra ends in Bihar, Nitish promises more development - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617065000/https://www.thehindu.com/news/national/bihar/as-samriddhi-yatra-ends-in-bihar-nitish-promises-more-development/article70743663.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is stated as a goal for Kumar's continued leadership, directly tied to his development agenda.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617065000/https://www.thehindu.com/news/national/bihar/as-samriddhi-yatra-ends-in-bihar-nitish-promises-more-development/article70743663.ece",
+          "title": "As Samriddhi Yatra ends in Bihar, Nitish promises more development - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "## Bihar Chief Minister Wraps Up 'Samriddhi Yatra' with Development Focus\n\nBihar Chief Minister Nitish Kumar concluded his \"Samriddhi Yatra,\" a three-leg campaign focused on development, in Sheikhpura on Saturday. The final leg of the yatra saw Kumar inaugurate and lay the foundation for 716 project...",
+          "content": "Ahead of the Rajya Sabha election on March 16, the third and last leg of the ‘Samriddhi Yatra’ launched by Bihar Chief Minister Nitish Kumar from Supaul ended in Sheikhpura on Saturday (March 14, 2026), with the focus on the development of Bihar. Mr. Kumar ended the yatra by inaugurating and laying the foundation stones of 716 projects worth ₹480 crore in Begusarai and Sheikhpura. Addressing a cro...",
+          "quote": "Kumar pledged to continue development efforts in Bihar, aiming to create employment opportunities for one million youths over the next five years."
+        }
+      ],
+      "notes": "The promise is stated as a goal for Kumar's continued leadership, directly tied to his development agenda.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p040",
+      "person": "Mansukh Mandaviya",
+      "party": "BJP",
+      "role": "Labour and Employment Minister",
+      "promise": "strengthening sports infrastructure to enable students to compete at the international level, particularly for the 2036 Olympics",
+      "supporting_quote": "Mandaviya emphasized the government's commitment to strengthening sports infrastructure to enable students to compete at the international level, particularly for the 2036 Olympics.",
+      "category": "sports",
+      "made_on": "2026-03-14",
+      "deadline": "2036",
+      "source_url": "https://web.archive.org/web/20260617065812/https://www.thehindu.com/news/national/karnataka/our-emphasis-is-to-promote-raw-talentunion-sports-minister-mandaviya/article70743985.ece",
+      "source_description": "Our emphasis is to promote raw talent, Union Sports Minister Mandaviya - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617065812/https://www.thehindu.com/news/national/karnataka/our-emphasis-is-to-promote-raw-talentunion-sports-minister-mandaviya/article70743985.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the government's commitment to strengthening sports infrastructure, but doesn't specify concrete actions or funding.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617065812/https://www.thehindu.com/news/national/karnataka/our-emphasis-is-to-promote-raw-talentunion-sports-minister-mandaviya/article70743985.ece",
+          "title": "Our emphasis is to promote raw talent, Union Sports Minister Mandaviya - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "##  New Sports Complex Opens in Dharwad, Aiming to Boost India's Olympic Hopes\n\nUnion Minister for Youth Affairs and Sports Mansukh Mandaviya inaugurated a multi-sports complex and an international standard swimming pool in Dharwad on Saturday. The project, funded by CSR funds from Oil and Natural G...",
+          "content": "Union Minister for Youth Affairs and Sports Mansukh Mandaviya has said that the Union government was focussing on expanding the country’s sports landscape and providing abundant opportunities for raw talent across the nation to excel. Inaugurating a multi-sports complex and an international standard swimming pool in Dharwad on Saturday, the Union Minister said that the sports sector had opened up ...",
+          "quote": "Mandaviya emphasized the government's commitment to strengthening sports infrastructure to enable students to compete at the international level, particularly for the 2036 Olympics."
+        }
+      ],
+      "notes": "The article states the government's commitment to strengthening sports infrastructure, but doesn't specify concrete actions or funding.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'sports' not in high-impact list"
+    },
+    {
+      "id": "p041",
+      "person": "Udhayanidhi Stalin",
+      "party": "DMK",
+      "role": "Politician",
+      "promise": "zero school dropout rates, construction of new houses for the poor, and creation of jobs for unemployed youth",
+      "supporting_quote": "Stalin highlighted key goals including zero school dropout rates, construction of new houses for the poor, and creation of jobs for unemployed youth.",
+      "category": "general",
+      "made_on": "2026-03-14",
+      "deadline": "2028",
+      "source_url": "https://web.archive.org/web/20260617070747/https://www.thehindu.com/news/national/tamil-nadu/deputy-cm-udhayanidhi-stalin-distributes-welfare-aid-worth-10049-crore-in-tirupattur/article70743174.ece",
+      "source_description": "Deputy CM Udhayanidhi Stalin distributes welfare aid worth ₹100.49 crore in Tirupattur - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617070747/https://www.thehindu.com/news/national/tamil-nadu/deputy-cm-udhayanidhi-stalin-distributes-welfare-aid-worth-10049-crore-in-tirupattur/article70743174.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states these are key goals for the next five years, implying a commitment to achieve them.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617070747/https://www.thehindu.com/news/national/tamil-nadu/deputy-cm-udhayanidhi-stalin-distributes-welfare-aid-worth-10049-crore-in-tirupattur/article70743174.ece",
+          "title": "Deputy CM Udhayanidhi Stalin distributes welfare aid worth ₹100.49 crore in Tirupattur - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "## Tamil Nadu Government to Focus on Welfare Schemes in Next Five Years\n\nTamil Nadu Deputy Chief Minister Udhayanidhi Stalin announced that the state government will prioritize welfare schemes, particularly for women and children, under its \"Dravidian Model 2.0\" initiative for the next five years.  ...",
+          "content": "Deputy Chief Minister Udhayanidhi Stalin on Saturday said the Tamil Nadu government will witness more welfare schemes, especially for women and children, under the “Dravidian Model 2.0” governance for the next five years After inaugurating 11 completed works worth ₹3.65 crore in Tirupattur, Mr. Udhayanidhi said achieving zero percent in school dropout rates in the State, construction of an additio...",
+          "quote": "Stalin highlighted key goals including zero school dropout rates, construction of new houses for the poor, and creation of jobs for unemployed youth."
+        }
+      ],
+      "notes": "The article states these are key goals for the next five years, implying a commitment to achieve them.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
     }
   ]
 }
