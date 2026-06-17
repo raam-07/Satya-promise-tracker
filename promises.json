@@ -4,9 +4,9 @@
     "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 41,
-    "promises_with_evidence": 41,
-    "last_processed_row": 41909,
+    "total_promises": 42,
+    "promises_with_evidence": 42,
+    "last_processed_row": 41993,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -1759,6 +1759,54 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p042",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Politician",
+      "promise": "appoint at least 20% of chairperson positions in corporations and government agencies to women",
+      "supporting_quote": "Telangana Pradesh Congress Committee (TPCC) chief B. Mahesh Kumar Goud announced that Chief Minister A. Revanth Reddy is considering appointing at least 20% of chairperson positions in corporations and government agencies to women in the next phase of appointments.",
+      "category": "governance",
+      "made_on": "2026-03-15",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617080538/https://www.thehindu.com/news/national/telangana/telangana-mahila-congress-gets-new-chief-tpcc-chief-highlights-womens-appointments/article70746817.ece",
+      "source_description": "Telangana Mahila Congress gets new chief; TPCC chief highlights women’s appointments - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617080538/https://www.thehindu.com/news/national/telangana/telangana-mahila-congress-gets-new-chief-tpcc-chief-highlights-womens-appointments/article70746817.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states this is under consideration for the next phase of appointments, not a firm commitment.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617080538/https://www.thehindu.com/news/national/telangana/telangana-mahila-congress-gets-new-chief-tpcc-chief-highlights-womens-appointments/article70746817.ece",
+          "title": "Telangana Mahila Congress gets new chief; TPCC chief highlights women’s appointments - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-15",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "## Telangana Congress Aims for More Women in Leadership\n\nTelangana Pradesh Congress Committee (TPCC) chief B. Mahesh Kumar Goud announced that Chief Minister A. Revanth Reddy is considering appointing at least 20% of chairperson positions in corporations and government agencies to women in the next ...",
+          "content": "Telangana Pradesh Congress Committee (TPCC) chief and MLC B. Mahesh Kumar Goud on Sunday said that Chief Minister A. Revanth Reddy was considering offering at least 20% of chairperson posts in various corporations and government agencies to women in the next phase of appointments. He exuded confidence that 51 women would enter the Telangana Legislative Assembly in the next general elections consid...",
+          "quote": "Telangana Pradesh Congress Committee (TPCC) chief B. Mahesh Kumar Goud announced that Chief Minister A. Revanth Reddy is considering appointing at least 20% of chairperson positions in corporations and government agencies to women in the next phase of appointments."
+        }
+      ],
+      "notes": "The article states this is under consideration for the next phase of appointments, not a firm commitment.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     }
   ]
 }
