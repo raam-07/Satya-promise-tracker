@@ -4,9 +4,9 @@
     "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 54,
-    "promises_with_evidence": 54,
-    "last_processed_row": 48320,
+    "total_promises": 58,
+    "promises_with_evidence": 58,
+    "last_processed_row": 48820,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -2392,6 +2392,198 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list"
+    },
+    {
+      "id": "p055",
+      "person": "Yogi Adityanath",
+      "party": "BJP",
+      "role": "Chief Minister",
+      "promise": "Reduce school dropout rates from 3% to zero",
+      "supporting_quote": "The campaign aims to bring down the dropout rate from 3% to zero by providing free facilities and uniforms for all students.",
+      "category": "education",
+      "made_on": "2026-04-04",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617191825/https://www.thehindu.com/news/national/uttar-pradesh/up-cm-yogi-adityanath-pushes-for-zero-dropout-appeals-to-society-for-ensuring-no-child-is-left-out-of-school/article70823525.ece",
+      "source_description": "U.P. CM Yogi Adityanath pushes for zero dropout, appeals to society for ensuring no child is left out of school - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617191825/https://www.thehindu.com/news/national/uttar-pradesh/up-cm-yogi-adityanath-pushes-for-zero-dropout-appeals-to-society-for-ensuring-no-child-is-left-out-of-school/article70823525.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise aims to address a significant social issue in Uttar Pradesh, impacting a large number of children.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617191825/https://www.thehindu.com/news/national/uttar-pradesh/up-cm-yogi-adityanath-pushes-for-zero-dropout-appeals-to-society-for-ensuring-no-child-is-left-out-of-school/article70823525.ece",
+          "title": "U.P. CM Yogi Adityanath pushes for zero dropout, appeals to society for ensuring no child is left out of school - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-04",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Yogi Adityanath**, the Chief Minister of **Uttar Pradesh**, launched a new campaign called “School Chalo Abhiyan” to reduce school dropout rates. He emphasized that every child should be educated and encouraged parents, teachers, and public representatives to ensure this goal is achieved.  The cam...",
+          "content": "Uttar Pradesh Chief Minister Yogi Adityanath on Saturday in Varanasi appealed to every section of society to ensure no child is left out of school, pushing to bring down the dropout rate to zero, adding that in U.P. student dropout rate has reduced from 19% before 2017 to just 3%. “I request all of you be it teachers, parents, public representatives and all sections of society to ensure that no ch...",
+          "quote": "The campaign aims to bring down the dropout rate from 3% to zero by providing free facilities and uniforms for all students."
+        }
+      ],
+      "notes": "The promise aims to address a significant social issue in Uttar Pradesh, impacting a large number of children.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "high-impact category (education) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p056",
+      "person": "M.K. Stalin",
+      "party": "DMK",
+      "role": "Chief Minister",
+      "promise": "Illatharasi scheme",
+      "supporting_quote": "He expressed confidence in the DMK's welfare schemes and election manifesto, particularly the \"Illatharasi\" scheme, which he believes will garner widespread public support.",
+      "category": "general",
+      "made_on": "2026-04-05",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617193047/https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-chief-minister-and-dmk-president-mk-stalin-interview/article70826149.ece",
+      "source_description": "No close contest; the fight is between DMK and AIADMK, says CM Stalin - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617193047/https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-chief-minister-and-dmk-president-mk-stalin-interview/article70826149.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states Stalin believes the scheme will be popular, but doesn't provide details on its impact or implementation.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617193047/https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-chief-minister-and-dmk-president-mk-stalin-interview/article70826149.ece",
+          "title": "No close contest; the fight is between DMK and AIADMK, says CM Stalin - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-05",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**M.K. Stalin**, president of the **DMK**, asserted that the upcoming Tamil Nadu Assembly elections would be a straightforward contest between his alliance and the **AIADMK**. He expressed confidence in the DMK's welfare schemes and election manifesto, particularly the \"Illatharasi\" scheme, which he...",
+          "content": "DMK president and Chief Minister M.K. Stalin on Sunday (April 5, 2026) dismissed the suggestion that the upcoming Tamil Nadu Assembly elections would be a “close” multi-cornered contest. In his first interview this election season, he told The Hindu, the four-way race would ultimately favour the DMK-led Secular Progressive Alliance. Assembly elections LIVE updates “The contest is essentially betwe...",
+          "quote": "He expressed confidence in the DMK's welfare schemes and election manifesto, particularly the \"Illatharasi\" scheme, which he believes will garner widespread public support."
+        }
+      ],
+      "notes": "The article states Stalin believes the scheme will be popular, but doesn't provide details on its impact or implementation.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list"
+    },
+    {
+      "id": "p057",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "33% reservation for women in Parliament and state assemblies",
+      "supporting_quote": "He stated that the government will implement this law from the 2029 Lok Sabha polls.",
+      "category": "governance",
+      "made_on": "2026-04-05",
+      "deadline": "2029",
+      "source_url": "https://web.archive.org/web/20260617194928/https://www.thehindu.com/elections/west-bengal-assembly/pm-modi-cooch-behar-33-reservation-to-win-over-women-voters-in-west-bengal/article70827262.ece",
+      "source_description": "Modi pitches 33% reservation to win over women voters in West Bengal - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617194928/https://www.thehindu.com/elections/west-bengal-assembly/pm-modi-cooch-behar-33-reservation-to-win-over-women-voters-in-west-bengal/article70827262.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "This is a major policy proposal with potential nationwide impact on women's political representation.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617194928/https://www.thehindu.com/elections/west-bengal-assembly/pm-modi-cooch-behar-33-reservation-to-win-over-women-voters-in-west-bengal/article70827262.ece",
+          "title": "Modi pitches 33% reservation to win over women voters in West Bengal - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-05",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Prime Minister Narendra Modi** addressed a public meeting in Cooch Behar, West Bengal, on Sunday (April 5, 2026), emphasizing his party's commitment to \"real empowerment of women\" through a 33% reservation in Parliament and state assemblies. He stated that the government will implement this law fr...",
+          "content": "Prime Minister Narendra Modi on Sunday (April 5, 2026) sought to woo women voters in West Bengal, stating that his party is committed to “real empowerment of women” through 33% reservation. Addressing a public meeting in Cooch Behar, Mr. Modi said it is necessary to increase the role of women in decision-making for the country. “Therefore, the government has scheduled a special session of Parliame...",
+          "quote": "He stated that the government will implement this law from the 2029 Lok Sabha polls."
+        }
+      ],
+      "notes": "This is a major policy proposal with potential nationwide impact on women's political representation.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
+    },
+    {
+      "id": "p058",
+      "person": "M.K. Stalin",
+      "party": "DMK",
+      "role": "Chief Minister",
+      "promise": "Illatharasi Scheme and increased Kalaignar Magalir Urimai Thogai grant",
+      "supporting_quote": "He highlighted key promises within the DMK’s manifesto, including the Illatharasi Scheme and increased Kalaignar Magalir Urimai Thogai grant.",
+      "category": "general",
+      "made_on": "2026-04-05",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617195955/https://www.thehindu.com/news/national/tamil-nadu/i-do-not-see-the-assembly-election-intamil-nadu-as-a-close-contest-says-cm-stalin/article70827163.ece",
+      "source_description": "I do not see the Assembly election in Tamil Nadu as a close contest, says CM Stalin - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617195955/https://www.thehindu.com/news/national/tamil-nadu/i-do-not-see-the-assembly-election-intamil-nadu-as-a-close-contest-says-cm-stalin/article70827163.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article mentions these as key promises in the DMK manifesto but does not provide details on their nature or implementation status.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617195955/https://www.thehindu.com/news/national/tamil-nadu/i-do-not-see-the-assembly-election-intamil-nadu-as-a-close-contest-says-cm-stalin/article70827163.ece",
+          "title": "I do not see the Assembly election in Tamil Nadu as a close contest, says CM Stalin - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-05",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**DMK** president and Chief Minister M.K. Stalin stated that the upcoming Tamil Nadu Assembly election would benefit his party due to a multi-cornered contest, with the **Dravida Munnetra Kazhagam** leading the Secular Progressive Alliance against the **All India Anna Dravida Munnetra Kazhagam**-led...",
+          "content": "Disagreeing with suggestions that the Tamil Nadu Assembly election would turn out to be a “close contest”, DMK president and Chief Minister M.K. Stalin said on Sunday (April 5, 2026) that a multi-cornered contest would, in fact, benefit the DMK. Taking a short break from his intense campaign schedule in Virudhunagar district, Mr. Stalin, in an exclusive interview to The Hindu, made it clear that t...",
+          "quote": "He highlighted key promises within the DMK’s manifesto, including the Illatharasi Scheme and increased Kalaignar Magalir Urimai Thogai grant."
+        }
+      ],
+      "notes": "The article mentions these as key promises in the DMK manifesto but does not provide details on their nature or implementation status.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "minor: category 'general' not in high-impact list"
     }
