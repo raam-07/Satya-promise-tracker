@@ -4,9 +4,9 @@
     "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 42,
-    "promises_with_evidence": 42,
-    "last_processed_row": 41993,
+    "total_promises": 44,
+    "promises_with_evidence": 44,
+    "last_processed_row": 42319,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -1807,6 +1807,102 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p043",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Politician",
+      "promise": "stalls for women at restored tank sites",
+      "supporting_quote": "He announced plans for stalls for women at restored tank sites, children's playgrounds along the banks, and development funds for all Assembly constituencies under Malkajgiri regardless of political affiliations.",
+      "category": "general",
+      "made_on": "2026-03-09",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617090309/https://www.thehindu.com/news/national/telangana/women-will-be-provided-stalls-on-edge-of-restored-lakes-promises-cm/article70723772.ece",
+      "source_description": "Women will be provided stalls on edge of restored lakes, promises CM - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617090309/https://www.thehindu.com/news/national/telangana/women-will-be-provided-stalls-on-edge-of-restored-lakes-promises-cm/article70723772.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states plans for stalls, but doesn't confirm if they are already in place or have a set timeline.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617090309/https://www.thehindu.com/news/national/telangana/women-will-be-provided-stalls-on-edge-of-restored-lakes-promises-cm/article70723772.ece",
+          "title": "Women will be provided stalls on edge of restored lakes, promises CM - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-09",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Chief Minister A. Revanth Reddy** inaugurated the restored Nalla Cheruvu lake in Kukatpally, reaffirming his government's commitment to urban lake conservation and flood resilience in Hyderabad. He announced plans for stalls for women at restored tank sites, children's playgrounds along the banks,...",
+          "content": "Chief Minister A. Revanth Reddy on Monday inaugurated the restored Nalla Cheruvu lake in Kukatpally, and reaffirmed his government’s commitment to urban lake conservation and flood resilience across Hyderabad. “It is now or never,” he said about the choice of progress over creating hurdles. He also announced plans to provide women with stalls at restored tank sites and develop children’s playgroun...",
+          "quote": "He announced plans for stalls for women at restored tank sites, children's playgrounds along the banks, and development funds for all Assembly constituencies under Malkajgiri regardless of political affiliations."
+        }
+      ],
+      "notes": "The article states plans for stalls, but doesn't confirm if they are already in place or have a set timeline.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p044",
+      "person": "M.K. Stalin",
+      "party": "DMK",
+      "role": "Chief Minister",
+      "promise": "increased investments, agricultural expansion, and healthcare access",
+      "supporting_quote": "He highlighted the achievements of his government during the last five years, including increased investments, agricultural expansion, and healthcare access",
+      "category": "economy",
+      "made_on": "2026-03-09",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617091124/https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-can-never-be-painted-in-saffron-says-cm-stalin/article70723924.ece",
+      "source_description": "Tamil Nadu can never be painted in saffron, says CM Stalin - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617091124/https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-can-never-be-painted-in-saffron-says-cm-stalin/article70723924.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states these as achievements of his government, not explicit promises for the future.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617091124/https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-can-never-be-painted-in-saffron-says-cm-stalin/article70723924.ece",
+          "title": "Tamil Nadu can never be painted in saffron, says CM Stalin - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-09",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**DMK** president and Chief Minister M.K. Stalin addressed a massive gathering at the party's 12th State conference, asserting that **the saffron brigade** will not be able to rule Tamil Nadu despite attempts by the **BJP**. He criticized the BJP for trying to destroy the AIADMK in Tamil Nadu, claim...",
+          "content": "Asserting that the “saffron brigade” will never be able to paint Tamil Nadu in saffron, DMK president and Chief Minister M.K. Stalin threw the gauntlet at the BJP, saying it would never be able to rule the State even if it came wearing the mask of the AIADMK. “They can paint any State in saffron, but not Tamil Nadu,” he said, addressing a mammoth gathering at the 12th State conference of the party...",
+          "quote": "He highlighted the achievements of his government during the last five years, including increased investments, agricultural expansion, and healthcare access"
+        }
+      ],
+      "notes": "The article states these as achievements of his government, not explicit promises for the future.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
     }
   ]
 }
