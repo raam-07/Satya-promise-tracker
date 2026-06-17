@@ -26,6 +26,14 @@ jobs:
         with:
           ref: main
 
+      - name: Free Disk Space
+        run: |
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /usr/local/lib/android
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /usr/local/share/powershell
+          sudo rm -rf /usr/share/swift
+
       - name: Set up Python 3.10
         uses: actions/setup-python@v5
         with:
@@ -50,7 +58,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ./models
-          key: gemma-2-local-models-q4-v1
+          key: gemma-2-local-models-q4-v3
 
       - name: Download Gemma LLM Models
         if: steps.cache-models.outputs.cache-hit != 'true'
@@ -60,18 +68,40 @@ jobs:
           mkdir -p models
           # Download gemma-2-2b-it and gemma-2-9b-it Q4_K_M quantized models from Hugging Face if not present
           python -c '
-          import os
+          import os, shutil
           from huggingface_hub import hf_hub_download
+          
+          temp_cache = "./models/.hf_cache"
+          os.makedirs(temp_cache, exist_ok=True)
           
           # Gemma 2B
           model_2b = "./models/gemma-2-2b-it-Q4_K_M.gguf"
           if not os.path.exists(model_2b):
-              hf_hub_download(repo_id="bartowski/gemma-2-2b-it-GGUF", filename="gemma-2-2b-it-Q4_K_M.gguf", local_dir="./models", local_dir_use_symlinks=False)
+              print("Downloading Gemma 2B...")
+              hf_hub_download(
+                  repo_id="bartowski/gemma-2-2b-it-GGUF",
+                  filename="gemma-2-2b-it-Q4_K_M.gguf",
+                  local_dir="./models",
+                  local_dir_use_symlinks=False,
+                  cache_dir=temp_cache
+              )
+              if os.path.exists(temp_cache):
+                  shutil.rmtree(temp_cache)
+                  os.makedirs(temp_cache, exist_ok=True)
               
           # Gemma 9B
           model_9b = "./models/gemma-2-9b-it-Q4_K_M.gguf"
           if not os.path.exists(model_9b):
-              hf_hub_download(repo_id="bartowski/gemma-2-9b-it-GGUF", filename="gemma-2-9b-it-Q4_K_M.gguf", local_dir="./models", local_dir_use_symlinks=False)
+              print("Downloading Gemma 9B...")
+              hf_hub_download(
+                  repo_id="bartowski/gemma-2-9b-it-GGUF",
+                  filename="gemma-2-9b-it-Q4_K_M.gguf",
+                  local_dir="./models",
+                  local_dir_use_symlinks=False,
+                  cache_dir=temp_cache
+              )
+              if os.path.exists(temp_cache):
+                  shutil.rmtree(temp_cache)
           '
 
       - name: Run Promise Tracker
