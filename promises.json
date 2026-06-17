@@ -1,12 +1,12 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-06-16",
+    "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 36,
-    "promises_with_evidence": 36,
-    "last_processed_row": 40909,
+    "total_promises": 38,
+    "promises_with_evidence": 38,
+    "last_processed_row": 41409,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -1294,9 +1294,9 @@
       "source_url": "https://web.archive.org/web/20260616115433/https://www.thehindu.com/news/national/andhra-pradesh/cabinet-move-to-accelerate-execution-of-polavaram-irrigation-project/article70739680.ece",
       "source_description": "Cabinet move to accelerate execution of Polavaram irrigation project - The Hindu",
       "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
+      "status_last_reviewed": "2026-06-17",
       "gemma_suggestion": "ongoing",
-      "gemma_reasoning": "The article states the project is being accelerated to meet the target completion date of June 2026.",
+      "gemma_reasoning": "The article states this is a target set by the state government, implying it is a significant promise. The project's completion is crucial for water infrastructure development in the state.",
       "evidence_articles": [
         {
           "url": "https://web.archive.org/web/20260616115433/https://www.thehindu.com/news/national/andhra-pradesh/cabinet-move-to-accelerate-execution-of-polavaram-irrigation-project/article70739680.ece",
@@ -1307,6 +1307,17 @@
           "gemma_validated": true,
           "rephrased": "The **State Cabinet**, chaired by Chief Minister N. Chandrababu Naidu, approved measures to accelerate the Polavaram Irrigation Project.  These interventions include an additional ₹24.51 crore for Package No. 64's headworks and the \"pre-closure\" of legacy contracts for packages 8, 8A, and 8B. The Ca...",
           "content": "The State Cabinet, chaired by Chief minister N. Chandrababu Naidu, on Friday approved a series of strategic interventions to accelerate the execution of the Polavaram Irrigation Project. The decisions are aimed at resolving long-standing contractual and technical bottlenecks that delayed critical water infrastructure for nearly two decades. Disclosing the details, Information and Public Relations ..."
+        },
+        {
+          "url": "https://web.archive.org/web/20260617054412/https://www.thehindu.com/news/national/andhra-pradesh/cabinet-move-to-accelerate-execution-of-polavaram-irrigation-project/article70739680.ece",
+          "title": "Cabinet move to accelerate execution of Polavaram irrigation project - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-13",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "The **State Cabinet**, chaired by Chief Minister N. Chandrababu Naidu, approved measures to accelerate the Polavaram Irrigation Project.  These interventions include an additional ₹24.51 crore for Package No. 64's headworks and the \"pre-closure\" of legacy contracts for packages 8, 8A, and 8B. The Ca...",
+          "content": "The State Cabinet, chaired by Chief minister N. Chandrababu Naidu, on Friday approved a series of strategic interventions to accelerate the execution of the Polavaram Irrigation Project. The decisions are aimed at resolving long-standing contractual and technical bottlenecks that delayed critical water infrastructure for nearly two decades. Disclosing the details, Information and Public Relations ...",
+          "quote": "The Cabinet aims to resolve contractual and technical bottlenecks that have delayed water infrastructure development for nearly two decades.  These decisions are intended to meet the State government's target of completing the works by June 2026."
         }
       ],
       "notes": "The article states the project is being accelerated to meet the target completion date of June 2026.",
@@ -1316,9 +1327,9 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-16",
       "promise_type": "specific",
-      "evidence_count": 1,
-      "supporting_quote": "The **State Cabinet**, chaired by Chief Minister N. Chandrababu Naidu, approved measures to accelerate the Polavaram Irrigation Project.  These interventions include an additional ₹24.51 crore for Package No. 64's headworks and the \"pre-closure\" of legacy contracts for packages 8, 8A, and 8B. The Ca...",
-      "importance_hint": "minor",
+      "evidence_count": 2,
+      "supporting_quote": "The Cabinet aims to resolve contractual and technical bottlenecks that have delayed water infrastructure development for nearly two decades.  These decisions are intended to meet the State government's target of completing the works by June 2026.",
+      "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
@@ -1497,6 +1508,102 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "minor: role 'MP' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p037",
+      "person": "Akbaruddin Owaisi",
+      "party": "AIMIM",
+      "role": "Politician",
+      "promise": "loan subsidy for unemployed youth and women, financial assistance for students, and an amendment to the Telangana Minorities Commission Act",
+      "supporting_quote": "Owaisi highlighted that most promises remain unfulfilled, including loan subsidy for unemployed youth and women, financial assistance for students, and an amendment to the Telangana Minorities Commission Act.",
+      "category": "governance",
+      "made_on": "2026-03-13",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617053545/https://www.thehindu.com/news/national/telangana/akbaruddin-owaisi-urges-telangana-cm-to-address-unfulfilled-minority-promises/article70740372.ece",
+      "source_description": "Akbaruddin Owaisi urges Telangana CM to address unfulfilled minority promises - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617053545/https://www.thehindu.com/news/national/telangana/akbaruddin-owaisi-urges-telangana-cm-to-address-unfulfilled-minority-promises/article70740372.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states that the promises were made pre-election and remain unfulfilled, indicating they are ongoing.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617053545/https://www.thehindu.com/news/national/telangana/akbaruddin-owaisi-urges-telangana-cm-to-address-unfulfilled-minority-promises/article70740372.ece",
+          "title": "Akbaruddin Owaisi urges Telangana CM to address unfulfilled minority promises - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-13",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Akbaruddin Owaisi**, an **AIMIM** legislator, has written to **Chief Minister A. Revanth Reddy** requesting a review and implementation of the pre-election Minority Declaration.  Owaisi highlighted that most promises remain unfulfilled, including loan subsidy for unemployed youth and women, financ...",
+          "content": "All India Majlis-e-Ittehadul Muslimeen (AIMIM) legislator Akbaruddin Owaisi wrote to Chief Minister A. Revanth Reddy seeking a review and implementation of of the pre-poll Minority Declaration, and pointed out that most of the promises announced before the elections have not been honoured. Mr. Owaisi pointed out that except two promises, action on the rest is yet to be initiated. “Even as the mino...",
+          "quote": "Owaisi highlighted that most promises remain unfulfilled, including loan subsidy for unemployed youth and women, financial assistance for students, and an amendment to the Telangana Minorities Commission Act."
+        }
+      ],
+      "notes": "The article states that the promises were made pre-election and remain unfulfilled, indicating they are ongoing.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p038",
+      "person": "A. Revanth Reddy",
+      "party": "Telangana Rashtra Samithi (TRS)",
+      "role": "Politician",
+      "promise": "assured displaced families of housing and employment opportunities in government land parcels",
+      "supporting_quote": "He assured displaced families of housing and employment opportunities in government land parcels",
+      "category": "governance",
+      "made_on": "2026-03-13",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617055135/https://www.thehindu.com/news/national/telangana/cm-castigates-the-naysayers-of-musi-project/article70740855.ece",
+      "source_description": "CM castigates the critics of Musi project - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617055135/https://www.thehindu.com/news/national/telangana/cm-castigates-the-naysayers-of-musi-project/article70740855.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the promise but does not provide details on implementation or timeline.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617055135/https://www.thehindu.com/news/national/telangana/cm-castigates-the-naysayers-of-musi-project/article70740855.ece",
+          "title": "CM castigates the critics of Musi project - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-03-13",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Chief Minister A. Revanth Reddy** launched the Musi Riverfront Development project, defending it against criticism and emphasizing its potential to improve the city's quality of life. He assured displaced families of housing and employment opportunities in government land parcels, while also highl...",
+          "content": "Chief Minister A. Revanth Reddy launched a broadside on the opposition, centred at the Musi Riverfront Development project. He was speaking at the presentation of detailed project plans of the Musi development on Friday. He condemned the viral criticism of the project questioning the absence of Detailed Project Report, and said the project will drastically improve the quality of life in the city a...",
+          "quote": "He assured displaced families of housing and employment opportunities in government land parcels"
+        }
+      ],
+      "notes": "The article states the promise but does not provide details on implementation or timeline.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     }
   ]
 }
