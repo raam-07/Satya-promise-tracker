@@ -923,31 +923,50 @@ def main():
             
     logging.info(f"Regex screening complete: {len(pre_screened_rows)} out of {len(rows)} articles passed to Stage 1.")
 
+    passed_stage1_rows = []
     if pre_screened_rows:
         llm_2b = init_llm(MODEL_2B_PATH, 2048)
-        llm_9b = init_llm(MODEL_9B_PATH, 4096)
-        
-        if not llm_2b or not llm_9b:
-            logging.critical("Failed to load local Gemma engines. Exiting pipeline.")
+        if not llm_2b:
+            logging.critical("Failed to load local Gemma 2B engine. Exiting pipeline.")
             conn.close()
             sys.exit(1)
 
-    # Process each pre-screened article in this batch
-    for r_data, content in pre_screened_rows:
+        logging.info(f"Starting Stage 1 Noise Filtering for {len(pre_screened_rows)} pre-screened articles...")
+        for r_data, content in pre_screened_rows:
+            r = r_data
+            article_id, title, url, scraped_at, _, compressed_rephrased, _, _, _, source_name = r
+            try:
+                rephrased = zlib.decompress(compressed_rephrased).decode('utf-8') if compressed_rephrased else content
+            except Exception:
+                rephrased = content
+
+            if run_stage1_noise_filter(llm_2b, title, rephrased):
+                passed_stage1_rows.append((r_data, content, rephrased))
+            else:
+                logging.info(f"Article ID {article_id}: Stage 1 Noise Filter: Discarded as noise.")
+
+        # Unload Gemma 2B to reclaim memory
+        logging.info("Unloading Gemma 2B to free memory for Stage 2...")
+        del llm_2b
+        import gc
+        gc.collect()
+
+    llm_9b = None
+    if passed_stage1_rows:
+        llm_9b = init_llm(MODEL_9B_PATH, 4096)
+        if not llm_9b:
+            logging.critical("Failed to load local Gemma 9B engine. Exiting pipeline.")
+            conn.close()
+            sys.exit(1)
+
+    # Process each filtered article through Stage 2 & 3
+    if passed_stage1_rows:
+        logging.info(f"Starting Stage 2 Extraction and Stage 3 Critic for {len(passed_stage1_rows)} articles...")
+    for r_data, content, rephrased in passed_stage1_rows:
         r = r_data
-        article_id, title, url, scraped_at, _, compressed_rephrased, _, _, _, source_name = r
-        
-        try:
-            rephrased = zlib.decompress(compressed_rephrased).decode('utf-8') if compressed_rephrased else content
-        except Exception:
-            rephrased = content
+        article_id, title, url, scraped_at, _, _, _, _, _, source_name = r
 
         logging.info(f"\n--- Evaluating Article ID {article_id}: {title[:60]}... ---")
-
-        # STAGE 1: Noise Filter
-        if not run_stage1_noise_filter(llm_2b, title, rephrased):
-            logging.info("Stage 1 Noise Filter: Discarded as noise.")
-            continue
 
         # STAGE 2: Structured Extractor
         extracted_json = run_stage2_extractor(llm_9b, title, rephrased, promises_data["promises"])
@@ -1201,6 +1220,12 @@ def main():
             promises_data["promises"].append(new_promise)
             new_promise_count += 1
             logging.info(f"Created new promise ID: {next_id}")
+
+    if llm_9b:
+        logging.info("Unloading Gemma 9B to free memory...")
+        del llm_9b
+        import gc
+        gc.collect()
 
     # Track pointer even if no article passed filters, so we don't scan them again next time
     for r in rows:
