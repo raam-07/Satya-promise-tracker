@@ -4,9 +4,9 @@
     "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 51,
-    "promises_with_evidence": 51,
-    "last_processed_row": 47320,
+    "total_promises": 54,
+    "promises_with_evidence": 54,
+    "last_processed_row": 47820,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -2250,6 +2250,150 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "minor: role 'Leader of Opposition' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p052",
+      "person": "Priyanka Gandhi Vadra",
+      "party": "Congress",
+      "role": "MP, Congress General Secretary",
+      "promise": "deliver justice for late singer Zubeen Garg",
+      "supporting_quote": "Vadra also promised justice for late singer Zubeen Garg, who died in Singapore, and vowed a Congress government would deliver within its first 100 days.",
+      "category": "general",
+      "made_on": "2026-04-01",
+      "deadline": "2024",
+      "source_url": "https://web.archive.org/web/20260617172326/https://www.thehindu.com/elections/assam-assembly/modi-americas-slave-has-put-country-in-crisis-priyanka-gandhi-vadra/article70812093.ece",
+      "source_description": "PM’s policies pushing country deeper into crisis, says Priyanka - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617172326/https://www.thehindu.com/elections/assam-assembly/modi-americas-slave-has-put-country-in-crisis-priyanka-gandhi-vadra/article70812093.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is vague and lacks specifics on how justice will be delivered. It is mentioned as part of a broader campaign promise.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617172326/https://www.thehindu.com/elections/assam-assembly/modi-americas-slave-has-put-country-in-crisis-priyanka-gandhi-vadra/article70812093.ece",
+          "title": "PM’s policies pushing country deeper into crisis, says Priyanka - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-01",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Priyanka Gandhi Vadra**, Congress leader, criticized **Prime Minister Narendra Modi** and **Chief Minister Himanta Biswa Sarma** for what she called \"double-slavery\" governance in Assam. She accused them of prioritizing personal gain over the well-being of the people and threatened to withhold or ...",
+          "content": "Congress leader Priyanka Gandhi Vadra said Prime Minister Narendra Modi has been pushing the country deeper into crisis by becoming a slave of the United States. Addressing rallies for the candidates of the Congress and ally Assam Jatiya Parishad in eastern Assam on Wednesday (April 1, 2026), she also said the people of the State were tired of the “mafia and syndicate rule” of the Himanta Biswa Sa...",
+          "quote": "Vadra also promised justice for late singer Zubeen Garg, who died in Singapore, and vowed a Congress government would deliver within its first 100 days."
+        }
+      ],
+      "notes": "The promise is vague and lacks specifics on how justice will be delivered. It is mentioned as part of a broader campaign promise.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list, role 'MP, Congress General Secretary' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p053",
+      "person": "M.K. Stalin",
+      "party": "DMK",
+      "role": "Chief Minister",
+      "promise": "reintroduce the FCRA amendment bill in a special session of Parliament",
+      "supporting_quote": "Stalin asserted that the Bill, which he called a \"direct attack\" on Christian NGOs and churches, would be reintroduced in a special session of Parliament.",
+      "category": "governance",
+      "made_on": "2026-04-02",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617173558/https://www.thehindu.com/news/national/tamil-nadu/amendment-to-fcra-a-direct-attack-on-minority-institutions-tn-cm-stalin/article70814184.ece",
+      "source_description": "Amendment to FCRA a direct attack on minority institutions: T.N. CM Stalin - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617173558/https://www.thehindu.com/news/national/tamil-nadu/amendment-to-fcra-a-direct-attack-on-minority-institutions-tn-cm-stalin/article70814184.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states Stalin believes the bill will be reintroduced, but doesn't confirm if this is a new promise or a reiteration of a previous stance.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617173558/https://www.thehindu.com/news/national/tamil-nadu/amendment-to-fcra-a-direct-attack-on-minority-institutions-tn-cm-stalin/article70814184.ece",
+          "title": "Amendment to FCRA a direct attack on minority institutions: T.N. CM Stalin - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-02",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**DMK** president M.K. Stalin criticized the **Union government's** decision to postpone an amendment to the Foreign Contributions (Regulation) Act (FCRA), claiming it was a tactic to stifle foreign funding for minority institutions ahead of the Kerala elections.  Stalin asserted that the Bill, whic...",
+          "content": "A day after the Lok Sabha was informed that the Union government did not intend to bring in a Bill to amend the Foreign Contributions (Regulation) Act (FCRA) during the ongoing Budget session, DMK president and Tamil Nadu Chief Minister M.K. Stalin on Thursday (April 2, 2026) said that the Centre was stepping back, for now, only due to Opposition protests and the upcoming elections in Kerala, whic...",
+          "quote": "Stalin asserted that the Bill, which he called a \"direct attack\" on Christian NGOs and churches, would be reintroduced in a special session of Parliament."
+        }
+      ],
+      "notes": "The article states Stalin believes the bill will be reintroduced, but doesn't confirm if this is a new promise or a reiteration of a previous stance.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p054",
+      "person": "Pinarayi Vijayan",
+      "party": "CPI(M)",
+      "role": "Chief Minister",
+      "promise": "60 programs with 950 proposals, including poverty eradication, increased welfare pensions, and universal health coverage",
+      "supporting_quote": "The manifesto outlined 60 programs with 950 proposals, including poverty eradication, increased welfare pensions, and universal health coverage.",
+      "category": "general",
+      "made_on": "2026-04-02",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617174525/https://www.thehindu.com/elections/kerala-assembly/kerala-assembly-elections-2026-chief-minister-campaigns-for-ldf-candidates-in-kozhikode/article70816645.ece",
+      "source_description": "Kerala Assembly Elections 2026: Chief Minister campaigns for LDF candidates in Kozhikode - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617174525/https://www.thehindu.com/elections/kerala-assembly/kerala-assembly-elections-2026-chief-minister-campaigns-for-ldf-candidates-in-kozhikode/article70816645.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is part of a manifesto for a state election, indicating a significant policy commitment.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617174525/https://www.thehindu.com/elections/kerala-assembly/kerala-assembly-elections-2026-chief-minister-campaigns-for-ldf-candidates-in-kozhikode/article70816645.ece",
+          "title": "Kerala Assembly Elections 2026: Chief Minister campaigns for LDF candidates in Kozhikode - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-02",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Chief Minister Pinarayi Vijayan** campaigned for **LDF** candidates in Kozhikode district, focusing on development initiatives and criticizing the **Congress-led UDF** and **BJP**.  He addressed rallies in various locations, including Beypore, Kunnamangalam, and Kozhikode beach. The manifesto outl...",
+          "content": "Chief Minister Pinarayi Vijayan on Thursday attended campaign events for Left Democratic Front (LDF) candidates in Kozhikode district, stepping up his attacks against the Congress-led United Democratic Front (UDF) and the Bharatiya Janata Party (BJP) while seeking another term for his government to continue its development initiatives. Mr. Vijayan sought votes for the LDF candidates in Beypore, Ku...",
+          "quote": "The manifesto outlined 60 programs with 950 proposals, including poverty eradication, increased welfare pensions, and universal health coverage."
+        }
+      ],
+      "notes": "The promise is part of a manifesto for a state election, indicating a significant policy commitment.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list"
     }
   ]
 }
