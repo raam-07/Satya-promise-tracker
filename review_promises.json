@@ -4,7 +4,28 @@
     "total_promises": 157,
     "promises_with_validated_evidence": 36,
     "statuses_automatically_updated": 0,
-    "status_suggestions_gated": 0
+    "status_suggestions_gated": 1
   },
-  "updated_items": []
+  "updated_items": [
+    {
+      "timestamp": "2026-06-17 20:54:41",
+      "reason": "new_promise_broken_gated",
+      "promise_id": "p059",
+      "politician": "M.K. Stalin",
+      "proposed_json": {
+        "politician": "M.K. Stalin",
+        "party": "DMK",
+        "promise_text": "over 70% of DMK's promises remained unfulfilled",
+        "category": "general",
+        "supporting_quote": "He questioned why the state government was not implementing central government schemes and claimed that over 70% of DMK's promises remained unfulfilled.",
+        "deadline_year": "null",
+        "is_new_promise": false,
+        "matched_existing_promise_id": "null",
+        "verdict": "broken",
+        "confidence": "medium",
+        "importance": "minor",
+        "reasoning": "The article states that over 70% of DMK's promises remain unfulfilled, implying they were not kept."
+      }
+    }
+  ]
 }

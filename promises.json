@@ -4,9 +4,9 @@
     "last_updated": "2026-06-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 58,
-    "promises_with_evidence": 58,
-    "last_processed_row": 48820,
+    "total_promises": 59,
+    "promises_with_evidence": 59,
+    "last_processed_row": 49320,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -2576,6 +2576,54 @@
         }
       ],
       "notes": "The article mentions these as key promises in the DMK manifesto but does not provide details on their nature or implementation status.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list"
+    },
+    {
+      "id": "p059",
+      "person": "M.K. Stalin",
+      "party": "DMK",
+      "role": "Chief Minister",
+      "promise": "over 70% of DMK's promises remained unfulfilled",
+      "supporting_quote": "He questioned why the state government was not implementing central government schemes and claimed that over 70% of DMK's promises remained unfulfilled.",
+      "category": "general",
+      "made_on": "2026-04-06",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617205441/https://www.thehindu.com/news/national/tamil-nadu/tn-assembly-election-why-arent-you-implementing-the-centres-schemes-piyush-goyal-questions-mk-stalin/article70830952.ece",
+      "source_description": "T.N. Assembly election: Why aren’t you implementing the Centre’s schemes, Piyush Goyal questions M.K. Stalin - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617205441/https://www.thehindu.com/news/national/tamil-nadu/tn-assembly-election-why-arent-you-implementing-the-centres-schemes-piyush-goyal-questions-mk-stalin/article70830952.ece"
+        }
+      ],
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The article states that over 70% of DMK's promises remain unfulfilled, implying they were not kept.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617205441/https://www.thehindu.com/news/national/tamil-nadu/tn-assembly-election-why-arent-you-implementing-the-centres-schemes-piyush-goyal-questions-mk-stalin/article70830952.ece",
+          "title": "T.N. Assembly election: Why aren’t you implementing the Centre’s schemes, Piyush Goyal questions M.K. Stalin - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-06",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Piyush Goyal**, **Union Minister for Commerce and Industry**, criticized **Chief Minister M.K. Stalin** during a press conference in Chennai, alleging corruption in sand mining, Tasmac, and drug proliferation in Tamil Nadu. He questioned why the state government was not implementing central govern...",
+          "content": "BJP leader and Union Minister for Commerce and Industry Piyush Goyal on Monday sought Chief Minister M.K. Stalin’s answer to questions about alleged corruption in sand mining, Tasmac, and the proliferation of drugs in Tamil Nadu and asked why he was not implementing Central government schemes in Tamil Nadu. He claimed that more than 70% of the promises made in the DMK’s manifesto remained unfulfil...",
+          "quote": "He questioned why the state government was not implementing central government schemes and claimed that over 70% of DMK's promises remained unfulfilled."
+        }
+      ],
+      "notes": "The article states that over 70% of DMK's promises remain unfulfilled, implying they were not kept.",
       "gemma_confidence": "medium",
       "gemma_assessed_at": "2026-06-17",
       "created_at": "2026-06-17",
