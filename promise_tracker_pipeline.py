@@ -366,13 +366,30 @@ def get_senior_role_classification(role, category):
         
     return None
 
+def get_known_politician_info(name, known_politicians_details):
+    if not name:
+        return {}
+    name_clean = name.lower().strip()
+    if name_clean in known_politicians_details:
+        return known_politicians_details[name_clean]
+    
+    # Substring fallback matching
+    for k, info in known_politicians_details.items():
+        if len(k) >= 4 and (k in name_clean or name_clean in k):
+            return info
+        elif len(k) < 4:
+            pattern = r'\b' + re.escape(k) + r'\b'
+            if re.search(pattern, name_clean):
+                return info
+    return {}
+
 def classify_importance(promise_obj, known_politicians_details):
     person = promise_obj.get("person", "")
     promise_text = promise_obj.get("promise", "")
     category = promise_obj.get("category", "")
     
     # Look up politician info
-    pol_info = known_politicians_details.get(person.lower().strip(), {})
+    pol_info = get_known_politician_info(person, known_politicians_details)
     role = pol_info.get("role", promise_obj.get("role", "Politician"))
     pol_cat = pol_info.get("category", "")
     
@@ -842,7 +859,7 @@ def backfill_promise_importance(promises_data, known_politicians_details, dry_ru
         old_role = p.get("role")
         
         # Resolve canonical role
-        pol_info = known_politicians_details.get(p["person"].lower().strip(), {})
+        pol_info = get_known_politician_info(p["person"], known_politicians_details)
         p["role"] = pol_info.get("role", p.get("role", "Politician"))
         
         if "importance_hint" not in p:
@@ -1189,7 +1206,7 @@ def main():
                         p["category"] = current_cat
                         
                     # Resolve canonical role
-                    pol_info = known_politicians_details.get(p["person"].lower().strip(), {})
+                    pol_info = get_known_politician_info(p["person"], known_politicians_details)
                     p["role"] = pol_info.get("role", p.get("role", "Politician"))
                     
                     # Store LLM advisory hint and compute importance via code rule
@@ -1268,7 +1285,7 @@ def main():
                 norm_cat = "other"
 
             # Resolve canonical role
-            pol_info = known_politicians_details.get(politician_name.lower().strip(), {})
+            pol_info = get_known_politician_info(politician_name, known_politicians_details)
             pol_role = pol_info.get("role", "Politician")
 
             new_promise = {
