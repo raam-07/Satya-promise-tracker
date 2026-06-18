@@ -4,9 +4,9 @@
     "last_updated": "2026-06-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 62,
-    "promises_with_evidence": 62,
-    "last_processed_row": 53821,
+    "total_promises": 64,
+    "promises_with_evidence": 64,
+    "last_processed_row": 54321,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -2778,6 +2778,102 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "minor: category 'general' not in high-impact list"
+    },
+    {
+      "id": "p063",
+      "person": "Kalvakuntla Kavitha",
+      "party": "Telangana Rashtra Sena (TRS)",
+      "role": "Politician",
+      "promise": "free education, free treatment, support for farmers, job creation, and social justice",
+      "supporting_quote": "The TRS chief outlined five assurances: free education, free treatment, support for farmers, job creation, and social justice.",
+      "category": "general",
+      "made_on": "2026-04-25",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260618025356/https://www.thehindu.com/news/national/telangana/kavitha-floats-telangana-rashtra-sena-targets-kcr-and-brs/article70904527.ece",
+      "source_description": "Kavitha floats ‘Telangana Rashtra Sena’, targets KCR and BRS - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-18",
+          "evidence_url": "https://web.archive.org/web/20260618025356/https://www.thehindu.com/news/national/telangana/kavitha-floats-telangana-rashtra-sena-targets-kcr-and-brs/article70904527.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states these are assurances outlined by Kavitha, but does not specify how they will be implemented or by when.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260618025356/https://www.thehindu.com/news/national/telangana/kavitha-floats-telangana-rashtra-sena-targets-kcr-and-brs/article70904527.ece",
+          "title": "Kavitha floats ‘Telangana Rashtra Sena’, targets KCR and BRS - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-25",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Kalvakuntla Kavitha**, founder of the new political party **Telangana Rashtra Sena (TRS)**, launched her initiative on April 25, 2026.  Kavitha's party seeks to reclaim the legacy of the Telangana statehood movement and criticizes the current BRS leadership under **K. Chandrashekar Rao**, accusing...",
+          "content": "Kalvakuntla Kavitha announced the launch of a new political party, the Telangana Rashtra Sena (TRS), echoing the original identity of the Bharat Rashtra Samiti (BRS), which was rechristened from the Telangana Rashtra Samiti (TRS), on April 25, 2026. By naming her political outfit as TRS, she apparently wants to be seen as a symbolic attempt to reclaim the ideological legacy of the Telangana stateh...",
+          "quote": "The TRS chief outlined five assurances: free education, free treatment, support for farmers, job creation, and social justice."
+        }
+      ],
+      "notes": "The article states these are assurances outlined by Kavitha, but does not specify how they will be implemented or by when.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-18",
+      "created_at": "2026-06-18",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p064",
+      "person": "Omar Abdullah",
+      "party": "National Conference",
+      "role": "Chief Minister",
+      "promise": "create a welcoming environment for filmmakers",
+      "supporting_quote": "He emphasized the state's scenic beauty and cultural heritage as attractive features for film production, stating his government will extend full support to make filmmaking easier and more accessible.",
+      "category": "world",
+      "made_on": "2026-04-25",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260618030426/https://www.thehindu.com/news/national/jammu-and-kashmir/jk-cm-omar-abdullah-pitches-kashmir-as-ideal-shooting-destination-to-south-indian-filmmakers/article70906328.ece",
+      "source_description": "J&K CM Omar Abdullah pitches Kashmir as ideal shooting destination to South Indian filmmakers - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-18",
+          "evidence_url": "https://web.archive.org/web/20260618030426/https://www.thehindu.com/news/national/jammu-and-kashmir/jk-cm-omar-abdullah-pitches-kashmir-as-ideal-shooting-destination-to-south-indian-filmmakers/article70906328.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is to create a more film-friendly environment, not a specific project or policy with a clear impact.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260618030426/https://www.thehindu.com/news/national/jammu-and-kashmir/jk-cm-omar-abdullah-pitches-kashmir-as-ideal-shooting-destination-to-south-indian-filmmakers/article70906328.ece",
+          "title": "J&K CM Omar Abdullah pitches Kashmir as ideal shooting destination to South Indian filmmakers - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-25",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Omar Abdullah**, the Chief Minister of **Jammu and Kashmir**,  promised to create a welcoming environment for filmmakers during an interaction with South Indian filmmakers in Bengaluru. He emphasized the state's scenic beauty and cultural heritage as attractive features for film production, statin...",
+          "content": "Pitching Kashmir as an ideal destination for film shooting to South Indian filmmakers, J&K Chief Minister Omar Abdullah on Saturday (April 25, 2026) said his government will create “a friendly and enabling environment for artists and filmmakers”. Speaking during an interaction with filmmakers in Karnataka’s Bengaluru, Mr. Abdullah highlighted J&K’s scenic beauty and rich cultural heritage as an id...",
+          "quote": "He emphasized the state's scenic beauty and cultural heritage as attractive features for film production, stating his government will extend full support to make filmmaking easier and more accessible."
+        }
+      ],
+      "notes": "The promise is to create a more film-friendly environment, not a specific project or policy with a clear impact.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-18",
+      "created_at": "2026-06-18",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'world' not in high-impact list"
     }
   ]
 }
