@@ -1308,7 +1308,7 @@
       "id": "p032",
       "person": "N. Chandrababu Naidu",
       "party": "TDP",
-      "role": "Politician",
+      "role": "Chief Minister",
       "promise": "Complete Polavaram Irrigation Project by June 2026",
       "category": "infrastructure",
       "made_on": "2026-06-16",
@@ -1352,14 +1352,14 @@
       "evidence_count": 2,
       "supporting_quote": "The Cabinet aims to resolve contractual and technical bottlenecks that have delayed water infrastructure development for nearly two decades.  These decisions are intended to meet the State government's target of completing the works by June 2026.",
       "importance_hint": "critical",
-      "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance": "critical",
+      "importance_reason": "high-impact category (infrastructure) + senior role (Chief Minister)"
     },
     {
       "id": "p033",
       "person": "Sunetra Pawar",
       "party": "NCP",
-      "role": "Politician",
+      "role": "NCP (SP) President",
       "promise": "Come Early, Go Early scheme for women government employees in MMR",
       "category": "other",
       "made_on": "2026-06-16",
@@ -1393,7 +1393,7 @@
       "supporting_quote": "**Deputy Chief Minister Sunetra Pawar** announced a new \"Come Early, Go Early\" scheme for women government employees in the Mumbai Metropolitan Region (MMR) to assist them with managing work and domestic responsibilities. The policy will allow women arriving between 9:15 a.m. and 9:45 a.m. to leave ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'other' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: category 'other' not in high-impact list, role 'NCP (SP) President' is not senior cabinet/exec level"
     },
     {
       "id": "p034",
@@ -1450,7 +1450,7 @@
       "id": "p035",
       "person": "A. Revanth Reddy",
       "party": "Telangana Rashtra Samithi (TRS)",
-      "role": "Politician",
+      "role": "Chief Minister",
       "promise": "achieve a $1 trillion economy by 2035",
       "supporting_quote": "Reddy emphasized the state's ambition to attract Fortune 500 companies and achieve a $1 trillion economy by 2035.",
       "category": "economy",
@@ -1491,8 +1491,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "critical",
-      "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance": "critical",
+      "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
     },
     {
       "id": "p036",
@@ -1546,7 +1546,7 @@
       "id": "p037",
       "person": "Akbaruddin Owaisi",
       "party": "AIMIM",
-      "role": "Politician",
+      "role": "AIMIM President",
       "promise": "loan subsidy for unemployed youth and women, financial assistance for students, and an amendment to the Telangana Minorities Commission Act",
       "supporting_quote": "Owaisi highlighted that most promises remain unfulfilled, including loan subsidy for unemployed youth and women, financial assistance for students, and an amendment to the Telangana Minorities Commission Act.",
       "category": "corruption/governance",
@@ -1588,13 +1588,13 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'AIMIM President' is not senior cabinet/exec level"
     },
     {
       "id": "p038",
       "person": "A. Revanth Reddy",
       "party": "Telangana Rashtra Samithi (TRS)",
-      "role": "Politician",
+      "role": "Chief Minister",
       "promise": "assured displaced families of housing and employment opportunities in government land parcels",
       "supporting_quote": "He assured displaced families of housing and employment opportunities in government land parcels",
       "category": "corruption/governance",
@@ -1635,8 +1635,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
     },
     {
       "id": "p039",
@@ -1738,7 +1738,7 @@
       "id": "p041",
       "person": "Udhayanidhi Stalin",
       "party": "DMK",
-      "role": "Politician",
+      "role": "Chief Minister",
       "promise": "zero school dropout rates, construction of new houses for the poor, and creation of jobs for unemployed youth",
       "supporting_quote": "Stalin highlighted key goals including zero school dropout rates, construction of new houses for the poor, and creation of jobs for unemployed youth.",
       "category": "welfare",
@@ -1779,14 +1779,14 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "critical",
-      "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance": "critical",
+      "importance_reason": "high-impact category (welfare) + senior role (Chief Minister)"
     },
     {
       "id": "p042",
       "person": "A. Revanth Reddy",
       "party": "Congress",
-      "role": "Politician",
+      "role": "Chief Minister",
       "promise": "appoint at least 20% of chairperson positions in corporations and government agencies to women",
       "supporting_quote": "Telangana Pradesh Congress Committee (TPCC) chief B. Mahesh Kumar Goud announced that Chief Minister A. Revanth Reddy is considering appointing at least 20% of chairperson positions in corporations and government agencies to women in the next phase of appointments.",
       "category": "corruption/governance",
@@ -1827,14 +1827,14 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
     },
     {
       "id": "p043",
       "person": "A. Revanth Reddy",
       "party": "Congress",
-      "role": "Politician",
+      "role": "Chief Minister",
       "promise": "stalls for women at restored tank sites",
       "supporting_quote": "He announced plans for stalls for women at restored tank sites, children's playgrounds along the banks, and development funds for all Assembly constituencies under Malkajgiri regardless of political affiliations.",
       "category": "infrastructure",
@@ -1875,8 +1875,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance": "critical",
+      "importance_reason": "high-impact category (infrastructure) + senior role (Chief Minister)"
     },
     {
       "id": "p044",
@@ -2026,7 +2026,7 @@
       "id": "p047",
       "person": "A. Revanth Reddy",
       "party": "Congress",
-      "role": "Politician",
+      "role": "Chief Minister",
       "promise": "Siddipet would be represented by a Congress MLA in the next Assembly elections",
       "supporting_quote": "He announced that Siddipet would be represented by a Congress MLA in the next Assembly elections",
       "category": "corruption/governance",
@@ -2067,14 +2067,14 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
     },
     {
       "id": "p048",
       "person": "A. Revanth Reddy",
       "party": "Congress",
-      "role": "Politician",
+      "role": "Chief Minister",
       "promise": "a total of ₹9,000 crore would be disbursed in three phases within 45 days to 70 lakh farmers",
       "supporting_quote": "He promised a total of ₹9,000 crore would be disbursed in three phases within 45 days to 70 lakh farmers.",
       "category": "farmers/agriculture",
@@ -2115,8 +2115,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "critical",
-      "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance": "critical",
+      "importance_reason": "high-impact category (farmers/agriculture) + senior role (Chief Minister)"
     },
     {
       "id": "p049",
@@ -2938,7 +2938,7 @@
       "id": "p066",
       "person": "Priyank Kharge",
       "party": "Congress",
-      "role": "Politician",
+      "role": "INC National President",
       "promise": "easier access to revenue services and empower economically weaker sections with ownership records",
       "supporting_quote": "The initiative aims to provide easier access to revenue services and empower economically weaker sections with ownership records.",
       "category": "corruption/governance",
@@ -2980,7 +2980,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'INC National President' is not senior cabinet/exec level"
     },
     {
       "id": "p067",
