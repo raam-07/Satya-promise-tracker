@@ -240,7 +240,20 @@ def is_valid_indian_politician(name):
     return True
 
 # Load Known Politician Registry
-# Constants for Promise Importance Tagging
+# Constants for Promise Category and Importance Tagging
+CANONICAL_CATEGORIES = [
+    "jobs/employment",
+    "economy",
+    "farmers/agriculture",
+    "health",
+    "education",
+    "infrastructure",
+    "welfare",
+    "corruption/governance",
+    "law_and_order",
+    "other"
+]
+
 HIGH_IMPACT_CATEGORIES = [
     "jobs/employment",
     "economy",
@@ -265,15 +278,63 @@ def normalize_category(cat):
         return ""
     c = cat.lower().strip()
     mapping = {
+        # Farmers / Agriculture
         "farmer_agriculture": "farmers/agriculture",
         "farmer/agriculture": "farmers/agriculture",
         "farmers_agriculture": "farmers/agriculture",
+        "farmers/agriculture": "farmers/agriculture",
+        "agriculture": "farmers/agriculture",
+        "farmers": "farmers/agriculture",
+        "farming": "farmers/agriculture",
+        
+        # Jobs / Employment
         "jobs_employment": "jobs/employment",
         "jobs/employment": "jobs/employment",
+        "jobs": "jobs/employment",
+        "employment": "jobs/employment",
+        "work": "jobs/employment",
+        
+        # Corruption / Governance
         "corruption_governance": "corruption/governance",
         "corruption/governance": "corruption/governance",
-        "corruption_scam": "corruption/governance",
         "governance": "corruption/governance",
+        "corruption": "corruption/governance",
+        "corruption_scam": "corruption/governance",
+        "accountability": "corruption/governance",
+        
+        # Economy
+        "economy": "economy",
+        "finance": "economy",
+        "growth": "economy",
+        "taxes": "economy",
+        "tax": "economy",
+        "investment": "economy",
+        
+        # Infrastructure
+        "infrastructure": "infrastructure",
+        "power": "infrastructure",
+        "electricity": "infrastructure",
+        "water": "infrastructure",
+        "roads": "infrastructure",
+        "highway": "infrastructure",
+        "railways": "infrastructure",
+        
+        # Welfare
+        "welfare": "welfare",
+        "pension": "welfare",
+        "subsidies": "welfare",
+        "subsidy": "welfare",
+        "allowance": "welfare",
+        "rations": "welfare",
+        "pucca houses": "welfare",
+        "housing": "welfare",
+        
+        # Law & Order
+        "law_and_order": "law_and_order",
+        "law and order": "law_and_order",
+        "law & order": "law_and_order",
+        "security": "law_and_order",
+        "crime": "law_and_order"
     }
     return mapping.get(c, c)
 
@@ -564,7 +625,7 @@ JSON SCHEMA:
   "politician": "Name of the Indian politician",
   "party": "Their party (BJP, Congress, AAP, DMK, TDP, etc.) — use the well-known party if not stated",
   "promise_text": "Concise promise/goal (e.g. 'Build 20,000 houses')",
-  "category": "One of: farmer_agriculture, economy, infrastructure, health, education, foreign_policy, governance, justice, world, general",
+  "category": "One of: jobs/employment, economy, farmers/agriculture, health, education, infrastructure, welfare, corruption/governance, law_and_order, other",
   "supporting_quote": "the EXACT sentence from the article, copied verbatim",
   "deadline_year": "YYYY or 'ongoing'",
   "is_new_promise": true or false,
@@ -732,23 +793,32 @@ Supporting Quote: "{supporting_quote}"
 
 
 def recategorize_promises(promises_data, llm_9b, dry_run=False):
-    logging.info("Running one-time idempotent recategorize pass for promises with 'general' or missing categories...")
+    logging.info("Running idempotent recategorize pass for promises with non-canonical categories...")
     total = len(promises_data["promises"])
     recategorized_count = 0
     
     for p in promises_data["promises"]:
-        cat = p.get("category", "").lower().strip()
-        # Only classify if category is 'general', empty, or missing (never re-trigger 'other' or other valid categories)
-        if cat in ["general", "", "null", "none"]:
+        # Normalize the stored category first
+        current_cat = normalize_category(p.get("category", ""))
+        
+        # Trigger reclassification if empty, "general", or not in CANONICAL_CATEGORIES
+        if not current_cat or current_cat == "general" or current_cat not in CANONICAL_CATEGORIES:
             promise_text = p.get("promise", "")
             quote = p.get("supporting_quote", "")
             
-            logging.info(f"Classifying category for promise ID {p['id']}: '{promise_text[:50]}...'")
+            logging.info(f"Classifying category for promise ID {p['id']} ('{p.get('category')}'): '{promise_text[:50]}...'")
             new_cat = classify_category_gemma(llm_9b, promise_text, quote)
+            norm_new = normalize_category(new_cat)
             
-            logging.info(f"Promise ID {p['id']} recategorized: '{cat}' -> '{new_cat}'")
-            p["category"] = new_cat
+            if norm_new not in CANONICAL_CATEGORIES:
+                norm_new = "other"
+                
+            logging.info(f"Promise ID {p['id']} recategorized: '{p.get('category')}' -> '{norm_new}'")
+            p["category"] = norm_new
             recategorized_count += 1
+        else:
+            # Save the clean normalized value
+            p["category"] = current_cat
             
     logging.info(f"Recategorization pass complete. Total: {total}, Recategorized: {recategorized_count}.")
     
@@ -1098,16 +1168,25 @@ def main():
                     p["supporting_quote"] = extracted_json.get("supporting_quote", p.get("supporting_quote", ""))
                     p["evidence_count"] = len(p["evidence_articles"])
                     
-                    # Update category if extracted and valid, otherwise heal if general
-                    new_cat = extracted_json.get("category")
-                    if new_cat and new_cat.lower().strip() not in ["general", "", "null", "none"]:
-                        p["category"] = new_cat
-                        
-                    current_cat = p.get("category", "").lower().strip()
-                    if current_cat in ["general", "", "null", "none"]:
-                        logging.info(f"Promise ID {p['id']} has stale/general category. Re-classifying dynamically...")
+                    # Update category: normalize first
+                    extracted_cat = extracted_json.get("category")
+                    if extracted_cat:
+                        norm_cat = normalize_category(extracted_cat)
+                        # Only apply the update if it's a valid canonical category (excluding general/empty)
+                        if norm_cat and norm_cat != "general" and norm_cat in CANONICAL_CATEGORIES:
+                            p["category"] = norm_cat
+                    
+                    # Dynamic healing check: if the stored category is empty, "general", or not canonical
+                    current_cat = normalize_category(p.get("category", ""))
+                    if not current_cat or current_cat == "general" or current_cat not in CANONICAL_CATEGORIES:
+                        logging.info(f"Promise ID {p['id']} has non-canonical category ('{p.get('category')}'). Re-classifying dynamically...")
                         healed_cat = classify_category_gemma(llm_9b, p.get("promise", ""), p.get("supporting_quote", ""))
-                        p["category"] = healed_cat
+                        norm_healed = normalize_category(healed_cat)
+                        if norm_healed not in CANONICAL_CATEGORIES:
+                            norm_healed = "other"
+                        p["category"] = norm_healed
+                    else:
+                        p["category"] = current_cat
                         
                     # Resolve canonical role
                     pol_info = known_politicians_details.get(p["person"].lower().strip(), {})
@@ -1174,6 +1253,20 @@ def main():
                 save_to_review_queue({"person": politician_name, "id": next_id}, extracted_json, "new_promise_low_confidence_gated")
                 initial_status = "ongoing"
 
+            # Resolve category at creation: normalize first
+            extracted_cat = extracted_json.get("category", "")
+            norm_cat = normalize_category(extracted_cat)
+            
+            # If normalized category is empty, "general", or not canonical, reclassify with Gemma
+            if not norm_cat or norm_cat == "general" or norm_cat not in CANONICAL_CATEGORIES:
+                logging.info(f"New promise category is non-canonical ('{extracted_cat}'). Re-classifying dynamically...")
+                classified_cat = classify_category_gemma(llm_9b, extracted_json.get("promise_text", title), extracted_json.get("supporting_quote", ""))
+                norm_cat = normalize_category(classified_cat)
+                
+            # If still invalid/non-canonical, fall back to "other" (never general)
+            if norm_cat not in CANONICAL_CATEGORIES:
+                norm_cat = "other"
+
             # Resolve canonical role
             pol_info = known_politicians_details.get(politician_name.lower().strip(), {})
             pol_role = pol_info.get("role", "Politician")
@@ -1185,7 +1278,7 @@ def main():
                 "role": pol_role,
                 "promise": extracted_json.get("promise_text", title),
                 "supporting_quote": extracted_json.get("supporting_quote", ""),
-                "category": extracted_json.get("category", "general"),
+                "category": norm_cat,
                 "made_on": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
                 "deadline": deadline_val,
                 "source_url": final_url,
