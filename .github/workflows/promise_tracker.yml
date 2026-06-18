@@ -4,6 +4,17 @@ on:
   repository_dispatch:
     types: [trigger-promise-tracker]  # Listens for the dispatch event from the other repository
   workflow_dispatch:                  # Allows manually running the workflow from the GitHub UI
+    inputs:
+      recategorize:
+        description: 'Run recategorization and exit'
+        required: false
+        type: boolean
+        default: false
+      backfill_importance:
+        description: 'Run backfill importance and exit'
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: satya-promise-tracker
@@ -111,7 +122,13 @@ jobs:
           SATYA_DB_URL: ${{ secrets.SATYA_DB_URL }}
           SATYA_DB_TOKEN: ${{ secrets.SATYA_DB_TOKEN }}
         run: |
-          python promise_tracker_pipeline.py --batch-size 500
+          if [ "${{ github.event.inputs.recategorize }}" = "true" ]; then
+            python promise_tracker_pipeline.py --recategorize
+          elif [ "${{ github.event.inputs.backfill_importance }}" = "true" ]; then
+            python promise_tracker_pipeline.py --backfill-importance
+          else
+            python promise_tracker_pipeline.py --batch-size 500
+          fi
 
       - name: Guard — block accidental promise deletions
         run: |
