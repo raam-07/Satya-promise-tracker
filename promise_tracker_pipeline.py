@@ -382,7 +382,67 @@ def get_known_politician_info(name, known_politicians_details):
                 return info
     return {}
 
-def classify_importance(promise_obj, known_politicians_details):
+def has_scale_signal(text):
+    text_lower = text.lower()
+    indicators = [
+        "crore", "lakh", "million", "trillion", "nationwide",
+        "every household", "every family", "every farmer", "every citizen"
+    ]
+    return any(ind in text_lower for ind in indicators)
+
+def classify_importance_gemma(llm_9b, promise_text, category, person_role):
+    prompt = f"""<start_of_turn>user
+You are rating how significant an Indian political promise is, for an accountability tracker.
+Return "critical" ONLY if the promise is genuinely major:
+- National or whole-state scale, OR affects millions of people, OR
+- A large, measurable commitment (big numbers of jobs/houses/money, a flagship scheme, a major economic/structural target).
+
+Return "minor" for everything else:
+- Local or constituency-level, one-time giveaways, symbolic gestures,
+  routine administrative actions, or vague statements with no real scale.
+
+Judge ONLY by impact and scale — never by whether the promise is good or bad,
+and apply the same standard regardless of party.
+
+Examples:
+- "Create 2 crore jobs every year" -> critical
+- "Make India a $5 trillion economy" -> critical
+- "Piped water to every household by 2024" -> critical
+- "Pay a Ugadi bonus of Rs 1 per litre to milk producers" -> minor
+- "Construct a model colony in one village" -> minor
+- "Relocate the local garbage dumping yard" -> minor
+
+Promise: "{promise_text}"
+Category: {category}
+Made by (role): {person_role}
+
+Return ONLY JSON: {{"importance": "critical or minor", "reason": "one short sentence"}}
+<end_of_turn>
+<start_of_turn>model
+"""
+    try:
+        output = llm_9b(prompt, max_tokens=150, temperature=0.0)
+        json_text = output['choices'][0]['text'].strip()
+        
+        # Clean any accidental markdown code wrappers
+        if json_text.startswith("```"):
+            lines = json_text.splitlines()
+            if lines[0].startswith("```json") or lines[0].startswith("```"):
+                json_text = "\n".join(lines[1:-1]).strip()
+                
+        data = json.loads(json_text)
+        importance = data.get("importance", "minor").strip().lower()
+        reason = data.get("reason", "No reason provided by LLM.").strip()
+        
+        if importance not in ["critical", "minor"]:
+            importance = "minor"
+            
+        return importance, reason
+    except Exception as e:
+        logging.error(f"Error classifying importance with Gemma: {e}")
+        return "minor", f"LLM error: {str(e)}"
+
+def classify_importance(promise_obj, known_politicians_details, llm_9b=None):
     person = promise_obj.get("person", "")
     promise_text = promise_obj.get("promise", "")
     category = promise_obj.get("category", "")
@@ -392,41 +452,25 @@ def classify_importance(promise_obj, known_politicians_details):
     role = pol_info.get("role", promise_obj.get("role", "Politician"))
     pol_cat = pol_info.get("category", "")
     
-    norm_cat = normalize_category(category)
-    has_high_impact_cat = norm_cat in HIGH_IMPACT_CATEGORIES
-    
+    # Resolve senior classification if needed, but role itself is passed to LLM
     senior_role = get_senior_role_classification(role, pol_cat)
-    has_senior_role = senior_role in SENIOR_ROLES
+    person_role = senior_role or role
     
-    # Strict Override check (explicit scale signals)
-    text = promise_text.lower()
-    mass_indicators = [
-        "crore", "lakh", "million", 
-        "every household", "every family", "every farmer", "every citizen", 
-        "all farmers", "all families", "all households", "all citizens",
-        "nationwide", "statewide", "across the state", "across the country"
-    ]
-    has_mass_scale = any(ind in text for ind in mass_indicators)
+    norm_cat = normalize_category(category)
     
-    # We require the leader to be CM/PM/Minister to trigger the scale override (keeps it realistic)
-    is_senior_leader = senior_role is not None or any(r in role.lower() for r in ["minister", "cm", "pm"])
-    is_override = has_mass_scale and is_senior_leader
-    
-    if has_high_impact_cat and has_senior_role:
-        reason = f"high-impact category ({norm_cat}) + senior role ({senior_role or role})"
-        return "critical", reason
-    elif is_override:
-        reason = f"strict scale override ({' & '.join(ind for ind in mass_indicators if ind in text)}) by senior leader"
-        return "critical", reason
+    # 1. Deterministic force critical check (mega-scale signal)
+    if has_scale_signal(promise_text):
+        reason = f"deterministic force critical (scale signal)"
+        return "critical", reason, "backstop"
+        
+    # 2. Call Gemma LLM if available
+    if llm_9b:
+        imp, reason = classify_importance_gemma(llm_9b, promise_text, norm_cat, person_role)
+        return imp, reason, "llm"
     else:
-        # Build reason why it is minor
-        reasons = []
-        if not has_high_impact_cat:
-            reasons.append(f"category '{category}' not in high-impact list")
-        if not has_senior_role:
-            reasons.append(f"role '{role}' is not senior cabinet/exec level")
-        reason = "minor: " + ", ".join(reasons)
-        return "minor", reason
+        # If LLM is not initialized/passed, default to minor
+        return "minor", "LLM not available fallback", "backstop"
+
 
 # Load Known Politician Registry
 def load_known_politicians():
@@ -845,7 +889,7 @@ def recategorize_promises(promises_data, llm_9b, dry_run=False):
         logging.info("No changes saved (dry-run or no updates needed).")
 
 
-def backfill_promise_importance(promises_data, known_politicians_details, dry_run=False):
+def backfill_promise_importance(promises_data, known_politicians_details, llm_9b, dry_run=False):
     logging.info("Running one-time backfill of importance fields for all existing promises...")
     total = len(promises_data["promises"])
     critical_count = 0
@@ -855,6 +899,7 @@ def backfill_promise_importance(promises_data, known_politicians_details, dry_ru
     for p in promises_data["promises"]:
         old_imp = p.get("importance")
         old_reason = p.get("importance_reason")
+        old_source = p.get("importance_source")
         old_role = p.get("role")
         
         # Resolve canonical role
@@ -864,27 +909,32 @@ def backfill_promise_importance(promises_data, known_politicians_details, dry_ru
         if "importance_hint" not in p:
             p["importance_hint"] = "minor"
             
-        imp, reason = classify_importance(p, known_politicians_details)
+        imp, reason, source = classify_importance(p, known_politicians_details, llm_9b)
         p["importance"] = imp
         p["importance_reason"] = reason
+        p["importance_source"] = source
         
         if imp == "critical":
             critical_count += 1
         else:
             minor_count += 1
             
-        if old_imp != imp or old_reason != reason or old_role != p["role"]:
+        if old_imp != imp or old_reason != reason or old_source != source or old_role != p["role"]:
             updated_count += 1
             
     pct_critical = (critical_count / total * 100) if total > 0 else 0
     logging.info(f"Backfill Complete. Total Promises: {total}. Critical: {critical_count} ({pct_critical:.1f}%), Minor: {minor_count} ({100-pct_critical:.1f}%).")
     logging.info(f"Updated {updated_count} promises with new values.")
     
+    if pct_critical > 40.0:
+        logging.warning("WARNING: The critical promise ratio is above 40%! You may want to tighten the rubric or prompt instructions.")
+        
     if not dry_run and updated_count > 0:
         save_promises(promises_data)
         logging.info("Saved backfilled importance fields to promises.json")
     else:
         logging.info("No changes saved (dry-run or no updates needed).")
+
 
 
 # ==============================================================================
@@ -912,11 +962,15 @@ def main():
             logging.critical("Failed to load Gemma 9B model for recategorization.")
             sys.exit(1)
         recategorize_promises(promises_data, llm_9b, args.dry_run)
-        backfill_promise_importance(promises_data, known_politicians_details, args.dry_run)
+        backfill_promise_importance(promises_data, known_politicians_details, llm_9b, args.dry_run)
         sys.exit(0)
 
     if args.backfill_importance:
-        backfill_promise_importance(promises_data, known_politicians_details, args.dry_run)
+        llm_9b = init_llm(MODEL_9B_PATH, 4096)
+        if not llm_9b:
+            logging.critical("Failed to load Gemma 9B model for backfill.")
+            sys.exit(1)
+        backfill_promise_importance(promises_data, known_politicians_details, llm_9b, args.dry_run)
         sys.exit(0)
     
     # 2. Connect to Database (reads from Turso remote if variables are set)
@@ -1200,11 +1254,13 @@ def main():
                     pol_info = get_known_politician_info(p["person"], known_politicians_details)
                     p["role"] = pol_info.get("role", p.get("role", "Politician"))
                     
-                    # Store LLM advisory hint and compute importance via code rule
+                    # Store LLM advisory hint
                     p["importance_hint"] = extracted_json.get("importance", "minor")
-                    imp, reason = classify_importance(p, known_politicians_details)
-                    p["importance"] = imp
-                    p["importance_reason"] = reason
+                    if "importance" not in p or not p.get("importance_source"):
+                        imp, reason, source = classify_importance(p, known_politicians_details, llm_9b)
+                        p["importance"] = imp
+                        p["importance_reason"] = reason
+                        p["importance_source"] = source
                     found = True
                     updated_promise_count += 1
                     logging.info(f"Updated existing promise ID: {matched_id}")
@@ -1313,10 +1369,11 @@ def main():
                 "evidence_count": 1,
                 "importance_hint": extracted_json.get("importance", "minor")
             }
-            # Compute importance using pure code rule
-            imp_val, imp_reason = classify_importance(new_promise, known_politicians_details)
+            # Compute importance using LLM / backstops
+            imp_val, imp_reason, imp_source = classify_importance(new_promise, known_politicians_details, llm_9b)
             new_promise["importance"] = imp_val
             new_promise["importance_reason"] = imp_reason
+            new_promise["importance_source"] = imp_source
 
             promises_data["promises"].append(new_promise)
             new_promise_count += 1
