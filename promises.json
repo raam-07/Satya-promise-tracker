@@ -23,7 +23,7 @@
       "party": "BJP",
       "role": "Prime Minister",
       "promise": "Double farmer income by 2022",
-      "category": "farmer_agriculture",
+      "category": "farmers/agriculture",
       "made_on": "2016-02-28",
       "deadline": "2022-12-31",
       "source_url": "https://indianexpress.com/article/india/will-double-farmers-income-by-2022-says-pm-modi-4617098/",
@@ -226,7 +226,7 @@
       "party": "BJP",
       "role": "Prime Minister",
       "promise": "End corruption completely — 'Na khaunga, na khane dunga'",
-      "category": "corruption_scam",
+      "category": "corruption/governance",
       "made_on": "2014-04-01",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20190208201614/http://www.bjp.org:80/manifesto2014",
@@ -266,7 +266,7 @@
       "party": "BJP",
       "role": "Prime Minister",
       "promise": "Electoral bonds will bring transparency to political funding",
-      "category": "politics",
+      "category": "corruption/governance",
       "made_on": "2017-02-01",
       "deadline": "ongoing",
       "source_url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1515234",
@@ -298,8 +298,8 @@
       "evidence_count": 1,
       "supporting_quote": "The Supreme Court struck down the anonymous Electoral Bonds scheme, ordering the State Bank of India to stop issuing bonds and disclose all political donor data.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
     },
     {
       "id": "p008",
@@ -348,7 +348,7 @@
       "party": "BJP",
       "role": "Prime Minister",
       "promise": "Uniform Civil Code implementation",
-      "category": "politics",
+      "category": "corruption/governance",
       "made_on": "2014-04-01",
       "deadline": "ongoing",
       "source_url": "http://library.bjp.org/jspui/handle/123456789/2988",
@@ -379,8 +379,8 @@
       "evidence_count": 1,
       "supporting_quote": "Uttarakhand passed the Uniform Civil Code Bill, making it the first state to implement the code. The law covers marriage, divorce, inheritance, and live-in relationships.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
     },
     {
       "id": "p010",
@@ -388,7 +388,7 @@
       "party": "BJP",
       "role": "Prime Minister",
       "promise": "One nation one election",
-      "category": "politics",
+      "category": "corruption/governance",
       "made_on": "2019-06-01",
       "deadline": "ongoing",
       "source_url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2056059",
@@ -420,8 +420,8 @@
       "evidence_count": 1,
       "supporting_quote": "The Union Cabinet approved the simultaneous elections proposal. The implementation requires constitutional amendments and consensus among state assemblies.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Prime Minister)"
     },
     {
       "id": "p011",
@@ -511,7 +511,7 @@
       "party": "BJP",
       "role": "Union Home Minister",
       "promise": "Remove Rohingyas from India completely",
-      "category": "politics",
+      "category": "law_and_order",
       "made_on": "2018-09-17",
       "deadline": "ongoing",
       "source_url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1947234",
@@ -544,7 +544,7 @@
       "supporting_quote": "The Home Ministry stated that illegal migrants are identified and deported in accordance with legal processes, but deportations remain slow and subject to legal challenges.",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance_reason": "minor: category 'law_and_order' not in high-impact list"
     },
     {
       "id": "p014",
@@ -716,7 +716,7 @@
       "party": "BJP",
       "role": "Chief Minister",
       "promise": "End mafia raj and crime completely in Uttar Pradesh",
-      "category": "governance",
+      "category": "corruption/governance",
       "made_on": "2017-03-19",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20170202000000/https://timesofindia.indiatimes.com/assembly-elections-2017/uttar-pradesh/bjp-up-manifesto-2017-key-highlights-of-lok-kalyan-sankalp-patra/articleshow/56832269.cms",
@@ -767,7 +767,7 @@
       "party": "TMC",
       "role": "Chief Minister",
       "promise": "Ma Mati Manush — government for people of Bengal",
-      "category": "politics",
+      "category": "welfare",
       "made_on": "2011-05-20",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20110505000000/https://timesofindia.indiatimes.com/assembly-elections-2011/west-bengal/trinamool-congress-manifesto-highlights/articleshow/7786440.cms",
@@ -799,8 +799,8 @@
       "evidence_count": 1,
       "supporting_quote": "Mamata Banerjee reiterated her administration's commitment to protecting citizen identities and welfare benefits under the regional Ma Mati Manush governance framework.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'politics' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (welfare) + senior role (Chief Minister)"
     },
     {
       "id": "p020",
@@ -1549,7 +1549,7 @@
       "role": "Politician",
       "promise": "loan subsidy for unemployed youth and women, financial assistance for students, and an amendment to the Telangana Minorities Commission Act",
       "supporting_quote": "Owaisi highlighted that most promises remain unfulfilled, including loan subsidy for unemployed youth and women, financial assistance for students, and an amendment to the Telangana Minorities Commission Act.",
-      "category": "governance",
+      "category": "corruption/governance",
       "made_on": "2026-03-13",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617053545/https://www.thehindu.com/news/national/telangana/akbaruddin-owaisi-urges-telangana-cm-to-address-unfulfilled-minority-promises/article70740372.ece",
@@ -1597,7 +1597,7 @@
       "role": "Politician",
       "promise": "assured displaced families of housing and employment opportunities in government land parcels",
       "supporting_quote": "He assured displaced families of housing and employment opportunities in government land parcels",
-      "category": "governance",
+      "category": "corruption/governance",
       "made_on": "2026-03-13",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617055135/https://www.thehindu.com/news/national/telangana/cm-castigates-the-naysayers-of-musi-project/article70740855.ece",
@@ -1693,7 +1693,7 @@
       "role": "Labour and Employment Minister",
       "promise": "strengthening sports infrastructure to enable students to compete at the international level, particularly for the 2036 Olympics",
       "supporting_quote": "Mandaviya emphasized the government's commitment to strengthening sports infrastructure to enable students to compete at the international level, particularly for the 2036 Olympics.",
-      "category": "sports",
+      "category": "infrastructure",
       "made_on": "2026-03-14",
       "deadline": "2036",
       "source_url": "https://web.archive.org/web/20260617065812/https://www.thehindu.com/news/national/karnataka/our-emphasis-is-to-promote-raw-talentunion-sports-minister-mandaviya/article70743985.ece",
@@ -1731,8 +1731,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'sports' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (infrastructure) + senior role (Union Cabinet Minister)"
     },
     {
       "id": "p041",
@@ -1741,7 +1741,7 @@
       "role": "Politician",
       "promise": "zero school dropout rates, construction of new houses for the poor, and creation of jobs for unemployed youth",
       "supporting_quote": "Stalin highlighted key goals including zero school dropout rates, construction of new houses for the poor, and creation of jobs for unemployed youth.",
-      "category": "general",
+      "category": "welfare",
       "made_on": "2026-03-14",
       "deadline": "2028",
       "source_url": "https://web.archive.org/web/20260617070747/https://www.thehindu.com/news/national/tamil-nadu/deputy-cm-udhayanidhi-stalin-distributes-welfare-aid-worth-10049-crore-in-tirupattur/article70743174.ece",
@@ -1780,7 +1780,7 @@
       "evidence_count": 1,
       "importance_hint": "critical",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p042",
@@ -1789,7 +1789,7 @@
       "role": "Politician",
       "promise": "appoint at least 20% of chairperson positions in corporations and government agencies to women",
       "supporting_quote": "Telangana Pradesh Congress Committee (TPCC) chief B. Mahesh Kumar Goud announced that Chief Minister A. Revanth Reddy is considering appointing at least 20% of chairperson positions in corporations and government agencies to women in the next phase of appointments.",
-      "category": "governance",
+      "category": "corruption/governance",
       "made_on": "2026-03-15",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617080538/https://www.thehindu.com/news/national/telangana/telangana-mahila-congress-gets-new-chief-tpcc-chief-highlights-womens-appointments/article70746817.ece",
@@ -1837,7 +1837,7 @@
       "role": "Politician",
       "promise": "stalls for women at restored tank sites",
       "supporting_quote": "He announced plans for stalls for women at restored tank sites, children's playgrounds along the banks, and development funds for all Assembly constituencies under Malkajgiri regardless of political affiliations.",
-      "category": "general",
+      "category": "infrastructure",
       "made_on": "2026-03-09",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617090309/https://www.thehindu.com/news/national/telangana/women-will-be-provided-stalls-on-edge-of-restored-lakes-promises-cm/article70723772.ece",
@@ -1876,7 +1876,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p044",
@@ -1933,7 +1933,7 @@
       "role": "Leader of Opposition",
       "promise": "proposed \"guarantee card\"",
       "supporting_quote": "The rally will focus on key promises of the United Democratic Front (UDF), including the proposed \"guarantee card.\"",
-      "category": "general",
+      "category": "welfare",
       "made_on": "2026-03-21",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617121850/https://www.thehindu.com/elections/kerala-assembly/kerala-assembly-polls-2026-rahul-gandhi-to-launch-kerala-poll-campaign-on-march-25/article70770161.ece",
@@ -1972,7 +1972,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Leader of Opposition' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Leader of Opposition' is not senior cabinet/exec level"
     },
     {
       "id": "p046",
@@ -1981,7 +1981,7 @@
       "role": "Chief Minister",
       "promise": "safeguarding nature is essential for human survival",
       "supporting_quote": "He performed prayers and rituals, emphasizing the importance of preserving traditional customs and the deep connection between humans and nature. Mr. Soren also expressed his belief that safeguarding nature is essential for human survival.",
-      "category": "world",
+      "category": "other",
       "made_on": "2026-03-21",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617122808/https://www.thehindu.com/news/national/jharkhand/without-nature-human-life-is-unimaginable-says-hemant-soren-on-sharhul/article70769579.ece",
@@ -2020,7 +2020,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'world' not in high-impact list"
+      "importance_reason": "minor: category 'other' not in high-impact list"
     },
     {
       "id": "p047",
@@ -2029,7 +2029,7 @@
       "role": "Politician",
       "promise": "Siddipet would be represented by a Congress MLA in the next Assembly elections",
       "supporting_quote": "He announced that Siddipet would be represented by a Congress MLA in the next Assembly elections",
-      "category": "general",
+      "category": "corruption/governance",
       "made_on": "2026-03-22",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617124542/https://www.thehindu.com/news/national/telangana/revanth-dismisses-discrimination-foresees-a-congress-mla-from-siddipet-in-next-elections/article70773059.ece",
@@ -2068,7 +2068,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p048",
@@ -2077,7 +2077,7 @@
       "role": "Politician",
       "promise": "a total of ₹9,000 crore would be disbursed in three phases within 45 days to 70 lakh farmers",
       "supporting_quote": "He promised a total of ₹9,000 crore would be disbursed in three phases within 45 days to 70 lakh farmers.",
-      "category": "farmer_agriculture",
+      "category": "farmers/agriculture",
       "made_on": "2026-03-22",
       "deadline": "2023",
       "source_url": "https://web.archive.org/web/20260617125442/https://www.thehindu.com/news/national/telangana/first-tranche-of-rythu-bharosa-released-by-cm-revanth/article70772998.ece",
@@ -2269,7 +2269,7 @@
       "role": "MP, Congress General Secretary",
       "promise": "deliver justice for late singer Zubeen Garg",
       "supporting_quote": "Vadra also promised justice for late singer Zubeen Garg, who died in Singapore, and vowed a Congress government would deliver within its first 100 days.",
-      "category": "general",
+      "category": "law_and_order",
       "made_on": "2026-04-01",
       "deadline": "2024",
       "source_url": "https://web.archive.org/web/20260617172326/https://www.thehindu.com/elections/assam-assembly/modi-americas-slave-has-put-country-in-crisis-priyanka-gandhi-vadra/article70812093.ece",
@@ -2308,7 +2308,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'MP, Congress General Secretary' is not senior cabinet/exec level"
+      "importance_reason": "minor: category 'law_and_order' not in high-impact list, role 'MP, Congress General Secretary' is not senior cabinet/exec level"
     },
     {
       "id": "p053",
@@ -2317,7 +2317,7 @@
       "role": "Chief Minister",
       "promise": "reintroduce the FCRA amendment bill in a special session of Parliament",
       "supporting_quote": "Stalin asserted that the Bill, which he called a \"direct attack\" on Christian NGOs and churches, would be reintroduced in a special session of Parliament.",
-      "category": "governance",
+      "category": "corruption/governance",
       "made_on": "2026-04-02",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617173558/https://www.thehindu.com/news/national/tamil-nadu/amendment-to-fcra-a-direct-attack-on-minority-institutions-tn-cm-stalin/article70814184.ece",
@@ -2365,7 +2365,7 @@
       "role": "Chief Minister",
       "promise": "60 programs with 950 proposals, including poverty eradication, increased welfare pensions, and universal health coverage",
       "supporting_quote": "The manifesto outlined 60 programs with 950 proposals, including poverty eradication, increased welfare pensions, and universal health coverage.",
-      "category": "general",
+      "category": "welfare",
       "made_on": "2026-04-02",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617174525/https://www.thehindu.com/elections/kerala-assembly/kerala-assembly-elections-2026-chief-minister-campaigns-for-ldf-candidates-in-kozhikode/article70816645.ece",
@@ -2403,8 +2403,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "critical",
-      "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (welfare) + senior role (Chief Minister)"
     },
     {
       "id": "p055",
@@ -2461,7 +2461,7 @@
       "role": "Chief Minister",
       "promise": "Illatharasi scheme",
       "supporting_quote": "He expressed confidence in the DMK's welfare schemes and election manifesto, particularly the \"Illatharasi\" scheme, which he believes will garner widespread public support.",
-      "category": "general",
+      "category": "welfare",
       "made_on": "2026-04-05",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617193047/https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-chief-minister-and-dmk-president-mk-stalin-interview/article70826149.ece",
@@ -2499,8 +2499,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (welfare) + senior role (Chief Minister)"
     },
     {
       "id": "p057",
@@ -2509,7 +2509,7 @@
       "role": "Prime Minister",
       "promise": "33% reservation for women in Parliament and state assemblies",
       "supporting_quote": "He stated that the government will implement this law from the 2029 Lok Sabha polls.",
-      "category": "governance",
+      "category": "corruption/governance",
       "made_on": "2026-04-05",
       "deadline": "2029",
       "source_url": "https://web.archive.org/web/20260617194928/https://www.thehindu.com/elections/west-bengal-assembly/pm-modi-cooch-behar-33-reservation-to-win-over-women-voters-in-west-bengal/article70827262.ece",
@@ -2557,7 +2557,7 @@
       "role": "Chief Minister",
       "promise": "Illatharasi Scheme and increased Kalaignar Magalir Urimai Thogai grant",
       "supporting_quote": "He highlighted key promises within the DMK’s manifesto, including the Illatharasi Scheme and increased Kalaignar Magalir Urimai Thogai grant.",
-      "category": "general",
+      "category": "welfare",
       "made_on": "2026-04-05",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617195955/https://www.thehindu.com/news/national/tamil-nadu/i-do-not-see-the-assembly-election-intamil-nadu-as-a-close-contest-says-cm-stalin/article70827163.ece",
@@ -2595,8 +2595,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (welfare) + senior role (Chief Minister)"
     },
     {
       "id": "p059",
@@ -2605,7 +2605,7 @@
       "role": "Chief Minister",
       "promise": "over 70% of DMK's promises remained unfulfilled",
       "supporting_quote": "He questioned why the state government was not implementing central government schemes and claimed that over 70% of DMK's promises remained unfulfilled.",
-      "category": "general",
+      "category": "corruption/governance",
       "made_on": "2026-04-06",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617205441/https://www.thehindu.com/news/national/tamil-nadu/tn-assembly-election-why-arent-you-implementing-the-centres-schemes-piyush-goyal-questions-mk-stalin/article70830952.ece",
@@ -2643,8 +2643,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
     },
     {
       "id": "p060",
@@ -2701,7 +2701,7 @@
       "role": "Chief Minister",
       "promise": "beautify and conserve statues of Ambedkar throughout the state",
       "supporting_quote": "The event also marked the launch of the \"Dr. Bhimrao Ramji Ambedkar Statue Development Scheme,\" which aims to beautify and conserve statues of Ambedkar throughout the state.",
-      "category": "governance",
+      "category": "corruption/governance",
       "made_on": "2026-04-14",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260617235629/https://www.thehindu.com/news/national/uttar-pradesh/top-up-leaders-paid-tribute-to-br-ambedkar-on-birth-anniversary/article70861739.ece",
@@ -2749,7 +2749,7 @@
       "role": "Chief Minister of Tamil Nadu",
       "promise": "practical and implementable policies based on Thirukkural principles",
       "supporting_quote": "Vijay emphasized genuine poll promises, contrasting them with those made by other Dravidian parties like the AIADMK, highlighting discrepancies in their offerings.",
-      "category": "general",
+      "category": "other",
       "made_on": "2026-04-16",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260618004148/https://www.thehindu.com/elections/tamil-nadu-assembly/vijay-releases-tvk-manifesto-criticises-dravidian-majors-poll-promises/article70869346.ece",
@@ -2788,7 +2788,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list"
+      "importance_reason": "minor: category 'other' not in high-impact list"
     },
     {
       "id": "p063",
@@ -2797,7 +2797,7 @@
       "role": "Politician",
       "promise": "free education, free treatment, support for farmers, job creation, and social justice",
       "supporting_quote": "The TRS chief outlined five assurances: free education, free treatment, support for farmers, job creation, and social justice.",
-      "category": "general",
+      "category": "other",
       "made_on": "2026-04-25",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260618025356/https://www.thehindu.com/news/national/telangana/kavitha-floats-telangana-rashtra-sena-targets-kcr-and-brs/article70904527.ece",
@@ -2836,7 +2836,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
+      "importance_reason": "minor: category 'other' not in high-impact list, role 'Politician' is not senior cabinet/exec level"
     },
     {
       "id": "p064",
@@ -2845,7 +2845,7 @@
       "role": "Chief Minister",
       "promise": "create a welcoming environment for filmmakers",
       "supporting_quote": "He emphasized the state's scenic beauty and cultural heritage as attractive features for film production, stating his government will extend full support to make filmmaking easier and more accessible.",
-      "category": "world",
+      "category": "other",
       "made_on": "2026-04-25",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260618030426/https://www.thehindu.com/news/national/jammu-and-kashmir/jk-cm-omar-abdullah-pitches-kashmir-as-ideal-shooting-destination-to-south-indian-filmmakers/article70906328.ece",
@@ -2884,7 +2884,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "minor: category 'world' not in high-impact list"
+      "importance_reason": "minor: category 'other' not in high-impact list"
     },
     {
       "id": "p065",
@@ -2941,7 +2941,7 @@
       "role": "Politician",
       "promise": "easier access to revenue services and empower economically weaker sections with ownership records",
       "supporting_quote": "The initiative aims to provide easier access to revenue services and empower economically weaker sections with ownership records.",
-      "category": "governance",
+      "category": "corruption/governance",
       "made_on": "2026-05-10",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260618074119/https://www.thehindu.com/news/national/karnataka/karnataka-is-no-1-in-revenue-panchayat-services-claims-priyank-kharge/article70962346.ece",
@@ -2989,7 +2989,7 @@
       "role": "Former Chief Minister of Kerala",
       "promise": "fulfill its promises of development and social welfare programs",
       "supporting_quote": "The new government will need to address these challenges to fulfill its promises of development and social welfare programs.",
-      "category": "general",
+      "category": "welfare",
       "made_on": "2026-05-10",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20260618080506/https://www.thehindu.com/opinion/op-ed/keralas-fiscal-worries/article70963310.ece",
@@ -3028,7 +3028,7 @@
       "evidence_count": 1,
       "importance_hint": "critical",
       "importance": "minor",
-      "importance_reason": "minor: category 'general' not in high-impact list, role 'Former Chief Minister of Kerala' is not senior cabinet/exec level"
+      "importance_reason": "minor: role 'Former Chief Minister of Kerala' is not senior cabinet/exec level"
     }
   ]
 }
