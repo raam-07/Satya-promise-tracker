@@ -4,8 +4,8 @@
     "last_updated": "2026-06-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 67,
-    "promises_with_evidence": 67,
+    "total_promises": 68,
+    "promises_with_evidence": 68,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -3094,6 +3094,55 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Vague and lacks concrete scale or impact.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p068",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "introduction of the Annapurna Yojana and free travel for women on government buses",
+      "supporting_quote": "He pledged to fulfill promises made in the BJP's poll manifesto within specific timeframes, including the introduction of the Annapurna Yojana and free travel for women on government buses.",
+      "category": "welfare",
+      "made_on": "2026-06-17",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260618212220/https://www.thehindu.com/news/national/west-bengal/cm-suvendu-begins-first-north-bengal-tour-promises-to-fulfill-regions-developmental-aspirations/article71001216.ece",
+      "source_description": "BJP govt. in State will be of nationalists, says CM Suvendu during maiden visit to north Bengal - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-18",
+          "evidence_url": "https://web.archive.org/web/20260618212220/https://www.thehindu.com/news/national/west-bengal/cm-suvendu-begins-first-north-bengal-tour-promises-to-fulfill-regions-developmental-aspirations/article71001216.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states promises will be fulfilled within unspecified timeframes, indicating an ongoing status.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260618212220/https://www.thehindu.com/news/national/west-bengal/cm-suvendu-begins-first-north-bengal-tour-promises-to-fulfill-regions-developmental-aspirations/article71001216.ece",
+          "title": "BJP govt. in State will be of nationalists, says CM Suvendu during maiden visit to north Bengal - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-06-17",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Suvendu Adhikari**, the new chief minister of **West Bengal**, stated that his government will be a nationalist one, upholding Indian tradition and culture. He pledged to fulfill promises made in the BJP's poll manifesto within specific timeframes, including the introduction of the Annapurna Yojan...",
+          "content": "Chief Minister Suvendu Adhikari on Wednesday (May 20, 2026) said the BJP government in West Bengal will be of the nationalists, and it will uphold Indian tradition and culture and work to change the system in the State. Expressing the BJP’s gratitude to the people of north Bengal for their continued support to the saffron party, Mr. Adhikari, in his maiden visit to the region as the chief minister...",
+          "quote": "He pledged to fulfill promises made in the BJP's poll manifesto within specific timeframes, including the introduction of the Annapurna Yojana and free travel for women on government buses."
+        }
+      ],
+      "notes": "The article states promises will be fulfilled within unspecified timeframes, indicating an ongoing status.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-18",
+      "created_at": "2026-06-18",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "Large-scale welfare program with potential to significantly impact women's lives and public transport usage.",
       "importance_source": "llm"
     }
   ]
