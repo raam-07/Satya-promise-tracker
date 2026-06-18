@@ -97,7 +97,7 @@ def load_promises():
             "maintainer": "Satya Project",
             "total_promises": 0,
             "promises_with_evidence": 0,
-            "last_processed_row": 0
+            "last_processed_ids": []
         },
         "promises": []
     }
@@ -920,12 +920,12 @@ def main():
         backfill_promise_importance(promises_data, known_politicians_details, args.dry_run)
         sys.exit(0)
     
-    last_processed = promises_data["metadata"].get("last_processed_row", 0)
+    last_processed_ids = promises_data["metadata"].get("last_processed_ids", [])
     if args.reset_pointer:
-        last_processed = 0
-        logging.info("Pointer reset requested. Starting from row ID 0.")
+        last_processed_ids = []
+        logging.info("Pointer reset requested. Clearing last_processed_ids cache.")
     else:
-        logging.info(f"Resuming from last processed row ID: {last_processed}")
+        logging.info(f"Resuming with {len(last_processed_ids)} previously processed IDs.")
 
     # 2. Connect to Database (reads from Turso remote if variables are set)
     try:
@@ -938,7 +938,6 @@ def main():
     llm_2b = None
     llm_9b = None
 
-    highest_processed_id = last_processed
     new_promise_count = 0
     updated_promise_count = 0
 
@@ -949,7 +948,7 @@ def main():
         FROM articles a
         LEFT JOIN sources s ON a.source_id = s.id
         WHERE a.status = 'entity_processed'
-        ORDER BY a.id ASC
+        ORDER BY a.id DESC
         LIMIT ?
     """, (args.batch_size,))
     rows = cursor.fetchall()
@@ -1338,16 +1337,16 @@ def main():
         gc.collect()
 
     # Track pointer even if no article passed filters, so we don't scan them again next time
-    for r in rows:
-        highest_processed_id = max(highest_processed_id, r[0])
+    current_ids = [r[0] for r in rows]
 
     # Prevent infinite runner loop when pointer doesn't advance (Finding #4)
-    if rows and highest_processed_id <= last_processed:
-        logging.critical(f"Pointer stagnation detected! rows fetched: {len(rows)}, highest ID: {highest_processed_id}, last_processed: {last_processed}. Stopping loop to prevent infinite GHA runs.")
+    if rows and current_ids == last_processed_ids:
+        logging.critical("Pointer stagnation detected! The exact same batch of articles was fetched again. Stopping loop to prevent infinite GHA runs.")
         sys.exit(1)
 
     # Track pointer and save metadata pointer after every batch to prevent progress loss
-    promises_data["metadata"]["last_processed_row"] = highest_processed_id
+    promises_data["metadata"]["last_processed_ids"] = current_ids
+    promises_data["metadata"].pop("last_processed_row", None)
     promises_data["metadata"]["last_updated"] = time.strftime("%Y-%m-%d")
     promises_data["metadata"]["total_promises"] = len(promises_data["promises"])
     promises_data["metadata"]["promises_with_evidence"] = sum(1 for p in promises_data["promises"] if p.get("evidence_count", 0) > 0)
@@ -1366,7 +1365,7 @@ def main():
 
     if not args.dry_run:
         save_promises(promises_data)
-        logging.info(f"Progress saved: pointer advanced to row ID {highest_processed_id}")
+        logging.info(f"Progress saved: processed {len(rows)} articles in this batch.")
 
     # Write has_more output for self-trigger loop in GitHub Actions
     has_more = "true" if len(rows) == args.batch_size else "false"
