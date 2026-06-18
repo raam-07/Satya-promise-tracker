@@ -1,12 +1,12 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-06-17",
+    "last_updated": "2026-06-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 59,
-    "promises_with_evidence": 59,
-    "last_processed_row": 50820,
+    "total_promises": 61,
+    "promises_with_evidence": 61,
+    "last_processed_row": 51320,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -2634,6 +2634,102 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "minor: category 'general' not in high-impact list"
+    },
+    {
+      "id": "p060",
+      "person": "C. Joseph Vijay",
+      "party": "Tamilaga Vettri Kazhagam",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "global e-commerce platform for weaver products, increased financial support for weavers, a State Credit Guarantee Fund to revive MSMEs, and free electricity for handloom and powerloom units",
+      "supporting_quote": "The manifesto includes plans for a global e-commerce platform for weaver products, increased financial support for weavers, a State Credit Guarantee Fund to revive MSMEs, and free electricity for handloom and powerloom units.",
+      "category": "economy",
+      "made_on": "2026-04-14",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617234356/https://www.thehindu.com/elections/tamil-nadu-assembly/tvk-manifesto-to-be-released-on-april-16-vijay/article70861943.ece",
+      "source_description": "TVK’s manifesto to be released on April 16: Vijay - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617234356/https://www.thehindu.com/elections/tamil-nadu-assembly/tvk-manifesto-to-be-released-on-april-16-vijay/article70861943.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article mentions these as part of a manifesto, but doesn't state if they are new promises or have been made before.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617234356/https://www.thehindu.com/elections/tamil-nadu-assembly/tvk-manifesto-to-be-released-on-april-16-vijay/article70861943.ece",
+          "title": "TVK’s manifesto to be released on April 16: Vijay - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**C. Joseph Vijay**, founder of the **Tamilaga Vettri Kazhagam**, announced his party's election manifesto for the April 23rd Tamil Nadu Assembly elections, promising a range of policies to benefit weavers and MSMEs. The manifesto includes plans for a global e-commerce platform for weaver products, ...",
+          "content": "The TVK government will end the culture of bribery in promotions, and all transfers of government employees will be implemented in a transparent and time-bound manner, he says Tamilaga Vettri Kazhagam founder and actor C. Joseph Vijay, on Tuesday (April 14, 2026), announced that the party’s complete election manifesto for the April 23 Tamil Nadu Assembly elections will be released on Thursday. Cam...",
+          "quote": "The manifesto includes plans for a global e-commerce platform for weaver products, increased financial support for weavers, a State Credit Guarantee Fund to revive MSMEs, and free electricity for handloom and powerloom units."
+        }
+      ],
+      "notes": "The article mentions these as part of a manifesto, but doesn't state if they are new promises or have been made before.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p061",
+      "person": "Yogi Adityanath",
+      "party": "BJP",
+      "role": "Chief Minister",
+      "promise": "beautify and conserve statues of Ambedkar throughout the state",
+      "supporting_quote": "The event also marked the launch of the \"Dr. Bhimrao Ramji Ambedkar Statue Development Scheme,\" which aims to beautify and conserve statues of Ambedkar throughout the state.",
+      "category": "governance",
+      "made_on": "2026-04-14",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260617235629/https://www.thehindu.com/news/national/uttar-pradesh/top-up-leaders-paid-tribute-to-br-ambedkar-on-birth-anniversary/article70861739.ece",
+      "source_description": "Top U.P. Leaders paid tribute to B.R. Ambedkar on birth anniversary - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-17",
+          "evidence_url": "https://web.archive.org/web/20260617235629/https://www.thehindu.com/news/national/uttar-pradesh/top-up-leaders-paid-tribute-to-br-ambedkar-on-birth-anniversary/article70861739.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the scheme's aim but doesn't provide details on its scope or timeline.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260617235629/https://www.thehindu.com/news/national/uttar-pradesh/top-up-leaders-paid-tribute-to-br-ambedkar-on-birth-anniversary/article70861739.ece",
+          "title": "Top U.P. Leaders paid tribute to B.R. Ambedkar on birth anniversary - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Yogi Adityanath**, the Chief Minister of **Uttar Pradesh**, paid tributes to B.R. Ambedkar on his birth anniversary in Lucknow, offering flowers at a statue and participating in a function that included the release of a souvenir titled “Bharat Bhagya Vidhata.” The event also marked the launch of t...",
+          "content": "Top Uttar Pradesh leaders paid tributes to B.R. Ambedkar, India’s first Law Minister, on his birth anniversary on Tuesday (April 14, 2026). U.P. Chief Minister Yogi Adityanath participated in the function organised in Lucknow where he paid tributes by offering flowers at his statue. A souvenir titled “Bharat Bhagya Vidhata,” based on Baba Saheb’s principles, was also released. “Under the Dr. Bhimr...",
+          "quote": "The event also marked the launch of the \"Dr. Bhimrao Ramji Ambedkar Statue Development Scheme,\" which aims to beautify and conserve statues of Ambedkar throughout the state."
+        }
+      ],
+      "notes": "The article states the scheme's aim but doesn't provide details on its scope or timeline.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-17",
+      "created_at": "2026-06-17",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
     }
   ]
 }
