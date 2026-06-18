@@ -6,7 +6,7 @@
     "maintainer": "Satya Project",
     "total_promises": 64,
     "promises_with_evidence": 64,
-    "last_processed_row": 56321,
+    "last_processed_row": 56821,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -716,15 +716,15 @@
       "party": "BJP",
       "role": "Chief Minister",
       "promise": "End mafia raj and crime completely in Uttar Pradesh",
-      "category": "crime_violence",
+      "category": "governance",
       "made_on": "2017-03-19",
       "deadline": "ongoing",
       "source_url": "https://web.archive.org/web/20170202000000/https://timesofindia.indiatimes.com/assembly-elections-2017/uttar-pradesh/bjp-up-manifesto-2017-key-highlights-of-lok-kalyan-sankalp-patra/articleshow/56832269.cms",
       "source_description": "Times of India: BJP UP Manifesto 2017 - Key highlights of Lok Kalyan Sankalp Patra",
       "status": "ongoing",
-      "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "Crime stats show mixed results and encounter killings rose significantly.",
+      "status_last_reviewed": "2026-06-18",
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the CM will instruct officials to take action, but doesn't specify a concrete plan or timeline.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/other-states/with-zero-tolerance-for-crime-and-criminals-up-on-path-of-development-says-yogi-adityanath/article66680214.ece",
@@ -735,6 +735,17 @@
           "gemma_validated": true,
           "rephrased": "Chief Minister Yogi Adityanath claimed a dramatic improvement in law and order under the zero-tolerance policy, though independent observers note high numbers of extrajudicial encounters.",
           "content": "Chief Minister Yogi Adityanath stated that organized crime had been completely curbed in Uttar Pradesh due to strict zero-tolerance enforcement policies."
+        },
+        {
+          "url": "https://web.archive.org/web/20260618054742/https://www.thehindu.com/news/national/uttar-pradesh/strict-action-against-anyone-forcibly-occupying-others-land-yogi-adityanath/article70941496.ece",
+          "title": "Strict action against anyone forcibly occupying others' land: Yogi Adityanath - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-05",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Yogi Adityanath**, Chief Minister of **Uttar Pradesh**, addressed citizens during a 'janata darshan' program at the Gorakhnath temple in Gorakhpur. He assured residents that his government would effectively address their concerns, including illegal land grabbing, and instructed officials to take l...",
+          "content": "Uttar Pradesh Chief Minister Yogi Adityanath on Tuesday (May 5, 2026) assured people that his government would ensure effective resolution of all their problems, as he interacted with citizens during a ‘janata darshan’ programme held at the Gorakhnath temple in Gorakhpur. \"Do not worry, the government will ensure that every problem is addressed effectively,\" the Chief Minister, according to an off...",
+          "quote": "He assured residents that his government would effectively address their concerns, including illegal land grabbing, and instructed officials to take legal action against perpetrators."
         }
       ],
       "notes": "This is a broad vision slogan. While Uttar Pradesh launched aggressive crackdowns on organized crime gangs and mafia networks, debate continues regarding due process and human rights compliance.",
@@ -744,11 +755,11 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "vision",
-      "evidence_count": 1,
-      "supporting_quote": "Chief Minister Yogi Adityanath claimed a dramatic improvement in law and order under the zero-tolerance policy, though independent observers note high numbers of extrajudicial encounters.",
+      "evidence_count": 2,
+      "supporting_quote": "He assured residents that his government would effectively address their concerns, including illegal land grabbing, and instructed officials to take legal action against perpetrators.",
       "importance_hint": "minor",
-      "importance": "minor",
-      "importance_reason": "minor: category 'crime_violence' not in high-impact list"
+      "importance": "critical",
+      "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
     },
     {
       "id": "p019",
