@@ -4,8 +4,8 @@
     "last_updated": "2026-06-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 68,
-    "promises_with_evidence": 68,
+    "total_promises": 69,
+    "promises_with_evidence": 69,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -3143,6 +3143,55 @@
       "importance_hint": "minor",
       "importance": "critical",
       "importance_reason": "Large-scale welfare program with potential to significantly impact women's lives and public transport usage.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p069",
+      "person": "V.D. Satheesan",
+      "party": "Congress",
+      "role": "Chief Minister of Kerala",
+      "promise": "transform KSRTC into a professional entity based on detailed studies",
+      "supporting_quote": "The government aims to transform KSRTC into a professional entity based on detailed studies",
+      "category": "infrastructure",
+      "made_on": "2026-06-14",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260618231220/https://www.thehindu.com/news/national/kerala/ksrtc-to-become-more-professional-says-chief-minister-vd-satheesan/article71101805.ece",
+      "source_description": "Major transformation awaits KSRTC, says Chief Minister - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-18",
+          "evidence_url": "https://web.archive.org/web/20260618231220/https://www.thehindu.com/news/national/kerala/ksrtc-to-become-more-professional-says-chief-minister-vd-satheesan/article71101805.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the government aims to transform KSRTC, but doesn't provide specifics on how or by when.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260618231220/https://www.thehindu.com/news/national/kerala/ksrtc-to-become-more-professional-says-chief-minister-vd-satheesan/article71101805.ece",
+          "title": "Major transformation awaits KSRTC, says Chief Minister - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-06-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Chief Minister V.D. Satheesan** announced the state-level inauguration of the **Priyadarshini scheme**, offering free travel for women and transgender persons on **Kerala State Road Transport Corporation (KSRTC)** buses, on June 15th. The scheme will be inaugurated by **Hibi Eden, MP** at the Erna...",
+          "content": "Chief Minister V.D. Satheesan said June 15 would mark a significant day in Kerala’s history with the State-level inauguration of the Priyadarshini scheme, which offers free travel for women and transgender persons on Kerala State Road Transport Corporation (KSRTC) buses across the State. He said the scheme would not only make KSRTC more people-friendly but also mark the beginning of a major transf...",
+          "quote": "The government aims to transform KSRTC into a professional entity based on detailed studies"
+        }
+      ],
+      "notes": "The article states the government aims to transform KSRTC, but doesn't provide specifics on how or by when.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-18",
+      "created_at": "2026-06-18",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Transforming a state-owned entity is a significant policy goal, but lacks the scale to be nation-shaping or transformational for a large population.",
       "importance_source": "llm"
     }
   ]
