@@ -96,8 +96,7 @@ def load_promises():
             "description": "Satya Promise Tracker — key promises made by Indian political leaders",
             "maintainer": "Satya Project",
             "total_promises": 0,
-            "promises_with_evidence": 0,
-            "last_processed_ids": []
+            "promises_with_evidence": 0
         },
         "promises": []
     }
@@ -920,13 +919,6 @@ def main():
         backfill_promise_importance(promises_data, known_politicians_details, args.dry_run)
         sys.exit(0)
     
-    last_processed_ids = promises_data["metadata"].get("last_processed_ids", [])
-    if args.reset_pointer:
-        last_processed_ids = []
-        logging.info("Pointer reset requested. Clearing last_processed_ids cache.")
-    else:
-        logging.info(f"Resuming with {len(last_processed_ids)} previously processed IDs.")
-
     # 2. Connect to Database (reads from Turso remote if variables are set)
     try:
         conn = get_db_connection()
@@ -1337,16 +1329,9 @@ def main():
         gc.collect()
 
     # Track pointer even if no article passed filters, so we don't scan them again next time
-    current_ids = [r[0] for r in rows]
-
-    # Prevent infinite runner loop when pointer doesn't advance (Finding #4)
-    if rows and current_ids == last_processed_ids:
-        logging.critical("Pointer stagnation detected! The exact same batch of articles was fetched again. Stopping loop to prevent infinite GHA runs.")
-        sys.exit(1)
-
-    # Track pointer and save metadata pointer after every batch to prevent progress loss
-    promises_data["metadata"]["last_processed_ids"] = current_ids
+    # Track metadata after every batch to prevent progress loss
     promises_data["metadata"].pop("last_processed_row", None)
+    promises_data["metadata"].pop("last_processed_ids", None)
     promises_data["metadata"]["last_updated"] = time.strftime("%Y-%m-%d")
     promises_data["metadata"]["total_promises"] = len(promises_data["promises"])
     promises_data["metadata"]["promises_with_evidence"] = sum(1 for p in promises_data["promises"] if p.get("evidence_count", 0) > 0)
@@ -1361,7 +1346,8 @@ def main():
             conn.commit()
             logging.info(f"Database updated: Marked {len(rows)} articles as processed.")
         except Exception as e:
-            logging.error(f"Failed to update article status in database: {e}")
+            logging.critical(f"Failed to update article status in database: {e}")
+            sys.exit(1)
 
     if not args.dry_run:
         save_promises(promises_data)
