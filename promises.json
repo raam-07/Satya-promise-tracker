@@ -4,9 +4,9 @@
     "last_updated": "2026-06-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 64,
-    "promises_with_evidence": 64,
-    "last_processed_row": 57821,
+    "total_promises": 67,
+    "promises_with_evidence": 67,
+    "last_processed_row": 58321,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -2885,6 +2885,150 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "minor: category 'world' not in high-impact list"
+    },
+    {
+      "id": "p065",
+      "person": "C. Joseph Vijay",
+      "party": "DMK",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "address public debt and promised accountability in the use of public funds",
+      "supporting_quote": "He pledged to address public debt and promised accountability in the use of public funds.",
+      "category": "economy",
+      "made_on": "2026-05-10",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260618072839/https://www.thehindu.com/news/national/tamil-nadu/tn-chief-minister-vijay-maiden-speech-transparency-safety-of-women-no-power-centres-in-new-government/article70962016.ece",
+      "source_description": "Tamil Nadu CM Vijay's maiden speech on his new government in Tamil Nadu - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-18",
+          "evidence_url": "https://web.archive.org/web/20260618072839/https://www.thehindu.com/news/national/tamil-nadu/tn-chief-minister-vijay-maiden-speech-transparency-safety-of-women-no-power-centres-in-new-government/article70962016.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is stated as a general goal for the government, not a specific policy with a defined target or timeline.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260618072839/https://www.thehindu.com/news/national/tamil-nadu/tn-chief-minister-vijay-maiden-speech-transparency-safety-of-women-no-power-centres-in-new-government/article70962016.ece",
+          "title": "Tamil Nadu CM Vijay's maiden speech on his new government in Tamil Nadu - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**C. Joseph Vijay**, the newly sworn-in Chief Minister of Tamil Nadu, outlined his vision for a government focused on transparency, safety of women, and law and order. He pledged to address public debt and promised accountability in the use of public funds. **Vijay** emphasized that he would not tol...",
+          "content": "Transparency, no compromise in the safety of women, cracking down on drug-related offences, maintenance of law and order, ensuring basic amenities, accountability over public funds, no power centres were among the ideas Tamil Nadu Chief Minister C. Joseph Vijay has for his TVK government. Underlining there was about ₹10 lakh crore as debt, Mr. Vijay said a White Paper on the State’s finances would...",
+          "quote": "He pledged to address public debt and promised accountability in the use of public funds."
+        }
+      ],
+      "notes": "The promise is stated as a general goal for the government, not a specific policy with a defined target or timeline.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-18",
+      "created_at": "2026-06-18",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "high-impact category (economy) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p066",
+      "person": "Priyank Kharge",
+      "party": "Congress",
+      "role": "Politician",
+      "promise": "easier access to revenue services and empower economically weaker sections with ownership records",
+      "supporting_quote": "The initiative aims to provide easier access to revenue services and empower economically weaker sections with ownership records.",
+      "category": "governance",
+      "made_on": "2026-05-10",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260618074119/https://www.thehindu.com/news/national/karnataka/karnataka-is-no-1-in-revenue-panchayat-services-claims-priyank-kharge/article70962346.ece",
+      "source_description": "Karnataka is No 1 in revenue, panchayat services, claims Priyank Kharge - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-18",
+          "evidence_url": "https://web.archive.org/web/20260618074119/https://www.thehindu.com/news/national/karnataka/karnataka-is-no-1-in-revenue-panchayat-services-claims-priyank-kharge/article70962346.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the initiative aims to improve access to services, but doesn't specify a concrete goal or deadline.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260618074119/https://www.thehindu.com/news/national/karnataka/karnataka-is-no-1-in-revenue-panchayat-services-claims-priyank-kharge/article70962346.ece",
+          "title": "Karnataka is No 1 in revenue, panchayat services, claims Priyank Kharge - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Karnataka's** **Revenue Department** has launched a large-scale distribution drive for revenue department benefits, marking a significant achievement in delivering services to citizens.  The initiative aims to provide easier access to revenue services and empower economically weaker sections with ...",
+          "content": "Karnataka has emerged as a top State in the country in delivering revenue and panchayat raj services by taking governance to people’s doorsteps through digital platforms, Rural Development and Panchayat Raj Minister and district in-charge Priyank Kharge said on Saturday. Launching a large-scale distribution drive for revenue department benefits at Dr. S.M. Pandit Rangamandir in Kalaburagi, Mr. Kha...",
+          "quote": "The initiative aims to provide easier access to revenue services and empower economically weaker sections with ownership records."
+        }
+      ],
+      "notes": "The article states the initiative aims to improve access to services, but doesn't specify a concrete goal or deadline.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-18",
+      "created_at": "2026-06-18",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: role 'Politician' is not senior cabinet/exec level"
+    },
+    {
+      "id": "p067",
+      "person": "V.D. Satheesan",
+      "party": "Congress",
+      "role": "Former Chief Minister of Kerala",
+      "promise": "fulfill its promises of development and social welfare programs",
+      "supporting_quote": "The new government will need to address these challenges to fulfill its promises of development and social welfare programs.",
+      "category": "general",
+      "made_on": "2026-05-10",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260618080506/https://www.thehindu.com/opinion/op-ed/keralas-fiscal-worries/article70963310.ece",
+      "source_description": "Kerala’s fiscal worries - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-18",
+          "evidence_url": "https://web.archive.org/web/20260618080506/https://www.thehindu.com/opinion/op-ed/keralas-fiscal-worries/article70963310.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the new government needs to address financial challenges to fulfill its promises, implying these are key campaign pledges.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260618080506/https://www.thehindu.com/opinion/op-ed/keralas-fiscal-worries/article70963310.ece",
+          "title": "Kerala’s fiscal worries - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-10",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**V.D. Satheesan**, the **Kerala** Opposition Leader, claims that the newly elected **UDF** government inherited a nearly empty treasury from the **LDF**.  The new government faces challenges in managing Kerala's finances, including high expenditures on salaries, pensions, and interest payments, lim...",
+          "content": "At his first press conference after the Congress-led United Democratic Front’s (UDF) landslide victory in the 2026 Assembly elections, V.D. Satheesan, Kerala’s Opposition Leader for the past five years, claimed that the UDF had “inherited” a virtually empty State treasury. A treasury so bare that, Mr. Satheesan quipped, a cat and her litter had made it their home. Humour aside, the state of Kerala...",
+          "quote": "The new government will need to address these challenges to fulfill its promises of development and social welfare programs."
+        }
+      ],
+      "notes": "The article states the new government needs to address financial challenges to fulfill its promises, implying these are key campaign pledges.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-18",
+      "created_at": "2026-06-18",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list, role 'Former Chief Minister of Kerala' is not senior cabinet/exec level"
     }
   ]
 }
