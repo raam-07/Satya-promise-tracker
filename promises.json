@@ -4,9 +4,9 @@
     "last_updated": "2026-06-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 61,
-    "promises_with_evidence": 61,
-    "last_processed_row": 51320,
+    "total_promises": 62,
+    "promises_with_evidence": 62,
+    "last_processed_row": 51820,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -2730,6 +2730,54 @@
       "importance_hint": "minor",
       "importance": "critical",
       "importance_reason": "high-impact category (corruption/governance) + senior role (Chief Minister)"
+    },
+    {
+      "id": "p062",
+      "person": "C. Joseph Vijay",
+      "party": "TVK",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "practical and implementable policies based on Thirukkural principles",
+      "supporting_quote": "Vijay emphasized genuine poll promises, contrasting them with those made by other Dravidian parties like the AIADMK, highlighting discrepancies in their offerings.",
+      "category": "general",
+      "made_on": "2026-04-16",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260618004148/https://www.thehindu.com/elections/tamil-nadu-assembly/vijay-releases-tvk-manifesto-criticises-dravidian-majors-poll-promises/article70869346.ece",
+      "source_description": "Vijay unveils TVK manifesto, criticises Dravidian majors’ poll promises - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-18",
+          "evidence_url": "https://web.archive.org/web/20260618004148/https://www.thehindu.com/elections/tamil-nadu-assembly/vijay-releases-tvk-manifesto-criticises-dravidian-majors-poll-promises/article70869346.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states Vijay promises practical policies but doesn't specify details, making a definitive verdict impossible.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260618004148/https://www.thehindu.com/elections/tamil-nadu-assembly/vijay-releases-tvk-manifesto-criticises-dravidian-majors-poll-promises/article70869346.ece",
+          "title": "Vijay unveils TVK manifesto, criticises Dravidian majors’ poll promises - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-04-16",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Tamilaga Vettri Kazhagam (TVK)** president C. Joseph Vijay released the party's election manifesto for the Assembly elections in Chennai, promising practical and implementable policies based on Thirukkural principles.  Vijay emphasized genuine poll promises, contrasting them with those made by oth...",
+          "content": "Tamilaga Vettri Kazhagam (TVK) president C. Joseph Vijay, on Thursday (April 16, 2026), released the party’s election manifesto for the Assembly elections in Chennai and said his party had only promised what was possible, practical, and implementable if voted to power. He also appealed to his party’s supporters to draw the TVK’s symbol, the ‘whistle’, as a kolam in front of their houses. Mr. Vijay...",
+          "quote": "Vijay emphasized genuine poll promises, contrasting them with those made by other Dravidian parties like the AIADMK, highlighting discrepancies in their offerings."
+        }
+      ],
+      "notes": "The article states Vijay promises practical policies but doesn't specify details, making a definitive verdict impossible.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-18",
+      "created_at": "2026-06-18",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "minor: category 'general' not in high-impact list"
     }
   ]
 }
