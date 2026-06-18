@@ -393,30 +393,44 @@ def has_scale_signal(text):
 def classify_importance_gemma(llm_9b, promise_text, category, person_role):
     prompt = f"""<start_of_turn>user
 You are rating how significant an Indian political promise is, for an accountability tracker.
-Return "critical" ONLY if the promise is genuinely major:
-- National or whole-state scale, OR affects millions of people, OR
-- A large, measurable commitment (big numbers of jobs/houses/money, a flagship scheme, a major economic/structural target).
+Be STRICT. MOST promises are "minor". Only the rare, defining ones are "critical".
 
-Return "minor" for everything else:
-- Local or constituency-level, one-time giveaways, symbolic gestures,
-  routine administrative actions, or vague statements with no real scale.
+Mark "critical" ONLY if the promise is genuinely nation- or state-SHAPING AND large in scale:
+- National-level impact (affects the whole country), OR
+- A transformational, flagship state-level commitment affecting a very large population
+  (lakhs/crores of people) or very large resources — the kind of promise an election is fought on.
 
+Mark "minor" for everything else, INCLUDING things that may still sound important:
+- Routine governance: a single hospital, school, road, bridge, or office.
+- A single scheme, subsidy, recruitment, or project — even state-wide — if it is ordinary
+  delivery rather than a defining, transformational commitment.
+- Local or constituency-level promises.
+- One-time giveaways, bonuses, symbolic gestures, or administrative actions.
+- Vague statements with no concrete scale.
+
+If you are unsure, choose "minor". As a rough guide, fewer than 1 in 4 promises should be critical.
 Judge ONLY by impact and scale — never by whether the promise is good or bad,
-and apply the same standard regardless of party.
+and apply the same standard to every party.
 
-Examples:
-- "Create 2 crore jobs every year" -> critical
-- "Make India a $5 trillion economy" -> critical
-- "Piped water to every household by 2024" -> critical
-- "Pay a Ugadi bonus of Rs 1 per litre to milk producers" -> minor
-- "Construct a model colony in one village" -> minor
-- "Relocate the local garbage dumping yard" -> minor
+Examples —
+critical:
+- "Create 2 crore jobs every year"
+- "Make India a $5 trillion economy by 2024"
+- "Waive farm loans for all farmers across the state"
+- "Piped water to every household in the country by 2024"
+minor:
+- "Build a new district hospital in Kollam"            (single project)
+- "Construct a 4-lane highway between two cities"       (single project)
+- "Launch a scholarship scheme for state students"     (routine scheme)
+- "Recruit 400 veterinary officers"                    (routine recruitment)
+- "Pay a Ugadi bonus of Rs 1 per litre to milk producers"  (one-time giveaway)
+- "Relocate the local garbage dumping yard"            (local)
 
 Promise: "{promise_text}"
 Category: {category}
 Made by (role): {person_role}
 
-Return ONLY JSON: {{"importance": "critical or minor", "reason": "one short sentence"}}
+Return ONLY JSON: {{"importance": "critical or minor", "reason": "one short sentence justifying the choice"}}
 <end_of_turn>
 <start_of_turn>model
 """
