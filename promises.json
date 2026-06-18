@@ -54,7 +54,7 @@
       "supporting_quote": "The report notes that despite the 2022 target date, real farm incomes failed to double, citing agricultural economists and survey assessments.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "A large, measurable commitment affecting millions of farmers.",
+      "importance_reason": "Nationwide impact with a large-scale economic goal.",
       "importance_source": "llm"
     },
     {
@@ -262,7 +262,7 @@
       "supporting_quote": "India's ranking on the Corruption Perception Index (CPI) remained stagnant around 85th out of 180 countries, indicating persistent structural corruption challenges.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Aims for a nationwide systemic change.",
+      "importance_reason": "A promise to end corruption completely is a nation-shaping goal with vast implications for governance and public trust.",
       "importance_source": "llm"
     },
     {
@@ -304,7 +304,7 @@
       "supporting_quote": "The Supreme Court struck down the anonymous Electoral Bonds scheme, ordering the State Bank of India to stop issuing bonds and disclose all political donor data.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Impacts national political funding system.",
+      "importance_reason": "A nationwide change to political funding with potential to reshape campaign finance.",
       "importance_source": "llm"
     },
     {
@@ -387,7 +387,7 @@
       "supporting_quote": "Uttarakhand passed the Uniform Civil Code Bill, making it the first state to implement the code. The law covers marriage, divorce, inheritance, and live-in relationships.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "A nationwide legal reform affecting millions.",
+      "importance_reason": "A Uniform Civil Code is a nation-wide, transformative legal change with significant social and political implications.",
       "importance_source": "llm"
     },
     {
@@ -429,7 +429,7 @@
       "supporting_quote": "The Union Cabinet approved the simultaneous elections proposal. The implementation requires constitutional amendments and consensus among state assemblies.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Impacts the entire electoral system of the nation.",
+      "importance_reason": "A nationwide electoral reform of this scale would be transformative for Indian democracy.",
       "importance_source": "llm"
     },
     {
@@ -471,7 +471,7 @@
       "supporting_quote": "The RBI's annual report revealed that Rs 15.31 lakh crore out of Rs 15.41 lakh crore in demonetized currency notes were returned, indicating negligible black money extinguishment.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Aims to address a large-scale economic issue with national impact.",
+      "importance_reason": "Aims to fundamentally change the Indian economy by eliminating black money.",
       "importance_source": "llm"
     },
     {
@@ -513,7 +513,7 @@
       "supporting_quote": "The National High-Speed Rail Corporation admitted that land acquisition delays and the COVID pandemic had pushed the project completion date far past the original 2023 target.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Large-scale infrastructure project with national impact.",
+      "importance_reason": "Nationally significant infrastructure project with large-scale impact.",
       "importance_source": "llm"
     },
     {
@@ -555,7 +555,7 @@
       "supporting_quote": "The Home Ministry stated that illegal migrants are identified and deported in accordance with legal processes, but deportations remain slow and subject to legal challenges.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "National scale policy with significant implications for a large population.",
+      "importance_reason": "Nation-wide policy with potentially large-scale impact on immigration and demographics.",
       "importance_source": "llm"
     },
     {
@@ -597,7 +597,7 @@
       "supporting_quote": "Delhi's education department highlighted infrastructure upgrades, international teacher training programs, and CBSE board pass rates as evidence of successful government school reforms.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Impacts millions of Delhi residents and is a large-scale commitment.",
+      "importance_reason": "Transformational commitment affecting millions of Delhi residents and setting a national standard.",
       "importance_source": "llm"
     },
     {
@@ -639,7 +639,7 @@
       "supporting_quote": "The Delhi government approved a full subsidy for households consuming up to 200 units of electricity per month, fulfilling a major manifesto pledge.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Impacts a large number of households in Delhi.",
+      "importance_reason": "Impacts a large population in Delhi and is a significant policy shift.",
       "importance_source": "llm"
     },
     {
@@ -681,7 +681,7 @@
       "supporting_quote": "While the government announced action plans to clean the Yamuna by 2025, pollution monitoring reports and NGT audits show critical sewage treatment gaps remain, making the target unmet.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Affects a major river impacting millions of people.",
+      "importance_reason": "Cleaning the Yamuna affects a major river basin and impacts millions of people.",
       "importance_source": "llm"
     },
     {
@@ -723,7 +723,7 @@
       "supporting_quote": "Congress President Rahul Gandhi announced the Nyuntam Aay Yojana (NYAY), promising to transfer Rs 72,000 annually to the poorest 20% of Indian families if voted to power.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Large-scale financial commitment affecting millions of people.",
+      "importance_reason": "Nationwide impact with potential to significantly alter economic landscape.",
       "importance_source": "llm"
     },
     {
@@ -775,7 +775,7 @@
       "supporting_quote": "He assured residents that his government would effectively address their concerns, including illegal land grabbing, and instructed officials to take legal action against perpetrators.",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Aims for a statewide transformation impacting millions.",
+      "importance_reason": "A complete end to crime is a transformational, state-wide promise with huge implications for UP's governance and image.",
       "importance_source": "llm"
     },
     {
@@ -817,7 +817,7 @@
       "supporting_quote": "Mamata Banerjee reiterated her administration's commitment to protecting citizen identities and welfare benefits under the regional Ma Mati Manush governance framework.",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Vague slogan without specific policy details or scale.",
+      "importance_reason": "Vague slogan, no concrete policy or scale outlined.",
       "importance_source": "llm"
     },
     {
@@ -870,7 +870,7 @@
       "supporting_quote": "He promised a \"Viksit Kerala\" under an NDA government, emphasizing faster development and curbing youth migration.",
       "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "Sets a national economic target with a large timeframe.",
+      "importance_reason": "Sets a national vision and ambitious economic target for the entire country.",
       "importance_source": "llm"
     },
     {
@@ -911,7 +911,7 @@
       "supporting_quote": "**Deputy Chief Minister Mallu Bhatti Vikramarka**, during a visit to Khammam, announced plans for the construction of a model colony in Velugumatla for poor people.  The colony will include amenities like electricity, water, roads, and a hospital, with completion expected by December 9, 2026. **Mr. ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Local project with no stated scale of impact.",
+      "importance_reason": "A single colony, even with amenities, is not a nation- or state-shaping commitment.",
       "importance_source": "llm"
     },
     {
@@ -951,8 +951,8 @@
       "evidence_count": 1,
       "supporting_quote": "**Praja Arogya Vedika (PAV)**, an organization advocating for medical education, urged **Minister for Health, Medical Education and Family Welfare, Satya Kumar Yadav**, to expedite the remaining construction work on newly-sanctioned medical colleges. PAV emphasized that these colleges are nearing co...",
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "National-scale impact on healthcare infrastructure.",
+      "importance": "minor",
+      "importance_reason": "Routine project delivery, not a transformational commitment.",
       "importance_source": "llm"
     },
     {
@@ -993,7 +993,7 @@
       "supporting_quote": "**K. Venkatesh**, the **Animal Husbandry Minister** of Karnataka, announced that the recruitment process for 400 vacant permanent veterinary officer positions is underway through the **Karnataka Public Service Commission**.  The appointments are expected to address the shortage of veterinary doctors...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Limited scope, affecting a specific profession within agriculture.",
+      "importance_reason": "Routine recruitment, not a transformational commitment.",
       "importance_source": "llm"
     },
     {
@@ -1075,7 +1075,7 @@
       "supporting_quote": "**Minister for Forests and Ecology Eshwar Khandre** has banned illegal tree felling in various forest areas, including government plantations and roadside plantations. This follows concerns raised by **wildlife conservationist Giridhar Kulkarni**, who warned of increased demand for firewood due to L...",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Impacts a large, measurable environmental resource.",
+      "importance_reason": "Impacts national forest cover and environmental sustainability on a large scale.",
       "importance_source": "llm"
     },
     {
@@ -1126,7 +1126,7 @@
       "supporting_quote": "**Ten** **Maoist** rebels surrendered to Indian security forces in Chhattisgarh, bringing the total number of surrendered fighters to 108.  The group, representing various districts within the Dandakaranya Special Zonal Committee, collectively carry a reward of ₹3.95 crore and included six divisiona...",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Aims for a nationwide security transformation with massive implications.",
+      "importance_reason": "A nationwide campaign to eradicate Maoism would have a profound impact on national security and governance.",
       "importance_source": "llm"
     },
     {
@@ -1208,7 +1208,7 @@
       "supporting_quote": "**Bengaluru** residents are experiencing difficulties booking domestic LPG cylinders due to a surge in demand and technical glitches on booking platforms. **The Bengaluru City Police** launched a drive against illegal hoarding and marketing of LPG cylinders, inspecting over 50 godowns. **Food and Ci...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Limited scope, no large-scale impact stated.",
+      "importance_reason": "A specific scheme, even if for important institutions, is not nation-shaping in scale.",
       "importance_source": "llm"
     },
     {
@@ -1290,7 +1290,7 @@
       "supporting_quote": "**G.R Anil**, the **Food and Civil Supplies Minister of Kerala**, announced that the state has achieved hunger-free status, a significant achievement for Keralites worldwide.  He highlighted various welfare measures implemented by the government to ensure food security, including direct delivery of ...",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "National-scale goal affecting millions.",
+      "importance_reason": "Nationwide impact with potential to transform social well-being.",
       "importance_source": "llm"
     },
     {
@@ -1331,7 +1331,7 @@
       "supporting_quote": "**Residents** of 16 localities in Gajuwaka, affected by the **Greater Visakhapatnam Municipal Corporation (GVMC)** Garbage Transfer Station (GTS), announced they will lock the facility and protest from March 20th.  The protesters, led by **B. Ramana**, a CPI(M) activist, claim that despite promises ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Local issue with limited impact.",
+      "importance_reason": "Local issue, not nationally or state-wide impactful.",
       "importance_source": "llm"
     },
     {
@@ -1383,7 +1383,7 @@
       "supporting_quote": "The Cabinet aims to resolve contractual and technical bottlenecks that have delayed water infrastructure development for nearly two decades.  These decisions are intended to meet the State government's target of completing the works by June 2026.",
       "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "Large-scale infrastructure project with national impact.",
+      "importance_reason": "Large-scale irrigation project with significant impact on agriculture and water resources for a large population.",
       "importance_source": "llm"
     },
     {
@@ -1424,7 +1424,7 @@
       "supporting_quote": "**Deputy Chief Minister Sunetra Pawar** announced a new \"Come Early, Go Early\" scheme for women government employees in the Mumbai Metropolitan Region (MMR) to assist them with managing work and domestic responsibilities. The policy will allow women arriving between 9:15 a.m. and 9:45 a.m. to leave ...",
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Local policy affecting a specific group of employees.",
+      "importance_reason": "A single scheme for a specific region, not nationally impactful.",
       "importance_source": "llm"
     },
     {
@@ -1476,7 +1476,7 @@
       "supporting_quote": "He highlighted that his government has been actively working towards this goal and promised additional funding for the third phase of the Upper Krishna Project (UKP).",
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Large-scale infrastructure projects with national impact.",
+      "importance_reason": "Large-scale infrastructure projects like UKP are transformative for water resources and agriculture.",
       "importance_source": "llm"
     },
     {
@@ -1622,8 +1622,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "Loan subsidies and financial assistance are large-scale commitments.",
+      "importance": "minor",
+      "importance_reason": "While potentially impactful, these are individual schemes and an amendment, not a nation- or state-shaping commitment.",
       "importance_source": "llm"
     },
     {
@@ -1672,7 +1672,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Large-scale impact on displaced families potentially numbering in the millions.",
+      "importance_reason": "Nationwide impact on displaced families, potentially affecting millions.",
       "importance_source": "llm"
     },
     {
@@ -1770,7 +1770,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "National-scale infrastructure investment with a large, measurable target.",
+      "importance_reason": "Nation-level impact, aiming for international sporting success.",
       "importance_source": "llm"
     },
     {
@@ -1819,7 +1819,7 @@
       "evidence_count": 1,
       "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "Addresses national issues of education, housing, and unemployment on a large scale.",
+      "importance_reason": "Nationwide impact on education, housing, and employment.",
       "importance_source": "llm"
     },
     {
@@ -1868,7 +1868,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Affects a large number of positions across government and corporations.",
+      "importance_reason": "A nationwide commitment with potential to significantly impact women's representation in governance.",
       "importance_source": "llm"
     },
     {
@@ -1917,7 +1917,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Local impact, unclear scale of stalls and restoration.",
+      "importance_reason": "Local infrastructure project, not nationally or state-transformational.",
       "importance_source": "llm"
     },
     {
@@ -1965,8 +1965,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "Broad economic goals affecting a large population.",
+      "importance": "minor",
+      "importance_reason": "Vague and lacks concrete scale or target population.",
       "importance_source": "llm"
     },
     {
@@ -2015,7 +2015,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "A 'guarantee card' implies a large-scale welfare program affecting millions.",
+      "importance_reason": "Nationwide welfare program with potential for large-scale impact.",
       "importance_source": "llm"
     },
     {
@@ -2064,7 +2064,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Vague statement without measurable scale or impact.",
+      "importance_reason": "Vague statement without concrete scale or action plan.",
       "importance_source": "llm"
     },
     {
@@ -2113,7 +2113,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Local constituency-level promise.",
+      "importance_reason": "Local constituency-level promise, not nationally or state-wide impactful.",
       "importance_source": "llm"
     },
     {
@@ -2211,7 +2211,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "One-time financial assistance with no large-scale impact.",
+      "importance_reason": "A one-time financial incentive, not a transformative policy shift.",
       "importance_source": "llm"
     },
     {
@@ -2260,7 +2260,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Offers large-scale economic support to a significant portion of the population.",
+      "importance_reason": "This promise has the potential to significantly impact the Tamil economy and youth employment.",
       "importance_source": "llm"
     },
     {
@@ -2309,7 +2309,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "A significant price increase for a major agricultural commodity affects many farmers.",
+      "importance_reason": "A nationwide impact on a significant agricultural commodity.",
       "importance_source": "llm"
     },
     {
@@ -2358,7 +2358,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Symbolic gesture with no measurable impact.",
+      "importance_reason": "A single case, not a systemic change or large-scale policy.",
       "importance_source": "llm"
     },
     {
@@ -2407,7 +2407,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "A special session of Parliament is a significant event with national impact.",
+      "importance_reason": "A special session for this bill signals a major policy shift with national impact.",
       "importance_source": "llm"
     },
     {
@@ -2456,7 +2456,7 @@
       "evidence_count": 1,
       "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "Addresses major social issues with broad national impact.",
+      "importance_reason": "Nationwide impact with large-scale programs addressing key social issues.",
       "importance_source": "llm"
     },
     {
@@ -2505,7 +2505,7 @@
       "evidence_count": 1,
       "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "Aims for a major systemic change in education.",
+      "importance_reason": "Aims for a nationwide transformation in education by eliminating a major societal issue.",
       "importance_source": "llm"
     },
     {
@@ -2553,8 +2553,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "Welfare schemes at the state level often impact millions.",
+      "importance": "minor",
+      "importance_reason": "Welfare schemes are usually routine delivery, not nation-shaping.",
       "importance_source": "llm"
     },
     {
@@ -2603,7 +2603,7 @@
       "evidence_count": 1,
       "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "A major constitutional change affecting millions of voters.",
+      "importance_reason": "Nationally impactful constitutional change affecting representation.",
       "importance_source": "llm"
     },
     {
@@ -2652,7 +2652,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Large-scale welfare scheme affecting millions.",
+      "importance_reason": "Large-scale welfare schemes impacting a significant portion of the state's population.",
       "importance_source": "llm"
     },
     {
@@ -2700,8 +2700,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "Addresses a systemic issue affecting a large portion of the government's promises.",
+      "importance": "minor",
+      "importance_reason": "This is a statement about past performance, not a future promise.",
       "importance_source": "llm"
     },
     {
@@ -2750,7 +2750,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Targets a significant economic sector with substantial financial commitments.",
+      "importance_reason": "This package aims to transform the state's textile industry, impacting a large sector of the economy and population.",
       "importance_source": "llm"
     },
     {
@@ -2799,7 +2799,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Symbolic gesture with no measurable impact.",
+      "importance_reason": "Routine maintenance and beautification of statues is not a nation- or state-shaping commitment.",
       "importance_source": "llm"
     },
     {
@@ -2848,7 +2848,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Vague statement with no measurable scale or impact.",
+      "importance_reason": "Vague and lacks concrete scale or impact.",
       "importance_source": "llm"
     },
     {
@@ -2897,7 +2897,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Addresses major national issues affecting millions.",
+      "importance_reason": "Broad, national-level promises affecting key sectors and demographics.",
       "importance_source": "llm"
     },
     {
@@ -2946,7 +2946,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "minor",
-      "importance_reason": "Vague promise with no measurable impact or scale.",
+      "importance_reason": "Too vague and lacks concrete scale to be nation-shaping.",
       "importance_source": "llm"
     },
     {
@@ -2995,7 +2995,7 @@
       "evidence_count": 1,
       "importance_hint": "minor",
       "importance": "critical",
-      "importance_reason": "Public debt and fiscal accountability are major economic concerns.",
+      "importance_reason": "National-level impact on fiscal policy and public trust.",
       "importance_source": "llm"
     },
     {
@@ -3043,8 +3043,8 @@
       "promise_type": "specific",
       "evidence_count": 1,
       "importance_hint": "minor",
-      "importance": "critical",
-      "importance_reason": "Impacts millions by improving access to essential services and property rights.",
+      "importance": "minor",
+      "importance_reason": "Focuses on improving a specific service, not a nation-altering transformation.",
       "importance_source": "llm"
     },
     {
@@ -3093,7 +3093,7 @@
       "evidence_count": 1,
       "importance_hint": "critical",
       "importance": "minor",
-      "importance_reason": "Vague and lacks specific measurable targets.",
+      "importance_reason": "Vague and lacks concrete scale or impact.",
       "importance_source": "llm"
     }
   ]
