@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 75,
-    "promises_with_evidence": 75,
+    "total_promises": 76,
+    "promises_with_evidence": 76,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -4209,6 +4209,64 @@
       "archived_url": "https://web.archive.org/web/20260619051316/https://www.thehindu.com/news/national/karnataka/will-usher-in-yuva-yuga-promises-new-karnataka-chief-minister/article71058422.ece",
       "archive_source": "wayback",
       "search_fallback_url": "https://www.google.com/search?q=Will+usher+in+Yuva+Yuga+promises+new+Karnataka+Chief+Minister+-+The+Hindu"
+    },
+    {
+      "id": "p076",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Bengaluru infrastructure improvements, building regularization, and free student bus rides",
+      "supporting_quote": "Shivakumar has already initiated plans for Bengaluru infrastructure improvements, building regularization, and free student bus rides.",
+      "category": "infrastructure",
+      "made_on": "2026-06-03",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/exclusive-with-dk-shivakumars-daughter-brother-after-big-karnataka-oath-11588028#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/exclusive-with-dk-shivakumars-daughter-brother-after-big-karnataka-oath-11588028#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Exclusive+With+DK+Shivakumar+s+Daughter+Brother+After+Big+Karnataka+Oath",
+      "source_description": "Exclusive With DK Shivakumar's Daughter, Brother After Big Karnataka Oath",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://www.ndtv.com/india-news/exclusive-with-dk-shivakumars-daughter-brother-after-big-karnataka-oath-11588028#publisher=newsstand"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article mentions these as plans Shivakumar has initiated, not specific promises with defined timelines or outcomes.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/exclusive-with-dk-shivakumars-daughter-brother-after-big-karnataka-oath-11588028#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Exclusive+With+DK+Shivakumar+s+Daughter+Brother+After+Big+Karnataka+Oath",
+          "supporting_quote": "Shivakumar has already initiated plans for Bengaluru infrastructure improvements, building regularization, and free student bus rides.",
+          "title": "Exclusive With DK Shivakumar's Daughter, Brother After Big Karnataka Oath",
+          "source": "NDTV",
+          "scraped_at": "2026-06-03",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**DK Shivakumar**, the newly sworn-in Chief Minister of Karnataka, faces high expectations from his family and the public. **Rahul Gandhi** urged focus on upcoming elections in 2028 and 2029, while Shivakumar's daughter Aisshwarya DKS Hegde emphasized a commitment to returning to power in future ele...",
+          "content": "- As DK Shivakumar becomes Karnataka's Chief Minister, his family hopes he can meet the public expectation - Rahul Gandhi has urged focus on 2028 Assembly and 2029 Lok Sabha elections - Shivakumar has launched plans for Bengaluru roads, building regularisation, and free student bus rides DK Shivakumar has achieved his goal of becoming the Chief Minister of Karnataka, but his family is looking forw...",
+          "quote": "Shivakumar has already initiated plans for Bengaluru infrastructure improvements, building regularization, and free student bus rides."
+        }
+      ],
+      "notes": "The article mentions these as plans Shivakumar has initiated, not specific promises with defined timelines or outcomes.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "Large-scale infrastructure improvements and free student bus rides for a major city impact a significant population.",
+      "importance_source": "llm"
     }
   ]
 }
