@@ -4,7 +4,7 @@
     "total_promises": 157,
     "promises_with_validated_evidence": 36,
     "statuses_automatically_updated": 0,
-    "status_suggestions_gated": 2
+    "status_suggestions_gated": 3
   },
   "updated_items": [
     {
@@ -45,6 +45,26 @@
         "confidence": "medium",
         "importance": "minor",
         "reasoning": "The article states that these promises were not implemented, indicating they were broken."
+      }
+    },
+    {
+      "timestamp": "2026-06-19 13:01:47",
+      "reason": "new_promise_low_confidence_gated",
+      "promise_id": "p078",
+      "politician": "V.D. Satheesan",
+      "proposed_json": {
+        "politician": "V.D. Satheesan",
+        "party": "Indian National Congress",
+        "promise_text": "no political party in Kerala had accused Mr. Kelkar of election manipulation",
+        "category": "other",
+        "supporting_quote": "no political party in Kerala had accused Mr. Kelkar of election manipulation",
+        "deadline_year": "null",
+        "is_new_promise": false,
+        "matched_existing_promise_id": "null",
+        "verdict": "null",
+        "confidence": "medium",
+        "importance": "minor",
+        "reasoning": "The statement clarifies the CM's stance on a past appointment, not a new promise."
       }
     }
   ]
