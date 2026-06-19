@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 80,
-    "promises_with_evidence": 80,
+    "total_promises": 82,
+    "promises_with_evidence": 82,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -4498,6 +4498,122 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Single project, not a large-scale national or state-transforming commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p081",
+      "person": "Samrat Choudhary",
+      "party": "BJP",
+      "role": "Chief Minister of Bihar",
+      "promise": "blueprint for 11 satellite townships across 10 districts",
+      "supporting_quote": "He has implemented several initiatives focusing on development and combating corruption, including a blueprint for 11 satellite townships across 10 districts.",
+      "category": "infrastructure",
+      "made_on": "2026-05-15",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/bihar/one-month-of-the-samrat-choudhary-government-in-bihar/article70983413.ece",
+      "url": "https://www.thehindu.com/news/national/bihar/one-month-of-the-samrat-choudhary-government-in-bihar/article70983413.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=One+month+of+Samrat+Choudhary+Government+in+Bihar+-+The+Hindu",
+      "source_description": "One month of Samrat Choudhary Government in Bihar - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://www.thehindu.com/news/national/bihar/one-month-of-the-samrat-choudhary-government-in-bihar/article70983413.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article mentions this as one of several initiatives, suggesting it's a significant but not central policy.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/one-month-of-the-samrat-choudhary-government-in-bihar/article70983413.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=One+month+of+Samrat+Choudhary+Government+in+Bihar+-+The+Hindu",
+          "supporting_quote": "He has implemented several initiatives focusing on development and combating corruption, including a blueprint for 11 satellite townships across 10 districts.",
+          "title": "One month of Samrat Choudhary Government in Bihar - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-15",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Samrat Choudhary**, the leader of the **Bharatiya Janata Party (BJP)**, took office as Chief Minister of Bihar on April 15, 2026.  He has implemented several initiatives focusing on development and combating corruption, including a blueprint for 11 satellite townships across 10 districts. The gove...",
+          "content": "Samrat Choudhary, the leader of the Bharatiya Janata Party (BJP), took the oath of office as Chief Minister on April 15. This Friday (May 15, 2026) marked one month since that date. During this period, Mr. Choudhary has taken several important steps in line with former Chief Minister Nitish Kumar’s policies, focusing on development and zero tolerance toward corruption and crime. A blueprint has be...",
+          "quote": "He has implemented several initiatives focusing on development and combating corruption, including a blueprint for 11 satellite townships across 10 districts."
+        }
+      ],
+      "notes": "The article mentions this as one of several initiatives, suggesting it's a significant but not central policy.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "Satellite townships across multiple districts indicate a large-scale, transformative infrastructure plan.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p082",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "The project will connect Ahmedabad to Dholera Special Investment Region and Greenfield Industrial Smart City, creating employment opportunities and positioning Gujarat as a global manufacturing hub.",
+      "supporting_quote": "The project will connect Ahmedabad to Dholera Special Investment Region and Greenfield Industrial Smart City, creating employment opportunities and positioning Gujarat as a global manufacturing hub.",
+      "category": "economy",
+      "made_on": "2026-05-14",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+      "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Semi-high-speed+train+project+to+turn+Gujarat+into+manufacturing+and+logistics+hub+Amit+Shah+-+The+Hindu",
+      "source_description": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is directly linked to a major infrastructure project with the stated goal of boosting Gujarat's economy and creating jobs.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/gujarat/semi-high-speed-train-project-to-turn-gujarat-into-manufacturing-and-logistics-hub-amit-shah/article70979514.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Semi-high-speed+train+project+to+turn+Gujarat+into+manufacturing+and+logistics+hub+Amit+Shah+-+The+Hindu",
+          "supporting_quote": "The project will connect Ahmedabad to Dholera Special Investment Region and Greenfield Industrial Smart City, creating employment opportunities and positioning Gujarat as a global manufacturing hub.",
+          "title": "Semi-high-speed train project to turn Gujarat into manufacturing and logistics hub: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-14",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Amit Shah**, **Union Home Minister**, announced that the Cabinet approved a ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project. The project will connect Ahmedabad to Dholera Special Investment Region and Greenfield Industrial Smart City, creating employment opportun...",
+          "content": "Union Home Minister Amit Shah on Wednesday (May 14, 2026) said the Cabinet approval for the ₹20,667 crore Ahmedabad (Sarkhej)-Dholera semi-high-speed double rail line project is a powerful testament to Prime Minister Narendra Modi’s visionary goal of transforming the country into a hub of connectivity, innovation and manufacturing. In a post on X, Mr. Shah said the project will play a crucial role...",
+          "quote": "The project will connect Ahmedabad to Dholera Special Investment Region and Greenfield Industrial Smart City, creating employment opportunities and positioning Gujarat as a global manufacturing hub."
+        }
+      ],
+      "notes": "The promise is directly linked to a major infrastructure project with the stated goal of boosting Gujarat's economy and creating jobs.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Connecting a major city to a planned industrial hub is a large-scale project with potential for significant economic impact.",
       "importance_source": "llm"
     }
   ]
