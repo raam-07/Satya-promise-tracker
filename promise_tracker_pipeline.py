@@ -30,38 +30,249 @@ if not os.path.exists(os.path.dirname(default_db_path)):
     default_db_path = os.path.join(os.path.dirname(__file__), 'satya.db')
 DB_PATH = os.environ.get('SATYA_DB_PATH', default_db_path)
 
-# Wayback Machine Archiver Helper
-def archive_url_wayback(url):
-    """
-    Triggers an automated snapshot on the Wayback Machine.
-    Returns the archived URL if successful, otherwise the original URL.
-    """
-    logging.info(f"Triggering Wayback Machine archive for: {url}")
-    save_url = f"https://web.archive.org/save/{url}"
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-        }
-        response = requests.post(save_url, headers=headers, timeout=15)
-        if response.status_code == 200:
-            # Check headers or construct fallback archive URL
-            # The Wayback Save API redirects or places archive link in the headers
-            location = response.headers.get('Content-Location') or response.headers.get('Location')
-            if location:
-                archive_link = f"https://web.archive.org{location}" if location.startswith('/') else location
-                logging.info(f"Successfully archived! Link: {archive_link}")
-                return archive_link
+# --- Durable, Genuine Source Link Archiving & Search Fallback Helpers ---
+
+def build_search_fallback_url(url, headline):
+    import urllib.parse
+    import re
+    import logging
+
+    query = ""
+    # Try using headline first, if it's a valid and non-generic headline
+    if headline:
+        # Check if it's a generic manifesto or homepage description
+        generic_keywords = ["manifesto", "announcement", "official website", "homepage", "http:", "https:"]
+        is_generic = any(kw in headline.lower() for kw in generic_keywords)
+        if not is_generic:
+            # Use headline, clean it
+            # Remove common punctuation, keep spaces, letters, numbers, hyphens
+            cleaned = re.sub(r'[^\w\s-]', ' ', headline)
+            # Replace multiple spaces with a single space
+            query = " ".join(cleaned.split()).strip()
             
-            # Fallback format: https://web.archive.org/web/YYYYMMDDhhmmss/URL
-            timestamp = time.strftime("%Y%m%d%H%M%S")
-            archive_link = f"https://web.archive.org/web/{timestamp}/{url}"
-            logging.info(f"Archive triggered (fallback link): {archive_link}")
-            return archive_link
-        else:
-            logging.warning(f"Wayback responded with status {response.status_code}. Using original URL.")
+    # If no valid query from headline, derive from url slug
+    if not query and url:
+        try:
+            # Clean wayback prefix if present
+            if "web.archive.org/web/" in url:
+                match_origin = re.search(r'/web/\d+/(https?://.+)$', url)
+                if match_origin:
+                    url = match_origin.group(1)
+            
+            parsed = urllib.parse.urlparse(url)
+            path = parsed.path
+            # Strip trailing slashes
+            path = path.strip('/')
+            
+            # Drop /articleXXXXXXXX or articleXXXXXXXX.ece or similar
+            path = re.sub(r'/?article\d+(?:\.ece)?', '', path, flags=re.IGNORECASE)
+            # Drop trailing numeric ID (e.g. -4617098 or /4617098)
+            path = re.sub(r'-\d+$', '', path)
+            path = re.sub(r'/\d+$', '', path)
+            
+            # Replace '-' and '/' with spaces
+            cleaned = path.replace('-', ' ').replace('/', ' ')
+            cleaned = re.sub(r'[^\w\s]', ' ', cleaned)
+            query = " ".join(cleaned.split()).strip()
+        except Exception as e:
+            logging.warning(f"Error parsing URL path for search fallback: {e}")
+            
+    # Fallback if both are empty
+    if not query:
+        query = "Indian political promises"
+        
+    # URL encode it
+    encoded_query = urllib.parse.quote_plus(query)
+    return f"https://www.google.com/search?q={encoded_query}"
+
+
+def save_url_wayback_spn2(url):
+    import os
+    import time
+    import requests
+    import logging
+
+    access_key = os.environ.get("IA_ACCESS_KEY")
+    secret_key = os.environ.get("IA_SECRET_KEY")
+    if not access_key or not secret_key:
+        logging.warning("IA_ACCESS_KEY or IA_SECRET_KEY not set. Cannot use authenticated Wayback SPN.")
+        return None
+    
+    headers = {
+        "Authorization": f"LOW {access_key.strip()}:{secret_key.strip()}",
+        "Accept": "application/json",
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+    
+    # Wayback save endpoint
+    save_url = "https://web.archive.org/save"
+    data = {"url": url}
+    
+    try:
+        logging.info(f"Submitting SPN v2 authenticated request for: {url}")
+        response = requests.post(save_url, headers=headers, data=data, timeout=20)
+        if response.status_code not in [200, 201, 202]:
+            logging.warning(f"Wayback SPN v2 failed with status code {response.status_code}: {response.text}")
+            return None
+        
+        res_json = response.json()
+        job_id = res_json.get("job_id")
+        if not job_id:
+            logging.warning(f"No job_id returned from Wayback SPN v2: {res_json}")
+            return None
+        
+        # Now poll status
+        status_url = f"https://web.archive.org/save/status/{job_id}"
+        max_attempts = 15 # 15 attempts * 4s = 60s total wait
+        for attempt in range(max_attempts):
+            time.sleep(4)
+            logging.info(f"Checking Wayback job status (attempt {attempt+1}/{max_attempts})...")
+            status_res = requests.get(status_url, headers=headers, timeout=15)
+            if status_res.status_code != 200:
+                logging.warning(f"Failed to check job status, HTTP {status_res.status_code}")
+                continue
+            
+            status_json = status_res.json()
+            status = status_json.get("status")
+            logging.info(f"Wayback job status: {status}")
+            
+            if status == "success":
+                timestamp = status_json.get("timestamp")
+                original_url = status_json.get("original_url") or url
+                if timestamp:
+                    archive_url = f"https://web.archive.org/web/{timestamp}/{original_url}"
+                    logging.info(f"Wayback archive success: {archive_url}")
+                    return archive_url
+                playback_url = status_json.get("playback_url") or status_json.get("snapshot_id")
+                if playback_url:
+                    if not playback_url.startswith("http"):
+                        playback_url = f"https://web.archive.org/web/{playback_url}"
+                    return playback_url
+                return f"https://web.archive.org/web/{time.strftime('%Y%m%d%H%M%S')}/{url}"
+            elif status in ["pending", "running"]:
+                continue
+            else:
+                logging.warning(f"Wayback SPN job failed/error: {status_json}")
+                break
     except Exception as e:
-        logging.error(f"Failed to save URL to Wayback: {e}")
-    return url
+        logging.error(f"Error during Wayback SPN v2: {e}")
+    
+    return None
+
+
+def save_url_archive_today(url):
+    import time
+    import requests
+    import re
+    import logging
+
+    logging.info(f"Triggering archive.today for: {url}")
+    # Domains to try: archive.ph, archive.today, archive.is
+    domains = ["archive.ph", "archive.today", "archive.is"]
+    user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    
+    max_retries = 2
+    for attempt in range(max_retries):
+        if attempt > 0:
+            sleep_time = attempt * 5
+            logging.info(f"Retrying archive.today in {sleep_time} seconds (attempt {attempt + 1}/{max_retries})...")
+            time.sleep(sleep_time)
+
+        for domain in domains:
+            try:
+                base_url = f"https://{domain}"
+                submit_url = f"{base_url}/submit/"
+                
+                session = requests.Session()
+                session.headers.update({"User-Agent": user_agent})
+                
+                # Fetch submitid from homepage
+                home_res = session.get(base_url, timeout=12)
+                if home_res.status_code != 200:
+                    logging.warning(f"Failed to get archive.today homepage from {base_url}, HTTP {home_res.status_code}")
+                    continue
+                
+                match = re.search(r'name="submitid"\s+value="([^"]+)"', home_res.text)
+                submitid = match.group(1) if match else ""
+                
+                data = {
+                    "url": url,
+                    "submitid": submitid
+                }
+                
+                # Post submission, allow redirects False first to catch headers
+                response = session.post(submit_url, data=data, allow_redirects=False, timeout=15)
+                
+                # Check Location header
+                location = response.headers.get("Location")
+                if location:
+                    if location.startswith("/"):
+                        location = f"{base_url}{location}"
+                    logging.info(f"archive.today redirect found in Location: {location}")
+                    return location
+                
+                # Check Refresh header
+                refresh = response.headers.get("Refresh")
+                if refresh:
+                    ref_match = re.search(r'url=(.+)$', refresh, re.IGNORECASE)
+                    if ref_match:
+                        ref_url = ref_match.group(1).strip()
+                        if ref_url.startswith("/"):
+                            ref_url = f"{base_url}{ref_url}"
+                        logging.info(f"archive.today redirect found in Refresh: {ref_url}")
+                        return ref_url
+                
+                # Post with redirects enabled
+                logging.info("Checking with redirects followed...")
+                response_red = session.post(submit_url, data=data, allow_redirects=True, timeout=20)
+                if response_red.url and response_red.url != submit_url and not response_red.url.endswith("/submit/"):
+                    logging.info(f"archive.today redirected to: {response_red.url}")
+                    return response_red.url
+                
+                # Check body for refresh
+                meta_match = re.search(r'meta\s+http-equiv="refresh"\s+content="[^;]+;\s*url=([^"]+)"', response_red.text, re.IGNORECASE)
+                if meta_match:
+                    meta_url = meta_match.group(1).strip()
+                    if meta_url.startswith("/"):
+                        meta_url = f"{base_url}{meta_url}"
+                    logging.info(f"archive.today meta refresh found: {meta_url}")
+                    return meta_url
+
+                # Check body for hash link
+                hash_match = re.search(r'href="([^"]+/(?:wip/)?(?:[a-zA-Z0-9]{5}))"', response_red.text)
+                if hash_match:
+                    hash_url = hash_match.group(1)
+                    if hash_url.startswith("/"):
+                        hash_url = f"{base_url}{hash_url}"
+                    logging.info(f"archive.today hash URL found: {hash_url}")
+                    return hash_url
+                    
+            except Exception as e:
+                logging.warning(f"Error checking archive.today domain {domain}: {e}")
+                
+    return None
+
+
+def archive_url_flow(url):
+    import logging
+    try:
+        # Check if Wayback-excluded domain
+        is_excluded = "thehindu.com" in url.lower()
+        
+        if not is_excluded:
+            archive_link = save_url_wayback_spn2(url)
+            if archive_link:
+                return archive_link, "wayback"
+                
+        # Try archive.today if Wayback failed or domain is excluded
+        archive_link = save_url_archive_today(url)
+        if archive_link:
+            return archive_link, "archivetoday"
+            
+    except Exception as e:
+        logging.error(f"Critical exception in archive_url_flow: {e}")
+        
+    return "", "none"
 
 # DB connection helper
 def get_db_connection():
@@ -1150,14 +1361,20 @@ def main():
 
         logging.info("Stage 3 Critic Approved! Committing changes...")
 
-        # Wayback Archiving (skip if dry-run)
-        final_url = url
+        # Non-blocking Archiving flow
+        archived_url = ""
+        archive_source = "none"
         if not args.dry_run:
-            final_url = archive_url_wayback(url)
+            archived_url, archive_source = archive_url_flow(url)
 
         # Map to evidence article format
         evidence_item = {
-            "url": final_url,
+            "url": url, # Keep original live URL!
+            "url_status": "ok",
+            "archived_url": archived_url,
+            "archive_source": archive_source,
+            "search_fallback_url": build_search_fallback_url(url, title),
+            "supporting_quote": extracted_json.get("supporting_quote", ""),
             "title": title,
             "source": source_name if source_name else "News Article",
             "scraped_at": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
@@ -1207,7 +1424,7 @@ def main():
                         p["evidence_articles"] = []
                     
                     # Prevent duplicate URLs
-                    if not any(e["url"] == final_url for e in p["evidence_articles"]):
+                    if not any(e.get("url") == url for e in p["evidence_articles"]):
                         p["evidence_articles"].append(evidence_item)
                         
                     new_status = extracted_json.get("verdict", p["status"])
@@ -1220,8 +1437,8 @@ def main():
                             save_to_review_queue(p, extracted_json, "low_confidence_verdict_change")
                             new_status = p["status"]
                         elif new_status == "broken":
-                            existing_urls = {e["url"] for e in p.get("evidence_articles", [])}
-                            all_urls = existing_urls | {final_url}
+                            existing_urls = {e.get("url") for e in p.get("evidence_articles", [])}
+                            all_urls = existing_urls | {url}
                             if len(all_urls) < 2:
                                 logging.info(f"Verdict change to 'broken' rejected: requires 2+ independent sources (has {len(all_urls)}). Sending to review.")
                                 save_to_review_queue(p, extracted_json, "insufficient_sources_for_broken")
@@ -1234,7 +1451,7 @@ def main():
                         p["status_history"].append({
                             "status": new_status,
                             "changed_at": time.strftime("%Y-%m-%d"),
-                            "evidence_url": final_url
+                            "evidence_url": url
                         })
                         
                     p["status"] = new_status
@@ -1243,6 +1460,13 @@ def main():
                     p["gemma_reasoning"] = extracted_json.get("reasoning", p.get("gemma_reasoning"))
                     p["supporting_quote"] = extracted_json.get("supporting_quote", p.get("supporting_quote", ""))
                     p["evidence_count"] = len(p["evidence_articles"])
+                    
+                    # Backfill durability fields on updated promise
+                    p["url"] = p.get("source_url", url)
+                    p["url_status"] = p.get("url_status", "ok")
+                    p["archived_url"] = p.get("archived_url") or archived_url
+                    p["archive_source"] = p.get("archive_source") or archive_source
+                    p["search_fallback_url"] = p.get("search_fallback_url") or build_search_fallback_url(p["url"], p.get("source_description", p["promise"]))
                     
                     # Update category: normalize first
                     extracted_cat = extracted_json.get("category")
@@ -1359,7 +1583,12 @@ def main():
                 "category": norm_cat,
                 "made_on": time.strftime("%Y-%m-%d", time.localtime(scraped_at)) if scraped_at else time.strftime("%Y-%m-%d"),
                 "deadline": deadline_val,
-                "source_url": final_url,
+                "source_url": url,
+                "url": url,
+                "url_status": "ok",
+                "archived_url": archived_url,
+                "archive_source": archive_source,
+                "search_fallback_url": build_search_fallback_url(url, title),
                 "source_description": title,
                 "status": initial_status,
                 "status_last_reviewed": time.strftime("%Y-%m-%d"),
@@ -1367,7 +1596,7 @@ def main():
                     {
                         "status": initial_status,
                         "changed_at": time.strftime("%Y-%m-%d"),
-                        "evidence_url": final_url
+                        "evidence_url": url
                     }
                 ],
                 "gemma_suggestion": extracted_json.get("verdict", "ongoing"),
