@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 72,
-    "promises_with_evidence": 72,
+    "total_promises": 73,
+    "promises_with_evidence": 73,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -3357,6 +3357,55 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Financial assistance to a specific group is a routine scheme, not a nation-shaping commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p073",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Kolkata will become the 18th city connected to the Water Metro network",
+      "supporting_quote": "Kolkata will become the 18th city connected to the Water Metro network.",
+      "category": "infrastructure",
+      "made_on": "2026-06-05",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260619035729/https://indianexpress.com/article/cities/kolkata/separate-shipping-wing-kolkata-water-metro-network-ports-10724395/",
+      "source_description": "Kolkata to get water metro, will be the 18th city to be linked, says CM Adhikari | Kolkata News - The Indian Express",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://web.archive.org/web/20260619035729/https://indianexpress.com/article/cities/kolkata/separate-shipping-wing-kolkata-water-metro-network-ports-10724395/"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article mentions this as a planned development, but does not provide details on its implementation timeline or completion status.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260619035729/https://indianexpress.com/article/cities/kolkata/separate-shipping-wing-kolkata-water-metro-network-ports-10724395/",
+          "title": "Kolkata to get water metro, will be the 18th city to be linked, says CM Adhikari | Kolkata News - The Indian Express",
+          "source": "Indian Express",
+          "scraped_at": "2026-06-05",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Suvendu Adhikari**, the Chief Minister of West Bengal, announced plans to separate the shipping sector from the transport department and develop minor ports similar to those in Gujarat and Odisha. He also stated that Kolkata will become the 18th city connected to the Water Metro network. **Adhikar...",
+          "content": "Stay updated with the latest - Click here to follow us on Instagram Written by Paramita Datta The Chief Minister of West Bengal, Suvendu Adhikari, in a press conference on Thursday, said that the government is considering separating the shipping sector from the transport department by creating a shipping wing of its own. It is also exploring the possibility of developing minor ports, taking inspir...",
+          "quote": "Kolkata will become the 18th city connected to the Water Metro network."
+        }
+      ],
+      "notes": "The article mentions this as a planned development, but does not provide details on its implementation timeline or completion status.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Expanding a metro network is a significant project, but it affects a single city.",
       "importance_source": "llm"
     }
   ]
