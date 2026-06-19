@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 73,
-    "promises_with_evidence": 73,
+    "total_promises": 75,
+    "promises_with_evidence": 75,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -3406,6 +3406,104 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Expanding a metro network is a significant project, but it affects a single city.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p074",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "two exclusive secretariats: one to address public grievances and another to handle issues related to NRIs",
+      "supporting_quote": "He announced plans for two exclusive secretariats: one to address public grievances and another to handle issues related to NRIs.",
+      "category": "other",
+      "made_on": "2026-06-04",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260619045921/https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-announces-exclusive-secretariats-to-address-public-grievances-issues-of-nris/article71061817.ece",
+      "source_description": "Karnataka Chief Minister D.K. Shivakumar announces exclusive secretariats to address public grievances, issues of NRIs - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://web.archive.org/web/20260619045921/https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-announces-exclusive-secretariats-to-address-public-grievances-issues-of-nris/article71061817.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article mentions these as plans under discussion, not yet implemented.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260619045921/https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-announces-exclusive-secretariats-to-address-public-grievances-issues-of-nris/article71061817.ece",
+          "title": "Karnataka Chief Minister D.K. Shivakumar announces exclusive secretariats to address public grievances, issues of NRIs - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-06-04",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**D.K. Shivakumar**, the new Chief Minister of **Karnataka**, met with senior officials on Thursday to discuss his government's priorities. He announced plans for two exclusive secretariats: one to address public grievances and another to handle issues related to NRIs.  He also directed district in-...",
+          "content": "Getting down to work on the first day after taking oath, Karnataka’s new Chief Minister D.K. Shivakumar on Thursday held a meeting with senior officials and announced that his government will set up two exclusive secretariats, one for addressing public grievances and another to handle issues related to NRIs. Briefing presspersons after a meeting with top-ranking officials including those from the ...",
+          "quote": "He announced plans for two exclusive secretariats: one to address public grievances and another to handle issues related to NRIs."
+        }
+      ],
+      "notes": "The article mentions these as plans under discussion, not yet implemented.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Establishing secretariats is routine governance, not a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p075",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "establishment of a private employment exchange, funding for 10,000 Bharat Jodo Yuvakara Sanghas, and a waiver for completion certificates to ensure electricity and water connections for properties violating building bylaws",
+      "supporting_quote": "These include the establishment of a private employment exchange, funding for 10,000 Bharat Jodo Yuvakara Sanghas, and a waiver for completion certificates to ensure electricity and water connections for properties violating building bylaws.",
+      "category": "jobs/employment",
+      "made_on": "2026-06-04",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260619051316/https://www.thehindu.com/news/national/karnataka/will-usher-in-yuva-yuga-promises-new-karnataka-chief-minister/article71058422.ece",
+      "source_description": "Will usher in ‘Yuva Yuga’, promises new Karnataka Chief Minister - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://web.archive.org/web/20260619051316/https://www.thehindu.com/news/national/karnataka/will-usher-in-yuva-yuga-promises-new-karnataka-chief-minister/article71058422.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states these are new programs aimed at addressing unemployment and youth development, suggesting a significant impact.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260619051316/https://www.thehindu.com/news/national/karnataka/will-usher-in-yuva-yuga-promises-new-karnataka-chief-minister/article71058422.ece",
+          "title": "Will usher in ‘Yuva Yuga’, promises new Karnataka Chief Minister - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-06-04",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Chief Minister D.K. Shivakumar** announced a series of new programs aimed at addressing unemployment, rural distress, and youth development in Karnataka. These include the establishment of a private employment exchange, funding for 10,000 Bharat Jodo Yuvakara Sanghas, and a waiver for completion c...",
+          "content": "Stating that there will be a new light in administration and a ‘Yuva Yuga’ would be ushered in for the new generation, Chief Minister D.K. Shivakumar, who announced a slew of programmes on Wednesday, said that since Karnataka was a human resource capital, a private employment exchange will be set up to address unemployment issues in the State. Broadly speaking about the idea, the new Chief Ministe...",
+          "quote": "These include the establishment of a private employment exchange, funding for 10,000 Bharat Jodo Yuvakara Sanghas, and a waiver for completion certificates to ensure electricity and water connections for properties violating building bylaws."
+        }
+      ],
+      "notes": "The article states these are new programs aimed at addressing unemployment and youth development, suggesting a significant impact.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "While job creation is important, the scale of the promise is too small to be considered critical.",
       "importance_source": "llm"
     }
   ]
