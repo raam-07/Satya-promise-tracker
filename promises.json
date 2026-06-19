@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 82,
-    "promises_with_evidence": 82,
+    "total_promises": 83,
+    "promises_with_evidence": 83,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -4614,6 +4614,64 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Connecting a major city to a planned industrial hub is a large-scale project with potential for significant economic impact.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p083",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "60% discount on conversion fees for B-Khata to A-Khata properties within Greater Bengaluru Authority (GBA) limits, 50% reduction in regularisation costs for buildings constructed before 2008 on BDA land, and a 15% setback relaxation as per the Town Planning Act.",
+      "supporting_quote": "The scheme also offers a 50% reduction in regularisation costs for buildings constructed before 2008 on BDA land, and a 15% setback relaxation as per the Town Planning Act.",
+      "category": "infrastructure",
+      "made_on": "2026-05-13",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/congress-unveils-bhu-guarantee-in-karnataka/article70973676.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/congress-unveils-bhu-guarantee-in-karnataka/article70973676.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Congress+unveils+Bhu+Guarantee+in+Karnataka+-+The+Hindu",
+      "source_description": "Congress unveils ‘Bhu Guarantee’ in Karnataka - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/congress-unveils-bhu-guarantee-in-karnataka/article70973676.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states these are new initiatives aimed at encouraging property conversions and regularizations.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/congress-unveils-bhu-guarantee-in-karnataka/article70973676.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Congress+unveils+Bhu+Guarantee+in+Karnataka+-+The+Hindu",
+          "supporting_quote": "The scheme also offers a 50% reduction in regularisation costs for buildings constructed before 2008 on BDA land, and a 15% setback relaxation as per the Town Planning Act.",
+          "title": "Congress unveils ‘Bhu Guarantee’ in Karnataka - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-13",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**D.K. Shivakumar**, the **Deputy Chief Minister** of Karnataka, unveiled the \"sixth guarantee\" — Bhu Guarantee — which includes a 60% discount on conversion fees for B-Khata to A-Khata properties within Greater Bengaluru Authority (GBA) limits. The scheme also offers a 50% reduction in regularisati...",
+          "content": "Deputy Chief Minister and Bengaluru Development in-charge D.K. Shivakumar unveiled the “sixth guarantee” — Bhu Guarantee — of the Congress government in Karnataka. The major announcements made on May 13 included a reduction in the percentage of the guidance value that needs to be paid as a fee for conversion from B-Khata to A-Khata, regularisation of “illegal” buildings constructed on BDA lands be...",
+          "quote": "The scheme also offers a 50% reduction in regularisation costs for buildings constructed before 2008 on BDA land, and a 15% setback relaxation as per the Town Planning Act."
+        }
+      ],
+      "notes": "The article states these are new initiatives aimed at encouraging property conversions and regularizations.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "This promise significantly impacts property rights and urban development in a major city.",
       "importance_source": "llm"
     }
   ]
