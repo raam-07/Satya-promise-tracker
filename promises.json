@@ -145,15 +145,15 @@
       "party": "BJP",
       "role": "Prime Minister",
       "promise": "Build 2 crore pucca houses for the poor by 2022 (PM Awas Yojana)",
-      "category": "infrastructure",
+      "category": "welfare",
       "made_on": "2015-06-25",
       "deadline": "2022-12-31",
       "source_url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=122709",
       "source_description": "PIB: Launch of Pradhan Mantri Awas Yojana (PMAY)",
-      "status": "broken",
-      "status_last_reviewed": "2026-05-23",
-      "gemma_suggestion": "broken",
-      "gemma_reasoning": "Target deadline of 2022 missed, partial completion achieved.",
+      "status": "kept",
+      "status_last_reviewed": "2026-06-19",
+      "gemma_suggestion": "kept",
+      "gemma_reasoning": "The article explicitly states that over 4 crore houses have been built under the PM Awas Yojana, matching the promise made by Modi.",
       "evidence_articles": [
         {
           "url": "https://economictimes.indiatimes.com/news/economy/policy/cabinet-approves-extension-of-pradhan-mantri-awas-yojana-urban-till-december-2024/articleshow/93481283.cms",
@@ -164,6 +164,17 @@
           "gemma_validated": true,
           "rephrased": "The Union Cabinet approved the extension of the PMAY-Urban scheme to December 2024, confirming that the original 2022 target of 2 crore houses was not fully completed on time.",
           "content": "The Union Cabinet approved the proposal to extend the implementation period of PMAY-Urban till December 31, 2024, to complete all houses sanctioned till March 31, 2022."
+        },
+        {
+          "url": "https://web.archive.org/web/20260619013252/https://www.ndtv.com/india-news/nation-first-pm-modi-lists-governments-key-achievements-over-12-years-11610921#publisher=newsstand",
+          "title": "\"Nation First\": PM Modi Lists Government's Key Achievements Over 12 Years",
+          "source": "NDTV",
+          "scraped_at": "2026-06-09",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Prime Minister Narendra Modi** highlighted the past 12 years of his government's focus on trust, development, and public welfare.  He emphasized achievements such as over 4 crore houses built under the PM Awas Yojana, 10.5 crore rural homes receiving tap water connections through Jal Jeevan Missio...",
+          "content": "- PM Modi highlighted 12 years of government work on trust, development, and welfare - More than 4 crore houses built and 10.5 crore rural homes got tap water connections - Infrastructure projects include 26 expressways, 1,100 km metro, and 164 operational airports Prime Minister Narendra Modi on Monday said that his government's 12 years in office have been dedicated to trust, development and pub...",
+          "quote": "He emphasized achievements such as over 4 crore houses built under the PM Awas Yojana"
         }
       ],
       "notes": "PMAY set a target of 2 crore houses by 2022. While over 1.5 crore houses were built by late 2022, the target was missed and the project deadline was officially extended to March 2024.",
@@ -174,12 +185,19 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-14",
       "promise_type": "specific",
-      "evidence_count": 1,
-      "supporting_quote": "The Union Cabinet approved the extension of the PMAY-Urban scheme to December 2024, confirming that the original 2022 target of 2 crore houses was not fully completed on time.",
-      "importance_hint": "minor",
+      "evidence_count": 2,
+      "supporting_quote": "He emphasized achievements such as over 4 crore houses built under the PM Awas Yojana",
+      "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "deterministic force critical (scale signal)",
-      "importance_source": "backstop"
+      "importance_source": "backstop",
+      "status_history": [
+        {
+          "status": "kept",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://web.archive.org/web/20260619013252/https://www.ndtv.com/india-news/nation-first-pm-modi-lists-governments-key-achievements-over-12-years-11610921#publisher=newsstand"
+        }
+      ]
     },
     {
       "id": "p005",
