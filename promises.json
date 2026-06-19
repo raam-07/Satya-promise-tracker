@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 69,
-    "promises_with_evidence": 69,
+    "total_promises": 71,
+    "promises_with_evidence": 71,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -3192,6 +3192,104 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Transforming a state-owned entity is a significant policy goal, but lacks the scale to be nation-shaping or transformational for a large population.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p070",
+      "person": "Rohit Pawar",
+      "party": "NCP",
+      "role": "NCP (SP) President",
+      "promise": "blanket loan waiver for farmers",
+      "supporting_quote": "Pawar called for immediate assistance for the family and urged authorities to consider a blanket loan waiver for farmers.",
+      "category": "farmers/agriculture",
+      "made_on": "2026-06-09",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260619004639/https://indianexpress.com/article/cities/pune/latur-farmer-wife-to-plough-after-ox-dies-rohit-pawar-10731965/",
+      "source_description": "Farmer harnesses wife to plough after ox dies, Rohit Pawar seeks help | Pune News - The Indian Express",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://web.archive.org/web/20260619004639/https://indianexpress.com/article/cities/pune/latur-farmer-wife-to-plough-after-ox-dies-rohit-pawar-10731965/"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The politician calls for a blanket loan waiver, a significant policy change affecting many farmers.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260619004639/https://indianexpress.com/article/cities/pune/latur-farmer-wife-to-plough-after-ox-dies-rohit-pawar-10731965/",
+          "title": "Farmer harnesses wife to plough after ox dies, Rohit Pawar seeks help | Pune News - The Indian Express",
+          "source": "Indian Express",
+          "scraped_at": "2026-06-09",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Rohit Pawar**, **NCP (SP) MLA**, has raised concerns about the plight of a farmer in Latur district who was forced to harness his wife to a plow after one of his oxen died from lightning strike.  The farmer, **Kashinath Gaikwad**, lacks financial resources to purchase another ox and is facing hard...",
+          "content": "A farmer from Bambali village in Latur district on Tuesday apparently harnessed his wife to his plough the field because one of his oxen died after being struck by lightning and he lacked the financial means to purchase a replacement. NCP (SP) MLA Rohit Pawar demanded immediate assistance for the family and called for an unconditional, blanket loan waiver for farmers. “In Bambali village, Deoni ta...",
+          "quote": "Pawar called for immediate assistance for the family and urged authorities to consider a blanket loan waiver for farmers."
+        }
+      ],
+      "notes": "The politician calls for a blanket loan waiver, a significant policy change affecting many farmers.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Nationwide impact with potential to significantly reshape agricultural economy.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p071",
+      "person": "Bhagwant Mann",
+      "party": "AAP",
+      "role": "Chief Minister of Punjab",
+      "promise": "create jobs and wealth within the region",
+      "supporting_quote": "He emphasized that these grants, part of the Punjab Startup and Industrial Policy 2026, will help create jobs and wealth within the region.",
+      "category": "jobs/employment",
+      "made_on": "2026-06-09",
+      "deadline": "2026",
+      "source_url": "https://web.archive.org/web/20260619010318/https://www.ndtv.com/india-news/punjab-on-path-to-becoming-startup-hub-of-india-bhagwant-mann-11613460#publisher=newsstand",
+      "source_description": "Punjab On Path To Becoming Startup Hub Of India: Bhagwant Mann",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://web.archive.org/web/20260619010318/https://www.ndtv.com/india-news/punjab-on-path-to-becoming-startup-hub-of-india-bhagwant-mann-11613460#publisher=newsstand"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The promise is directly tied to a policy aimed at economic growth and job creation in Punjab.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260619010318/https://www.ndtv.com/india-news/punjab-on-path-to-becoming-startup-hub-of-india-bhagwant-mann-11613460#publisher=newsstand",
+          "title": "Punjab On Path To Becoming Startup Hub Of India: Bhagwant Mann",
+          "source": "NDTV",
+          "scraped_at": "2026-06-09",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Chief Minister Bhagwant Mann** distributed seed grants worth Rs 1.07 crore to 31 startups and their founders in Punjab, aiming to support the state's burgeoning entrepreneurial ecosystem.  He emphasized that these grants, part of the Punjab Startup and Industrial Policy 2026, will help create jobs...",
+          "content": "Describing startups as a key pillar of Punjab's future economic growth, Chief Minister Bhagwant Mann on Tuesday said his government is committed to ensuring that no promising idea is abandoned due to a lack of financial support. Mann distributed seed grants worth Rs 1.07 crore to 31 startups and their founders, asserting that Punjab's next generation of successful entrepreneurs should not only com...",
+          "quote": "He emphasized that these grants, part of the Punjab Startup and Industrial Policy 2026, will help create jobs and wealth within the region."
+        }
+      ],
+      "notes": "The promise is directly tied to a policy aimed at economic growth and job creation in Punjab.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "Vague and lacks concrete scale or target for job creation.",
       "importance_source": "llm"
     }
   ]
