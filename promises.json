@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 78,
-    "promises_with_evidence": 78,
+    "total_promises": 79,
+    "promises_with_evidence": 79,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -4382,6 +4382,64 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "This is a statement about past events, not a future policy promise.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p079",
+      "person": "Siddaramaiah",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Launched a new air-conditioned bus service, the 'Vajra Vistara', connecting Bengaluru and Tumakuru",
+      "supporting_quote": "Chief Minister Siddaramaiah inaugurated the route alongside Transport and Muzrai Minister Ramalinga Reddy.",
+      "category": "infrastructure",
+      "made_on": "2026-05-19",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/bmtc-to-launch-volvo-ac-bus-service-between-bengaluru-and-tumakuru/article70998125.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/bmtc-to-launch-volvo-ac-bus-service-between-bengaluru-and-tumakuru/article70998125.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=BMTC+to+launch+Volvo+AC+bus+service+between+Bengaluru+and+Tumakuru+-+The+Hindu",
+      "source_description": "BMTC to launch Volvo AC bus service between Bengaluru and Tumakuru - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/bmtc-to-launch-volvo-ac-bus-service-between-bengaluru-and-tumakuru/article70998125.ece"
+        }
+      ],
+      "gemma_suggestion": "kept",
+      "gemma_reasoning": "The article states the service was inaugurated, indicating it is operational.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/bmtc-to-launch-volvo-ac-bus-service-between-bengaluru-and-tumakuru/article70998125.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=BMTC+to+launch+Volvo+AC+bus+service+between+Bengaluru+and+Tumakuru+-+The+Hindu",
+          "supporting_quote": "Chief Minister Siddaramaiah inaugurated the route alongside Transport and Muzrai Minister Ramalinga Reddy.",
+          "title": "BMTC to launch Volvo AC bus service between Bengaluru and Tumakuru - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-19",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Bengaluru Metropolitan Transport Corporation (BMTC)** launched a new air-conditioned bus service, the 'Vajra Vistara', connecting Bengaluru and Tumakuru on May 19th. The service will operate with 54 trips per day at intervals of 20 minutes, starting from Kempegowda Bus Station in Bengaluru.  Chief...",
+          "content": "The Bengaluru Metropolitan Transport Corporation (BMTC) has launched a new Volvo air-conditioned ‘Vajra Vistara’ bus service between Bengaluru and Tumakuru starting May 19, aiming to improve inter-city public transport connectivity. According to a press release by the BMTC, the corporation will initially operate 54 trips at intervals of 20 minutes between Kempegowda Bus Station in Bengaluru and Tu...",
+          "quote": "Chief Minister Siddaramaiah inaugurated the route alongside Transport and Muzrai Minister Ramalinga Reddy."
+        }
+      ],
+      "notes": "The article states the service was inaugurated, indicating it is operational.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "A single bus service project is not a nation- or state-shaping commitment.",
       "importance_source": "llm"
     }
   ]

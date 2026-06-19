@@ -4,7 +4,7 @@
     "total_promises": 157,
     "promises_with_validated_evidence": 36,
     "statuses_automatically_updated": 0,
-    "status_suggestions_gated": 3
+    "status_suggestions_gated": 4
   },
   "updated_items": [
     {
@@ -65,6 +65,26 @@
         "confidence": "medium",
         "importance": "minor",
         "reasoning": "The statement clarifies the CM's stance on a past appointment, not a new promise."
+      }
+    },
+    {
+      "timestamp": "2026-06-19 14:34:16",
+      "reason": "new_promise_low_confidence_gated",
+      "promise_id": "p079",
+      "politician": "Siddaramaiah",
+      "proposed_json": {
+        "politician": "Siddaramaiah",
+        "party": "Congress",
+        "promise_text": "Launched a new air-conditioned bus service, the 'Vajra Vistara', connecting Bengaluru and Tumakuru",
+        "category": "infrastructure",
+        "supporting_quote": "Chief Minister Siddaramaiah inaugurated the route alongside Transport and Muzrai Minister Ramalinga Reddy.",
+        "deadline_year": "ongoing",
+        "is_new_promise": true,
+        "matched_existing_promise_id": "null",
+        "verdict": "kept",
+        "confidence": "medium",
+        "importance": "minor",
+        "reasoning": "The article states the service was inaugurated, indicating it is operational."
       }
     }
   ]
