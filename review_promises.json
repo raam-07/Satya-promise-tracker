@@ -4,7 +4,7 @@
     "total_promises": 157,
     "promises_with_validated_evidence": 36,
     "statuses_automatically_updated": 0,
-    "status_suggestions_gated": 1
+    "status_suggestions_gated": 2
   },
   "updated_items": [
     {
@@ -25,6 +25,26 @@
         "confidence": "medium",
         "importance": "minor",
         "reasoning": "The article states that over 70% of DMK's promises remain unfulfilled, implying they were not kept."
+      }
+    },
+    {
+      "timestamp": "2026-06-19 02:41:05",
+      "reason": "new_promise_broken_gated",
+      "promise_id": "p072",
+      "politician": "A. Revanth Reddy",
+      "proposed_json": {
+        "politician": "A. Revanth Reddy",
+        "party": "Congress",
+        "promise_text": "₹500 bonus for paddy growers and financial assistance for agricultural laborers",
+        "category": "farmers/agriculture",
+        "supporting_quote": "He highlighted the lack of implementation of poll promises, including the promised ₹500 bonus for paddy growers and financial assistance for agricultural laborers, as evidence of the government's failure.",
+        "deadline_year": "null",
+        "is_new_promise": false,
+        "matched_existing_promise_id": "null",
+        "verdict": "broken",
+        "confidence": "medium",
+        "importance": "minor",
+        "reasoning": "The article states that these promises were not implemented, indicating they were broken."
       }
     }
   ]

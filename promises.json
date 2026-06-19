@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 71,
-    "promises_with_evidence": 71,
+    "total_promises": 72,
+    "promises_with_evidence": 72,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -3308,6 +3308,55 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Vague and lacks concrete scale or target for job creation.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p072",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "₹500 bonus for paddy growers and financial assistance for agricultural laborers",
+      "supporting_quote": "He highlighted the lack of implementation of poll promises, including the promised ₹500 bonus for paddy growers and financial assistance for agricultural laborers, as evidence of the government's failure.",
+      "category": "farmers/agriculture",
+      "made_on": "2026-06-07",
+      "deadline": "ongoing",
+      "source_url": "https://web.archive.org/web/20260619024105/https://www.thehindu.com/news/national/telangana/kishan-reddy-slams-cm-revanth-reddy-says-state-running-on-central-funds/article71073343.ece",
+      "source_description": "Kishan Reddy slams CM Revanth Reddy, says State running on Central funds - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://web.archive.org/web/20260619024105/https://www.thehindu.com/news/national/telangana/kishan-reddy-slams-cm-revanth-reddy-says-state-running-on-central-funds/article71073343.ece"
+        }
+      ],
+      "gemma_suggestion": "broken",
+      "gemma_reasoning": "The article states that these promises were not implemented, indicating they were broken.",
+      "evidence_articles": [
+        {
+          "url": "https://web.archive.org/web/20260619024105/https://www.thehindu.com/news/national/telangana/kishan-reddy-slams-cm-revanth-reddy-says-state-running-on-central-funds/article71073343.ece",
+          "title": "Kishan Reddy slams CM Revanth Reddy, says State running on Central funds - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-06-07",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**G. Kishan Reddy**, Union Minister for Coal & Mines, refuted **A. Revanth Reddy's** accusations against the Modi government, stating that the Congress government relies on funds and support from the central government to sustain its administration. He highlighted the lack of implementation of poll ...",
+          "content": "Union Minister for Coal & Mines G. Kishan Reddy has stated that contrary to Chief Minister A. Revanth Reddy’s charges against the Modi Government, the Congress government is sustaining its day-to-day administration solely based on funds, financial aid, welfare schemes, and loans provided by the Central Government. Talking to the media at the State BJP office on Sunday, he said that the Congress Go...",
+          "quote": "He highlighted the lack of implementation of poll promises, including the promised ₹500 bonus for paddy growers and financial assistance for agricultural laborers, as evidence of the government's failure."
+        }
+      ],
+      "notes": "The article states that these promises were not implemented, indicating they were broken.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_status": "ok",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Financial assistance to a specific group is a routine scheme, not a nation-shaping commitment.",
       "importance_source": "llm"
     }
   ]
