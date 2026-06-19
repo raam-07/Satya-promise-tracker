@@ -4,8 +4,8 @@
     "last_updated": "2026-06-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 83,
-    "promises_with_evidence": 83,
+    "total_promises": 84,
+    "promises_with_evidence": 84,
     "links_last_checked": "2026-06-14",
     "link_check_stats": {
       "ok": 183,
@@ -4672,6 +4672,64 @@
       "importance_hint": "minor",
       "importance": "critical",
       "importance_reason": "This promise significantly impacts property rights and urban development in a major city.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p084",
+      "person": "C. Joseph Vijay",
+      "party": "DMK",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "closure of 717 TASMAC liquor shops within 500 meters of educational institutions and places of worship",
+      "supporting_quote": "The government also announced the closure of 717 TASMAC liquor shops within 500 meters of educational institutions and places of worship.",
+      "category": "welfare",
+      "made_on": "2026-05-12",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/cm-vijay-gives-maiden-speech-in-tn-assembly/article70968494.ece",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/cm-vijay-gives-maiden-speech-in-tn-assembly/article70968494.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Tamil+Nadu+CM+Vijay+gives+maiden+speech+in+Assembly+after+TVK+win+-+The+Hindu",
+      "source_description": "Tamil Nadu CM Vijay gives maiden speech in Assembly after TVK win - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-19",
+          "evidence_url": "https://www.thehindu.com/news/national/tamil-nadu/cm-vijay-gives-maiden-speech-in-tn-assembly/article70968494.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states this as a government announcement, not a specific promise made by the CM during his speech.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/cm-vijay-gives-maiden-speech-in-tn-assembly/article70968494.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Tamil+Nadu+CM+Vijay+gives+maiden+speech+in+Assembly+after+TVK+win+-+The+Hindu",
+          "supporting_quote": "The government also announced the closure of 717 TASMAC liquor shops within 500 meters of educational institutions and places of worship.",
+          "title": "Tamil Nadu CM Vijay gives maiden speech in Assembly after TVK win - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-05-12",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**C. Joseph Vijay**, the new **Tamil Nadu Chief Minister**, delivered his maiden speech in the Assembly, emphasizing social equity and cooperation.  He congratulated **J.C.D. Prabhakar**, elected Speaker, and outlined priorities for governance, welfare, youth development, and transparency. The gover...",
+          "content": "Tamil Nadu Chief Minister C. Joseph Vijay made his maiden speech in the Assembly on Tuesday (May 12, 2026). As the Assembly proceedings began on Tuesday (May 12, 2026) TVK legislator J.C.D. Prabhakar was unanimously elected as the Speaker of the Tamil Nadu Assembly. Immediately after assuming his position, Mr. Prabhakar conducted the election for the Deputy Speaker, in which Mr. Ravishankar was el...",
+          "quote": "The government also announced the closure of 717 TASMAC liquor shops within 500 meters of educational institutions and places of worship."
+        }
+      ],
+      "notes": "The article states this as a government announcement, not a specific promise made by the CM during his speech.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-19",
+      "created_at": "2026-06-19",
+      "url_checked_at": "2026-06-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "critical",
+      "importance_reason": "Nationwide impact on alcohol consumption and social norms.",
       "importance_source": "llm"
     }
   ]
