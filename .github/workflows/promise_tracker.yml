@@ -202,3 +202,9 @@ jobs:
             https://api.github.com/repos/${{ github.repository }}/actions/workflows/promise_tracker.yml/dispatches \
             -d '{"ref":"main"}'
 
+      - name: Revalidate Content Cache
+        if: steps.run-step.outputs.has_more != 'true'
+        run: |
+          echo "Final batch complete. Revalidating all content caches..."
+          curl -s -X POST "https://satyadheesh.in/api/revalidate?secret=${{ secrets.REVALIDATE_SECRET }}"
+
