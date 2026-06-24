@@ -123,7 +123,7 @@ def save_url_wayback_spn2(url):
         
         # Now poll status
         status_url = f"https://web.archive.org/save/status/{job_id}"
-        max_attempts = 15 # 15 attempts * 4s = 60s total wait
+        max_attempts = 30  # 30 attempts * 4s = 120s total wait
         for attempt in range(max_attempts):
             time.sleep(4)
             logging.info(f"Checking Wayback job status (attempt {attempt+1}/{max_attempts})...")
