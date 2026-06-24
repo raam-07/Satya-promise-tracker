@@ -104,6 +104,11 @@ def run_checker():
     stats_saved_now = 0
     stats_unrecoverable = 0
     
+    # Cap: archive at most this many URLs per run to avoid IA rate limits.
+    # Re-run the workflow multiple times to gradually archive everything.
+    MAX_ARCHIVES_PER_RUN = 10
+    archives_this_run = 0
+    
     # We will throttle archiving attempts to avoid getting rate-limited
     throttle_delay = 5  # seconds
     
@@ -130,14 +135,18 @@ def run_checker():
             
         # Trigger archiving if needed and enabled
         if not args.skip_archive and p["url_status"] == "ok" and not p.get("archived_url"):
-            logging.info(f"[{p_idx+1}/{len(promises)}] Promise URL lacks archive. Archiving: {url}")
-            time.sleep(throttle_delay)
-            archived_url, archive_source = archive_url_flow(url)
-            p["archived_url"] = archived_url
-            p["archive_source"] = archive_source
-            if archived_url:
-                stats_saved_now += 1
-                logging.info(f"Successfully archived: {archived_url} via {archive_source}")
+            if archives_this_run >= MAX_ARCHIVES_PER_RUN:
+                logging.info(f"[{p_idx+1}/{len(promises)}] Archive limit ({MAX_ARCHIVES_PER_RUN}) reached for this run. Skipping: {url}")
+            else:
+                logging.info(f"[{p_idx+1}/{len(promises)}] Promise URL lacks archive. Archiving: {url}")
+                time.sleep(throttle_delay)
+                archived_url, archive_source = archive_url_flow(url)
+                p["archived_url"] = archived_url
+                p["archive_source"] = archive_source
+                if archived_url:
+                    stats_saved_now += 1
+                    archives_this_run += 1
+                    logging.info(f"Successfully archived: {archived_url} via {archive_source}")
                 
         # Check evidence articles
         evidence_articles = p.get("evidence_articles", [])
@@ -165,14 +174,18 @@ def run_checker():
                 
             # Trigger archiving if needed and enabled
             if not args.skip_archive and e["url_status"] == "ok" and not e.get("archived_url"):
-                logging.info(f"  Evidence URL lacks archive. Archiving: {e_url}")
-                time.sleep(throttle_delay)
-                archived_url, archive_source = archive_url_flow(e_url)
-                e["archived_url"] = archived_url
-                e["archive_source"] = archive_source
-                if archived_url:
-                    stats_saved_now += 1
-                    logging.info(f"  Successfully archived: {archived_url} via {archive_source}")
+                if archives_this_run >= MAX_ARCHIVES_PER_RUN:
+                    logging.info(f"  Archive limit ({MAX_ARCHIVES_PER_RUN}) reached for this run. Skipping: {e_url}")
+                else:
+                    logging.info(f"  Evidence URL lacks archive. Archiving: {e_url}")
+                    time.sleep(throttle_delay)
+                    archived_url, archive_source = archive_url_flow(e_url)
+                    e["archived_url"] = archived_url
+                    e["archive_source"] = archive_source
+                    if archived_url:
+                        stats_saved_now += 1
+                        archives_this_run += 1
+                        logging.info(f"  Successfully archived: {archived_url} via {archive_source}")
                     
         p["url_checked_at"] = time.strftime("%Y-%m-%d")
         
