@@ -109,6 +109,10 @@ def save_url_wayback_spn2(url):
     data = {"url": url}
     
     try:
+        # Rate-limit guard: IA SPN v2 throttles rapid sequential submissions
+        # with "Connection refused" (Errno 111). A short pre-submission pause
+        # keeps us within their limits without making the run excessively slow.
+        time.sleep(10)
         logging.info(f"Submitting SPN v2 authenticated request for: {url}")
         response = requests.post(save_url, headers=headers, data=data, timeout=20)
         if response.status_code not in [200, 201, 202]:
