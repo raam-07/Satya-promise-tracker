@@ -40,11 +40,11 @@ def check_url_live(url):
     try:
         # Use HEAD first for speed
         res = requests.head(url, headers=headers, allow_redirects=True, timeout=10)
-        if res.status_code in [200, 301, 302, 307, 308]:
+        if res.status_code in [200, 301, 302, 307, 308, 403, 405]:
             return True
         # If blocked or failed, fall back to GET (some sites block HEAD)
         res_get = requests.get(url, headers=headers, stream=True, timeout=10)
-        if res_get.status_code in [200, 301, 302, 307, 308]:
+        if res_get.status_code in [200, 301, 302, 307, 308, 403, 405]:
             return True
     except Exception:
         pass
