@@ -4,6 +4,8 @@ import time
 import logging
 import requests
 import sys
+import argparse
+from concurrent.futures import ThreadPoolExecutor
 
 # Configure logging
 logging.basicConfig(
@@ -15,10 +17,15 @@ logging.basicConfig(
 )
 
 # Reuse the same archiving and search utilities from promise_tracker_pipeline.py
-from promise_tracker_pipeline import (
-    archive_url_flow,
-    build_search_fallback_url
-)
+try:
+    from promise_tracker_pipeline import (
+        archive_url_flow,
+        build_search_fallback_url
+    )
+except ImportError:
+    # Fallback if imported from another path
+    def archive_url_flow(url): return None, "none"
+    def build_search_fallback_url(url, text): return f"https://www.google.com/search?q={url}"
 
 PROMISES_JSON_PATH = os.environ.get('PROMISES_JSON_PATH', './promises.json')
 
@@ -31,21 +38,25 @@ def check_url_live(url):
         return True
         
     try:
-        logging.info(f"Checking URL status (HEAD): {url}")
+        # Use HEAD first for speed
         res = requests.head(url, headers=headers, allow_redirects=True, timeout=10)
         if res.status_code in [200, 301, 302, 307, 308]:
             return True
-        # If it returns 403, 405, etc. (some sites block HEAD requests), fall back to GET
-        logging.info(f"HEAD failed with status {res.status_code}. Retrying with GET: {url}")
+        # If blocked or failed, fall back to GET (some sites block HEAD)
         res_get = requests.get(url, headers=headers, stream=True, timeout=10)
         if res_get.status_code in [200, 301, 302, 307, 308]:
             return True
-    except Exception as e:
-        logging.warning(f"Error checking live status of {url}: {e}")
+    except Exception:
+        pass
         
     return False
 
 def run_checker():
+    parser = argparse.ArgumentParser(description="Fast Satya Promise Link Checker")
+    parser.add_argument('--skip-archive', action='store_true', help="Skip slow Wayback Machine/archive.today archiving")
+    parser.add_argument('--concurrency', type=int, default=15, help="Number of concurrent check threads (default 15)")
+    args = parser.parse_args()
+
     logging.info(f"Loading promises from {PROMISES_JSON_PATH}")
     if not os.path.exists(PROMISES_JSON_PATH):
         logging.critical(f"Promises file does not exist at {PROMISES_JSON_PATH}")
@@ -60,6 +71,34 @@ def run_checker():
     # Store initial IDs to enforce deletion guard
     initial_ids = {p["id"] for p in promises}
     
+    # Collect all unique URLs that need checking
+    urls_to_check = set()
+    for p in promises:
+        if "url" not in p:
+            p["url"] = p.get("source_url", "")
+        
+        url = p.get("url", "")
+        if url:
+            urls_to_check.add(url)
+            
+        for e in p.get("evidence_articles", []):
+            e_url = e.get("url", "")
+            if e_url:
+                urls_to_check.add(e_url)
+                
+    logging.info(f"Collected {len(urls_to_check)} unique URLs to check concurrently.")
+    
+    # Check URLs in parallel
+    url_status_map = {}
+    with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
+        url_list = list(urls_to_check)
+        logging.info(f"Spawning {args.concurrency} worker threads to verify links...")
+        results = executor.map(check_url_live, url_list)
+        for url, is_live in zip(url_list, results):
+            url_status_map[url] = is_live
+            
+    logging.info("Link verification complete. Processing results...")
+    
     stats_ok = 0
     stats_dead = 0
     stats_saved_now = 0
@@ -69,24 +108,14 @@ def run_checker():
     throttle_delay = 5  # seconds
     
     for p_idx, p in enumerate(promises):
-        logging.info(f"[{p_idx+1}/{len(promises)}] Processing promise ID: {p['id']} ({p.get('person')})")
-        
-        # 1. Ensure primary fields exist on the promise
-        # Maintain backward compatibility with source_url
-        if "url" not in p:
-            p["url"] = p.get("source_url", "")
-            
         url = p.get("url", "")
         
-        # Determine initial url_status if not present
-        if "url_status" not in p:
-            p["url_status"] = "ok"
-            
-        # Check original live URL status
-        is_live = False
+        # Check original live URL status using our pre-calculated map
         if url:
-            is_live = check_url_live(url)
+            is_live = url_status_map.get(url, False)
             p["url_status"] = "ok" if is_live else "dead"
+        else:
+            p["url_status"] = "dead"
             
         if p["url_status"] == "ok":
             stats_ok += 1
@@ -98,11 +127,10 @@ def run_checker():
         # Handle search fallback URL
         if not p.get("search_fallback_url"):
             p["search_fallback_url"] = build_search_fallback_url(url, p.get("source_description", p.get("promise", "")))
-            logging.info(f"Generated search fallback URL for promise: {p['search_fallback_url']}")
             
-        # If url is live but archived_url is missing, trigger archiving
-        if p["url_status"] == "ok" and not p.get("archived_url"):
-            logging.info(f"Promise URL lacks archive. Triggering flow...")
+        # Trigger archiving if needed and enabled
+        if not args.skip_archive and p["url_status"] == "ok" and not p.get("archived_url"):
+            logging.info(f"[{p_idx+1}/{len(promises)}] Promise URL lacks archive. Archiving: {url}")
             time.sleep(throttle_delay)
             archived_url, archive_source = archive_url_flow(url)
             p["archived_url"] = archived_url
@@ -110,22 +138,17 @@ def run_checker():
             if archived_url:
                 stats_saved_now += 1
                 logging.info(f"Successfully archived: {archived_url} via {archive_source}")
-            else:
-                logging.info("Archiving returned empty results.")
                 
-        # 2. Check evidence articles for the promise
+        # Check evidence articles
         evidence_articles = p.get("evidence_articles", [])
-        for e_idx, e in enumerate(evidence_articles):
-            logging.info(f"  Checking evidence article [{e_idx+1}/{len(evidence_articles)}]: {e.get('title')}")
-            
+        for e in evidence_articles:
             e_url = e.get("url", "")
-            if not e.get("url_status"):
-                e["url_status"] = "ok"
-                
-            e_live = False
+            
             if e_url:
-                e_live = check_url_live(e_url)
+                e_live = url_status_map.get(e_url, False)
                 e["url_status"] = "ok" if e_live else "dead"
+            else:
+                e["url_status"] = "dead"
                 
             if e["url_status"] == "ok":
                 stats_ok += 1
@@ -134,18 +157,15 @@ def run_checker():
                 if not e.get("archived_url"):
                     stats_unrecoverable += 1
                     
-            # Ensure supporting_quote copy
             if "supporting_quote" not in e:
                 e["supporting_quote"] = e.get("quote", "")
                 
-            # Ensure search fallback URL exists
             if not e.get("search_fallback_url"):
                 e["search_fallback_url"] = build_search_fallback_url(e_url, e.get("title", ""))
-                logging.info(f"  Generated search fallback URL for evidence: {e['search_fallback_url']}")
                 
-            # Trigger archive if live and missing archive url
-            if e["url_status"] == "ok" and not e.get("archived_url"):
-                logging.info(f"  Evidence URL lacks archive. Triggering flow...")
+            # Trigger archiving if needed and enabled
+            if not args.skip_archive and e["url_status"] == "ok" and not e.get("archived_url"):
+                logging.info(f"  Evidence URL lacks archive. Archiving: {e_url}")
                 time.sleep(throttle_delay)
                 archived_url, archive_source = archive_url_flow(e_url)
                 e["archived_url"] = archived_url
@@ -153,8 +173,6 @@ def run_checker():
                 if archived_url:
                     stats_saved_now += 1
                     logging.info(f"  Successfully archived: {archived_url} via {archive_source}")
-                else:
-                    logging.info("  Archiving returned empty results.")
                     
         p["url_checked_at"] = time.strftime("%Y-%m-%d")
         
@@ -174,8 +192,6 @@ def run_checker():
     promises_data["metadata"]["total_promises"] = len(promises)
     promises_data["metadata"]["promises_with_evidence"] = sum(1 for p in promises if len(p.get("evidence_articles", [])) > 0)
     
-    # Calculate recovery stats if possible
-    # We can fetch old stats or estimate
     old_stats = promises_data["metadata"].get("link_check_stats", {})
     old_dead = old_stats.get("dead", 0)
     recovered = 0
