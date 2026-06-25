@@ -939,7 +939,7 @@ Article Content: {content[:2500]}
 """
 
     try:
-        output = llm_9b(prompt, max_tokens=350, temperature=0.0)
+        output = llm_9b(prompt, max_tokens=800, temperature=0.0)
         json_text = output['choices'][0]['text'].strip()
         
         # Clean any accidental markdown code wrappers
