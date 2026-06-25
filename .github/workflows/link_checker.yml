@@ -21,6 +21,7 @@ jobs:
     timeout-minutes: 120
     permissions:
       contents: write
+      actions: write
 
     steps:
       - name: Checkout Repository
@@ -66,3 +67,47 @@ jobs:
           git config --local user.name "Satya Bot"
           git add promises.json
           git diff --staged --quiet || (git commit -m "Link check: update url_status/archived_url [skip ci]" && git pull --rebase origin main && git push origin HEAD:main)
+
+      - name: Trigger next run if unarchived URLs remain
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RESULT=$(python - << 'PYEOF'
+          import json, sys
+          try:
+              data = json.load(open('promises.json', encoding='utf-8'))
+          except Exception as e:
+              print(f"Error: {e}")
+              sys.exit(1)
+          
+          promises = data.get('promises', [])
+          unarchived = sum(1 for p in promises if p.get('url') and p.get('url_status') == 'ok' and not p.get('archived_url')) + \
+                       sum(1 for p in promises for e in p.get('evidence_articles', []) if e.get('url') and e.get('url_status') == 'ok' and not e.get('archived_url'))
+          
+          saved_now = data.get('metadata', {}).get('link_check_stats', {}).get('saved_now', 0)
+          
+          if unarchived > 0:
+              if saved_now > 0:
+                  print("TRIGGER")
+              else:
+                  print("STOP_FAIL")
+          else:
+              print("STOP_DONE")
+          PYEOF
+          )
+          
+          echo "Loop check result: $RESULT"
+          if [ "$RESULT" = "TRIGGER" ]; then
+            echo "Triggering next run of Satya Promise Link Checker..."
+            curl -X POST \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/link_checker.yml/dispatches \
+              -d '{"ref":"${{ github.ref_name }}"}'
+          elif [ "$RESULT" = "STOP_FAIL" ]; then
+            echo "Remaining unarchived URLs exist, but 0 were successfully archived in this run."
+            echo "Stopping to prevent infinite loop. Please check Wayback Machine rate limits or credentials."
+          else
+            echo "All eligible URLs successfully archived!"
+          fi
+
