@@ -12,7 +12,7 @@
       "dead": 1,
       "recovered": 185,
       "unrecoverable": 1,
-      "saved_now": 4
+      "saved_now": 8
     }
   },
   "promises": [
@@ -300,8 +300,8 @@
       "importance_reason": "deterministic force critical (scale signal)",
       "importance_source": "backstop",
       "url": "https://timesofindia.indiatimes.com/business/india-business/indian-economy-to-reach-5-trillion-size-by-2022-pm-modi/articleshow/65887252.cms",
-      "archived_url": "",
-      "archive_source": "none",
+      "archived_url": "https://web.archive.org/web/20260625051932/https://timesofindia.indiatimes.com/business/india-business/indian-economy-to-reach-5-trillion-size-by-2022-pm-modi/articleshow/65887252.cms",
+      "archive_source": "wayback",
       "search_fallback_url": "https://www.google.com/search?q=Indian+economy+to+reach+5+trillion+size+by+2022+says+PM+Modi"
     },
     {
@@ -577,8 +577,8 @@
           "rephrased": "The Constitution 129th Amendment Bill & Union Territories Bill for simultaneous elections were introduced in December 2024 and sent to a Joint Parliamentary Committee. Full implementation requires constitutional amendments, with the target for the first joint polls set for 2034.",
           "content": "Simultaneous elections bills were introduced in December 2024 and referred to a JPC. The government targets 2034 for holding the first simultaneous elections, requiring a two-thirds majority constitutional amendment.",
           "url_status": "ok",
-          "archived_url": "",
-          "archive_source": "none",
+          "archived_url": "https://web.archive.org/web/20260625065035/https://timesofindia.indiatimes.com/india/govt-targeting-2034-to-hold-1st-one-nation-one-election/articleshow/121737239.cms",
+          "archive_source": "wayback",
           "search_fallback_url": "https://www.google.com/search?q=Govt+targeting+2034+to+hold+1st+One+Nation+One+Election+Times+of+India",
           "supporting_quote": "Bills (Constitution 129th Amendment Bill & Union Territories Bill) were introduced in Lok Sabha in December 2024. They are being examined by a JPC. Government targets first simultaneous elections by 2034."
         }
@@ -649,8 +649,8 @@
       "importance_reason": "Aims to fundamentally change the Indian economy by eliminating black money.",
       "importance_source": "llm",
       "url": "https://indianexpress.com/article/india/india-news-india/narendra-modi-prime-minister-address-to-the-nation4364609/",
-      "archived_url": "",
-      "archive_source": "none",
+      "archived_url": "https://web.archive.org/web/20260625065202/https://indianexpress.com/article/india/india-news-india/narendra-modi-prime-minister-address-to-the-nation4364609/",
+      "archive_source": "wayback",
       "search_fallback_url": "https://www.google.com/search?q=indian+express+narendra+modi+address+nation+demonetization"
     },
     {
@@ -862,8 +862,8 @@
           "rephrased": "Government data showed that the electricity subsidy scheme continues to be widely availed by millions of Delhi households, remaining fully active under new administrations.",
           "content": "Official data confirmed that the electricity subsidy scheme was availed by a higher number of consumers during late 2025, showing it remains fully operational.",
           "url_status": "ok",
-          "archived_url": "",
-          "archive_source": "none",
+          "archived_url": "https://web.archive.org/web/20260625065527/https://indianexpress.com/article/cities/delhi/more-people-availed-electricity-subsidy-since-bjp-took-charge-in-delhi-compared-to-aap-in-the-same-period-last-year-govt-data-10354389/",
+          "archive_source": "wayback",
           "search_fallback_url": "https://www.google.com/search?q=more-people-availed-electricity-subsidy-govt-data-indian-express",
           "supporting_quote": "The scheme was implemented in 2019 and has been continued, remaining active even in 2025-26."
         },
@@ -928,8 +928,8 @@
           "rephrased": "The 2025 deadline passed without the river being cleaned. Pollution levels remained high with untreated sewage and toxic foam continuing to appear, drawing public and political criticism.",
           "content": "Reports from early 2025 showed that the target to clean the Yamuna by 2025 was missed, with political leaders pointing out that the river is still heavily polluted and citizens are unable to take the promised dip.",
           "url_status": "ok",
-          "archived_url": "",
-          "archive_source": "none",
+          "archived_url": "https://web.archive.org/web/20260625055340/https://timesofindia.indiatimes.com/india/delhi-waiting-for-world-famous-dip-amit-shah-slams-arvind-kejriwal-over-yamuna-pollution/articleshow/117569486.cms",
+          "archive_source": "wayback",
           "search_fallback_url": "https://www.google.com/search?q=delhi-waiting-for-world-famous-dip-amit-shah-slams-arvind-kejriwal",
           "supporting_quote": "The 2025 deadline passed without the river being cleaned. Toxic foam continued to appear on the Yamuna in Delhi during 2024-2025."
         }
@@ -1045,8 +1045,8 @@
           "rephrased": "Uttar Pradesh outperformed the national average in reducing violent crime rates across five major categories, reflecting the impact of aggressive anti-mafia policies.",
           "content": "Reporting on recent crime database releases showed that UP achieved significant violent crime reductions, outperforming national trends in category declines.",
           "url_status": "ok",
-          "archived_url": "",
-          "archive_source": "none",
+          "archived_url": "https://web.archive.org/web/20260625060110/https://timesofindia.indiatimes.com/india/yogis-up-beats-national-violent-crime-decline-across-5-key-categories/articleshow/131702021.cms",
+          "archive_source": "wayback",
           "search_fallback_url": "https://www.google.com/search?q=yogis-up-beats-national-violent-crime-decline-times-of-india",
           "supporting_quote": "NCRB data shows decline in UP's crime rates compared to national averages."
         }
@@ -1131,8 +1131,8 @@
       "importance_reason": "Vague slogan, no concrete policy or scale outlined.",
       "importance_source": "llm",
       "url": "https://timesofindia.indiatimes.com/india/mamatas-slogan-changed-from-maa-maati-manush-to-amit-shah-targets-bengal-cm/articleshow/110141537.cms",
-      "archived_url": "",
-      "archive_source": "none",
+      "archived_url": "https://web.archive.org/web/20260625062642/https://timesofindia.indiatimes.com/india/mamatas-slogan-changed-from-maa-maati-manush-to-amit-shah-targets-bengal-cm/articleshow/110141537.cms",
+      "archive_source": "wayback",
       "search_fallback_url": "https://www.google.com/search?q=mamatas+slogan+changed+from+maa+maati+manush+to+amit+shah+targets+bengal+cm"
     },
     {
@@ -1292,8 +1292,8 @@
           "rephrased": "The AP government decided to operate 10 medical colleges under the PPP model to expedite their completion and functionalise them.",
           "content": "AP government plans for PPP model for 10 medical colleges.",
           "url_status": "ok",
-          "archived_url": "",
-          "archive_source": "none",
+          "archived_url": "https://web.archive.org/web/20260625063610/https://timesofindia.indiatimes.com/city/vijayawada/ap-govt-to-operate-10-medical-colleges-under-ppp-model/articleshow/129045264.cms",
+          "archive_source": "wayback",
           "search_fallback_url": "https://www.google.com/search?q=ap-govt-to-operate-10-medical-colleges-under-ppp-model",
           "supporting_quote": "AP govt to operate 10 medical colleges under PPP model."
         }
