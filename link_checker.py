@@ -29,7 +29,7 @@ except ImportError:
 
 PROMISES_JSON_PATH = os.environ.get('PROMISES_JSON_PATH', './promises.json')
 
-def check_url_live(url):
+def check_url_live(url, proxy=None):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
@@ -37,13 +37,15 @@ def check_url_live(url):
     if "web.archive.org" in url or "archive.today" in url or "archive.ph" in url or "archive.is" in url:
         return True
         
+    proxies = {"http": proxy, "https": proxy} if proxy else None
+        
     try:
         # Use HEAD first for speed
-        res = requests.head(url, headers=headers, allow_redirects=True, timeout=10)
+        res = requests.head(url, headers=headers, allow_redirects=True, timeout=10, proxies=proxies)
         if res.status_code in [200, 301, 302, 307, 308, 403, 405]:
             return True
         # If blocked or failed, fall back to GET (some sites block HEAD)
-        res_get = requests.get(url, headers=headers, stream=True, timeout=10)
+        res_get = requests.get(url, headers=headers, stream=True, timeout=10, proxies=proxies)
         if res_get.status_code in [200, 301, 302, 307, 308, 403, 405]:
             return True
     except Exception:
@@ -55,6 +57,7 @@ def run_checker():
     parser = argparse.ArgumentParser(description="Fast Satya Promise Link Checker")
     parser.add_argument('--skip-archive', action='store_true', help="Skip slow Wayback Machine/archive.today archiving")
     parser.add_argument('--concurrency', type=int, default=15, help="Number of concurrent check threads (default 15)")
+    parser.add_argument('--proxy', type=str, default=None, help="Proxy URL to use for link verification (e.g. http://ip:port)")
     args = parser.parse_args()
 
     logging.info(f"Loading promises from {PROMISES_JSON_PATH}")
@@ -89,11 +92,12 @@ def run_checker():
     logging.info(f"Collected {len(urls_to_check)} unique URLs to check concurrently.")
     
     # Check URLs in parallel
+    from functools import partial
     url_status_map = {}
     with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
         url_list = list(urls_to_check)
         logging.info(f"Spawning {args.concurrency} worker threads to verify links...")
-        results = executor.map(check_url_live, url_list)
+        results = executor.map(partial(check_url_live, proxy=args.proxy), url_list)
         for url, is_live in zip(url_list, results):
             url_status_map[url] = is_live
             
