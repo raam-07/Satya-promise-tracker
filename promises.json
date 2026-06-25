@@ -12,7 +12,7 @@
       "dead": 1,
       "recovered": 185,
       "unrecoverable": 1,
-      "saved_now": 10
+      "saved_now": 4
     }
   },
   "promises": [
@@ -222,8 +222,8 @@
           "rephrased": "Cumulative completions under PMAY (Urban + Rural) crossed 4 crore by 2025-26, with the government announcing 2 crore additional houses for the next phase.",
           "content": "Under PMAY, cumulative housing completions crossed 4 crore in 2025-26. The government highlights this as a major achievement with a new phase of 2 crore houses planned.",
           "url_status": "ok",
-          "archived_url": "",
-          "archive_source": "none",
+          "archived_url": "https://web.archive.org/web/20260625061032/https://www.bluekraft.in/",
+          "archive_source": "wayback",
           "search_fallback_url": "https://www.google.com/search?q=bluekraft+pmay+4+crore+completions",
           "supporting_quote": "Total houses completed under PMAY (Urban + Rural) have crossed 4 crore cumulatively. Rural alone: Over 2.7–2.99 crore completed."
         }
@@ -832,8 +832,8 @@
       "importance_reason": "Transformational commitment affecting millions of Delhi residents and setting a national standard.",
       "importance_source": "llm",
       "url": "https://timesofindia.indiatimes.com/city/delhi/several-firsts-in-education-health-power-kejriwal/articleshow/89600562.cms",
-      "archived_url": "",
-      "archive_source": "none",
+      "archived_url": "https://web.archive.org/web/20260625054702/https://timesofindia.indiatimes.com/city/delhi/several-firsts-in-education-health-power-kejriwal/articleshow/89600562.cms",
+      "archive_source": "wayback",
       "search_fallback_url": "https://www.google.com/search?q=several+firsts+education+health+power+kejriwal+times+of+india"
     },
     {
@@ -1161,8 +1161,8 @@
           "rephrased": "PM Narendra Modi emphasized the government's commitment to the Viksit Bharat 2047 goal, urging ministries to accelerate governance and implementation.",
           "content": "Times of India video coverage of PM Modi pushing for faster governance at a ministers meet to keep the Viksit Bharat 2047 commitment on track.",
           "url_status": "ok",
-          "archived_url": "",
-          "archive_source": "none",
+          "archived_url": "https://web.archive.org/web/20260625062942/https://timesofindia.indiatimes.com/videos/news/viksit-bharat-2047-is-our-commitment-pm-modi-pushes-faster-governance-at-key-ministers-meet/videoshow/131255561.cms",
+          "archive_source": "wayback",
           "search_fallback_url": "https://www.google.com/search?q=viksit-bharat-2047-is-our-commitment-pm-modi-pushes-faster-governance-at-key-ministers-meet",
           "supporting_quote": "Viksit Bharat 2047 is our commitment."
         }
@@ -1277,8 +1277,8 @@
           "rephrased": "Health Minister Satya Kumar Yadav highlighted the government's plans to execute pending works and reforms in the medical education sector.",
           "content": "Interview with AP Health Minister Satya Kumar Yadav.",
           "url_status": "ok",
-          "archived_url": "",
-          "archive_source": "none",
+          "archived_url": "https://web.archive.org/web/20260625063251/https://www.newindianexpress.com/states/andhra-pradesh/2026/Mar/01/ap-dialogues-health-minister-satya-kumar-yadav-shares-on-reforms-challenges-and-the-road-ahead",
+          "archive_source": "wayback",
           "search_fallback_url": "https://www.google.com/search?q=ap-dialogues-health-minister-satya-kumar-yadav-shares-on-reforms-challenges-and-the-road-ahead",
           "supporting_quote": "Accelerating construction and operationalising medical colleges."
         },
