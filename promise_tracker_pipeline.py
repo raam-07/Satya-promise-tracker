@@ -114,7 +114,11 @@ def save_url_wayback_spn2(url):
         # keeps us within their limits without making the run excessively slow.
         time.sleep(10)
         logging.info(f"Submitting SPN v2 authenticated request for: {url}")
-        response = requests.post(save_url, headers=headers, data=data, timeout=20)
+        
+        session = requests.Session()
+        session.headers.update(headers)
+        
+        response = session.post(save_url, data=data, timeout=20)
         if response.status_code not in [200, 201, 202]:
             logging.warning(f"Wayback SPN v2 failed with status code {response.status_code}: {response.text}")
             return None
@@ -131,7 +135,7 @@ def save_url_wayback_spn2(url):
         for attempt in range(max_attempts):
             time.sleep(4)
             logging.info(f"Checking Wayback job status (attempt {attempt+1}/{max_attempts})...")
-            status_res = requests.get(status_url, headers=headers, timeout=15)
+            status_res = session.get(status_url, timeout=15)
             if status_res.status_code != 200:
                 logging.warning(f"Failed to check job status, HTTP {status_res.status_code}")
                 continue
