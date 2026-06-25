@@ -44,14 +44,20 @@ def check_url_live(url, proxy=None):
         res = requests.head(url, headers=headers, allow_redirects=True, timeout=10, proxies=proxies)
         if res.status_code in [200, 301, 302, 307, 308, 403, 405]:
             return True
+        elif res.status_code in [404, 410, 500, 502, 503, 504]:
+            return False
+            
         # If blocked or failed, fall back to GET (some sites block HEAD)
         res_get = requests.get(url, headers=headers, stream=True, timeout=10, proxies=proxies)
         if res_get.status_code in [200, 301, 302, 307, 308, 403, 405]:
             return True
+        return False
+    except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+        # Connection refused/timeout: likely geoblocked or temp network failure.
+        # Return None to preserve the existing status.
+        return None
     except Exception:
-        pass
-        
-    return False
+        return False
 
 def run_checker():
     parser = argparse.ArgumentParser(description="Fast Satya Promise Link Checker")
@@ -121,10 +127,16 @@ def run_checker():
         
         # Check original live URL status using our pre-calculated map
         if url:
-            is_live = url_status_map.get(url, False)
-            p["url_status"] = "ok" if is_live else "dead"
+            is_live = url_status_map.get(url)
+            if is_live is True:
+                p["url_status"] = "ok"
+            elif is_live is False:
+                p["url_status"] = "dead"
+            elif is_live is None:
+                p["url_status"] = p.get("url_status", "ok")
         else:
             p["url_status"] = "dead"
+
             
         if p["url_status"] == "ok":
             stats_ok += 1
@@ -158,10 +170,16 @@ def run_checker():
             e_url = e.get("url", "")
             
             if e_url:
-                e_live = url_status_map.get(e_url, False)
-                e["url_status"] = "ok" if e_live else "dead"
+                e_live = url_status_map.get(e_url)
+                if e_live is True:
+                    e["url_status"] = "ok"
+                elif e_live is False:
+                    e["url_status"] = "dead"
+                elif e_live is None:
+                    e["url_status"] = e.get("url_status", "ok")
             else:
                 e["url_status"] = "dead"
+
                 
             if e["url_status"] == "ok":
                 stats_ok += 1
