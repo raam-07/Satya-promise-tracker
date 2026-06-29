@@ -4,8 +4,8 @@
     "last_updated": "2026-06-29",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 84,
-    "promises_with_evidence": 84,
+    "total_promises": 85,
+    "promises_with_evidence": 85,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -4861,6 +4861,64 @@
       "importance_hint": "minor",
       "importance": "critical",
       "importance_reason": "Nationwide impact on alcohol consumption and social norms.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p085",
+      "person": "C. Joseph Vijay",
+      "party": "DMK",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "air conditioning in all new government buses",
+      "supporting_quote": "The Chief Minister is also focused on providing free bus travel for women and connecting remote villages with bus routes.",
+      "category": "infrastructure",
+      "made_on": "2026-06-29",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/cm-wishes-all-new-buses-have-ac-facilities-says-transport-minister/article71157660.ece",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/cm-wishes-all-new-buses-have-ac-facilities-says-transport-minister/article71157660.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Tamil+Nadu+CM+Vijay+wishes+all+new+buses+have+AC+facilities+Transport+Minister+-+The+Hindu",
+      "source_description": "Tamil Nadu CM Vijay wishes all new buses have AC facilities: Transport Minister - The Hindu",
+      "status": "ongoing",
+      "status_last_reviewed": "2026-06-29",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-06-29",
+          "evidence_url": "https://www.thehindu.com/news/national/tamil-nadu/cm-wishes-all-new-buses-have-ac-facilities-says-transport-minister/article71157660.ece"
+        }
+      ],
+      "gemma_suggestion": "ongoing",
+      "gemma_reasoning": "The article states the CM's desire, but doesn't confirm if this is a formal policy or just an aspiration.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/cm-wishes-all-new-buses-have-ac-facilities-says-transport-minister/article71157660.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Tamil+Nadu+CM+Vijay+wishes+all+new+buses+have+AC+facilities+Transport+Minister+-+The+Hindu",
+          "supporting_quote": "The Chief Minister is also focused on providing free bus travel for women and connecting remote villages with bus routes.",
+          "title": "Tamil Nadu CM Vijay wishes all new buses have AC facilities: Transport Minister - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-06-29",
+          "relevance_score": 100,
+          "gemma_validated": true,
+          "rephrased": "**Transport Minister A. Vijay Tamilan Parthiban** announced that **Chief Minister C. Joseph Vijay** desires air conditioning in all new government buses.  The Chief Minister is also focused on providing free bus travel for women and connecting remote villages with bus routes.  **Parthiban** stated t...",
+          "content": "Transport Minister A. Vijay Tamilan Parthiban said that Chief Minister C. Joseph Vijay wishes to have air conditioning (AC) facilities in all new government buses. On the sidelines of a function conducted on behalf of Tamilaga Vettri Kazhagam (TVK) in Salem on Sunday (June 28, 2026), the Minister told reporters the Chief Minister was taking steps to implement the scheme to provide free bus travel ...",
+          "quote": "The Chief Minister is also focused on providing free bus travel for women and connecting remote villages with bus routes."
+        }
+      ],
+      "notes": "The article states the CM's desire, but doesn't confirm if this is a formal policy or just an aspiration.",
+      "gemma_confidence": "medium",
+      "gemma_assessed_at": "2026-06-29",
+      "created_at": "2026-06-29",
+      "url_checked_at": "2026-06-29",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "A single infrastructure project, not transformative in scale.",
       "importance_source": "llm"
     }
   ]
