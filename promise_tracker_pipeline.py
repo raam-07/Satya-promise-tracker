@@ -321,12 +321,27 @@ def load_promises():
     }
 
 def save_promises(data):
+    import tempfile
+    
+    dir_name = os.path.dirname(PROMISES_JSON_PATH)
+    temp_file_path = None
     try:
-        with open(PROMISES_JSON_PATH, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-        logging.info(f"Successfully saved data to: {PROMISES_JSON_PATH}")
+        # Create a temporary file in the same directory to guarantee same-filesystem atomic rename
+        with tempfile.NamedTemporaryFile('w', dir=dir_name, delete=False, encoding='utf-8') as temp_f:
+            json.dump(data, temp_f, indent=2, ensure_ascii=False)
+            temp_file_path = temp_f.name
+        
+        # Atomically replace target JSON with the temporary file
+        os.replace(temp_file_path, PROMISES_JSON_PATH)
+        logging.info(f"Successfully saved data atomically to: {PROMISES_JSON_PATH}")
     except Exception as e:
-        logging.error(f"Failed to write to promises.json: {e}")
+        logging.error(f"Failed to write to promises.json atomically: {e}")
+        if temp_file_path and os.path.exists(temp_file_path):
+            try:
+                os.remove(temp_file_path)
+            except Exception:
+                pass
+        raise e
 
 def save_to_review_queue(promise_or_item, proposed_json, reason, filepath='./review_promises.json'):
     try:
@@ -1644,6 +1659,14 @@ def main():
     promises_data["metadata"]["total_promises"] = len(promises_data["promises"])
     promises_data["metadata"]["promises_with_evidence"] = sum(1 for p in promises_data["promises"] if p.get("evidence_count", 0) > 0)
 
+    if not args.dry_run:
+        try:
+            save_promises(promises_data)
+            logging.info("Progress saved: promises.json updated atomically.")
+        except Exception as e:
+            logging.critical(f"Failed to write promises.json atomically: {e}. Aborting database status update.")
+            sys.exit(1)
+
     # Mark all articles fetched in this batch as 'processed' in the database
     if not args.dry_run and rows:
         try:
@@ -1656,10 +1679,6 @@ def main():
         except Exception as e:
             logging.critical(f"Failed to update article status in database: {e}")
             sys.exit(1)
-
-    if not args.dry_run:
-        save_promises(promises_data)
-        logging.info(f"Progress saved: processed {len(rows)} articles in this batch.")
 
     # Write has_more output for self-trigger loop in GitHub Actions
     has_more = "true" if len(rows) == args.batch_size else "false"
