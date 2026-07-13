@@ -66,7 +66,7 @@ def main():
         )
         
     logging.info(f"Loading Qwen 14B validation engine from {MODEL_9B_PATH}...")
-    llm = init_llm(MODEL_9B_PATH, 4096)
+    llm = init_llm(MODEL_9B_PATH, 8192)
     if not llm:
         logging.critical("Could not load LLM engine. Please check system RAM and llama-cpp-python compilation.")
         sys.exit(1)
