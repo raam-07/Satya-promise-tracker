@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "scenario": "valid_pledge",
+    "title": "Siddaramaiah announces waiver of all crop loans up to Rs 1 lakh for Karnataka farmers",
+    "content": "Chief Minister Siddaramaiah today announced that the Karnataka government will waive all crop loans up to Rs 1 lakh taken by farmers from cooperative banks. Speaking to reporters in Bengaluru, Siddaramaiah said: 'We are waiving crop loans up to Rs 1 lakh to support our farmers facing drought. This will cost the state exchequer Rs 8,100 crore.' He added that the official government order will be issued within a week, and cooperative banks have been directed to stop recovery procedures immediately.",
+    "source_name": "The Hindu",
+    "url": "https://www.thehindu.com/news/national/karnataka/siddaramaiah-announces-crop-loan-waiver/article1001.ece",
+    "expected": {
+      "should_extract": true,
+      "politician": "Siddaramaiah",
+      "evidence_type": "declaration",
+      "is_new": true,
+      "verdict": "ongoing",
+      "supporting_quote": "We are waiving crop loans up to Rs 1 lakh to support our farmers facing drought."
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "vague_rhetoric",
+    "title": "We will make Karnataka a model of development and harmony, says Siddaramaiah",
+    "content": "Chief Minister Siddaramaiah today stated that his administration is fully committed to welfare and progress. Speaking at a public rally in Mysuru, he said: 'We will work tirelessly to make Karnataka a model state of development and peace. Our government stands for the poor and marginalized.' He also highlighted the historical significance of the region and called upon citizens to reject divisive forces, promising that the state will scale new heights in the next five years.",
+    "source_name": "Deccan Herald",
+    "url": "https://www.deccanherald.com/news/state/siddaramaiah-mysuru-rally/article1002.ece",
+    "expected": {
+      "should_extract": false,
+      "reason": "Vague rhetoric, no concrete promise/goal"
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "party_manifesto",
+    "title": "Congress releases manifesto: Promises 200 units of free power and Rs 2000 allowance for women",
+    "content": "The Congress party today released its election manifesto for the state. Party president Mallikarjun Kharge announced five major guarantees. 'If voted to power, we will provide 200 units of free electricity monthly to every household under the Gruha Jyothi scheme, and a monthly allowance of Rs 2,000 to every woman head of household under Gruha Lakshmi,' Kharge said. The manifesto release was attended by senior leaders who promised implementation in the first cabinet meeting.",
+    "source_name": "Indian Express",
+    "url": "https://indianexpress.com/article/cities/bangalore/congress-releases-manifesto-karnataka/article1003.ece",
+    "expected": {
+      "should_extract": true,
+      "politician": "Mallikarjun Kharge",
+      "evidence_type": "declaration",
+      "is_new": true,
+      "verdict": "ongoing",
+      "supporting_quote": "If voted to power, we will provide 200 units of free electricity monthly to every household under the Gruha Jyothi scheme, and a monthly allowance of Rs 2,000 to every woman head of household under Gruha Lakshmi,"
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "indirect_quotes",
+    "title": "Siddaramaiah is planning to construct 10 new flyovers in Bengaluru, claims BJP leader Yatnal",
+    "content": "BJP MLA Basanagouda Patil Yatnal today claimed that the Congress government has secret plans. Speaking at a press conference, Yatnal said: 'Siddaramaiah is planning to construct 10 new flyovers in Bengaluru to favor certain contractors. The Chief Minister is personally coordinating this project.' Yatnal demanded a judicial probe into the allocation of funds for these proposed flyovers, alleging corruption.",
+    "source_name": "Times of India",
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/yatnal-claims-siddaramaiah-flyover-plan/article1004.ece",
+    "expected": {
+      "should_extract": false,
+      "reason": "Promise claimed/made by opponent, not personally committed by Siddaramaiah"
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "progress_update",
+    "title": "Cabinet clears Rs 8,100 crore funds for crop loan waiver scheme",
+    "content": "The Karnataka cabinet today approved the release of Rs 8,100 crore to cooperative banks to implement the crop loan waiver. Briefing the media, Chief Minister Siddaramaiah said: 'We have cleared the funds today. Over 22 lakh farmers will benefit from the waiver of loans up to Rs 1 lakh. The money will be transferred directly to bank accounts starting next Monday.' This follows the declaration made by the Chief Minister last month.",
+    "source_name": "The Hindu",
+    "url": "https://www.thehindu.com/news/national/karnataka/cabinet-clears-loan-waiver-funds/article1005.ece",
+    "expected": {
+      "should_extract": true,
+      "politician": "Siddaramaiah",
+      "evidence_type": "progress",
+      "is_new": false,
+      "verdict": "ongoing",
+      "supporting_quote": "We have cleared the funds today. Over 22 lakh farmers will benefit from the waiver of loans up to Rs 1 lakh."
+    }
+  },
+  {
+    "id": 6,
+    "scenario": "false_attribution",
+    "title": "Bengaluru Metro expansion: Chief Secretary says government will add 50 km track by 2027",
+    "content": "Karnataka Chief Secretary Rajneesh Goel today announced plans for Namma Metro. Speaking at a transport conference, Goel said: 'The administration has decided to expand the metro network by adding 50 km of new tracks by 2027 to ease traffic congestion. Funding has been secured from bilateral agencies.' The chief secretary clarified that the project has been cleared at the bureaucratic level and will proceed under corporate supervision.",
+    "source_name": "Deccan Herald",
+    "url": "https://www.deccanherald.com/news/state/metro-expansion-chief-secretary/article1006.ece",
+    "expected": {
+      "should_extract": false,
+      "reason": "Made by a non-politician official (Chief Secretary)"
+    }
+  },
+  {
+    "id": 7,
+    "scenario": "duplicate",
+    "title": "Karnataka CM announces Rs 1 lakh crop loan waiver for farmers",
+    "content": "Karnataka Chief Minister Siddaramaiah today declared a major relief package for drought-hit farmers. Speaking in the state assembly, Siddaramaiah said: 'We are waiving all agricultural loans up to Rs 1 lakh in cooperative institutions immediately.' The decision will help lakhs of farmers, the CM said, reiterating his commitment to rural welfare.",
+    "source_name": "Times of India",
+    "url": "https://timesofindia.indiatimes.com/city/bengaluru/siddaramaiah-loan-waiver-assembly/article1007.ece",
+    "expected": {
+      "should_extract": true,
+      "politician": "Siddaramaiah",
+      "evidence_type": "declaration",
+      "is_new": false,
+      "verdict": "ongoing",
+      "supporting_quote": "We are waiving all agricultural loans up to Rs 1 lakh in cooperative institutions immediately."
+    }
+  }
+]

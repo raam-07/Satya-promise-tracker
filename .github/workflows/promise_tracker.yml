@@ -64,20 +64,21 @@ jobs:
           CMAKE_ARGS="-DGGML_AVX=ON -DGGML_AVX2=ON -DGGML_FMA=ON" \
           pip install llama-cpp-python==0.2.90
 
-      - name: Cache Gemma Models
+      - name: Cache local models
         id: cache-models
         uses: actions/cache@v4
         with:
           path: ./models
-          key: gemma-2-local-models-q4-v3
+          key: promise-tracker-qwen14b-gemma2b-q5-v1
 
-      - name: Download Gemma LLM Models
+      - name: Download local LLM models
         if: steps.cache-models.outputs.cache-hit != 'true'
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           mkdir -p models
-          # Download gemma-2-2b-it and gemma-2-9b-it Q4_K_M quantized models from Hugging Face if not present
+          # Gemma 2B is the inexpensive pre-filter. Qwen 14B handles extraction,
+          # matching and criticism; do not also download/load Gemma 9B.
           python -c '
           import os, shutil
           from huggingface_hub import hf_hub_download
@@ -100,13 +101,13 @@ jobs:
                   shutil.rmtree(temp_cache)
                   os.makedirs(temp_cache, exist_ok=True)
               
-          # Gemma 9B
-          model_9b = "./models/gemma-2-9b-it-Q4_K_M.gguf"
-          if not os.path.exists(model_9b):
-              print("Downloading Gemma 9B...")
+          # Qwen 14B gate/extractor
+          model_gate = "./models/Qwen2.5-14B-Instruct-Q5_K_M.gguf"
+          if not os.path.exists(model_gate):
+              print("Downloading Qwen 14B...")
               hf_hub_download(
-                  repo_id="bartowski/gemma-2-9b-it-GGUF",
-                  filename="gemma-2-9b-it-Q4_K_M.gguf",
+                  repo_id="bartowski/Qwen2.5-14B-Instruct-GGUF",
+                  filename="Qwen2.5-14B-Instruct-Q5_K_M.gguf",
                   local_dir="./models",
                   local_dir_use_symlinks=False,
                   cache_dir=temp_cache
@@ -122,6 +123,9 @@ jobs:
           SATYA_DB_URL: ${{ secrets.SATYA_DB_URL }}
           SATYA_DB_TOKEN: ${{ secrets.SATYA_DB_TOKEN }}
         run: |
+          # Safe, non-destructive schema migration. Legacy entries are marked
+          # unverified rather than having their historical claims rewritten.
+          python promise_tracker_pipeline.py --migrate-schema
           if [ "${{ github.event.inputs.recategorize }}" = "true" ]; then
             python promise_tracker_pipeline.py --recategorize
           elif [ "${{ github.event.inputs.backfill_importance }}" = "true" ]; then
@@ -207,4 +211,3 @@ jobs:
         run: |
           echo "Final batch complete. Revalidating all content caches..."
           curl -s -X POST "https://satyadheesh.in/api/revalidate?secret=${{ secrets.REVALIDATE_SECRET }}"
-
