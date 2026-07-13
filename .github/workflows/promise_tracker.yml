@@ -131,7 +131,12 @@ jobs:
           elif [ "${{ github.event.inputs.backfill_importance }}" = "true" ]; then
             python promise_tracker_pipeline.py --backfill-importance
           else
-            python promise_tracker_pipeline.py --batch-size 500
+            # Soft deadline 250 min (hard timeout 300). Qwen needs ~10-15 min per
+            # qualifying article, so a promise-heavy batch can't finish all 500.
+            # Pipeline stops cleanly between articles, saves completed work,
+            # defers the rest; has_more re-dispatches the next run.
+            DEADLINE=$(( $(date +%s) + 250*60 ))
+            python promise_tracker_pipeline.py --batch-size 500 --deadline-ts "$DEADLINE"
           fi
 
       - name: Guard — block accidental promise deletions

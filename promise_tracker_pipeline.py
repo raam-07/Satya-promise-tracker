@@ -1316,6 +1316,7 @@ def main():
     parser.add_argument('--backfill-importance', action='store_true', help="Run a one-time backfill of importance fields for all promises in promises.json and exit")
     parser.add_argument('--recategorize', action='store_true', help="Run a one-time category classification for promises with 'general' or empty categories and exit")
     parser.add_argument('--migrate-schema', action='store_true', help="Add immutable declaration/evidence metadata without changing legacy verdicts")
+    parser.add_argument('--deadline-ts', type=int, default=0, help="Unix timestamp; stop cleanly between articles once passed, saving completed work. 0 = no deadline")
     args = parser.parse_args()
 
     logging.info("Starting Satya Promise Tracker Pipeline...")
@@ -1466,7 +1467,14 @@ def main():
     # Process each filtered article through Stage 2 & 3
     if passed_stage1_rows:
         logging.info(f"Starting Stage 2 Extraction and Stage 3 Critic for {len(passed_stage1_rows)} articles...")
-    for r_data, content, rephrased in passed_stage1_rows:
+    # Articles not reached before the deadline stay unprocessed in the DB so
+    # the next run picks them up — never mark work as done that wasn't done.
+    deferred_ids = set()
+    for _stage2_idx, (r_data, content, rephrased) in enumerate(passed_stage1_rows):
+        if args.deadline_ts and time.time() >= args.deadline_ts:
+            deferred_ids.update(item[0][0] for item in passed_stage1_rows[_stage2_idx:])
+            logging.info(f"Deadline reached — deferring {len(deferred_ids)} remaining articles to the next run (completed work will be saved).")
+            break
         r = r_data
         article_id, title, url, scraped_at, _, _, _, _, _, source_name = r
 
@@ -1818,21 +1826,23 @@ def main():
             logging.critical(f"Failed to write promises.json atomically: {e}. Aborting database status update.")
             sys.exit(1)
 
-    # Mark all articles fetched in this batch as 'processed' in the database
+    # Mark articles as 'processed' — EXCEPT those deferred past the deadline,
+    # which must stay visible to the next run.
     if not args.dry_run and rows:
         try:
             db_cursor = conn.cursor()
-            article_ids = [r[0] for r in rows]
-            placeholders = ",".join("?" for _ in article_ids)
-            db_cursor.execute(f"UPDATE articles SET status = 'processed' WHERE id IN ({placeholders})", article_ids)
-            conn.commit()
-            logging.info(f"Database updated: Marked {len(rows)} articles as processed.")
+            article_ids = [r[0] for r in rows if r[0] not in deferred_ids]
+            if article_ids:
+                placeholders = ",".join("?" for _ in article_ids)
+                db_cursor.execute(f"UPDATE articles SET status = 'processed' WHERE id IN ({placeholders})", article_ids)
+                conn.commit()
+            logging.info(f"Database updated: Marked {len(article_ids)} articles as processed ({len(deferred_ids)} deferred).")
         except Exception as e:
             logging.critical(f"Failed to update article status in database: {e}")
             sys.exit(1)
 
     # Write has_more output for self-trigger loop in GitHub Actions
-    has_more = "true" if len(rows) == args.batch_size else "false"
+    has_more = "true" if (len(rows) == args.batch_size or deferred_ids) else "false"
     if 'GITHUB_OUTPUT' in os.environ:
         with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
             f.write(f"has_more={has_more}\n")
