@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-07-13",
+    "last_updated": "2026-07-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 85,
-    "promises_with_evidence": 85,
+    "total_promises": 86,
+    "promises_with_evidence": 86,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -6242,6 +6242,79 @@
         "verification": "legacy_unverified"
       },
       "reported_on": "2026-06-29"
+    },
+    {
+      "id": "p086",
+      "person": "A Revanth Reddy",
+      "party": "TRS",
+      "role": "Chief Minister",
+      "promise": "See Hyderabad host Olympics",
+      "supporting_quote": "if India would host Olympics in the near future, his dream was to see Hyderabad as a destination of the Olympics",
+      "category": "other",
+      "made_on": "2026-07-10",
+      "reported_on": "2026-07-09",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/telangana/my-dream-is-to-see-hyderabad-host-olympics-cm-revanth/article71203670.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/my-dream-is-to-see-hyderabad-host-olympics-cm-revanth/article71203670.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=My+dream+is+to+see+Hyderabad+host+Olympics+CM+Revanth+-+The+Hindu",
+      "source_description": "My dream is to see Hyderabad host Olympics: CM Revanth - The Hindu",
+      "declaration": {
+        "person": "A Revanth Reddy",
+        "claim": "See Hyderabad host Olympics",
+        "quote": "if India would host Olympics in the near future, his dream was to see Hyderabad as a destination of the Olympics",
+        "source_url": "https://www.thehindu.com/news/national/telangana/my-dream-is-to-see-hyderabad-host-olympics-cm-revanth/article71203670.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-09",
+        "made_on": "2026-07-10",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-15",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/my-dream-is-to-see-hyderabad-host-olympics-cm-revanth/article71203670.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a personal dream of the Chief Minister and does not specify a concrete commitment or deadline.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/my-dream-is-to-see-hyderabad-host-olympics-cm-revanth/article71203670.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=My+dream+is+to+see+Hyderabad+host+Olympics+CM+Revanth+-+The+Hindu",
+          "supporting_quote": "if India would host Olympics in the near future, his dream was to see Hyderabad as a destination of the Olympics",
+          "title": "My dream is to see Hyderabad host Olympics: CM Revanth - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister A Revanth Reddy** announced a comprehensive sports policy for **Telangana**, aiming to transform the state into a leading sporting destination.  He unveiled the \"Telangana Sports Knowledge on Wheels\" initiative and plans to host several national and international events in the comin...",
+          "content": "Chief Minister A Revanth Reddy said if India would host Olympics in the near future, his dream was to see Hyderabad as a destination of the Olympics. Speaking at the inauguration of the Gachibowli Sports District and the Young India Physical Education and Sports University (YIPESU), the Chief Minister said the State government had adopted a comprehensive sports policy aimed at producing world-clas...",
+          "quote": "if India would host Olympics in the near future, his dream was to see Hyderabad as a destination of the Olympics"
+        }
+      ],
+      "notes": "The promise is a personal dream of the Chief Minister and does not specify a concrete commitment or deadline.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-07-15",
+      "created_at": "2026-07-15",
+      "url_checked_at": "2026-07-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Hosting the Olympics is a long-term, aspirational goal that does not constitute a current, transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
     }
   ]
 }
