@@ -4,8 +4,8 @@
     "last_updated": "2026-07-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 87,
-    "promises_with_evidence": 87,
+    "total_promises": 88,
+    "promises_with_evidence": 88,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -6387,6 +6387,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "The promise is vague and does not specify a national or large-scale transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p088",
+      "person": "Suvendu Adhikari",
+      "party": "TMC",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Handing over a job letter and a cheque of Rs 25 lakh to Mondal’s family",
+      "supporting_quote": "Handing over a job letter and a cheque of Rs 25 lakh to Mondal’s family, Adhikari said, “This was not a mob beating; he was attacked after his identity was known. Those who lost the election are behind the instigation in the assault. The young man was brutally beaten to death. The government stands by his family. A cheque of Rs 25 lakh has been given to Mondal’s family.”",
+      "category": "welfare",
+      "made_on": null,
+      "reported_on": "2026-07-11",
+      "deadline": "ongoing",
+      "source_url": "https://indianexpress.com/article/cities/kolkata/baruipur-murder-case-suvendu-adhikari-indrajeet-mondal-compensation-10782218/",
+      "url": "https://indianexpress.com/article/cities/kolkata/baruipur-murder-case-suvendu-adhikari-indrajeet-mondal-compensation-10782218/",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Attacked+after+being+identified+Suvendu+rejects+lynching+tag+for+man+s+death+in+Baruipur+violence+Kolkata+News+-+The+Indian+Express",
+      "source_description": "‘Attacked after being identified’: Suvendu rejects ‘lynching’ tag for man’s death in Baruipur violence | Kolkata News - The Indian Express",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Handing over a job letter and a cheque of Rs 25 lakh to Mondal’s family",
+        "quote": "Handing over a job letter and a cheque of Rs 25 lakh to Mondal’s family, Adhikari said, “This was not a mob beating; he was attacked after his identity was known. Those who lost the election are behind the instigation in the assault. The young man was brutally beaten to death. The government stands by his family. A cheque of Rs 25 lakh has been given to Mondal’s family.”",
+        "source_url": "https://indianexpress.com/article/cities/kolkata/baruipur-murder-case-suvendu-adhikari-indrajeet-mondal-compensation-10782218/",
+        "source_domain": "indianexpress.com",
+        "reported_on": "2026-07-11",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-16",
+          "evidence_url": "https://indianexpress.com/article/cities/kolkata/baruipur-murder-case-suvendu-adhikari-indrajeet-mondal-compensation-10782218/"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article describes a specific action taken by Suvendu Adhikari to provide financial and employment support to the family of Indrajeet Mondal, but it does not indicate if this was part of a larger, previously announced promise.",
+      "evidence_articles": [
+        {
+          "url": "https://indianexpress.com/article/cities/kolkata/baruipur-murder-case-suvendu-adhikari-indrajeet-mondal-compensation-10782218/",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Attacked+after+being+identified+Suvendu+rejects+lynching+tag+for+man+s+death+in+Baruipur+violence+Kolkata+News+-+The+Indian+Express",
+          "supporting_quote": "Handing over a job letter and a cheque of Rs 25 lakh to Mondal’s family, Adhikari said, “This was not a mob beating; he was attacked after his identity was known. Those who lost the election are behind the instigation in the assault. The young man was brutally beaten to death. The government stands by his family. A cheque of Rs 25 lakh has been given to Mondal’s family.”",
+          "title": "‘Attacked after being identified’: Suvendu rejects ‘lynching’ tag for man’s death in Baruipur violence | Kolkata News - The Indian Express",
+          "source": "Indian Express",
+          "scraped_at": "2026-07-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "indianexpress.com",
+          "quote_verified": true,
+          "rephrased": "On Saturday, **Chief Minister Suvendu Adhikari** refused to label Indrajeet Mondal’s death as lynching, instead calling it murder by those who lost recent elections. He handed Rs 25 lakh and a job letter to Mondal's family, promising severe punishment for offenders under Bharatiya Nyaya Sanhita. Adh...",
+          "content": "Chief Minister Suvendu Adhikari on Saturday refused to describe Indrajeet Mondal’s killing after the recovery of the 11-year-old girl’s body as lynching, saying his identity had been established before the “murder”. He also alleged that “those who lost the recent Assembly elections” were behind the mob violence that erupted after the body of the minor was found in Baruipur. Handing over a job lett...",
+          "quote": "Handing over a job letter and a cheque of Rs 25 lakh to Mondal’s family, Adhikari said, “This was not a mob beating; he was attacked after his identity was known. Those who lost the election are behind the instigation in the assault. The young man was brutally beaten to death. The government stands by his family. A cheque of Rs 25 lakh has been given to Mondal’s family.”"
+        }
+      ],
+      "notes": "The article describes a specific action taken by Suvendu Adhikari to provide financial and employment support to the family of Indrajeet Mondal, but it does not indicate if this was part of a larger, previously announced promise.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-07-16",
+      "created_at": "2026-07-16",
+      "url_checked_at": "2026-07-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a one-time, symbolic gesture rather than a transformational commitment.",
       "importance_source": "llm"
     }
   ]
