@@ -4,8 +4,8 @@
     "last_updated": "2026-07-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 88,
-    "promises_with_evidence": 88,
+    "total_promises": 89,
+    "promises_with_evidence": 89,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -6479,6 +6479,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a one-time, symbolic gesture rather than a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p089",
+      "person": "Suvendu Adhikari",
+      "party": "Trinamool Congress",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Provide Rs 5 lakh each to 60 Rath Yatra committees",
+      "supporting_quote": "\"We will provide government assistance of Rs 5 lakh each to 60 committees that have been organising these festivals for decade,\"",
+      "category": "welfare",
+      "made_on": "2023-07-10",
+      "reported_on": "2026-07-13",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/ahead-of-rath-yatra-bengal-announces-rs-5-lakh-aid-to-60-committees-11764836#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/ahead-of-rath-yatra-bengal-announces-rs-5-lakh-aid-to-60-committees-11764836#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Ahead+Of+Rath+Yatra+Bengal+Announces+Rs+5+Lakh+Aid+To+60+Committees",
+      "source_description": "Ahead Of Rath Yatra, Bengal Announces Rs 5 Lakh Aid To 60 Committees",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Provide Rs 5 lakh each to 60 Rath Yatra committees",
+        "quote": "\"We will provide government assistance of Rs 5 lakh each to 60 committees that have been organising these festivals for decade,\"",
+        "source_url": "https://www.ndtv.com/india-news/ahead-of-rath-yatra-bengal-announces-rs-5-lakh-aid-to-60-committees-11764836#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-07-13",
+        "made_on": "2023-07-10",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-16",
+          "evidence_url": "https://www.ndtv.com/india-news/ahead-of-rath-yatra-bengal-announces-rs-5-lakh-aid-to-60-committees-11764836#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new financial assistance promise made by the chief minister Suvendu Adhikari to support Rath Yatra committees.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/ahead-of-rath-yatra-bengal-announces-rs-5-lakh-aid-to-60-committees-11764836#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Ahead+Of+Rath+Yatra+Bengal+Announces+Rs+5+Lakh+Aid+To+60+Committees",
+          "supporting_quote": "\"We will provide government assistance of Rs 5 lakh each to 60 committees that have been organising these festivals for decade,\"",
+          "title": "Ahead Of Rath Yatra, Bengal Announces Rs 5 Lakh Aid To 60 Committees",
+          "source": "NDTV",
+          "scraped_at": "2026-07-13",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Monday, **Suvendu Adhikari**, chief minister of West Bengal, announced Rs 5 lakh each to 60 Rath Yatra committees for festival support. He urged using funds to renovate old chariots and criticized the previous government's limited role. The state will also set up service centers at fairs and make...",
+          "content": "- West Bengal government will give Rs 5 lakh to 60 Rath Yatra committees for festival support - Funds are to be used for renovating old chariots, especially wooden ones - Government will directly participate in Rath Yatra, unlike previous administrations The West Bengal government will provide special financial assistance of Rs 5 lakh each to 60 Rath Yatra committees in the state, chief minister S...",
+          "quote": "\"We will provide government assistance of Rs 5 lakh each to 60 committees that have been organising these festivals for decade,\""
+        }
+      ],
+      "notes": "The article reports a new financial assistance promise made by the chief minister Suvendu Adhikari to support Rath Yatra committees.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-16",
+      "created_at": "2026-07-16",
+      "url_checked_at": "2026-07-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a one-time financial distribution to a specific group, not a transformational change affecting a large population.",
       "importance_source": "llm"
     }
   ]
