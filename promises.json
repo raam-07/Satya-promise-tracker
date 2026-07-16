@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-07-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 86,
-    "promises_with_evidence": 86,
+    "total_promises": 87,
+    "promises_with_evidence": 87,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -6314,6 +6314,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Hosting the Olympics is a long-term, aspirational goal that does not constitute a current, transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p087",
+      "person": "Devendra Fadnavis",
+      "party": "BJP",
+      "role": "Chief Minister of Maharashtra",
+      "promise": "Ensure transparent and quality healthcare for poor and needy people",
+      "supporting_quote": "The Chief Minister emphasised that quality and transparent healthcare for poor and needy people remains the government’s highest priority, and that no irregularities in public health insurance schemes will be tolerated.",
+      "category": "health",
+      "made_on": null,
+      "reported_on": "2026-07-10",
+      "deadline": "ongoing",
+      "source_url": "https://indianexpress.com/article/cities/mumbai/mjpjay-irregularities-nashik-sit-probe-fadnavis-10781038/",
+      "url": "https://indianexpress.com/article/cities/mumbai/mjpjay-irregularities-nashik-sit-probe-fadnavis-10781038/",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=CM+Fadnavis+orders+special+audits+SIT+probe+into+Maharashtra+health+scheme+irregularities+Mumbai+News+-+The+Indian+Express",
+      "source_description": "CM Fadnavis orders special audits, SIT probe into Maharashtra health scheme irregularities | Mumbai News - The Indian Express",
+      "declaration": {
+        "person": "Devendra Fadnavis",
+        "claim": "Ensure transparent and quality healthcare for poor and needy people",
+        "quote": "The Chief Minister emphasised that quality and transparent healthcare for poor and needy people remains the government’s highest priority, and that no irregularities in public health insurance schemes will be tolerated.",
+        "source_url": "https://indianexpress.com/article/cities/mumbai/mjpjay-irregularities-nashik-sit-probe-fadnavis-10781038/",
+        "source_domain": "indianexpress.com",
+        "reported_on": "2026-07-10",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-16",
+          "evidence_url": "https://indianexpress.com/article/cities/mumbai/mjpjay-irregularities-nashik-sit-probe-fadnavis-10781038/"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article highlights the Chief Minister's commitment to transparent and quality healthcare for the poor and needy, emphasizing the government's priority in this area.",
+      "evidence_articles": [
+        {
+          "url": "https://indianexpress.com/article/cities/mumbai/mjpjay-irregularities-nashik-sit-probe-fadnavis-10781038/",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=CM+Fadnavis+orders+special+audits+SIT+probe+into+Maharashtra+health+scheme+irregularities+Mumbai+News+-+The+Indian+Express",
+          "supporting_quote": "The Chief Minister emphasised that quality and transparent healthcare for poor and needy people remains the government’s highest priority, and that no irregularities in public health insurance schemes will be tolerated.",
+          "title": "CM Fadnavis orders special audits, SIT probe into Maharashtra health scheme irregularities | Mumbai News - The Indian Express",
+          "source": "Indian Express",
+          "scraped_at": "2026-07-10",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "indianexpress.com",
+          "quote_verified": true,
+          "rephrased": "On Friday, **Chief Minister Devendra Fadnavis** chaired a meeting at Vidhan Bhavan in Mumbai to review the Integrated Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana and Mahatma Jyotirao Phule Jan Arogya Yojana. An inquiry into alleged irregularities in Nashik district led him to announce a Speci...",
+          "content": "Stay updated with the latest - Click here to follow us on Instagram Chief Minister Devendra Fadnavis on Friday chaired a review meeting regarding the Integrated Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana and Mahatma Jyotirao Phule Jan Arogya Yojana at Vidhan Bhavan in Mumbai on Friday. An inquiry is underway into the alleged irregularities under the Mahatma Jyotirao Phule Jan Arogya Yojana...",
+          "quote": "The Chief Minister emphasised that quality and transparent healthcare for poor and needy people remains the government’s highest priority, and that no irregularities in public health insurance schemes will be tolerated."
+        }
+      ],
+      "notes": "The article highlights the Chief Minister's commitment to transparent and quality healthcare for the poor and needy, emphasizing the government's priority in this area.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-16",
+      "created_at": "2026-07-16",
+      "url_checked_at": "2026-07-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "The promise is vague and does not specify a national or large-scale transformational commitment.",
       "importance_source": "llm"
     }
   ]
