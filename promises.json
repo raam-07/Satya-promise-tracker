@@ -6428,7 +6428,7 @@
         }
       ],
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "The article describes a specific action taken by Suvendu Adhikari to provide financial and employment support to the family of Indrajeet Mondal, but it does not indicate if this was part of a larger, previously announced promise.",
+      "qwen_reasoning": "The article provides evidence of progress towards fulfilling the promise made to Mondal’s family.",
       "evidence_articles": [
         {
           "url": "https://indianexpress.com/article/cities/kolkata/baruipur-murder-case-suvendu-adhikari-indrajeet-mondal-compensation-10782218/",
@@ -6448,6 +6448,25 @@
           "rephrased": "On Saturday, **Chief Minister Suvendu Adhikari** refused to label Indrajeet Mondal’s death as lynching, instead calling it murder by those who lost recent elections. He handed Rs 25 lakh and a job letter to Mondal's family, promising severe punishment for offenders under Bharatiya Nyaya Sanhita. Adh...",
           "content": "Chief Minister Suvendu Adhikari on Saturday refused to describe Indrajeet Mondal’s killing after the recovery of the 11-year-old girl’s body as lynching, saying his identity had been established before the “murder”. He also alleged that “those who lost the recent Assembly elections” were behind the mob violence that erupted after the body of the minor was found in Baruipur. Handing over a job lett...",
           "quote": "Handing over a job letter and a cheque of Rs 25 lakh to Mondal’s family, Adhikari said, “This was not a mob beating; he was attacked after his identity was known. Those who lost the election are behind the instigation in the assault. The young man was brutally beaten to death. The government stands by his family. A cheque of Rs 25 lakh has been given to Mondal’s family.”"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal/bengal-cm-hands-over-job-letter-25-lakh-cheque-to-kin-of-man-lynched-after-girls-rape-murder/article71209780.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Bengal+CM+meets+family+of+murdered+girl+offers+compensation+to+youth+s+family+in+Baruipur+-+The+Hindu",
+          "supporting_quote": "Mr. Adhikari offered ₹25 lakh to the family of Mondal and offered a job to one of his family members.",
+          "title": "Bengal CM meets family of murdered girl, offers compensation to youth’s family in Baruipur - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "progress",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 11, 2026, **Suvendu Adhikari**, West Bengal Chief Minister, visited Baruipur to meet families affected by recent violence following the sexual assault and murder of a 12-year-old girl. He offered ₹25 lakh to Indrajit Mondal’s family and promised jobs and pensions. Thirty-five people were arr...",
+          "content": "West Bengal Chief Minister Suvendu Adhikari on Saturday (July 11, 2026) visited Baruipur for the second time in a week and met the family members of a 12-year-old girl who was sexually assaulted and killed, and the relatives of Indrajit Mondal, the youth murdered in the ensuing violence. Mr. Adhikari offered ₹25 lakh to the family of Mondal and offered a job to one of his family members. He also s...",
+          "quote": "Mr. Adhikari offered ₹25 lakh to the family of Mondal and offered a job to one of his family members."
         }
       ],
       "notes": "The article describes a specific action taken by Suvendu Adhikari to provide financial and employment support to the family of Indrajeet Mondal, but it does not indicate if this was part of a larger, previously announced promise.",
@@ -6456,7 +6475,7 @@
       "created_at": "2026-07-16",
       "url_checked_at": "2026-07-16",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a one-time, symbolic gesture rather than a transformational commitment.",
