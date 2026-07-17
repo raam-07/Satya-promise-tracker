@@ -4,8 +4,8 @@
     "last_updated": "2026-07-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 99,
-    "promises_with_evidence": 99,
+    "total_promises": 100,
+    "promises_with_evidence": 100,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -7322,6 +7322,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "A 15% GSDP growth target is a transformative, economy-wide commitment that would significantly impact the state's development trajectory.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p100",
+      "person": "C. Joseph Vijay",
+      "party": "DMK",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "appeal for active public participation in the Census self-enumeration",
+      "supporting_quote": "“This is not just a mere headcount; the data you provide forms the very foundation for all public welfare schemes. Therefore, I urge every family to ensure they provide accurate details. The self-enumeration can be easily completed online—I have already registered mine. Your personal information will be kept strictly confidential.”",
+      "category": "welfare",
+      "made_on": "2026-07-17",
+      "reported_on": "2026-07-17",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/tn-chief-minister-vijay-completes-census-self-enumeration-process-governor-appeals-for-public-participation/article71233496.ece",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-chief-minister-vijay-completes-census-self-enumeration-process-governor-appeals-for-public-participation/article71233496.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Census+self-enumeration+in+Tamil+Nadu+CM+Vijay+Governor+Arlekar+appeal+for+active+public+participation+-+The+Hindu",
+      "source_description": "Census self-enumeration in Tamil Nadu: CM Vijay, Governor Arlekar appeal for active public participation - The Hindu",
+      "declaration": {
+        "person": "C. Joseph Vijay",
+        "claim": "appeal for active public participation in the Census self-enumeration",
+        "quote": "“This is not just a mere headcount; the data you provide forms the very foundation for all public welfare schemes. Therefore, I urge every family to ensure they provide accurate details. The self-enumeration can be easily completed online—I have already registered mine. Your personal information will be kept strictly confidential.”",
+        "source_url": "https://www.thehindu.com/news/national/tamil-nadu/tn-chief-minister-vijay-completes-census-self-enumeration-process-governor-appeals-for-public-participation/article71233496.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-17",
+        "made_on": "2026-07-17",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-17",
+          "evidence_url": "https://www.thehindu.com/news/national/tamil-nadu/tn-chief-minister-vijay-completes-census-self-enumeration-process-governor-appeals-for-public-participation/article71233496.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The Chief Minister personally appealed for active public participation in the Census self-enumeration, emphasizing its importance for public welfare schemes.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-chief-minister-vijay-completes-census-self-enumeration-process-governor-appeals-for-public-participation/article71233496.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Census+self-enumeration+in+Tamil+Nadu+CM+Vijay+Governor+Arlekar+appeal+for+active+public+participation+-+The+Hindu",
+          "supporting_quote": "“This is not just a mere headcount; the data you provide forms the very foundation for all public welfare schemes. Therefore, I urge every family to ensure they provide accurate details. The self-enumeration can be easily completed online—I have already registered mine. Your personal information will be kept strictly confidential.”",
+          "title": "Census self-enumeration in Tamil Nadu: CM Vijay, Governor Arlekar appeal for active public participation - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 17, 2026, the **Governor Rajendra Vishwanath Arlekar** and **Chief Minister C. Joseph Vijay** of Tamil Nadu launched the self-enumeration phase of the 2027 Census until July 31, 2026. For the first time, citizens can use an online portal or mobile app to register themselves securely. Mr. Arl...",
+          "content": "As the 2027 Census process has commenced in Tamil Nadu on Friday (July 17, 2026), Governor Rajendra Vishwanath Arlekar and Chief Minister C. Joseph Vijay have appealed to the people in the State to participate in self-enumeration exercise. In a statement, Mr. Arlekar requested the public to register themselves in the self-enumeration phase, which will be conducted in the first stage of the two-pha...",
+          "quote": "“This is not just a mere headcount; the data you provide forms the very foundation for all public welfare schemes. Therefore, I urge every family to ensure they provide accurate details. The self-enumeration can be easily completed online—I have already registered mine. Your personal information will be kept strictly confidential.”"
+        }
+      ],
+      "notes": "The Chief Minister personally appealed for active public participation in the Census self-enumeration, emphasizing its importance for public welfare schemes.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-17",
+      "created_at": "2026-07-17",
+      "url_checked_at": "2026-07-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a call for public participation rather than a concrete, scaleable commitment with national or state-wide transformational impact.",
       "importance_source": "llm"
     }
   ]
