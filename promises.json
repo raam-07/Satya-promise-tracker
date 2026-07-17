@@ -1464,7 +1464,7 @@
       "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/prime-minister-narendra-modi-in-kurnool-andhra-pradesh-viksit-bharat-foundation-stone-for-development-works/article70171122.ece",
       "source_description": "The Hindu: Prime Minister Narendra Modi in Kurnool, Andhra Pradesh, Viksit Bharat, foundation stone for development works",
       "status": "ongoing",
-      "status_last_reviewed": "2026-06-25",
+      "status_last_reviewed": "2026-07-17",
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Viksit Bharat @2047 is a long-term national vision with active implementation across sectors and a deadline in 2047.",
       "evidence_articles": [
@@ -1485,6 +1485,25 @@
           "source_domain": "timesofindia.indiatimes.com",
           "evidence_type": "legacy_unclassified",
           "quote_verified": false
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/7/17/india-debuts-hydrogen-powered-train-as-part-of-sustainability-drive?traffic_source=rss",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=India+debuts+hydrogen-powered+train+as+part+of+sustainability+drive+Energy+News+Al+Jazeera",
+          "supporting_quote": "Prime Minister Narendra Modi inaugurated the locomotive ahead of its first trip on Friday, hailing the event as a significant day for India’s drive to become self-reliant and sustainable.",
+          "title": "India debuts hydrogen-powered train as part of sustainability drive | Energy News | Al Jazeera",
+          "source": "Al Jazeera",
+          "scraped_at": "2026-07-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "progress",
+          "source_domain": "aljazeera.com",
+          "quote_verified": true,
+          "rephrased": "India debuts its first hydrogen-powered train, the \"NaMo Green Rail,\" inaugurated by **Prime Minister Narendra Modi** on Friday. The 10-coach train seats about 2,600 passengers and runs along a 90km route in Haryana, producing only heat and water vapor. India joins Japan, China, the US, and Germany ...",
+          "content": "India debuts hydrogen-powered train as part of sustainability drive India joins a handful of countries that have successfully deployed the zero-emission technology in their rail networks. India has launched its first domestically built, hydrogen-powered train, as it pushes its efforts to expand clean energy use. Prime Minister Narendra Modi inaugurated the locomotive ahead of its first trip on Fri...",
+          "quote": "Prime Minister Narendra Modi inaugurated the locomotive ahead of its first trip on Friday, hailing the event as a significant day for India’s drive to become self-reliant and sustainable."
         }
       ],
       "notes": "Narendra Modi’s vision of Viksit Bharat by 2047 aims to make India a fully developed nation — economically strong, socially equitable, technologically advanced, and globally leading — on the 100th anniversary of Independence. It serves as an overarching national mission driving policy, budgets, and reforms across sectors. As of 2026, the government is actively implementing structured plans and remains committed to this long-term goal.",
@@ -1495,11 +1514,11 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-25",
       "promise_type": "vision",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "supporting_quote": "PM Narendra Modi has repeatedly promised to transform India into a Viksit Bharat (Developed India) by 2047, the centenary of India’s independence.",
       "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "Sets a national vision and ambitious economic target for the entire country.",
+      "importance_reason": "Aims to transform the entire nation's economic status on a large scale by a significant future date.",
       "importance_source": "llm",
       "url": "https://www.thehindu.com/news/national/andhra-pradesh/prime-minister-narendra-modi-in-kurnool-andhra-pradesh-viksit-bharat-foundation-stone-for-development-works/article70171122.ece",
       "archived_url": "",
@@ -1516,7 +1535,9 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2023-08-15"
+      "reported_on": "2023-08-15",
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article describes the inauguration of a hydrogen-powered train as part of India's sustainability drive, which aligns with the broader promise of 'Viksit Bharat by 2047'."
     },
     {
       "id": "p021",
