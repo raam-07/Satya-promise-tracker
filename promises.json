@@ -4,8 +4,8 @@
     "last_updated": "2026-07-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 100,
-    "promises_with_evidence": 100,
+    "total_promises": 101,
+    "promises_with_evidence": 101,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -7395,6 +7395,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a call for public participation rather than a concrete, scaleable commitment with national or state-wide transformational impact.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p101",
+      "person": "V.D. Satheesan",
+      "party": "CPI(M)",
+      "role": "Chief Minister of Kerala",
+      "promise": "commence EXIM operations at Vizhinjam international seaport",
+      "supporting_quote": "According to a statement issued by the Office of Chief Minister V.D. Satheesan on Saturday, the commencement of EXIM operations will transform Vizhinjam from a transshipment port into a full-fledged international cargo gateway.",
+      "category": "economy",
+      "made_on": "2026-07-18",
+      "reported_on": "2026-07-18",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/national/kerala/exim-operations-at-keralas-vizhinjam-seaport-set-to-begin-on-august-18/article71237203.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/exim-operations-at-keralas-vizhinjam-seaport-set-to-begin-on-august-18/article71237203.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=EXIM+operations+at+Kerala+s+Vizhinjam+seaport+set+to+begin+on+August+18+-+The+Hindu",
+      "source_description": "EXIM operations at Kerala’s Vizhinjam seaport set to begin on August 18 - The Hindu",
+      "declaration": {
+        "person": "V.D. Satheesan",
+        "claim": "commence EXIM operations at Vizhinjam international seaport",
+        "quote": "According to a statement issued by the Office of Chief Minister V.D. Satheesan on Saturday, the commencement of EXIM operations will transform Vizhinjam from a transshipment port into a full-fledged international cargo gateway.",
+        "source_url": "https://www.thehindu.com/news/national/kerala/exim-operations-at-keralas-vizhinjam-seaport-set-to-begin-on-august-18/article71237203.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-18",
+        "made_on": "2026-07-18",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-18",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/exim-operations-at-keralas-vizhinjam-seaport-set-to-begin-on-august-18/article71237203.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the declaration by Chief Minister V.D. Satheesan regarding the commencement of EXIM operations at the Vizhinjam international seaport.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/exim-operations-at-keralas-vizhinjam-seaport-set-to-begin-on-august-18/article71237203.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=EXIM+operations+at+Kerala+s+Vizhinjam+seaport+set+to+begin+on+August+18+-+The+Hindu",
+          "supporting_quote": "According to a statement issued by the Office of Chief Minister V.D. Satheesan on Saturday, the commencement of EXIM operations will transform Vizhinjam from a transshipment port into a full-fledged international cargo gateway.",
+          "title": "EXIM operations at Kerala’s Vizhinjam seaport set to begin on August 18 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-18",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 18, 2026, **V.D. Satheesan**, the Chief Minister of Kerala, will launch EXIM operations at the Vizhinjam international seaport, transforming it into a full-fledged cargo gateway under the government’s 100-day action plan. This move aims to reduce freight costs, improve supply chain efficie...",
+          "content": "Setting a new milestone in Kerala’s economic growth and maritime sector, EXIM (export-import) operations at the Vizhinjam international seaport is set to commence on August 18, 2026. According to a statement issued by the Office of Chief Minister V.D. Satheesan on Saturday, the commencement of EXIM operations will transform Vizhinjam from a transshipment port into a full-fledged international carg...",
+          "quote": "According to a statement issued by the Office of Chief Minister V.D. Satheesan on Saturday, the commencement of EXIM operations will transform Vizhinjam from a transshipment port into a full-fledged international cargo gateway."
+        }
+      ],
+      "notes": "The article mentions the declaration by Chief Minister V.D. Satheesan regarding the commencement of EXIM operations at the Vizhinjam international seaport.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-18",
+      "created_at": "2026-07-18",
+      "url_checked_at": "2026-07-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a single project that, while significant for the local economy, does not have a transformational impact on the entire state or country.",
       "importance_source": "llm"
     }
   ]
