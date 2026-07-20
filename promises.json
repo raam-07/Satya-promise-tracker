@@ -4,8 +4,8 @@
     "last_updated": "2026-07-20",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 103,
-    "promises_with_evidence": 103,
+    "total_promises": 104,
+    "promises_with_evidence": 104,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -7614,6 +7614,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Filling vacancies is a routine governance task, not a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p104",
+      "person": "Suvendu Adhikari",
+      "party": "Trinamool Congress",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Give priority to Bengali language in all official government work",
+      "supporting_quote": "starting from September 1, the State Government will give priority to the Bengali language in all official government work",
+      "category": "corruption/governance",
+      "made_on": "2026-07-20",
+      "reported_on": "2026-07-20",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/bengali-to-be-used-in-all-official-state-communication-from-september-1-says-cm-suvendu/article71244279.ece",
+      "url": "https://www.thehindu.com/news/national/west-bengal/bengali-to-be-used-in-all-official-state-communication-from-september-1-says-cm-suvendu/article71244279.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Bengali+to+be+used+in+all+official+State+communication+from+September+1+says+CM+Suvendu+-+The+Hindu",
+      "source_description": "Bengali to be used in all official State communication from September 1, says CM Suvendu - The Hindu",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Give priority to Bengali language in all official government work",
+        "quote": "starting from September 1, the State Government will give priority to the Bengali language in all official government work",
+        "source_url": "https://www.thehindu.com/news/national/west-bengal/bengali-to-be-used-in-all-official-state-communication-from-september-1-says-cm-suvendu/article71244279.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-20",
+        "made_on": "2026-07-20",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-20",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-20",
+          "evidence_url": "https://www.thehindu.com/news/national/west-bengal/bengali-to-be-used-in-all-official-state-communication-from-september-1-says-cm-suvendu/article71244279.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The Chief Minister declared the implementation of Bengali as the primary language for all official government work starting September 1, 2026.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal/bengali-to-be-used-in-all-official-state-communication-from-september-1-says-cm-suvendu/article71244279.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Bengali+to+be+used+in+all+official+State+communication+from+September+1+says+CM+Suvendu+-+The+Hindu",
+          "supporting_quote": "starting from September 1, the State Government will give priority to the Bengali language in all official government work",
+          "title": "Bengali to be used in all official State communication from September 1, says CM Suvendu - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-20",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 20, 2026, **Suvendu Adhikari**, West Bengal Chief Minister, announced in the Legislative Assembly that starting September 1, all official government work will prioritize Bengali. This follows a request from Union Home Minister **Amit Shah** to promote Bengali on Dr. Syama Prasad Mookerjee's ...",
+          "content": "West Bengal Chief Minister Suvendu Adhikari on Monday (July 20, 2026) announced that starting from September 1, the State Government will give priority to the Bengali language in all official government work. Mr. Adhikari, who made the announcement on the floor of West Bengal Legislative Assembly stating that all official correspondence, and administrative orders of the state government department...",
+          "quote": "starting from September 1, the State Government will give priority to the Bengali language in all official government work"
+        }
+      ],
+      "notes": "The Chief Minister declared the implementation of Bengali as the primary language for all official government work starting September 1, 2026.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-20",
+      "created_at": "2026-07-20",
+      "url_checked_at": "2026-07-20",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a language policy change rather than a transformational commitment affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
