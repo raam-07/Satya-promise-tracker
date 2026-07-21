@@ -4,8 +4,8 @@
     "last_updated": "2026-07-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 108,
-    "promises_with_evidence": 108,
+    "total_promises": 109,
+    "promises_with_evidence": 109,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -7979,6 +7979,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a request for assistance rather than a concrete, transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p109",
+      "person": "Rekha Gupta",
+      "party": "Aam Aadmi Party",
+      "role": "Chief Minister of Delhi",
+      "promise": "Issue Smart Property Cards to residents of Lal Dora villages",
+      "supporting_quote": "“The Delhi government will soon issue Smart Property Cards to eligible beneficiaries. Our government believes that these cards will play a significant role in safeguarding the interests and securing the future of rural residents,” Gupta said.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-07-21",
+      "deadline": "ongoing",
+      "source_url": "https://indianexpress.com/article/cities/delhi/delhi-government-to-issue-smart-property-cards-in-48-lal-dora-villages-10797342/",
+      "url": "https://indianexpress.com/article/cities/delhi/delhi-government-to-issue-smart-property-cards-in-48-lal-dora-villages-10797342/",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Delhi+government+to+issue+Smart+Property+Cards+in+48+Lal+Dora+villages+Delhi+News+-+The+Indian+Express",
+      "source_description": "Delhi government to issue Smart Property Cards in 48 Lal Dora villages | Delhi News - The Indian Express",
+      "declaration": {
+        "person": "Rekha Gupta",
+        "claim": "Issue Smart Property Cards to residents of Lal Dora villages",
+        "quote": "“The Delhi government will soon issue Smart Property Cards to eligible beneficiaries. Our government believes that these cards will play a significant role in safeguarding the interests and securing the future of rural residents,” Gupta said.",
+        "source_url": "https://indianexpress.com/article/cities/delhi/delhi-government-to-issue-smart-property-cards-in-48-lal-dora-villages-10797342/",
+        "source_domain": "indianexpress.com",
+        "reported_on": "2026-07-21",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-21",
+          "evidence_url": "https://indianexpress.com/article/cities/delhi/delhi-government-to-issue-smart-property-cards-in-48-lal-dora-villages-10797342/"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article describes a new initiative by Chief Minister Rekha Gupta to issue Smart Property Cards to residents of Lal Dora villages, which is a new promise.",
+      "evidence_articles": [
+        {
+          "url": "https://indianexpress.com/article/cities/delhi/delhi-government-to-issue-smart-property-cards-in-48-lal-dora-villages-10797342/",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Delhi+government+to+issue+Smart+Property+Cards+in+48+Lal+Dora+villages+Delhi+News+-+The+Indian+Express",
+          "supporting_quote": "“The Delhi government will soon issue Smart Property Cards to eligible beneficiaries. Our government believes that these cards will play a significant role in safeguarding the interests and securing the future of rural residents,” Gupta said.",
+          "title": "Delhi government to issue Smart Property Cards in 48 Lal Dora villages | Delhi News - The Indian Express",
+          "source": "Indian Express",
+          "scraped_at": "2026-07-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "indianexpress.com",
+          "quote_verified": true,
+          "rephrased": "**Rekha Gupta**, Chief Minister of Delhi, announced the issuance of 'Smart Property Cards' to address issues in Lal Dora Abadi villages. The **Delhi government** is conducting a survey covering 48 villages under the SVAMITVA scheme through an agreement with the Survey of India. Surveys completed in ...",
+          "content": "Stay updated with the latest - Click here to follow us on Instagram The Delhi government is conducting a comprehensive survey of all Lal Dora Abadi villages to create digital records and will soon issue ‘Smart Property Cards’ to address the issues being faced by the residents. According to officials, 48 villages will be covered under the Centre’s SVAMITVA scheme through an agreement with the Surve...",
+          "quote": "“The Delhi government will soon issue Smart Property Cards to eligible beneficiaries. Our government believes that these cards will play a significant role in safeguarding the interests and securing the future of rural residents,” Gupta said."
+        }
+      ],
+      "notes": "The article describes a new initiative by Chief Minister Rekha Gupta to issue Smart Property Cards to residents of Lal Dora villages, which is a new promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-21",
+      "created_at": "2026-07-21",
+      "url_checked_at": "2026-07-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a local infrastructure initiative limited to specific villages.",
       "importance_source": "llm"
     }
   ]
