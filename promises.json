@@ -4,8 +4,8 @@
     "last_updated": "2026-07-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 106,
-    "promises_with_evidence": 106,
+    "total_promises": 107,
+    "promises_with_evidence": 107,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -7833,6 +7833,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a single, local project focused on tree planting.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p107",
+      "person": "Omar Abdullah",
+      "party": "National Conference (NC)",
+      "role": "Chief Minister of Jammu and Kashmir",
+      "promise": "Restore Jammu and Kashmir's statehood",
+      "supporting_quote": "the National Conference (NC) will keep reminding the Centre of its promise to restore Jammu and Kashmir's statehood and expressed hope that the commitment would be fulfilled.",
+      "category": "law_and_order",
+      "made_on": "2026-07-21",
+      "reported_on": "2026-07-21",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/statehood-imperative-for-restoring-jks-special-status-chief-minister/article71249316.ece",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/statehood-imperative-for-restoring-jks-special-status-chief-minister/article71249316.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Statehood+imperative+for+restoring+J+K+s+special+status+Chief+Minister+-+The+Hindu",
+      "source_description": "Statehood imperative for restoring J&K's special status: Chief Minister - The Hindu",
+      "declaration": {
+        "person": "Omar Abdullah",
+        "claim": "Restore Jammu and Kashmir's statehood",
+        "quote": "the National Conference (NC) will keep reminding the Centre of its promise to restore Jammu and Kashmir's statehood and expressed hope that the commitment would be fulfilled.",
+        "source_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/statehood-imperative-for-restoring-jks-special-status-chief-minister/article71249316.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-21",
+        "made_on": "2026-07-21",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-21",
+          "evidence_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/statehood-imperative-for-restoring-jks-special-status-chief-minister/article71249316.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article discusses Chief Minister Omar Abdullah's declaration to restore Jammu and Kashmir's statehood, emphasizing the NC's commitment to this promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/statehood-imperative-for-restoring-jks-special-status-chief-minister/article71249316.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Statehood+imperative+for+restoring+J+K+s+special+status+Chief+Minister+-+The+Hindu",
+          "supporting_quote": "the National Conference (NC) will keep reminding the Centre of its promise to restore Jammu and Kashmir's statehood and expressed hope that the commitment would be fulfilled.",
+          "title": "Statehood imperative for restoring J&K's special status: Chief Minister - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 21, 2026, **Omar Abdullah**, Chief Minister of Jammu and Kashmir, stated that statehood is essential for restoring the special status of the Union Territory. Addressing a press conference, he highlighted his protest in Delhi on July 20 against heavy security restrictions imposed by police fo...",
+          "content": "Jammu and Kashmir Chief Minister Omar Abdullah on Tuesday (July 21, 2026) said statehood was the foundation for restoring the special status of the Union Territory. Also read | Fulfil the promise: On restoring Statehood to Jammu and Kashmir Addressing a press conference here, Mr. Abdullah said the National Conference (NC) will keep reminding the Centre of its promise to restore Jammu and Kashmir's...",
+          "quote": "the National Conference (NC) will keep reminding the Centre of its promise to restore Jammu and Kashmir's statehood and expressed hope that the commitment would be fulfilled."
+        }
+      ],
+      "notes": "The article discusses Chief Minister Omar Abdullah's declaration to restore Jammu and Kashmir's statehood, emphasizing the NC's commitment to this promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-21",
+      "created_at": "2026-07-21",
+      "url_checked_at": "2026-07-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Restoring statehood affects the political and administrative structure of a large population.",
       "importance_source": "llm"
     }
   ]
