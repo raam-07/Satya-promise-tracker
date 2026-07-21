@@ -4,8 +4,8 @@
     "last_updated": "2026-07-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 105,
-    "promises_with_evidence": 105,
+    "total_promises": 106,
+    "promises_with_evidence": 106,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -7760,6 +7760,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a vague statement without a specified scale or impact.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p106",
+      "person": "Krishna Byre Gowda",
+      "party": "BJP",
+      "role": "Minister of Bengaluru Development",
+      "promise": "Plant 64,000 saplings across Bengaluru this year",
+      "supporting_quote": "Greater Bengaluru Development Minister Krishna Byre Gowda on Monday announced that a sapling plantation drive would be launched in the city from August 15 under the banner “Bengaluru Hasirooru”. The initiative, aimed at increasing the city’s green cover, will see the planting of 64,000 saplings across Bengaluru this year.",
+      "category": "infrastructure",
+      "made_on": "2026-07-20",
+      "reported_on": "2026-07-21",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-sapling-plantation-drive-bengaluru-hasirooru-from-august-15/article71245229.ece",
+      "url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-sapling-plantation-drive-bengaluru-hasirooru-from-august-15/article71245229.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Minister+to+rope+in+RWAs+in+sapling+plantation+drive+in+Bengaluru+-+The+Hindu",
+      "source_description": "Minister to rope in RWAs in sapling plantation drive in Bengaluru - The Hindu",
+      "declaration": {
+        "person": "Krishna Byre Gowda",
+        "claim": "Plant 64,000 saplings across Bengaluru this year",
+        "quote": "Greater Bengaluru Development Minister Krishna Byre Gowda on Monday announced that a sapling plantation drive would be launched in the city from August 15 under the banner “Bengaluru Hasirooru”. The initiative, aimed at increasing the city’s green cover, will see the planting of 64,000 saplings across Bengaluru this year.",
+        "source_url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-sapling-plantation-drive-bengaluru-hasirooru-from-august-15/article71245229.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-21",
+        "made_on": "2026-07-20",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-21",
+          "evidence_url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-sapling-plantation-drive-bengaluru-hasirooru-from-august-15/article71245229.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article announces a new initiative to plant 64,000 saplings across Bengaluru this year, aimed at increasing the city’s green cover.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-sapling-plantation-drive-bengaluru-hasirooru-from-august-15/article71245229.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Minister+to+rope+in+RWAs+in+sapling+plantation+drive+in+Bengaluru+-+The+Hindu",
+          "supporting_quote": "Greater Bengaluru Development Minister Krishna Byre Gowda on Monday announced that a sapling plantation drive would be launched in the city from August 15 under the banner “Bengaluru Hasirooru”. The initiative, aimed at increasing the city’s green cover, will see the planting of 64,000 saplings across Bengaluru this year.",
+          "title": "Minister to rope in RWAs in sapling plantation drive in Bengaluru - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 20, **Krishna Byre Gowda**, Greater Bengaluru Development Minister, announced a sapling plantation drive under “Bengaluru Hasirooru,” starting August 15. The initiative aims to plant 64,000 saplings in public spaces and distribute 40,000 to the public, with ₹9.64 crore allocated for maintena...",
+          "content": "Greater Bengaluru Development Minister Krishna Byre Gowda on Monday announced that a sapling plantation drive would be launched in the city from August 15 under the banner “Bengaluru Hasirooru”. The initiative, aimed at increasing the city’s green cover, will see the planting of 64,000 saplings across Bengaluru this year. In addition, 40,000 saplings will be distributed to members of the public wh...",
+          "quote": "Greater Bengaluru Development Minister Krishna Byre Gowda on Monday announced that a sapling plantation drive would be launched in the city from August 15 under the banner “Bengaluru Hasirooru”. The initiative, aimed at increasing the city’s green cover, will see the planting of 64,000 saplings across Bengaluru this year."
+        }
+      ],
+      "notes": "The article announces a new initiative to plant 64,000 saplings across Bengaluru this year, aimed at increasing the city’s green cover.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-21",
+      "created_at": "2026-07-21",
+      "url_checked_at": "2026-07-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a single, local project focused on tree planting.",
       "importance_source": "llm"
     }
   ]
