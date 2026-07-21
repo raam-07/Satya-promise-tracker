@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-07-20",
+    "last_updated": "2026-07-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 104,
-    "promises_with_evidence": 104,
+    "total_promises": 105,
+    "promises_with_evidence": 105,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -7687,6 +7687,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a language policy change rather than a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p105",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Reopening old cases and ensuring justice",
+      "supporting_quote": "“Under the previous regime, culprits were distinguished by their political affiliations and police action was heavily influenced by the political identity of the victims. Our government operates differently.”",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-07-20",
+      "deadline": "ongoing",
+      "source_url": "https://indianexpress.com/article/world/trump-canada-50-percent-tariff-trade-war-section-338-usmca-10795783/",
+      "url": "https://indianexpress.com/article/world/trump-canada-50-percent-tariff-trade-war-section-338-usmca-10795783/",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=From+2021+poll+violence+to+2024+RG+Kar+rape+how+BJP+govt+is+reopening+old+cases+in+Bengal+Kolkata+News+-+The+Indian+Express",
+      "source_description": "From 2021 poll violence to 2024 RG Kar rape, how BJP govt is reopening old cases in Bengal | Kolkata News - The Indian Express",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Reopening old cases and ensuring justice",
+        "quote": "“Under the previous regime, culprits were distinguished by their political affiliations and police action was heavily influenced by the political identity of the victims. Our government operates differently.”",
+        "source_url": "https://indianexpress.com/article/world/trump-canada-50-percent-tariff-trade-war-section-338-usmca-10795783/",
+        "source_domain": "indianexpress.com",
+        "reported_on": "2026-07-20",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-21",
+          "evidence_url": "https://indianexpress.com/article/world/trump-canada-50-percent-tariff-trade-war-section-338-usmca-10795783/"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article highlights Suvendu Adhikari's commitment to ensuring justice by reopening old cases, indicating a shift from political influence to rule of law.",
+      "evidence_articles": [
+        {
+          "url": "https://indianexpress.com/article/world/trump-canada-50-percent-tariff-trade-war-section-338-usmca-10795783/",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=From+2021+poll+violence+to+2024+RG+Kar+rape+how+BJP+govt+is+reopening+old+cases+in+Bengal+Kolkata+News+-+The+Indian+Express",
+          "supporting_quote": "“Under the previous regime, culprits were distinguished by their political affiliations and police action was heavily influenced by the political identity of the victims. Our government operates differently.”",
+          "title": "From 2021 poll violence to 2024 RG Kar rape, how BJP govt is reopening old cases in Bengal | Kolkata News - The Indian Express",
+          "source": "Indian Express",
+          "scraped_at": "2026-07-20",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "indianexpress.com",
+          "quote_verified": true,
+          "rephrased": "Since taking office, **Suvendu Adhikari**'s BJP government in West Bengal has reopened numerous old cases, including those from the 2021 election violence and the 2024 R G Kar Medical College rape. The government also re-examined illegal mining-related cases and the 2025 schoolgirl bombing case, mak...",
+          "content": "From 2021 poll violence to 2024 RG Kar rape, how BJP govt is reopening old cases in Bengal One of the first decisions of the Adhikari government was a comprehensive review of all cases of violence linked to the 2021 Assembly elections, which were swept by the Trinamool Congress. From the 2021 post-election violence in West Bengal to the 2024 R G Kar Medical College rape and murder, and the 2025 de...",
+          "quote": "“Under the previous regime, culprits were distinguished by their political affiliations and police action was heavily influenced by the political identity of the victims. Our government operates differently.”"
+        }
+      ],
+      "notes": "The article highlights Suvendu Adhikari's commitment to ensuring justice by reopening old cases, indicating a shift from political influence to rule of law.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-21",
+      "created_at": "2026-07-21",
+      "url_checked_at": "2026-07-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a vague statement without a specified scale or impact.",
       "importance_source": "llm"
     }
   ]
