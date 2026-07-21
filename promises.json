@@ -4,8 +4,8 @@
     "last_updated": "2026-07-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 107,
-    "promises_with_evidence": 107,
+    "total_promises": 108,
+    "promises_with_evidence": 108,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -7906,6 +7906,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Restoring statehood affects the political and administrative structure of a large population.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p108",
+      "person": "Kinjarapu Atchannaidu",
+      "party": "TDP",
+      "role": "Chief Minister",
+      "promise": "Seek greater Central assistance to ensure remunerative prices for farmers",
+      "supporting_quote": "Mr. Atchannaidu, during his meeting with Mr. Chouhan, sought greater Central assistance to ensure remunerative prices for farmers, strengthen procurement and marketing systems, expand storage and cold chain infrastructure, promote food processing and value-added agriculture, and improve market linkages.",
+      "category": "farmers/agriculture",
+      "made_on": "2026-07-21",
+      "reported_on": "2026-07-21",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/atchannaidu-urges-greater-central-support-for-agriculture-in-andhra-pradesh/article71249409.ece",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/atchannaidu-urges-greater-central-support-for-agriculture-in-andhra-pradesh/article71249409.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Atchannaidu+urges+greater+central+support+for+agriculture+in+Andhra+Pradesh+-+The+Hindu",
+      "source_description": "Atchannaidu urges greater central support for agriculture in Andhra Pradesh - The Hindu",
+      "declaration": {
+        "person": "Kinjarapu Atchannaidu",
+        "claim": "Seek greater Central assistance to ensure remunerative prices for farmers",
+        "quote": "Mr. Atchannaidu, during his meeting with Mr. Chouhan, sought greater Central assistance to ensure remunerative prices for farmers, strengthen procurement and marketing systems, expand storage and cold chain infrastructure, promote food processing and value-added agriculture, and improve market linkages.",
+        "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/atchannaidu-urges-greater-central-support-for-agriculture-in-andhra-pradesh/article71249409.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-21",
+        "made_on": "2026-07-21",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-21",
+          "evidence_url": "https://www.thehindu.com/news/national/andhra-pradesh/atchannaidu-urges-greater-central-support-for-agriculture-in-andhra-pradesh/article71249409.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions Atchannaidu's request for greater Central assistance to ensure remunerative prices for farmers, which is a specific commitment.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/atchannaidu-urges-greater-central-support-for-agriculture-in-andhra-pradesh/article71249409.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Atchannaidu+urges+greater+central+support+for+agriculture+in+Andhra+Pradesh+-+The+Hindu",
+          "supporting_quote": "Mr. Atchannaidu, during his meeting with Mr. Chouhan, sought greater Central assistance to ensure remunerative prices for farmers, strengthen procurement and marketing systems, expand storage and cold chain infrastructure, promote food processing and value-added agriculture, and improve market linkages.",
+          "title": "Atchannaidu urges greater central support for agriculture in Andhra Pradesh - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Tuesday, **Kinjarapu Atchannaidu**, Andhra Pradesh's Minister of Agriculture, Cooperation and Marketing, held meetings in New Delhi with **C.P. Radhakrishnan**, **Shivraj Singh Chouhan**, and **Bhupathiraju Srinivasa Varma** to seek enhanced Central support for agriculture, farmers' welfare, indu...",
+          "content": "Andhra Pradesh Minister of Agriculture, Cooperation and Marketing Kinjarapu Atchannaidu held a series of high-level meetings in New Delhi on Tuesday with Vice-President C.P. Radhakrishnan, Union Agriculture and Farmers’ Welfare Minister Shivraj Singh Chouhan, and Union Minister of State for Steel and Heavy Industries Bhupathiraju Srinivasa Varma, seeking enhanced Central support for agriculture, f...",
+          "quote": "Mr. Atchannaidu, during his meeting with Mr. Chouhan, sought greater Central assistance to ensure remunerative prices for farmers, strengthen procurement and marketing systems, expand storage and cold chain infrastructure, promote food processing and value-added agriculture, and improve market linkages."
+        }
+      ],
+      "notes": "The article mentions Atchannaidu's request for greater Central assistance to ensure remunerative prices for farmers, which is a specific commitment.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-21",
+      "created_at": "2026-07-21",
+      "url_checked_at": "2026-07-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a request for assistance rather than a concrete, transformational commitment.",
       "importance_source": "llm"
     }
   ]
