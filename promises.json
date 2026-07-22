@@ -4,8 +4,8 @@
     "last_updated": "2026-07-22",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 109,
-    "promises_with_evidence": 109,
+    "total_promises": 110,
+    "promises_with_evidence": 110,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8052,6 +8052,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a local infrastructure initiative limited to specific villages.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p110",
+      "person": "C. Joseph Vijay",
+      "party": "Tamilaga Vettri Kazhagam (TVK)",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "abolish the National Eligibility-cum-Entrance Test (NEET)",
+      "supporting_quote": "If NEET has to be abolished, the only permanent solution is to move education back to the State List from the Concurrent List. If there are constitutional or legal hurdles in doing so, then, as an interim measure, a Special Concurrent List should be created and States should be vested with the necessary powers through it. This would enable State governments to exercise full control over education, including medical education",
+      "category": "education",
+      "made_on": "2026-07-22",
+      "reported_on": "2026-07-22",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/tn-cm-vijay-says-neet-must-be-scrapped-condemns-rahul-gandhis-detention-in-new-delhi/article71252733.ece",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-cm-vijay-says-neet-must-be-scrapped-condemns-rahul-gandhis-detention-in-new-delhi/article71252733.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=T+N+CM+Vijay+says+NEET+must+be+scrapped+condemns+Rahul+Gandhi+s+detention+in+New+Delhi+-+The+Hindu",
+      "source_description": "T.N. CM Vijay says NEET must be scrapped, condemns Rahul Gandhi’s detention in New Delhi - The Hindu",
+      "declaration": {
+        "person": "C. Joseph Vijay",
+        "claim": "abolish the National Eligibility-cum-Entrance Test (NEET)",
+        "quote": "If NEET has to be abolished, the only permanent solution is to move education back to the State List from the Concurrent List. If there are constitutional or legal hurdles in doing so, then, as an interim measure, a Special Concurrent List should be created and States should be vested with the necessary powers through it. This would enable State governments to exercise full control over education, including medical education",
+        "source_url": "https://www.thehindu.com/news/national/tamil-nadu/tn-cm-vijay-says-neet-must-be-scrapped-condemns-rahul-gandhis-detention-in-new-delhi/article71252733.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-22",
+        "made_on": "2026-07-22",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-22",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-22",
+          "evidence_url": "https://www.thehindu.com/news/national/tamil-nadu/tn-cm-vijay-says-neet-must-be-scrapped-condemns-rahul-gandhis-detention-in-new-delhi/article71252733.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The politician declared a firm stand on abolishing NEET and provided a detailed explanation on how it could be achieved, indicating a new promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-cm-vijay-says-neet-must-be-scrapped-condemns-rahul-gandhis-detention-in-new-delhi/article71252733.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=T+N+CM+Vijay+says+NEET+must+be+scrapped+condemns+Rahul+Gandhi+s+detention+in+New+Delhi+-+The+Hindu",
+          "supporting_quote": "If NEET has to be abolished, the only permanent solution is to move education back to the State List from the Concurrent List. If there are constitutional or legal hurdles in doing so, then, as an interim measure, a Special Concurrent List should be created and States should be vested with the necessary powers through it. This would enable State governments to exercise full control over education, including medical education",
+          "title": "T.N. CM Vijay says NEET must be scrapped, condemns Rahul Gandhi’s detention in New Delhi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-22",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 22, 2026, **C. Joseph Vijay**, Tamil Nadu Chief Minister and TVK president, condemned the Union government for detaining **Rahul Gandhi** and other leaders during an anti-government protest against NEET paper leaks and sought education reforms in New Delhi on July 21. Mr. Vijay called the de...",
+          "content": "Tamil Nadu Chief Minister and Tamilaga Vettri Kazhagam (TVK) president C. Joseph Vijay on Wednesday (July 22, 2026) said his party remains firm in its uncompromising stand that the National Eligibility-cum-Entrance Test (NEET) should be abolished. In a post on X, Mr. Vijay condemned the Union government for detaining Leader of the Opposition in the Lok Sabha and Congress leader Rahul Gandhi, along...",
+          "quote": "If NEET has to be abolished, the only permanent solution is to move education back to the State List from the Concurrent List. If there are constitutional or legal hurdles in doing so, then, as an interim measure, a Special Concurrent List should be created and States should be vested with the necessary powers through it. This would enable State governments to exercise full control over education, including medical education"
+        }
+      ],
+      "notes": "The politician declared a firm stand on abolishing NEET and provided a detailed explanation on how it could be achieved, indicating a new promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-22",
+      "created_at": "2026-07-22",
+      "url_checked_at": "2026-07-22",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It pertains to a single examination and does not have a large-scale, transformational impact on the entire nation.",
       "importance_source": "llm"
     }
   ]
