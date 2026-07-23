@@ -4,8 +4,8 @@
     "last_updated": "2026-07-23",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 110,
-    "promises_with_evidence": 110,
+    "total_promises": 111,
+    "promises_with_evidence": 111,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8125,6 +8125,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It pertains to a single examination and does not have a large-scale, transformational impact on the entire nation.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p111",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "More strict actions against paper leaks",
+      "supporting_quote": "Nothing is more important than the welfare and future of our youth! We have decided to set up fast-track courts to ensure swift and stringent punishment for those involved in paper leaks. Have directed the concerned authorities and officials to take all necessary steps in this regard. This continues our series of steps for safeguarding the interests of students. Those who try to harm the future of our youth will not be spared",
+      "category": "law_and_order",
+      "made_on": "2026-07-23",
+      "reported_on": "2026-07-23",
+      "deadline": "ongoing",
+      "source_url": "https://indianexpress.com/article/india/pm-narendra-modi-promises-more-steps-to-address-exam-paper-leaks-after-cabinet-meeting-today-in-new-video-message-10800720/",
+      "url": "https://indianexpress.com/article/india/pm-narendra-modi-promises-more-steps-to-address-exam-paper-leaks-after-cabinet-meeting-today-in-new-video-message-10800720/",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=In+late-night+video+PM+Modi+promises+more+steps+to+stop+exam+paper+leaks+India+News+-+The+Indian+Express",
+      "source_description": "In late-night video, PM Modi promises more steps to stop exam paper leaks | India News - The Indian Express",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "More strict actions against paper leaks",
+        "quote": "Nothing is more important than the welfare and future of our youth! We have decided to set up fast-track courts to ensure swift and stringent punishment for those involved in paper leaks. Have directed the concerned authorities and officials to take all necessary steps in this regard. This continues our series of steps for safeguarding the interests of students. Those who try to harm the future of our youth will not be spared",
+        "source_url": "https://indianexpress.com/article/india/pm-narendra-modi-promises-more-steps-to-address-exam-paper-leaks-after-cabinet-meeting-today-in-new-video-message-10800720/",
+        "source_domain": "indianexpress.com",
+        "reported_on": "2026-07-23",
+        "made_on": "2026-07-23",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-23",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-23",
+          "evidence_url": "https://indianexpress.com/article/india/pm-narendra-modi-promises-more-steps-to-address-exam-paper-leaks-after-cabinet-meeting-today-in-new-video-message-10800720/"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a new commitment made by PM Modi to take more strict actions against paper leaks, which is a critical issue affecting the education system.",
+      "evidence_articles": [
+        {
+          "url": "https://indianexpress.com/article/india/pm-narendra-modi-promises-more-steps-to-address-exam-paper-leaks-after-cabinet-meeting-today-in-new-video-message-10800720/",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=In+late-night+video+PM+Modi+promises+more+steps+to+stop+exam+paper+leaks+India+News+-+The+Indian+Express",
+          "supporting_quote": "Nothing is more important than the welfare and future of our youth! We have decided to set up fast-track courts to ensure swift and stringent punishment for those involved in paper leaks. Have directed the concerned authorities and officials to take all necessary steps in this regard. This continues our series of steps for safeguarding the interests of students. Those who try to harm the future of our youth will not be spared",
+          "title": "In late-night video, PM Modi promises more steps to stop exam paper leaks | India News - The Indian Express",
+          "source": "Indian Express",
+          "scraped_at": "2026-07-23",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "indianexpress.com",
+          "quote_verified": true,
+          "rephrased": "Prime Minister **Narendra Modi** on Thursday announced the establishment of fast-track courts to address paper leaks, promising more strict actions in Friday’s Cabinet meeting. His remarks came amid protests led by the **Cockroach Janta Party (CJP)** and supported by opposition parties like the Aam ...",
+          "content": "After ensuring “swift and stringent punishment” for those involved in paper leaks, Prime Minister Narendra Modi on Thursday said that more strict actions against the paper leaks will be announced in the Cabinet meeting on Friday. His remarks come amid ongoing protests led by the Cockroach Janta Party (CJP), with support from Opposition parties. More strict actions against paper leaks to come in to...",
+          "quote": "Nothing is more important than the welfare and future of our youth! We have decided to set up fast-track courts to ensure swift and stringent punishment for those involved in paper leaks. Have directed the concerned authorities and officials to take all necessary steps in this regard. This continues our series of steps for safeguarding the interests of students. Those who try to harm the future of our youth will not be spared"
+        }
+      ],
+      "notes": "The promise is a new commitment made by PM Modi to take more strict actions against paper leaks, which is a critical issue affecting the education system.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-23",
+      "created_at": "2026-07-23",
+      "url_checked_at": "2026-07-23",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a routine governance action rather than a transformational commitment affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
