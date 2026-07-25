@@ -4,8 +4,8 @@
     "last_updated": "2026-07-25",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 111,
-    "promises_with_evidence": 111,
+    "total_promises": 112,
+    "promises_with_evidence": 112,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8198,6 +8198,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a routine governance action rather than a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p112",
+      "person": "Farooq Abdullah",
+      "party": "National Conference",
+      "role": "Former Chief Minister of Jammu",
+      "promise": "introduce and pass a bill on restoration of the statehood of Jammu and Kashmir",
+      "supporting_quote": "The Centre should honour its repeated commitments on Statehood. It should introduce and pass the Statehood restoration bill during the ongoing session.",
+      "category": "law_and_order",
+      "made_on": "2026-07-24",
+      "reported_on": "2026-07-24",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/introduce-pass-statehood-bill-in-ongoing-parliament-session-dr-farooq-abdullah-to-centre/article71263692.ece",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/introduce-pass-statehood-bill-in-ongoing-parliament-session-dr-farooq-abdullah-to-centre/article71263692.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Introduce+pass+Statehood+bill+in+ongoing+Parliament+session+Dr+Farooq+Abdullah+to+Centre+-+The+Hindu",
+      "source_description": "Introduce, pass Statehood bill in ongoing Parliament session: Dr. Farooq Abdullah to Centre - The Hindu",
+      "declaration": {
+        "person": "Farooq Abdullah",
+        "claim": "introduce and pass a bill on restoration of the statehood of Jammu and Kashmir",
+        "quote": "The Centre should honour its repeated commitments on Statehood. It should introduce and pass the Statehood restoration bill during the ongoing session.",
+        "source_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/introduce-pass-statehood-bill-in-ongoing-parliament-session-dr-farooq-abdullah-to-centre/article71263692.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-24",
+        "made_on": "2026-07-24",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-25",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-25",
+          "evidence_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/introduce-pass-statehood-bill-in-ongoing-parliament-session-dr-farooq-abdullah-to-centre/article71263692.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Farooq Abdullah personally demanded the Centre to introduce and pass a Statehood restoration bill during the ongoing session of Parliament.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/introduce-pass-statehood-bill-in-ongoing-parliament-session-dr-farooq-abdullah-to-centre/article71263692.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Introduce+pass+Statehood+bill+in+ongoing+Parliament+session+Dr+Farooq+Abdullah+to+Centre+-+The+Hindu",
+          "supporting_quote": "The Centre should honour its repeated commitments on Statehood. It should introduce and pass the Statehood restoration bill during the ongoing session.",
+          "title": "Introduce, pass Statehood bill in ongoing Parliament session: Dr. Farooq Abdullah to Centre - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-24",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 24, 2026, **Farooq Abdullah**, National Conference president, demanded that the Centre introduce and pass a bill to restore Jammu and Kashmir's statehood during the ongoing monsoon session of Parliament. He said this was a constitutional imperative and urged immediate action following a prot...",
+          "content": "National Conference president Farooq Abdullah on Friday (July 24, 2026) demanded that the Centre should introduce and pass a bill on restoration of the statehood of Jammu and Kashmir during the ongoing monsoon session of the Parliament. “The Centre should honour its repeated commitments on Statehood. It should introduce and pass the Statehood restoration bill during the ongoing session. People of ...",
+          "quote": "The Centre should honour its repeated commitments on Statehood. It should introduce and pass the Statehood restoration bill during the ongoing session."
+        }
+      ],
+      "notes": "Farooq Abdullah personally demanded the Centre to introduce and pass a Statehood restoration bill during the ongoing session of Parliament.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-25",
+      "created_at": "2026-07-25",
+      "url_checked_at": "2026-07-25",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Restoration of statehood would have a profound national impact on governance and political structure.",
       "importance_source": "llm"
     }
   ]
