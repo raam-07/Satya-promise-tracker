@@ -4,8 +4,8 @@
     "last_updated": "2026-07-25",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 113,
-    "promises_with_evidence": 113,
+    "total_promises": 114,
+    "promises_with_evidence": 114,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8344,6 +8344,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a policy initiative rather than a transformational, large-scale commitment affecting the entire country.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p114",
+      "person": "Dharmendra Pradhan",
+      "party": "BJP",
+      "role": "Education Minister",
+      "promise": "Shifting NEET to a computer-based format from 2027",
+      "supporting_quote": "In his resignation letter, he indicates that from 2027 the government will work towards shifting NEET to a computer-based format, though detailed modalities are yet to be notified.",
+      "category": "education",
+      "made_on": null,
+      "reported_on": "2026-07-25",
+      "deadline": "2027",
+      "source_url": "https://indianexpress.com/article/education/education-ministry-dharmendra-pradhan-resignation-nta-neet-ug-2026-paper-leak-pm-modi-fast-track-action-10802136/",
+      "url": "https://indianexpress.com/article/education/education-ministry-dharmendra-pradhan-resignation-nta-neet-ug-2026-paper-leak-pm-modi-fast-track-action-10802136/",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=How+a+paper+leak+led+to+education+minister+s+resignation+NEET-UG+2026+in+a+timeline+Education+News+-+The+Indian+Express",
+      "source_description": "How a paper leak led to education minister’s resignation: NEET-UG 2026 in a timeline | Education News - The Indian Express",
+      "declaration": {
+        "person": "Dharmendra Pradhan",
+        "claim": "Shifting NEET to a computer-based format from 2027",
+        "quote": "In his resignation letter, he indicates that from 2027 the government will work towards shifting NEET to a computer-based format, though detailed modalities are yet to be notified.",
+        "source_url": "https://indianexpress.com/article/education/education-ministry-dharmendra-pradhan-resignation-nta-neet-ug-2026-paper-leak-pm-modi-fast-track-action-10802136/",
+        "source_domain": "indianexpress.com",
+        "reported_on": "2026-07-25",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-25",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-25",
+          "evidence_url": "https://indianexpress.com/article/education/education-ministry-dharmendra-pradhan-resignation-nta-neet-ug-2026-paper-leak-pm-modi-fast-track-action-10802136/"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a new commitment made by Dharmendra Pradhan in his resignation letter, aiming to shift NEET to a computer-based format starting from 2027.",
+      "evidence_articles": [
+        {
+          "url": "https://indianexpress.com/article/education/education-ministry-dharmendra-pradhan-resignation-nta-neet-ug-2026-paper-leak-pm-modi-fast-track-action-10802136/",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=How+a+paper+leak+led+to+education+minister+s+resignation+NEET-UG+2026+in+a+timeline+Education+News+-+The+Indian+Express",
+          "supporting_quote": "In his resignation letter, he indicates that from 2027 the government will work towards shifting NEET to a computer-based format, though detailed modalities are yet to be notified.",
+          "title": "How a paper leak led to education minister’s resignation: NEET-UG 2026 in a timeline | Education News - The Indian Express",
+          "source": "Indian Express",
+          "scraped_at": "2026-07-25",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "indianexpress.com",
+          "quote_verified": true,
+          "rephrased": "On May 3, **NEET-UG 2026** was held for over 22 lakh candidates. Tutor Shashikant Suthar alleged a leak and alerted authorities; the NTA canceled the exam and ordered a re-test on June 21 after CBI investigations confirmed leaks. The controversy sparked the satirical **Cockroach Janta Party (CJP)**,...",
+          "content": "A whistleblower tutor cross-checking allegedly leaked exam questions, a courtroom remark that sparked the satirical Cockroach Janta Party (CJP), and, weeks later, Education Minister Dharmendra Pradhan’s resignation. These were not separate stories but part of a single crisis that became one of the most contentious education controversies India has seen in recent years. It began with NEET-UG 2026, ...",
+          "quote": "In his resignation letter, he indicates that from 2027 the government will work towards shifting NEET to a computer-based format, though detailed modalities are yet to be notified."
+        }
+      ],
+      "notes": "The promise is a new commitment made by Dharmendra Pradhan in his resignation letter, aiming to shift NEET to a computer-based format starting from 2027.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-25",
+      "created_at": "2026-07-25",
+      "url_checked_at": "2026-07-25",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a procedural change rather than a transformational commitment affecting the entire country on a large scale.",
       "importance_source": "llm"
     }
   ]
