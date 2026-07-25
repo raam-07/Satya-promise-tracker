@@ -4,8 +4,8 @@
     "last_updated": "2026-07-25",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 112,
-    "promises_with_evidence": 112,
+    "total_promises": 113,
+    "promises_with_evidence": 113,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8271,6 +8271,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Restoration of statehood would have a profound national impact on governance and political structure.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p113",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "introducing fast-track courts and enhanced penalties to safeguard students' futures",
+      "supporting_quote": "Prime Minister Narendra Modi publicly committed to introducing fast-track courts and enhanced penalties to safeguard students' futures.",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-07-25",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/months-after-manhunt-maharashtra-tet-paper-leak-kingpin-bijendra-gupta-arrested-in-bihar-11819627#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/months-after-manhunt-maharashtra-tet-paper-leak-kingpin-bijendra-gupta-arrested-in-bihar-11819627#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Months+After+Manhunt+Maharashtra+TET+Paper+Leak+Kingpin+Bijendra+Gupta+Arrested+In+Bihar",
+      "source_description": "Months After Manhunt, Maharashtra TET Paper Leak Kingpin Bijendra Gupta Arrested In Bihar",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "introducing fast-track courts and enhanced penalties to safeguard students' futures",
+        "quote": "Prime Minister Narendra Modi publicly committed to introducing fast-track courts and enhanced penalties to safeguard students' futures.",
+        "source_url": "https://www.ndtv.com/india-news/months-after-manhunt-maharashtra-tet-paper-leak-kingpin-bijendra-gupta-arrested-in-bihar-11819627#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-07-25",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-25",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-25",
+          "evidence_url": "https://www.ndtv.com/india-news/months-after-manhunt-maharashtra-tet-paper-leak-kingpin-bijendra-gupta-arrested-in-bihar-11819627#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a public commitment by Prime Minister Narendra Modi to introduce fast-track courts and enhanced penalties, which is a new promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/months-after-manhunt-maharashtra-tet-paper-leak-kingpin-bijendra-gupta-arrested-in-bihar-11819627#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Months+After+Manhunt+Maharashtra+TET+Paper+Leak+Kingpin+Bijendra+Gupta+Arrested+In+Bihar",
+          "supporting_quote": "Prime Minister Narendra Modi publicly committed to introducing fast-track courts and enhanced penalties to safeguard students' futures.",
+          "title": "Months After Manhunt, Maharashtra TET Paper Leak Kingpin Bijendra Gupta Arrested In Bihar",
+          "source": "NDTV",
+          "scraped_at": "2026-07-25",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Saturday, **Maharashtra Police** arrested Bijendra Gupta from Bihar for his role in the Maharashtra Teacher Eligibility Test (TET) paper leak. Gupta had evaded arrest for months and is suspected of links to multiple examination leaks nationwide. Another accused was also apprehended during the ope...",
+          "content": "The mastermind behind the Maharashtra Teacher Eligibility Test (TET) paper leak, Bijendra Gupta, has been arrested by the Maharashtra Police from Bihar after remaining on the run for several months, officials said on Saturday. Gupta, who is suspected to have links with multiple examination paper leak cases across the country, had been evading arrest despite repeated raids conducted by Maharashtra ...",
+          "quote": "Prime Minister Narendra Modi publicly committed to introducing fast-track courts and enhanced penalties to safeguard students' futures."
+        }
+      ],
+      "notes": "The article mentions a public commitment by Prime Minister Narendra Modi to introduce fast-track courts and enhanced penalties, which is a new promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-25",
+      "created_at": "2026-07-25",
+      "url_checked_at": "2026-07-25",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a policy initiative rather than a transformational, large-scale commitment affecting the entire country.",
       "importance_source": "llm"
     }
   ]
