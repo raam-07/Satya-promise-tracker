@@ -4,8 +4,8 @@
     "last_updated": "2026-07-26",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 115,
-    "promises_with_evidence": 115,
+    "total_promises": 116,
+    "promises_with_evidence": 116,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8490,6 +8490,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Forming a task force, even with a renowned expert, is a routine administrative action rather than a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p116",
+      "person": "Himanta Biswa Sarma",
+      "party": "BJP",
+      "role": "Chief Minister of Assam",
+      "promise": "Provide mekhela chador to two lakh women affected by floods",
+      "supporting_quote": "\"The Assam BJP aims to collect Rs 12 crore from party workers to help the flood-affected people in the state. We will give clothes to two lakh women and two lakh children,\" he said.",
+      "category": "welfare",
+      "made_on": null,
+      "reported_on": "2026-07-26",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/mekhela-chadors-for-women-t-shirts-for-children-assams-flood-relief-plan-11825288#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/mekhela-chadors-for-women-t-shirts-for-children-assams-flood-relief-plan-11825288#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Mekhela+Chadors+For+Women+T-Shirts+For+Children+Assam+s+Flood+Relief+Plan",
+      "source_description": "Mekhela Chadors For Women, T-Shirts For Children: Assam's Flood Relief Plan",
+      "declaration": {
+        "person": "Himanta Biswa Sarma",
+        "claim": "Provide mekhela chador to two lakh women affected by floods",
+        "quote": "\"The Assam BJP aims to collect Rs 12 crore from party workers to help the flood-affected people in the state. We will give clothes to two lakh women and two lakh children,\" he said.",
+        "source_url": "https://www.ndtv.com/india-news/mekhela-chadors-for-women-t-shirts-for-children-assams-flood-relief-plan-11825288#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-07-26",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-26",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-26",
+          "evidence_url": "https://www.ndtv.com/india-news/mekhela-chadors-for-women-t-shirts-for-children-assams-flood-relief-plan-11825288#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is specific to providing clothing to flood-affected women and children, which is a welfare initiative.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/mekhela-chadors-for-women-t-shirts-for-children-assams-flood-relief-plan-11825288#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Mekhela+Chadors+For+Women+T-Shirts+For+Children+Assam+s+Flood+Relief+Plan",
+          "supporting_quote": "\"The Assam BJP aims to collect Rs 12 crore from party workers to help the flood-affected people in the state. We will give clothes to two lakh women and two lakh children,\" he said.",
+          "title": "Mekhela Chadors For Women, T-Shirts For Children: Assam's Flood Relief Plan",
+          "source": "NDTV",
+          "scraped_at": "2026-07-26",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Sunday, **Himanta Biswa Sarma**, Assam's chief minister, announced that two lakh women affected by floods will receive traditional 'mekhela chador' from the **Bharatiya Janata Party (BJP)**. Children will also get clothing like t-shirts. The BJP plans to collect Rs 12 crore from party workers for...",
+          "content": "- Two lakh women affected by Assam floods will receive mekhela chador from BJP - Children in flood-hit areas will be provided with clothing, including t-shirts - Assam BJP plans to raise Rs 12 crore from party workers for relief efforts Two lakh women affected by the deadly floods in Assam will receive one pair of traditional 'mekhela chador' from the Bharatiya Janata Party, chief minister Himanta...",
+          "quote": "\"The Assam BJP aims to collect Rs 12 crore from party workers to help the flood-affected people in the state. We will give clothes to two lakh women and two lakh children,\" he said."
+        }
+      ],
+      "notes": "The promise is specific to providing clothing to flood-affected women and children, which is a welfare initiative.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-26",
+      "created_at": "2026-07-26",
+      "url_checked_at": "2026-07-26",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a one-time welfare distribution affecting a specific group of people.",
       "importance_source": "llm"
     }
   ]
