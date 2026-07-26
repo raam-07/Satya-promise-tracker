@@ -4,8 +4,8 @@
     "last_updated": "2026-07-26",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 114,
-    "promises_with_evidence": 114,
+    "total_promises": 115,
+    "promises_with_evidence": 115,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8417,6 +8417,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a procedural change rather than a transformational commitment affecting the entire country on a large scale.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p115",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "form a high-power task force under the leadership of world-renowned technology expert Nandan Nilekani, which will focus on examination reform",
+      "supporting_quote": "\"Our examination system should be reliable, our examination system should be transparent, and our examination system should now have the maximum use of technology. Keeping all these things in mind, a decision has been made to form a high-power task force under the leadership of world-renowned technology expert Nandan Nilekani, which will focus on examination reform. And at the earliest, the work to ensure the reliability of the upcoming examinations will be done based on its report,\" PM Modi said in a social media video.",
+      "category": "education",
+      "made_on": "2023-10-01",
+      "reported_on": "2026-07-26",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/tech-wizard-space-scientist-spymaster-the-experts-on-exam-task-force-11825106#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/tech-wizard-space-scientist-spymaster-the-experts-on-exam-task-force-11825106#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Tech+Wizard+Space+Scientist+Spymaster+The+Experts+On+Exam+Task+Force",
+      "source_description": "Tech Wizard, Space Scientist, Spymaster: The Experts On Exam Task Force",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "form a high-power task force under the leadership of world-renowned technology expert Nandan Nilekani, which will focus on examination reform",
+        "quote": "\"Our examination system should be reliable, our examination system should be transparent, and our examination system should now have the maximum use of technology. Keeping all these things in mind, a decision has been made to form a high-power task force under the leadership of world-renowned technology expert Nandan Nilekani, which will focus on examination reform. And at the earliest, the work to ensure the reliability of the upcoming examinations will be done based on its report,\" PM Modi said in a social media video.",
+        "source_url": "https://www.ndtv.com/india-news/tech-wizard-space-scientist-spymaster-the-experts-on-exam-task-force-11825106#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-07-26",
+        "made_on": "2023-10-01",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-26",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-26",
+          "evidence_url": "https://www.ndtv.com/india-news/tech-wizard-space-scientist-spymaster-the-experts-on-exam-task-force-11825106#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports PM Modi's announcement of a task force to reform India's examination system, which is a significant national initiative.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/tech-wizard-space-scientist-spymaster-the-experts-on-exam-task-force-11825106#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Tech+Wizard+Space+Scientist+Spymaster+The+Experts+On+Exam+Task+Force",
+          "supporting_quote": "\"Our examination system should be reliable, our examination system should be transparent, and our examination system should now have the maximum use of technology. Keeping all these things in mind, a decision has been made to form a high-power task force under the leadership of world-renowned technology expert Nandan Nilekani, which will focus on examination reform. And at the earliest, the work to ensure the reliability of the upcoming examinations will be done based on its report,\" PM Modi said in a social media video.",
+          "title": "Tech Wizard, Space Scientist, Spymaster: The Experts On Exam Task Force",
+          "source": "NDTV",
+          "scraped_at": "2026-07-26",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "Prime Minister **Narendra Modi** announced a task force to overhaul India's examination system following Education Minister Dharmendra Pradhan's resignation over NEET paper leaks. **Nandan Nilekani**, an IT expert, will lead the panel comprising experts from various fields including former ISRO Chai...",
+          "content": "- PM Modi announced a task force to overhaul India's examination system - Nandan Nilekani will spearhead the task force - The work to ensure the reliability of examinations will be done based on the panel's report A technology leader, a former space scientist, an ex-spymaster, an academic, a former education secretary and a logistics expert form a multidisciplinary group of domain experts who will...",
+          "quote": "\"Our examination system should be reliable, our examination system should be transparent, and our examination system should now have the maximum use of technology. Keeping all these things in mind, a decision has been made to form a high-power task force under the leadership of world-renowned technology expert Nandan Nilekani, which will focus on examination reform. And at the earliest, the work to ensure the reliability of the upcoming examinations will be done based on its report,\" PM Modi said in a social media video."
+        }
+      ],
+      "notes": "The article reports PM Modi's announcement of a task force to reform India's examination system, which is a significant national initiative.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-26",
+      "created_at": "2026-07-26",
+      "url_checked_at": "2026-07-26",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "Forming a task force, even with a renowned expert, is a routine administrative action rather than a transformational commitment.",
       "importance_source": "llm"
     }
   ]
