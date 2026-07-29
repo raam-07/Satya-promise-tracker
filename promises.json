@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-07-28",
+    "last_updated": "2026-07-29",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 116,
-    "promises_with_evidence": 116,
+    "total_promises": 117,
+    "promises_with_evidence": 117,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8563,6 +8563,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a one-time welfare distribution affecting a specific group of people.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p117",
+      "person": "Bhagwant Mann",
+      "party": "AAP",
+      "role": "Chief Minister of Punjab",
+      "promise": "Women above 18 years of age from the general category will receive ₹1,000 every month, while those belonging to the Scheduled Caste (SC) category will receive ₹1,500",
+      "supporting_quote": "With barely a few months left for the Assembly election in Punjab, the State government on July 1 started its ‘Mukh Mantri Mawan Dhian Satikar Yojna’, under which women above 18 years of age from the general category will receive ₹1,000 every month, while those belonging to the Scheduled Caste (SC) category will receive ₹1,500.",
+      "category": "welfare",
+      "made_on": "2026-07-01",
+      "reported_on": "2026-07-28",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/punjab/ahead-of-2027-punjab-polls-aaps-welfare-spree-sparks-questions-over-timing-intent/article71277513.ece",
+      "url": "https://www.thehindu.com/news/national/punjab/ahead-of-2027-punjab-polls-aaps-welfare-spree-sparks-questions-over-timing-intent/article71277513.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Ahead+of+2027+Punjab+polls+AAP+s+welfare+spree+sparks+questions+over+timing+intent+-+The+Hindu",
+      "source_description": "Ahead of 2027 Punjab polls, AAP’s welfare spree sparks questions over timing, intent - The Hindu",
+      "declaration": {
+        "person": "Bhagwant Mann",
+        "claim": "Women above 18 years of age from the general category will receive ₹1,000 every month, while those belonging to the Scheduled Caste (SC) category will receive ₹1,500",
+        "quote": "With barely a few months left for the Assembly election in Punjab, the State government on July 1 started its ‘Mukh Mantri Mawan Dhian Satikar Yojna’, under which women above 18 years of age from the general category will receive ₹1,000 every month, while those belonging to the Scheduled Caste (SC) category will receive ₹1,500.",
+        "source_url": "https://www.thehindu.com/news/national/punjab/ahead-of-2027-punjab-polls-aaps-welfare-spree-sparks-questions-over-timing-intent/article71277513.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-28",
+        "made_on": "2026-07-01",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-29",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-29",
+          "evidence_url": "https://www.thehindu.com/news/national/punjab/ahead-of-2027-punjab-polls-aaps-welfare-spree-sparks-questions-over-timing-intent/article71277513.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the declaration of a new welfare scheme for women, which is a concrete commitment made by the AAP government.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/punjab/ahead-of-2027-punjab-polls-aaps-welfare-spree-sparks-questions-over-timing-intent/article71277513.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Ahead+of+2027+Punjab+polls+AAP+s+welfare+spree+sparks+questions+over+timing+intent+-+The+Hindu",
+          "supporting_quote": "With barely a few months left for the Assembly election in Punjab, the State government on July 1 started its ‘Mukh Mantri Mawan Dhian Satikar Yojna’, under which women above 18 years of age from the general category will receive ₹1,000 every month, while those belonging to the Scheduled Caste (SC) category will receive ₹1,500.",
+          "title": "Ahead of 2027 Punjab polls, AAP’s welfare spree sparks questions over timing, intent - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-28",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "In early 2027, as Punjab prepares for Assembly polls, the **Aam Aadmi Party (AAP)** government launched welfare schemes including a monthly cash payout of ₹1,000 for general category women and ₹1,500 for SC women starting July 1, 2026. Opposition parties like the Congress criticize these moves as el...",
+          "content": "As Punjab goes to Assembly polls in early 2027, the ruling Aam Aadmi Party (AAP) in the last few months has rolled out a set of welfare schemes, prompting questions about whether the timing reflects genuine intent or an election-driven strategy. Even as the Opposition parties have targeted the AAP government over the timing of launching welfare schemes amid the run-up to the Punjab elections, the ...",
+          "quote": "With barely a few months left for the Assembly election in Punjab, the State government on July 1 started its ‘Mukh Mantri Mawan Dhian Satikar Yojna’, under which women above 18 years of age from the general category will receive ₹1,000 every month, while those belonging to the Scheduled Caste (SC) category will receive ₹1,500."
+        }
+      ],
+      "notes": "The article mentions the declaration of a new welfare scheme for women, which is a concrete commitment made by the AAP government.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-29",
+      "created_at": "2026-07-29",
+      "url_checked_at": "2026-07-29",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "It involves a significant financial commitment to a large population segment across the state.",
       "importance_source": "llm"
     }
   ]
