@@ -4,8 +4,8 @@
     "last_updated": "2026-07-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 117,
-    "promises_with_evidence": 117,
+    "total_promises": 118,
+    "promises_with_evidence": 118,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8636,6 +8636,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "It involves a significant financial commitment to a large population segment across the state.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p118",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "Lay the foundation stone for two sugar mills at Sakri and Raiyam in Bihar",
+      "supporting_quote": "Prime Minister Narendra Modi would lay the foundation stone for two sugar mills at Sakri in Madhubani and Raiyam in Darbhanga on November 20, 2026.",
+      "category": "infrastructure",
+      "made_on": "2026-07-29",
+      "reported_on": "2026-07-30",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-lay-foundation-stone-on-november-20-for-two-sugar-mills-at-sakri-raiyam-in-bihar/article71281585.ece",
+      "url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-lay-foundation-stone-on-november-20-for-two-sugar-mills-at-sakri-raiyam-in-bihar/article71281585.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=PM+Modi+to+lay+foundation+stone+on+November+20+for+two+sugar+mills+at+Sakri+Raiyam+in+Bihar+-+The+Hindu",
+      "source_description": "PM Modi to lay foundation stone on November 20 for two sugar mills at Sakri & Raiyam in Bihar - The Hindu",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "Lay the foundation stone for two sugar mills at Sakri and Raiyam in Bihar",
+        "quote": "Prime Minister Narendra Modi would lay the foundation stone for two sugar mills at Sakri in Madhubani and Raiyam in Darbhanga on November 20, 2026.",
+        "source_url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-lay-foundation-stone-on-november-20-for-two-sugar-mills-at-sakri-raiyam-in-bihar/article71281585.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-07-30",
+        "made_on": "2026-07-29",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-30",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-30",
+          "evidence_url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-lay-foundation-stone-on-november-20-for-two-sugar-mills-at-sakri-raiyam-in-bihar/article71281585.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a specific declaration by PM Modi to lay the foundation stone for two sugar mills, which is a new promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-lay-foundation-stone-on-november-20-for-two-sugar-mills-at-sakri-raiyam-in-bihar/article71281585.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=PM+Modi+to+lay+foundation+stone+on+November+20+for+two+sugar+mills+at+Sakri+Raiyam+in+Bihar+-+The+Hindu",
+          "supporting_quote": "Prime Minister Narendra Modi would lay the foundation stone for two sugar mills at Sakri in Madhubani and Raiyam in Darbhanga on November 20, 2026.",
+          "title": "PM Modi to lay foundation stone on November 20 for two sugar mills at Sakri & Raiyam in Bihar - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-07-30",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 29, 2026, **Sanjay Kumar**, Bihar’s Sugarcane Industries Minister, announced that **Narendra Modi** would lay the foundation stone for two sugar mills in Sakri and Raiyam on November 20, 2026. The State aims to establish 25 sugar mills by 2031 to boost employment and farmers' income. The gov...",
+          "content": "Prime Minister Narendra Modi would lay the foundation stone for two sugar mills at Sakri in Madhubani and Raiyam in Darbhanga on November 20, 2026. Bihar’s Sugarcane Industries Minister Sanjay Kumar said this on Wednesday (July 29, 2026). “The State government has set a target of establishing 25 sugar mills in the State. The Prime Minister will lay the foundation stone for two sugar mills at Sakri...",
+          "quote": "Prime Minister Narendra Modi would lay the foundation stone for two sugar mills at Sakri in Madhubani and Raiyam in Darbhanga on November 20, 2026."
+        }
+      ],
+      "notes": "The article mentions a specific declaration by PM Modi to lay the foundation stone for two sugar mills, which is a new promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-30",
+      "created_at": "2026-07-30",
+      "url_checked_at": "2026-07-30",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It involves laying the foundation stone for two specific sugar mills, which is a local infrastructure project.",
       "importance_source": "llm"
     }
   ]
