@@ -8750,7 +8750,7 @@
         }
       ],
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "The article reports on the approval of the 'Samudra Manthan' scheme by the Union Cabinet chaired by Prime Minister Narendra Modi.",
+      "qwen_reasoning": "The article indicates that the scheme was approved by the Union Cabinet, marking progress towards the original promise made by Narendra Modi.",
       "evidence_articles": [
         {
           "url": "https://www.ndtv.com/india-news/cabinet-approves-rs-84-084-crore-offshore-oil-gas-exploration-scheme-11848657#publisher=newsstand",
@@ -8770,6 +8770,25 @@
           "rephrased": "The Union Cabinet, chaired by Prime Minister **Narendra Modi**, on Friday approved 'Samudra Manthan' with an outlay of Rs 84,084 crore for implementation up to FY 2030-31. The scheme aims to boost India's offshore exploration and energy security, targeting over 600 MMTOE reserves and increasing dome...",
           "content": "- The Union Cabinet approved Samudra Manthan with an Rs 84,084 crore outlay till FY 2030-31 - The scheme aims to boost India's offshore exploration and energy security amid global energy shocks - Samudra Manthan targets adding over 600 MMTOE reserves and increasing domestic oil and gas production The Union Cabinet, chaired by Prime Minister Narendra Modi, on Friday approved 'Samudra Manthan' - the...",
           "quote": "The Union Cabinet, chaired by Prime Minister Narendra Modi, on Friday approved 'Samudra Manthan' - the National Offshore Exploration Scheme -- with an approved outlay of Rs 84,084 crore for implementation up to FY 2030-31, as the world grapples with energy shocks due to geopolitical tensions."
+        },
+        {
+          "url": "https://indianexpress.com/article/business/government-approves-rs-84000-crore-samurdra-manthan-scheme-offshore-oil-gas-exploration-scheme-10812449/",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Government+greenlights+Rs+84+000-crore+scheme+to+boost+offshore+oil+gas+exploration+production",
+          "supporting_quote": "The initiative was first indicated last year by Prime Minister Narendra Modi in his Independence Day address. He had called for a modern-day ‘Samudra Manthan’ to unlock India’s vast offshore energy potential.",
+          "title": "Government greenlights Rs 84,000-crore scheme to boost offshore oil & gas exploration, production",
+          "source": "Indian Express",
+          "scraped_at": "2026-07-31",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "progress",
+          "source_domain": "indianexpress.com",
+          "quote_verified": true,
+          "rephrased": "On July 31, 2026, the **Union Cabinet** approved a Rs 84,084-crore scheme called 'Samudra Manthan' to boost oil and gas exploration in India's offshore basins until FY 2030-31. The initiative aims to reduce import dependency by catalyzing reserve accretion of over 600 million tonnes of oil and equiv...",
+          "content": "5 min readJul 31, 2026 07:56 PM IST The Union Cabinet on Friday gave its nod to a Rs 84,084-crore scheme aimed at boosting oil and gas exploration and production from the country’s offshore basins, and reducing the dependence on imported energy. The ambitious ‘Samudra Manthan’ scheme, or the National Offshore Exploration Scheme, will provide financial support for exploratory drilling in deep-sea a...",
+          "quote": "The initiative was first indicated last year by Prime Minister Narendra Modi in his Independence Day address. He had called for a modern-day ‘Samudra Manthan’ to unlock India’s vast offshore energy potential."
         }
       ],
       "notes": "The article reports on the approval of the 'Samudra Manthan' scheme by the Union Cabinet chaired by Prime Minister Narendra Modi.",
@@ -8778,7 +8797,7 @@
       "created_at": "2026-07-31",
       "url_checked_at": "2026-07-31",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Involves a massive outlay affecting the country's energy security and economy on a large scale.",
