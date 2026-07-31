@@ -4,8 +4,8 @@
     "last_updated": "2026-07-31",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 118,
-    "promises_with_evidence": 118,
+    "total_promises": 119,
+    "promises_with_evidence": 119,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8709,6 +8709,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It involves laying the foundation stone for two specific sugar mills, which is a local infrastructure project.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p119",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "Approve 'Samudra Manthan' - the National Offshore Exploration Scheme with an outlay of Rs 84,084 crore",
+      "supporting_quote": "The Union Cabinet, chaired by Prime Minister Narendra Modi, on Friday approved 'Samudra Manthan' - the National Offshore Exploration Scheme -- with an approved outlay of Rs 84,084 crore for implementation up to FY 2030-31, as the world grapples with energy shocks due to geopolitical tensions.",
+      "category": "infrastructure",
+      "made_on": "2023-10-06",
+      "reported_on": "2026-07-31",
+      "deadline": "2030",
+      "source_url": "https://www.ndtv.com/india-news/cabinet-approves-rs-84-084-crore-offshore-oil-gas-exploration-scheme-11848657#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/cabinet-approves-rs-84-084-crore-offshore-oil-gas-exploration-scheme-11848657#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Cabinet+Approves+Rs+84+084-Crore+Offshore+Oil+Gas+Exploration+Scheme",
+      "source_description": "Cabinet Approves Rs 84,084-Crore Offshore Oil, Gas Exploration Scheme",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "Approve 'Samudra Manthan' - the National Offshore Exploration Scheme with an outlay of Rs 84,084 crore",
+        "quote": "The Union Cabinet, chaired by Prime Minister Narendra Modi, on Friday approved 'Samudra Manthan' - the National Offshore Exploration Scheme -- with an approved outlay of Rs 84,084 crore for implementation up to FY 2030-31, as the world grapples with energy shocks due to geopolitical tensions.",
+        "source_url": "https://www.ndtv.com/india-news/cabinet-approves-rs-84-084-crore-offshore-oil-gas-exploration-scheme-11848657#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-07-31",
+        "made_on": "2023-10-06",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-07-31",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-07-31",
+          "evidence_url": "https://www.ndtv.com/india-news/cabinet-approves-rs-84-084-crore-offshore-oil-gas-exploration-scheme-11848657#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports on the approval of the 'Samudra Manthan' scheme by the Union Cabinet chaired by Prime Minister Narendra Modi.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/cabinet-approves-rs-84-084-crore-offshore-oil-gas-exploration-scheme-11848657#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Cabinet+Approves+Rs+84+084-Crore+Offshore+Oil+Gas+Exploration+Scheme",
+          "supporting_quote": "The Union Cabinet, chaired by Prime Minister Narendra Modi, on Friday approved 'Samudra Manthan' - the National Offshore Exploration Scheme -- with an approved outlay of Rs 84,084 crore for implementation up to FY 2030-31, as the world grapples with energy shocks due to geopolitical tensions.",
+          "title": "Cabinet Approves Rs 84,084-Crore Offshore Oil, Gas Exploration Scheme",
+          "source": "NDTV",
+          "scraped_at": "2026-07-31",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "The Union Cabinet, chaired by Prime Minister **Narendra Modi**, on Friday approved 'Samudra Manthan' with an outlay of Rs 84,084 crore for implementation up to FY 2030-31. The scheme aims to boost India's offshore exploration and energy security, targeting over 600 MMTOE reserves and increasing dome...",
+          "content": "- The Union Cabinet approved Samudra Manthan with an Rs 84,084 crore outlay till FY 2030-31 - The scheme aims to boost India's offshore exploration and energy security amid global energy shocks - Samudra Manthan targets adding over 600 MMTOE reserves and increasing domestic oil and gas production The Union Cabinet, chaired by Prime Minister Narendra Modi, on Friday approved 'Samudra Manthan' - the...",
+          "quote": "The Union Cabinet, chaired by Prime Minister Narendra Modi, on Friday approved 'Samudra Manthan' - the National Offshore Exploration Scheme -- with an approved outlay of Rs 84,084 crore for implementation up to FY 2030-31, as the world grapples with energy shocks due to geopolitical tensions."
+        }
+      ],
+      "notes": "The article reports on the approval of the 'Samudra Manthan' scheme by the Union Cabinet chaired by Prime Minister Narendra Modi.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-07-31",
+      "created_at": "2026-07-31",
+      "url_checked_at": "2026-07-31",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Involves a massive outlay affecting the country's energy security and economy on a large scale.",
       "importance_source": "llm"
     }
   ]
