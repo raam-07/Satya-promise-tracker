@@ -4,8 +4,8 @@
     "last_updated": "2026-08-01",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 119,
-    "promises_with_evidence": 119,
+    "total_promises": 120,
+    "promises_with_evidence": 120,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8801,6 +8801,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Involves a massive outlay affecting the country's energy security and economy on a large scale.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p120",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Provide eggs twice a week to schoolchildren",
+      "supporting_quote": "“Initially, ISKCON will serve mid-day meals to 44,000 students in 500 schools in Kolkata. Within the next three months, the coverage will be expanded to 2.5 lakh students. The allocation has also been increased to ₹10 per meal per student,” Mr. Adhikari said.",
+      "category": "education",
+      "made_on": "2026-08-01",
+      "reported_on": "2026-08-01",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/suvendu-inaugurates-iskcons-kitchen-in-kolkata-for-school-mid-day-meals-to-benefit-44000-students/article71294219.ece",
+      "url": "https://www.thehindu.com/news/national/west-bengal/suvendu-inaugurates-iskcons-kitchen-in-kolkata-for-school-mid-day-meals-to-benefit-44000-students/article71294219.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Eggs+twice+a+week+for+students+in+Kolkata+schools+says+Bengal+CM+Suvendu+Adhikari+-+The+Hindu",
+      "source_description": "Eggs twice a week for students in Kolkata schools, says Bengal CM Suvendu Adhikari - The Hindu",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Provide eggs twice a week to schoolchildren",
+        "quote": "“Initially, ISKCON will serve mid-day meals to 44,000 students in 500 schools in Kolkata. Within the next three months, the coverage will be expanded to 2.5 lakh students. The allocation has also been increased to ₹10 per meal per student,” Mr. Adhikari said.",
+        "source_url": "https://www.thehindu.com/news/national/west-bengal/suvendu-inaugurates-iskcons-kitchen-in-kolkata-for-school-mid-day-meals-to-benefit-44000-students/article71294219.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-01",
+        "made_on": "2026-08-01",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-01",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-01",
+          "evidence_url": "https://www.thehindu.com/news/national/west-bengal/suvendu-inaugurates-iskcons-kitchen-in-kolkata-for-school-mid-day-meals-to-benefit-44000-students/article71294219.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new commitment by Suvendu Adhikari to provide eggs twice a week to schoolchildren through mid-day meals.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal/suvendu-inaugurates-iskcons-kitchen-in-kolkata-for-school-mid-day-meals-to-benefit-44000-students/article71294219.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Eggs+twice+a+week+for+students+in+Kolkata+schools+says+Bengal+CM+Suvendu+Adhikari+-+The+Hindu",
+          "supporting_quote": "“Initially, ISKCON will serve mid-day meals to 44,000 students in 500 schools in Kolkata. Within the next three months, the coverage will be expanded to 2.5 lakh students. The allocation has also been increased to ₹10 per meal per student,” Mr. Adhikari said.",
+          "title": "Eggs twice a week for students in Kolkata schools, says Bengal CM Suvendu Adhikari - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-01",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 1, 2026, **Suvendu Adhikari**, West Bengal Chief Minister, announced eggs would be provided twice weekly to schoolchildren separately while inaugurating an **ISKCON** community kitchen in Kolkata. The kitchen will serve mid-day meals to around 2.5 lakh students across nearly 1,800 schools ...",
+          "content": "West Bengal Chief Minister Suvendu Adhikari on Saturday (August 1, 2026) said eggs would be provided twice a week to schoolchildren through a separate arrangement while inaugurating an ISKCON community kitchen that will supply mid-day meals in Kolkata. The kitchen, operated by the ISKCON Annamrita Foundation, is expected to extend its services to around 2.5 lakh students across nearly 1,800 school...",
+          "quote": "“Initially, ISKCON will serve mid-day meals to 44,000 students in 500 schools in Kolkata. Within the next three months, the coverage will be expanded to 2.5 lakh students. The allocation has also been increased to ₹10 per meal per student,” Mr. Adhikari said."
+        }
+      ],
+      "notes": "The article reports a new commitment by Suvendu Adhikari to provide eggs twice a week to schoolchildren through mid-day meals.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-01",
+      "created_at": "2026-08-01",
+      "url_checked_at": "2026-08-01",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine provision of nutritional support rather than a transformational commitment.",
       "importance_source": "llm"
     }
   ]
