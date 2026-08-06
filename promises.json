@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 120,
-    "promises_with_evidence": 120,
+    "total_promises": 121,
+    "promises_with_evidence": 121,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8893,6 +8893,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine provision of nutritional support rather than a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p121",
+      "person": "Akhilesh Yadav",
+      "party": "Samajwadi Party (SP)",
+      "role": "Samajwadi Party President",
+      "promise": "Include Pandits or Brahmins in the Pichhda-Dalit-Alpsankhyak (Backwards, Dalits and minorities) matrix",
+      "supporting_quote": "“People keep talking about PDA and inventing new meanings about it. Ever since they (BJP) lost to PDA, they have been trying to redefine it. But they have forgotten that the ‘PD’ in PDA also stands for Pandit. The more they inflict peeda (pain), the stronger PDA will become,”",
+      "category": "welfare",
+      "made_on": "2026-08-05",
+      "reported_on": "2026-08-05",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/pda-includes-pandits-says-akhilesh-in-sp-bid-to-woo-brahmins-in-uttar-pradesh/article71309776.ece",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/pda-includes-pandits-says-akhilesh-in-sp-bid-to-woo-brahmins-in-uttar-pradesh/article71309776.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=PDA+includes+Pandits+says+Akhilesh+in+SP+bid+to+woo+Brahmins+in+Uttar+Pradesh+-+The+Hindu",
+      "source_description": "‘PDA’ includes Pandits, says Akhilesh in SP bid to woo Brahmins in Uttar Pradesh - The Hindu",
+      "declaration": {
+        "person": "Akhilesh Yadav",
+        "claim": "Include Pandits or Brahmins in the Pichhda-Dalit-Alpsankhyak (Backwards, Dalits and minorities) matrix",
+        "quote": "“People keep talking about PDA and inventing new meanings about it. Ever since they (BJP) lost to PDA, they have been trying to redefine it. But they have forgotten that the ‘PD’ in PDA also stands for Pandit. The more they inflict peeda (pain), the stronger PDA will become,”",
+        "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/pda-includes-pandits-says-akhilesh-in-sp-bid-to-woo-brahmins-in-uttar-pradesh/article71309776.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-05",
+        "made_on": "2026-08-05",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-06",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-06",
+          "evidence_url": "https://www.thehindu.com/news/national/uttar-pradesh/pda-includes-pandits-says-akhilesh-in-sp-bid-to-woo-brahmins-in-uttar-pradesh/article71309776.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Akhilesh Yadav declared the inclusion of Brahmins in the PDA matrix during a speech, aiming to secure their votes.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/pda-includes-pandits-says-akhilesh-in-sp-bid-to-woo-brahmins-in-uttar-pradesh/article71309776.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=PDA+includes+Pandits+says+Akhilesh+in+SP+bid+to+woo+Brahmins+in+Uttar+Pradesh+-+The+Hindu",
+          "supporting_quote": "“People keep talking about PDA and inventing new meanings about it. Ever since they (BJP) lost to PDA, they have been trying to redefine it. But they have forgotten that the ‘PD’ in PDA also stands for Pandit. The more they inflict peeda (pain), the stronger PDA will become,”",
+          "title": "‘PDA’ includes Pandits, says Akhilesh in SP bid to woo Brahmins in Uttar Pradesh - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-05",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 5, 2026, **Akhilesh Yadav**, president of the Samajwadi Party (SP), sought to include Brahmins in his party’s PDA constituency—Pichhda-Dalit-Alpsankhyak matrix—during a speech at the party headquarters in Lucknow. He criticized the BJP government for neglecting marginalized communities and...",
+          "content": "Samajwadi Party (SP) president Akhilesh Yadav on Wednesday (August 5, 2026) sought to expand his party’s ‘PDA’ constituency and include Pandits or Brahmins in its Pichhda-Dalit-Alpsankhyak (Backwards, Dalits and minorities) matrix ahead of the State Assembly poll due early next year. The SP has used the PDA plank as a call for broader unity of forces of social justice since the 2022 Assembly elect...",
+          "quote": "“People keep talking about PDA and inventing new meanings about it. Ever since they (BJP) lost to PDA, they have been trying to redefine it. But they have forgotten that the ‘PD’ in PDA also stands for Pandit. The more they inflict peeda (pain), the stronger PDA will become,”"
+        }
+      ],
+      "notes": "Akhilesh Yadav declared the inclusion of Brahmins in the PDA matrix during a speech, aiming to secure their votes.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-06",
+      "created_at": "2026-08-06",
+      "url_checked_at": "2026-08-06",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a specific inclusion in an existing welfare matrix, not a transformational change affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
