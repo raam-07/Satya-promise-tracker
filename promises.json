@@ -4,8 +4,8 @@
     "last_updated": "2026-08-06",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 121,
-    "promises_with_evidence": 121,
+    "total_promises": 122,
+    "promises_with_evidence": 122,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -8966,6 +8966,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a specific inclusion in an existing welfare matrix, not a transformational change affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p122",
+      "person": "Kalvakuntla Kavitha",
+      "party": "Telangana Rakshana Sena (TRS)",
+      "role": "Politician",
+      "promise": "focus on BC, SC, ST, minorities, and marginalized groups for political representation and empowerment",
+      "supporting_quote": "Kavitha outlined her party's vision for development and political representation, with a particular focus on Backward Classes (BCs), Scheduled Castes (SCs), Scheduled Tribed (STs), minorities and other marginalised communities.",
+      "category": "welfare",
+      "made_on": null,
+      "reported_on": "2026-08-06",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/telangana-news/k-kavitha-outlines-political-roadmap-at-social-justice-meet-in-hyderabad-11874153#publisher=newsstand",
+      "url": "https://www.ndtv.com/telangana-news/k-kavitha-outlines-political-roadmap-at-social-justice-meet-in-hyderabad-11874153#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=K+Kavitha+Outlines+Political+Roadmap+At+Social+Justice+Meet+In+Hyderabad",
+      "source_description": "K Kavitha Outlines Political Roadmap At 'Social Justice' Meet In Hyderabad",
+      "declaration": {
+        "person": "Kalvakuntla Kavitha",
+        "claim": "focus on BC, SC, ST, minorities, and marginalized groups for political representation and empowerment",
+        "quote": "Kavitha outlined her party's vision for development and political representation, with a particular focus on Backward Classes (BCs), Scheduled Castes (SCs), Scheduled Tribed (STs), minorities and other marginalised communities.",
+        "source_url": "https://www.ndtv.com/telangana-news/k-kavitha-outlines-political-roadmap-at-social-justice-meet-in-hyderabad-11874153#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-06",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-06",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-06",
+          "evidence_url": "https://www.ndtv.com/telangana-news/k-kavitha-outlines-political-roadmap-at-social-justice-meet-in-hyderabad-11874153#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article highlights Kavitha's focus on political representation and empowerment for marginalized communities, which aligns with her party's vision.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/telangana-news/k-kavitha-outlines-political-roadmap-at-social-justice-meet-in-hyderabad-11874153#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=K+Kavitha+Outlines+Political+Roadmap+At+Social+Justice+Meet+In+Hyderabad",
+          "supporting_quote": "Kavitha outlined her party's vision for development and political representation, with a particular focus on Backward Classes (BCs), Scheduled Castes (SCs), Scheduled Tribed (STs), minorities and other marginalised communities.",
+          "title": "K Kavitha Outlines Political Roadmap At 'Social Justice' Meet In Hyderabad",
+          "source": "NDTV",
+          "scraped_at": "2026-08-06",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "Hundreds of **Telangana Rakshana Sena (TRS)** members gathered at Hyderabad's Saroor Nagar indoor stadium on Thursday for the Social Justice Telangana Sankalp Sabha, organized by party president K. Kavitha. Launched in April after splitting from Bharat Rashtra Samithi and receiving Election Commissi...",
+          "content": "- Hundreds of Telangana Rakshana Sena members gathered at Saroor Nagar stadium for a Social Justice Sabha - K. Kavitha launched TRS in April after splitting from Bharat Rashtra Samithi and received Poll Body nod - TRS focuses on BC, SC, ST, minorities, and marginalized groups for political representation and empowerment Hundreds of Telangana Rakshana Sena (TRS) members gathered at Hyderabad's Saro...",
+          "quote": "Kavitha outlined her party's vision for development and political representation, with a particular focus on Backward Classes (BCs), Scheduled Castes (SCs), Scheduled Tribed (STs), minorities and other marginalised communities."
+        }
+      ],
+      "notes": "The article highlights Kavitha's focus on political representation and empowerment for marginalized communities, which aligns with her party's vision.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-06",
+      "created_at": "2026-08-06",
+      "url_checked_at": "2026-08-06",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a general commitment to representation and empowerment without specific, large-scale transformative actions.",
       "importance_source": "llm"
     }
   ]
