@@ -4,8 +4,8 @@
     "last_updated": "2026-08-07",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 122,
-    "promises_with_evidence": 122,
+    "total_promises": 123,
+    "promises_with_evidence": 123,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9039,6 +9039,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a general commitment to representation and empowerment without specific, large-scale transformative actions.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p123",
+      "person": "Ashwini Vaishnaw",
+      "party": "BJP",
+      "role": "Railways and IT Minister",
+      "promise": "Lay the third line connecting Jalandhar Cantonment to Jammu Tawi, spanning 216 km",
+      "supporting_quote": "Mr. Vaishnaw said the Detailed Project Report (DPR) for laying the third line connecting Jalandhar Cantonment to Jammu Tawi, spanning 216 km, has been completed.",
+      "category": "infrastructure",
+      "made_on": "2026-08-07",
+      "reported_on": "2026-08-07",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/surveys-taken-up-for-key-railway-projects-in-jammu-kashmir-says-vaishnaw/article71317677.ece",
+      "url": "https://www.thehindu.com/news/national/surveys-taken-up-for-key-railway-projects-in-jammu-kashmir-says-vaishnaw/article71317677.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Surveys+taken+up+for+key+railway+projects+in+Jammu+Kashmir+says+Vaishnaw+-+The+Hindu",
+      "source_description": "Surveys taken up for key railway projects in Jammu & Kashmir, says Vaishnaw - The Hindu",
+      "declaration": {
+        "person": "Ashwini Vaishnaw",
+        "claim": "Lay the third line connecting Jalandhar Cantonment to Jammu Tawi, spanning 216 km",
+        "quote": "Mr. Vaishnaw said the Detailed Project Report (DPR) for laying the third line connecting Jalandhar Cantonment to Jammu Tawi, spanning 216 km, has been completed.",
+        "source_url": "https://www.thehindu.com/news/national/surveys-taken-up-for-key-railway-projects-in-jammu-kashmir-says-vaishnaw/article71317677.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-07",
+        "made_on": "2026-08-07",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-07",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-07",
+          "evidence_url": "https://www.thehindu.com/news/national/surveys-taken-up-for-key-railway-projects-in-jammu-kashmir-says-vaishnaw/article71317677.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the completion of the Detailed Project Report (DPR) for laying the third line connecting Jalandhar Cantonment to Jammu Tawi, but does not provide a specific deadline or completion status.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/surveys-taken-up-for-key-railway-projects-in-jammu-kashmir-says-vaishnaw/article71317677.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Surveys+taken+up+for+key+railway+projects+in+Jammu+Kashmir+says+Vaishnaw+-+The+Hindu",
+          "supporting_quote": "Mr. Vaishnaw said the Detailed Project Report (DPR) for laying the third line connecting Jalandhar Cantonment to Jammu Tawi, spanning 216 km, has been completed.",
+          "title": "Surveys taken up for key railway projects in Jammu & Kashmir, says Vaishnaw - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-07",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 7, 2026, **Ashwini Vaishnaw** outlined the status of three rail projects in Jammu & Kashmir aimed at expanding the network and easing bottlenecks. The Detailed Project Report (DPR) for a third line connecting Jalandhar Cantonment to Jammu Tawi (216 km), and additional surveys for lines alo...",
+          "content": "Railway Minister Ashwini Vaishnaw outlined the status of three major upcoming rail projects in Jammu & Kashmir in the Rajya Sabha on Friday (August 7, 2026). These projects will widen the rail network and ease regional bottlenecks, he said. Mr. Vaishnaw said the Detailed Project Report (DPR) for laying the third line connecting Jalandhar Cantonment to Jammu Tawi, spanning 216 km, has been complete...",
+          "quote": "Mr. Vaishnaw said the Detailed Project Report (DPR) for laying the third line connecting Jalandhar Cantonment to Jammu Tawi, spanning 216 km, has been completed."
+        }
+      ],
+      "notes": "The article mentions the completion of the Detailed Project Report (DPR) for laying the third line connecting Jalandhar Cantonment to Jammu Tawi, but does not provide a specific deadline or completion status.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-07",
+      "created_at": "2026-08-07",
+      "url_checked_at": "2026-08-07",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a single infrastructure project, not a transformational commitment affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
