@@ -4,8 +4,8 @@
     "last_updated": "2026-08-07",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 123,
-    "promises_with_evidence": 123,
+    "total_promises": 124,
+    "promises_with_evidence": 124,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9112,6 +9112,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a single infrastructure project, not a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p124",
+      "person": "N. Chandrababu Naidu",
+      "party": "TDP",
+      "role": "Chief Minister",
+      "promise": "Make world-class healthcare accessible to every citizen",
+      "supporting_quote": "Speaking on the occasion, Mr. Naidu said the partnership aimed to make world-class healthcare accessible to every citizen.",
+      "category": "health",
+      "made_on": "2026-07-28",
+      "reported_on": "2026-08-07",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-inks-pact-with-astrazeneca-to-set-up-genomic-solutions-centre-in-amaravati/article71276732.ece",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-inks-pact-with-astrazeneca-to-set-up-genomic-solutions-centre-in-amaravati/article71276732.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=A+P+inks+pact+with+AstraZeneca+to+set+up+Genomic+Solutions+Centre+in+Amaravati+-+The+Hindu",
+      "source_description": "A.P. inks pact with AstraZeneca to set up Genomic Solutions Centre in Amaravati - The Hindu",
+      "declaration": {
+        "person": "N. Chandrababu Naidu",
+        "claim": "Make world-class healthcare accessible to every citizen",
+        "quote": "Speaking on the occasion, Mr. Naidu said the partnership aimed to make world-class healthcare accessible to every citizen.",
+        "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-inks-pact-with-astrazeneca-to-set-up-genomic-solutions-centre-in-amaravati/article71276732.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-07",
+        "made_on": "2026-07-28",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-07",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-07",
+          "evidence_url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-inks-pact-with-astrazeneca-to-set-up-genomic-solutions-centre-in-amaravati/article71276732.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a declaration by N. Chandrababu Naidu to make world-class healthcare accessible to every citizen, which is a new promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-inks-pact-with-astrazeneca-to-set-up-genomic-solutions-centre-in-amaravati/article71276732.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=A+P+inks+pact+with+AstraZeneca+to+set+up+Genomic+Solutions+Centre+in+Amaravati+-+The+Hindu",
+          "supporting_quote": "Speaking on the occasion, Mr. Naidu said the partnership aimed to make world-class healthcare accessible to every citizen.",
+          "title": "A.P. inks pact with AstraZeneca to set up Genomic Solutions Centre in Amaravati - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-07",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Tuesday, **Andhra Pradesh** signed a Memorandum of Understanding with **AstraZeneca India**, **Reliance-backed Strand Life Sciences**, and **Qure.ai** to establish an Integrated Genomic Solutions Centre in Amaravati. The centre aims to create India's first integrated precision oncology ecosystem ...",
+          "content": "Andhra Pradesh on Tuesday signed a Memorandum of Understanding (MoU) with AstraZeneca India to establish an Integrated Genomic Solutions Centre in Amaravati, marking a major step towards precision cancer care. The initiative aims to create India's first integrated precision oncology research and treatment ecosystem, enabling personalised cancer diagnosis and treatment through advanced genomic tech...",
+          "quote": "Speaking on the occasion, Mr. Naidu said the partnership aimed to make world-class healthcare accessible to every citizen."
+        }
+      ],
+      "notes": "The article reports a declaration by N. Chandrababu Naidu to make world-class healthcare accessible to every citizen, which is a new promise.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-08-07",
+      "created_at": "2026-08-07",
+      "url_checked_at": "2026-08-07",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Aims to transform national healthcare accessibility, impacting the entire country.",
       "importance_source": "llm"
     }
   ]
