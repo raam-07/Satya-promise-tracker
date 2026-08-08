@@ -4,8 +4,8 @@
     "last_updated": "2026-08-08",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 124,
-    "promises_with_evidence": 124,
+    "total_promises": 125,
+    "promises_with_evidence": 125,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9185,6 +9185,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Aims to transform national healthcare accessibility, impacting the entire country.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p125",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Provide eggs to children through SHGs as part of mid-day meal",
+      "supporting_quote": "“From August 1, as a pilot project, ‘satvik’ and protein-rich mid-day meals will be provided to children by ISKCON in large parts of Kolkata. Along with that, eggs will be provided to children through SHGs so that we can provide protein-rich meals to our future generations,” Mr. Adhikari said.",
+      "category": "education",
+      "made_on": "2026-07-29",
+      "reported_on": "2026-08-08",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/eggs-to-remain-on-mid-day-meal-menu-in-kolkata-schools-wb-cm/article71282073.ece",
+      "url": "https://www.thehindu.com/news/national/west-bengal/eggs-to-remain-on-mid-day-meal-menu-in-kolkata-schools-wb-cm/article71282073.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Eggs+to+remain+on+mid-day+meal+menu+in+Kolkata+schools+WB+CM+-+The+Hindu",
+      "source_description": "Eggs to remain on mid-day meal menu in Kolkata schools: WB CM - The Hindu",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Provide eggs to children through SHGs as part of mid-day meal",
+        "quote": "“From August 1, as a pilot project, ‘satvik’ and protein-rich mid-day meals will be provided to children by ISKCON in large parts of Kolkata. Along with that, eggs will be provided to children through SHGs so that we can provide protein-rich meals to our future generations,” Mr. Adhikari said.",
+        "source_url": "https://www.thehindu.com/news/national/west-bengal/eggs-to-remain-on-mid-day-meal-menu-in-kolkata-schools-wb-cm/article71282073.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-08",
+        "made_on": "2026-07-29",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-08",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-08",
+          "evidence_url": "https://www.thehindu.com/news/national/west-bengal/eggs-to-remain-on-mid-day-meal-menu-in-kolkata-schools-wb-cm/article71282073.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The Chief Minister declared that eggs will be provided to children through SHGs as part of the mid-day meal program, addressing concerns over protein intake.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal/eggs-to-remain-on-mid-day-meal-menu-in-kolkata-schools-wb-cm/article71282073.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Eggs+to+remain+on+mid-day+meal+menu+in+Kolkata+schools+WB+CM+-+The+Hindu",
+          "supporting_quote": "“From August 1, as a pilot project, ‘satvik’ and protein-rich mid-day meals will be provided to children by ISKCON in large parts of Kolkata. Along with that, eggs will be provided to children through SHGs so that we can provide protein-rich meals to our future generations,” Mr. Adhikari said.",
+          "title": "Eggs to remain on mid-day meal menu in Kolkata schools: WB CM - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-08",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On July 29, 2026, **Suvendu Adhikari**, West Bengal Chief Minister, announced that **ISKCON** would provide protein-rich mid-day meals to Kolkata schoolchildren starting August 1. Eggs will be supplied separately by self-help groups (SHGs). This decision addresses concerns over the removal of eggs a...",
+          "content": "Putting an end to the controversy over the alleged denial of eggs in mid-day meals for schoolchildren in Kolkata, West Bengal Chief Minister Suvendu Adhikari on Wednesday (July 29, 2026) said that while the International Society for Krishna Consciousness (ISKCON) will provide protein-rich mid-day meals to children, eggs will be provided separately through self-help groups (SHGs). “From August 1, a...",
+          "quote": "“From August 1, as a pilot project, ‘satvik’ and protein-rich mid-day meals will be provided to children by ISKCON in large parts of Kolkata. Along with that, eggs will be provided to children through SHGs so that we can provide protein-rich meals to our future generations,” Mr. Adhikari said."
+        }
+      ],
+      "notes": "The Chief Minister declared that eggs will be provided to children through SHGs as part of the mid-day meal program, addressing concerns over protein intake.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-08",
+      "created_at": "2026-08-08",
+      "url_checked_at": "2026-08-08",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine addition to an existing scheme, not a transformational change.",
       "importance_source": "llm"
     }
   ]
