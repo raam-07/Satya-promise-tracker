@@ -4,8 +4,8 @@
     "last_updated": "2026-08-08",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 125,
-    "promises_with_evidence": 125,
+    "total_promises": 126,
+    "promises_with_evidence": 126,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9258,6 +9258,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine addition to an existing scheme, not a transformational change.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p126",
+      "person": "V.D. Satheesan",
+      "party": "Indian National Congress",
+      "role": "Chief Minister of Kerala",
+      "promise": "Modernise legal education and turn Kerala into a hub of higher education",
+      "supporting_quote": "Legal education will be modernised and Kerala will be turned into a hub of higher education, Chief Minister V.D. Satheesan has said.",
+      "category": "education",
+      "made_on": "2026-07-29",
+      "reported_on": "2026-08-08",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/kerala/legal-education-will-be-modernised-kerala-chief-minister/article71282053.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/legal-education-will-be-modernised-kerala-chief-minister/article71282053.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Legal+education+will+be+modernised+Kerala+Chief+Minister+-+The+Hindu",
+      "source_description": "Legal education will be modernised: Kerala Chief Minister - The Hindu",
+      "declaration": {
+        "person": "V.D. Satheesan",
+        "claim": "Modernise legal education and turn Kerala into a hub of higher education",
+        "quote": "Legal education will be modernised and Kerala will be turned into a hub of higher education, Chief Minister V.D. Satheesan has said.",
+        "source_url": "https://www.thehindu.com/news/national/kerala/legal-education-will-be-modernised-kerala-chief-minister/article71282053.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-08",
+        "made_on": "2026-07-29",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-08",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-08",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/legal-education-will-be-modernised-kerala-chief-minister/article71282053.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a broad commitment to modernise legal education and elevate Kerala's status in higher education, without specific measurable goals.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/legal-education-will-be-modernised-kerala-chief-minister/article71282053.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Legal+education+will+be+modernised+Kerala+Chief+Minister+-+The+Hindu",
+          "supporting_quote": "Legal education will be modernised and Kerala will be turned into a hub of higher education, Chief Minister V.D. Satheesan has said.",
+          "title": "Legal education will be modernised: Kerala Chief Minister - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-08",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "At a function on Wednesday, **V.D. Satheesan**, Chief Minister of Kerala, announced plans to modernize legal education and transform the state into a higher education hub by introducing new courses aligned with job market needs and fostering ties between educational institutions and industry. New ar...",
+          "content": "Legal education will be modernised and Kerala will be turned into a hub of higher education, Chief Minister V.D. Satheesan has said. He was speaking at a function organised to hand over appointment orders to 35 Assistant Professors in government law colleges here on Wednesday. The Chief Minister said new and novel courses would be launched keeping in mind the changing requirements of the job secto...",
+          "quote": "Legal education will be modernised and Kerala will be turned into a hub of higher education, Chief Minister V.D. Satheesan has said."
+        }
+      ],
+      "notes": "The promise is a broad commitment to modernise legal education and elevate Kerala's status in higher education, without specific measurable goals.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-08-08",
+      "created_at": "2026-08-08",
+      "url_checked_at": "2026-08-08",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "While significant, it is not a transformational, flagship commitment affecting a very large population or resources on a national scale.",
       "importance_source": "llm"
     }
   ]
