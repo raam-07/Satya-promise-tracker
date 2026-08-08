@@ -4,8 +4,8 @@
     "last_updated": "2026-08-08",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 126,
-    "promises_with_evidence": 126,
+    "total_promises": 127,
+    "promises_with_evidence": 127,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9331,6 +9331,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "While significant, it is not a transformational, flagship commitment affecting a very large population or resources on a national scale.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p127",
+      "person": "Sukhvinder Singh Sukhu",
+      "party": "Congress",
+      "role": "Chief Minister of Himachal Pradesh",
+      "promise": "launch a new health insurance scheme offering coverage of up to ₹10 lakh",
+      "supporting_quote": "Himachal Pradesh Chief Minister Sukhvinder Singh Sukhu said on Tuesday (August 4, 2026) that the Congress-led State government is set to launch a new health insurance scheme offering coverage of up to ₹10 lakh, aimed at ensuring quality healthcare access for economically weaker families across the State.",
+      "category": "health",
+      "made_on": "2026-08-04",
+      "reported_on": "2026-08-08",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/himachal-pradesh/himachal-to-launch-new-health-insurance-scheme-with-10-lakh-coverage-says-cm-sukhu/article71305611.ece",
+      "url": "https://www.thehindu.com/news/national/himachal-pradesh/himachal-to-launch-new-health-insurance-scheme-with-10-lakh-coverage-says-cm-sukhu/article71305611.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Himachal+to+launch+new+health+insurance+scheme+with+10+lakh+coverage+says+CM+Sukhu+-+The+Hindu",
+      "source_description": "Himachal to launch new health insurance scheme with ₹10 lakh coverage, says CM Sukhu - The Hindu",
+      "declaration": {
+        "person": "Sukhvinder Singh Sukhu",
+        "claim": "launch a new health insurance scheme offering coverage of up to ₹10 lakh",
+        "quote": "Himachal Pradesh Chief Minister Sukhvinder Singh Sukhu said on Tuesday (August 4, 2026) that the Congress-led State government is set to launch a new health insurance scheme offering coverage of up to ₹10 lakh, aimed at ensuring quality healthcare access for economically weaker families across the State.",
+        "source_url": "https://www.thehindu.com/news/national/himachal-pradesh/himachal-to-launch-new-health-insurance-scheme-with-10-lakh-coverage-says-cm-sukhu/article71305611.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-08",
+        "made_on": "2026-08-04",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-08",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-08",
+          "evidence_url": "https://www.thehindu.com/news/national/himachal-pradesh/himachal-to-launch-new-health-insurance-scheme-with-10-lakh-coverage-says-cm-sukhu/article71305611.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new health insurance scheme announcement by the Chief Minister, which is a specific promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/himachal-pradesh/himachal-to-launch-new-health-insurance-scheme-with-10-lakh-coverage-says-cm-sukhu/article71305611.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Himachal+to+launch+new+health+insurance+scheme+with+10+lakh+coverage+says+CM+Sukhu+-+The+Hindu",
+          "supporting_quote": "Himachal Pradesh Chief Minister Sukhvinder Singh Sukhu said on Tuesday (August 4, 2026) that the Congress-led State government is set to launch a new health insurance scheme offering coverage of up to ₹10 lakh, aimed at ensuring quality healthcare access for economically weaker families across the State.",
+          "title": "Himachal to launch new health insurance scheme with ₹10 lakh coverage, says CM Sukhu - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-08",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Tuesday, **Sukhvinder Singh Sukhu**, Himachal Pradesh's Chief Minister, announced a new health insurance scheme offering ₹10 lakh coverage for economically weaker families at an affordable premium. The initiative aims to cover nearly 10 lakh families and includes leading hospitals. It was launche...",
+          "content": "Himachal Pradesh Chief Minister Sukhvinder Singh Sukhu said on Tuesday (August 4, 2026) that the Congress-led State government is set to launch a new health insurance scheme offering coverage of up to ₹10 lakh, aimed at ensuring quality healthcare access for economically weaker families across the State. Presiding over a high-level meeting of the health department in Shimla, Mr. Sukhu said that un...",
+          "quote": "Himachal Pradesh Chief Minister Sukhvinder Singh Sukhu said on Tuesday (August 4, 2026) that the Congress-led State government is set to launch a new health insurance scheme offering coverage of up to ₹10 lakh, aimed at ensuring quality healthcare access for economically weaker families across the State."
+        }
+      ],
+      "notes": "The article reports a new health insurance scheme announcement by the Chief Minister, which is a specific promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-08",
+      "created_at": "2026-08-08",
+      "url_checked_at": "2026-08-08",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine scheme, not a transformational commitment affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
