@@ -4,8 +4,8 @@
     "last_updated": "2026-08-09",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 129,
-    "promises_with_evidence": 129,
+    "total_promises": 130,
+    "promises_with_evidence": 130,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9550,6 +9550,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It pertains to a specific policy change rather than a large-scale, transformational commitment affecting millions.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p130",
+      "person": "Hemant Soren",
+      "party": "Jharkhand Mukti Morcha (JMM)",
+      "role": "Chief Minister of Jharkhand",
+      "promise": "Deliver justice with full transparency to youths protesting alleged irregularities in recruitment exams",
+      "supporting_quote": "I promise the exam protesters that justice will be delivered with full transparency",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-08-09",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/justice-will-be-delivered-jharkhand-chief-minister-amid-student-protests-11886241#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/justice-will-be-delivered-jharkhand-chief-minister-amid-student-protests-11886241#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Justice+Will+Be+Delivered+Jharkhand+Chief+Minister+Amid+Student+Protests",
+      "source_description": "\"Justice Will Be Delivered\": Jharkhand Chief Minister Amid Student Protests",
+      "declaration": {
+        "person": "Hemant Soren",
+        "claim": "Deliver justice with full transparency to youths protesting alleged irregularities in recruitment exams",
+        "quote": "I promise the exam protesters that justice will be delivered with full transparency",
+        "source_url": "https://www.ndtv.com/india-news/justice-will-be-delivered-jharkhand-chief-minister-amid-student-protests-11886241#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-09",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-09",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-09",
+          "evidence_url": "https://www.ndtv.com/india-news/justice-will-be-delivered-jharkhand-chief-minister-amid-student-protests-11886241#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a direct commitment made by the Chief Minister to deliver justice transparently to protesting students, which is a significant issue affecting a large number of people.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/justice-will-be-delivered-jharkhand-chief-minister-amid-student-protests-11886241#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Justice+Will+Be+Delivered+Jharkhand+Chief+Minister+Amid+Student+Protests",
+          "supporting_quote": "I promise the exam protesters that justice will be delivered with full transparency",
+          "title": "\"Justice Will Be Delivered\": Jharkhand Chief Minister Amid Student Protests",
+          "source": "NDTV",
+          "scraped_at": "2026-08-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Sunday, **Jharkhand Chief Minister Hemant Soren** pledged transparent justice for youths protesting exam irregularities and urged dialogue over force. He condemned violence against Delhi protesters and warned against politicizing the protests or misleading youths with false claims. Soren assured ...",
+          "content": "- Jharkhand Chief Minister Hemant Soren vowed transparent justice for youths protesting exam irregularities - He urged dialogue over force, condemning violence against student protesters in Delhi - Soren warned against politicising the protests and misleading youths with false claims Jharkhand Chief Minister Hemant Soren on Sunday pledged to deliver justice with transparency to youths protesting a...",
+          "quote": "I promise the exam protesters that justice will be delivered with full transparency"
+        }
+      ],
+      "notes": "The promise is a direct commitment made by the Chief Minister to deliver justice transparently to protesting students, which is a significant issue affecting a large number of people.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-09",
+      "created_at": "2026-08-09",
+      "url_checked_at": "2026-08-09",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It pertains to a specific group and situation rather than a large-scale, transformational commitment affecting the entire population.",
       "importance_source": "llm"
     }
   ]
