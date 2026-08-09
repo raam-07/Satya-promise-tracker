@@ -4,8 +4,8 @@
     "last_updated": "2026-08-09",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 127,
-    "promises_with_evidence": 127,
+    "total_promises": 128,
+    "promises_with_evidence": 128,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9404,6 +9404,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine scheme, not a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p128",
+      "person": "Himanta Biswa Sarma",
+      "party": "BJP",
+      "role": "Chief Minister of Assam",
+      "promise": "Find a 'national solution' to Assam's annual flooding",
+      "supporting_quote": "“Declaring floods a national problem is not going to work. We need a national solution with scientific interventions. We need concrete schemes on how Assam can protect itself if water comes downhill from Nagaland,”",
+      "category": "infrastructure",
+      "made_on": "2026-08-07",
+      "reported_on": "2026-08-09",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/assam/assam-needs-national-solution-to-floods-cm/article71321459.ece",
+      "url": "https://www.thehindu.com/news/national/assam/assam-needs-national-solution-to-floods-cm/article71321459.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Assam+needs+national+solution+to+floods+CM+-+The+Hindu",
+      "source_description": "Assam needs ‘national solution’ to floods: CM - The Hindu",
+      "declaration": {
+        "person": "Himanta Biswa Sarma",
+        "claim": "Find a 'national solution' to Assam's annual flooding",
+        "quote": "“Declaring floods a national problem is not going to work. We need a national solution with scientific interventions. We need concrete schemes on how Assam can protect itself if water comes downhill from Nagaland,”",
+        "source_url": "https://www.thehindu.com/news/national/assam/assam-needs-national-solution-to-floods-cm/article71321459.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-09",
+        "made_on": "2026-08-07",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-09",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-09",
+          "evidence_url": "https://www.thehindu.com/news/national/assam/assam-needs-national-solution-to-floods-cm/article71321459.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The Chief Minister declared the need for a national solution to Assam's flooding issue, emphasizing scientific interventions and concrete schemes.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/assam/assam-needs-national-solution-to-floods-cm/article71321459.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Assam+needs+national+solution+to+floods+CM+-+The+Hindu",
+          "supporting_quote": "“Declaring floods a national problem is not going to work. We need a national solution with scientific interventions. We need concrete schemes on how Assam can protect itself if water comes downhill from Nagaland,”",
+          "title": "Assam needs ‘national solution’ to floods: CM - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 7, 2026, **Himanta Biswa Sarma**, Assam's Chief Minister, stated that finding a \"national solution\" to the state’s annual flooding is more crucial than declaring it a national problem. This year’s floods have killed 98 people and caused over ₹1,000 crore in damage annually. Sarma emphasize...",
+          "content": "Assam Chief Minister Himanta Biswa Sarma said finding a “national solution” to the State’s annual flooding was more important than declaring it a national problem. Assam has a history of major floods up to five times a year, killing scores of people and animals and damaging crops and assets worth more than ₹1,000 crore annually. The floods this year have killed 98 people so far, most of them in th...",
+          "quote": "“Declaring floods a national problem is not going to work. We need a national solution with scientific interventions. We need concrete schemes on how Assam can protect itself if water comes downhill from Nagaland,”"
+        }
+      ],
+      "notes": "The Chief Minister declared the need for a national solution to Assam's flooding issue, emphasizing scientific interventions and concrete schemes.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-09",
+      "created_at": "2026-08-09",
+      "url_checked_at": "2026-08-09",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Affects a large population and could have national implications beyond Assam.",
       "importance_source": "llm"
     }
   ]
