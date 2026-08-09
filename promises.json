@@ -4,8 +4,8 @@
     "last_updated": "2026-08-09",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 128,
-    "promises_with_evidence": 128,
+    "total_promises": 129,
+    "promises_with_evidence": 129,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9477,6 +9477,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Affects a large population and could have national implications beyond Assam.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p129",
+      "person": "Mayawati",
+      "party": "BSP",
+      "role": "BSP National President",
+      "promise": "opposes 'creamy layer' for SCs, STs in reservation",
+      "supporting_quote": "BSP supremo Mayawati on Sunday (August 9, 2026) opposed the 'creamy layer' concept in reservations for Scheduled Castes and Scheduled Tribes, arguing that affirmative action was linked to their social transformation, economic emancipation and self-respect and criticised the RSS for politicising the issue.",
+      "category": "welfare",
+      "made_on": "2026-08-09",
+      "reported_on": "2026-08-09",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/mayawati-opposes-creamy-layer-for-scs-sts-in-reservation-hits-out-at-rss/article71324123.ece",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/mayawati-opposes-creamy-layer-for-scs-sts-in-reservation-hits-out-at-rss/article71324123.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Mayawati+opposes+creamy+layer+for+SCs+STs+in+reservation+hits+out+at+RSS+-+The+Hindu",
+      "source_description": "Mayawati opposes ‘creamy layer’ for SCs, STs in reservation, hits out at RSS - The Hindu",
+      "declaration": {
+        "person": "Mayawati",
+        "claim": "opposes 'creamy layer' for SCs, STs in reservation",
+        "quote": "BSP supremo Mayawati on Sunday (August 9, 2026) opposed the 'creamy layer' concept in reservations for Scheduled Castes and Scheduled Tribes, arguing that affirmative action was linked to their social transformation, economic emancipation and self-respect and criticised the RSS for politicising the issue.",
+        "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/mayawati-opposes-creamy-layer-for-scs-sts-in-reservation-hits-out-at-rss/article71324123.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-09",
+        "made_on": "2026-08-09",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-09",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-09",
+          "evidence_url": "https://www.thehindu.com/news/national/uttar-pradesh/mayawati-opposes-creamy-layer-for-scs-sts-in-reservation-hits-out-at-rss/article71324123.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Mayawati personally declared her opposition to the 'creamy layer' concept in reservations for SCs and STs, emphasizing its importance for social transformation and equality.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/mayawati-opposes-creamy-layer-for-scs-sts-in-reservation-hits-out-at-rss/article71324123.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Mayawati+opposes+creamy+layer+for+SCs+STs+in+reservation+hits+out+at+RSS+-+The+Hindu",
+          "supporting_quote": "BSP supremo Mayawati on Sunday (August 9, 2026) opposed the 'creamy layer' concept in reservations for Scheduled Castes and Scheduled Tribes, arguing that affirmative action was linked to their social transformation, economic emancipation and self-respect and criticised the RSS for politicising the issue.",
+          "title": "Mayawati opposes ‘creamy layer’ for SCs, STs in reservation, hits out at RSS - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 9, 2026, **Mayawati**, leader of the BSP, opposed the 'creamy layer' concept in reservations for Scheduled Castes and Tribes on X. She criticized the RSS's Mohan Bhagwat for politicizing the issue, arguing that reservation was crucial for social transformation and self-respect. Mayawati ur...",
+          "content": "BSP supremo Mayawati on Sunday (August 9, 2026) opposed the 'creamy layer' concept in reservations for Scheduled Castes and Scheduled Tribes, arguing that affirmative action was linked to their social transformation, economic emancipation and self-respect and criticised the RSS for politicising the issue. In a post on X, Mayawati said reservation was an \"extremely important and sensitive\" issue fo...",
+          "quote": "BSP supremo Mayawati on Sunday (August 9, 2026) opposed the 'creamy layer' concept in reservations for Scheduled Castes and Scheduled Tribes, arguing that affirmative action was linked to their social transformation, economic emancipation and self-respect and criticised the RSS for politicising the issue."
+        }
+      ],
+      "notes": "Mayawati personally declared her opposition to the 'creamy layer' concept in reservations for SCs and STs, emphasizing its importance for social transformation and equality.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-09",
+      "created_at": "2026-08-09",
+      "url_checked_at": "2026-08-09",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It pertains to a specific policy change rather than a large-scale, transformational commitment affecting millions.",
       "importance_source": "llm"
     }
   ]
