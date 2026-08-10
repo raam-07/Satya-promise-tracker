@@ -4,8 +4,8 @@
     "last_updated": "2026-08-10",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 131,
-    "promises_with_evidence": 131,
+    "total_promises": 132,
+    "promises_with_evidence": 132,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9696,6 +9696,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a specific infrastructure project rather than a nationwide or transformational state-level commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p132",
+      "person": "Bhagwant Mann",
+      "party": "Aam Aadmi Party",
+      "role": "Chief Minister of Punjab",
+      "promise": "Bring 26,000-28,000 workers under direct government contracts",
+      "supporting_quote": "The Punjab State Outsourced Personnel (Transition to Contractual Engagement) Bill, 2026, passed unanimously by the Assembly, seeks to bring 26,000 to 28,000 outsourced employees under direct contractual engagement with the government in the first phase.",
+      "category": "welfare",
+      "made_on": null,
+      "reported_on": "2026-08-10",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/amid-employee-protests-punjab-government-bets-on-2-bills-to-shift-narrative-11891762#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/amid-employee-protests-punjab-government-bets-on-2-bills-to-shift-narrative-11891762#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Amid+Employee+Protests+Punjab+Government+Bets+On+2+Bills+To+Shift+Narrative",
+      "source_description": "Amid Employee Protests, Punjab Government Bets On 2 Bills To Shift Narrative",
+      "declaration": {
+        "person": "Bhagwant Mann",
+        "claim": "Bring 26,000-28,000 workers under direct government contracts",
+        "quote": "The Punjab State Outsourced Personnel (Transition to Contractual Engagement) Bill, 2026, passed unanimously by the Assembly, seeks to bring 26,000 to 28,000 outsourced employees under direct contractual engagement with the government in the first phase.",
+        "source_url": "https://www.ndtv.com/india-news/amid-employee-protests-punjab-government-bets-on-2-bills-to-shift-narrative-11891762#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-10",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-10",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-10",
+          "evidence_url": "https://www.ndtv.com/india-news/amid-employee-protests-punjab-government-bets-on-2-bills-to-shift-narrative-11891762#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the passing of a bill to bring outsourced employees under direct government contracts, which is a new promise made by the Punjab government.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/amid-employee-protests-punjab-government-bets-on-2-bills-to-shift-narrative-11891762#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Amid+Employee+Protests+Punjab+Government+Bets+On+2+Bills+To+Shift+Narrative",
+          "supporting_quote": "The Punjab State Outsourced Personnel (Transition to Contractual Engagement) Bill, 2026, passed unanimously by the Assembly, seeks to bring 26,000 to 28,000 outsourced employees under direct contractual engagement with the government in the first phase.",
+          "title": "Amid Employee Protests, Punjab Government Bets On 2 Bills To Shift Narrative",
+          "source": "NDTV",
+          "scraped_at": "2026-08-10",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Monday, the **Punjab** government passed two significant bills aimed at worker and family welfare. The Punjab State Outsourced Personnel Bill brings 26,000 to 28,000 outsourced workers under direct government contracts, providing benefits like provident fund and maternity leave. Meanwhile, the Ed...",
+          "content": "- Punjab is betting on two bills to shift focus from employee protests to worker and family welfare - The Outsourced Personnel Bill brings 26,000-28,000 workers under direct government contracts - Education Bill caps private school fee hikes at 5% and mandates refunds for excess fees The Punjab government's passage of two major bills on Monday carries significance beyond their stated objectives. A...",
+          "quote": "The Punjab State Outsourced Personnel (Transition to Contractual Engagement) Bill, 2026, passed unanimously by the Assembly, seeks to bring 26,000 to 28,000 outsourced employees under direct contractual engagement with the government in the first phase."
+        }
+      ],
+      "notes": "The article mentions the passing of a bill to bring outsourced employees under direct government contracts, which is a new promise made by the Punjab government.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-10",
+      "created_at": "2026-08-10",
+      "url_checked_at": "2026-08-10",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It involves a specific number of workers and does not have a national or transformational state-level impact.",
       "importance_source": "llm"
     }
   ]
