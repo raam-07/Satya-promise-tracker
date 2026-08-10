@@ -4,8 +4,8 @@
     "last_updated": "2026-08-10",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 130,
-    "promises_with_evidence": 130,
+    "total_promises": 131,
+    "promises_with_evidence": 131,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9623,6 +9623,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It pertains to a specific group and situation rather than a large-scale, transformational commitment affecting the entire population.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p131",
+      "person": "V.D. Satheesan",
+      "party": "Indian National Congress",
+      "role": "Chief Minister of Kerala",
+      "promise": "implement comprehensive sea rescue system",
+      "supporting_quote": "A comprehensive sea rescue mechanism will be implemented in Kerala to ensure the safety of fishermen venturing into the sea, Chief Minister V.D. Satheesan said here on Monday (August 10, 2026).",
+      "category": "infrastructure",
+      "made_on": "2026-08-10",
+      "reported_on": "2026-08-10",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/kerala/kerala-to-implement-comprehensive-sea-rescue-system-chief-minister-satheesan/article71327815.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/kerala-to-implement-comprehensive-sea-rescue-system-chief-minister-satheesan/article71327815.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Kerala+to+implement+comprehensive+sea+rescue+system+Chief+Minister+Satheesan+-+The+Hindu",
+      "source_description": "Kerala to implement comprehensive sea rescue system: Chief Minister Satheesan - The Hindu",
+      "declaration": {
+        "person": "V.D. Satheesan",
+        "claim": "implement comprehensive sea rescue system",
+        "quote": "A comprehensive sea rescue mechanism will be implemented in Kerala to ensure the safety of fishermen venturing into the sea, Chief Minister V.D. Satheesan said here on Monday (August 10, 2026).",
+        "source_url": "https://www.thehindu.com/news/national/kerala/kerala-to-implement-comprehensive-sea-rescue-system-chief-minister-satheesan/article71327815.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-10",
+        "made_on": "2026-08-10",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-10",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-10",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/kerala-to-implement-comprehensive-sea-rescue-system-chief-minister-satheesan/article71327815.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The Chief Minister personally declared the implementation of a comprehensive sea rescue system to ensure the safety of fishermen.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/kerala-to-implement-comprehensive-sea-rescue-system-chief-minister-satheesan/article71327815.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Kerala+to+implement+comprehensive+sea+rescue+system+Chief+Minister+Satheesan+-+The+Hindu",
+          "supporting_quote": "A comprehensive sea rescue mechanism will be implemented in Kerala to ensure the safety of fishermen venturing into the sea, Chief Minister V.D. Satheesan said here on Monday (August 10, 2026).",
+          "title": "Kerala to implement comprehensive sea rescue system: Chief Minister Satheesan - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-10",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister V.D. Satheesan**, visiting the residence of Gautam Krishnan, a 26-year-old fisher missing since July 31 after a boat capsize off Neendakara, assured the implementation of a comprehensive sea rescue system in Kerala to ensure fishermen's safety. This follows incidents where Gautam’s ...",
+          "content": "Kerala to implement comprehensive sea rescue system: Chief Minister Satheesan Mechanism will ensure the safety of fishermen venturing into the sea, says CM; he gives assurance after visiting the residence of Gautam Krishnan, a 26-year-old fisher missing at sea since July 31 A comprehensive sea rescue mechanism will be implemented in Kerala to ensure the safety of fishermen venturing into the sea, ...",
+          "quote": "A comprehensive sea rescue mechanism will be implemented in Kerala to ensure the safety of fishermen venturing into the sea, Chief Minister V.D. Satheesan said here on Monday (August 10, 2026)."
+        }
+      ],
+      "notes": "The Chief Minister personally declared the implementation of a comprehensive sea rescue system to ensure the safety of fishermen.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-10",
+      "created_at": "2026-08-10",
+      "url_checked_at": "2026-08-10",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a specific infrastructure project rather than a nationwide or transformational state-level commitment.",
       "importance_source": "llm"
     }
   ]
