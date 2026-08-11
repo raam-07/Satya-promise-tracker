@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-08-10",
+    "last_updated": "2026-08-11",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 134,
-    "promises_with_evidence": 134,
+    "total_promises": 135,
+    "promises_with_evidence": 135,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9915,6 +9915,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine policy decision affecting transaction costs, not a transformational economic commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p135",
+      "person": "Nitin Gadkari",
+      "party": "BJP",
+      "role": "Union Minister",
+      "promise": "Focus on road safety education for students in Classes 10 and 12",
+      "supporting_quote": "To address this at the source, he said the Ministry has begun focusing road safety education on students in Classes 10 and 12, to instil safer habits early.",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-08-10",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/every-hour-20-people-die-on-our-roads-says-nitin-gadkari-11892418#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/every-hour-20-people-die-on-our-roads-says-nitin-gadkari-11892418#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Every+Hour+20+People+Die+On+Our+Roads+Says+Nitin+Gadkari",
+      "source_description": "Every Hour, 20 People Die On Our Roads, Says Nitin Gadkari",
+      "declaration": {
+        "person": "Nitin Gadkari",
+        "claim": "Focus on road safety education for students in Classes 10 and 12",
+        "quote": "To address this at the source, he said the Ministry has begun focusing road safety education on students in Classes 10 and 12, to instil safer habits early.",
+        "source_url": "https://www.ndtv.com/india-news/every-hour-20-people-die-on-our-roads-says-nitin-gadkari-11892418#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-10",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-11",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-11",
+          "evidence_url": "https://www.ndtv.com/india-news/every-hour-20-people-die-on-our-roads-says-nitin-gadkari-11892418#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a new initiative by Nitin Gadkari to focus on road safety education for students in Classes 10 and 12.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/every-hour-20-people-die-on-our-roads-says-nitin-gadkari-11892418#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Every+Hour+20+People+Die+On+Our+Roads+Says+Nitin+Gadkari",
+          "supporting_quote": "To address this at the source, he said the Ministry has begun focusing road safety education on students in Classes 10 and 12, to instil safer habits early.",
+          "title": "Every Hour, 20 People Die On Our Roads, Says Nitin Gadkari",
+          "source": "NDTV",
+          "scraped_at": "2026-08-10",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Nitin Gadkari**, Union Road Transport & Highways Minister, warned at an ICICI Lombard event in New Delhi that India's roads claim more lives annually than any war or disease, with nearly 5 lakh accidents resulting in 1.8 lakh deaths yearly. He highlighted that poorly designed stretches and human b...",
+          "content": "Union Road Transport & Highways Minister Nitin Gadkari issued a stark warning on India's road safety crisis, stating that no war or disease claims as many lives as India's roads do each year. He was speaking at a road safety event in the national capital on Monday, organised by ICICI Lombard General Insurance as part of the company's flagship CSR initiative. Laying out the scale of the crisis, Gad...",
+          "quote": "To address this at the source, he said the Ministry has begun focusing road safety education on students in Classes 10 and 12, to instil safer habits early."
+        }
+      ],
+      "notes": "The article mentions a new initiative by Nitin Gadkari to focus on road safety education for students in Classes 10 and 12.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-11",
+      "created_at": "2026-08-11",
+      "url_checked_at": "2026-08-11",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a specific educational initiative targeting only two classes, not a nationwide transformational commitment.",
       "importance_source": "llm"
     }
   ]
