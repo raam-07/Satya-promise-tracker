@@ -4,8 +4,8 @@
     "last_updated": "2026-08-11",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 135,
-    "promises_with_evidence": 135,
+    "total_promises": 136,
+    "promises_with_evidence": 136,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -9988,6 +9988,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a specific educational initiative targeting only two classes, not a nationwide transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p136",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Residents of Kolar and Chickballapur districts will receive water from the Yettinahole project by the end of 2027",
+      "supporting_quote": "residents of the parched Kolar and Chickballapur districts would receive water from the Yettinahole project by the end of 2027 as part of the new guarantee",
+      "category": "infrastructure",
+      "made_on": "2026-08-10",
+      "reported_on": "2026-08-11",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/water-security-is-seventh-guarantee-says-karnataka-cm-promising-yettinahole-water-to-kolar-and-chickballapur-by-2027-end/article71328622.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/water-security-is-seventh-guarantee-says-karnataka-cm-promising-yettinahole-water-to-kolar-and-chickballapur-by-2027-end/article71328622.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Water+security+is+seventh+guarantee+Karnataka+CM+-+The+Hindu",
+      "source_description": "Water security is seventh guarantee: Karnataka CM - The Hindu",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Residents of Kolar and Chickballapur districts will receive water from the Yettinahole project by the end of 2027",
+        "quote": "residents of the parched Kolar and Chickballapur districts would receive water from the Yettinahole project by the end of 2027 as part of the new guarantee",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/water-security-is-seventh-guarantee-says-karnataka-cm-promising-yettinahole-water-to-kolar-and-chickballapur-by-2027-end/article71328622.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-11",
+        "made_on": "2026-08-10",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-11",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-11",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/water-security-is-seventh-guarantee-says-karnataka-cm-promising-yettinahole-water-to-kolar-and-chickballapur-by-2027-end/article71328622.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a new commitment made by D.K. Shivakumar to provide water to residents of Kolar and Chickballapur districts from the Yettinahole project by the end of 2027.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/water-security-is-seventh-guarantee-says-karnataka-cm-promising-yettinahole-water-to-kolar-and-chickballapur-by-2027-end/article71328622.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Water+security+is+seventh+guarantee+Karnataka+CM+-+The+Hindu",
+          "supporting_quote": "residents of the parched Kolar and Chickballapur districts would receive water from the Yettinahole project by the end of 2027 as part of the new guarantee",
+          "title": "Water security is seventh guarantee: Karnataka CM - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 10, **Karnataka** Chief Minister D.K. Shivakumar announced the seventh guarantee scheme for water security in Karnataka, ensuring residents of Kolar and Chickballapur districts will receive water from the Yettinahole project by late 2027. Speaking at an inauguration event in Malur taluk, h...",
+          "content": "Announcing that the Congress government has decided to ensure water security as its seventh guarantee scheme for the people of the State, Karnataka Chief Minister D.K. Shivakumar on Monday (August 10) said residents of the parched Kolar and Chickballapur districts would receive water from the Yettinahole project by the end of 2027 as part of the new guarantee. Speaking after inaugurating various d...",
+          "quote": "residents of the parched Kolar and Chickballapur districts would receive water from the Yettinahole project by the end of 2027 as part of the new guarantee"
+        }
+      ],
+      "notes": "The promise is a new commitment made by D.K. Shivakumar to provide water to residents of Kolar and Chickballapur districts from the Yettinahole project by the end of 2027.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-11",
+      "created_at": "2026-08-11",
+      "url_checked_at": "2026-08-11",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a specific infrastructure project benefiting only two districts, not a nationwide transformational commitment.",
       "importance_source": "llm"
     }
   ]
