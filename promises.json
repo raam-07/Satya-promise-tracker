@@ -4,8 +4,8 @@
     "last_updated": "2026-08-12",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 136,
-    "promises_with_evidence": 136,
+    "total_promises": 137,
+    "promises_with_evidence": 137,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10061,6 +10061,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a specific infrastructure project benefiting only two districts, not a nationwide transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p137",
+      "person": "Himanta Biswa Sarma",
+      "party": "BJP",
+      "role": "Chief Minister of Assam",
+      "promise": "Rehabilitation and repair of properties for flood-affected people in Assam",
+      "supporting_quote": "To provide permanent relief, a rapid relief assessment drive was launched on August 9. As per an initial report, over 8,000 families have been assessed and ₹150 crore damage has been estimated",
+      "category": "welfare",
+      "made_on": "2026-08-12",
+      "reported_on": "2026-08-12",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/assam/over-1000-crore-likely-needed-for-rehabilitation-of-assam-flood-victims-himanta/article71335657.ece",
+      "url": "https://www.thehindu.com/news/national/assam/over-1000-crore-likely-needed-for-rehabilitation-of-assam-flood-victims-himanta/article71335657.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Over+1+000+crore+likely+needed+for+rehabilitation+of+Assam+flood+victims+Himanta+-+The+Hindu",
+      "source_description": "Over ₹1,000 crore likely needed for rehabilitation of Assam flood victims: Himanta - The Hindu",
+      "declaration": {
+        "person": "Himanta Biswa Sarma",
+        "claim": "Rehabilitation and repair of properties for flood-affected people in Assam",
+        "quote": "To provide permanent relief, a rapid relief assessment drive was launched on August 9. As per an initial report, over 8,000 families have been assessed and ₹150 crore damage has been estimated",
+        "source_url": "https://www.thehindu.com/news/national/assam/over-1000-crore-likely-needed-for-rehabilitation-of-assam-flood-victims-himanta/article71335657.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-12",
+        "made_on": "2026-08-12",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-12",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-12",
+          "evidence_url": "https://www.thehindu.com/news/national/assam/over-1000-crore-likely-needed-for-rehabilitation-of-assam-flood-victims-himanta/article71335657.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the launch of a rapid relief assessment drive and the estimated cost for rehabilitation, indicating a new commitment by the Chief Minister.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/assam/over-1000-crore-likely-needed-for-rehabilitation-of-assam-flood-victims-himanta/article71335657.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Over+1+000+crore+likely+needed+for+rehabilitation+of+Assam+flood+victims+Himanta+-+The+Hindu",
+          "supporting_quote": "To provide permanent relief, a rapid relief assessment drive was launched on August 9. As per an initial report, over 8,000 families have been assessed and ₹150 crore damage has been estimated",
+          "title": "Over ₹1,000 crore likely needed for rehabilitation of Assam flood victims: Himanta - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-12",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 12, 2026, **Himanta Biswa Sarma**, Assam's Chief Minister, said at least ₹1,000 crore is needed for flood repairs and rehabilitation in Upper Assam. Prime Minister **Narendra Modi** assured full assistance. An initial report estimated over ₹150 crore damage affecting 8,000 families; the su...",
+          "content": "Assam Chief Minister Himanta Biswa Sarma on Wednesday (August 12, 2026) said at least ₹1,000 crore will be required for repair of properties and rehabilitation of the flood-affected people in the districts ravaged by the latest wave of the deluge. Addressing a press conference in Guwahati, he said that Prime Minister Narendra Modi has assured full assistance in the rehabilitation process. \"To prov...",
+          "quote": "To provide permanent relief, a rapid relief assessment drive was launched on August 9. As per an initial report, over 8,000 families have been assessed and ₹150 crore damage has been estimated"
+        }
+      ],
+      "notes": "The article mentions the launch of a rapid relief assessment drive and the estimated cost for rehabilitation, indicating a new commitment by the Chief Minister.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-12",
+      "created_at": "2026-08-12",
+      "url_checked_at": "2026-08-12",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a localized relief measure for flood-affected individuals rather than a transformational, large-scale commitment.",
       "importance_source": "llm"
     }
   ]
