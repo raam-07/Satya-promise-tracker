@@ -4,8 +4,8 @@
     "last_updated": "2026-08-12",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 137,
-    "promises_with_evidence": 137,
+    "total_promises": 138,
+    "promises_with_evidence": 138,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10134,6 +10134,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a localized relief measure for flood-affected individuals rather than a transformational, large-scale commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p138",
+      "person": "Suvendu Adhikari",
+      "party": "Trinamool Congress",
+      "role": "Chief Minister of West Bengal",
+      "promise": "directed police to arrest those making derogatory comments on Netaji Subhas Chandra Bose",
+      "supporting_quote": "I have asked the police to take stringent action against those making derogatory remarks against Netaji on social media. Police have been directed to arrest those behind this",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-08-12",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/nobody-will-be-spared-suvendu-adhikari-on-bjp-mp-nagendranath-roys-netaji-remark-11900876#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/nobody-will-be-spared-suvendu-adhikari-on-bjp-mp-nagendranath-roys-netaji-remark-11900876#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Nobody+Will+Be+Spared+Suvendu+Adhikari+On+BJP+MP+Nagendranath+Roy+s+Netaji+Remark",
+      "source_description": "'Nobody Will Be Spared': Suvendu Adhikari On BJP MP Nagendranath Roy's Netaji Remark",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "directed police to arrest those making derogatory comments on Netaji Subhas Chandra Bose",
+        "quote": "I have asked the police to take stringent action against those making derogatory remarks against Netaji on social media. Police have been directed to arrest those behind this",
+        "source_url": "https://www.ndtv.com/india-news/nobody-will-be-spared-suvendu-adhikari-on-bjp-mp-nagendranath-roys-netaji-remark-11900876#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-12",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-12",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-12",
+          "evidence_url": "https://www.ndtv.com/india-news/nobody-will-be-spared-suvendu-adhikari-on-bjp-mp-nagendranath-roys-netaji-remark-11900876#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a new directive given by Suvendu Adhikari to the police regarding stringent action against derogatory remarks about Netaji Subhas Chandra Bose.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/nobody-will-be-spared-suvendu-adhikari-on-bjp-mp-nagendranath-roys-netaji-remark-11900876#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Nobody+Will+Be+Spared+Suvendu+Adhikari+On+BJP+MP+Nagendranath+Roy+s+Netaji+Remark",
+          "supporting_quote": "I have asked the police to take stringent action against those making derogatory remarks against Netaji on social media. Police have been directed to arrest those behind this",
+          "title": "'Nobody Will Be Spared': Suvendu Adhikari On BJP MP Nagendranath Roy's Netaji Remark",
+          "source": "NDTV",
+          "scraped_at": "2026-08-12",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "West Bengal Chief Minister **Suvendu Adhikari** directed police on Wednesday to arrest those making derogatory comments about Netaji Subhas Chandra Bose, following BJP MP Nagendranath Roy's description of him as a \"war criminal.\" Adhikari stated the law applies equally to all, including MPs and MLAs...",
+          "content": "- West Bengal CM Suvendu Adhikari directed police to arrest those insulting Netaji Subhas Chandra Bose - The order follows BJP MP Nagendranath Roy calling Netaji a \"war criminal\" and questioning his leadership - Adhikari stated law applies equally to MPs, MLAs, government officials, and no one will be spared West Bengal Chief Minister Suvendu Adhikari on Wednesday directed the police to arrest tho...",
+          "quote": "I have asked the police to take stringent action against those making derogatory remarks against Netaji on social media. Police have been directed to arrest those behind this"
+        }
+      ],
+      "notes": "The promise is a new directive given by Suvendu Adhikari to the police regarding stringent action against derogatory remarks about Netaji Subhas Chandra Bose.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-12",
+      "created_at": "2026-08-12",
+      "url_checked_at": "2026-08-12",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine administrative directive rather than a transformational commitment.",
       "importance_source": "llm"
     }
   ]
