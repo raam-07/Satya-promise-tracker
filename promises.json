@@ -4,8 +4,8 @@
     "last_updated": "2026-08-13",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 138,
-    "promises_with_evidence": 138,
+    "total_promises": 139,
+    "promises_with_evidence": 139,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10207,6 +10207,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine administrative directive rather than a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p139",
+      "person": "V.D. Satheesan",
+      "party": "Indian National Congress",
+      "role": "Chief Minister of Kerala",
+      "promise": "mount strong political and, if necessary, legal opposition to the Mines and Minerals (Development and Regulation) Amendment Bill, 2026",
+      "supporting_quote": "Kerala Chief Minister V.D. Satheesan on Thursday (August 13, 2026) said the State government would mount strong political and, if necessary, legal opposition to the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, passed by the Lok Sabha a day ago.",
+      "category": "law_and_order",
+      "made_on": "2026-08-13",
+      "reported_on": "2026-08-13",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/kerala/kerala-vows-strong-opposition-to-centres-mining-amendment/article71340001.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/kerala-vows-strong-opposition-to-centres-mining-amendment/article71340001.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Kerala+vows+strong+opposition+to+Centre+s+mining+amendment+Bill+-+The+Hindu",
+      "source_description": "Kerala vows strong opposition to Centre’s mining amendment Bill - The Hindu",
+      "declaration": {
+        "person": "V.D. Satheesan",
+        "claim": "mount strong political and, if necessary, legal opposition to the Mines and Minerals (Development and Regulation) Amendment Bill, 2026",
+        "quote": "Kerala Chief Minister V.D. Satheesan on Thursday (August 13, 2026) said the State government would mount strong political and, if necessary, legal opposition to the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, passed by the Lok Sabha a day ago.",
+        "source_url": "https://www.thehindu.com/news/national/kerala/kerala-vows-strong-opposition-to-centres-mining-amendment/article71340001.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-13",
+        "made_on": "2026-08-13",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-13",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-13",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/kerala-vows-strong-opposition-to-centres-mining-amendment/article71340001.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article explicitly mentions the Chief Minister's declaration of opposition to the Bill, which is a concrete commitment.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/kerala-vows-strong-opposition-to-centres-mining-amendment/article71340001.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Kerala+vows+strong+opposition+to+Centre+s+mining+amendment+Bill+-+The+Hindu",
+          "supporting_quote": "Kerala Chief Minister V.D. Satheesan on Thursday (August 13, 2026) said the State government would mount strong political and, if necessary, legal opposition to the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, passed by the Lok Sabha a day ago.",
+          "title": "Kerala vows strong opposition to Centre’s mining amendment Bill - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-13",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 13, 2026, **V.D. Satheesan**, Kerala's Chief Minister, announced strong opposition to the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, passed by the Lok Sabha, citing it as a violation of state constitutional powers over land. He also revealed plans for direct EXIM...",
+          "content": "Kerala Chief Minister V.D. Satheesan on Thursday (August 13, 2026) said the State government would mount strong political and, if necessary, legal opposition to the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, passed by the Lok Sabha a day ago. He said the legislation amounts to “a serious encroachment on the State’s constitutional powers over land and poses a grave threat...",
+          "quote": "Kerala Chief Minister V.D. Satheesan on Thursday (August 13, 2026) said the State government would mount strong political and, if necessary, legal opposition to the Mines and Minerals (Development and Regulation) Amendment Bill, 2026, passed by the Lok Sabha a day ago."
+        }
+      ],
+      "notes": "The article explicitly mentions the Chief Minister's declaration of opposition to the Bill, which is a concrete commitment.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-13",
+      "created_at": "2026-08-13",
+      "url_checked_at": "2026-08-13",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It involves opposition to a specific bill rather than a transformative policy or large-scale action.",
       "importance_source": "llm"
     }
   ]
