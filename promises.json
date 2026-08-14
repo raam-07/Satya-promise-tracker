@@ -4,8 +4,8 @@
     "last_updated": "2026-08-14",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 139,
-    "promises_with_evidence": 139,
+    "total_promises": 140,
+    "promises_with_evidence": 140,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10280,6 +10280,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It involves opposition to a specific bill rather than a transformative policy or large-scale action.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p140",
+      "person": "V.D. Satheesan",
+      "party": "Indian National Congress",
+      "role": "Chief Minister of Kerala",
+      "promise": "Transform police stations into accessible and citizen-friendly service centres",
+      "supporting_quote": "Speaking at the State-level launch of the initiative at Peroorkada police station premises in Thiruvananthapuram, Mr. Satheesan said the project sought to make the police a “friend” and a source of support for people, while retaining the deterrent role of the force against crime.",
+      "category": "law_and_order",
+      "made_on": "2026-08-14",
+      "reported_on": "2026-08-14",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/kerala/kerala-launches-my-police-station-project-to-enhance-citizen-friendly-services/article71344833.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/kerala-launches-my-police-station-project-to-enhance-citizen-friendly-services/article71344833.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Kerala+launches+My+Police+Station+project+to+enhance+citizen-friendly+services+-+The+Hindu",
+      "source_description": "Kerala launches My Police Station project to enhance citizen-friendly services - The Hindu",
+      "declaration": {
+        "person": "V.D. Satheesan",
+        "claim": "Transform police stations into accessible and citizen-friendly service centres",
+        "quote": "Speaking at the State-level launch of the initiative at Peroorkada police station premises in Thiruvananthapuram, Mr. Satheesan said the project sought to make the police a “friend” and a source of support for people, while retaining the deterrent role of the force against crime.",
+        "source_url": "https://www.thehindu.com/news/national/kerala/kerala-launches-my-police-station-project-to-enhance-citizen-friendly-services/article71344833.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-14",
+        "made_on": "2026-08-14",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-14",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-14",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/kerala-launches-my-police-station-project-to-enhance-citizen-friendly-services/article71344833.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article describes a new initiative announced by V.D. Satheesan to transform police stations into more accessible and citizen-friendly service centres.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/kerala-launches-my-police-station-project-to-enhance-citizen-friendly-services/article71344833.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Kerala+launches+My+Police+Station+project+to+enhance+citizen-friendly+services+-+The+Hindu",
+          "supporting_quote": "Speaking at the State-level launch of the initiative at Peroorkada police station premises in Thiruvananthapuram, Mr. Satheesan said the project sought to make the police a “friend” and a source of support for people, while retaining the deterrent role of the force against crime.",
+          "title": "Kerala launches My Police Station project to enhance citizen-friendly services - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-14",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 14, 2026, **V.D. Satheesan**, Chief Minister of Kerala, launched the 'My Police Station' project at Peroorkada police station in Thiruvananthapuram. The initiative aims to transform police stations into accessible and citizen-friendly service centers while maintaining a deterrent against c...",
+          "content": "Kerala launches My Police Station project to enhance citizen-friendly services Speaking at State-level launch of the initiative at Peroorkada police station in Thiruvananthapuram, Chief Minister V.D. Satheesan says the project seeks to make the police a 'friend' and a source of support for people, while retaining the deterrent role of the force against crime Updated - August 14, 2026 03:11 pm IST ...",
+          "quote": "Speaking at the State-level launch of the initiative at Peroorkada police station premises in Thiruvananthapuram, Mr. Satheesan said the project sought to make the police a “friend” and a source of support for people, while retaining the deterrent role of the force against crime."
+        }
+      ],
+      "notes": "The article describes a new initiative announced by V.D. Satheesan to transform police stations into more accessible and citizen-friendly service centres.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-14",
+      "created_at": "2026-08-14",
+      "url_checked_at": "2026-08-14",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine improvement in governance rather than a transformational commitment affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
