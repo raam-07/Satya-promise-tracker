@@ -4,8 +4,8 @@
     "last_updated": "2026-08-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 142,
-    "promises_with_evidence": 142,
+    "total_promises": 143,
+    "promises_with_evidence": 143,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10558,6 +10558,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine educational initiative rather than a transformational, nation-shaping commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p143",
+      "person": "Himanta Biswa Sarma",
+      "party": "BJP",
+      "role": "Chief Minister of Assam",
+      "promise": "Create a separate department focusing on skill development and empowerment of young people",
+      "supporting_quote": "The chief minister said the government would create a separate department focusing on skill development and empowerment of young people, with an emphasis on preparing them for employment and other opportunities.",
+      "category": "welfare",
+      "made_on": null,
+      "reported_on": "2026-08-15",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/independence-day-2026-himanta-sarma-says-gen-z-alpha-labels-european-concept-says-call-them-son-daughter-11914025#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/independence-day-2026-himanta-sarma-says-gen-z-alpha-labels-european-concept-says-call-them-son-daughter-11914025#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Independence+Day+2026+Himanta+Sarma+Says+Gen+Z+Alpha+Labels+European+Concept+Says+Call+Them+Son+Daughter",
+      "source_description": "Independence Day 2026: Himanta Sarma Says Gen Z, Alpha Labels European Concept, Says Call Them Son, Daughter",
+      "declaration": {
+        "person": "Himanta Biswa Sarma",
+        "claim": "Create a separate department focusing on skill development and empowerment of young people",
+        "quote": "The chief minister said the government would create a separate department focusing on skill development and empowerment of young people, with an emphasis on preparing them for employment and other opportunities.",
+        "source_url": "https://www.ndtv.com/india-news/independence-day-2026-himanta-sarma-says-gen-z-alpha-labels-european-concept-says-call-them-son-daughter-11914025#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-15",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-15",
+          "evidence_url": "https://www.ndtv.com/india-news/independence-day-2026-himanta-sarma-says-gen-z-alpha-labels-european-concept-says-call-them-son-daughter-11914025#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a new declaration by the chief minister to create a separate department for youth welfare, but no specific timeline or existing promise is referenced.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/independence-day-2026-himanta-sarma-says-gen-z-alpha-labels-european-concept-says-call-them-son-daughter-11914025#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Independence+Day+2026+Himanta+Sarma+Says+Gen+Z+Alpha+Labels+European+Concept+Says+Call+Them+Son+Daughter",
+          "supporting_quote": "The chief minister said the government would create a separate department focusing on skill development and empowerment of young people, with an emphasis on preparing them for employment and other opportunities.",
+          "title": "Independence Day 2026: Himanta Sarma Says Gen Z, Alpha Labels European Concept, Says Call Them Son, Daughter",
+          "source": "NDTV",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Saturday, **Himanta Biswa Sarma**, Assam's Chief Minister, dismissed the concepts of Gen Z and Alpha as Western during Independence Day celebrations in Guwahati. He announced plans for a youth-focused department and an investment program worth Rs 1.5 lakh crore over five years. Other initiatives ...",
+          "content": "Chief Minister Himanta Biswa Sarma on Saturday dismissed the concepts of Gen Z and Alpha as \"European\" ones and said that Assam needed to shape its own approach to youth and development. Addressing a public gathering after hoisting the national flag on the 80th Independence Day in Guwahati, Sarma said, \"I don't believe in the concept of Gen Z or Gen Alpha. It is a Western concept. For us, the stud...",
+          "quote": "The chief minister said the government would create a separate department focusing on skill development and empowerment of young people, with an emphasis on preparing them for employment and other opportunities."
+        }
+      ],
+      "notes": "The article mentions a new declaration by the chief minister to create a separate department for youth welfare, but no specific timeline or existing promise is referenced.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-15",
+      "created_at": "2026-08-15",
+      "url_checked_at": "2026-08-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Creating a new department is a structural change but does not have a direct, large-scale, transformational impact on the population.",
       "importance_source": "llm"
     }
   ]
