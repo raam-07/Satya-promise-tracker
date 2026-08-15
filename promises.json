@@ -4,8 +4,8 @@
     "last_updated": "2026-08-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 143,
-    "promises_with_evidence": 143,
+    "total_promises": 144,
+    "promises_with_evidence": 144,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10631,6 +10631,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Creating a new department is a structural change but does not have a direct, large-scale, transformational impact on the population.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p144",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "Unprecedented development in the next five years",
+      "supporting_quote": "The next five years will be the years of unprecedented development.",
+      "category": "other",
+      "made_on": "2023-08-15",
+      "reported_on": "2026-08-15",
+      "deadline": "2028",
+      "source_url": "https://www.ndtv.com/opinion/tracing-indias-journey-through-pm-narendra-modis-independence-day-speeches-11914461#publisher=newsstand",
+      "url": "https://www.ndtv.com/opinion/tracing-indias-journey-through-pm-narendra-modis-independence-day-speeches-11914461#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Tracing+India+s+Journey+Through+PM+Narendra+Modi+s+Independence+Day+Speeches",
+      "source_description": "Tracing India's Journey Through PM Narendra Modi's Independence Day Speeches",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "Unprecedented development in the next five years",
+        "quote": "The next five years will be the years of unprecedented development.",
+        "source_url": "https://www.ndtv.com/opinion/tracing-indias-journey-through-pm-narendra-modis-independence-day-speeches-11914461#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-15",
+        "made_on": "2023-08-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-15",
+          "evidence_url": "https://www.ndtv.com/opinion/tracing-indias-journey-through-pm-narendra-modis-independence-day-speeches-11914461#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article presents a new declaration made by PM Modi in his Independence Day speech, promising unprecedented development in the next five years.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/opinion/tracing-indias-journey-through-pm-narendra-modis-independence-day-speeches-11914461#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Tracing+India+s+Journey+Through+PM+Narendra+Modi+s+Independence+Day+Speeches",
+          "supporting_quote": "The next five years will be the years of unprecedented development.",
+          "title": "Tracing India's Journey Through PM Narendra Modi's Independence Day Speeches",
+          "source": "NDTV",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Amit Malviya**, national head of the BJP's information and technology, analyzes **Prime Minister Narendra Modi**'s Independence Day speeches from 2014 to 2026, highlighting a shift from addressing basic needs like toilets and electricity to focusing on technological advancement and women empowerme...",
+          "content": "There is a simple way to measure the distance India has travelled in the last decade: listen to the prime minister's Independence Day speeches. Things have changed; it is undeniable. But what has also changed is the very nature of what Prime Minister Narendra Modi has to talk about. In the early years of the Modi government, the speeches were often about problems that we may today consider as ordi...",
+          "quote": "The next five years will be the years of unprecedented development."
+        }
+      ],
+      "notes": "The article presents a new declaration made by PM Modi in his Independence Day speech, promising unprecedented development in the next five years.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-08-15",
+      "created_at": "2026-08-15",
+      "url_checked_at": "2026-08-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "The promise is vague and lacks specific scale or impact.",
       "importance_source": "llm"
     }
   ]
