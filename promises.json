@@ -4,8 +4,8 @@
     "last_updated": "2026-08-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 140,
-    "promises_with_evidence": 140,
+    "total_promises": 141,
+    "promises_with_evidence": 141,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10391,6 +10391,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine improvement in governance rather than a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p141",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "launch a nationwide talent hunt for children aged 5 to 15 to identify prospects in every corner of the country",
+      "supporting_quote": "We have decided that in 2036, we should have participation in at least three fourth events. We are launching a nationwide talent hunt for children aged 5 to 15 to identify prospects in every corner of the country. They will get special training to become world class athletes",
+      "category": "education",
+      "made_on": "2026-08-15",
+      "reported_on": "2026-08-15",
+      "deadline": "2036",
+      "source_url": "https://www.thehindu.com/news/national/independence-day-2026-india-aims-to-be-strong-contender-for-2036-olympics-says-pm-modi/article71348516.ece",
+      "url": "https://www.thehindu.com/news/national/independence-day-2026-india-aims-to-be-strong-contender-for-2036-olympics-says-pm-modi/article71348516.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Independence+Day+2026+India+aims+to+be+strong+contender+for+2036+Olympics+says+PM+Modi+-+The+Hindu",
+      "source_description": "Independence Day 2026: India aims to be strong contender for 2036 Olympics, says PM Modi - The Hindu",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "launch a nationwide talent hunt for children aged 5 to 15 to identify prospects in every corner of the country",
+        "quote": "We have decided that in 2036, we should have participation in at least three fourth events. We are launching a nationwide talent hunt for children aged 5 to 15 to identify prospects in every corner of the country. They will get special training to become world class athletes",
+        "source_url": "https://www.thehindu.com/news/national/independence-day-2026-india-aims-to-be-strong-contender-for-2036-olympics-says-pm-modi/article71348516.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-15",
+        "made_on": "2026-08-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-15",
+          "evidence_url": "https://www.thehindu.com/news/national/independence-day-2026-india-aims-to-be-strong-contender-for-2036-olympics-says-pm-modi/article71348516.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a new initiative by PM Modi to launch a nationwide talent hunt for children aged 5 to 15 to identify prospects in every corner of the country.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/independence-day-2026-india-aims-to-be-strong-contender-for-2036-olympics-says-pm-modi/article71348516.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Independence+Day+2026+India+aims+to+be+strong+contender+for+2036+Olympics+says+PM+Modi+-+The+Hindu",
+          "supporting_quote": "We have decided that in 2036, we should have participation in at least three fourth events. We are launching a nationwide talent hunt for children aged 5 to 15 to identify prospects in every corner of the country. They will get special training to become world class athletes",
+          "title": "Independence Day 2026: India aims to be strong contender for 2036 Olympics, says PM Modi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 15, 2026, **Prime Minister Narendra Modi** announced India's ambition to host the 2036 Olympics and launched a nationwide talent hunt for children aged 5 to 15. He highlighted the success of the Target Olympic Podium Scheme (TOPS) since its launch in 2014 and emphasized the need to partici...",
+          "content": "Prime Minister Narendra Modi on Saturday (August 15, 2026) said India is a strong contender to host the 2036 Olympics and to ensure that the country also has a strong presence in the mega-event, a nationwide talent hunt would be launched to identify prospects in the age group of 5 to 15. Addressing the country from the ramparts of Red Fort on the 80th Independence Day, Mr. Modi said the government...",
+          "quote": "We have decided that in 2036, we should have participation in at least three fourth events. We are launching a nationwide talent hunt for children aged 5 to 15 to identify prospects in every corner of the country. They will get special training to become world class athletes"
+        }
+      ],
+      "notes": "The article mentions a new initiative by PM Modi to launch a nationwide talent hunt for children aged 5 to 15 to identify prospects in every corner of the country.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-15",
+      "created_at": "2026-08-15",
+      "url_checked_at": "2026-08-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a nationwide initiative but does not have a transformative impact on education or the economy.",
       "importance_source": "llm"
     }
   ]
