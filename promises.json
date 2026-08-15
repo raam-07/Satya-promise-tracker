@@ -5682,7 +5682,7 @@
       "search_fallback_url": "https://www.google.com/search?q=Chief+Minister+Vijay+promises+an+inclusive+and+corruption-free+government+-+The+Hindu",
       "source_description": "Chief Minister Vijay promises an inclusive and corruption-free government - The Hindu",
       "status": "ongoing",
-      "status_last_reviewed": "2026-06-19",
+      "status_last_reviewed": "2026-08-15",
       "status_history": [
         {
           "status": "ongoing",
@@ -5711,6 +5711,25 @@
           "source_domain": "thehindu.com",
           "evidence_type": "legacy_unclassified",
           "quote_verified": false
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/we-want-people-of-tamil-nadu-to-develop-zero-tolerance-for-corruption-cm-vijay/article71348864.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=We+want+people+of+Tamil+Nadu+to+develop+zero+tolerance+for+corruption+CM+Vijay+-+The+Hindu",
+          "supporting_quote": "We are working in mission mode to achieve a corruption-free government. We want our people to develop zero tolerance for corruption. We appeal to the officials and the people of Tamil Nadu to make our State corruption-free",
+          "title": "We want people of Tamil Nadu to develop zero tolerance for corruption: CM Vijay - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 15, 2026, **C. Joseph Vijay**, Chief Minister of Tamil Nadu since his party **Tamilaga Vettri Kazhagam (TVK)** won the elections, delivered a speech at Fort St. George emphasizing corruption-free governance and appealing to officials and citizens for support. He thanked voters for rejectin...",
+          "content": "In his maiden Independence Day speech as Chief Minister of Tamil Nadu on Saturday (August 15, 2026), C. Joseph Vijay once again drove home the message that the Tamilaga Vettri Kazhagam’s (TVK) mission is to provide a “corruption-free government” and appealed to officials and the people to make the State corruption-free. Delivering the speech after hoisting the national flag at the ramparts of Fort...",
+          "quote": "We are working in mission mode to achieve a corruption-free government. We want our people to develop zero tolerance for corruption. We appeal to the officials and the people of Tamil Nadu to make our State corruption-free"
         }
       ],
       "notes": "The promise is central to the Chief Minister's stated vision for his government.",
@@ -5719,10 +5738,10 @@
       "created_at": "2026-06-19",
       "url_checked_at": "2026-06-25",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "critical",
-      "importance": "critical",
-      "importance_reason": "A corruption-free governance pledge, if implemented nationwide, would be a transformative change for India.",
+      "importance": "minor",
+      "importance_reason": "It is a vague statement without concrete scale or specific action.",
       "importance_source": "llm",
       "declaration": {
         "person": "C. Joseph Vijay",
@@ -5735,7 +5754,9 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-06-01"
+      "reported_on": "2026-06-01",
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article explicitly mentions C. Joseph Vijay's declaration of working towards a corruption-free government in his maiden Independence Day speech."
     },
     {
       "id": "p078",
