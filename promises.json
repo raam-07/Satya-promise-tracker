@@ -4,8 +4,8 @@
     "last_updated": "2026-08-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 141,
-    "promises_with_evidence": 141,
+    "total_promises": 142,
+    "promises_with_evidence": 142,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10464,6 +10464,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a nationwide initiative but does not have a transformative impact on education or the economy.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p142",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "provide free online coaching for various exams",
+      "supporting_quote": "\"Coaching classes burden on poor, middle class; we will provide free online coaching for various exams,\" Prime Minister Modi said in his I-Day speech.",
+      "category": "education",
+      "made_on": "2026-08-15",
+      "reported_on": "2026-08-15",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/photos/80th-independence-day-celebrations-august-15-2026-in-pictures-red-fort-pm-modi-vande-mataram/article71348541.ece",
+      "url": "https://www.thehindu.com/photos/80th-independence-day-celebrations-august-15-2026-in-pictures-red-fort-pm-modi-vande-mataram/article71348541.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Independence+Day+2026+PM+Modi+leads+India+in+commemorating+80+years+of+freedom+-+The+Hindu",
+      "source_description": "Independence Day 2026: PM Modi leads India in commemorating 80 years of freedom - The Hindu",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "provide free online coaching for various exams",
+        "quote": "\"Coaching classes burden on poor, middle class; we will provide free online coaching for various exams,\" Prime Minister Modi said in his I-Day speech.",
+        "source_url": "https://www.thehindu.com/photos/80th-independence-day-celebrations-august-15-2026-in-pictures-red-fort-pm-modi-vande-mataram/article71348541.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-15",
+        "made_on": "2026-08-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-15",
+          "evidence_url": "https://www.thehindu.com/photos/80th-independence-day-celebrations-august-15-2026-in-pictures-red-fort-pm-modi-vande-mataram/article71348541.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a new declaration made by PM Modi during his Independence Day speech, aimed at reducing the financial burden on the poor and middle class by providing free online coaching.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/photos/80th-independence-day-celebrations-august-15-2026-in-pictures-red-fort-pm-modi-vande-mataram/article71348541.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Independence+Day+2026+PM+Modi+leads+India+in+commemorating+80+years+of+freedom+-+The+Hindu",
+          "supporting_quote": "\"Coaching classes burden on poor, middle class; we will provide free online coaching for various exams,\" Prime Minister Modi said in his I-Day speech.",
+          "title": "Independence Day 2026: PM Modi leads India in commemorating 80 years of freedom - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 15, 2026, **Prime Minister Narendra Modi** addressed the nation on the 80th Independence Day at Red Fort, urging Indians to strive for a developed India by 2047. He highlighted progress in previously challenging sectors and announced free online coaching for exams. The event included flag ...",
+          "content": "Prime Minister Narendra Modi, addressing the nation on the 80th Independence Day, exhorted Indians to dream big to achieve the goal of a developed India by 2047, saying the world will be forced to look at the country differently as “we work towards achieving this dream”. After arriving at the Red Fort and receiving the Guard of Honour, PM Modi unfurled the Tricolour, paying rich tributes to Mahatm...",
+          "quote": "\"Coaching classes burden on poor, middle class; we will provide free online coaching for various exams,\" Prime Minister Modi said in his I-Day speech."
+        }
+      ],
+      "notes": "The promise is a new declaration made by PM Modi during his Independence Day speech, aimed at reducing the financial burden on the poor and middle class by providing free online coaching.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-15",
+      "created_at": "2026-08-15",
+      "url_checked_at": "2026-08-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine educational initiative rather than a transformational, nation-shaping commitment.",
       "importance_source": "llm"
     }
   ]
