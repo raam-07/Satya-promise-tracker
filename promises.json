@@ -4,8 +4,8 @@
     "last_updated": "2026-08-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 144,
-    "promises_with_evidence": 144,
+    "total_promises": 145,
+    "promises_with_evidence": 145,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10704,6 +10704,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "The promise is vague and lacks specific scale or impact.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p145",
+      "person": "Pinarayi Vijayan",
+      "party": "Communist Party of India (Marxist) (CPI(M))",
+      "role": "Former Chief Minister of Kerala",
+      "promise": "Oppose the reduction of housing assistance under the LIFE Mission from ₹4 lakh to ₹3 lakh",
+      "supporting_quote": "The State government’s decision to bow to the anti-people conditions imposed by the Centre cannot be accepted",
+      "category": "welfare",
+      "made_on": "2026-08-15",
+      "reported_on": "2026-08-15",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/kerala/cut-in-life-mission-allocation-kerala-govt-has-deceived-poor-homeless-people-says-pinarayi-vijayan/article71350128.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/cut-in-life-mission-allocation-kerala-govt-has-deceived-poor-homeless-people-says-pinarayi-vijayan/article71350128.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Cut+in+LIFE+Mission+allocation+Kerala+govt+has+deceived+poor+homeless+people+says+Pinarayi+Vijayan+-+The+Hindu",
+      "source_description": "Cut in LIFE Mission allocation: Kerala govt. has deceived poor, homeless people, says Pinarayi Vijayan - The Hindu",
+      "declaration": {
+        "person": "Pinarayi Vijayan",
+        "claim": "Oppose the reduction of housing assistance under the LIFE Mission from ₹4 lakh to ₹3 lakh",
+        "quote": "The State government’s decision to bow to the anti-people conditions imposed by the Centre cannot be accepted",
+        "source_url": "https://www.thehindu.com/news/national/kerala/cut-in-life-mission-allocation-kerala-govt-has-deceived-poor-homeless-people-says-pinarayi-vijayan/article71350128.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-15",
+        "made_on": "2026-08-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-15",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/cut-in-life-mission-allocation-kerala-govt-has-deceived-poor-homeless-people-says-pinarayi-vijayan/article71350128.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Pinarayi Vijayan criticized the Kerala government's decision to reduce housing assistance under the LIFE Mission, indicating his opposition to the move.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/cut-in-life-mission-allocation-kerala-govt-has-deceived-poor-homeless-people-says-pinarayi-vijayan/article71350128.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Cut+in+LIFE+Mission+allocation+Kerala+govt+has+deceived+poor+homeless+people+says+Pinarayi+Vijayan+-+The+Hindu",
+          "supporting_quote": "The State government’s decision to bow to the anti-people conditions imposed by the Centre cannot be accepted",
+          "title": "Cut in LIFE Mission allocation: Kerala govt. has deceived poor, homeless people, says Pinarayi Vijayan - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "The **Kerala** government reduced housing assistance under the LIFE Mission from ₹4 lakh to ₹3 lakh as part of implementing PMAY-U 2.0, requiring beneficiaries to contribute ₹1 lakh. This move drew sharp criticism from **Pinarayi Vijayan**, Leader of the Opposition, who accused the United Democratic...",
+          "content": "The Kerala government’s decision to reduce the housing assistance under the LIFE Mission from ₹4 lakh to ₹3 lakh as part of implementing the second phase of the Pradhan Mantri Awas Yojana-Urban (PMAY-U 2.0), after accepting conditions that the previous Left Democratic Front (LDF) government had repeatedly opposed, has drawn sharp criticism from the Opposition. Under the revised PMAY-U 2.0 guidelin...",
+          "quote": "The State government’s decision to bow to the anti-people conditions imposed by the Centre cannot be accepted"
+        }
+      ],
+      "notes": "Pinarayi Vijayan criticized the Kerala government's decision to reduce housing assistance under the LIFE Mission, indicating his opposition to the move.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-15",
+      "created_at": "2026-08-15",
+      "url_checked_at": "2026-08-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It pertains to opposing a specific reduction in assistance under a welfare scheme, which is not a transformational or large-scale commitment.",
       "importance_source": "llm"
     }
   ]
