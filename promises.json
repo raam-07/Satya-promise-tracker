@@ -4,8 +4,8 @@
     "last_updated": "2026-08-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 145,
-    "promises_with_evidence": 145,
+    "total_promises": 146,
+    "promises_with_evidence": 146,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10777,6 +10777,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It pertains to opposing a specific reduction in assistance under a welfare scheme, which is not a transformational or large-scale commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p146",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "PM Modi’s Independence Day address will be a milestone in the journey towards becoming a leading nation across all sectors",
+      "supporting_quote": "Union Home Minister Amit Shah on Saturday (August 15, 2026) said that Prime Minister Narendra Modi’s Independence Day address was imbued with the resolve for Swadeshi and prosperity and added that it will prove to be a milestone in the journey towards becoming a leading nation across all sectors.",
+      "category": "other",
+      "made_on": "2026-08-15",
+      "reported_on": "2026-08-15",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/pm-modis-i-day-speech-will-be-a-milestone-towards-viksit-bharat-journey-amit-shah/article71350057.ece",
+      "url": "https://www.thehindu.com/news/national/pm-modis-i-day-speech-will-be-a-milestone-towards-viksit-bharat-journey-amit-shah/article71350057.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=PM+Modi+s+I-Day+speech+will+be+a+milestone+towards+Viksit+Bharat+journey+Amit+Shah+-+The+Hindu",
+      "source_description": "PM Modi's I-Day speech will be a milestone towards Viksit Bharat journey: Amit Shah - The Hindu",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "PM Modi’s Independence Day address will be a milestone in the journey towards becoming a leading nation across all sectors",
+        "quote": "Union Home Minister Amit Shah on Saturday (August 15, 2026) said that Prime Minister Narendra Modi’s Independence Day address was imbued with the resolve for Swadeshi and prosperity and added that it will prove to be a milestone in the journey towards becoming a leading nation across all sectors.",
+        "source_url": "https://www.thehindu.com/news/national/pm-modis-i-day-speech-will-be-a-milestone-towards-viksit-bharat-journey-amit-shah/article71350057.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-15",
+        "made_on": "2026-08-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-15",
+          "evidence_url": "https://www.thehindu.com/news/national/pm-modis-i-day-speech-will-be-a-milestone-towards-viksit-bharat-journey-amit-shah/article71350057.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Amit Shah declared that PM Modi's Independence Day speech will be a milestone towards making India a leading nation across all sectors.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/pm-modis-i-day-speech-will-be-a-milestone-towards-viksit-bharat-journey-amit-shah/article71350057.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=PM+Modi+s+I-Day+speech+will+be+a+milestone+towards+Viksit+Bharat+journey+Amit+Shah+-+The+Hindu",
+          "supporting_quote": "Union Home Minister Amit Shah on Saturday (August 15, 2026) said that Prime Minister Narendra Modi’s Independence Day address was imbued with the resolve for Swadeshi and prosperity and added that it will prove to be a milestone in the journey towards becoming a leading nation across all sectors.",
+          "title": "PM Modi's I-Day speech will be a milestone towards Viksit Bharat journey: Amit Shah - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 15, 2026, **Amit Shah**, Union Home Minister, said that **Narendra Modi**'s Independence Day address outlined a roadmap for building a 'Viksit Bharat', emphasizing self-reliance and progress in sectors like semiconductors and energy. Mr. Modi announced initiatives to skill one crore youth ...",
+          "content": "Union Home Minister Amit Shah on Saturday (August 15, 2026) said that Prime Minister Narendra Modi’s Independence Day address was imbued with the resolve for Swadeshi and prosperity and added that it will prove to be a milestone in the journey towards becoming a leading nation across all sectors. In a post on X, Mr. Shah said Mr. Modi outlined a comprehensive roadmap to build a ‘Viksit Bharat’ dri...",
+          "quote": "Union Home Minister Amit Shah on Saturday (August 15, 2026) said that Prime Minister Narendra Modi’s Independence Day address was imbued with the resolve for Swadeshi and prosperity and added that it will prove to be a milestone in the journey towards becoming a leading nation across all sectors."
+        }
+      ],
+      "notes": "Amit Shah declared that PM Modi's Independence Day speech will be a milestone towards making India a leading nation across all sectors.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-08-15",
+      "created_at": "2026-08-15",
+      "url_checked_at": "2026-08-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "The statement is vague and does not specify a concrete, measurable commitment or scale.",
       "importance_source": "llm"
     }
   ]
