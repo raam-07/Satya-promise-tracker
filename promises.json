@@ -1464,7 +1464,7 @@
       "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/prime-minister-narendra-modi-in-kurnool-andhra-pradesh-viksit-bharat-foundation-stone-for-development-works/article70171122.ece",
       "source_description": "The Hindu: Prime Minister Narendra Modi in Kurnool, Andhra Pradesh, Viksit Bharat, foundation stone for development works",
       "status": "ongoing",
-      "status_last_reviewed": "2026-08-02",
+      "status_last_reviewed": "2026-08-15",
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "Viksit Bharat @2047 is a long-term national vision with active implementation across sectors and a deadline in 2047.",
       "evidence_articles": [
@@ -1523,6 +1523,44 @@
           "rephrased": "On August 2, 2026, **Narendra Modi** launched the 'Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan' virtually, urging India’s youth to pledge against substance abuse. He emphasized mental and physical fitness, claiming drug addiction hurts national interests and families. The campaign aims to orga...",
           "content": "Prime Minister Narendra Modi on Sunday (August 2, 2026) asked the country’s youth to take a pledge against substance abuse, saying drugs can give them a “high” for some time, but would make their entire career and personal life “low”. Launching the ‘Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan’, Mr. Modi said the country’s youth must be mentally and physically fit, for which it is necessary f...",
           "quote": "To achieve target of developed India, youth must be physically, mentally fit and stay away from drug abuse"
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/india-80th-independence-day-2026-live-updates-on-august-15-pm-modi-speech-red-fort/article71348349.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Independence+Day+LIVE+updates+PM+Modi+urges+self-reliance+calls+upon+citizens+to+realise+Viksit+Bharat+by+2047+-+The+Hindu",
+          "supporting_quote": "'We must realise the dream of Viksit Bharat by 2047': PM Modi",
+          "title": "Independence Day LIVE updates: PM Modi urges self-reliance, calls upon citizens to realise 'Viksit Bharat' by 2047 - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "progress",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 15, 2026, **Prime Minister Narendra Modi** addressed the nation from the Red Fort in New Delhi to commemorate India's 80th Independence Day. He emphasized energy security, self-reliance, and big dreams for progress, urging citizens to realize the Viksit Bharat vision by 2047. Over 5,000 sp...",
+          "content": "PM Modi addresses the nation on August 15, 2026, in New Delhi. Photo: YouTube/Narendra Modi Prime Minister Narendra Modi on Saturday (August 15, 2026) greeted people on the occasion of Independence Day and said powered by 140 crore Indians, the country is scaling new heights of progress across different sectors. The nation is commemorating the 80th Independence Day, a red-letter day in the history...",
+          "quote": "'We must realise the dream of Viksit Bharat by 2047': PM Modi"
+        },
+        {
+          "url": "https://www.ndtv.com/india-news/independence-day-india-2026-pm-modis-red-fort-address-on-80th-independence-day-on-15-august-11912584#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Independence+Day+India+2026+PM+Modi+s+Red+Fort+Address+On+80th+Independence+Day+On+15+August",
+          "supporting_quote": "I will make sure the country becomes developed by 2047.",
+          "title": "Independence Day India 2026: PM Modi's Red Fort Address On 80th Independence Day On 15 August",
+          "source": "NDTV",
+          "scraped_at": "2026-08-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "progress",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On the 80th Independence Day, **Prime Minister Narendra Modi** addressed the nation from the Red Fort ramparts in New Delhi, paying tributes to freedom fighters and highlighting the national song \"Vande Mataram,\" which was sung at the celebrations for the first time since independence. He also assur...",
+          "content": "PM Modi addressed the nation from the ramparts of Red Fort on 80th Independence Day New Delhi: Prime Minister Narendra Modi addressed the nation from the ramparts of Red Fort on 80th Independence Day on Saturday and paid tributes to freedom fighters. He also said that the national song Vande Mataram, which was rendered for the first time during Independence Day celebrations, is resonating in every...",
+          "quote": "I will make sure the country becomes developed by 2047."
         }
       ],
       "notes": "Narendra Modi’s vision of Viksit Bharat by 2047 aims to make India a fully developed nation — economically strong, socially equitable, technologically advanced, and globally leading — on the 100th anniversary of Independence. It serves as an overarching national mission driving policy, budgets, and reforms across sectors. As of 2026, the government is actively implementing structured plans and remains committed to this long-term goal.",
@@ -1533,7 +1571,7 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-25",
       "promise_type": "vision",
-      "evidence_count": 3,
+      "evidence_count": 5,
       "supporting_quote": "PM Narendra Modi has repeatedly promised to transform India into a Viksit Bharat (Developed India) by 2047, the centenary of India’s independence.",
       "importance_hint": "critical",
       "importance": "critical",
@@ -1556,7 +1594,7 @@
       },
       "reported_on": "2023-08-15",
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "The article discusses PM Modi's campaign aimed at eradicating substance abuse among youth, linking it to the broader goal of building a developed India by 2047."
+      "qwen_reasoning": "The article mentions PM Modi's reaffirmation of his commitment to make India a developed nation by 2047, which matches an existing promise."
     },
     {
       "id": "p021",
