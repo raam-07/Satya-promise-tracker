@@ -4,8 +4,8 @@
     "last_updated": "2026-08-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 148,
-    "promises_with_evidence": 148,
+    "total_promises": 149,
+    "promises_with_evidence": 149,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -10996,6 +10996,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a categorical change but does not have a direct, large-scale, transformational impact on the population's daily lives or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p149",
+      "person": "Akhilesh Yadav",
+      "party": "Samajwadi Party",
+      "role": "Samajwadi Party President",
+      "promise": "annual allowance of ₹40,000 to women",
+      "supporting_quote": "The SP president countered with his own promise of an annual allowance of ₹40,000 to women; this amount will be increased every year, he said.",
+      "category": "welfare",
+      "made_on": "2026-08-16",
+      "reported_on": "2026-08-16",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-plans-to-provide-stolen-money-to-women-as-allowance-akhilesh-yadav/article71353081.ece",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-plans-to-provide-stolen-money-to-women-as-allowance-akhilesh-yadav/article71353081.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=BJP+plans+to+provide+stolen+money+to+women+as+allowance+Akhilesh+Yadav+-+The+Hindu",
+      "source_description": "BJP plans to provide ‘stolen money’ to women as allowance: Akhilesh Yadav - The Hindu",
+      "declaration": {
+        "person": "Akhilesh Yadav",
+        "claim": "annual allowance of ₹40,000 to women",
+        "quote": "The SP president countered with his own promise of an annual allowance of ₹40,000 to women; this amount will be increased every year, he said.",
+        "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-plans-to-provide-stolen-money-to-women-as-allowance-akhilesh-yadav/article71353081.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-16",
+        "made_on": "2026-08-16",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-16",
+          "evidence_url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-plans-to-provide-stolen-money-to-women-as-allowance-akhilesh-yadav/article71353081.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Akhilesh Yadav personally made a new promise of an annual allowance of ₹40,000 to women, which he stated would be increased every year.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-plans-to-provide-stolen-money-to-women-as-allowance-akhilesh-yadav/article71353081.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=BJP+plans+to+provide+stolen+money+to+women+as+allowance+Akhilesh+Yadav+-+The+Hindu",
+          "supporting_quote": "The SP president countered with his own promise of an annual allowance of ₹40,000 to women; this amount will be increased every year, he said.",
+          "title": "BJP plans to provide ‘stolen money’ to women as allowance: Akhilesh Yadav - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-16",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 16, 2026, **Akhilesh Yadav**, SP president, criticized the BJP government in Uttar Pradesh over alleged embezzlement at the Ram Temple and responded to a proposed ₹20,000 grant for women by sharing an AI-generated video on X. He accused the BJP of corruption and promised an annual allowanc...",
+          "content": "LUCKNOW Samajwadi Party (SP) president Akhilesh Yadav took a poetic jab at the BJP government in Uttar Pradesh on Sunday (August 16, 2026) over allegations of donations embezzlement at the Ram Temple in Ayodhya. He called on people to vote out the ruling party in the Vidhan Sabha polls scheduled for early next year. Mr. Yadav shared a three-minute AI-generated video on X that showed people rejecti...",
+          "quote": "The SP president countered with his own promise of an annual allowance of ₹40,000 to women; this amount will be increased every year, he said."
+        }
+      ],
+      "notes": "Akhilesh Yadav personally made a new promise of an annual allowance of ₹40,000 to women, which he stated would be increased every year.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-08-16",
+      "created_at": "2026-08-16",
+      "url_checked_at": "2026-08-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a routine welfare allowance rather than a transformational commitment.",
       "importance_source": "llm"
     }
   ]
