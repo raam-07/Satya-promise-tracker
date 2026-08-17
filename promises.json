@@ -4,8 +4,8 @@
     "last_updated": "2026-08-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 153,
-    "promises_with_evidence": 153,
+    "total_promises": 154,
+    "promises_with_evidence": 154,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11361,6 +11361,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a routine health care commitment rather than a transformational, large-scale promise affecting the entire nation or a very large population.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p154",
+      "person": "Samrat Choudhary",
+      "party": "Janata Dal (United)",
+      "role": "Chief Minister of Bihar",
+      "promise": "Resume mining operations in Bihar after October 15",
+      "supporting_quote": "“Tenders have been issued for several mineral blocks, and the process is underway for others. Officials are actively engaged in this task, and the work is expected to be completed within nine months. Survey work has progressed for 28 out of the 44 coal blocks, and more than 30 coal blocks will be allocated before September 30. Initiatives to resume mining operations in Bihar will be set in motion starting October 15,” Mr. Choudhary said.",
+      "category": "infrastructure",
+      "made_on": "2026-08-17",
+      "reported_on": "2026-08-17",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/national/bihar/mining-to-resume-in-bihar-after-october-15-says-cm-samrat-choudhary/article71356242.ece",
+      "url": "https://www.thehindu.com/news/national/bihar/mining-to-resume-in-bihar-after-october-15-says-cm-samrat-choudhary/article71356242.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Mining+to+resume+in+Bihar+after+October+15+says+CM+Samrat+Choudhary+-+The+Hindu",
+      "source_description": "Mining to resume in Bihar after October 15, says CM Samrat Choudhary - The Hindu",
+      "declaration": {
+        "person": "Samrat Choudhary",
+        "claim": "Resume mining operations in Bihar after October 15",
+        "quote": "“Tenders have been issued for several mineral blocks, and the process is underway for others. Officials are actively engaged in this task, and the work is expected to be completed within nine months. Survey work has progressed for 28 out of the 44 coal blocks, and more than 30 coal blocks will be allocated before September 30. Initiatives to resume mining operations in Bihar will be set in motion starting October 15,” Mr. Choudhary said.",
+        "source_url": "https://www.thehindu.com/news/national/bihar/mining-to-resume-in-bihar-after-october-15-says-cm-samrat-choudhary/article71356242.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-17",
+        "made_on": "2026-08-17",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-17",
+          "evidence_url": "https://www.thehindu.com/news/national/bihar/mining-to-resume-in-bihar-after-october-15-says-cm-samrat-choudhary/article71356242.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a specific declaration by the Chief Minister Samrat Choudhary to resume mining operations in Bihar starting October 15, 2026.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/mining-to-resume-in-bihar-after-october-15-says-cm-samrat-choudhary/article71356242.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Mining+to+resume+in+Bihar+after+October+15+says+CM+Samrat+Choudhary+-+The+Hindu",
+          "supporting_quote": "“Tenders have been issued for several mineral blocks, and the process is underway for others. Officials are actively engaged in this task, and the work is expected to be completed within nine months. Survey work has progressed for 28 out of the 44 coal blocks, and more than 30 coal blocks will be allocated before September 30. Initiatives to resume mining operations in Bihar will be set in motion starting October 15,” Mr. Choudhary said.",
+          "title": "Mining to resume in Bihar after October 15, says CM Samrat Choudhary - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 17, 2026, **Bihar Chief Minister Samrat Choudhary** announced the resumption of mining operations after October 15 following a workshop in Patna organized by the **Ministry of Coal and Mines**, Government of India. He declared plans to survey 44 mining blocks and make them operational with...",
+          "content": "Bihar Chief Minister Samrat Choudhary on Monday (August 17, 2026) announced that the State will resume the mining operation after October 15. Mr. Choudhary made this statement after inaugurating a workshop on the auction of critical and strategic mineral blocks in Patna. The Ministry of Coal and Mines, Government of India, organised the workshop. He also declared that the government will conduct a...",
+          "quote": "“Tenders have been issued for several mineral blocks, and the process is underway for others. Officials are actively engaged in this task, and the work is expected to be completed within nine months. Survey work has progressed for 28 out of the 44 coal blocks, and more than 30 coal blocks will be allocated before September 30. Initiatives to resume mining operations in Bihar will be set in motion starting October 15,” Mr. Choudhary said."
+        }
+      ],
+      "notes": "The article reports a specific declaration by the Chief Minister Samrat Choudhary to resume mining operations in Bihar starting October 15, 2026.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-17",
+      "created_at": "2026-08-17",
+      "url_checked_at": "2026-08-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "Resuming mining operations, while significant for the local economy, does not have a transformational impact on the entire state or nation.",
       "importance_source": "llm"
     }
   ]
