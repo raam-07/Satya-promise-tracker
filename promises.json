@@ -4,8 +4,8 @@
     "last_updated": "2026-08-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 151,
-    "promises_with_evidence": 151,
+    "total_promises": 152,
+    "promises_with_evidence": 152,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11215,6 +11215,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a call for accountability rather than a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p152",
+      "person": "Chandrababu Naidu",
+      "party": "TDP",
+      "role": "Chief Minister",
+      "promise": "Conduct the DSC every year",
+      "supporting_quote": "\"Every year, DSC will be conducted. There is no second thought on this promise,\"",
+      "category": "welfare",
+      "made_on": null,
+      "reported_on": "2026-08-17",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/no-backdoor-entry-chandrababu-naidu-defends-andhra-teacher-recruitment-11923013#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/no-backdoor-entry-chandrababu-naidu-defends-andhra-teacher-recruitment-11923013#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=No+Backdoor+Entry+Chandrababu+Naidu+Defends+Andhra+Teacher+Recruitment",
+      "source_description": "\"No Backdoor Entry\": Chandrababu Naidu Defends Andhra Teacher Recruitment",
+      "declaration": {
+        "person": "Chandrababu Naidu",
+        "claim": "Conduct the DSC every year",
+        "quote": "\"Every year, DSC will be conducted. There is no second thought on this promise,\"",
+        "source_url": "https://www.ndtv.com/india-news/no-backdoor-entry-chandrababu-naidu-defends-andhra-teacher-recruitment-11923013#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-17",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-17",
+          "evidence_url": "https://www.ndtv.com/india-news/no-backdoor-entry-chandrababu-naidu-defends-andhra-teacher-recruitment-11923013#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The Chief Minister declared a commitment to conduct the DSC recruitment every year, aimed at providing employment opportunities for teachers.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/no-backdoor-entry-chandrababu-naidu-defends-andhra-teacher-recruitment-11923013#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=No+Backdoor+Entry+Chandrababu+Naidu+Defends+Andhra+Teacher+Recruitment",
+          "supporting_quote": "\"Every year, DSC will be conducted. There is no second thought on this promise,\"",
+          "title": "\"No Backdoor Entry\": Chandrababu Naidu Defends Andhra Teacher Recruitment",
+          "source": "NDTV",
+          "scraped_at": "2026-08-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Monday, **Chandrababu Naidu**, Chief Minister of Andhra Pradesh, defended the Mega District Selection Committee (DSC) recruitment process in the Legislative Assembly, asserting it was merit-based and free from manipulation. Education Minister **Nara Lokesh** rejected opposition allegations, stati...",
+          "content": "On the opening day of the Andhra Pradesh Legislative Assembly on Monday, Chief Minister Chandrababu Naidu defended the conduct of the Mega District Selection Committee (DSC) recruitment, asserting that the teacher selection process was based entirely on merit, transparency and fairness. Speaking in the Assembly, Naidu said there was no room for backdoor appointments or manipulation in the recruitm...",
+          "quote": "\"Every year, DSC will be conducted. There is no second thought on this promise,\""
+        }
+      ],
+      "notes": "The Chief Minister declared a commitment to conduct the DSC recruitment every year, aimed at providing employment opportunities for teachers.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-17",
+      "created_at": "2026-08-17",
+      "url_checked_at": "2026-08-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine administrative action.",
       "importance_source": "llm"
     }
   ]
