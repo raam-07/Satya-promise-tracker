@@ -4,8 +4,8 @@
     "last_updated": "2026-08-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 152,
-    "promises_with_evidence": 152,
+    "total_promises": 153,
+    "promises_with_evidence": 153,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11288,6 +11288,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine administrative action.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p153",
+      "person": "A. Revanth Reddy",
+      "party": "TRS",
+      "role": "Chief Minister",
+      "promise": "Provide quality medical care to the poor through MCR TIMS",
+      "supporting_quote": "With private healthcare becoming increasingly expensive, the Telangana government has developed the Marri Channa Reddy Telangana Institute of Medical Sciences (MCR TIMS) as a corporate-level healthcare institution to provide quality medical care to the poor, Chief Minister A. Revanth Reddy said after inaugurating the 1,082-bed facility at Sanathnagar in Hyderabad on Monday.",
+      "category": "health",
+      "made_on": "2026-08-17",
+      "reported_on": "2026-08-17",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/cities/Hyderabad/cm-revanth-opens-mcr-tims-sanathnagar-with-focus-on-affordable-quality-healthcare/article71357486.ece",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/cm-revanth-opens-mcr-tims-sanathnagar-with-focus-on-affordable-quality-healthcare/article71357486.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=CM+Revanth+opens+MCR+TIMS+Sanathnagar+with+focus+on+affordable+quality+healthcare+-+The+Hindu",
+      "source_description": "CM Revanth opens MCR TIMS Sanathnagar with focus on affordable, quality healthcare - The Hindu",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Provide quality medical care to the poor through MCR TIMS",
+        "quote": "With private healthcare becoming increasingly expensive, the Telangana government has developed the Marri Channa Reddy Telangana Institute of Medical Sciences (MCR TIMS) as a corporate-level healthcare institution to provide quality medical care to the poor, Chief Minister A. Revanth Reddy said after inaugurating the 1,082-bed facility at Sanathnagar in Hyderabad on Monday.",
+        "source_url": "https://www.thehindu.com/news/cities/Hyderabad/cm-revanth-opens-mcr-tims-sanathnagar-with-focus-on-affordable-quality-healthcare/article71357486.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-17",
+        "made_on": "2026-08-17",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-17",
+          "evidence_url": "https://www.thehindu.com/news/cities/Hyderabad/cm-revanth-opens-mcr-tims-sanathnagar-with-focus-on-affordable-quality-healthcare/article71357486.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article describes the inauguration of MCR TIMS by Chief Minister A. Revanth Reddy, emphasizing its role in providing quality medical care to the poor.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/cm-revanth-opens-mcr-tims-sanathnagar-with-focus-on-affordable-quality-healthcare/article71357486.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=CM+Revanth+opens+MCR+TIMS+Sanathnagar+with+focus+on+affordable+quality+healthcare+-+The+Hindu",
+          "supporting_quote": "With private healthcare becoming increasingly expensive, the Telangana government has developed the Marri Channa Reddy Telangana Institute of Medical Sciences (MCR TIMS) as a corporate-level healthcare institution to provide quality medical care to the poor, Chief Minister A. Revanth Reddy said after inaugurating the 1,082-bed facility at Sanathnagar in Hyderabad on Monday.",
+          "title": "CM Revanth opens MCR TIMS Sanathnagar with focus on affordable, quality healthcare - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Monday, **Chief Minister A. Revanth Reddy** inaugurated the 1,082-bed **Marri Channa Reddy Telangana Institute of Medical Sciences (MCR TIMS)** in Hyderabad to provide affordable healthcare for the poor. The government spent ₹2,700 crore on Rajiv Aarogyasri and ₹2,526 crore through the Chief Mini...",
+          "content": "With private healthcare becoming increasingly expensive, the Telangana government has developed the Marri Channa Reddy Telangana Institute of Medical Sciences (MCR TIMS) as a corporate-level healthcare institution to provide quality medical care to the poor, Chief Minister A. Revanth Reddy said after inaugurating the 1,082-bed facility at Sanathnagar in Hyderabad on Monday. Mr. Reddy said the gove...",
+          "quote": "With private healthcare becoming increasingly expensive, the Telangana government has developed the Marri Channa Reddy Telangana Institute of Medical Sciences (MCR TIMS) as a corporate-level healthcare institution to provide quality medical care to the poor, Chief Minister A. Revanth Reddy said after inaugurating the 1,082-bed facility at Sanathnagar in Hyderabad on Monday."
+        }
+      ],
+      "notes": "The article describes the inauguration of MCR TIMS by Chief Minister A. Revanth Reddy, emphasizing its role in providing quality medical care to the poor.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-17",
+      "created_at": "2026-08-17",
+      "url_checked_at": "2026-08-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a routine health care commitment rather than a transformational, large-scale promise affecting the entire nation or a very large population.",
       "importance_source": "llm"
     }
   ]
