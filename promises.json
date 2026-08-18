@@ -4,8 +4,8 @@
     "last_updated": "2026-08-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 154,
-    "promises_with_evidence": 154,
+    "total_promises": 155,
+    "promises_with_evidence": 155,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11453,6 +11453,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Resuming mining operations, while significant for the local economy, does not have a transformational impact on the entire state or nation.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p155",
+      "person": "Mohan Charan Majhi",
+      "party": "BJD",
+      "role": "Chief Minister of Odisha",
+      "promise": "₹1,000-crore relief package for flood-hit areas",
+      "supporting_quote": "Odisha Chief Minister Mohan Charan Majhi on Tuesday announced a ₹1,000-crore relief package for people affected by floods in six districts, with additional funds to be released after a detailed assessment of the damage.",
+      "category": "welfare",
+      "made_on": "2026-08-19",
+      "reported_on": "2026-08-18",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/odisha/odisha-announces-1000-crore-aid-for-flood-hit-areas/article71361732.ece",
+      "url": "https://www.thehindu.com/news/national/odisha/odisha-announces-1000-crore-aid-for-flood-hit-areas/article71361732.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Odisha+announces+1+000-crore+aid+for+flood-hit+areas+-+The+Hindu",
+      "source_description": "Odisha announces ₹1,000-crore aid for flood-hit areas - The Hindu",
+      "declaration": {
+        "person": "Mohan Charan Majhi",
+        "claim": "₹1,000-crore relief package for flood-hit areas",
+        "quote": "Odisha Chief Minister Mohan Charan Majhi on Tuesday announced a ₹1,000-crore relief package for people affected by floods in six districts, with additional funds to be released after a detailed assessment of the damage.",
+        "source_url": "https://www.thehindu.com/news/national/odisha/odisha-announces-1000-crore-aid-for-flood-hit-areas/article71361732.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-18",
+        "made_on": "2026-08-19",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-18",
+          "evidence_url": "https://www.thehindu.com/news/national/odisha/odisha-announces-1000-crore-aid-for-flood-hit-areas/article71361732.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The announcement of a ₹1,000-crore relief package is a new commitment made by the Chief Minister for flood-hit areas.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/odisha/odisha-announces-1000-crore-aid-for-flood-hit-areas/article71361732.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Odisha+announces+1+000-crore+aid+for+flood-hit+areas+-+The+Hindu",
+          "supporting_quote": "Odisha Chief Minister Mohan Charan Majhi on Tuesday announced a ₹1,000-crore relief package for people affected by floods in six districts, with additional funds to be released after a detailed assessment of the damage.",
+          "title": "Odisha announces ₹1,000-crore aid for flood-hit areas - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-18",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Tuesday, **Mohan Charan Majhi**, Odisha's Chief Minister, announced a ₹1,000-crore relief package for six flood-affected districts. Over 9.4 lakh people were impacted; more than 3.7 lakh moved to safer locations in 550 camps. The State received 1,100 mm of rain since June, 34% above normal, causi...",
+          "content": "Odisha Chief Minister Mohan Charan Majhi on Tuesday announced a ₹1,000-crore relief package for people affected by floods in six districts, with additional funds to be released after a detailed assessment of the damage. The second spell of flooding has affected nearly 9.40 lakh people in Balasore, Bhadrak, Jajpur, Mayurbhanj, Keonjhar and Kendrapara districts, Mr. Majhi said. “More than 3.70 lakh ...",
+          "quote": "Odisha Chief Minister Mohan Charan Majhi on Tuesday announced a ₹1,000-crore relief package for people affected by floods in six districts, with additional funds to be released after a detailed assessment of the damage."
+        }
+      ],
+      "notes": "The announcement of a ₹1,000-crore relief package is a new commitment made by the Chief Minister for flood-hit areas.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-18",
+      "created_at": "2026-08-18",
+      "url_checked_at": "2026-08-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a one-time relief package, not a transformational, long-term commitment affecting a large population or resource.",
       "importance_source": "llm"
     }
   ]
