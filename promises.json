@@ -4,8 +4,8 @@
     "last_updated": "2026-08-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 155,
-    "promises_with_evidence": 155,
+    "total_promises": 156,
+    "promises_with_evidence": 156,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11526,6 +11526,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a one-time relief package, not a transformational, long-term commitment affecting a large population or resource.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p156",
+      "person": "Krishna Byre Gowda",
+      "party": "BJP",
+      "role": "Minister of Bengaluru Development",
+      "promise": "Complete the widening of Uttarahalli Main Road that links Mysuru Road",
+      "supporting_quote": "Greater Bengaluru Development Minister Krishna Byre Gowda told the Legislative Assembly on Tuesday that the government was planning to quickly complete the long-pending work related to widening of Uttarahalli Main Road that links in Mysuru Road with the help of new TDR (Transferable Development Rights) scheme.",
+      "category": "infrastructure",
+      "made_on": "2026-08-19",
+      "reported_on": "2026-08-18",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/widening-of-road-linking-uttarahalli-mysuru-road-to-be-completed-soon-krishna-byre-gowda/article71361866.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/widening-of-road-linking-uttarahalli-mysuru-road-to-be-completed-soon-krishna-byre-gowda/article71361866.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Widening+of+road+linking+Uttarahalli-Mysuru+Road+to+be+completed+soon+Krishna+Byre+Gowda+-+The+Hindu",
+      "source_description": "Widening of road linking Uttarahalli-Mysuru Road to be completed soon: Krishna Byre Gowda - The Hindu",
+      "declaration": {
+        "person": "Krishna Byre Gowda",
+        "claim": "Complete the widening of Uttarahalli Main Road that links Mysuru Road",
+        "quote": "Greater Bengaluru Development Minister Krishna Byre Gowda told the Legislative Assembly on Tuesday that the government was planning to quickly complete the long-pending work related to widening of Uttarahalli Main Road that links in Mysuru Road with the help of new TDR (Transferable Development Rights) scheme.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/widening-of-road-linking-uttarahalli-mysuru-road-to-be-completed-soon-krishna-byre-gowda/article71361866.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-18",
+        "made_on": "2026-08-19",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-18",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/widening-of-road-linking-uttarahalli-mysuru-road-to-be-completed-soon-krishna-byre-gowda/article71361866.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is specific to road infrastructure and is a new declaration made by Krishna Byre Gowda.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/widening-of-road-linking-uttarahalli-mysuru-road-to-be-completed-soon-krishna-byre-gowda/article71361866.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Widening+of+road+linking+Uttarahalli-Mysuru+Road+to+be+completed+soon+Krishna+Byre+Gowda+-+The+Hindu",
+          "supporting_quote": "Greater Bengaluru Development Minister Krishna Byre Gowda told the Legislative Assembly on Tuesday that the government was planning to quickly complete the long-pending work related to widening of Uttarahalli Main Road that links in Mysuru Road with the help of new TDR (Transferable Development Rights) scheme.",
+          "title": "Widening of road linking Uttarahalli-Mysuru Road to be completed soon: Krishna Byre Gowda - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-18",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Tuesday, **Krishna Byre Gowda**, Greater Bengaluru Development Minister, informed the Legislative Assembly that the government plans to complete the Uttarahalli Main Road widening project using a new TDR scheme. Work began in 2021 but stalled due to property owners' lack of interest in an earlier...",
+          "content": "Greater Bengaluru Development Minister Krishna Byre Gowda told the Legislative Assembly on Tuesday that the government was planning to quickly complete the long-pending work related to widening of Uttarahalli Main Road that links in Mysuru Road with the help of new TDR (Transferable Development Rights) scheme. Replying to MLA for Yeshwantpur S.T. Somashekhar during the Question Hour, the Minister ...",
+          "quote": "Greater Bengaluru Development Minister Krishna Byre Gowda told the Legislative Assembly on Tuesday that the government was planning to quickly complete the long-pending work related to widening of Uttarahalli Main Road that links in Mysuru Road with the help of new TDR (Transferable Development Rights) scheme."
+        }
+      ],
+      "notes": "The promise is specific to road infrastructure and is a new declaration made by Krishna Byre Gowda.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-18",
+      "created_at": "2026-08-18",
+      "url_checked_at": "2026-08-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It refers to the widening of a single road, which is a routine infrastructure project.",
       "importance_source": "llm"
     }
   ]
