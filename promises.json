@@ -4,8 +4,8 @@
     "last_updated": "2026-08-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 156,
-    "promises_with_evidence": 156,
+    "total_promises": 157,
+    "promises_with_evidence": 157,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11599,6 +11599,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It refers to the widening of a single road, which is a routine infrastructure project.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p157",
+      "person": "Ashwini Vaishnaw",
+      "party": "BJP",
+      "role": "Railways and IT Minister",
+      "promise": "Boost India's electronics ecosystem beyond assembly",
+      "supporting_quote": "Launching the Mobile Phone Manufacturing Scheme (MPMS), Union Electronics and IT Minister Ashwini Vaishnaw said Apple could move beyond manufacturing only iPhones in India, signalling the possibility of the company expanding its manufacturing footprint to products such as MacBooks and iPads.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-08-21",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/apple-may-expand-india-manufacturing-beyond-iphones-union-minister-ashwini-vaishnaw-11941849#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/apple-may-expand-india-manufacturing-beyond-iphones-union-minister-ashwini-vaishnaw-11941849#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Apple+May+Expand+India+Manufacturing+Beyond+iPhones+Union+Minister+Ashwini+Vaishnaw",
+      "source_description": "Apple May Expand India Manufacturing Beyond iPhones: Union Minister Ashwini Vaishnaw",
+      "declaration": {
+        "person": "Ashwini Vaishnaw",
+        "claim": "Boost India's electronics ecosystem beyond assembly",
+        "quote": "Launching the Mobile Phone Manufacturing Scheme (MPMS), Union Electronics and IT Minister Ashwini Vaishnaw said Apple could move beyond manufacturing only iPhones in India, signalling the possibility of the company expanding its manufacturing footprint to products such as MacBooks and iPads.",
+        "source_url": "https://www.ndtv.com/india-news/apple-may-expand-india-manufacturing-beyond-iphones-union-minister-ashwini-vaishnaw-11941849#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-21",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-21",
+          "evidence_url": "https://www.ndtv.com/india-news/apple-may-expand-india-manufacturing-beyond-iphones-union-minister-ashwini-vaishnaw-11941849#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article discusses the launch of the Mobile Phone Manufacturing Scheme aimed at boosting India's electronics ecosystem beyond assembly, with a focus on deeper localisation, design, and research capabilities.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/apple-may-expand-india-manufacturing-beyond-iphones-union-minister-ashwini-vaishnaw-11941849#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Apple+May+Expand+India+Manufacturing+Beyond+iPhones+Union+Minister+Ashwini+Vaishnaw",
+          "supporting_quote": "Launching the Mobile Phone Manufacturing Scheme (MPMS), Union Electronics and IT Minister Ashwini Vaishnaw said Apple could move beyond manufacturing only iPhones in India, signalling the possibility of the company expanding its manufacturing footprint to products such as MacBooks and iPads.",
+          "title": "Apple May Expand India Manufacturing Beyond iPhones: Union Minister Ashwini Vaishnaw",
+          "source": "NDTV",
+          "scraped_at": "2026-08-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "Launching the Mobile Phone Manufacturing Scheme (MPMS), **Union Electronics and IT Minister Ashwini Vaishnaw** indicated that Apple could expand its manufacturing in India to include MacBooks and iPads. The Rs 62,500-crore scheme aims to boost India's electronics ecosystem by fostering design and re...",
+          "content": "- Union Minister Ashwini Vaishnaw signalled Apple could expand to making MacBooks and iPads in India - Rs 62,500-crore Mobile Phone Manufacturing Scheme aims to boost India's electronics ecosystem beyond assembly - Three potential Indian smartphone brands identified to develop strong designs and compete globally Launching the Mobile Phone Manufacturing Scheme (MPMS), Union Electronics and IT Minis...",
+          "quote": "Launching the Mobile Phone Manufacturing Scheme (MPMS), Union Electronics and IT Minister Ashwini Vaishnaw said Apple could move beyond manufacturing only iPhones in India, signalling the possibility of the company expanding its manufacturing footprint to products such as MacBooks and iPads."
+        }
+      ],
+      "notes": "The article discusses the launch of the Mobile Phone Manufacturing Scheme aimed at boosting India's electronics ecosystem beyond assembly, with a focus on deeper localisation, design, and research capabilities.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-21",
+      "created_at": "2026-08-21",
+      "url_checked_at": "2026-08-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a broad goal without specific, large-scale, transformational commitments.",
       "importance_source": "llm"
     }
   ]
