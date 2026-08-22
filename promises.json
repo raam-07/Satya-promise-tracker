@@ -4,8 +4,8 @@
     "last_updated": "2026-08-22",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 157,
-    "promises_with_evidence": 157,
+    "total_promises": 158,
+    "promises_with_evidence": 158,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11672,6 +11672,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a broad goal without specific, large-scale, transformational commitments.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p158",
+      "person": "Rajnath Singh",
+      "party": "BJP",
+      "role": "Defence Minister",
+      "promise": "Focus on preventive healthcare",
+      "supporting_quote": "Preventive healthcare is the future due to changing diseases and rising costs",
+      "category": "health",
+      "made_on": null,
+      "reported_on": "2026-08-22",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/matter-of-national-economy-security-rajnath-singh-on-preventive-healthcare-11946098#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/matter-of-national-economy-security-rajnath-singh-on-preventive-healthcare-11946098#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Matter+Of+National+Economy+Security+Rajnath+Singh+On+Preventive+Healthcare",
+      "source_description": "'Matter Of National Economy Security': Rajnath Singh On Preventive Healthcare",
+      "declaration": {
+        "person": "Rajnath Singh",
+        "claim": "Focus on preventive healthcare",
+        "quote": "Preventive healthcare is the future due to changing diseases and rising costs",
+        "source_url": "https://www.ndtv.com/india-news/matter-of-national-economy-security-rajnath-singh-on-preventive-healthcare-11946098#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-22",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-22",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-22",
+          "evidence_url": "https://www.ndtv.com/india-news/matter-of-national-economy-security-rajnath-singh-on-preventive-healthcare-11946098#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Rajnath Singh emphasized the importance of preventive healthcare in his speech, indicating a commitment to this approach.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/matter-of-national-economy-security-rajnath-singh-on-preventive-healthcare-11946098#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Matter+Of+National+Economy+Security+Rajnath+Singh+On+Preventive+Healthcare",
+          "supporting_quote": "Preventive healthcare is the future due to changing diseases and rising costs",
+          "title": "'Matter Of National Economy Security': Rajnath Singh On Preventive Healthcare",
+          "source": "NDTV",
+          "scraped_at": "2026-08-22",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "At the inauguration of a Mahajan Imaging and Labs facility, **Defence Minister Rajnath Singh** described preventive healthcare as the future model due to changing disease patterns, rising treatment costs, and India's ageing population. He emphasized early detection of non-communicable diseases like ...",
+          "content": "- Preventive healthcare is the future due to changing diseases and rising costs - Non-communicable diseases like diabetes and cancer need early detection and care - Preventive care is cost-effective compared to treating advanced illnesses Defence Minister Rajnath Singh on Saturday described preventive healthcare as the \"future model\" of the healthcare system, citing changing disease patterns, risi...",
+          "quote": "Preventive healthcare is the future due to changing diseases and rising costs"
+        }
+      ],
+      "notes": "Rajnath Singh emphasized the importance of preventive healthcare in his speech, indicating a commitment to this approach.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-22",
+      "created_at": "2026-08-22",
+      "url_checked_at": "2026-08-22",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a general policy focus rather than a specific, scaleable commitment.",
       "importance_source": "llm"
     }
   ]
