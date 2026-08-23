@@ -4,8 +4,8 @@
     "last_updated": "2026-08-23",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 158,
-    "promises_with_evidence": 158,
+    "total_promises": 159,
+    "promises_with_evidence": 159,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11745,6 +11745,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a general policy focus rather than a specific, scaleable commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p159",
+      "person": "Mohan Yadav",
+      "party": "Bhartiya Janta Party (BJP)",
+      "role": "Chief Minister of Madhya Pradesh",
+      "promise": "Visit villages in Panna and Chhatarpur districts to hear grievances of families affected by the Ken-Betwa river link project",
+      "supporting_quote": "Madhya Pradesh Chief Minister Mohan Yadav has directed officials to visit the villages in Panna and Chhatarpur districts and meet the families that are being impacted by the Ken Betwa river link project to hear their grievances.",
+      "category": "welfare",
+      "made_on": "2026-08-21",
+      "reported_on": "2026-08-22",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/madhya-pradesh/visit-families-affected-by-ken-betwa-project-hear-their-grievances-mp-cm-tells-officials/article71378282.ece",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/visit-families-affected-by-ken-betwa-project-hear-their-grievances-mp-cm-tells-officials/article71378282.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Visit+families+affected+by+Ken-Betwa+project+hear+their+grievances+M+P+CM+tells+officials+-+The+Hindu",
+      "source_description": "Visit families affected by Ken-Betwa project, hear their grievances: M.P. CM tells officials - The Hindu",
+      "declaration": {
+        "person": "Mohan Yadav",
+        "claim": "Visit villages in Panna and Chhatarpur districts to hear grievances of families affected by the Ken-Betwa river link project",
+        "quote": "Madhya Pradesh Chief Minister Mohan Yadav has directed officials to visit the villages in Panna and Chhatarpur districts and meet the families that are being impacted by the Ken Betwa river link project to hear their grievances.",
+        "source_url": "https://www.thehindu.com/news/national/madhya-pradesh/visit-families-affected-by-ken-betwa-project-hear-their-grievances-mp-cm-tells-officials/article71378282.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-22",
+        "made_on": "2026-08-21",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-23",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-23",
+          "evidence_url": "https://www.thehindu.com/news/national/madhya-pradesh/visit-families-affected-by-ken-betwa-project-hear-their-grievances-mp-cm-tells-officials/article71378282.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a specific directive to address the grievances of affected families, but it does not provide a clear deadline or outcome.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/madhya-pradesh/visit-families-affected-by-ken-betwa-project-hear-their-grievances-mp-cm-tells-officials/article71378282.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Visit+families+affected+by+Ken-Betwa+project+hear+their+grievances+M+P+CM+tells+officials+-+The+Hindu",
+          "supporting_quote": "Madhya Pradesh Chief Minister Mohan Yadav has directed officials to visit the villages in Panna and Chhatarpur districts and meet the families that are being impacted by the Ken Betwa river link project to hear their grievances.",
+          "title": "Visit families affected by Ken-Betwa project, hear their grievances: M.P. CM tells officials - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-22",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Mohan Yadav**, Chief Minister of Madhya Pradesh, directed officials to visit villages in Panna and Chhatarpur districts after a review meeting on August 21, 2026, to address grievances over the Ken-Betwa river link project. This followed protests by tribal families demanding better compensation an...",
+          "content": "Madhya Pradesh Chief Minister Mohan Yadav has directed officials to visit the villages in Panna and Chhatarpur districts and meet the families that are being impacted by the Ken Betwa river link project to hear their grievances. Mr. Yadav issued the directions after holding a review meeting for the project in Khajuraho on Friday (August 21, 2026). The move comes just days after Leader of Oppositio...",
+          "quote": "Madhya Pradesh Chief Minister Mohan Yadav has directed officials to visit the villages in Panna and Chhatarpur districts and meet the families that are being impacted by the Ken Betwa river link project to hear their grievances."
+        }
+      ],
+      "notes": "The promise is a specific directive to address the grievances of affected families, but it does not provide a clear deadline or outcome.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-23",
+      "created_at": "2026-08-23",
+      "url_checked_at": "2026-08-23",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a local visit to address grievances, not a transformational commitment.",
       "importance_source": "llm"
     }
   ]
