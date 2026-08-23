@@ -4,8 +4,8 @@
     "last_updated": "2026-08-23",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 159,
-    "promises_with_evidence": 159,
+    "total_promises": 160,
+    "promises_with_evidence": 160,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11818,6 +11818,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a local visit to address grievances, not a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p160",
+      "person": "Mansukh Mandaviya",
+      "party": "BJP",
+      "role": "Labour and Employment Minister",
+      "promise": "appealed to people to take part in cycling every Sunday to safeguard their health",
+      "supporting_quote": "He appealed to people to take part in cycling every Sunday to safeguard their health.",
+      "category": "health",
+      "made_on": "2026-08-23",
+      "reported_on": "2026-08-23",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/cycling-a-solution-to-pollution-says-union-minister-mandaviya-after-brics-friendship-cycling-event/article71380190.ece",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cycling-a-solution-to-pollution-says-union-minister-mandaviya-after-brics-friendship-cycling-event/article71380190.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Cycling+a+solution+to+pollution+says+Union+Minister+Mandaviya+after+BRICS+Friendship+Cycling+event+-+The+Hindu",
+      "source_description": "Cycling a solution to pollution, says Union Minister Mandaviya after BRICS Friendship Cycling event - The Hindu",
+      "declaration": {
+        "person": "Mansukh Mandaviya",
+        "claim": "appealed to people to take part in cycling every Sunday to safeguard their health",
+        "quote": "He appealed to people to take part in cycling every Sunday to safeguard their health.",
+        "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/cycling-a-solution-to-pollution-says-union-minister-mandaviya-after-brics-friendship-cycling-event/article71380190.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-23",
+        "made_on": "2026-08-23",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-23",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-23",
+          "evidence_url": "https://www.thehindu.com/news/national/andhra-pradesh/cycling-a-solution-to-pollution-says-union-minister-mandaviya-after-brics-friendship-cycling-event/article71380190.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The appeal is a new, specific call to action for health improvement through cycling, not a previously stated promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/cycling-a-solution-to-pollution-says-union-minister-mandaviya-after-brics-friendship-cycling-event/article71380190.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Cycling+a+solution+to+pollution+says+Union+Minister+Mandaviya+after+BRICS+Friendship+Cycling+event+-+The+Hindu",
+          "supporting_quote": "He appealed to people to take part in cycling every Sunday to safeguard their health.",
+          "title": "Cycling a solution to pollution, says Union Minister Mandaviya after BRICS Friendship Cycling event - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-23",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 23, 2026, **Union Minister for Youth Affairs and Sports Mansukh Mandaviya** said delegates from all BRICS countries participated in the BRICS Friendship Cycling event as part of the BRICS Youth and Sports Ministers’ Meeting. The event coincided with Prime Minister Narendra Modi’s “Sundays ...",
+          "content": "Union Minister for Youth Affairs and Sports Mansukh Mandaviya said on Sunday (August 23, 2026) that delegates from all the BRICS countries had taken part in the ride and enjoyed it after the BRICS Friendship Cycling event, held as part of the BRICS Youth and Sports Ministers’ Meeting 2026. Mr. Mandaviya said the cycling event coincided with the “Sundays on Cycle” initiative under the Fit India mov...",
+          "quote": "He appealed to people to take part in cycling every Sunday to safeguard their health."
+        }
+      ],
+      "notes": "The appeal is a new, specific call to action for health improvement through cycling, not a previously stated promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-23",
+      "created_at": "2026-08-23",
+      "url_checked_at": "2026-08-23",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a call to action without any large-scale, transformational commitment or national impact.",
       "importance_source": "llm"
     }
   ]
