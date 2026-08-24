@@ -4,8 +4,8 @@
     "last_updated": "2026-08-24",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 160,
-    "promises_with_evidence": 160,
+    "total_promises": 161,
+    "promises_with_evidence": 161,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11891,6 +11891,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a call to action without any large-scale, transformational commitment or national impact.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p161",
+      "person": "C. Joseph Vijay",
+      "party": "Tamilaga Vettri Kazhagam",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "reimburse money for three LPG cylinders annually",
+      "supporting_quote": "The government would collect the list from the oil companies after the beneficiaries receive the cylinders after registering and credit the money to their bank accounts",
+      "category": "welfare",
+      "made_on": "2026-08-24",
+      "reported_on": "2026-08-24",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-to-reimburse-money-for-three-lpg-cylinders-annually-from-next-pongal-says-cm-vijay/article71383243.ece",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-to-reimburse-money-for-three-lpg-cylinders-annually-from-next-pongal-says-cm-vijay/article71383243.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Tamil+Nadu+government+to+reimburse+money+for+three+LPG+cylinders+annually+from+next+Pongal+says+CM+Vijay+-+The+Hindu",
+      "source_description": "Tamil Nadu government to reimburse money for three LPG cylinders annually from next Pongal, says CM Vijay - The Hindu",
+      "declaration": {
+        "person": "C. Joseph Vijay",
+        "claim": "reimburse money for three LPG cylinders annually",
+        "quote": "The government would collect the list from the oil companies after the beneficiaries receive the cylinders after registering and credit the money to their bank accounts",
+        "source_url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-to-reimburse-money-for-three-lpg-cylinders-annually-from-next-pongal-says-cm-vijay/article71383243.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-24",
+        "made_on": "2026-08-24",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-24",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-24",
+          "evidence_url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-to-reimburse-money-for-three-lpg-cylinders-annually-from-next-pongal-says-cm-vijay/article71383243.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article details a new welfare scheme announced by C. Joseph Vijay, the Chief Minister of Tamil Nadu, to reimburse the cost of three LPG cylinders annually for eligible families.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-to-reimburse-money-for-three-lpg-cylinders-annually-from-next-pongal-says-cm-vijay/article71383243.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Tamil+Nadu+government+to+reimburse+money+for+three+LPG+cylinders+annually+from+next+Pongal+says+CM+Vijay+-+The+Hindu",
+          "supporting_quote": "The government would collect the list from the oil companies after the beneficiaries receive the cylinders after registering and credit the money to their bank accounts",
+          "title": "Tamil Nadu government to reimburse money for three LPG cylinders annually from next Pongal, says CM Vijay - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-24",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 24, 2026, **C. Joseph Vijay**, Tamil Nadu Chief Minister, announced the Annapoorani Super Six Scheme to reimburse three domestic LPG cylinders annually for eligible families starting Pongal Day in 2027. The scheme will benefit 13 million families at a cost of ₹4,000 crore, with credits goi...",
+          "content": "Tamil Nadu Chief Minister C. Joseph Vijay on Monday (August 24, 2026) announced reimbursement for three domestic LPG cylinders a year for eligible homemakers under the Annapoorani Super Six Scheme, which will be launched on Pongal Day in 2027. A total of 1,30,16,104 families will benefit from the scheme, which is expected to cost the government approximately ₹4,000 crore. Making a suo motu stateme...",
+          "quote": "The government would collect the list from the oil companies after the beneficiaries receive the cylinders after registering and credit the money to their bank accounts"
+        }
+      ],
+      "notes": "The article details a new welfare scheme announced by C. Joseph Vijay, the Chief Minister of Tamil Nadu, to reimburse the cost of three LPG cylinders annually for eligible families.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-24",
+      "created_at": "2026-08-24",
+      "url_checked_at": "2026-08-24",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a routine welfare subsidy rather than a transformational commitment.",
       "importance_source": "llm"
     }
   ]
