@@ -4,8 +4,8 @@
     "last_updated": "2026-08-24",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 161,
-    "promises_with_evidence": 161,
+    "total_promises": 162,
+    "promises_with_evidence": 162,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -11964,6 +11964,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a routine welfare subsidy rather than a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p162",
+      "person": "MK Stalin",
+      "party": "DMK",
+      "role": "Chief Minister",
+      "promise": "Opposition to dropping Parandur airport project",
+      "supporting_quote": "Dropping Parandur is not Change. It's an irreversible setback for Tamil Nadu's growth. The announcement made today by the Hon'ble Chief Minister of Tamil Nadu to drop the Parandur International Airport project will set the State's development back by several years.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-08-24",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/irreversible-setback-mk-stalin-on-vijay-dropping-parandur-airport-project-11951069#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/irreversible-setback-mk-stalin-on-vijay-dropping-parandur-airport-project-11951069#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Irreversible+Setback+MK+Stalin+On+Vijay+Dropping+Parandur+Airport+Project",
+      "source_description": "\"Irreversible Setback\": MK Stalin On Vijay Dropping Parandur Airport Project",
+      "declaration": {
+        "person": "MK Stalin",
+        "claim": "Opposition to dropping Parandur airport project",
+        "quote": "Dropping Parandur is not Change. It's an irreversible setback for Tamil Nadu's growth. The announcement made today by the Hon'ble Chief Minister of Tamil Nadu to drop the Parandur International Airport project will set the State's development back by several years.",
+        "source_url": "https://www.ndtv.com/india-news/irreversible-setback-mk-stalin-on-vijay-dropping-parandur-airport-project-11951069#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-24",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-24",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-24",
+          "evidence_url": "https://www.ndtv.com/india-news/irreversible-setback-mk-stalin-on-vijay-dropping-parandur-airport-project-11951069#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "MK Stalin expressed strong opposition to the decision to drop the Parandur airport project, emphasizing its negative impact on Tamil Nadu's growth and development.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/irreversible-setback-mk-stalin-on-vijay-dropping-parandur-airport-project-11951069#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Irreversible+Setback+MK+Stalin+On+Vijay+Dropping+Parandur+Airport+Project",
+          "supporting_quote": "Dropping Parandur is not Change. It's an irreversible setback for Tamil Nadu's growth. The announcement made today by the Hon'ble Chief Minister of Tamil Nadu to drop the Parandur International Airport project will set the State's development back by several years.",
+          "title": "\"Irreversible Setback\": MK Stalin On Vijay Dropping Parandur Airport Project",
+          "source": "NDTV",
+          "scraped_at": "2026-08-24",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**MK Stalin**, DMK chief, called the scrapping of Parandur airport an \"irreversible setback\" for Tamil Nadu's growth after Chief Minister **Vijay** announced its cancellation to protect farmland and livelihoods on Monday. DMK MLAs walked out when denied debate in the Assembly. The project was planne...",
+          "content": "- DMK chief MK Stalin called scrapping Parandur airport an irreversible setback for Tamil Nadu's growth - Chief Minister Vijay cited protection of farmland and livelihoods for abandoning the Parandur airport project - DMK MLAs staged walkout after being denied debate on the airport project's cancellation in Assembly Calling it an \"irreversible setback\" for Tamil Nadu's growth, DMK chief MK Stalin ...",
+          "quote": "Dropping Parandur is not Change. It's an irreversible setback for Tamil Nadu's growth. The announcement made today by the Hon'ble Chief Minister of Tamil Nadu to drop the Parandur International Airport project will set the State's development back by several years."
+        }
+      ],
+      "notes": "MK Stalin expressed strong opposition to the decision to drop the Parandur airport project, emphasizing its negative impact on Tamil Nadu's growth and development.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-24",
+      "created_at": "2026-08-24",
+      "url_checked_at": "2026-08-24",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "Opposition to a project is not a defining, transformational commitment.",
       "importance_source": "llm"
     }
   ]
