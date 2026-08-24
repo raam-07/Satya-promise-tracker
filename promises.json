@@ -4,8 +4,8 @@
     "last_updated": "2026-08-24",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 162,
-    "promises_with_evidence": 162,
+    "total_promises": 163,
+    "promises_with_evidence": 163,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12037,6 +12037,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Opposition to a project is not a defining, transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p163",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "detect and deport illegal migrants",
+      "supporting_quote": "Union Home Minister Amit Shah on Monday (August 24, 2026) directed the security agencies to take strict measures against infiltration, asking the police chiefs to detect and deport illegal migrants.",
+      "category": "law_and_order",
+      "made_on": "2026-08-24",
+      "reported_on": "2026-08-24",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/detect-and-deport-illegal-migrants-amit-shah-tells-police-chiefs/article71385854.ece",
+      "url": "https://www.thehindu.com/news/national/detect-and-deport-illegal-migrants-amit-shah-tells-police-chiefs/article71385854.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Detect+and+deport+illegal+migrants+Amit+Shah+tells+police+chiefs+-+The+Hindu",
+      "source_description": "Detect and deport illegal migrants, Amit Shah tells police chiefs - The Hindu",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "detect and deport illegal migrants",
+        "quote": "Union Home Minister Amit Shah on Monday (August 24, 2026) directed the security agencies to take strict measures against infiltration, asking the police chiefs to detect and deport illegal migrants.",
+        "source_url": "https://www.thehindu.com/news/national/detect-and-deport-illegal-migrants-amit-shah-tells-police-chiefs/article71385854.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-24",
+        "made_on": "2026-08-24",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-24",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-24",
+          "evidence_url": "https://www.thehindu.com/news/national/detect-and-deport-illegal-migrants-amit-shah-tells-police-chiefs/article71385854.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a new directive given by Amit Shah to security agencies, focusing on national security.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/detect-and-deport-illegal-migrants-amit-shah-tells-police-chiefs/article71385854.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Detect+and+deport+illegal+migrants+Amit+Shah+tells+police+chiefs+-+The+Hindu",
+          "supporting_quote": "Union Home Minister Amit Shah on Monday (August 24, 2026) directed the security agencies to take strict measures against infiltration, asking the police chiefs to detect and deport illegal migrants.",
+          "title": "Detect and deport illegal migrants, Amit Shah tells police chiefs - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-24",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 24, 2026, **Amit Shah**, Union Home Minister, directed security agencies to take strict measures against infiltration and deport illegal migrants during the inauguration of the two-day National Security Strategies Conference-2026 (NSSC) in Delhi. The conference, attended by over 850 partic...",
+          "content": "Union Home Minister Amit Shah on Monday (August 24, 2026) directed the security agencies to take strict measures against infiltration, asking the police chiefs to detect and deport illegal migrants. He was inaugurating the two-day National Security Strategies Conference-2026 (NSSC). On Tuesday (August 25), the conference will discuss information warfare and its implications on national security an...",
+          "quote": "Union Home Minister Amit Shah on Monday (August 24, 2026) directed the security agencies to take strict measures against infiltration, asking the police chiefs to detect and deport illegal migrants."
+        }
+      ],
+      "notes": "The promise is a new directive given by Amit Shah to security agencies, focusing on national security.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-24",
+      "created_at": "2026-08-24",
+      "url_checked_at": "2026-08-24",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine administrative action rather than a transformational commitment.",
       "importance_source": "llm"
     }
   ]
