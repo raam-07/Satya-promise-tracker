@@ -4,8 +4,8 @@
     "last_updated": "2026-08-26",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 163,
-    "promises_with_evidence": 163,
+    "total_promises": 164,
+    "promises_with_evidence": 164,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12110,6 +12110,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine administrative action rather than a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p164",
+      "person": "Mayawati",
+      "party": "Bahujan Samaj Party (BSP)",
+      "role": "BSP National President",
+      "promise": "BSP will contest alone in Punjab Assembly polls",
+      "supporting_quote": "BSP will contest the Punjab elections alone on its own strength, without any alliance or compromise, just like in Uttar Pradesh and Uttarakhand.",
+      "category": "other",
+      "made_on": null,
+      "reported_on": "2026-08-26",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/mayawati-says-bsp-will-contest-alone-in-punjab-assembly-polls-11959208#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/mayawati-says-bsp-will-contest-alone-in-punjab-assembly-polls-11959208#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Mayawati+Says+BSP+Will+Contest+Alone+In+Punjab+Assembly+Polls",
+      "source_description": "Mayawati Says BSP Will Contest Alone In Punjab Assembly Polls",
+      "declaration": {
+        "person": "Mayawati",
+        "claim": "BSP will contest alone in Punjab Assembly polls",
+        "quote": "BSP will contest the Punjab elections alone on its own strength, without any alliance or compromise, just like in Uttar Pradesh and Uttarakhand.",
+        "source_url": "https://www.ndtv.com/india-news/mayawati-says-bsp-will-contest-alone-in-punjab-assembly-polls-11959208#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-26",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-26",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-26",
+          "evidence_url": "https://www.ndtv.com/india-news/mayawati-says-bsp-will-contest-alone-in-punjab-assembly-polls-11959208#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is specific to the upcoming Punjab Assembly polls and aims to contest alone, without alliances.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/mayawati-says-bsp-will-contest-alone-in-punjab-assembly-polls-11959208#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Mayawati+Says+BSP+Will+Contest+Alone+In+Punjab+Assembly+Polls",
+          "supporting_quote": "BSP will contest the Punjab elections alone on its own strength, without any alliance or compromise, just like in Uttar Pradesh and Uttarakhand.",
+          "title": "Mayawati Says BSP Will Contest Alone In Punjab Assembly Polls",
+          "source": "NDTV",
+          "scraped_at": "2026-08-26",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "National President of **Bahujan Samaj Party (BSP)** and four-time former Chief Minister of Uttar Pradesh, Mayawati, reviewed plans to strengthen the party's base in Punjab at a meeting in Lucknow. She emphasized fielding honest candidates for upcoming assembly elections in Punjab, Uttar Pradesh, and...",
+          "content": "National President of Bahujan Samaj Party (BSP), four-time former Chief Minister of Uttar Pradesh and former MP Mayawati, held a detailed review of the work to increase the party's mass base and party organisation in Punjab with senior and responsible party members. Along with the assembly elections in Uttar Pradesh and Uttarakhand scheduled for early next year, she emphasised fielding hard-workin...",
+          "quote": "BSP will contest the Punjab elections alone on its own strength, without any alliance or compromise, just like in Uttar Pradesh and Uttarakhand."
+        }
+      ],
+      "notes": "The promise is specific to the upcoming Punjab Assembly polls and aims to contest alone, without alliances.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-26",
+      "created_at": "2026-08-26",
+      "url_checked_at": "2026-08-26",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a statement about electoral strategy rather than a policy promise with significant national or state impact.",
       "importance_source": "llm"
     }
   ]
