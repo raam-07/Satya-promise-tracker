@@ -4,8 +4,8 @@
     "last_updated": "2026-08-26",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 164,
-    "promises_with_evidence": 164,
+    "total_promises": 165,
+    "promises_with_evidence": 165,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12183,6 +12183,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a statement about electoral strategy rather than a policy promise with significant national or state impact.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p165",
+      "person": "Yogi Adityanath",
+      "party": "BJP",
+      "role": "Chief Minister",
+      "promise": "free health check-ups for workers once a year",
+      "supporting_quote": "The rules also provide for free health check-ups for workers once a year.",
+      "category": "health",
+      "made_on": "2023-02-28",
+      "reported_on": "2026-08-26",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/up-workers-to-get-appointment-letters-annual-health-checks-under-new-rules-11960742#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/up-workers-to-get-appointment-letters-annual-health-checks-under-new-rules-11960742#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=UP+Workers+To+Get+Appointment+Letters+Annual+Health+Checks+Under+New+Rules",
+      "source_description": "UP Workers To Get Appointment Letters, Annual Health Checks Under New Rules",
+      "declaration": {
+        "person": "Yogi Adityanath",
+        "claim": "free health check-ups for workers once a year",
+        "quote": "The rules also provide for free health check-ups for workers once a year.",
+        "source_url": "https://www.ndtv.com/india-news/up-workers-to-get-appointment-letters-annual-health-checks-under-new-rules-11960742#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-26",
+        "made_on": "2023-02-28",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-26",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-26",
+          "evidence_url": "https://www.ndtv.com/india-news/up-workers-to-get-appointment-letters-annual-health-checks-under-new-rules-11960742#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the declaration of free health check-ups for workers once a year, which is a new promise made by the Chief Minister Yogi Adityanath.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/up-workers-to-get-appointment-letters-annual-health-checks-under-new-rules-11960742#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=UP+Workers+To+Get+Appointment+Letters+Annual+Health+Checks+Under+New+Rules",
+          "supporting_quote": "The rules also provide for free health check-ups for workers once a year.",
+          "title": "UP Workers To Get Appointment Letters, Annual Health Checks Under New Rules",
+          "source": "NDTV",
+          "scraped_at": "2026-08-26",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "At a Cabinet meeting chaired by **Chief Minister Yogi Adityanath** on Tuesday, the Uttar Pradesh government approved new rules to improve safety and working conditions for private-sector workers. The Uttar Pradesh Occupational Safety, Health and Working Conditions Rules, 2026 mandate facilities like...",
+          "content": "The Uttar Pradesh government has approved a set of new rules aimed at improving the safety, health and working conditions of private-sector workers in the state. The decision was taken at a Cabinet meeting chaired by Chief Minister Yogi Adityanath on Tuesday, where the government approved the Uttar Pradesh Occupational Safety, Health and Working Conditions Rules, 2026. Under the new rules, workers...",
+          "quote": "The rules also provide for free health check-ups for workers once a year."
+        }
+      ],
+      "notes": "The article mentions the declaration of free health check-ups for workers once a year, which is a new promise made by the Chief Minister Yogi Adityanath.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-26",
+      "created_at": "2026-08-26",
+      "url_checked_at": "2026-08-26",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a routine health service for a specific group.",
       "importance_source": "llm"
     }
   ]
