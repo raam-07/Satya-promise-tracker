@@ -4,8 +4,8 @@
     "last_updated": "2026-08-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 165,
-    "promises_with_evidence": 165,
+    "total_promises": 166,
+    "promises_with_evidence": 166,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12256,6 +12256,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a routine health service for a specific group.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p166",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "Build a drug-free India and a stronger future for the youth",
+      "supporting_quote": "Its goal is crystal clear - drug-free youth, drug-free India. Let us come together to build a drug-free India and a stronger future for our youth",
+      "category": "law_and_order",
+      "made_on": "2026-08-30",
+      "reported_on": "2026-08-30",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/pm-modi-mann-ki-baat-august-30-2026/article71407185.ece",
+      "url": "https://www.thehindu.com/news/national/pm-modi-mann-ki-baat-august-30-2026/article71407185.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Mann+Ki+Baat+PM+Modi+calls+on+citizens+to+make+India+drug-free+-+The+Hindu",
+      "source_description": "Mann Ki Baat: PM Modi calls on citizens to make India ‘drug-free’ - The Hindu",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "Build a drug-free India and a stronger future for the youth",
+        "quote": "Its goal is crystal clear - drug-free youth, drug-free India. Let us come together to build a drug-free India and a stronger future for our youth",
+        "source_url": "https://www.thehindu.com/news/national/pm-modi-mann-ki-baat-august-30-2026/article71407185.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-30",
+        "made_on": "2026-08-30",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-30",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-30",
+          "evidence_url": "https://www.thehindu.com/news/national/pm-modi-mann-ki-baat-august-30-2026/article71407185.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports PM Modi's call to build a drug-free India and a stronger future for the youth during his Mann Ki Baat address, which is a new and significant national commitment.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/pm-modi-mann-ki-baat-august-30-2026/article71407185.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Mann+Ki+Baat+PM+Modi+calls+on+citizens+to+make+India+drug-free+-+The+Hindu",
+          "supporting_quote": "Its goal is crystal clear - drug-free youth, drug-free India. Let us come together to build a drug-free India and a stronger future for our youth",
+          "title": "Mann Ki Baat: PM Modi calls on citizens to make India ‘drug-free’ - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-30",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 30, 2026, **Prime Minister Narendra Modi** in his monthly 'Mann Ki Baat' radio address appealed for a drug-free India through the 'Nasha Mukt Bharat Abhiyaan', launched on August 15, 2020. He also highlighted the PM SVANidhi Yojana, noting that nearly 46% of its beneficiaries are women, ai...",
+          "content": "Prime Minister Narendra Modi on Sunday (August 30, 2026) appealed to citizens to join hands to free India from the menace of drug abuse, and build a stronger future for the youth. In his monthly radio address 'Mann Ki Baat', PM Modi noted that the 'Drug-Free Youth for a Developed India' campaign is gaining momentum across the entire country. \"Its goal is crystal clear - drug-free youth, drug-free ...",
+          "quote": "Its goal is crystal clear - drug-free youth, drug-free India. Let us come together to build a drug-free India and a stronger future for our youth"
+        }
+      ],
+      "notes": "The article reports PM Modi's call to build a drug-free India and a stronger future for the youth during his Mann Ki Baat address, which is a new and significant national commitment.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-30",
+      "created_at": "2026-08-30",
+      "url_checked_at": "2026-08-30",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "The promise is vague and lacks specific, measurable goals or scale.",
       "importance_source": "llm"
     }
   ]
