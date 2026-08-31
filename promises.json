@@ -4,8 +4,8 @@
     "last_updated": "2026-08-31",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 167,
-    "promises_with_evidence": 167,
+    "total_promises": 168,
+    "promises_with_evidence": 168,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12402,6 +12402,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "The promise is vague and does not specify the scale or impact of the infrastructure agenda.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p168",
+      "person": "C. Joseph Vijay",
+      "party": "DMK",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "establishment of a new supercritical thermal power station in Thoothukudi",
+      "supporting_quote": "He also announced that a new supercritical thermal power station would be set up in Thoothukudi at a cost of ₹20,800 crore, besides a ₹1,762-crore project to improve power distribution in Chennai.",
+      "category": "infrastructure",
+      "made_on": "2026-08-31",
+      "reported_on": "2026-08-31",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-cm-vijay-announces-establishment-of-new-supercritical-thermal-power-station-in-thoothukudi/article71409952.ece",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-cm-vijay-announces-establishment-of-new-supercritical-thermal-power-station-in-thoothukudi/article71409952.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Tamil+Nadu+CM+Vijay+announces+establishment+of+new+supercritical+thermal+power+station+in+Thoothukudi+-+The+Hindu",
+      "source_description": "Tamil Nadu CM Vijay announces establishment of new supercritical thermal power station in Thoothukudi - The Hindu",
+      "declaration": {
+        "person": "C. Joseph Vijay",
+        "claim": "establishment of a new supercritical thermal power station in Thoothukudi",
+        "quote": "He also announced that a new supercritical thermal power station would be set up in Thoothukudi at a cost of ₹20,800 crore, besides a ₹1,762-crore project to improve power distribution in Chennai.",
+        "source_url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-cm-vijay-announces-establishment-of-new-supercritical-thermal-power-station-in-thoothukudi/article71409952.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-31",
+        "made_on": "2026-08-31",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-31",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-31",
+          "evidence_url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-cm-vijay-announces-establishment-of-new-supercritical-thermal-power-station-in-thoothukudi/article71409952.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The announcement of a new supercritical thermal power station in Thoothukudi is a significant infrastructure project that aims to strengthen power supply in Tamil Nadu.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-cm-vijay-announces-establishment-of-new-supercritical-thermal-power-station-in-thoothukudi/article71409952.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Tamil+Nadu+CM+Vijay+announces+establishment+of+new+supercritical+thermal+power+station+in+Thoothukudi+-+The+Hindu",
+          "supporting_quote": "He also announced that a new supercritical thermal power station would be set up in Thoothukudi at a cost of ₹20,800 crore, besides a ₹1,762-crore project to improve power distribution in Chennai.",
+          "title": "Tamil Nadu CM Vijay announces establishment of new supercritical thermal power station in Thoothukudi - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-31",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On August 31, 2026, **C. Joseph Vijay**, Tamil Nadu Chief Minister, announced a ₹33,066 crore Tamil Nadu Transmission Improvement Scheme to strengthen power transmission and set up a new supercritical thermal power station in Thoothukudi at ₹20,800 crore. He also unveiled a ₹1,762-crore project to i...",
+          "content": "Tamil Nadu Chief Minister C. Joseph Vijay on Monday (August 31, 2026) announced a Tamil Nadu Transmission Improvement Scheme at a cost of ₹33,066 crore to strengthen power transmission to major consumption centres, including Chennai. He also announced that a new supercritical thermal power station would be set up in Thoothukudi at a cost of ₹20,800 crore, besides a ₹1,762-crore project to improve ...",
+          "quote": "He also announced that a new supercritical thermal power station would be set up in Thoothukudi at a cost of ₹20,800 crore, besides a ₹1,762-crore project to improve power distribution in Chennai."
+        }
+      ],
+      "notes": "The announcement of a new supercritical thermal power station in Thoothukudi is a significant infrastructure project that aims to strengthen power supply in Tamil Nadu.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-31",
+      "created_at": "2026-08-31",
+      "url_checked_at": "2026-08-31",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a single infrastructure project, not a nationwide or transformational state-level commitment.",
       "importance_source": "llm"
     }
   ]
