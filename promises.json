@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-08-31",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 166,
-    "promises_with_evidence": 166,
+    "total_promises": 167,
+    "promises_with_evidence": 167,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12329,6 +12329,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "The promise is vague and lacks specific, measurable goals or scale.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p167",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "implement an ambitious infrastructure agenda",
+      "supporting_quote": "The government has simultaneously unveiled an ambitious infrastructure agenda aimed at taking Hyderabad and the State into the next phase of growth.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-08-30",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/telangana/revanths-govt-leaves-its-imprint-after-1000-days-in-office/article71408545.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/revanths-govt-leaves-its-imprint-after-1000-days-in-office/article71408545.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Revanth+s+govt+leaves+its+imprint+after+1+000+days+in+office+-+The+Hindu",
+      "source_description": "Revanth’s govt. leaves its imprint after 1,000 days in office - The Hindu",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "implement an ambitious infrastructure agenda",
+        "quote": "The government has simultaneously unveiled an ambitious infrastructure agenda aimed at taking Hyderabad and the State into the next phase of growth.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/revanths-govt-leaves-its-imprint-after-1000-days-in-office/article71408545.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-08-30",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-08-31",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-08-31",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/revanths-govt-leaves-its-imprint-after-1000-days-in-office/article71408545.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions an ambitious infrastructure agenda without specifying a concrete promise made earlier, indicating it is a new declaration.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/revanths-govt-leaves-its-imprint-after-1000-days-in-office/article71408545.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Revanth+s+govt+leaves+its+imprint+after+1+000+days+in+office+-+The+Hindu",
+          "supporting_quote": "The government has simultaneously unveiled an ambitious infrastructure agenda aimed at taking Hyderabad and the State into the next phase of growth.",
+          "title": "Revanth’s govt. leaves its imprint after 1,000 days in office - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-08-30",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "After completing 1,000 days in office, **Chief Minister A. Revanth Reddy** highlights his administration's achievements: attracting investments worth ₹6.94 lakh crore, maintaining Hyderabad’s IT sector momentum with exports of ₹3.97 lakh crore, and implementing welfare schemes benefiting women, incl...",
+          "content": "As the Congress government completes 1,000 days in office, Chief Minister A. Revanth Reddy can point to several areas where his administration has sought to establish a distinct identity, from attracting investments and retaining Hyderabad’s position as an IT power house to putting women at the centre of its welfare and economic agenda. The transition from the KCR era to the Congress government wa...",
+          "quote": "The government has simultaneously unveiled an ambitious infrastructure agenda aimed at taking Hyderabad and the State into the next phase of growth."
+        }
+      ],
+      "notes": "The article mentions an ambitious infrastructure agenda without specifying a concrete promise made earlier, indicating it is a new declaration.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-08-31",
+      "created_at": "2026-08-31",
+      "url_checked_at": "2026-08-31",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "The promise is vague and does not specify the scale or impact of the infrastructure agenda.",
       "importance_source": "llm"
     }
   ]
