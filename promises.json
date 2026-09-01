@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-08-31",
+    "last_updated": "2026-09-01",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 168,
-    "promises_with_evidence": 168,
+    "total_promises": 169,
+    "promises_with_evidence": 169,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12475,6 +12475,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a single infrastructure project, not a nationwide or transformational state-level commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p169",
+      "person": "Devendra Fadnavis",
+      "party": "BJP",
+      "role": "Chief Minister of Maharashtra",
+      "promise": "ensure women get 33% reservation by 2029",
+      "supporting_quote": "Accusing Rahul Gandhi of being the \"killer\" of women's reservation, he said the BJP would ensure that women get 33 per cent reservation by 2029.",
+      "category": "welfare",
+      "made_on": null,
+      "reported_on": "2026-08-31",
+      "deadline": "2029",
+      "source_url": "https://www.ndtv.com/india-news/why-priyanka-gandhi-not-given-chance-d-fadnavis-targets-rahul-gandhi-on-womens-bill-11984032#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/why-priyanka-gandhi-not-given-chance-d-fadnavis-targets-rahul-gandhi-on-womens-bill-11984032#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Why+Priyanka+Gandhi+Not+Given+Chance+D+Fadnavis+Targets+Rahul+Gandhi+On+Women+s+Bill",
+      "source_description": "Why Priyanka Gandhi \"Not Given Chance\": D Fadnavis Targets Rahul Gandhi On Women's Bill",
+      "declaration": {
+        "person": "Devendra Fadnavis",
+        "claim": "ensure women get 33% reservation by 2029",
+        "quote": "Accusing Rahul Gandhi of being the \"killer\" of women's reservation, he said the BJP would ensure that women get 33 per cent reservation by 2029.",
+        "source_url": "https://www.ndtv.com/india-news/why-priyanka-gandhi-not-given-chance-d-fadnavis-targets-rahul-gandhi-on-womens-bill-11984032#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-08-31",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-01",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-01",
+          "evidence_url": "https://www.ndtv.com/india-news/why-priyanka-gandhi-not-given-chance-d-fadnavis-targets-rahul-gandhi-on-womens-bill-11984032#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Devendra Fadnavis declared that the BJP would ensure women get 33% reservation by 2029, which is a new welfare promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/why-priyanka-gandhi-not-given-chance-d-fadnavis-targets-rahul-gandhi-on-womens-bill-11984032#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Why+Priyanka+Gandhi+Not+Given+Chance+D+Fadnavis+Targets+Rahul+Gandhi+On+Women+s+Bill",
+          "supporting_quote": "Accusing Rahul Gandhi of being the \"killer\" of women's reservation, he said the BJP would ensure that women get 33 per cent reservation by 2029.",
+          "title": "Why Priyanka Gandhi \"Not Given Chance\": D Fadnavis Targets Rahul Gandhi On Women's Bill",
+          "source": "NDTV",
+          "scraped_at": "2026-08-31",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Devendra Fadnavis**, Maharashtra Chief Minister, questioned **Rahul Gandhi** over the Congress party's stance on women's reservation at a BJP meeting in Pune. Citing Priyanka Gandhi’s lack of prominent roles despite her position as AICC general secretary and MP from Wayanad, Fadnavis accused the C...",
+          "content": "Maharashtra Chief Minister Devendra Fadnavis has questioned Rahul Gandhi over the Congress party's position on women's reservation, citing the example of Priyanka Gandhi and questioning why she was not given a chance. He also declared that the Congress had earlier supported a reservation bill linked to constitutional amendment and its current stance is an example of its double standards. Speaking ...",
+          "quote": "Accusing Rahul Gandhi of being the \"killer\" of women's reservation, he said the BJP would ensure that women get 33 per cent reservation by 2029."
+        }
+      ],
+      "notes": "Devendra Fadnavis declared that the BJP would ensure women get 33% reservation by 2029, which is a new welfare promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-01",
+      "created_at": "2026-09-01",
+      "url_checked_at": "2026-09-01",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "It aims for a national-level transformation in gender equality and political representation.",
       "importance_source": "llm"
     }
   ]
