@@ -4,8 +4,8 @@
     "last_updated": "2026-09-03",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 169,
-    "promises_with_evidence": 169,
+    "total_promises": 170,
+    "promises_with_evidence": 170,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12548,6 +12548,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "It aims for a national-level transformation in gender equality and political representation.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p170",
+      "person": "Himanta Biswa Sarma",
+      "party": "BJP",
+      "role": "Chief Minister of Assam",
+      "promise": "Recruit 15,000 to 20,000 personnel and promote around 5,000 police personnel",
+      "supporting_quote": "Assam Chief Minister Himanta Biswa Sarma on Thursday announced plans to recruit 15,000 to 20,000 personnel and promote around 5,000 police personnel as part of his efforts to strengthen the state police force.",
+      "category": "law_and_order",
+      "made_on": "2023-10-05",
+      "reported_on": "2026-09-03",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/assam-police-to-get-15-000-20-000-recruits-5-000-promotions-himanta-sarma-11999524#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/assam-police-to-get-15-000-20-000-recruits-5-000-promotions-himanta-sarma-11999524#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Assam+Police+To+Get+15+000-20+000+Recruits+5+000+Promotions+Himanta+Sarma",
+      "source_description": "Assam Police To Get 15,000-20,000 Recruits, 5,000 Promotions: Himanta Sarma",
+      "declaration": {
+        "person": "Himanta Biswa Sarma",
+        "claim": "Recruit 15,000 to 20,000 personnel and promote around 5,000 police personnel",
+        "quote": "Assam Chief Minister Himanta Biswa Sarma on Thursday announced plans to recruit 15,000 to 20,000 personnel and promote around 5,000 police personnel as part of his efforts to strengthen the state police force.",
+        "source_url": "https://www.ndtv.com/india-news/assam-police-to-get-15-000-20-000-recruits-5-000-promotions-himanta-sarma-11999524#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-09-03",
+        "made_on": "2023-10-05",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-03",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-03",
+          "evidence_url": "https://www.ndtv.com/india-news/assam-police-to-get-15-000-20-000-recruits-5-000-promotions-himanta-sarma-11999524#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The announcement is a new commitment to strengthen the police force, which is a significant state-level initiative.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/assam-police-to-get-15-000-20-000-recruits-5-000-promotions-himanta-sarma-11999524#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Assam+Police+To+Get+15+000-20+000+Recruits+5+000+Promotions+Himanta+Sarma",
+          "supporting_quote": "Assam Chief Minister Himanta Biswa Sarma on Thursday announced plans to recruit 15,000 to 20,000 personnel and promote around 5,000 police personnel as part of his efforts to strengthen the state police force.",
+          "title": "Assam Police To Get 15,000-20,000 Recruits, 5,000 Promotions: Himanta Sarma",
+          "source": "NDTV",
+          "scraped_at": "2026-09-03",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Thursday, **Himanta Biswa Sarma**, Assam's Chief Minister, announced plans to recruit 15,000 to 20,000 personnel and promote around 5,000 police officers at a press conference following a two-day meeting with senior police officials. He aimed to strengthen law enforcement by forming new battalion...",
+          "content": "Assam Chief Minister Himanta Biswa Sarma on Thursday announced plans to recruit 15,000 to 20,000 personnel and promote around 5,000 police personnel as part of his efforts to strengthen the state police force. Addressing a press conference after a two-day conference of senior police officers, Sarma said maintaining law and order would remain a key priority and directed the police to ensure that th...",
+          "quote": "Assam Chief Minister Himanta Biswa Sarma on Thursday announced plans to recruit 15,000 to 20,000 personnel and promote around 5,000 police personnel as part of his efforts to strengthen the state police force."
+        }
+      ],
+      "notes": "The announcement is a new commitment to strengthen the police force, which is a significant state-level initiative.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-03",
+      "created_at": "2026-09-03",
+      "url_checked_at": "2026-09-03",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "Routine recruitment and promotion within the police force, not transformational or affecting a large population.",
       "importance_source": "llm"
     }
   ]
