@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-09-03",
+    "last_updated": "2026-09-04",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 170,
-    "promises_with_evidence": 170,
+    "total_promises": 171,
+    "promises_with_evidence": 171,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12621,6 +12621,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Routine recruitment and promotion within the police force, not transformational or affecting a large population.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p171",
+      "person": "Nitin Gadkari",
+      "party": "BJP",
+      "role": "Union Minister",
+      "promise": "Approve Rs 2,077 crore for the four-laning of the 31.02-km Bagdogra-Panitanki-Kharibari-Galgalia section of NH-327 in Darjeeling district",
+      "supporting_quote": "\"In West Bengal, we have approved Rs 2,077.18 crore for the four-laning of the 31.02-km Bagdogra-Panitanki-Kharibari-Galgalia section of NH-327 in Darjeeling district. The project will include construction of three major bridges, one Road Over Bridge (ROB), five elephant underpasses and service roads on both sides, strengthening connectivity while ensuring safer movement for both people and wildlife,\" Nitin Gadkari said.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-09-03",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/5-elephant-underpasses-among-big-infra-push-near-bengals-siliguri-11999151#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/5-elephant-underpasses-among-big-infra-push-near-bengals-siliguri-11999151#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Rs+2+077+Crore+Infra+Push+Near+Chicken+s+Neck+Alternate+Route+Along+Nepal+Border",
+      "source_description": "Rs 2,077 Crore Infra Push Near Chicken's Neck, Alternate Route Along Nepal Border",
+      "declaration": {
+        "person": "Nitin Gadkari",
+        "claim": "Approve Rs 2,077 crore for the four-laning of the 31.02-km Bagdogra-Panitanki-Kharibari-Galgalia section of NH-327 in Darjeeling district",
+        "quote": "\"In West Bengal, we have approved Rs 2,077.18 crore for the four-laning of the 31.02-km Bagdogra-Panitanki-Kharibari-Galgalia section of NH-327 in Darjeeling district. The project will include construction of three major bridges, one Road Over Bridge (ROB), five elephant underpasses and service roads on both sides, strengthening connectivity while ensuring safer movement for both people and wildlife,\" Nitin Gadkari said.",
+        "source_url": "https://www.ndtv.com/india-news/5-elephant-underpasses-among-big-infra-push-near-bengals-siliguri-11999151#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-09-03",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-04",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-04",
+          "evidence_url": "https://www.ndtv.com/india-news/5-elephant-underpasses-among-big-infra-push-near-bengals-siliguri-11999151#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The announcement is a new infrastructure project and does not match any existing promises.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/5-elephant-underpasses-among-big-infra-push-near-bengals-siliguri-11999151#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Rs+2+077+Crore+Infra+Push+Near+Chicken+s+Neck+Alternate+Route+Along+Nepal+Border",
+          "supporting_quote": "\"In West Bengal, we have approved Rs 2,077.18 crore for the four-laning of the 31.02-km Bagdogra-Panitanki-Kharibari-Galgalia section of NH-327 in Darjeeling district. The project will include construction of three major bridges, one Road Over Bridge (ROB), five elephant underpasses and service roads on both sides, strengthening connectivity while ensuring safer movement for both people and wildlife,\" Nitin Gadkari said.",
+          "title": "Rs 2,077 Crore Infra Push Near Chicken's Neck, Alternate Route Along Nepal Border",
+          "source": "NDTV",
+          "scraped_at": "2026-09-03",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Nitin Gadkari**, Union Minister for Road Transport and Highways, announced a Rs 2,077.18 crore project to four-lane the 31.02-km Bagdogra-Panitanki-Kharibari-Galgalia section of NH-327 in Darjeeling district, including three major bridges, one ROB, five elephant underpasses, and service roads. The...",
+          "content": "In a major boost for infrastructure along the Nepal border on the strategically important Siliguri Corridor, Union Minister for Road Transport and Highways, Nitin Gadkari has announced a major highway upgradation project. \"In West Bengal, we have approved Rs 2,077.18 crore for the four-laning of the 31.02-km Bagdogra-Panitanki-Kharibari-Galgalia section of NH-327 in Darjeeling district. The projec...",
+          "quote": "\"In West Bengal, we have approved Rs 2,077.18 crore for the four-laning of the 31.02-km Bagdogra-Panitanki-Kharibari-Galgalia section of NH-327 in Darjeeling district. The project will include construction of three major bridges, one Road Over Bridge (ROB), five elephant underpasses and service roads on both sides, strengthening connectivity while ensuring safer movement for both people and wildlife,\" Nitin Gadkari said."
+        }
+      ],
+      "notes": "The announcement is a new infrastructure project and does not match any existing promises.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-04",
+      "created_at": "2026-09-04",
+      "url_checked_at": "2026-09-04",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a single infrastructure project, not a transformational commitment affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
