@@ -4,8 +4,8 @@
     "last_updated": "2026-09-06",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 171,
-    "promises_with_evidence": 171,
+    "total_promises": 172,
+    "promises_with_evidence": 172,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12694,6 +12694,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a single infrastructure project, not a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p172",
+      "person": "Mohan Yadav",
+      "party": "Congress",
+      "role": "Chief Minister of Madhya Pradesh",
+      "promise": "Take strictest possible action against those responsible for toxic liquor deaths",
+      "supporting_quote": "\"I have instructed the concerned minister and officials to visit the site immediately; we will take the strictest possible action and conduct an inquiry. Our government will absolutely not tolerate such incidents,\"",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-09-06",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/sagar-poisonous-liquor-death-12-die-several-fall-ill-after-drinking-poisonous-liquor-in-madhya-pradesh-12008421#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/sagar-poisonous-liquor-death-12-die-several-fall-ill-after-drinking-poisonous-liquor-in-madhya-pradesh-12008421#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Sagar+poisonous+liquor+death+12+Die+Several+Fall+Ill+After+Drinking+Poisonous+Liquor+In+Madhya+Pradesh",
+      "source_description": "Sagar poisonous liquor death, 12 Die, Several Fall Ill After Drinking Poisonous Liquor In Madhya Pradesh",
+      "declaration": {
+        "person": "Mohan Yadav",
+        "claim": "Take strictest possible action against those responsible for toxic liquor deaths",
+        "quote": "\"I have instructed the concerned minister and officials to visit the site immediately; we will take the strictest possible action and conduct an inquiry. Our government will absolutely not tolerate such incidents,\"",
+        "source_url": "https://www.ndtv.com/india-news/sagar-poisonous-liquor-death-12-die-several-fall-ill-after-drinking-poisonous-liquor-in-madhya-pradesh-12008421#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-09-06",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-06",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-06",
+          "evidence_url": "https://www.ndtv.com/india-news/sagar-poisonous-liquor-death-12-die-several-fall-ill-after-drinking-poisonous-liquor-in-madhya-pradesh-12008421#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a direct statement made by the Chief Minister Mohan Yadav in response to the toxic liquor deaths in Sagar, Madhya Pradesh.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/sagar-poisonous-liquor-death-12-die-several-fall-ill-after-drinking-poisonous-liquor-in-madhya-pradesh-12008421#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Sagar+poisonous+liquor+death+12+Die+Several+Fall+Ill+After+Drinking+Poisonous+Liquor+In+Madhya+Pradesh",
+          "supporting_quote": "\"I have instructed the concerned minister and officials to visit the site immediately; we will take the strictest possible action and conduct an inquiry. Our government will absolutely not tolerate such incidents,\"",
+          "title": "Sagar poisonous liquor death, 12 Die, Several Fall Ill After Drinking Poisonous Liquor In Madhya Pradesh",
+          "source": "NDTV",
+          "scraped_at": "2026-09-06",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "At least 12 people died and over 10 fell ill after drinking suspected poisonous liquor in Madhya Pradesh's Sagar district, prompting **Mohan Yadav**, the Chief Minister, to order an inquiry and strict action against those responsible. Authorities launched medical screenings, sealed six liquor shops,...",
+          "content": "At least 12 people died and more than 10 others fell ill after allegedly drinking poisonous liquor in Madhya Pradesh's Sagar district, prompting authorities to launch an investigation, begin medical screening in affected villages and seal liquor shops as a precautionary measure. The preliminary post-mortem reports are yet to be received, and officials said the exact cause of death would be known o...",
+          "quote": "\"I have instructed the concerned minister and officials to visit the site immediately; we will take the strictest possible action and conduct an inquiry. Our government will absolutely not tolerate such incidents,\""
+        }
+      ],
+      "notes": "The promise is a direct statement made by the Chief Minister Mohan Yadav in response to the toxic liquor deaths in Sagar, Madhya Pradesh.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-06",
+      "created_at": "2026-09-06",
+      "url_checked_at": "2026-09-06",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a response to a specific issue rather than a transformational, large-scale commitment.",
       "importance_source": "llm"
     }
   ]
