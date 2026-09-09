@@ -4,8 +4,8 @@
     "last_updated": "2026-09-09",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 172,
-    "promises_with_evidence": 172,
+    "total_promises": 173,
+    "promises_with_evidence": 173,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12767,6 +12767,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a response to a specific issue rather than a transformational, large-scale commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p173",
+      "person": "Yogi Adityanath",
+      "party": "BJP",
+      "role": "Chief Minister",
+      "promise": "Build grand temple complexes in Mathura-Vrindavan on the scale of Ayodhya and Kashi",
+      "supporting_quote": "He said Braj Bhoomi will now get grand temple complexes to match Ayodhya and Kashi, describing it as development in line with the sentiments and faith of the people, with the state's \"double-engine\" government sparing no effort given the region's spiritual and cultural weight.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-09-09",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/business-news/ayodhya-style-makeover-mathura-vrindavan-cm-yogi-uttar-pradesh-transformation-12022669#publisher=newsstand",
+      "url": "https://www.ndtv.com/business-news/ayodhya-style-makeover-mathura-vrindavan-cm-yogi-uttar-pradesh-transformation-12022669#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Ayodhya-Like+Makeover+For+Mathura-Vrindavan+Inside+UP+s+Rs+1+051-Crore+Plan",
+      "source_description": "Ayodhya-Like Makeover For Mathura-Vrindavan: Inside UP's Rs 1,051-Crore Plan",
+      "declaration": {
+        "person": "Yogi Adityanath",
+        "claim": "Build grand temple complexes in Mathura-Vrindavan on the scale of Ayodhya and Kashi",
+        "quote": "He said Braj Bhoomi will now get grand temple complexes to match Ayodhya and Kashi, describing it as development in line with the sentiments and faith of the people, with the state's \"double-engine\" government sparing no effort given the region's spiritual and cultural weight.",
+        "source_url": "https://www.ndtv.com/business-news/ayodhya-style-makeover-mathura-vrindavan-cm-yogi-uttar-pradesh-transformation-12022669#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-09-09",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-09",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-09",
+          "evidence_url": "https://www.ndtv.com/business-news/ayodhya-style-makeover-mathura-vrindavan-cm-yogi-uttar-pradesh-transformation-12022669#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a new declaration by Yogi Adityanath to build grand temple complexes in Mathura-Vrindavan, similar to those in Ayodhya and Kashi.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/business-news/ayodhya-style-makeover-mathura-vrindavan-cm-yogi-uttar-pradesh-transformation-12022669#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Ayodhya-Like+Makeover+For+Mathura-Vrindavan+Inside+UP+s+Rs+1+051-Crore+Plan",
+          "supporting_quote": "He said Braj Bhoomi will now get grand temple complexes to match Ayodhya and Kashi, describing it as development in line with the sentiments and faith of the people, with the state's \"double-engine\" government sparing no effort given the region's spiritual and cultural weight.",
+          "title": "Ayodhya-Like Makeover For Mathura-Vrindavan: Inside UP's Rs 1,051-Crore Plan",
+          "source": "NDTV",
+          "scraped_at": "2026-09-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Yogi Adityanath**, chief minister of Uttar Pradesh, launched 229 development projects worth Rs 1,051 crore in Mathura and Vrindavan on Krishna Janmashtami. The initiatives include a 4-lane highway to Vrindavan, a new bridge over the Yamuna, tourist hostels, civic training centers, and plans for gr...",
+          "content": "Ayodhya has transformed. Hotel rooms are booked months in advance. Land prices near the Ram Mandir have soared, and investors are scrambling to acquire plots. Now, Uttar Pradesh wants to spark another transformation, this time in the land of Lord Krishna. Earlier this month, chief minister Yogi Adityanath rolled out 229 development projects worth Rs 1,051 crore across Mathura and Vrindavan. He lau...",
+          "quote": "He said Braj Bhoomi will now get grand temple complexes to match Ayodhya and Kashi, describing it as development in line with the sentiments and faith of the people, with the state's \"double-engine\" government sparing no effort given the region's spiritual and cultural weight."
+        }
+      ],
+      "notes": "The article mentions a new declaration by Yogi Adityanath to build grand temple complexes in Mathura-Vrindavan, similar to those in Ayodhya and Kashi.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-09",
+      "created_at": "2026-09-09",
+      "url_checked_at": "2026-09-09",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a local infrastructure project, not a transformational commitment affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
