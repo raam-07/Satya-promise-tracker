@@ -4,8 +4,8 @@
     "last_updated": "2026-09-10",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 173,
-    "promises_with_evidence": 173,
+    "total_promises": 174,
+    "promises_with_evidence": 174,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12840,6 +12840,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a local infrastructure project, not a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p174",
+      "person": "D.K. Shivakumar",
+      "party": "BJP",
+      "role": "Chief Minister",
+      "promise": "Distribute five lakh housing sites to landless people, particularly in rural areas",
+      "supporting_quote": "Mr. Shivakumar also signed a file approving a scheme to distribute five lakh housing sites to landless people, particularly in rural areas, during the current fiscal year (2026-27).",
+      "category": "welfare",
+      "made_on": "2026-09-10",
+      "reported_on": "2026-09-10",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/chief-minister-dk-shivakumar-unveils-karnataka-model-as-government-marks-100-days/article71451335.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/chief-minister-dk-shivakumar-unveils-karnataka-model-as-government-marks-100-days/article71451335.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Chief+Minister+D+K+Shivakumar+unveils+Karnataka+Model+as+government+marks+100+days+-+The+Hindu",
+      "source_description": "Chief Minister D.K. Shivakumar unveils ‘Karnataka Model’ as government marks 100 days - The Hindu",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Distribute five lakh housing sites to landless people, particularly in rural areas",
+        "quote": "Mr. Shivakumar also signed a file approving a scheme to distribute five lakh housing sites to landless people, particularly in rural areas, during the current fiscal year (2026-27).",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/chief-minister-dk-shivakumar-unveils-karnataka-model-as-government-marks-100-days/article71451335.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-09-10",
+        "made_on": "2026-09-10",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-10",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-10",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/chief-minister-dk-shivakumar-unveils-karnataka-model-as-government-marks-100-days/article71451335.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a new initiative by D.K. Shivakumar to distribute housing sites to landless people, which is a welfare promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/chief-minister-dk-shivakumar-unveils-karnataka-model-as-government-marks-100-days/article71451335.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Chief+Minister+D+K+Shivakumar+unveils+Karnataka+Model+as+government+marks+100+days+-+The+Hindu",
+          "supporting_quote": "Mr. Shivakumar also signed a file approving a scheme to distribute five lakh housing sites to landless people, particularly in rural areas, during the current fiscal year (2026-27).",
+          "title": "Chief Minister D.K. Shivakumar unveils ‘Karnataka Model’ as government marks 100 days - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-10",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Thursday, **D.K. Shivakumar**, Chief Minister of Karnataka, unveiled several initiatives including the Seva One platform and BMTC 2.0 app to improve governance and public services during his government's 100-day mark. He also approved a scheme for distributing five lakh housing sites to landless ...",
+          "content": "Seeking to make Karnataka a “model state”, Chief Minister D.K. Shivakumar on Thursday unveiled a slew of initiatives, including the Seva One digital citizen services platform, the Chief Minister Raitha Chaitanya scheme and the BMTC 2.0 mobile application, aimed at taking governance and public services closer to the people. Marking 100 days of his government under the tagline “Drudha Karnataka Sank...",
+          "quote": "Mr. Shivakumar also signed a file approving a scheme to distribute five lakh housing sites to landless people, particularly in rural areas, during the current fiscal year (2026-27)."
+        }
+      ],
+      "notes": "The article mentions a new initiative by D.K. Shivakumar to distribute housing sites to landless people, which is a welfare promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-10",
+      "created_at": "2026-09-10",
+      "url_checked_at": "2026-09-10",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Aims to provide housing to a large population of landless people, significantly impacting rural areas.",
       "importance_source": "llm"
     }
   ]
