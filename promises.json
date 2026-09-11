@@ -4,8 +4,8 @@
     "last_updated": "2026-09-11",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 174,
-    "promises_with_evidence": 174,
+    "total_promises": 175,
+    "promises_with_evidence": 175,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12913,6 +12913,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Aims to provide housing to a large population of landless people, significantly impacting rural areas.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p175",
+      "person": "Himanta Biswa Sarma",
+      "party": "BJP",
+      "role": "Chief Minister of Assam",
+      "promise": "Promote Guwahati as a leading destination for sport, fitness, and sports tourism",
+      "supporting_quote": "“This is more than a marathon—it is a powerful statement of Guwahati’s readiness to emerge as a leading destination for sport, fitness, and sports tourism. It is a landmark initiative that reflects our State’s growing aspirations on the national and global sporting stage,” the Chief Minister said.",
+      "category": "other",
+      "made_on": "2026-09-10",
+      "reported_on": "2026-09-11",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/assam/assam-cm-sunil-gavaskar-launch-guwahati-international-marathon/article71452182.ece",
+      "url": "https://www.thehindu.com/news/national/assam/assam-cm-sunil-gavaskar-launch-guwahati-international-marathon/article71452182.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Assam+CM+Sunil+Gavaskar+launch+Guwahati+International+Marathon+-+The+Hindu",
+      "source_description": "Assam CM, Sunil Gavaskar launch Guwahati International Marathon - The Hindu",
+      "declaration": {
+        "person": "Himanta Biswa Sarma",
+        "claim": "Promote Guwahati as a leading destination for sport, fitness, and sports tourism",
+        "quote": "“This is more than a marathon—it is a powerful statement of Guwahati’s readiness to emerge as a leading destination for sport, fitness, and sports tourism. It is a landmark initiative that reflects our State’s growing aspirations on the national and global sporting stage,” the Chief Minister said.",
+        "source_url": "https://www.thehindu.com/news/national/assam/assam-cm-sunil-gavaskar-launch-guwahati-international-marathon/article71452182.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-09-11",
+        "made_on": "2026-09-10",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-11",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-11",
+          "evidence_url": "https://www.thehindu.com/news/national/assam/assam-cm-sunil-gavaskar-launch-guwahati-international-marathon/article71452182.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The Chief Minister declared the initiative to promote Guwahati as a leading sports destination during the launch of the Guwahati International Marathon.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/assam/assam-cm-sunil-gavaskar-launch-guwahati-international-marathon/article71452182.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Assam+CM+Sunil+Gavaskar+launch+Guwahati+International+Marathon+-+The+Hindu",
+          "supporting_quote": "“This is more than a marathon—it is a powerful statement of Guwahati’s readiness to emerge as a leading destination for sport, fitness, and sports tourism. It is a landmark initiative that reflects our State’s growing aspirations on the national and global sporting stage,” the Chief Minister said.",
+          "title": "Assam CM, Sunil Gavaskar launch Guwahati International Marathon - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On September 10, 2026, **Himanta Biswa Sarma** and **Sunil Gavaskar** launched the Guwahati International Marathon scheduled for February 7, 2027. Expected to attract about 12,000 participants including international athletes, the event promoted by PMG Sports LLP features five race categories with ₹...",
+          "content": "GUWAHATI Assam Chief Minister Himanta Biswa Sarma and former cricketer Sunil Gavaskar on Thursday (September 10, 2026) launched the Guwahati International Marathon. About 12,000 people, including top international athletes, are expected to take part in the maiden running event in northeast India’s largest city scheduled for February 7, 2027. Promoted by PMG Sports LLP, the event with ₹1.25 crore a...",
+          "quote": "“This is more than a marathon—it is a powerful statement of Guwahati’s readiness to emerge as a leading destination for sport, fitness, and sports tourism. It is a landmark initiative that reflects our State’s growing aspirations on the national and global sporting stage,” the Chief Minister said."
+        }
+      ],
+      "notes": "The Chief Minister declared the initiative to promote Guwahati as a leading sports destination during the launch of the Guwahati International Marathon.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-11",
+      "created_at": "2026-09-11",
+      "url_checked_at": "2026-09-11",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a local promotion initiative for a single city.",
       "importance_source": "llm"
     }
   ]
