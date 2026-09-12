@@ -4,8 +4,8 @@
     "last_updated": "2026-09-12",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 175,
-    "promises_with_evidence": 175,
+    "total_promises": 176,
+    "promises_with_evidence": 176,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -12986,6 +12986,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a local promotion initiative for a single city.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p176",
+      "person": "A. Revanth Reddy",
+      "party": "TRS",
+      "role": "Chief Minister",
+      "promise": "Sanction 100 BC college hostels",
+      "supporting_quote": "Chief Minister A. Revanth Reddy directed the Backward Classes (BC) Welfare Department to prepare proposals for a BC Protection Act and agreed to sanction 100 BC college hostels following a meeting with BC leaders.",
+      "category": "welfare",
+      "made_on": "2026-09-12",
+      "reported_on": "2026-09-12",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-agrees-to-sanction-100-bc-hostels-for-colleges/article71460403.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-agrees-to-sanction-100-bc-hostels-for-colleges/article71460403.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Revanth+Reddy+agrees+to+sanction+100+BC+hostels+for+colleges+-+The+Hindu",
+      "source_description": "Revanth Reddy agrees to sanction 100 BC hostels for colleges - The Hindu",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Sanction 100 BC college hostels",
+        "quote": "Chief Minister A. Revanth Reddy directed the Backward Classes (BC) Welfare Department to prepare proposals for a BC Protection Act and agreed to sanction 100 BC college hostels following a meeting with BC leaders.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-agrees-to-sanction-100-bc-hostels-for-colleges/article71460403.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-09-12",
+        "made_on": "2026-09-12",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-12",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-12",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-agrees-to-sanction-100-bc-hostels-for-colleges/article71460403.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is specific and independently verifiable, but the impact is limited to a particular community and does not affect millions of people.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-agrees-to-sanction-100-bc-hostels-for-colleges/article71460403.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Revanth+Reddy+agrees+to+sanction+100+BC+hostels+for+colleges+-+The+Hindu",
+          "supporting_quote": "Chief Minister A. Revanth Reddy directed the Backward Classes (BC) Welfare Department to prepare proposals for a BC Protection Act and agreed to sanction 100 BC college hostels following a meeting with BC leaders.",
+          "title": "Revanth Reddy agrees to sanction 100 BC hostels for colleges - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-12",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Saturday, **Chief Minister A. Revanth Reddy** agreed to sanction 100 BC college hostels and directed the Backward Classes Welfare Department to prepare a BC Protection Act proposal following a meeting with BC leaders led by former MP R. Krishnaiah. The delegation also sought 120 BC residential sc...",
+          "content": "Chief Minister A. Revanth Reddy directed the Backward Classes (BC) Welfare Department to prepare proposals for a BC Protection Act and agreed to sanction 100 BC college hostels following a meeting with BC leaders. A delegation of BC leaders led by former MP and BC welfare activist R. Krishnaiah met the Chief Minister on Saturday and raised several issues concerning the welfare and protection of me...",
+          "quote": "Chief Minister A. Revanth Reddy directed the Backward Classes (BC) Welfare Department to prepare proposals for a BC Protection Act and agreed to sanction 100 BC college hostels following a meeting with BC leaders."
+        }
+      ],
+      "notes": "The promise is specific and independently verifiable, but the impact is limited to a particular community and does not affect millions of people.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-12",
+      "created_at": "2026-09-12",
+      "url_checked_at": "2026-09-12",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Sanctioning 100 BC college hostels is a routine governance action, not a transformational commitment affecting a large population or resources.",
       "importance_source": "llm"
     }
   ]
