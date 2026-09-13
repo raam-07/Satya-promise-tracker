@@ -4,8 +4,8 @@
     "last_updated": "2026-09-13",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 176,
-    "promises_with_evidence": 176,
+    "total_promises": 177,
+    "promises_with_evidence": 177,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -13059,6 +13059,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Sanctioning 100 BC college hostels is a routine governance action, not a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p177",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Introduce Uniform Civil Code in 21 BJP-NDA ruled states before 2029",
+      "supporting_quote": "\"Triple talaq has been abolished, giving Muslim women equal rights. We have introduced the Uniform Civil Code (UCC) in several states and I am confident that in the 21 BJP-NDA ruled states, we will introduce the UCC before 2029,\" Shah said.",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-09-13",
+      "deadline": "2029",
+      "source_url": "https://www.ndtv.com/india-news/uniform-civil-code-will-be-introduced-in-21-states-before-2029-amit-shah-12041324#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/uniform-civil-code-will-be-introduced-in-21-states-before-2029-amit-shah-12041324#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Uniform+Civil+Code+Will+Be+Introduced+In+21+States+Before+2029+Amit+Shah",
+      "source_description": "'Uniform Civil Code Will Be Introduced In 21 States Before 2029': Amit Shah",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Introduce Uniform Civil Code in 21 BJP-NDA ruled states before 2029",
+        "quote": "\"Triple talaq has been abolished, giving Muslim women equal rights. We have introduced the Uniform Civil Code (UCC) in several states and I am confident that in the 21 BJP-NDA ruled states, we will introduce the UCC before 2029,\" Shah said.",
+        "source_url": "https://www.ndtv.com/india-news/uniform-civil-code-will-be-introduced-in-21-states-before-2029-amit-shah-12041324#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-09-13",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-13",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-13",
+          "evidence_url": "https://www.ndtv.com/india-news/uniform-civil-code-will-be-introduced-in-21-states-before-2029-amit-shah-12041324#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Amit Shah declared the intention to introduce the Uniform Civil Code in 21 BJP-NDA ruled states before 2029, which aligns with an existing promise made by Narendra Modi.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/uniform-civil-code-will-be-introduced-in-21-states-before-2029-amit-shah-12041324#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Uniform+Civil+Code+Will+Be+Introduced+In+21+States+Before+2029+Amit+Shah",
+          "supporting_quote": "\"Triple talaq has been abolished, giving Muslim women equal rights. We have introduced the Uniform Civil Code (UCC) in several states and I am confident that in the 21 BJP-NDA ruled states, we will introduce the UCC before 2029,\" Shah said.",
+          "title": "'Uniform Civil Code Will Be Introduced In 21 States Before 2029': Amit Shah",
+          "source": "NDTV",
+          "scraped_at": "2026-09-13",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "On Sunday, **Amit Shah**, Union Home Minister, announced that **BJP-led NDA** governments in 21 states will introduce the Uniform Civil Code before 2029. He highlighted achievements like abolishing triple talaq and strengthening the criminal justice system. Shah also discussed national security meas...",
+          "content": "Union Home Minister Amit Shah on Sunday said BJP-led NDA governments in 21 states will introduce Uniform Civil Code (UCC) before 2029. Shah was speaking to reporters here while highlighting the achievements of the Centre over the last 12 years and the BJP's 25-year journey under Prime Minister Narendra Modi's leadership. \"Triple talaq has been abolished, giving Muslim women equal rights. We have i...",
+          "quote": "\"Triple talaq has been abolished, giving Muslim women equal rights. We have introduced the Uniform Civil Code (UCC) in several states and I am confident that in the 21 BJP-NDA ruled states, we will introduce the UCC before 2029,\" Shah said."
+        }
+      ],
+      "notes": "Amit Shah declared the intention to introduce the Uniform Civil Code in 21 BJP-NDA ruled states before 2029, which aligns with an existing promise made by Narendra Modi.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-13",
+      "created_at": "2026-09-13",
+      "url_checked_at": "2026-09-13",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Affects a large population across multiple states and has significant national implications.",
       "importance_source": "llm"
     }
   ]
