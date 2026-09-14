@@ -4,8 +4,8 @@
     "last_updated": "2026-09-14",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 177,
-    "promises_with_evidence": 177,
+    "total_promises": 178,
+    "promises_with_evidence": 178,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -13132,6 +13132,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Affects a large population across multiple states and has significant national implications.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p178",
+      "person": "A. Revanth Reddy",
+      "party": "TRS",
+      "role": "Chief Minister",
+      "promise": "government assistance for the construction of the Arya Vaishya Atma Gaurava Bhavan",
+      "supporting_quote": "He promised government assistance for the construction of the Arya Vaishya Atma Gaurava Bhavan.",
+      "category": "welfare",
+      "made_on": "2026-09-13",
+      "reported_on": "2026-09-14",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-calls-on-vaishya-community-to-secure-political-share/article71463078.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-calls-on-vaishya-community-to-secure-political-share/article71463078.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Revanth+Reddy+calls+upon+Vaishya+community+to+secure+political+share+-+The+Hindu",
+      "source_description": "Revanth Reddy calls upon Vaishya community to secure political share - The Hindu",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "government assistance for the construction of the Arya Vaishya Atma Gaurava Bhavan",
+        "quote": "He promised government assistance for the construction of the Arya Vaishya Atma Gaurava Bhavan.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-calls-on-vaishya-community-to-secure-political-share/article71463078.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-09-14",
+        "made_on": "2026-09-13",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-14",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-14",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-calls-on-vaishya-community-to-secure-political-share/article71463078.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is specific to a community welfare project and does not affect a large population.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-calls-on-vaishya-community-to-secure-political-share/article71463078.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Revanth+Reddy+calls+upon+Vaishya+community+to+secure+political+share+-+The+Hindu",
+          "supporting_quote": "He promised government assistance for the construction of the Arya Vaishya Atma Gaurava Bhavan.",
+          "title": "Revanth Reddy calls upon Vaishya community to secure political share - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-14",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On September 13, 2026, **Telangana Chief Minister A. Revanth Reddy** addressed the Arya Vaishya community, urging unity and political representation. He highlighted their dignity over seeking backward status, praised former CM Konijeti Rosaiah for Telangana's financial stability in 2014, and promise...",
+          "content": "Telangana Chief Minister A. Revanth Reddy has called upon the Arya Vaishya community to remain united and secure its due share in politics, saying that collective strength was essential for earning greater respect and representation. Addressing an Arya Vaishya community meeting on Sunday (September 13, 2026), Revanth Reddy said members of the community were known for their soft-spoken nature, self...",
+          "quote": "He promised government assistance for the construction of the Arya Vaishya Atma Gaurava Bhavan."
+        }
+      ],
+      "notes": "The promise is specific to a community welfare project and does not affect a large population.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-14",
+      "created_at": "2026-09-14",
+      "url_checked_at": "2026-09-14",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It refers to the construction of a single building, which is a routine project.",
       "importance_source": "llm"
     }
   ]
