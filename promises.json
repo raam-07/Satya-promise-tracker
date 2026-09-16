@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-09-15",
+    "last_updated": "2026-09-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
     "total_promises": 178,
@@ -13091,7 +13091,7 @@
         "verification": "raw_source_verified"
       },
       "status": "ongoing",
-      "status_last_reviewed": "2026-09-13",
+      "status_last_reviewed": "2026-09-16",
       "status_history": [
         {
           "status": "ongoing",
@@ -13100,7 +13100,7 @@
         }
       ],
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "Amit Shah declared the intention to introduce the Uniform Civil Code in 21 BJP-NDA ruled states before 2029, which aligns with an existing promise made by Narendra Modi.",
+      "qwen_reasoning": "The article reports on Amit Shah's declaration to implement the Uniform Civil Code in all NDA-ruled states by 2029, which is a new and significant political promise.",
       "evidence_articles": [
         {
           "url": "https://www.ndtv.com/india-news/uniform-civil-code-will-be-introduced-in-21-states-before-2029-amit-shah-12041324#publisher=newsstand",
@@ -13120,6 +13120,25 @@
           "rephrased": "On Sunday, **Amit Shah**, Union Home Minister, announced that **BJP-led NDA** governments in 21 states will introduce the Uniform Civil Code before 2029. He highlighted achievements like abolishing triple talaq and strengthening the criminal justice system. Shah also discussed national security meas...",
           "content": "Union Home Minister Amit Shah on Sunday said BJP-led NDA governments in 21 states will introduce Uniform Civil Code (UCC) before 2029. Shah was speaking to reporters here while highlighting the achievements of the Centre over the last 12 years and the BJP's 25-year journey under Prime Minister Narendra Modi's leadership. \"Triple talaq has been abolished, giving Muslim women equal rights. We have i...",
           "quote": "\"Triple talaq has been abolished, giving Muslim women equal rights. We have introduced the Uniform Civil Code (UCC) in several states and I am confident that in the 21 BJP-NDA ruled states, we will introduce the UCC before 2029,\" Shah said."
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/key-allies-tdp-shiv-sena-back-amit-shahs-statement-on-ucc-in-all-nda-ruled-states/article71470158.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Key+allies+TDP+Shiv+Sena+back+Amit+Shah+s+statement+on+UCC+in+all+NDA-ruled+States+-+The+Hindu",
+          "supporting_quote": "Home Minister Amit Shah's assertion that a Uniform Civil Code will be implemented in all NDA-ruled States before 2029",
+          "title": "Key allies TDP, Shiv Sena back Amit Shah's statement on UCC in all NDA-ruled States - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On September 15, 2026, **Amit Shah** asserted that a Uniform Civil Code (UCC) will be implemented in all NDA-ruled states by 2029. Key allies like **TDP**, **Shiv Sena**, and **JD(U)** backed the BJP; TDP president P. Srinivasa Rao supported it, while JD(U)'s Bihar Deputy Chief Minister Vijay Kumar ...",
+          "content": "After Home Minister Amit Shah's assertion that a Uniform Civil Code will be implemented in all NDA-ruled States before 2029, key NDA partners TDP and Shiv Sena on Tuesday (September 15, 2026) backed the BJP on the issue. Another BJP ally JD(U) gave a guarded response, saying it will study the Uniform Civil Code Bill and will \"not oppose it for no reason\". The support of the TDP with 16 Lok Sabha M...",
+          "quote": "Home Minister Amit Shah's assertion that a Uniform Civil Code will be implemented in all NDA-ruled States before 2029"
         }
       ],
       "notes": "Amit Shah declared the intention to introduce the Uniform Civil Code in 21 BJP-NDA ruled states before 2029, which aligns with an existing promise made by Narendra Modi.",
@@ -13128,7 +13147,7 @@
       "created_at": "2026-09-13",
       "url_checked_at": "2026-09-13",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Affects a large population across multiple states and has significant national implications.",
