@@ -4,8 +4,8 @@
     "last_updated": "2026-09-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 178,
-    "promises_with_evidence": 178,
+    "total_promises": 179,
+    "promises_with_evidence": 179,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -13224,6 +13224,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It refers to the construction of a single building, which is a routine project.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p179",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "greater industry involvement in skilling, innovation and emerging technologies such as artificial intelligence and quantum computing",
+      "supporting_quote": "Prime Minister Narendra Modi on Wednesday urged global and Indian semiconductor companies to actively participate in the next phase of India’s semiconductor growth, calling for greater industry involvement in skilling, innovation and emerging technologies such as artificial intelligence and quantum computing.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-09-17",
+      "deadline": "ongoing",
+      "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/kaynes-tech-syrma-sgs-moschip-others-rally-up-to-10-as-pm-modi-set-to-inaugurate-semicon-2026/articleshow/134302961.cms",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/kaynes-tech-syrma-sgs-moschip-others-rally-up-to-10-as-pm-modi-set-to-inaugurate-semicon-2026/articleshow/134302961.cms",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Kaynes+Tech+Syrma+SGS+MosChip+others+rally+up+to+10+as+PM+Modi+set+to+inaugurate+Semicon+2026+-+The+Economic+Times",
+      "source_description": "Kaynes Tech, Syrma SGS, MosChip, others rally up to 10% as PM Modi set to inaugurate Semicon 2026 - The Economic Times",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "greater industry involvement in skilling, innovation and emerging technologies such as artificial intelligence and quantum computing",
+        "quote": "Prime Minister Narendra Modi on Wednesday urged global and Indian semiconductor companies to actively participate in the next phase of India’s semiconductor growth, calling for greater industry involvement in skilling, innovation and emerging technologies such as artificial intelligence and quantum computing.",
+        "source_url": "https://economictimes.indiatimes.com/markets/stocks/news/kaynes-tech-syrma-sgs-moschip-others-rally-up-to-10-as-pm-modi-set-to-inaugurate-semicon-2026/articleshow/134302961.cms",
+        "source_domain": "economictimes.indiatimes.com",
+        "reported_on": "2026-09-17",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-17",
+          "evidence_url": "https://economictimes.indiatimes.com/markets/stocks/news/kaynes-tech-syrma-sgs-moschip-others-rally-up-to-10-as-pm-modi-set-to-inaugurate-semicon-2026/articleshow/134302961.cms"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new call to action by PM Modi for industry involvement in skilling, innovation, and emerging technologies.",
+      "evidence_articles": [
+        {
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/kaynes-tech-syrma-sgs-moschip-others-rally-up-to-10-as-pm-modi-set-to-inaugurate-semicon-2026/articleshow/134302961.cms",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Kaynes+Tech+Syrma+SGS+MosChip+others+rally+up+to+10+as+PM+Modi+set+to+inaugurate+Semicon+2026+-+The+Economic+Times",
+          "supporting_quote": "Prime Minister Narendra Modi on Wednesday urged global and Indian semiconductor companies to actively participate in the next phase of India’s semiconductor growth, calling for greater industry involvement in skilling, innovation and emerging technologies such as artificial intelligence and quantum computing.",
+          "title": "Kaynes Tech, Syrma SGS, MosChip, others rally up to 10% as PM Modi set to inaugurate Semicon 2026 - The Economic Times",
+          "source": "Economic Times",
+          "scraped_at": "2026-09-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "economictimes.indiatimes.com",
+          "quote_verified": true,
+          "rephrased": "At **Semicon India 2026**, **Kaynes Technology** rose 5%, **Syrma SGS Technology** gained 10%, and **MosChip Technologies** advanced over 6% as India pushes for semiconductor manufacturing. Kaynes is building a Rs 3,307 crore facility in Gujarat. **Prime Minister Narendra Modi** urged industry parti...",
+          "content": "The event is set to showcase the country’s semiconductor value chain, spanning materials, equipment and chip design to fabrication, advanced packaging, electronics and systems. Kaynes Technology rose 5% to an intraday high of Rs 3,563 on the BSE, while Syrma SGS Technology gained 10% to Rs 1,658 per share. MosChip Technologies also advanced more than 6% to Rs 212 per share. Why are semiconductor s...",
+          "quote": "Prime Minister Narendra Modi on Wednesday urged global and Indian semiconductor companies to actively participate in the next phase of India’s semiconductor growth, calling for greater industry involvement in skilling, innovation and emerging technologies such as artificial intelligence and quantum computing."
+        }
+      ],
+      "notes": "The article reports a new call to action by PM Modi for industry involvement in skilling, innovation, and emerging technologies.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-17",
+      "created_at": "2026-09-17",
+      "url_checked_at": "2026-09-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a broad policy direction rather than a concrete, scaleable commitment with immediate national impact.",
       "importance_source": "llm"
     }
   ]
