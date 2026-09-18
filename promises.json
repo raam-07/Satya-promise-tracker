@@ -4,8 +4,8 @@
     "last_updated": "2026-09-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 179,
-    "promises_with_evidence": 179,
+    "total_promises": 180,
+    "promises_with_evidence": 180,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -13297,6 +13297,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a broad policy direction rather than a concrete, scaleable commitment with immediate national impact.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p180",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Make houses for 50 lakh people in West Bengal under Awas Yojana, with women as owners",
+      "supporting_quote": "“PM Modi said that they have made a list of 50 lakh names in West Bengal for whom houses will be made under the Awas Yojana, women will be made the owners of these houses,”",
+      "category": "welfare",
+      "made_on": "2026-09-17",
+      "reported_on": "2026-09-18",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-govt-participates-in-pm-modis-birthday-celebrations-life-size-statue-unveiled-at-bjp-office-in-kolkata/article71476992.ece",
+      "url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-govt-participates-in-pm-modis-birthday-celebrations-life-size-statue-unveiled-at-bjp-office-in-kolkata/article71476992.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=West+Bengal+govt+participates+in+PM+Modi+s+birthday+celebrations+life-size+statue+unveiled+at+BJP+office+in+Kolkata+-+The+Hindu",
+      "source_description": "West Bengal govt. participates in PM Modi’s birthday celebrations; life-size statue unveiled at BJP office in Kolkata - The Hindu",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Make houses for 50 lakh people in West Bengal under Awas Yojana, with women as owners",
+        "quote": "“PM Modi said that they have made a list of 50 lakh names in West Bengal for whom houses will be made under the Awas Yojana, women will be made the owners of these houses,”",
+        "source_url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-govt-participates-in-pm-modis-birthday-celebrations-life-size-statue-unveiled-at-bjp-office-in-kolkata/article71476992.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-09-18",
+        "made_on": "2026-09-17",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-18",
+          "evidence_url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-govt-participates-in-pm-modis-birthday-celebrations-life-size-statue-unveiled-at-bjp-office-in-kolkata/article71476992.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a declaration made by Chief Minister Suvendu Adhikari regarding a new commitment to provide houses under the Awas Yojana for 50 lakh people in West Bengal, with women as owners.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-govt-participates-in-pm-modis-birthday-celebrations-life-size-statue-unveiled-at-bjp-office-in-kolkata/article71476992.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=West+Bengal+govt+participates+in+PM+Modi+s+birthday+celebrations+life-size+statue+unveiled+at+BJP+office+in+Kolkata+-+The+Hindu",
+          "supporting_quote": "“PM Modi said that they have made a list of 50 lakh names in West Bengal for whom houses will be made under the Awas Yojana, women will be made the owners of these houses,”",
+          "title": "West Bengal govt. participates in PM Modi’s birthday celebrations; life-size statue unveiled at BJP office in Kolkata - The Hindu",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-18",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On September 17, 2026, the **West Bengal government** held multiple events to celebrate Prime Minister Narendra Modi’s birthday, including lighting one lakh diyas across Kolkata and unveiling a life-size statue of him at the **Bharatiya Janata Party** office. The state also observed the day as ‘Anna...",
+          "content": "West Bengal government held multiple events as part of Prime Minister Narendra Modi’s birthday celebrations on Thursday (September 17, 2026), including lighting one lakh diyas [lamps] across Kolkata. A life-size statue of the Prime Minister was also unveiled at the Bharatiya Janata Party office in the capital city. The State government also observed the PM‘s Birthday as ‘Annapurna Divas’ and launc...",
+          "quote": "“PM Modi said that they have made a list of 50 lakh names in West Bengal for whom houses will be made under the Awas Yojana, women will be made the owners of these houses,”"
+        }
+      ],
+      "notes": "The article mentions a declaration made by Chief Minister Suvendu Adhikari regarding a new commitment to provide houses under the Awas Yojana for 50 lakh people in West Bengal, with women as owners.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-18",
+      "created_at": "2026-09-18",
+      "url_checked_at": "2026-09-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Affects a very large population and represents a transformational commitment.",
       "importance_source": "llm"
     }
   ]
