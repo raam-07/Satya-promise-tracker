@@ -216,3 +216,14 @@ jobs:
         run: |
           echo "Final batch complete. Revalidating all content caches..."
           curl -s -X POST "https://satyadheesh.in/api/revalidate?secret=${{ secrets.REVALIDATE_SECRET }}"
+
+
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@v2
