@@ -62,7 +62,7 @@ jobs:
           pip install -r requirements.txt
           # Compile with native AVX/AVX2 CPU vector acceleration (pip will cache the compiled binary for subsequent runs)
           CMAKE_ARGS="-DGGML_AVX=ON -DGGML_AVX2=ON -DGGML_FMA=ON" \
-          pip install llama-cpp-python==0.2.90
+          CMAKE_ARGS="-DLLAMA_AVX=OFF -DLLAMA_AVX2=OFF -DLLAMA_FMA=OFF -DLLAMA_F16C=OFF -DGGML_AVX=OFF -DGGML_AVX2=OFF -DGGML_FMA=OFF" pip install llama-cpp-python --no-binary llama-cpp-python
 
       - name: Cache local models
         id: cache-models
