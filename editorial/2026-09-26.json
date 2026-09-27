@@ -1,0 +1,295 @@
+{
+  "_about": "Editor-verified fixes. Every fact here was re-read from the linked source on the verified_on date. Apply with: python3 scripts/apply_editorial.py editorial/2026-09-26.json",
+  "changes": [
+    {
+      "id": "p008",
+      "set": {
+        "promise": "Har ghar nal se jal — piped water to every rural household by 2024"
+      },
+      "why": "Both sources describe the goal as covering rural households (PIB release PRID 2002716; The Wire, 2 July 2023).",
+      "editorial": {
+        "record": "As of 30 January 2024, more than 14.21 crore of 19.27 crore rural households (73.76%) had tap water, a government progress report said.",
+        "summary": "The Har Ghar Jal programme under the Jal Jeevan Mission aimed to give every rural household a tap water connection by 2024. Citing a report, The Wire said in July 2023 that the pandemic and the Russia-Ukraine war had delayed it. A Press Information Bureau release of 5 February 2024 said more than 14.21 crore of 19.27 crore rural households (73.76%) had tap water as of 30 January 2024, about 11 months before the end of 2024. This page does not yet cite a coverage figure from after that deadline.",
+        "promise_quote": null,
+        "promise_quote_source": null,
+        "sources": [
+          {
+            "title": "Progress Report on Implementation of Jal Jeevan Mission",
+            "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2002716",
+            "publisher": "Press Information Bureau",
+            "date": "2024-02-05"
+          },
+          {
+            "title": "No Har Ghar Jal by 2024: Report",
+            "url": "https://thewire.in/government/no-har-ghar-jal-by-2024",
+            "publisher": "The Wire",
+            "date": "2023-07-02"
+          }
+        ],
+        "verified_on": "2026-09-26"
+      }
+    },
+    {
+      "id": "p006",
+      "why": "Quote copied verbatim from Aaj Tak (12 Feb 2017), which attributes it to Modi's campaign before the 2014 Lok Sabha elections. Only the quote is verified; the verdict and the 2014-04-01 date are not.",
+      "editorial": {
+        "promise_quote": "न मैं खाऊंगा और न खाने दूंगा",
+        "promise_quote_source": "https://www.aajtak.in/elections/uttarakhand-assembly-election-2017/story/pm-modi-warned-corrupt-officials-with-new-slogan-na-chain-se-baithunga-na-baithne-dunga-435686-2017-02-12",
+        "sources": [
+          {
+            "title": "न खाऊंगा, न खाने दूंगा के बाद भ्रष्टाचारियों के खिलाफ पीएम मोदी का नया नारा",
+            "url": "https://www.aajtak.in/elections/uttarakhand-assembly-election-2017/story/pm-modi-warned-corrupt-officials-with-new-slogan-na-chain-se-baithunga-na-baithne-dunga-435686-2017-02-12",
+            "publisher": "Aaj Tak",
+            "date": "2017-02-12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p035",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists A. Revanth Reddy as INC; record said 'Telangana Rashtra Samithi (TRS)'."
+    },
+    {
+      "id": "p038",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists A. Revanth Reddy as INC; record said 'Telangana Rashtra Samithi (TRS)'."
+    },
+    {
+      "id": "p065",
+      "set": {
+        "party": "TVK"
+      },
+      "why": "Entity library lists C. Joseph Vijay as TVK; record said 'DMK'."
+    },
+    {
+      "id": "p077",
+      "set": {
+        "party": "TVK"
+      },
+      "why": "Entity library lists C. Joseph Vijay as TVK; record said 'DMK'."
+    },
+    {
+      "id": "p084",
+      "set": {
+        "party": "TVK"
+      },
+      "why": "Entity library lists C. Joseph Vijay as TVK; record said 'DMK'."
+    },
+    {
+      "id": "p085",
+      "set": {
+        "party": "TVK"
+      },
+      "why": "Entity library lists C. Joseph Vijay as TVK; record said 'DMK'."
+    },
+    {
+      "id": "p086",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists A Revanth Reddy as INC; record said 'TRS'."
+    },
+    {
+      "id": "p088",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Suvendu Adhikari as BJP; record said 'TMC'."
+    },
+    {
+      "id": "p089",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Suvendu Adhikari as BJP; record said 'Trinamool Congress'."
+    },
+    {
+      "id": "p094",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Samrat Choudhary as BJP; record said 'Janata Dal (United)'."
+    },
+    {
+      "id": "p100",
+      "set": {
+        "party": "TVK"
+      },
+      "why": "Entity library lists C. Joseph Vijay as TVK; record said 'DMK'."
+    },
+    {
+      "id": "p101",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists V.D. Satheesan as INC; record said 'CPI(M)'."
+    },
+    {
+      "id": "p102",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists A. Revanth Reddy as INC; record said 'TRS'."
+    },
+    {
+      "id": "p104",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Suvendu Adhikari as BJP; record said 'Trinamool Congress'."
+    },
+    {
+      "id": "p106",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists Krishna Byre Gowda as INC; record said 'BJP'."
+    },
+    {
+      "id": "p109",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Rekha Gupta as BJP; record said 'Aam Aadmi Party'."
+    },
+    {
+      "id": "p138",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Suvendu Adhikari as BJP; record said 'Trinamool Congress'."
+    },
+    {
+      "id": "p147",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists A. Revanth Reddy as INC; record said 'YSRCP'."
+    },
+    {
+      "id": "p153",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists A. Revanth Reddy as INC; record said 'TRS'."
+    },
+    {
+      "id": "p154",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Samrat Choudhary as BJP; record said 'Janata Dal (United)'."
+    },
+    {
+      "id": "p155",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Mohan Charan Majhi as BJP; record said 'BJD'."
+    },
+    {
+      "id": "p156",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists Krishna Byre Gowda as INC; record said 'BJP'."
+    },
+    {
+      "id": "p168",
+      "set": {
+        "party": "TVK"
+      },
+      "why": "Entity library lists C. Joseph Vijay as TVK; record said 'DMK'."
+    },
+    {
+      "id": "p172",
+      "set": {
+        "party": "BJP"
+      },
+      "why": "Entity library lists Mohan Yadav as BJP; record said 'Congress'."
+    },
+    {
+      "id": "p174",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists D.K. Shivakumar as INC; record said 'BJP'."
+    },
+    {
+      "id": "p176",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists A. Revanth Reddy as INC; record said 'TRS'."
+    },
+    {
+      "id": "p178",
+      "set": {
+        "party": "INC"
+      },
+      "why": "Entity library lists A. Revanth Reddy as INC; record said 'TRS'."
+    },
+    {
+      "id": "p033",
+      "set": {
+        "role": "Politician"
+      },
+      "why": "Role 'NCP (SP) President' belonged to a different politician (old name matcher). Reset to the pipeline default."
+    },
+    {
+      "id": "p037",
+      "set": {
+        "role": "Politician"
+      },
+      "why": "Role 'AIMIM President' belonged to a different politician (old name matcher). Reset to the pipeline default."
+    },
+    {
+      "id": "p041",
+      "set": {
+        "role": "Politician"
+      },
+      "why": "Role 'Chief Minister' belonged to a different politician (old name matcher). Reset to the pipeline default."
+    },
+    {
+      "id": "p066",
+      "set": {
+        "role": "Politician"
+      },
+      "why": "Role 'INC National President' belonged to a different politician (old name matcher). Reset to the pipeline default."
+    },
+    {
+      "id": "p070",
+      "set": {
+        "role": "Politician"
+      },
+      "why": "Role 'NCP (SP) President' belonged to a different politician (old name matcher). Reset to the pipeline default."
+    },
+    {
+      "id": "p108",
+      "set": {
+        "role": "Politician"
+      },
+      "why": "Role 'Chief Minister' belonged to a different politician (old name matcher). Reset to the pipeline default."
+    },
+    {
+      "id": "p112",
+      "set": {
+        "role": "Politician"
+      },
+      "why": "Role 'Former Chief Minister of Jammu' belonged to a different politician (old name matcher). Reset to the pipeline default."
+    },
+    {
+      "id": "p150",
+      "set": {
+        "role": "Politician",
+        "party": "party unconfirmed"
+      },
+      "why": "Role 'Union Home Minister' belonged to a different politician (old name matcher). Reset to the pipeline default."
+    }
+  ]
+}

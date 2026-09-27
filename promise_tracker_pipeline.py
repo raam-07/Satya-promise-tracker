@@ -666,21 +666,38 @@ def get_senior_role_classification(role, category):
         
     return None
 
+def _name_tokens(name):
+    """'M.K. Stalin' -> ['mk', 'stalin'], 'A. Revanth Reddy' -> ['a', 'revanth', 'reddy']."""
+    return re.sub(r"\.", "", str(name or "").lower()).split()
+
+
 def get_known_politician_info(name, known_politicians_details):
+    """Look up a politician in the entity library by name or alias.
+
+    Exact match first. Otherwise an entry matches only if it has at least two
+    words and all of them appear, in order, in the name: "Revanth Reddy"
+    matches "A. Revanth Reddy" and "Mohan Majhi" matches "Mohan Charan Majhi".
+    One-word aliases never match part of a name. The old substring fallback
+    let the alias "Shah" turn an IAS officer into the Union Home Minister and
+    "Pawar" give Sunetra and Rohit Pawar Sharad Pawar's role.
+    """
     if not name:
         return {}
     name_clean = name.lower().strip()
     if name_clean in known_politicians_details:
         return known_politicians_details[name_clean]
-    
-    # Substring fallback matching
+
+    tokens = _name_tokens(name)
     for k, info in known_politicians_details.items():
-        if len(k) >= 4 and (k in name_clean or name_clean in k):
+        if _name_tokens(k) == tokens:
             return info
-        elif len(k) < 4:
-            pattern = r'\b' + re.escape(k) + r'\b'
-            if re.search(pattern, name_clean):
-                return info
+    for k, info in known_politicians_details.items():
+        key_tokens = _name_tokens(k)
+        if len(key_tokens) < 2:
+            continue
+        remaining = iter(tokens)
+        if all(t in remaining for t in key_tokens):
+            return info
     return {}
 
 def has_scale_signal(text):
@@ -1601,6 +1618,13 @@ def main():
                     new_status = proposed_status
                     confidence = extracted_json.get("confidence", "low").lower()
                     
+                    # An editor-reviewed verdict (editorial.verdict_locked) is never
+                    # moved automatically; new evidence is queued for a human instead.
+                    if new_status != p["status"] and (p.get("editorial") or {}).get("verdict_locked"):
+                        logging.info(f"Verdict change rejected for {p['id']}: verdict locked by an editor.")
+                        save_to_review_queue(p, extracted_json, "editor_verdict_locked")
+                        new_status = p["status"]
+
                     # A new article can collect evidence, but only two independent
                     # outcome reports may move a public kept/broken/void verdict.
                     if new_status != p["status"]:
@@ -1701,10 +1725,14 @@ def main():
             if not deadline_val or str(deadline_val).lower().strip() in ["null", "none", "n/a", ""]:
                 deadline_val = "ongoing"
 
-            # Normalize party (Finding #7)
-            party_val = extracted_json.get("party")
-            if not party_val or str(party_val).lower().strip() in ["null", "none", "n/a", ""]:
-                party_val = known_politicians_metadata.get(politician_name.lower().strip())
+            # Party: the entity library is the source of truth for anyone it
+            # knows. The model's guess put Revanth Reddy in the TRS and YSRCP and
+            # Vijay in the DMK, so it is used only for people the library lacks.
+            party_val = get_known_politician_info(politician_name, known_politicians_details).get("party")
+            if not party_val:
+                party_val = extracted_json.get("party")
+            if party_val and len(str(party_val)) > 60:
+                party_val = None  # a sentence, not a party name
                 
             if not party_val or str(party_val).lower().strip() in ["null", "none", "n/a", ""]:
                 if party_str:
