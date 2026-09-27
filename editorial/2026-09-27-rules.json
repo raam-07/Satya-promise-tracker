@@ -1,0 +1,193 @@
+{
+  "_about": "Editor rules (27 Sep 2026): a promise with no deadline is judged 3 years after it was made; an open-ended promise is marked kept only after 5 years of monitoring (promise_rules.py).",
+  "changes": [
+    {
+      "id": "p006",
+      "set": {
+        "status": "broken"
+      },
+      "why": "No deadline was given, so it is judged 3 years after the 2014 pledge; corruption was not ended.",
+      "editorial": {
+        "summary": "Aaj Tak reports that before the 2014 Lok Sabha election Narendra Modi pledged to end corruption with the words 'न मैं खाऊंगा और न खाने दूंगा' (I will neither take nor let others take). The pledge set no deadline; SatyaDheesh judges open-ended promises three years after they are made. In Transparency International's latest Corruption Perceptions Index, India scored 39 out of 100, ranking 91 of 182 countries. Swarajya has reported government action under the slogan, such as the 2019 compulsory retirement of income tax officers; Congress's Jairam Ramesh called it 'a complete hoax' in April 2026.",
+        "promise_quote": "न मैं खाऊंगा और न खाने दूंगा.",
+        "promise_quote_source": "https://www.aajtak.in/elections/uttarakhand-assembly-election-2017/story/pm-modi-warned-corrupt-officials-with-new-slogan-na-chain-se-baithunga-na-baithne-dunga-435686-2017-02-12",
+        "sources": [
+          {
+            "title": "न खाऊंगा, न खाने दूंगा के बाद भ्रष्टाचारियों के खिलाफ पीएम मोदी का नया नारा",
+            "url": "https://www.aajtak.in/elections/uttarakhand-assembly-election-2017/story/pm-modi-warned-corrupt-officials-with-new-slogan-na-chain-se-baithunga-na-baithne-dunga-435686-2017-02-12",
+            "publisher": "Aaj Tak",
+            "date": "2017-02-12",
+            "kind": "news"
+          },
+          {
+            "title": "'Na khaunga na khane doonga' a complete hoax: Cong's dig at PM on Khandu's kin matter in SC",
+            "url": "https://theprint.in/india/na-khaunga-na-khane-doonga-a-complete-hoax-congs-dig-at-pm-on-khandus-kin-matter-in-sc/2897601/",
+            "publisher": "ThePrint",
+            "date": "2026-04-06",
+            "kind": "news"
+          },
+          {
+            "title": "\"Na Khaunga, Na Khane Dunga\": Modi Government Compulsorily Retires 12 Income Tax Officers For Corruption, Misconduct",
+            "url": "https://swarajyamag.com/insta/na-khaunga-na-khane-dunga-modi-government-compulsorily-retires-12-income-tax-officers-for-corruption-misconduct",
+            "publisher": "Swarajya",
+            "date": "2019-06-11",
+            "kind": "news"
+          },
+          {
+            "title": "I guess he was only talking about beef: Tharoor takes dig at PM's 'na khaunga na khane dunga' slogan",
+            "url": "https://www.deccanherald.com/india/i-guess-he-was-only-talking-about-beef-tharoor-takes-dig-at-pms-na-khaunga-na-khane-dunga-slogan-1195925.html",
+            "publisher": "Deccan Herald",
+            "date": "2023-02-28",
+            "kind": "news"
+          },
+          {
+            "title": "India's electoral bonds: 'Laundry' where corrupt firms paid, got cleansed",
+            "url": "https://www.aljazeera.com/news/2024/4/4/indias-electoral-bonds-laundry-corrupt-firms-paid-parties-got-cleansed",
+            "publisher": "Al Jazeera",
+            "date": "2024-04-04",
+            "kind": "news"
+          },
+          {
+            "title": "India — Corruption Perceptions Index",
+            "url": "https://www.transparency.org/en/countries/india",
+            "publisher": "Transparency International",
+            "date": null,
+            "kind": "official"
+          }
+        ],
+        "verified_on": "2026-09-27",
+        "verdict_locked": true,
+        "role_at_promise": "BJP prime ministerial candidate",
+        "record": "In Transparency International's latest Corruption Perceptions Index, India scored 39 out of 100 and ranked 91 of 182 countries."
+      }
+    },
+    {
+      "id": "p018",
+      "set": {
+        "status": "kept",
+        "promise": "End mafia raj in Uttar Pradesh"
+      },
+      "why": "Monitored for more than 5 years since 2017. Headline trimmed to the commitment he made; 'and crime completely' was the pipeline's wording and no source has him saying it.",
+      "editorial": {
+        "record": "Official UP Police figures reported by Deccan Herald put deaths in police encounters since 2017 at 266, with about 11,000 injured, as of December 2025.",
+        "summary": "Yogi Adityanath, Uttar Pradesh Chief Minister since 2017, has made action against organised crime a signature pledge, telling the Assembly in February 2023 'iss mafia ko mitti me mila denge' (Scroll). In March 2025 he said 'We eliminated these mafias' and that 64,000 acres had been recovered from land mafia (Deccan Herald). Official figures reported in December 2025 put deaths in police encounters since 2017 at 266, with about 11,000 injured. SP chief Akhilesh Yadav has alleged 'fake encounters'. NCRB data show UP recorded the most crimes against women in 2023, though its rate was not among the five highest.",
+        "promise_quote": "Iss house mein keh raha hoon, [iss mafia ko mitti me mila denge].",
+        "promise_quote_source": "https://scroll.in/article/1047448/a-supreme-court-plea-speculation-and-insinuations-what-preceded-atiq-ahmeds-killing",
+        "sources": [
+          {
+            "title": "Explained: Why Atiq Ahmed's killing was a death foretold",
+            "url": "https://scroll.in/article/1047448/a-supreme-court-plea-speculation-and-insinuations-what-preceded-atiq-ahmeds-killing",
+            "publisher": "Scroll",
+            "date": "2023-04-16",
+            "kind": "news"
+          },
+          {
+            "title": "Replaced previous govt's 'one district one mafia' with 'one district one medical college': UP CM Adityanath",
+            "url": "https://www.deccanherald.com/india/uttar-pradesh/replaced-previous-govts-one-district-one-mafia-with-one-district-one-medical-college-up-cm-adityanath-3461526",
+            "publisher": "Deccan Herald",
+            "date": "2025-03-25",
+            "kind": "news"
+          },
+          {
+            "title": "UP govt recovered 64,000 acres from land mafia since 2017: CM Adityanath",
+            "url": "https://www.deccanherald.com/india/uttar-pradesh/up-govt-recovered-64000-acres-from-land-mafia-since-2017-cm-adityanath-3454773",
+            "publisher": "Deccan Herald",
+            "date": "2025-03-20",
+            "kind": "news"
+          },
+          {
+            "title": "Uttar Pradesh Police killed 48 criminals in encounters in 2025, highest under Adityanath since 2017",
+            "url": "https://www.deccanherald.com/india/uttar-pradesh/uttar-pradesh-police-killed-48-criminals-in-encounters-in-2025-highest-under-adityanath-since-2017-3847616",
+            "publisher": "Deccan Herald",
+            "date": "2025-12-31",
+            "kind": "news"
+          },
+          {
+            "title": "183 criminals killed in police encounters since March 2017 in UP",
+            "url": "https://www.deccanherald.com/india/183-criminals-killed-in-police-encounters-since-march-2017-in-up-1209690.html",
+            "publisher": "Deccan Herald",
+            "date": "2023-04-14",
+            "kind": "news"
+          },
+          {
+            "title": "Over 220 criminals killed in Uttar Pradesh since 2017: Minister",
+            "url": "https://www.deccanherald.com/india/uttar-pradesh/over-220-criminals-killed-in-uttar-pradesh-since-2017-minister-3414043",
+            "publisher": "Deccan Herald",
+            "date": "2025-02-20",
+            "kind": "news"
+          },
+          {
+            "title": "Atiq Ahmed killing: Human rights panel seeks report from UP Police within four weeks",
+            "url": "https://scroll.in/latest/1047604/atiq-ahmed-killing-nhrc-seeks-report-from-up-police-within-four-weeks",
+            "publisher": "Scroll",
+            "date": "2023-04-19",
+            "kind": "news"
+          },
+          {
+            "title": "India records close 4.5 lakh crimes against women in 2023: NCRB report",
+            "url": "https://www.deccanherald.com/india/india-records-close-45-lakh-crimes-against-women-in-2023-ncrb-report-3748058",
+            "publisher": "Deccan Herald",
+            "date": "2025-09-30",
+            "kind": "news"
+          }
+        ],
+        "verified_on": "2026-09-27",
+        "verdict_locked": true
+      }
+    },
+    {
+      "id": "p076",
+      "set": {
+        "status": "ongoing",
+        "monitoring": {
+          "since": "2026-06-12",
+          "note": "Passes issued from 12 June 2026 (Deccan Herald)."
+        }
+      },
+      "why": "Open-ended and delivered in June 2026, so it is monitored for 5 years before it can be marked kept.",
+      "editorial": {
+        "record": "Karnataka issued an order for free bus passes for all students after Shivakumar's first Cabinet meeting in June 2026, Deccan Herald reported.",
+        "summary": "On 3 June 2026, the day he was sworn in as Chief Minister, D.K. Shivakumar announced free bus passes for all students on Karnataka's four state transport corporations, extending to boys a benefit girls already had under the Shakti scheme (Deccan Herald). The government issued an order after the first Cabinet meeting; Deccan Herald put the cost at about Rs 1,700 crore a year for over 10 lakh male students. Passes were issued from 12 June, with more than 2,700 issued in the first two days.",
+        "sources": [
+          {
+            "title": "D K Shivakumar swearing-in highlights | Free bus passes for students regardless of cost, this is Shivakumar's govt: DKS",
+            "url": "https://www.deccanherald.com/india/karnataka/dk-shivakumar-swearing-in-live-updates-karnataka-cm-takes-oath-dks-oath-taking-at-4pm-new-karnataka-cm-swearing-in-today-d-k-shivakumar-cabinet-karnataka-ministers-list-oath-taking-guests-list-siddaramaiah-lok-bhavan-4025539",
+            "publisher": "Deccan Herald",
+            "date": "2026-06-03",
+            "kind": "news"
+          },
+          {
+            "title": "Karnataka: Free bus pass scheme to benefit 10 lakh male students, cost Rs 1,700 crore a year",
+            "url": "https://www.deccanherald.com/india/karnataka/bengaluru/karnataka-free-bus-pass-scheme-to-benefit-10-lakh-male-students-cost-rs-1700-crore-a-year-4027872",
+            "publisher": "Deccan Herald",
+            "date": "2026-06-05",
+            "kind": "news"
+          },
+          {
+            "title": "Karnataka govt issues order implementing free bus pass scheme for students",
+            "url": "https://www.deccanherald.com/india/karnataka/karnataka-govt-issues-order-implementing-free-bus-pass-scheme-for-students-4028500",
+            "publisher": "Deccan Herald",
+            "date": "2026-06-05",
+            "kind": "news"
+          },
+          {
+            "title": "Over 2,700 free student bus passes issued to boys in just 2 days in Karnataka",
+            "url": "https://www.deccanherald.com/india/karnataka/over-2700-free-student-bus-passes-issued-to-boys-in-just-2-days-in-karnataka-4038444",
+            "publisher": "Deccan Herald",
+            "date": "2026-06-14",
+            "kind": "news"
+          },
+          {
+            "title": "Don't succumb to pressure, even if it's from my own office—CM DK Shivakumar warns top govt officials",
+            "url": "https://theprint.in/india/governance/dont-succumb-to-pressure-even-if-its-from-my-own-office-cm-dk-shivakumar-warns-top-govt-officials/2950811/",
+            "publisher": "ThePrint",
+            "date": "2026-06-04",
+            "kind": "news"
+          }
+        ],
+        "verified_on": "2026-09-27",
+        "verdict_locked": false
+      }
+    }
+  ]
+}

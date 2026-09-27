@@ -13,6 +13,22 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY = ROOT / "promises.json"
+sys.path.insert(0, str(ROOT))
+from promise_rules import apply_time_rules, kept_allowed, monitoring_until  # noqa: E402
+
+
+def collapse_same_day(p, day):
+    """Several editor decisions on one day are one decision: keep only the last,
+    and drop it too if it just restores the verdict the record had before."""
+    hist = p.get("status_history") or []
+    i = len(hist)
+    while i > 0 and hist[i - 1].get("by") == "editor" and hist[i - 1].get("changed_at") == day:
+        i -= 1
+    if len(hist) - i < 2:
+        return
+    before = hist[i - 1]["status"] if i > 0 else None
+    last = hist[-1]
+    p["status_history"] = hist[:i] + ([] if last["status"] == before else [last])
 
 
 def main() -> None:
@@ -48,10 +64,21 @@ def main() -> None:
                 })
                 p["status_last_reviewed"] = decided_on
             p[field] = value
+        collapse_same_day(p, decided_on)
         if "editorial" in change:
             ed = {k: v for k, v in change["editorial"].items() if v not in (None, [], "")}
             p["editorial"] = ed
             print(f"{pid}: editorial set ({', '.join(ed)})")
+
+    # An open-ended promise cannot be kept before 5 years of monitoring (promise_rules.py).
+    for change in fixes["changes"]:
+        p = by_id.get(change["id"])
+        if p and p.get("status") == "kept" and not kept_allowed(p):
+            print(f"WARNING {p['id']}: kept before its monitoring period ends ({monitoring_until(p)}); "
+                  "set status ongoing with a monitoring note instead")
+
+    for pid in apply_time_rules(promises):
+        print(f"{pid}: status changed by the time rules")
 
     if dry:
         print("dry run, nothing written")

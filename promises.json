@@ -212,7 +212,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2014-03-15"
+      "reported_on": "2014-03-15",
+      "implied_deadline": "2017-03-15"
     },
     {
       "id": "p003",
@@ -345,7 +346,8 @@
         "verdict_locked": true,
         "role_at_promise": "BJP prime ministerial candidate",
         "promise_quote_translated": true
-      }
+      },
+      "implied_deadline": "2016-11-07"
     },
     {
       "id": "p004",
@@ -664,7 +666,7 @@
       "deadline": "ongoing",
       "source_url": "https://www.aajtak.in/elections/uttarakhand-assembly-election-2017/story/pm-modi-warned-corrupt-officials-with-new-slogan-na-chain-se-baithunga-na-baithne-dunga-435686-2017-02-12",
       "source_description": "Aaj Tak: PM Modi warns corrupt officials with anti-corruption slogans",
-      "status": "void",
+      "status": "broken",
       "status_last_reviewed": "2026-09-27",
       "gemma_suggestion": "broken",
       "gemma_reasoning": "Multiple corruption scandals occurred during Modi's tenure.",
@@ -718,7 +720,7 @@
       },
       "reported_on": "2014-04-01",
       "editorial": {
-        "summary": "Aaj Tak reports that before the 2014 Lok Sabha election Narendra Modi pledged to end corruption with the words 'न मैं खाऊंगा और न खाने दूंगा' (I will neither take nor let others take). At a 2017 Uttarakhand rally he added 'न चैन से बैठूंगा, न चैन से बैठने दूंगा'. The pledge sets no measurable target or date. Swarajya has reported government actions, such as the 2019 compulsory retirement of income tax officers, under the slogan. Congress's Jairam Ramesh called it 'a complete hoax' in April 2026, and Shashi Tharoor has mocked it.",
+        "summary": "Aaj Tak reports that before the 2014 Lok Sabha election Narendra Modi pledged to end corruption with the words 'न मैं खाऊंगा और न खाने दूंगा' (I will neither take nor let others take). The pledge set no deadline; SatyaDheesh judges open-ended promises three years after they are made. In Transparency International's latest Corruption Perceptions Index, India scored 39 out of 100, ranking 91 of 182 countries. Swarajya has reported government action under the slogan, such as the 2019 compulsory retirement of income tax officers; Congress's Jairam Ramesh called it 'a complete hoax' in April 2026.",
         "promise_quote": "न मैं खाऊंगा और न खाने दूंगा.",
         "promise_quote_source": "https://www.aajtak.in/elections/uttarakhand-assembly-election-2017/story/pm-modi-warned-corrupt-officials-with-new-slogan-na-chain-se-baithunga-na-baithne-dunga-435686-2017-02-12",
         "sources": [
@@ -756,20 +758,29 @@
             "publisher": "Al Jazeera",
             "date": "2024-04-04",
             "kind": "news"
+          },
+          {
+            "title": "India — Corruption Perceptions Index",
+            "url": "https://www.transparency.org/en/countries/india",
+            "publisher": "Transparency International",
+            "date": null,
+            "kind": "official"
           }
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true,
-        "role_at_promise": "BJP prime ministerial candidate"
+        "role_at_promise": "BJP prime ministerial candidate",
+        "record": "In Transparency International's latest Corruption Perceptions Index, India scored 39 out of 100 and ranked 91 of 182 countries."
       },
       "status_history": [
         {
-          "status": "void",
+          "status": "broken",
           "changed_at": "2026-09-27",
           "by": "editor",
-          "note": "Round-2 multi-source check, confidence medium."
+          "note": "No deadline was given, so it is judged 3 years after the 2014 pledge; corruption was not ended."
         }
-      ]
+      ],
+      "implied_deadline": "2017-04-01"
     },
     {
       "id": "p007",
@@ -902,7 +913,8 @@
         "verified_on": "2026-09-27",
         "verdict_locked": true,
         "role_at_promise": "Union Finance Minister"
-      }
+      },
+      "implied_deadline": "2020-02-01"
     },
     {
       "id": "p008",
@@ -1122,8 +1134,8 @@
       "deadline": "ongoing",
       "source_url": "https://www.hindustantimes.com/india-news/bjp-promises-uniform-civil-code-caa-in-lok-sabha-elections-manifesto-10-points-101713069608965.html",
       "source_description": "Hindustan Times: BJP promises Uniform Civil Code, CAA in Lok Sabha elections manifesto",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-05-23",
+      "status": "broken",
+      "status_last_reviewed": "2026-09-27",
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "National UCC not yet implemented.",
       "evidence_articles": [
@@ -1261,7 +1273,16 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2022-04-08",
+      "status_history": [
+        {
+          "status": "broken",
+          "changed_at": "2026-09-27",
+          "by": "rule",
+          "note": "No deadline was given; judged 3 years after it was made (2022-04-08)."
+        }
+      ]
     },
     {
       "id": "p010",
@@ -1421,7 +1442,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2027-04-14"
     },
     {
       "id": "p011",
@@ -1525,7 +1547,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": false
-      }
+      },
+      "implied_deadline": "2019-11-08"
     },
     {
       "id": "p012",
@@ -1819,7 +1842,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2015-02-14"
+      "reported_on": "2015-02-14",
+      "implied_deadline": "2018-02-14"
     },
     {
       "id": "p015",
@@ -1946,7 +1970,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2018-02-14"
     },
     {
       "id": "p016",
@@ -2195,13 +2220,13 @@
       "person": "Yogi Adityanath",
       "party": "BJP",
       "role": "Chief Minister",
-      "promise": "End mafia raj and crime completely in Uttar Pradesh",
+      "promise": "End mafia raj in Uttar Pradesh",
       "category": "corruption/governance",
       "made_on": "2017-03-19",
       "deadline": "ongoing",
       "source_url": "https://timesofindia.indiatimes.com/india/toi-dialogues-how-yogi-government-ended-mafiaraj-in-uttar-pradeshs-gorakhpur/articleshow/111171794.cms",
       "source_description": "Times of India: TOI Dialogues: How Yogi government ended mafiaraj in Uttar Pradesh's Gorakhpur",
-      "status": "ongoing",
+      "status": "kept",
       "status_last_reviewed": "2026-09-27",
       "gemma_suggestion": "kept",
       "gemma_reasoning": "The government successfully dismantled mafia networks and reduced crime rates according to NCRB data.",
@@ -2274,10 +2299,10 @@
       "reported_on": "2017-03-19",
       "status_history": [
         {
-          "status": "ongoing",
+          "status": "kept",
           "changed_at": "2026-09-27",
           "by": "editor",
-          "note": "Round-2 multi-source check, confidence medium."
+          "note": "Monitored for more than 5 years since 2017. Headline trimmed to the commitment he made; 'and crime completely' was the pipeline's wording and no source has him saying it."
         }
       ],
       "editorial": {
@@ -2345,7 +2370,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2020-03-19"
     },
     {
       "id": "p019",
@@ -2844,7 +2870,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-03-11"
+      "reported_on": "2026-03-11",
+      "implied_deadline": "2029-03-11"
     },
     {
       "id": "p024",
@@ -3340,7 +3367,8 @@
         "verified_on": "2026-09-27",
         "verdict_locked": true,
         "role_at_promise": "Food, Civil Supplies and Consumer Affairs Minister, Karnataka"
-      }
+      },
+      "implied_deadline": "2029-06-16"
     },
     {
       "id": "p029",
@@ -3860,7 +3888,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-03-14"
     },
     {
       "id": "p035",
@@ -4168,7 +4197,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-03-13"
+      "reported_on": "2026-03-13",
+      "implied_deadline": "2029-03-13"
     },
     {
       "id": "p039",
@@ -4541,7 +4571,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-03-09"
+      "reported_on": "2026-03-09",
+      "implied_deadline": "2029-03-09"
     },
     {
       "id": "p044",
@@ -5011,7 +5042,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-03-29"
+      "reported_on": "2026-03-29",
+      "implied_deadline": "2029-03-29"
     },
     {
       "id": "p050",
@@ -5084,7 +5116,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-03-29"
+      "reported_on": "2026-03-29",
+      "implied_deadline": "2029-03-29"
     },
     {
       "id": "p051",
@@ -5157,7 +5190,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-03-30"
+      "reported_on": "2026-03-30",
+      "implied_deadline": "2029-03-30"
     },
     {
       "id": "p052",
@@ -5426,7 +5460,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-04-02"
+      "reported_on": "2026-04-02",
+      "implied_deadline": "2029-04-02"
     },
     {
       "id": "p055",
@@ -5499,7 +5534,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-04-04"
+      "reported_on": "2026-04-04",
+      "implied_deadline": "2029-04-04"
     },
     {
       "id": "p056",
@@ -5761,7 +5797,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-03-29"
     },
     {
       "id": "p059",
@@ -5915,7 +5952,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-04-14"
+      "reported_on": "2026-04-14",
+      "implied_deadline": "2029-04-14"
     },
     {
       "id": "p061",
@@ -5988,7 +6026,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-04-14"
+      "reported_on": "2026-04-14",
+      "implied_deadline": "2029-04-14"
     },
     {
       "id": "p062",
@@ -6142,7 +6181,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-04-25"
+      "reported_on": "2026-04-25",
+      "implied_deadline": "2029-04-25"
     },
     {
       "id": "p064",
@@ -6215,7 +6255,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-04-25"
+      "reported_on": "2026-04-25",
+      "implied_deadline": "2029-04-25"
     },
     {
       "id": "p065",
@@ -6288,7 +6329,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-05-10"
+      "reported_on": "2026-05-10",
+      "implied_deadline": "2029-05-10"
     },
     {
       "id": "p066",
@@ -6668,7 +6710,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-06-14"
+      "reported_on": "2026-06-14",
+      "implied_deadline": "2029-06-14"
     },
     {
       "id": "p070",
@@ -6903,7 +6946,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-06-07"
+      "reported_on": "2026-06-07",
+      "implied_deadline": "2029-06-07"
     },
     {
       "id": "p073",
@@ -6976,7 +7020,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-06-05"
+      "reported_on": "2026-06-05",
+      "implied_deadline": "2029-06-05"
     },
     {
       "id": "p074",
@@ -7049,7 +7094,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-06-04"
+      "reported_on": "2026-06-04",
+      "implied_deadline": "2029-06-04"
     },
     {
       "id": "p075",
@@ -7122,7 +7168,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-06-04"
+      "reported_on": "2026-06-04",
+      "implied_deadline": "2029-06-04"
     },
     {
       "id": "p076",
@@ -7141,19 +7188,13 @@
       "archive_source": "none",
       "search_fallback_url": "https://www.google.com/search?q=Exclusive+With+DK+Shivakumar+s+Daughter+Brother+After+Big+Karnataka+Oath",
       "source_description": "Exclusive With DK Shivakumar's Daughter, Brother After Big Karnataka Oath",
-      "status": "kept",
+      "status": "ongoing",
       "status_last_reviewed": "2026-09-27",
       "status_history": [
         {
           "status": "ongoing",
           "changed_at": "2026-06-19",
           "evidence_url": "https://www.ndtv.com/india-news/exclusive-with-dk-shivakumars-daughter-brother-after-big-karnataka-oath-11588028#publisher=newsstand"
-        },
-        {
-          "status": "kept",
-          "changed_at": "2026-09-27",
-          "by": "editor",
-          "note": "Round-2 multi-source check, confidence medium."
         }
       ],
       "gemma_suggestion": "ongoing",
@@ -7243,8 +7284,13 @@
           }
         ],
         "verified_on": "2026-09-27",
-        "verdict_locked": true
-      }
+        "verdict_locked": false
+      },
+      "monitoring": {
+        "since": "2026-06-12",
+        "note": "Passes issued from 12 June 2026 (Deccan Herald)."
+      },
+      "implied_deadline": "2029-06-03"
     },
     {
       "id": "p077",
@@ -7605,7 +7651,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-05-16"
     },
     {
       "id": "p081",
@@ -7707,7 +7754,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-04-22"
     },
     {
       "id": "p082",
@@ -7780,7 +7828,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-05-14"
+      "reported_on": "2026-05-14",
+      "implied_deadline": "2029-05-14"
     },
     {
       "id": "p083",
@@ -7971,7 +8020,8 @@
         "quote_verified": false,
         "verification": "legacy_unverified"
       },
-      "reported_on": "2026-05-12"
+      "reported_on": "2026-05-12",
+      "implied_deadline": "2029-05-12"
     },
     {
       "id": "p085",
@@ -8221,7 +8271,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-07-10"
     },
     {
       "id": "p088",
@@ -8437,7 +8488,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-07-13"
     },
     {
       "id": "p090",
@@ -8510,7 +8562,8 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Planting 35 crore saplings has a significant national environmental impact.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-14"
     },
     {
       "id": "p091",
@@ -8980,7 +9033,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a targeted, one-time educational initiative rather than a transformational commitment affecting a large population or resource.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-14"
     },
     {
       "id": "p097",
@@ -9077,7 +9131,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-07-15"
     },
     {
       "id": "p098",
@@ -9150,7 +9205,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a single healthcare program, even if flagship, without national or transformative state-wide impact.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-15"
     },
     {
       "id": "p099",
@@ -9223,7 +9279,8 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "A 15% GSDP growth target is a transformative, economy-wide commitment that would significantly impact the state's development trajectory.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-14"
     },
     {
       "id": "p100",
@@ -9525,7 +9582,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a specific allocation to a single organization, not a transformational commitment affecting a large population or resources.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-18"
     },
     {
       "id": "p103",
@@ -9598,7 +9656,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Filling vacancies is a routine governance task, not a transformational commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-18"
     },
     {
       "id": "p104",
@@ -10060,7 +10119,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a local infrastructure initiative limited to specific villages.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-21"
     },
     {
       "id": "p110",
@@ -10214,7 +10274,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a routine governance action rather than a transformational commitment affecting a large population or resources.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-23"
     },
     {
       "id": "p112",
@@ -10574,7 +10635,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-07-26"
     },
     {
       "id": "p116",
@@ -10647,7 +10709,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a one-time welfare distribution affecting a specific group of people.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-26"
     },
     {
       "id": "p117",
@@ -10720,7 +10783,8 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "It involves a significant financial commitment to a large population segment across the state.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-07-28"
     },
     {
       "id": "p118",
@@ -11392,7 +11456,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine addition to an existing scheme, not a transformational change.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-08"
     },
     {
       "id": "p126",
@@ -11546,7 +11611,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine scheme, not a transformational commitment affecting a large population or resources.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-08"
     },
     {
       "id": "p128",
@@ -11781,7 +11847,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It pertains to a specific group and situation rather than a large-scale, transformational commitment affecting the entire population.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-09"
     },
     {
       "id": "p131",
@@ -11854,7 +11921,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a specific infrastructure project rather than a nationwide or transformational state-level commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-10"
     },
     {
       "id": "p132",
@@ -11927,7 +11995,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It involves a specific number of workers and does not have a national or transformational state-level impact.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-10"
     },
     {
       "id": "p133",
@@ -12073,7 +12142,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine policy decision affecting transaction costs, not a transformational economic commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-10"
     },
     {
       "id": "p135",
@@ -12462,7 +12532,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It involves opposition to a specific bill rather than a transformative policy or large-scale action.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-13"
     },
     {
       "id": "p140",
@@ -12535,7 +12606,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine improvement in governance rather than a transformational commitment affecting a large population or resources.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-14"
     },
     {
       "id": "p141",
@@ -12681,7 +12753,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine educational initiative rather than a transformational, nation-shaping commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-15"
     },
     {
       "id": "p143",
@@ -12754,7 +12827,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Creating a new department is a structural change but does not have a direct, large-scale, transformational impact on the population.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-15"
     },
     {
       "id": "p144",
@@ -13232,7 +13306,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a routine welfare allowance rather than a transformational commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-16"
     },
     {
       "id": "p150",
@@ -13467,7 +13542,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine administrative action.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-17"
     },
     {
       "id": "p153",
@@ -13723,7 +13799,8 @@
         ],
         "verified_on": "2026-09-27",
         "verdict_locked": true
-      }
+      },
+      "implied_deadline": "2029-08-18"
     },
     {
       "id": "p156",
@@ -13796,7 +13873,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It refers to the widening of a single road, which is a routine infrastructure project.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-19"
     },
     {
       "id": "p157",
@@ -14193,7 +14271,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a routine welfare subsidy rather than a transformational commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-24"
     },
     {
       "id": "p162",
@@ -14347,7 +14426,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a routine administrative action rather than a transformational commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-24"
     },
     {
       "id": "p164",
@@ -14420,7 +14500,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a statement about electoral strategy rather than a policy promise with significant national or state impact.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-26"
     },
     {
       "id": "p165",
@@ -14736,7 +14817,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a single infrastructure project, not a nationwide or transformational state-level commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-08-31"
     },
     {
       "id": "p169",
@@ -14882,7 +14964,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "Routine recruitment and promotion within the police force, not transformational or affecting a large population.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-03"
     },
     {
       "id": "p171",
@@ -14955,7 +15038,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a single infrastructure project, not a transformational commitment affecting a large population or resources.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-03"
     },
     {
       "id": "p172",
@@ -15028,7 +15112,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a response to a specific issue rather than a transformational, large-scale commitment.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-06"
     },
     {
       "id": "p173",
@@ -15101,7 +15186,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a local infrastructure project, not a transformational commitment affecting a large population or resources.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-09"
     },
     {
       "id": "p174",
@@ -15342,7 +15428,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Sanctioning 100 BC college hostels is a routine governance action, not a transformational commitment affecting a large population or resources.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-12"
     },
     {
       "id": "p177",
@@ -15507,7 +15594,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It refers to the construction of a single building, which is a routine project.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-14"
     },
     {
       "id": "p179",
@@ -15693,7 +15781,8 @@
         "verified_on": "2026-09-27",
         "verdict_locked": true,
         "role_at_promise": "Prime Minister"
-      }
+      },
+      "implied_deadline": "2029-09-17"
     },
     {
       "id": "p181",
@@ -15847,7 +15936,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a specific, one-time initiative affecting a limited number of individuals.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-23"
     },
     {
       "id": "p183",
@@ -16012,7 +16102,8 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Creating over one lakh government jobs in six months is a significant, large-scale employment commitment affecting a large population.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-22"
     },
     {
       "id": "p185",
@@ -16085,7 +16176,8 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Aims to provide employment opportunities to a very large population, potentially transforming the employment landscape for women across the state.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-20"
     },
     {
       "id": "p186",
@@ -16158,7 +16250,8 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "LLM error: Extra data: line 3 column 1 (char 75)",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-19"
     },
     {
       "id": "p187",
@@ -16231,7 +16324,8 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a routine welfare measure affecting a specific group of people.",
-      "importance_source": "llm"
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-18"
     }
   ]
 }

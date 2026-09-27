@@ -11,6 +11,8 @@ import sys
 import string
 from difflib import SequenceMatcher
 
+from promise_rules import apply_time_rules, kept_allowed
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -331,7 +333,12 @@ def load_promises():
 
 def save_promises(data):
     import tempfile
-    
+
+    # Open-ended promises: judged 3 years after they were made (promise_rules.py).
+    broken_by_rule = apply_time_rules(data.get("promises", []))
+    if broken_by_rule:
+        logging.info(f"Time rule: no deadline and 3 years passed, now broken: {', '.join(broken_by_rule)}")
+
     dir_name = os.path.dirname(PROMISES_JSON_PATH)
     temp_file_path = None
     try:
@@ -453,6 +460,8 @@ def can_change_verdict(promise, proposed_status, confidence):
     """A delivery verdict needs two independently hosted outcome reports."""
     if proposed_status not in {"kept", "broken", "void"}:
         return False, "invalid_or_nonfinal_status"
+    if proposed_status == "kept" and not kept_allowed(promise):
+        return False, "open_ended_needs_5y_monitoring"
     if confidence != "high":
         return False, "low_confidence_verdict_change"
     if len(outcome_source_domains(promise)) < 2:
@@ -1634,6 +1643,9 @@ def main():
                             new_status = p["status"]
                         else:
                             allowed, reason = can_change_verdict(p, new_status, confidence)
+                            if not allowed and reason == "open_ended_needs_5y_monitoring":
+                                # Delivered, but open-ended: watch it for 5 years before "kept".
+                                p.setdefault("monitoring", {"since": time.strftime("%Y-%m-%d"), "evidence_url": url})
                             if not allowed:
                                 logging.info(f"Verdict change rejected: {reason}.")
                                 save_to_review_queue(p, extracted_json, reason)
