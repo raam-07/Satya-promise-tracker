@@ -1,0 +1,29 @@
+{
+  "_about": "Editor decision (27 Sep 2026): judge p004 against '2 crore pucca houses by 2022', which official PRS figures show was met. Supersedes the p004 entry in 2026-09-27.json.",
+  "changes": [
+    {
+      "id": "p004",
+      "set": {
+        "status": "kept",
+        "promise": "Build 2 crore pucca houses for the poor by 2022 (PM Awas Yojana)",
+        "deadline": "2022-12-31"
+      },
+      "why": "Editor decision: measured as 2 crore pucca houses by 2022. PRS: 2.10 crore rural houses were completed under PMAY-G by 2022, before counting urban houses.",
+      "editorial": {
+        "record": "PRS Legislative Research: 2.10 crore rural pucca houses were completed under PMAY-Gramin by 2022; urban completions reached 68 lakh by January 2023.",
+        "summary": "At the June 2015 launch of Housing for All, Prime Minister Narendra Modi cited a housing shortage of 2 crore units and said that by 2022 it was 'our responsibility to provide a house for everyone', in the PMO's account. Official figures compiled by PRS Legislative Research show 2.10 crore rural pucca houses completed under PMAY-Gramin by 2022, and 68 lakh urban houses by January 2023. The schemes' own targets, 2.95 crore rural houses and about 1.2 crore urban, were not reached by 2022; both were extended, and rural completions reached 2.61 crore by July 2024. The BJP's 2024 manifesto says more than 4 crore poor families have benefited.",
+        "promise_quote": "Citing the existing housing shortage of 2 crore units, the Prime Minister said that India was completing 75 years of independence in 2022, and by then, it was our responsibility to provide a house for everyone.",
+        "promise_quote_source": "https://www.pmindia.gov.in/en/news_updates/pms-remarks-at-the-launch-of-amrut-smart-cities-mission-and-housing-for-all-urban/?comment=disable",
+        "sources": [
+          {"title": "PM's remarks at the launch of AMRUT, Smart Cities Mission and Housing for All (Urban)", "url": "https://www.pmindia.gov.in/en/news_updates/pms-remarks-at-the-launch-of-amrut-smart-cities-mission-and-housing-for-all-urban/?comment=disable", "publisher": "Prime Minister's Office (pmindia.gov.in)", "date": "2015-06-25", "kind": "primary"},
+          {"title": "Demand for Grants 2024-25 Analysis: Rural Development", "url": "https://prsindia.org/files/budget/budget_parliament/2024/DfG_2024-25_Analysis-Rural_Development.pdf", "publisher": "PRS Legislative Research", "date": "2024-08-30", "kind": "official"},
+          {"title": "Demand for Grants 2023-24 Analysis: Housing and Urban Affairs", "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2023-24-analysis-housing-and-urban-affairs", "publisher": "PRS Legislative Research", "date": "2023-02-01", "kind": "official"},
+          {"title": "Demand for Grants 2024-25 Analysis: Housing and Urban Affairs", "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2024-25-analysis-housing-and-urban-affairs", "publisher": "PRS Legislative Research", "date": null, "kind": "official"},
+          {"title": "About PMAY(U)", "url": "https://pmay-urban.gov.in/about", "publisher": "Ministry of Housing and Urban Affairs (PMAY-Urban portal)", "date": null, "kind": "official"}
+        ],
+        "verified_on": "2026-09-27",
+        "verdict_locked": true
+      }
+    }
+  ]
+}

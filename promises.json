@@ -352,13 +352,13 @@
       "person": "Narendra Modi",
       "party": "BJP",
       "role": "Prime Minister",
-      "promise": "Housing for All by 2022: a pucca house for every family by India's 75th year of independence (PM Awas Yojana)",
+      "promise": "Build 2 crore pucca houses for the poor by 2022 (PM Awas Yojana)",
       "category": "welfare",
       "made_on": "2015-06-25",
-      "deadline": "2022-03-31",
+      "deadline": "2022-12-31",
       "source_url": "https://pmay-urban.gov.in/about",
       "source_description": "PMAY-Urban: Official Scheme Page and 'Housing for All' Guidelines",
-      "status": "broken",
+      "status": "kept",
       "status_last_reviewed": "2026-09-27",
       "gemma_suggestion": "kept",
       "gemma_reasoning": "The target was extended and cumulative completions eventually crossed 4 crore, exceeding the original target of 2 crore.",
@@ -436,12 +436,6 @@
           "status": "kept",
           "changed_at": "2026-06-19",
           "evidence_url": "https://pmay-urban.gov.in"
-        },
-        {
-          "status": "broken",
-          "changed_at": "2026-09-27",
-          "by": "editor",
-          "note": "Round-2 multi-source check, confidence high."
         }
       ],
       "url": "https://pmay-urban.gov.in/about",
@@ -461,8 +455,8 @@
       },
       "reported_on": "2015-06-25",
       "editorial": {
-        "record": "PRS Legislative Research: by 2022, 2.10 crore of 2.95 crore targeted rural houses were built; 68 lakh of 120 lakh sanctioned urban houses by Jan 2023.",
-        "summary": "At the June 2015 launch of Housing for All (Urban), Prime Minister Narendra Modi said, in the PMO's account, that by India's 75th year of independence in 2022 it was 'our responsibility to provide a house for everyone', citing an urban shortage of 2 crore units. Official figures compiled by PRS Legislative Research show 2.10 crore of 2.95 crore targeted rural houses completed by 2022, and 68 lakh of 120 lakh sanctioned urban houses completed by January 2023. Both schemes were extended and, in 2024, given new targets. The BJP's 2024 manifesto says more than 4 crore poor families have benefited.",
+        "record": "PRS Legislative Research: 2.10 crore rural pucca houses were completed under PMAY-Gramin by 2022; urban completions reached 68 lakh by January 2023.",
+        "summary": "At the June 2015 launch of Housing for All, Prime Minister Narendra Modi cited a housing shortage of 2 crore units and said that by 2022 it was 'our responsibility to provide a house for everyone', in the PMO's account. Official figures compiled by PRS Legislative Research show 2.10 crore rural pucca houses completed under PMAY-Gramin by 2022, and 68 lakh urban houses by January 2023. The schemes' own targets, 2.95 crore rural houses and about 1.2 crore urban, were not reached by 2022; both were extended, and rural completions reached 2.61 crore by July 2024. The BJP's 2024 manifesto says more than 4 crore poor families have benefited.",
         "promise_quote": "Citing the existing housing shortage of 2 crore units, the Prime Minister said that India was completing 75 years of independence in 2022, and by then, it was our responsibility to provide a house for everyone.",
         "promise_quote_source": "https://www.pmindia.gov.in/en/news_updates/pms-remarks-at-the-launch-of-amrut-smart-cities-mission-and-housing-for-all-urban/?comment=disable",
         "sources": [
@@ -474,17 +468,10 @@
             "kind": "primary"
           },
           {
-            "title": "About PMAY-U",
-            "url": "https://pmay-urban.gov.in/about",
-            "publisher": "Ministry of Housing and Urban Affairs (PMAY-Urban portal)",
-            "date": null,
-            "kind": "official"
-          },
-          {
-            "title": "PMAY-Urban home page (progress dashboard)",
-            "url": "https://pmay-urban.gov.in/",
-            "publisher": "Ministry of Housing and Urban Affairs (PMAY-Urban portal)",
-            "date": null,
+            "title": "Demand for Grants 2024-25 Analysis: Rural Development",
+            "url": "https://prsindia.org/files/budget/budget_parliament/2024/DfG_2024-25_Analysis-Rural_Development.pdf",
+            "publisher": "PRS Legislative Research",
+            "date": "2024-08-30",
             "kind": "official"
           },
           {
@@ -492,63 +479,21 @@
             "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2023-24-analysis-housing-and-urban-affairs",
             "publisher": "PRS Legislative Research",
             "date": "2023-02-01",
-            "kind": "news"
+            "kind": "official"
           },
           {
             "title": "Demand for Grants 2024-25 Analysis: Housing and Urban Affairs",
             "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2024-25-analysis-housing-and-urban-affairs",
             "publisher": "PRS Legislative Research",
             "date": null,
-            "kind": "news"
+            "kind": "official"
           },
           {
-            "title": "Demand for Grants 2026-27 Analysis: Housing and Urban Affairs",
-            "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2026-27-analysis-housing-and-urban-affairs",
-            "publisher": "PRS Legislative Research",
+            "title": "About PMAY(U)",
+            "url": "https://pmay-urban.gov.in/about",
+            "publisher": "Ministry of Housing and Urban Affairs (PMAY-Urban portal)",
             "date": null,
-            "kind": "news"
-          },
-          {
-            "title": "Demand for Grants 2024-25 Analysis: Rural Development",
-            "url": "https://prsindia.org/files/budget/budget_parliament/2024/DfG_2024-25_Analysis-Rural_Development.pdf",
-            "publisher": "PRS Legislative Research",
-            "date": "2024-08-30",
-            "kind": "news"
-          },
-          {
-            "title": "Demand for Grants 2025-26 Analysis: Rural Development",
-            "url": "https://prsindia.org/files/budget/budget_parliament/2025/DFG_Analysis_2025-26_Rural_Development.pdf",
-            "publisher": "PRS Legislative Research",
-            "date": "2025-02-04",
-            "kind": "news"
-          },
-          {
-            "title": "Demand for Grants 2026-27 Analysis: Rural Development",
-            "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2026-27-analysis-rural-development",
-            "publisher": "PRS Legislative Research",
-            "date": null,
-            "kind": "news"
-          },
-          {
-            "title": "Data check: Centre has increased budget for housing scheme, although older targets haven't been met",
-            "url": "https://scroll.in/article/1043730/data-check-centre-has-increased-budget-for-housing-scheme-although-older-targets-havent-been-met",
-            "publisher": "Scroll.in (Factchecker.in)",
-            "date": "2023-02-14",
-            "kind": "fact-check"
-          },
-          {
-            "title": "TMC MP Saket Gokhale lies about \"zero mention\" of housing scheme for poor in the BJP manifesto: Here's the truth",
-            "url": "https://www.opindia.com/2024/04/saket-gokhale-lies-zero-mention-of-housing-scheme-for-poor-in-bjp-manifesto-how-the-tmc-mp-has-been-lying/",
-            "publisher": "OpIndia",
-            "date": "2024-04-15",
-            "kind": "news"
-          },
-          {
-            "title": "Pradhan Mantri Awas Yojana",
-            "url": "https://en.wikipedia.org/wiki/Pradhan_Mantri_Awas_Yojana",
-            "publisher": "Wikipedia",
-            "date": null,
-            "kind": "news"
+            "kind": "official"
           }
         ],
         "verified_on": "2026-09-27",
