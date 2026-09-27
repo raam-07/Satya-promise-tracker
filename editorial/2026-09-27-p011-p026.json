@@ -1,0 +1,130 @@
+{
+  "_about": "Editor decisions (27 Sep 2026) on p011 and p026.",
+  "changes": [
+    {
+      "id": "p011",
+      "set": {
+        "status": "broken"
+      },
+      "why": "Measured against his own words: hoarded notes were to 'become just worthless pieces of paper', yet the RBI reported 98.96% of them deposited with banks.",
+      "editorial": {
+        "record": "The RBI said in August 2017 that 98.96% of the demonetised notes had been deposited with banks, Scroll reported.",
+        "summary": "In his address to the nation on 8 November 2016, Prime Minister Narendra Modi withdrew ₹500 and ₹1,000 notes 'to break the grip of corruption and black money', saying the notes 'hoarded by anti-national and anti-social elements will become just worthless pieces of paper'. The RBI reported in August 2017 that 98.96% of the demonetised notes had been deposited with banks. Then finance minister Arun Jaitley said the deposit of even black money into banks was evidence of success; Justice BV Nagarathna, who dissented in the 2023 Supreme Court ruling, said in 2024 it was 'a good way of making black money white money'.",
+        "promise_quote": "To break the grip of corruption and black money, we have decided that the five hundred rupee and thousand rupee currency notes presently in use will no longer be legal tender from midnight tonight, that is 8th November 2016.",
+        "promise_quote_source": "https://www.pmindia.gov.in/en/news_updates/prime-ministers-address-to-the-nation/?comment=disable",
+        "sources": [
+          {
+            "title": "PM's address to the Nation (08 Nov 2016)",
+            "url": "https://www.pmindia.gov.in/en/news_updates/prime-ministers-address-to-the-nation/?comment=disable",
+            "publisher": "Prime Minister's Office (pmindia.gov.in)",
+            "date": "2016-11-08",
+            "kind": "primary"
+          },
+          {
+            "title": "Demonetisation was a way of converting black money into white: Justice BV Nagarathna",
+            "url": "https://scroll.in/latest/1066015/demonetisation-was-a-way-of-converting-black-money-into-white-justice-bv-nagarathna",
+            "publisher": "Scroll",
+            "date": "2024-03-31",
+            "kind": "news"
+          },
+          {
+            "title": "Did demonetisation hit the right notes? Evaluating its impact 8 years later",
+            "url": "https://www.business-standard.com/economy/news/did-demonetisation-hit-the-right-notes-evaluating-its-impact-8-years-later-124111801278_1.html",
+            "publisher": "Business Standard",
+            "date": "2024-11-18",
+            "kind": "news"
+          },
+          {
+            "title": "2016 Indian banknote demonetisation",
+            "url": "https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation",
+            "publisher": "Wikipedia",
+            "date": null,
+            "kind": "opinion"
+          }
+        ],
+        "verified_on": "2026-09-27",
+        "verdict_locked": true
+      }
+    },
+    {
+      "id": "p026",
+      "set": {
+        "status": "broken"
+      },
+      "why": "Deadline 31 March 2026. Armed Maoists were still surrendering and being arrested in April and May 2026, so the country was not free of LWE by the deadline; the government's claim that it was is shown.",
+      "editorial": {
+        "record": "Armed Maoists were still active after the deadline: 42 surrendered in Telangana in April 2026 and eight were arrested in Gadchiroli in May (Deccan Herald).",
+        "summary": "In Raipur on 24 August 2024, Union Home Minister Amit Shah said the country would be free of Left Wing Extremism by 31 March 2026. On 30 March 2026 he told the Lok Sabha India could be called Naxal-free, saying 20 of 21 top CPI (Maoist) leaders had surrendered, been arrested or killed (Deccan Herald). Armed cadres were still active after the deadline: 42 Maoists surrendered in Telangana in April and eight were arrested in Gadchiroli in May. Shah said in May that Naxalism had been eradicated before the deadline; former police chief Prakash Singh wrote in ThePrint that the insurgency was crushed but its ideology may survive.",
+        "promise_quote": "The country will be free from Left Wing Extremism (LWE) by March 2026",
+        "promise_quote_source": "https://www.deccanherald.com/india/india-to-be-free-of-naxal-menace-by-2026-time-for-final-assault-amit-shah-3163220",
+        "sources": [
+          {
+            "title": "India to be free of Naxal menace by 2026, time for final assault: Amit Shah",
+            "url": "https://www.deccanherald.com/india/india-to-be-free-of-naxal-menace-by-2026-time-for-final-assault-amit-shah-3163220",
+            "publisher": "Deccan Herald (PTI)",
+            "date": "2024-08-24",
+            "kind": "news"
+          },
+          {
+            "title": "Amit Shah wants India to be Naxal-free by 2026. Inside Chhattisgarh meeting where a plan was laid out",
+            "url": "https://theprint.in/india/amit-shah-wants-india-to-be-naxal-free-by-2026-inside-chhattisgarh-meeting-where-a-plan-was-laid-out/2237669/",
+            "publisher": "ThePrint",
+            "date": "2024-08-25",
+            "kind": "news"
+          },
+          {
+            "title": "India now free of Naxalism but Rahul has become one due to proximity to Maoists: Amit Shah in Lok Sabha",
+            "url": "https://www.deccanherald.com/india/rahul-has-become-naxal-due-to-his-proximity-with-maoists-amit-shah-blames-congress-for-left-wing-violence-3949985",
+            "publisher": "Deccan Herald",
+            "date": "2026-03-30",
+            "kind": "news"
+          },
+          {
+            "title": "35 Naxalites surrender in Chhattisgarh hours before Centre-set deadline for LWE eradication ends",
+            "url": "https://theprint.in/india/35-naxalites-surrender-in-chhattisgarh-hours-before-centre-set-deadline-for-lwe-eradication-ends/2893308/",
+            "publisher": "ThePrint (PTI)",
+            "date": "2026-03-31",
+            "kind": "news"
+          },
+          {
+            "title": "Rise, reign, and fall of Naxalism: Chhattisgarh's 'red' corridor hits dead end",
+            "url": "https://theprint.in/india/rise-reign-and-fall-of-naxalism-chhattisgarhs-red-corridor-hits-dead-end/2893259/",
+            "publisher": "ThePrint (PTI)",
+            "date": "2026-03-31",
+            "kind": "news"
+          },
+          {
+            "title": "Maoist insurgency has been defeated. Naxal ideology likely to survive",
+            "url": "https://theprint.in/opinion/maoist-insurgency-naxal-ideology/2893396/",
+            "publisher": "ThePrint (opinion, Prakash Singh)",
+            "date": "2026-04-01",
+            "kind": "opinion"
+          },
+          {
+            "title": "'Telangana completely free of Naxals', says DGP Shivadhar Reddy as 42 Maoists surrender",
+            "url": "https://www.deccanherald.com/india/telangana/telangana-completely-free-of-naxals-says-dgp-shivadhar-reddy-as-42-maoists-surrender-3963384",
+            "publisher": "Deccan Herald",
+            "date": "2026-04-10",
+            "kind": "news"
+          },
+          {
+            "title": "Maharashtra's Gadchiroli declared Naxal-free after five Naxals surrender, eight Maoists arrested",
+            "url": "https://www.deccanherald.com/india/maharashtra/maharashtras-gadchiroli-declared-naxal-free-after-five-naxals-surrender-eight-maoists-arrested-4006146",
+            "publisher": "Deccan Herald",
+            "date": "2026-05-17",
+            "kind": "news"
+          },
+          {
+            "title": "Naxalism eradicated from country before March 31 deadline due to valour of forces: Amit Shah",
+            "url": "https://www.deccanherald.com/india/naxalism-eradicated-from-country-before-march-31-deadline-due-to-valour-of-forces-amit-shah-4008644",
+            "publisher": "Deccan Herald",
+            "date": "2026-05-19",
+            "kind": "news"
+          }
+        ],
+        "verified_on": "2026-09-27",
+        "verdict_locked": true
+      }
+    }
+  ]
+}

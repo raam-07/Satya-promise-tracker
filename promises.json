@@ -1512,7 +1512,7 @@
       "reported_on": "2016-11-08",
       "editorial": {
         "record": "The RBI said in August 2017 that 98.96% of the demonetised notes had been deposited with banks, Scroll reported.",
-        "summary": "In his address to the nation on 8 November 2016, Prime Minister Narendra Modi said ₹500 and ₹1,000 notes would cease to be legal tender 'to break the grip of corruption and black money', linking the step to fake currency and terrorism. The RBI reported in August 2017 that 98.96% of the demonetised notes had been deposited with banks. Then finance minister Arun Jaitley called the deposit of black money into banks evidence of success; Justice BV Nagarathna, who dissented in the 2023 Supreme Court ruling, said in 2024 it was 'a good way of making black money white money'.",
+        "summary": "In his address to the nation on 8 November 2016, Prime Minister Narendra Modi withdrew ₹500 and ₹1,000 notes 'to break the grip of corruption and black money', saying the notes 'hoarded by anti-national and anti-social elements will become just worthless pieces of paper'. The RBI reported in August 2017 that 98.96% of the demonetised notes had been deposited with banks. Then finance minister Arun Jaitley said the deposit of even black money into banks was evidence of success; Justice BV Nagarathna, who dissented in the 2023 Supreme Court ruling, said in 2024 it was 'a good way of making black money white money'.",
         "promise_quote": "To break the grip of corruption and black money, we have decided that the five hundred rupee and thousand rupee currency notes presently in use will no longer be legal tender from midnight tonight, that is 8th November 2016.",
         "promise_quote_source": "https://www.pmindia.gov.in/en/news_updates/prime-ministers-address-to-the-nation/?comment=disable",
         "sources": [
@@ -1546,7 +1546,7 @@
           }
         ],
         "verified_on": "2026-09-27",
-        "verdict_locked": false
+        "verdict_locked": true
       },
       "implied_deadline": "2019-11-08"
     },
@@ -3054,8 +3054,8 @@
       "deadline": "2026-03-31",
       "source_url": "https://web.archive.org/web/20260616090358/https://www.thehindu.com/news/national/chhattisgarh/108-maoists-surrender-in-chhattisgarh/article70730005.ece",
       "source_description": "108 Maoists surrender in Chhattisgarh - The Hindu",
-      "status": "ongoing",
-      "status_last_reviewed": "2026-06-16",
+      "status": "broken",
+      "status_last_reviewed": "2026-09-27",
       "gemma_suggestion": "ongoing",
       "gemma_reasoning": "The article states Shah set a deadline of March 31, 2026, for the eradication of Maoism.",
       "evidence_articles": [
@@ -3126,8 +3126,8 @@
       },
       "reported_on": "2026-06-16",
       "editorial": {
-        "record": "Amit Shah told the Lok Sabha on 30 March 2026 that India was free of Naxalism, citing 20 of 21 top CPI (Maoist) leaders neutralised (Deccan Herald).",
-        "summary": "In Raipur on 24 August 2024, Union Home Minister Amit Shah said the country would be free of Left Wing Extremism by March 2026, later stated as 31 March 2026. On 30 March 2026 he told the Lok Sabha India could be called Naxal-free, saying 20 of 21 CPI (Maoist) Central Committee or Politburo members had surrendered, been arrested or killed (Deccan Herald). Surrenders continued after the deadline, including 42 in Telangana in April. Former police chief Prakash Singh wrote in ThePrint that the insurgency was crushed but its ideology may survive.",
+        "record": "Armed Maoists were still active after the deadline: 42 surrendered in Telangana in April 2026 and eight were arrested in Gadchiroli in May (Deccan Herald).",
+        "summary": "In Raipur on 24 August 2024, Union Home Minister Amit Shah said the country would be free of Left Wing Extremism by 31 March 2026. On 30 March 2026 he told the Lok Sabha India could be called Naxal-free, saying 20 of 21 top CPI (Maoist) leaders had surrendered, been arrested or killed (Deccan Herald). Armed cadres were still active after the deadline: 42 Maoists surrendered in Telangana in April and eight were arrested in Gadchiroli in May. Shah said in May that Naxalism had been eradicated before the deadline; former police chief Prakash Singh wrote in ThePrint that the insurgency was crushed but its ideology may survive.",
         "promise_quote": "The country will be free from Left Wing Extremism (LWE) by March 2026",
         "promise_quote_source": "https://www.deccanherald.com/india/india-to-be-free-of-naxal-menace-by-2026-time-for-final-assault-amit-shah-3163220",
         "sources": [
@@ -3196,8 +3196,16 @@
           }
         ],
         "verified_on": "2026-09-27",
-        "verdict_locked": false
-      }
+        "verdict_locked": true
+      },
+      "status_history": [
+        {
+          "status": "broken",
+          "changed_at": "2026-09-27",
+          "by": "editor",
+          "note": "Deadline 31 March 2026. Armed Maoists were still surrendering and being arrested in April and May 2026, so the country was not free of LWE by the deadline; the government's claim that it was is shown."
+        }
+      ]
     },
     {
       "id": "p027",
