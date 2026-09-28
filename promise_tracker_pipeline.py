@@ -401,6 +401,39 @@ def save_to_review_queue(promise_or_item, proposed_json, reason, filepath='./rev
     except Exception as e:
         logging.error(f"Failed to write to review_promises.json: {e}")
 
+def extract_json_object(raw_text: str):
+    """
+    Robustly extract and parse a JSON object or list from LLM response text.
+    Handles markdown blocks (```json ... ```), conversational preambles, and trailing text.
+    """
+    if not raw_text:
+        return None
+    text = raw_text.strip()
+    if "```" in text:
+        first_tick = text.find("```")
+        newline_after = text.find("\n", first_tick)
+        end_tick = text.rfind("```")
+        if newline_after != -1 and end_tick > newline_after:
+            text = text[newline_after:end_tick].strip()
+
+    start_brace = text.find('{')
+    start_bracket = text.find('[')
+
+    if start_bracket != -1 and (start_brace == -1 or start_bracket < start_brace):
+        end_bracket = text.rfind(']')
+        if end_bracket > start_bracket:
+            data = json.loads(text[start_bracket:end_bracket+1])
+            if isinstance(data, list) and len(data) > 0 and isinstance(data[0], dict):
+                return data[0]
+            return data
+
+    if start_brace != -1:
+        end_brace = text.rfind('}')
+        if end_brace > start_brace:
+            return json.loads(text[start_brace:end_brace+1])
+
+    return json.loads(text)
+
 def normalize_text(text):
     if not text:
         return ""
@@ -764,14 +797,10 @@ Return ONLY JSON: {{"importance": "critical or minor", "reason": "one short sent
     try:
         output = llm_9b(prompt, max_tokens=150, temperature=0.0, stop=["<|im_end|>", "<|im_start|>", "<|object_metadata|>"])
         json_text = output['choices'][0]['text'].strip()
-        
-        # Clean any accidental markdown code wrappers
-        if json_text.startswith("```"):
-            lines = json_text.splitlines()
-            if lines[0].startswith("```json") or lines[0].startswith("```"):
-                json_text = "\n".join(lines[1:-1]).strip()
-                
-        data = json.loads(json_text)
+        data = extract_json_object(json_text)
+        if not isinstance(data, dict):
+            return "minor", "LLM output was not a valid dictionary."
+
         importance = data.get("importance", "minor").strip().lower()
         reason = data.get("reason", "No reason provided by LLM.").strip()
         
@@ -1062,14 +1091,7 @@ RAW Article Content: {content[:12000]}
     try:
         output = llm_9b(prompt, max_tokens=700, temperature=0.0, stop=["<|im_end|>", "<|im_start|>", "<|object_metadata|>"])
         json_text = output['choices'][0]['text'].strip()
-        
-        # Clean any accidental markdown code wrappers
-        if json_text.startswith("```"):
-            lines = json_text.splitlines()
-            if lines[0].startswith("```json") or lines[0].startswith("```"):
-                json_text = "\n".join(lines[1:-1]).strip()
-                
-        data = json.loads(json_text)
+        data = extract_json_object(json_text)
         if isinstance(data, list):
             if len(data) > 0 and isinstance(data[0], dict):
                 data = data[0]
@@ -1398,12 +1420,18 @@ def main():
     """, (args.batch_size,))
     rows = cursor.fetchall()
     
+    # Close read connection immediately so Turso/Hrana stream does not timeout during long LLM inference
+    try:
+        conn.close()
+    except Exception:
+        pass
+    conn = None
+    
     if not rows:
         logging.info("No new classified articles found to process.")
         if 'GITHUB_OUTPUT' in os.environ:
             with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                 f.write("has_more=false\n")
-        conn.close()
         sys.exit(0)
         
     logging.info(f"Retrieved {len(rows)} classified articles to evaluate.")
@@ -1459,7 +1487,6 @@ def main():
         llm_2b = init_llm(MODEL_2B_PATH, 2048)
         if not llm_2b:
             logging.critical("Failed to load local Gemma 2B engine. Exiting pipeline.")
-            conn.close()
             sys.exit(1)
 
         logging.info(f"Starting Stage 1 Noise Filtering for {len(pre_screened_rows)} pre-screened articles...")
@@ -1487,7 +1514,6 @@ def main():
         llm_9b = init_llm(MODEL_9B_PATH, 8192)
         if not llm_9b:
             logging.critical("Failed to load local Gemma 9B engine. Exiting pipeline.")
-            conn.close()
             sys.exit(1)
 
     # Process each filtered article through Stage 2 & 3
@@ -1868,18 +1894,39 @@ def main():
 
     # Mark articles as 'processed' — EXCEPT those deferred past the deadline,
     # which must stay visible to the next run.
+    # Open a FRESH connection here: the original read-connection was closed
+    # long ago to prevent Turso/Hrana "stream not found" timeouts during LLM inference.
     if not args.dry_run and rows:
-        try:
-            db_cursor = conn.cursor()
-            article_ids = [r[0] for r in rows if r[0] not in deferred_ids]
-            if article_ids:
-                placeholders = ",".join("?" for _ in article_ids)
-                db_cursor.execute(f"UPDATE articles SET status = 'processed' WHERE id IN ({placeholders})", article_ids)
-                conn.commit()
-            logging.info(f"Database updated: Marked {len(article_ids)} articles as processed ({len(deferred_ids)} deferred).")
-        except Exception as e:
-            logging.critical(f"Failed to update article status in database: {e}")
-            sys.exit(1)
+        article_ids = [r[0] for r in rows if r[0] not in deferred_ids]
+        if article_ids:
+            write_ok = False
+            last_write_err = None
+            for _attempt in range(3):
+                try:
+                    write_conn = get_db_connection()
+                    write_cursor = write_conn.cursor()
+                    placeholders = ",".join("?" for _ in article_ids)
+                    write_cursor.execute(f"UPDATE articles SET status = 'processed' WHERE id IN ({placeholders})", article_ids)
+                    write_conn.commit()
+                    write_conn.close()
+                    write_ok = True
+                    break
+                except Exception as e:
+                    last_write_err = e
+                    logging.warning(f"DB write attempt {_attempt + 1}/3 failed: {e}. Retrying in 5 s…")
+                    time.sleep(5)
+
+            if write_ok:
+                logging.info(f"Database updated: Marked {len(article_ids)} articles as processed ({len(deferred_ids)} deferred).")
+            else:
+                # promises.json is already saved — we must NOT abort the commit.
+                # The articles will be re-evaluated on the next run (idempotent).
+                logging.error(
+                    f"Failed to mark {len(article_ids)} articles as processed after 3 attempts: {last_write_err}. "
+                    "promises.json is already saved; git commit will proceed. Articles will be re-evaluated next run."
+                )
+        else:
+            logging.info(f"No articles to mark processed (all {len(deferred_ids)} deferred).")
 
     # Write has_more output for self-trigger loop in GitHub Actions
     has_more = "true" if (len(rows) == args.batch_size or deferred_ids) else "false"
@@ -1893,7 +1940,6 @@ def main():
     else:
         logging.info(f"Dry run complete. No modifications saved. (Discovered {new_promise_count} new, {updated_promise_count} updates).")
 
-    conn.close()
 
 if __name__ == "__main__":
     main()
