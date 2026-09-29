@@ -16734,7 +16734,7 @@
         "verification": "raw_source_verified"
       },
       "status": "ongoing",
-      "status_last_reviewed": "2026-09-28",
+      "status_last_reviewed": "2026-09-29",
       "status_history": [
         {
           "status": "ongoing",
@@ -16743,7 +16743,7 @@
         }
       ],
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "The article describes the launch of a new welfare scheme by the Tamil Nadu Chief Minister C. Joseph Vijay, which involves gifting gold rings to newborns in government hospitals.",
+      "qwen_reasoning": "The article confirms the progress of the scheme with the scheduled launch date and the announcement by Mr. Vijay.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-cm-vijay-launches-thaimaman-thanga-mothiram-thittam-at-madurai/article71518784.ece",
@@ -16763,6 +16763,25 @@
           "rephrased": "On September 28, 2026, **C. Joseph Vijay**, Chief Minister of Tamil Nadu, launched the Thaimaaman Thanga MothiramThittam at Government Rajaji Hospital in Madurai, gifting one-gram gold rings to newborns born in government hospitals on or after June 22. The scheme was inaugurated with presentations t...",
           "content": "Tamil Nadu Chief Minister C. Joseph Vijay on Monday (September 28, 2026) launched the Thaimaaman Thanga MothiramThittam (maternal uncle gold ring scheme) for babies born in government healthcare institutions across the State, at Government Rajaji Hospital (GRH) in Madurai. The scheme, one of the poll promises of the ruling Tamilaga Vettri Kazhagam (TVK), envisages gifting a one-gram gold ring to a...",
           "quote": "The scheme, one of the poll promises of the ruling Tamilaga Vettri Kazhagam (TVK), envisages gifting a one-gram gold ring to all newborn babies delivered in Tamil Nadu’s government hospitals on or after June 22 (Mr. Vijay’s birthday)."
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/explained-what-is-the-tamil-nadu-government-one-gram-gold-ring-scheme-of-thaimaman-thanga-mothiram/article71399218.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=What+is+the+Tamil+Nadu+government+s+one-gram+gold+ring+scheme+Explained",
+          "supporting_quote": "Mr. Vijay has announced the scheduled launch of this scheme.",
+          "title": "What is the Tamil Nadu government’s one-gram gold ring scheme? | Explained",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-29",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "progress",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On March 7, 2026, **C. Joseph Vijay**, president of Tamilaga Vettri Kazhagam (TVK), unveiled a scheme to provide gold rings to newborns in government hospitals during International Women’s Day celebrations in Mamallapuram. As Chief Minister, he announced the Thaimaaman Thanga Mothiram Thittam on Jun...",
+          "content": "The story so far: On March 7, 2026, ahead of the Assembly elections, Tamilaga Vettri Kazhagam (TVK) president C. Joseph Vijay had unveiled the party’s first set of poll promises aimed at women and youth during the International Women’s Day celebration organised by the party in Mamallapuram. Among the promises he made, if elected to power, was the rollout of the Thaimaaman Thanga Mothiram Thittam (...",
+          "quote": "Mr. Vijay has announced the scheduled launch of this scheme."
         }
       ],
       "notes": "The article describes the launch of a new welfare scheme by the Tamil Nadu Chief Minister C. Joseph Vijay, which involves gifting gold rings to newborns in government hospitals.",
@@ -16771,7 +16790,7 @@
       "created_at": "2026-09-28",
       "url_checked_at": "2026-09-28",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a one-time giveaway rather than a transformational commitment.",
