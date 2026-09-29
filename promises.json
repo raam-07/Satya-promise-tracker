@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-09-28",
+    "last_updated": "2026-09-29",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 193,
-    "promises_with_evidence": 193,
+    "total_promises": 194,
+    "promises_with_evidence": 194,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -16777,6 +16777,80 @@
       "importance_reason": "It is a one-time giveaway rather than a transformational commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-09-28"
+    },
+    {
+      "id": "p194",
+      "person": "Rajnath Singh",
+      "party": "BJP",
+      "role": "Defence Minister",
+      "promise": "India will be prepared to carry out strikes against terrorists",
+      "supporting_quote": "India will not compromise on its national security and will be prepared to carry out strikes against terrorists as long as a neighbouring country continues to \"propagate terrorism\",",
+      "category": "law_and_order",
+      "made_on": "2026-XX-XX",
+      "reported_on": "2026-09-27",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/ready-for-any-strikes-against-terrorists-rajnath-singhs-message-to-pak-at-ndtv-defence-summit-12104178#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/ready-for-any-strikes-against-terrorists-rajnath-singhs-message-to-pak-at-ndtv-defence-summit-12104178#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Ready+For+Any+Strikes+Against+Terrorists+Rajnath+Singh+s+Message+To+Pak+At+NDTV+Defence+Summit",
+      "source_description": "\"Ready For Any Strikes Against Terrorists\": Rajnath Singh's Message To Pak At NDTV Defence Summit",
+      "declaration": {
+        "person": "Rajnath Singh",
+        "claim": "India will be prepared to carry out strikes against terrorists",
+        "quote": "India will not compromise on its national security and will be prepared to carry out strikes against terrorists as long as a neighbouring country continues to \"propagate terrorism\",",
+        "source_url": "https://www.ndtv.com/india-news/ready-for-any-strikes-against-terrorists-rajnath-singhs-message-to-pak-at-ndtv-defence-summit-12104178#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-09-27",
+        "made_on": "2026-XX-XX",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-28",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-28",
+          "evidence_url": "https://www.ndtv.com/india-news/ready-for-any-strikes-against-terrorists-rajnath-singhs-message-to-pak-at-ndtv-defence-summit-12104178#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The statement is a clear commitment to national security measures against terrorism, which is a critical issue for the country.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/ready-for-any-strikes-against-terrorists-rajnath-singhs-message-to-pak-at-ndtv-defence-summit-12104178#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Ready+For+Any+Strikes+Against+Terrorists+Rajnath+Singh+s+Message+To+Pak+At+NDTV+Defence+Summit",
+          "supporting_quote": "India will not compromise on its national security and will be prepared to carry out strikes against terrorists as long as a neighbouring country continues to \"propagate terrorism\",",
+          "title": "\"Ready For Any Strikes Against Terrorists\": Rajnath Singh's Message To Pak At NDTV Defence Summit",
+          "source": "NDTV",
+          "scraped_at": "2026-09-27",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "At the NDTV Defence Summit 2026, **Rajnath Singh** stated that India will not compromise on national security and is prepared to strike terrorists as long as Pakistan continues to propagate terrorism. He warned against mistaking India's desire for peace as weakness after a 2025 attack in Pahalgam ki...",
+          "content": "India will not compromise on its national security and will be prepared to carry out strikes against terrorists as long as a neighbouring country continues to \"propagate terrorism\", Defence Minister Rajnath Singh said today. Speaking at the NDTV Defence Summit 2026, Singh said India wanted peace and did not seek war or the territory of another country, but warned that a desire for peace should not...",
+          "quote": "India will not compromise on its national security and will be prepared to carry out strikes against terrorists as long as a neighbouring country continues to \"propagate terrorism\","
+        }
+      ],
+      "notes": "The statement is a clear commitment to national security measures against terrorism, which is a critical issue for the country.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-28",
+      "created_at": "2026-09-28",
+      "url_checked_at": "2026-09-28",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a vague statement about security policy without a specific, large-scale commitment or impact.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-27"
     }
   ]
 }
