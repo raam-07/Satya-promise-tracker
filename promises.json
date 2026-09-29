@@ -4,8 +4,8 @@
     "last_updated": "2026-09-29",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 198,
-    "promises_with_evidence": 198,
+    "total_promises": 199,
+    "promises_with_evidence": 199,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -17166,6 +17166,79 @@
       "importance_reason": "The promise is vague and lacks specific scale or transformative detail.",
       "importance_source": "llm",
       "implied_deadline": "2029-09-29"
+    },
+    {
+      "id": "p199",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Free Punjab from the scourge of drugs within two years",
+      "supporting_quote": "In March this year, Mr. Shah, who sounded the party’s poll-bugle at the ‘Badlav rally’ in Moga, sought a chance to form the next government, promising that the BJP will free Punjab from the scourge of drugs within two years.",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-09-29",
+      "deadline": "2028",
+      "source_url": "https://www.thehindu.com/news/national/punjab/drug-menace-dominates-bjps-poll-campaign-in-punjab-as-it-cuts-across-caste-religion-age/article71524207.ece",
+      "url": "https://www.thehindu.com/news/national/punjab/drug-menace-dominates-bjps-poll-campaign-in-punjab-as-it-cuts-across-caste-religion-age/article71524207.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Drug+menace+dominates+BJP+s+poll+campaign+in+Punjab+as+it+cuts+across+caste+religion+age",
+      "source_description": "Drug menace dominates BJP’s poll campaign in Punjab as it cuts across caste, religion, age",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Free Punjab from the scourge of drugs within two years",
+        "quote": "In March this year, Mr. Shah, who sounded the party’s poll-bugle at the ‘Badlav rally’ in Moga, sought a chance to form the next government, promising that the BJP will free Punjab from the scourge of drugs within two years.",
+        "source_url": "https://www.thehindu.com/news/national/punjab/drug-menace-dominates-bjps-poll-campaign-in-punjab-as-it-cuts-across-caste-religion-age/article71524207.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-09-29",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-29",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-29",
+          "evidence_url": "https://www.thehindu.com/news/national/punjab/drug-menace-dominates-bjps-poll-campaign-in-punjab-as-it-cuts-across-caste-religion-age/article71524207.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a specific commitment made by Amit Shah to address the drug menace in Punjab within a two-year timeframe.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/punjab/drug-menace-dominates-bjps-poll-campaign-in-punjab-as-it-cuts-across-caste-religion-age/article71524207.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Drug+menace+dominates+BJP+s+poll+campaign+in+Punjab+as+it+cuts+across+caste+religion+age",
+          "supporting_quote": "In March this year, Mr. Shah, who sounded the party’s poll-bugle at the ‘Badlav rally’ in Moga, sought a chance to form the next government, promising that the BJP will free Punjab from the scourge of drugs within two years.",
+          "title": "Drug menace dominates BJP’s poll campaign in Punjab as it cuts across caste, religion, age",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-29",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "The drug menace in Punjab has been a central issue for over a decade, affecting all castes and religions. Ahead of the 2027 Assembly election, **Bharatiya Janata Party (BJP)** launched its ‘Nasha Mukt Punjab Yatras’ campaign on September 18, aiming to cover all 117 constituencies before culminating ...",
+          "content": "The drug menace in Punjab has stayed at the center stage of political and social attention over the past more than a decade and because it cuts across caste, religion and age, it appears to have become the key poll campaign focus for the Bharatiya Janata Party (BJP) in the run-up to the impending Assembly election. With an eye on the Assembly election, which is due in early 2027, the BJP is busy w...",
+          "quote": "In March this year, Mr. Shah, who sounded the party’s poll-bugle at the ‘Badlav rally’ in Moga, sought a chance to form the next government, promising that the BJP will free Punjab from the scourge of drugs within two years."
+        }
+      ],
+      "notes": "The promise is a specific commitment made by Amit Shah to address the drug menace in Punjab within a two-year timeframe.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-29",
+      "created_at": "2026-09-29",
+      "url_checked_at": "2026-09-29",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Aims to address a widespread and significant societal issue affecting a large population.",
+      "importance_source": "llm"
     }
   ]
 }
