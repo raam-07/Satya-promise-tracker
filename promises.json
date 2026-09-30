@@ -4,8 +4,8 @@
     "last_updated": "2026-09-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 205,
-    "promises_with_evidence": 205,
+    "total_promises": 206,
+    "promises_with_evidence": 206,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -17682,6 +17682,79 @@
       "importance_reason": "Creating a water plan, while important, is a process-oriented commitment rather than a transformational, immediate impact promise.",
       "importance_source": "llm",
       "implied_deadline": "2029-09-30"
+    },
+    {
+      "id": "p206",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Make Punjab drug-free by December 31, 2029",
+      "supporting_quote": "\"I promise the youth of Punjab that if you vote for the BJP, we will make Punjab drug-free before December 31, 2029,\" he said.",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-09-30",
+      "deadline": "2029",
+      "source_url": "https://www.ndtv.com/india-news/drug-free-punjab-by-2029-end-amit-shahs-big-promise-ahead-of-polls-12122391#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/drug-free-punjab-by-2029-end-amit-shahs-big-promise-ahead-of-polls-12122391#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Drug-Free+Punjab+By+2029-End+Amit+Shah+s+Big+Promise+Ahead+Of+Polls",
+      "source_description": "Drug-Free Punjab By 2029-End: Amit Shah's Big Promise Ahead Of Polls",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Make Punjab drug-free by December 31, 2029",
+        "quote": "\"I promise the youth of Punjab that if you vote for the BJP, we will make Punjab drug-free before December 31, 2029,\" he said.",
+        "source_url": "https://www.ndtv.com/india-news/drug-free-punjab-by-2029-end-amit-shahs-big-promise-ahead-of-polls-12122391#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-09-30",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-30",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-30",
+          "evidence_url": "https://www.ndtv.com/india-news/drug-free-punjab-by-2029-end-amit-shahs-big-promise-ahead-of-polls-12122391#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a clear, specific commitment made directly by Amit Shah, aimed at a significant societal issue in Punjab.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/drug-free-punjab-by-2029-end-amit-shahs-big-promise-ahead-of-polls-12122391#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Drug-Free+Punjab+By+2029-End+Amit+Shah+s+Big+Promise+Ahead+Of+Polls",
+          "supporting_quote": "\"I promise the youth of Punjab that if you vote for the BJP, we will make Punjab drug-free before December 31, 2029,\" he said.",
+          "title": "Drug-Free Punjab By 2029-End: Amit Shah's Big Promise Ahead Of Polls",
+          "source": "NDTV",
+          "scraped_at": "2026-09-30",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Union Home Minister Amit Shah** launched an attack on the **Aam Aadmi Party** government in Punjab during a rally in Jalandhar. He promised to make the state drug-free by December 31, 2029, if the **BJP** wins the 2027 assembly elections. **Shah** alleged **Bhagwant Mann** increased drug trade and...",
+          "content": "Union Home Minister Amit Shah launched a sharp attack on the Aam Aadmi Party government in Punjab on Wednesday, making drug menace the BJP's central political plank for the 2027 assembly elections and promising to make the state drug-free by the last day of 2029 if the party comes to power. Addressing a massive rally in Jalandhar as the BJP's \"Nasha Mukt Punjab Yatra\" ended, Shah directly appealed...",
+          "quote": "\"I promise the youth of Punjab that if you vote for the BJP, we will make Punjab drug-free before December 31, 2029,\" he said."
+        }
+      ],
+      "notes": "The promise is a clear, specific commitment made directly by Amit Shah, aimed at a significant societal issue in Punjab.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-30",
+      "created_at": "2026-09-30",
+      "url_checked_at": "2026-09-30",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Aims to address a widespread and significant issue affecting a large population across the state.",
+      "importance_source": "llm"
     }
   ]
 }
