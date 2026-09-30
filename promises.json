@@ -4,8 +4,8 @@
     "last_updated": "2026-09-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 199,
-    "promises_with_evidence": 199,
+    "total_promises": 200,
+    "promises_with_evidence": 200,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -17239,6 +17239,80 @@
       "importance": "critical",
       "importance_reason": "Aims to address a widespread and significant societal issue affecting a large population.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p200",
+      "person": "Omar Abdullah",
+      "party": "National Conference",
+      "role": "Chief Minister of Jammu and Kashmir",
+      "promise": "Call upon the Government of India for the immediate and urgent restoration of full Statehood to J&K",
+      "supporting_quote": "Mr. Abdullah argued the resolution was necessitated by the Centre’s inexplicable delay in granting the Statehood status to J&K, which was downgraded in 2019 after its autonomous status under Article 370 was scrapped by the Parliament under the rule of Prime Minister Narendra Modi.",
+      "category": "law_and_order",
+      "made_on": "2026-09-25",
+      "reported_on": "2026-09-30",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/how-omar-abdullahs-resolution-puts-autonomy-debate-on-centre-stage-again-explained/article71526697.ece",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/how-omar-abdullahs-resolution-puts-autonomy-debate-on-centre-stage-again-explained/article71526697.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=How+Omar+Abdullah+s+resolution+puts+autonomy+debate+on+centre+stage+again+Explained",
+      "source_description": "How Omar Abdullah’s resolution puts autonomy debate on centre stage again | Explained",
+      "declaration": {
+        "person": "Omar Abdullah",
+        "claim": "Call upon the Government of India for the immediate and urgent restoration of full Statehood to J&K",
+        "quote": "Mr. Abdullah argued the resolution was necessitated by the Centre’s inexplicable delay in granting the Statehood status to J&K, which was downgraded in 2019 after its autonomous status under Article 370 was scrapped by the Parliament under the rule of Prime Minister Narendra Modi.",
+        "source_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/how-omar-abdullahs-resolution-puts-autonomy-debate-on-centre-stage-again-explained/article71526697.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-09-30",
+        "made_on": "2026-09-25",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-09-30",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-09-30",
+          "evidence_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/how-omar-abdullahs-resolution-puts-autonomy-debate-on-centre-stage-again-explained/article71526697.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article details Omar Abdullah's resolution in the J&K Assembly calling for the restoration of full Statehood to J&K, which is a new and significant political promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/how-omar-abdullahs-resolution-puts-autonomy-debate-on-centre-stage-again-explained/article71526697.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=How+Omar+Abdullah+s+resolution+puts+autonomy+debate+on+centre+stage+again+Explained",
+          "supporting_quote": "Mr. Abdullah argued the resolution was necessitated by the Centre’s inexplicable delay in granting the Statehood status to J&K, which was downgraded in 2019 after its autonomous status under Article 370 was scrapped by the Parliament under the rule of Prime Minister Narendra Modi.",
+          "title": "How Omar Abdullah’s resolution puts autonomy debate on centre stage again | Explained",
+          "source": "The Hindu",
+          "scraped_at": "2026-09-30",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On September 28, **Omar Abdullah** brought and passed a resolution in the J&K Assembly calling for immediate restoration of full Statehood to J&K. The resolution was supported by 61 members from various parties but opposed by the BJP, which staged walkouts over its wording. BJP leader Sunil Sharma c...",
+          "content": "The Story So Far: J&K Chief Minister Omar Abdullah, on September 25, brought a resolution before the J&K Assembly autumn session. On September 28, the resolution was put to a vote and was passed. It called upon the Government of India for the “immediate and urgent restoration of full Statehood to J&K”. Mr. Abdullah argued the resolution was necessitated by the Centre’s inexplicable delay in granti...",
+          "quote": "Mr. Abdullah argued the resolution was necessitated by the Centre’s inexplicable delay in granting the Statehood status to J&K, which was downgraded in 2019 after its autonomous status under Article 370 was scrapped by the Parliament under the rule of Prime Minister Narendra Modi."
+        }
+      ],
+      "notes": "The article details Omar Abdullah's resolution in the J&K Assembly calling for the restoration of full Statehood to J&K, which is a new and significant political promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-09-30",
+      "created_at": "2026-09-30",
+      "url_checked_at": "2026-09-30",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Restoration of full statehood would have a significant national and regional impact.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-09-30"
     }
   ]
 }
