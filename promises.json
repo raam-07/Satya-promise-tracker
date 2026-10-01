@@ -4,8 +4,8 @@
     "last_updated": "2026-10-01",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 206,
-    "promises_with_evidence": 206,
+    "total_promises": 207,
+    "promises_with_evidence": 207,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -17755,6 +17755,80 @@
       "importance": "critical",
       "importance_reason": "Aims to address a widespread and significant issue affecting a large population across the state.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p207",
+      "person": "Nitin Gadkari",
+      "party": "BJP",
+      "role": "Union Minister",
+      "promise": "Facilitate diversification of agriculture towards energy and power sectors",
+      "supporting_quote": "We must understand that the decision to blend ethanol with petrol was taken with a view to diversification of agriculture towards energy and power sectors... Our farmers shall no longer remain 'anna data' (food producers) but also become 'urja data' (energy producers),",
+      "category": "farmers/agriculture",
+      "made_on": "2026-10-01",
+      "reported_on": "2026-10-01",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/business/ethanol-blending-a-step-towards-diversification-of-agricultural-sector-nitin-gadkari/article71532411.ece",
+      "url": "https://www.thehindu.com/business/ethanol-blending-a-step-towards-diversification-of-agricultural-sector-nitin-gadkari/article71532411.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Ethanol+blending+a+step+towards+diversification+of+agricultural+sector+Nitin+Gadkari",
+      "source_description": "Ethanol blending a step towards diversification of agricultural sector: Nitin Gadkari",
+      "declaration": {
+        "person": "Nitin Gadkari",
+        "claim": "Facilitate diversification of agriculture towards energy and power sectors",
+        "quote": "We must understand that the decision to blend ethanol with petrol was taken with a view to diversification of agriculture towards energy and power sectors... Our farmers shall no longer remain 'anna data' (food producers) but also become 'urja data' (energy producers),",
+        "source_url": "https://www.thehindu.com/business/ethanol-blending-a-step-towards-diversification-of-agricultural-sector-nitin-gadkari/article71532411.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-01",
+        "made_on": "2026-10-01",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-01",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-01",
+          "evidence_url": "https://www.thehindu.com/business/ethanol-blending-a-step-towards-diversification-of-agricultural-sector-nitin-gadkari/article71532411.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article presents a new promise by Nitin Gadkari to diversify agriculture towards energy and power sectors through ethanol blending.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/business/ethanol-blending-a-step-towards-diversification-of-agricultural-sector-nitin-gadkari/article71532411.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Ethanol+blending+a+step+towards+diversification+of+agricultural+sector+Nitin+Gadkari",
+          "supporting_quote": "We must understand that the decision to blend ethanol with petrol was taken with a view to diversification of agriculture towards energy and power sectors... Our farmers shall no longer remain 'anna data' (food producers) but also become 'urja data' (energy producers),",
+          "title": "Ethanol blending a step towards diversification of agricultural sector: Nitin Gadkari",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-01",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 1, 2026, Union Minister **Nitin Gadkari** addressed the **Bihar Investor Summit 2026**, debunking claims that ethanol-petrol blending damages vehicles. Since 2022, 4 crore four-wheelers and 20 crore two-wheelers have used this blend. **Gadkari** noted farmers in **Bihar** and **Uttar Prad...",
+          "content": "Union Minister Nitin Gadkari on Thursday (October 1, 2026) debunked claims that blending ethanol with petrol was damaging motor vehicles, asserting that it facilitated diversification of the agriculture sector. Addressing the inaugural session of the 'Bihar Investor Summit 2026: The Emerging Investment Destination of India', Mr. Gadkari said that since 2022, four crore four-wheelers and 20 crore t...",
+          "quote": "We must understand that the decision to blend ethanol with petrol was taken with a view to diversification of agriculture towards energy and power sectors... Our farmers shall no longer remain 'anna data' (food producers) but also become 'urja data' (energy producers),"
+        }
+      ],
+      "notes": "The article presents a new promise by Nitin Gadkari to diversify agriculture towards energy and power sectors through ethanol blending.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-01",
+      "created_at": "2026-10-01",
+      "url_checked_at": "2026-10-01",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "The promise is a general policy direction rather than a specific, large-scale commitment with clear national impact.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-01"
     }
   ]
 }
