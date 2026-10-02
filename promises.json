@@ -4,8 +4,8 @@
     "last_updated": "2026-10-02",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 208,
-    "promises_with_evidence": 208,
+    "total_promises": 209,
+    "promises_with_evidence": 209,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -17903,6 +17903,80 @@
       "importance_reason": "It is a welfare law that, while important, does not have the scale or transformative impact to be considered critical.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-01"
+    },
+    {
+      "id": "p209",
+      "person": "Priyank Kharge",
+      "party": "Congress",
+      "role": "Politician",
+      "promise": "Develop a sustainable data centre policy",
+      "supporting_quote": "In March 2026, acknowledging the environmental costs of data centres, IT&BT Minister Priyank Kharge termed data centres a “necessary evil” and announced plans to develop a sustainable data centre policy.",
+      "category": "infrastructure",
+      "made_on": "2026-03-00",
+      "reported_on": "2026-10-02",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/karnatakas-drive-to-green-data-centres/article71531272.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/karnatakas-drive-to-green-data-centres/article71531272.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Karnataka+s+drive+to+green+data+centres",
+      "source_description": "Karnataka’s drive to green data centres",
+      "declaration": {
+        "person": "Priyank Kharge",
+        "claim": "Develop a sustainable data centre policy",
+        "quote": "In March 2026, acknowledging the environmental costs of data centres, IT&BT Minister Priyank Kharge termed data centres a “necessary evil” and announced plans to develop a sustainable data centre policy.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/karnatakas-drive-to-green-data-centres/article71531272.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-02",
+        "made_on": "2026-03-00",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-02",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-02",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/karnatakas-drive-to-green-data-centres/article71531272.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions Priyank Kharge's announcement of plans to develop a sustainable data centre policy in March 2026.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/karnatakas-drive-to-green-data-centres/article71531272.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Karnataka+s+drive+to+green+data+centres",
+          "supporting_quote": "In March 2026, acknowledging the environmental costs of data centres, IT&BT Minister Priyank Kharge termed data centres a “necessary evil” and announced plans to develop a sustainable data centre policy.",
+          "title": "Karnataka’s drive to green data centres",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-02",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "The **Karnataka** government approved the Sustainable Data Centre Policy 2026–2031 to reach a 1GW capacity by 2031. The policy offers incentives, including ₹20 crore for low PUE and water charge reimbursements up to ₹30 lakh annually for efficient WUE. While **Priyank Kharge** and **N. Manjula** hig...",
+          "content": "For four-year-old Johan Arun, who lives in Electronics City, the most recognisable vehicle is a water tanker. Every day, as the vehicle pulls up, Johan alerts the family by announcing the arrival of “tank water”, says his mother. The apartment, where Johan and his family live, is yet to receive Cauvery water connection, like many others in the area. Tankers running up and down the roads is a famil...",
+          "quote": "In March 2026, acknowledging the environmental costs of data centres, IT&BT Minister Priyank Kharge termed data centres a “necessary evil” and announced plans to develop a sustainable data centre policy."
+        }
+      ],
+      "notes": "The article mentions Priyank Kharge's announcement of plans to develop a sustainable data centre policy in March 2026.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-02",
+      "created_at": "2026-10-02",
+      "url_checked_at": "2026-10-02",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Developing a data centre policy, while important, does not have a direct, large-scale impact on the everyday lives of the majority of citizens.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-02"
     }
   ]
 }
