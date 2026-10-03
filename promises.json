@@ -4,8 +4,8 @@
     "last_updated": "2026-10-03",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 218,
-    "promises_with_evidence": 218,
+    "total_promises": 219,
+    "promises_with_evidence": 219,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -18639,6 +18639,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Improving roads is a routine governance task, not a transformational commitment affecting the entire state or nation.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p219",
+      "person": "V.D. Satheesan",
+      "party": "INC",
+      "role": "Chief Minister of Kerala",
+      "promise": "Work on the proposed Institute of Organ and Tissue Transplantation in Kozhikode will be completed in 30 months",
+      "supporting_quote": "Chief Minister V.D. Satheesan has said that work on the proposed Institute of Organ and Tissue Transplantation in Kozhikode will be completed in 30 months.",
+      "category": "health",
+      "made_on": "2026-10-03",
+      "reported_on": "2026-10-03",
+      "deadline": "2028",
+      "source_url": "https://www.thehindu.com/news/national/kerala/work-on-organ-transplant-institute-in-kozhikode-to-be-completed-in-30-months-says-satheesan/article71540750.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/work-on-organ-transplant-institute-in-kozhikode-to-be-completed-in-30-months-says-satheesan/article71540750.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Work+on+organ+transplant+institute+in+Kozhikode+to+be+completed+in+30+months+says+Satheesan",
+      "source_description": "Work on organ transplant institute in Kozhikode to be completed in 30 months, says Satheesan",
+      "declaration": {
+        "person": "V.D. Satheesan",
+        "claim": "Work on the proposed Institute of Organ and Tissue Transplantation in Kozhikode will be completed in 30 months",
+        "quote": "Chief Minister V.D. Satheesan has said that work on the proposed Institute of Organ and Tissue Transplantation in Kozhikode will be completed in 30 months.",
+        "source_url": "https://www.thehindu.com/news/national/kerala/work-on-organ-transplant-institute-in-kozhikode-to-be-completed-in-30-months-says-satheesan/article71540750.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-03",
+        "made_on": "2026-10-03",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-03",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-03",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/work-on-organ-transplant-institute-in-kozhikode-to-be-completed-in-30-months-says-satheesan/article71540750.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new commitment by V.D. Satheesan to complete the construction of the Institute of Organ and Tissue Transplantation within 30 months.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/work-on-organ-transplant-institute-in-kozhikode-to-be-completed-in-30-months-says-satheesan/article71540750.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Work+on+organ+transplant+institute+in+Kozhikode+to+be+completed+in+30+months+says+Satheesan",
+          "supporting_quote": "Chief Minister V.D. Satheesan has said that work on the proposed Institute of Organ and Tissue Transplantation in Kozhikode will be completed in 30 months.",
+          "title": "Work on organ transplant institute in Kozhikode to be completed in 30 months, says Satheesan",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-03",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**V.D. Satheesan** announced that the **Institute of Organ and Tissue Transplantation** in Kozhikode will be completed in 30 months on a 20-acre plot in Chevayur. The ₹271 crore project includes 350 beds, 10 operation theatres, and a ₹35 crore dermatology hospital. **Pinarayi Vijayan** laid the foun...",
+          "content": "Chief Minister V.D. Satheesan has said that work on the proposed Institute of Organ and Tissue Transplantation in Kozhikode will be completed in 30 months. He was delivering a speech after opening the silver jubilee celebrations of the Kerala Heart Care Society here on Saturday (October 3). Mr. Satheesan said that ₹271 crore was being set aside for the institute coming up on a 20-acre plot in Chev...",
+          "quote": "Chief Minister V.D. Satheesan has said that work on the proposed Institute of Organ and Tissue Transplantation in Kozhikode will be completed in 30 months."
+        }
+      ],
+      "notes": "The article reports a new commitment by V.D. Satheesan to complete the construction of the Institute of Organ and Tissue Transplantation within 30 months.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-03",
+      "created_at": "2026-10-03",
+      "url_checked_at": "2026-10-03",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It refers to the completion of a single project, which is a routine governance activity.",
       "importance_source": "llm"
     }
   ]
