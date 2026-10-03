@@ -4,8 +4,8 @@
     "last_updated": "2026-10-03",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 215,
-    "promises_with_evidence": 215,
+    "total_promises": 216,
+    "promises_with_evidence": 216,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -18421,6 +18421,79 @@
       "importance_reason": "It is a specific project aimed at addressing a local health issue rather than a nationwide transformational commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-02"
+    },
+    {
+      "id": "p216",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Cases from FIR to Supreme Court will be disposed of within three years after full implementation of BNS",
+      "supporting_quote": "I have come especially to tell (the people and) the youth that after about one and a half years, once the (new criminal law) is fully implemented, any case, from the filing of an FIR to the Supreme Court, will be disposed of within three years",
+      "category": "law_and_order",
+      "made_on": "2026-10-03",
+      "reported_on": "2026-10-03",
+      "deadline": "2028",
+      "source_url": "https://www.thehindu.com/news/national/madhya-pradesh/after-full-implementation-of-bns-cases-from-fir-to-supreme-court-will-be-disposed-of-in-3-years-shah/article71540332.ece",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/after-full-implementation-of-bns-cases-from-fir-to-supreme-court-will-be-disposed-of-in-3-years-shah/article71540332.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=After+full+implementation+of+BNS+cases+from+FIR+to+Supreme+Court+will+be+disposed+of+in+3+years+Shah",
+      "source_description": "After full implementation of BNS, cases from FIR to Supreme Court will be disposed of in 3 years: Shah",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Cases from FIR to Supreme Court will be disposed of within three years after full implementation of BNS",
+        "quote": "I have come especially to tell (the people and) the youth that after about one and a half years, once the (new criminal law) is fully implemented, any case, from the filing of an FIR to the Supreme Court, will be disposed of within three years",
+        "source_url": "https://www.thehindu.com/news/national/madhya-pradesh/after-full-implementation-of-bns-cases-from-fir-to-supreme-court-will-be-disposed-of-in-3-years-shah/article71540332.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-03",
+        "made_on": "2026-10-03",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-03",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-03",
+          "evidence_url": "https://www.thehindu.com/news/national/madhya-pradesh/after-full-implementation-of-bns-cases-from-fir-to-supreme-court-will-be-disposed-of-in-3-years-shah/article71540332.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is a specific timeframe commitment made by Amit Shah regarding the disposal of cases under the new criminal law.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/madhya-pradesh/after-full-implementation-of-bns-cases-from-fir-to-supreme-court-will-be-disposed-of-in-3-years-shah/article71540332.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=After+full+implementation+of+BNS+cases+from+FIR+to+Supreme+Court+will+be+disposed+of+in+3+years+Shah",
+          "supporting_quote": "I have come especially to tell (the people and) the youth that after about one and a half years, once the (new criminal law) is fully implemented, any case, from the filing of an FIR to the Supreme Court, will be disposed of within three years",
+          "title": "After full implementation of BNS, cases from FIR to Supreme Court will be disposed of in 3 years: Shah",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-03",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Union Minister **Amit Shah** stated on October 3, 2026, in **Bhopal** that the **Bharatiya Nyaya Sanhita (BNS)** will ensure cases are disposed of within three years after full implementation. He inaugurated a BNS exhibition and a cattle rearers conference, noting milk production rose from 14.7 cror...",
+          "content": "Union Minister Amit Shah on Saturday (October 3, 2026) said that after the full implementation of the Bharatiya Nyaya Sanhita (BNS), cases from the FIR stage to the Supreme Court will be disposed of within three years. He was addressing the State-level conference of cattle rearers in Bhopal after inaugurating an exhibition on the new criminal law. “Today, two events have just taken place in Bhopal...",
+          "quote": "I have come especially to tell (the people and) the youth that after about one and a half years, once the (new criminal law) is fully implemented, any case, from the filing of an FIR to the Supreme Court, will be disposed of within three years"
+        }
+      ],
+      "notes": "The promise is a specific timeframe commitment made by Amit Shah regarding the disposal of cases under the new criminal law.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-03",
+      "created_at": "2026-10-03",
+      "url_checked_at": "2026-10-03",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a procedural improvement rather than a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
     }
   ]
 }
