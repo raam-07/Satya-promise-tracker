@@ -1,0 +1,138 @@
+name: Satya Promise Link Checker
+
+on:
+#  schedule:
+#    # Weekly, Sunday 03:00 UTC
+#    - cron: '0 3 * * 0'
+  workflow_dispatch:
+    inputs:
+      archive_live:
+        description: 'Also save live URLs to the Wayback Machine (slow, throttled)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: satya-link-checker
+  cancel-in-progress: false
+
+env:
+  CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+  PYTHONPATH: ${{ github.workspace }}/.ci
+
+jobs:
+  check_links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+      actions: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}-core
+          token: ${{ secrets.CORE_TOKEN }}
+          ref: main
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Link Checker
+        env:
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: |
+          PROXY_ARG=""
+          if [ -n "$PROXY_URL" ]; then
+            PROXY_ARG="--proxy $PROXY_URL"
+          fi
+          python link_checker.py $PROXY_ARG
+
+      - name: Guard — block accidental promise deletions
+        run: |
+          python - << 'PYEOF'
+          import json, subprocess, sys
+          try:
+              old_raw = subprocess.check_output(['git', 'show', 'HEAD:promises.json'])
+              old_ids = {p['id'] for p in json.loads(old_raw)['promises']}
+          except Exception:
+              sys.exit(0)
+          new_ids = {p['id'] for p in json.load(open('promises.json'))['promises']}
+          removed = old_ids - new_ids
+          if removed:
+              print(f'BLOCKED: link checker would delete {len(removed)} promises')
+              subprocess.check_call(['git', 'checkout', 'HEAD', '--', 'promises.json'])
+              sys.exit(1)
+          print('Deletion guard passed.')
+          PYEOF
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "satya-bot@github.com"
+          git config --local user.name "Satya Bot"
+          git add promises.json
+          git diff --staged --quiet || (git commit -m "Link check: update url_status/archived_url [skip ci]" && git pull --rebase origin main && git push origin HEAD:main)
+
+      # The site reads promises.json from this repo.
+      - name: Publish promises.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          [ -f promises.json ] || exit 0
+          rm -rf /tmp/pub && git clone -q --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" /tmp/pub
+          cp promises.json /tmp/pub/promises.json && cd /tmp/pub && git add promises.json
+          if git diff --staged --quiet; then echo "promises.json unchanged"; exit 0; fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "Update promises.json [skip ci]"
+          for i in 1 2 3; do git push -q origin HEAD:main && echo "published" && exit 0; sleep 3; git pull -q --rebase origin main; done
+          echo "::warning::could not publish promises.json"
+
+      - name: Trigger next run if unarchived URLs remain
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RESULT=$(python - << 'PYEOF'
+          import json, sys
+          try:
+              data = json.load(open('promises.json', encoding='utf-8'))
+          except Exception as e:
+              print(f"Error: {e}")
+              sys.exit(1)
+          
+          promises = data.get('promises', [])
+          unarchived = sum(1 for p in promises if p.get('url') and p.get('url_status') == 'ok' and not p.get('archived_url')) + \
+                       sum(1 for p in promises for e in p.get('evidence_articles', []) if e.get('url') and e.get('url_status') == 'ok' and not e.get('archived_url'))
+          
+          saved_now = data.get('metadata', {}).get('link_check_stats', {}).get('saved_now', 0)
+          
+          if unarchived > 0:
+              if saved_now > 0:
+                  print("TRIGGER")
+              else:
+                  print("STOP_FAIL")
+          else:
+              print("STOP_DONE")
+          PYEOF
+          )
+          
+          echo "Loop check result: $RESULT"
+          if [ "$RESULT" = "TRIGGER" ]; then
+            echo "Triggering next run of Satya Promise Link Checker..."
+            curl -X POST \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/${{ github.repository }}/actions/workflows/link_checker.yml/dispatches \
+              -d '{"ref":"${{ github.ref_name }}"}'
+          elif [ "$RESULT" = "STOP_FAIL" ]; then
+            echo "Remaining unarchived URLs exist, but 0 were successfully archived in this run."
+            echo "Stopping to prevent infinite loop. Please check Wayback Machine rate limits or credentials."
+          else
+            echo "All eligible URLs successfully archived!"
+          fi
+
