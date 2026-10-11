@@ -20515,7 +20515,7 @@
         "verification": "raw_source_verified"
       },
       "status": "ongoing",
-      "status_last_reviewed": "2026-10-09",
+      "status_last_reviewed": "2026-10-11",
       "status_history": [
         {
           "status": "ongoing",
@@ -20524,7 +20524,7 @@
         }
       ],
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "The article directly quotes N. Chandrababu Naidu making a commitment to allocate 34% of seats to BCs in the upcoming local body elections.",
+      "qwen_reasoning": "The article reports a new declaration by N. Chandrababu Naidu regarding reservations for BCs in local body elections, which is a significant welfare promise.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/andhra-pradesh/tdp-will-earmark-34-seats-to-bcs-in-local-body-elections-says-naidu/article71564751.ece",
@@ -20544,6 +20544,25 @@
           "rephrased": "**Andhra Pradesh Chief Minister N. Chandrababu Naidu** announced the **TDP** will provide 34% of seats to **Backward Classes (BCs)** in upcoming local body elections during a Friday programme at **Narsingolu village**. **Naidu** alleged **YSRCP** reduced BC reservations from 34% to 24% and is seekin...",
           "content": "The TDP will give 34% of the seats to the Backward Classes (BCs) in the upcoming local body elections, says Andhra Pradesh Chief Minister N. Chandrababu Naidu. Addressing the gathering during the ‘Mee Bhoomi – Mee Hakku’ programme, at Narsingolu village of Kondapi constituency in Praksasam district on Friday, Mr. Naidu termed the BCs as the backbone of the TDP. Reacting to the Supreme Court’s verd...",
           "quote": "The TDP will give 34% of the seats to the Backward Classes (BCs) in the upcoming local body elections, says Andhra Pradesh Chief Minister N. Chandrababu Naidu."
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/tdp-will-give-up-to-40-reservations-for-bcs-in-local-body-elections-says-chandrababu-naidu/article71571376.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=TDP+will+give+up+to+40+reservations+for+BCs+in+local+body+elections+says+Chandrababu+Naidu",
+          "supporting_quote": "Andhra Pradesh Chief Minister and TDP national president N. Chandrababu Naidu has said his party will give up to 40% seats to the Backward Classes (BCs) in the upcoming local body elections, and the results will be considered as the yardstick for the performance of the party leaders.",
+          "title": "TDP will give up to 40% reservations for BCs in local body elections, says Chandrababu Naidu",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**N. Chandrababu Naidu**, **TDP** national president, announced the party will give up to 40% seats to Backward Classes in upcoming local body elections. During a Sunday virtual meeting with **TDP**, **Jana Sena Party**, and **BJP** allies, he criticized **YSRCP** for reducing reservations from 34% ...",
+          "content": "Andhra Pradesh Chief Minister and TDP national president N. Chandrababu Naidu has said his party will give up to 40% seats to the Backward Classes (BCs) in the upcoming local body elections, and the results will be considered as the yardstick for the performance of the party leaders. In a virtual meeting with senior TDP leaders ahead of the local body elections on Sunday, Mr. Naidu said the YSR Co...",
+          "quote": "Andhra Pradesh Chief Minister and TDP national president N. Chandrababu Naidu has said his party will give up to 40% seats to the Backward Classes (BCs) in the upcoming local body elections, and the results will be considered as the yardstick for the performance of the party leaders."
         }
       ],
       "notes": "The article directly quotes N. Chandrababu Naidu making a commitment to allocate 34% of seats to BCs in the upcoming local body elections.",
@@ -20552,7 +20571,7 @@
       "created_at": "2026-10-09",
       "url_checked_at": "2026-10-09",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Affects a large population by significantly altering representation in local body elections.",
