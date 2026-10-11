@@ -4,8 +4,8 @@
     "last_updated": "2026-10-11",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 246,
-    "promises_with_evidence": 246,
+    "total_promises": 247,
+    "promises_with_evidence": 247,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20780,6 +20780,79 @@
       "importance_reason": "It is a routine educational program, not a transformational commitment affecting the entire nation or a large population.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-09"
+    },
+    {
+      "id": "p247",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "Inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai",
+      "supporting_quote": "In a post on X, Mr. Modi said he would inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai on Sunday (October 11, 2026).",
+      "category": "infrastructure",
+      "made_on": "2026-10-11",
+      "reported_on": "2026-10-11",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/cities/chennai/chennai-metro-phase-two-inauguration-poonamallee-vadapalani-narendra-modi-visit-schedule-cm-vijay-meeting-live-updates/article71570613.ece",
+      "url": "https://www.thehindu.com/news/cities/chennai/chennai-metro-phase-two-inauguration-poonamallee-vadapalani-narendra-modi-visit-schedule-cm-vijay-meeting-live-updates/article71570613.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=PM+Modi+in+Chennai+LIVE+Inauguration+of+Chennai+Metro+Phase+II+stretch",
+      "source_description": "PM Modi in Chennai LIVE | Inauguration of Chennai Metro Phase II stretch",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "Inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai",
+        "quote": "In a post on X, Mr. Modi said he would inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai on Sunday (October 11, 2026).",
+        "source_url": "https://www.thehindu.com/news/cities/chennai/chennai-metro-phase-two-inauguration-poonamallee-vadapalani-narendra-modi-visit-schedule-cm-vijay-meeting-live-updates/article71570613.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-11",
+        "made_on": "2026-10-11",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-11",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-11",
+          "evidence_url": "https://www.thehindu.com/news/cities/chennai/chennai-metro-phase-two-inauguration-poonamallee-vadapalani-narendra-modi-visit-schedule-cm-vijay-meeting-live-updates/article71570613.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a declaration by PM Modi to inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/chennai/chennai-metro-phase-two-inauguration-poonamallee-vadapalani-narendra-modi-visit-schedule-cm-vijay-meeting-live-updates/article71570613.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=PM+Modi+in+Chennai+LIVE+Inauguration+of+Chennai+Metro+Phase+II+stretch",
+          "supporting_quote": "In a post on X, Mr. Modi said he would inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai on Sunday (October 11, 2026).",
+          "title": "PM Modi in Chennai LIVE | Inauguration of Chennai Metro Phase II stretch",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Sunday, October 11, 2026, Prime Minister **Narendra Modi** and Chief Minister **C. Joseph Vijay** inaugurated the **Chennai Metro Rail Limited** Phase II Poonamallee-Vadapalani stretch. **Modi** also launched projects worth over ₹13,000 crore across various sectors, including ₹3,700 crore in high...",
+          "content": "PM Modi in Chennai LIVE | Inauguration of Chennai Metro Phase II stretch The Greater Chennai Traffic Police have announced traffic diversions for commercial and heavy vehicles at several locations in the city on Sunday (October 11, 2026) in view of Prime Minister’s visit to Chennai. Metro Rail Work in Progress at Phase-2 Corridor-5 ECV--2 Mount- Poonamalle Road. | Photo Credit: B. Velankanni Raj A...",
+          "quote": "In a post on X, Mr. Modi said he would inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai on Sunday (October 11, 2026)."
+        }
+      ],
+      "notes": "The article mentions a declaration by PM Modi to inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-11",
+      "created_at": "2026-10-11",
+      "url_checked_at": "2026-10-11",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It involves a specific set of projects in one city, not a nationwide transformational commitment.",
+      "importance_source": "llm"
     }
   ]
 }
