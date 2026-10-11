@@ -20839,7 +20839,7 @@
         }
       ],
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "The article mentions a declaration by PM Modi to inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai.",
+      "qwen_reasoning": "The article provides evidence that PM Modi is continuing with the promise of inaugurating and laying the foundation stones for development projects worth over ₹13,000 crore in Chennai.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/cities/chennai/chennai-metro-phase-two-inauguration-poonamallee-vadapalani-narendra-modi-visit-schedule-cm-vijay-meeting-live-updates/article71570613.ece",
@@ -20859,6 +20859,25 @@
           "rephrased": "On Sunday, October 11, 2026, Prime Minister **Narendra Modi** and Chief Minister **C. Joseph Vijay** inaugurated the **Chennai Metro Rail Limited** Phase II Poonamallee-Vadapalani stretch. **Modi** also launched projects worth over ₹13,000 crore across various sectors, including ₹3,700 crore in high...",
           "content": "PM Modi in Chennai LIVE | Inauguration of Chennai Metro Phase II stretch The Greater Chennai Traffic Police have announced traffic diversions for commercial and heavy vehicles at several locations in the city on Sunday (October 11, 2026) in view of Prime Minister’s visit to Chennai. Metro Rail Work in Progress at Phase-2 Corridor-5 ECV--2 Mount- Poonamalle Road. | Photo Credit: B. Velankanni Raj A...",
           "quote": "In a post on X, Mr. Modi said he would inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai on Sunday (October 11, 2026)."
+        },
+        {
+          "url": "https://www.ndtv.com/india-news/governments-may-change-but-my-resolve-for-tamil-nadus-development-firm-pm-modi-in-chennai-12169731#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Governments+May+Change+But+My+Resolve+For+Tamil+Nadu+s+Development+Firm+PM+Modi+In+Chennai",
+          "supporting_quote": "\"Today's programme involves projects worth Rs 13,000 crore,\" PM Modi said. \"We are inaugurating many completed projects and laying foundations for new ones. Some will make daily travel easier. Others will strengthen industry and trade. Together, they will create jobs for young people across Tamil Nadu,\" he said.",
+          "title": "Governments May Change But My Resolve For Tamil Nadu's Development Firm: PM Modi In Chennai",
+          "source": "NDTV",
+          "scraped_at": "2026-10-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "progress",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Narendra Modi** visited **Chennai** to inaugurate projects worth Rs 13,000 crore, including the **Chennai metro rail phase II**, alongside Chief Minister **Vijay**. **Modi** stated he will work with **Vijay**, who leads a coalition and is part of the **INDIA** bloc, to ensure development. The visi...",
+          "content": "Prime Minister Narendra Modi assured today that he would word with Tamil Nadu Chief Minister Vijay to ensure that the state stays on the path of development and achieves further progress. In Chennai to inaugurate several projects, including the Chennai metro rail phase II, PM Modi pointed out that he has worked with several Chief Ministers of the state, cutting across party lines - including Jayal...",
+          "quote": "\"Today's programme involves projects worth Rs 13,000 crore,\" PM Modi said. \"We are inaugurating many completed projects and laying foundations for new ones. Some will make daily travel easier. Others will strengthen industry and trade. Together, they will create jobs for young people across Tamil Nadu,\" he said."
         }
       ],
       "notes": "The article mentions a declaration by PM Modi to inaugurate and lay the foundation stones for development projects worth over ₹13,000 crore in Chennai.",
@@ -20867,7 +20886,7 @@
       "created_at": "2026-10-11",
       "url_checked_at": "2026-10-11",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It involves a specific set of projects in one city, not a nationwide transformational commitment.",
