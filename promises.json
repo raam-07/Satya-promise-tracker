@@ -4,8 +4,8 @@
     "last_updated": "2026-10-12",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 247,
-    "promises_with_evidence": 247,
+    "total_promises": 248,
+    "promises_with_evidence": 248,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20891,6 +20891,80 @@
       "importance": "minor",
       "importance_reason": "It involves a specific set of projects in one city, not a nationwide transformational commitment.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p248",
+      "person": "Mohan Charan Majhi",
+      "party": "BJP",
+      "role": "Chief Minister of Odisha",
+      "promise": "Defend and support the Special Intensive Revision (SIR) exercise for electoral rolls",
+      "supporting_quote": "“The credibility of a democracy rests on free and fair elections and the protection of every eligible citizen’s right to vote. Clean and accurate electoral rolls are fundamental to this trust. Duplicate entries, outdated records and the names of deceased persons remaining on voter lists can compromise their accuracy,” Mr. Majhi wrote on ‘X’.",
+      "category": "law_and_order",
+      "made_on": "2026-10-12",
+      "reported_on": "2026-10-12",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/odisha/odisha-cm-backs-sir-exercise-says-it-is-necessary-for-free-and-fair-elections/article71573944.ece",
+      "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-backs-sir-exercise-says-it-is-necessary-for-free-and-fair-elections/article71573944.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Odisha+CM+backs+SIR+exercise+says+it+is+necessary+for+free+and+fair+elections",
+      "source_description": "Odisha CM backs SIR exercise, says it is necessary for free and fair elections",
+      "declaration": {
+        "person": "Mohan Charan Majhi",
+        "claim": "Defend and support the Special Intensive Revision (SIR) exercise for electoral rolls",
+        "quote": "“The credibility of a democracy rests on free and fair elections and the protection of every eligible citizen’s right to vote. Clean and accurate electoral rolls are fundamental to this trust. Duplicate entries, outdated records and the names of deceased persons remaining on voter lists can compromise their accuracy,” Mr. Majhi wrote on ‘X’.",
+        "source_url": "https://www.thehindu.com/news/national/odisha/odisha-cm-backs-sir-exercise-says-it-is-necessary-for-free-and-fair-elections/article71573944.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-12",
+        "made_on": "2026-10-12",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-12",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-12",
+          "evidence_url": "https://www.thehindu.com/news/national/odisha/odisha-cm-backs-sir-exercise-says-it-is-necessary-for-free-and-fair-elections/article71573944.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The CM of Odisha personally defended the SIR exercise, emphasizing its importance for electoral integrity.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-backs-sir-exercise-says-it-is-necessary-for-free-and-fair-elections/article71573944.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Odisha+CM+backs+SIR+exercise+says+it+is+necessary+for+free+and+fair+elections",
+          "supporting_quote": "“The credibility of a democracy rests on free and fair elections and the protection of every eligible citizen’s right to vote. Clean and accurate electoral rolls are fundamental to this trust. Duplicate entries, outdated records and the names of deceased persons remaining on voter lists can compromise their accuracy,” Mr. Majhi wrote on ‘X’.",
+          "title": "Odisha CM backs SIR exercise, says it is necessary for free and fair elections",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-12",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On **Monday (October 12, 2026)**, **Odisha** Chief Minister **Mohan Charan Majhi** defended the Special Intensive Revision (SIR) on **X** amidst national capital protests over alleged name exclusions. He stated the SIR is a necessary exercise to uphold electoral integrity by removing duplicate entri...",
+          "content": "At a time when the national capital is witnessing protests over the alleged exclusion of names from electoral rolls following the Special Intensive Revision (SIR), Odisha Chief Minister Mohan Charan Majhi on Monday (October 12, 2026) defended the exercise, describing it as necessary and constructive to uphold the integrity of the electoral system. “The credibility of a democracy rests on free and ...",
+          "quote": "“The credibility of a democracy rests on free and fair elections and the protection of every eligible citizen’s right to vote. Clean and accurate electoral rolls are fundamental to this trust. Duplicate entries, outdated records and the names of deceased persons remaining on voter lists can compromise their accuracy,” Mr. Majhi wrote on ‘X’."
+        }
+      ],
+      "notes": "The CM of Odisha personally defended the SIR exercise, emphasizing its importance for electoral integrity.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-12",
+      "created_at": "2026-10-12",
+      "url_checked_at": "2026-10-12",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine administrative action related to electoral rolls.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-12"
     }
   ]
 }
