@@ -4,8 +4,8 @@
     "last_updated": "2026-10-13",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 251,
-    "promises_with_evidence": 251,
+    "total_promises": 252,
+    "promises_with_evidence": 252,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21187,6 +21187,80 @@
       "importance_reason": "It is a one-time financial aid to a specific group of people affected by a particular event.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-12"
+    },
+    {
+      "id": "p252",
+      "person": "Nirmala Sitharaman",
+      "party": "BJP",
+      "role": "Finance Minister",
+      "promise": "RBI will continue its efforts to prevent excessive volatility in the rupee",
+      "supporting_quote": "I am sure there are efforts which the RBI would take further to make sure that rupee doesn't become too volatile",
+      "category": "economy",
+      "made_on": "2026-10-13",
+      "reported_on": "2026-10-13",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/business/Economy/rbi-to-continue-efforts-to-curb-rupee-volatility-external-factors-driving-currency-fall-nirmala-sitharaman/article71579023.ece",
+      "url": "https://www.thehindu.com/business/Economy/rbi-to-continue-efforts-to-curb-rupee-volatility-external-factors-driving-currency-fall-nirmala-sitharaman/article71579023.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=RBI+to+continue+efforts+to+curb+rupee+volatility+external+factors+driving+currency+fall+Nirmala+Sitharaman",
+      "source_description": "RBI to continue efforts to curb rupee volatility; external factors driving currency fall: Nirmala Sitharaman",
+      "declaration": {
+        "person": "Nirmala Sitharaman",
+        "claim": "RBI will continue its efforts to prevent excessive volatility in the rupee",
+        "quote": "I am sure there are efforts which the RBI would take further to make sure that rupee doesn't become too volatile",
+        "source_url": "https://www.thehindu.com/business/Economy/rbi-to-continue-efforts-to-curb-rupee-volatility-external-factors-driving-currency-fall-nirmala-sitharaman/article71579023.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-13",
+        "made_on": "2026-10-13",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-13",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-13",
+          "evidence_url": "https://www.thehindu.com/business/Economy/rbi-to-continue-efforts-to-curb-rupee-volatility-external-factors-driving-currency-fall-nirmala-sitharaman/article71579023.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The statement is a new promise made by Nirmala Sitharaman regarding the RBI's efforts to prevent excessive volatility in the rupee.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/business/Economy/rbi-to-continue-efforts-to-curb-rupee-volatility-external-factors-driving-currency-fall-nirmala-sitharaman/article71579023.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=RBI+to+continue+efforts+to+curb+rupee+volatility+external+factors+driving+currency+fall+Nirmala+Sitharaman",
+          "supporting_quote": "I am sure there are efforts which the RBI would take further to make sure that rupee doesn't become too volatile",
+          "title": "RBI to continue efforts to curb rupee volatility; external factors driving currency fall: Nirmala Sitharaman",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-13",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 13, 2026, **Nirmala Sitharaman** told the **Bloomberg New Economy Forum 2026** that the **RBI** will continue efforts to prevent rupee volatility. The currency appreciated 1% on October 12 and reached ₹94.96 in early trade on October 13. The **RBI** also created a special window for oil m...",
+          "content": "Union Finance Minister Nirmala Sitharaman on Tuesday (October 13, 2026) said the RBI will continue its efforts to prevent excessive volatility in the rupee, which has depreciated \"very significantly\" over the past year and a half. She said the rupee has reached a low against the U.S. dollar mainly due to global uncertainties, even though India's macro-economic fundamentals, including forex reserve...",
+          "quote": "I am sure there are efforts which the RBI would take further to make sure that rupee doesn't become too volatile"
+        }
+      ],
+      "notes": "The statement is a new promise made by Nirmala Sitharaman regarding the RBI's efforts to prevent excessive volatility in the rupee.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-13",
+      "created_at": "2026-10-13",
+      "url_checked_at": "2026-10-13",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine statement about ongoing economic management without a specific, large-scale commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-13"
     }
   ]
 }
