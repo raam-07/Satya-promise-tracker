@@ -4,8 +4,8 @@
     "last_updated": "2026-10-14",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 255,
-    "promises_with_evidence": 255,
+    "total_promises": 256,
+    "promises_with_evidence": 256,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21482,6 +21482,80 @@
       "importance_reason": "It is a specific directive regarding an investigation, not a transformational commitment affecting a large population or resources.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-14"
+    },
+    {
+      "id": "p256",
+      "person": "C. Joseph Vijay",
+      "party": "TVK",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "Launch a ring main pipeline system to ensure equitable and uninterrupted supply of drinking water",
+      "supporting_quote": "Chief Minister C. Joseph Vijay on Wednesday laid the foundation stone for a ring main pipeline system, a project to interlink various water sources in Chennai at a cost of ₹3,108.55 crore.",
+      "category": "infrastructure",
+      "made_on": "2026-10-15",
+      "reported_on": "2026-10-14",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-launches-3108-cr-ring-main-pipeline-project-for-equitable-drinking-water-supply/article71584148.ece",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-launches-3108-cr-ring-main-pipeline-project-for-equitable-drinking-water-supply/article71584148.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Vijay+launches+3+108-cr+ring+main+pipeline+project+for+equitable+drinking+water+supply",
+      "source_description": "Vijay launches ₹3,108-cr. ring main pipeline project for equitable drinking water supply",
+      "declaration": {
+        "person": "C. Joseph Vijay",
+        "claim": "Launch a ring main pipeline system to ensure equitable and uninterrupted supply of drinking water",
+        "quote": "Chief Minister C. Joseph Vijay on Wednesday laid the foundation stone for a ring main pipeline system, a project to interlink various water sources in Chennai at a cost of ₹3,108.55 crore.",
+        "source_url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-launches-3108-cr-ring-main-pipeline-project-for-equitable-drinking-water-supply/article71584148.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-14",
+        "made_on": "2026-10-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-14",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-14",
+          "evidence_url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-launches-3108-cr-ring-main-pipeline-project-for-equitable-drinking-water-supply/article71584148.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports on the declaration of a new infrastructure project by the Chief Minister C. Joseph Vijay aimed at ensuring equitable and uninterrupted supply of drinking water.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-launches-3108-cr-ring-main-pipeline-project-for-equitable-drinking-water-supply/article71584148.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Vijay+launches+3+108-cr+ring+main+pipeline+project+for+equitable+drinking+water+supply",
+          "supporting_quote": "Chief Minister C. Joseph Vijay on Wednesday laid the foundation stone for a ring main pipeline system, a project to interlink various water sources in Chennai at a cost of ₹3,108.55 crore.",
+          "title": "Vijay launches ₹3,108-cr. ring main pipeline project for equitable drinking water supply",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-14",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Wednesday, Chief Minister **C. Joseph Vijay** laid the foundation stone for a ₹3,108.55 crore ring main pipeline system at the **Chennai Metrowater** pumping station in Sholinganallur. Implemented by **CMWSSB** with **Asian Development Bank** aid, it interconnects nine treatment facilities to sup...",
+          "content": "Chief Minister C. Joseph Vijay on Wednesday laid the foundation stone for a ring main pipeline system, a project to interlink various water sources in Chennai at a cost of ₹3,108.55 crore. The project aims at ensuring an equitable and uninterrupted supply of drinking water to residents of the Greater Chennai Corporation (GCC) area. It is being implemented by the Chennai Metropolitan Water Supply a...",
+          "quote": "Chief Minister C. Joseph Vijay on Wednesday laid the foundation stone for a ring main pipeline system, a project to interlink various water sources in Chennai at a cost of ₹3,108.55 crore."
+        }
+      ],
+      "notes": "The article reports on the declaration of a new infrastructure project by the Chief Minister C. Joseph Vijay aimed at ensuring equitable and uninterrupted supply of drinking water.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-14",
+      "created_at": "2026-10-14",
+      "url_checked_at": "2026-10-14",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a specific infrastructure project rather than a nationwide or transformational state-level commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-15"
     }
   ]
 }
