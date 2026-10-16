@@ -4,8 +4,8 @@
     "last_updated": "2026-10-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 261,
-    "promises_with_evidence": 261,
+    "total_promises": 262,
+    "promises_with_evidence": 262,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21925,6 +21925,80 @@
       "importance": "critical",
       "importance_reason": "Adding 70 km of Metro corridors is a large-scale infrastructure project with significant impact on urban transportation and development.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p262",
+      "person": "Yogi Adityanath",
+      "party": "BJP",
+      "role": "Chief Minister",
+      "promise": "Rename Kasari-Masari as Shrikrishnapuri and provide houses for 1,200 poor families",
+      "supporting_quote": "\"Mafia Atiq Ahmed's terror stronghold Kasari-Masari will be developed as 'Shrikrishnapuri',\" he said, adding that the proposed township and development projects planned during the ongoing Sharadiya Navratri period would be part of the initiative.",
+      "category": "infrastructure",
+      "made_on": "2023-10-05",
+      "reported_on": "2026-10-16",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/gangster-atiq-ahmeds-stronghold-kasari-masari-renamed-as-shrikrishnapuri-12190306#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/gangster-atiq-ahmeds-stronghold-kasari-masari-renamed-as-shrikrishnapuri-12190306#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Gangster+Atiq+Ahmed+s+Stronghold+Kasari-Masari+Renamed+As+Shrikrishnapuri",
+      "source_description": "Gangster Atiq Ahmed's Stronghold Kasari-Masari Renamed As Shrikrishnapuri",
+      "declaration": {
+        "person": "Yogi Adityanath",
+        "claim": "Rename Kasari-Masari as Shrikrishnapuri and provide houses for 1,200 poor families",
+        "quote": "\"Mafia Atiq Ahmed's terror stronghold Kasari-Masari will be developed as 'Shrikrishnapuri',\" he said, adding that the proposed township and development projects planned during the ongoing Sharadiya Navratri period would be part of the initiative.",
+        "source_url": "https://www.ndtv.com/india-news/gangster-atiq-ahmeds-stronghold-kasari-masari-renamed-as-shrikrishnapuri-12190306#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-10-16",
+        "made_on": "2023-10-05",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-16",
+          "evidence_url": "https://www.ndtv.com/india-news/gangster-atiq-ahmeds-stronghold-kasari-masari-renamed-as-shrikrishnapuri-12190306#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new declaration by Yogi Adityanath to rename Kasari-Masari as Shrikrishnapuri and develop it with housing for 1,200 poor families.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/gangster-atiq-ahmeds-stronghold-kasari-masari-renamed-as-shrikrishnapuri-12190306#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Gangster+Atiq+Ahmed+s+Stronghold+Kasari-Masari+Renamed+As+Shrikrishnapuri",
+          "supporting_quote": "\"Mafia Atiq Ahmed's terror stronghold Kasari-Masari will be developed as 'Shrikrishnapuri',\" he said, adding that the proposed township and development projects planned during the ongoing Sharadiya Navratri period would be part of the initiative.",
+          "title": "Gangster Atiq Ahmed's Stronghold Kasari-Masari Renamed As Shrikrishnapuri",
+          "source": "NDTV",
+          "scraped_at": "2026-10-16",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Yogi Adityanath** announced on Thursday that **Prayagraj**'s Kasari-Masari, a stronghold of slain gangster-politician **Atiq Ahmed**, will be renamed Shrikrishnapuri. The project will house 1,200 poor families on land freed from the mafia. **Padma Lok Apartment** will feature 602 flats across 9,81...",
+          "content": "Uttar Pradesh Chief Minister Yogi Adityanath on Thursday announced that Prayagraj's Kasari-Masari, once considered a stronghold of slain gangster-politician Atiq Ahmed, would be renamed Shrikrishnapuri, with houses for 1,200 poor families coming up on land freed from the mafia leader's possession. Issuing a stern warning to criminals, he said no one would dare to indulge in mafia activities in Pra...",
+          "quote": "\"Mafia Atiq Ahmed's terror stronghold Kasari-Masari will be developed as 'Shrikrishnapuri',\" he said, adding that the proposed township and development projects planned during the ongoing Sharadiya Navratri period would be part of the initiative."
+        }
+      ],
+      "notes": "The article reports a new declaration by Yogi Adityanath to rename Kasari-Masari as Shrikrishnapuri and develop it with housing for 1,200 poor families.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-16",
+      "created_at": "2026-10-16",
+      "url_checked_at": "2026-10-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It involves renaming a locality and providing houses, which are local development activities.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-16"
     }
   ]
 }
