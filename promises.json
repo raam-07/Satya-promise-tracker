@@ -4,8 +4,8 @@
     "last_updated": "2026-10-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 263,
-    "promises_with_evidence": 263,
+    "total_promises": 264,
+    "promises_with_evidence": 264,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22073,6 +22073,79 @@
       "importance_reason": "It refers to development works in a specific area, which is not nation- or state-shaping.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-16"
+    },
+    {
+      "id": "p264",
+      "person": "Krishna Byre Gowda",
+      "party": "INC",
+      "role": "Minister of Bengaluru Development",
+      "promise": "Set October 31 deadline for completing installation and replacement of LED streetlights across Bengaluru",
+      "supporting_quote": "Greater Bengaluru Development Minister Krishna Byre Gowda has set October 31 as the deadline for completing the installation and replacement of LED streetlights across Bengaluru.",
+      "category": "infrastructure",
+      "made_on": "2026-10-16",
+      "reported_on": "2026-10-16",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/cities/bangalore/krishna-byre-gowda-sets-oct-31-deadline-for-replacement-of-streetlights/article71593389.ece",
+      "url": "https://www.thehindu.com/news/cities/bangalore/krishna-byre-gowda-sets-oct-31-deadline-for-replacement-of-streetlights/article71593389.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Krishna+Byre+Gowda+sets+October+31+deadline+for+replacement+of+streetlights",
+      "source_description": "Krishna Byre Gowda sets October 31 deadline for replacement of streetlights",
+      "declaration": {
+        "person": "Krishna Byre Gowda",
+        "claim": "Set October 31 deadline for completing installation and replacement of LED streetlights across Bengaluru",
+        "quote": "Greater Bengaluru Development Minister Krishna Byre Gowda has set October 31 as the deadline for completing the installation and replacement of LED streetlights across Bengaluru.",
+        "source_url": "https://www.thehindu.com/news/cities/bangalore/krishna-byre-gowda-sets-oct-31-deadline-for-replacement-of-streetlights/article71593389.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-16",
+        "made_on": "2026-10-16",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-16",
+          "evidence_url": "https://www.thehindu.com/news/cities/bangalore/krishna-byre-gowda-sets-oct-31-deadline-for-replacement-of-streetlights/article71593389.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new deadline set by Krishna Byre Gowda for the installation and replacement of LED streetlights.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/bangalore/krishna-byre-gowda-sets-oct-31-deadline-for-replacement-of-streetlights/article71593389.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Krishna+Byre+Gowda+sets+October+31+deadline+for+replacement+of+streetlights",
+          "supporting_quote": "Greater Bengaluru Development Minister Krishna Byre Gowda has set October 31 as the deadline for completing the installation and replacement of LED streetlights across Bengaluru.",
+          "title": "Krishna Byre Gowda sets October 31 deadline for replacement of streetlights",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-16",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Krishna Byre Gowda**, **Greater Bengaluru Development Minister**, set an October 31 deadline to replace sodium-vapour streetlights with LED lights in the **East City Corporation**. After a September 18 inspection, he ordered physical verifications and penalties for contractors. The **Greater Benga...",
+          "content": "Greater Bengaluru Development Minister Krishna Byre Gowda has set October 31 as the deadline for completing the installation and replacement of LED streetlights across Bengaluru. On Friday, Mr. Gowda held a virtual meeting and directed officials to physically inspect streetlights after installation and verify their functioning instead of relying solely on reports of completed work. Contractors wou...",
+          "quote": "Greater Bengaluru Development Minister Krishna Byre Gowda has set October 31 as the deadline for completing the installation and replacement of LED streetlights across Bengaluru."
+        }
+      ],
+      "notes": "The article reports a new deadline set by Krishna Byre Gowda for the installation and replacement of LED streetlights.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-16",
+      "created_at": "2026-10-16",
+      "url_checked_at": "2026-10-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a specific local infrastructure project limited to Bengaluru.",
+      "importance_source": "llm"
     }
   ]
 }
