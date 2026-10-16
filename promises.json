@@ -4,8 +4,8 @@
     "last_updated": "2026-10-16",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 260,
-    "promises_with_evidence": 260,
+    "total_promises": 261,
+    "promises_with_evidence": 261,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21852,6 +21852,79 @@
       "importance_reason": "It is a legal and administrative action rather than a transformational commitment affecting a large population or resources.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-15"
+    },
+    {
+      "id": "p261",
+      "person": "Devendra Fadnavis",
+      "party": "BJP",
+      "role": "Chief Minister of Maharashtra",
+      "promise": "Completion of several undergoing metro projects by 2027, adding at least 70 km of Metro corridors",
+      "supporting_quote": "Chief Minister Devendra Fadnavis has promised Mumbaikars completion of several undergoing metro projects by next year which will add at least 70km of Metro corridors to be completed by 2027.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-10-16",
+      "deadline": "2027",
+      "source_url": "https://www.ndtv.com/mumbai-news/new-modern-metro-coaches-for-mumbai-unveiled-12192737#publisher=newsstand",
+      "url": "https://www.ndtv.com/mumbai-news/new-modern-metro-coaches-for-mumbai-unveiled-12192737#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=New+Modern+Metro+Coaches+For+Mumbai+Unveiled",
+      "source_description": "New Modern Metro Coaches For Mumbai Unveiled",
+      "declaration": {
+        "person": "Devendra Fadnavis",
+        "claim": "Completion of several undergoing metro projects by 2027, adding at least 70 km of Metro corridors",
+        "quote": "Chief Minister Devendra Fadnavis has promised Mumbaikars completion of several undergoing metro projects by next year which will add at least 70km of Metro corridors to be completed by 2027.",
+        "source_url": "https://www.ndtv.com/mumbai-news/new-modern-metro-coaches-for-mumbai-unveiled-12192737#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-10-16",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-16",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-16",
+          "evidence_url": "https://www.ndtv.com/mumbai-news/new-modern-metro-coaches-for-mumbai-unveiled-12192737#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a specific promise made by Devendra Fadnavis regarding the completion of metro projects in Mumbai by 2027.",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/mumbai-news/new-modern-metro-coaches-for-mumbai-unveiled-12192737#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=New+Modern+Metro+Coaches+For+Mumbai+Unveiled",
+          "supporting_quote": "Chief Minister Devendra Fadnavis has promised Mumbaikars completion of several undergoing metro projects by next year which will add at least 70km of Metro corridors to be completed by 2027.",
+          "title": "New Modern Metro Coaches For Mumbai Unveiled",
+          "source": "NDTV",
+          "scraped_at": "2026-10-16",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Devendra Fadnavis**, **Maharashtra** Chief Minister, designated 2027 as \"Metro Year\" to complete at least 70 km of corridors. He directed expanding a 36-km corridor to 50 km by December 2026 and achieving 50% mechanisation. **Alstom India** unveiled the first of 39 driverless Metropolis trainsets ...",
+          "content": "With Maharashtra Chief Minister Devendra Fadnavis declaring 2027 to be designated as the \"Metro Year\" with at least 70 km of Metro corridors completed by 2027 rolling stock suppliers are also pushing the pedal on production of coaches and rolling stock for these new lines. \"Mumbai' next chapter of urban mobility is here! Delivered in a record time of 14 months, we today unveiled the first trainset...",
+          "quote": "Chief Minister Devendra Fadnavis has promised Mumbaikars completion of several undergoing metro projects by next year which will add at least 70km of Metro corridors to be completed by 2027."
+        }
+      ],
+      "notes": "The article mentions a specific promise made by Devendra Fadnavis regarding the completion of metro projects in Mumbai by 2027.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-16",
+      "created_at": "2026-10-16",
+      "url_checked_at": "2026-10-16",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Adding 70 km of Metro corridors is a large-scale infrastructure project with significant impact on urban transportation and development.",
+      "importance_source": "llm"
     }
   ]
 }
