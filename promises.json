@@ -4,8 +4,8 @@
     "last_updated": "2026-10-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 265,
-    "promises_with_evidence": 265,
+    "total_promises": 266,
+    "promises_with_evidence": 266,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22237,6 +22237,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "It is a one-time compensation payment rather than a transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p266",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Convene a meeting of all stakeholders after Dasara festival",
+      "supporting_quote": "“I understand your situation, pain and anguish. But this is not the problem of you alone. It is the problem of farmers of all sugarcane-growing States and needs to be redressed through a holistic approach,” he said. The Chief Minister said he would convene a meeting of the sugar mill owners, Union and State government officials, sugarcane farmers and also take farmers along with him to meet Union ministers.",
+      "category": "farmers/agriculture",
+      "made_on": "2026-10-17",
+      "reported_on": "2026-10-17",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-promises-meeting-of-all-stakeholders-after-dasara/article71597259.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-promises-meeting-of-all-stakeholders-after-dasara/article71597259.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Karnataka+Chief+Minister+D+K+Shivakumar+promises+meeting+of+all+stakeholders+after+Dasara",
+      "source_description": "Karnataka Chief Minister D.K. Shivakumar promises meeting of all stakeholders after Dasara",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Convene a meeting of all stakeholders after Dasara festival",
+        "quote": "“I understand your situation, pain and anguish. But this is not the problem of you alone. It is the problem of farmers of all sugarcane-growing States and needs to be redressed through a holistic approach,” he said. The Chief Minister said he would convene a meeting of the sugar mill owners, Union and State government officials, sugarcane farmers and also take farmers along with him to meet Union ministers.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-promises-meeting-of-all-stakeholders-after-dasara/article71597259.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-17",
+        "made_on": "2026-10-17",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-17",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-promises-meeting-of-all-stakeholders-after-dasara/article71597259.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The promise is specific to convening a meeting after Dasara, which is a concrete commitment.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-promises-meeting-of-all-stakeholders-after-dasara/article71597259.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Karnataka+Chief+Minister+D+K+Shivakumar+promises+meeting+of+all+stakeholders+after+Dasara",
+          "supporting_quote": "“I understand your situation, pain and anguish. But this is not the problem of you alone. It is the problem of farmers of all sugarcane-growing States and needs to be redressed through a holistic approach,” he said. The Chief Minister said he would convene a meeting of the sugar mill owners, Union and State government officials, sugarcane farmers and also take farmers along with him to meet Union ministers.",
+          "title": "Karnataka Chief Minister D.K. Shivakumar promises meeting of all stakeholders after Dasara",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 17, **D.K. Shivakumar** met sugarcane farmers in **Kittur**, **Belagavi district** during a padayatra. He promised to convene stakeholders after the **Dasara festival** and meet **Union ministers**. **Chunappa Pujeri** of **Karnataka Rajya Raitha Sangha** and **Hasiru Sene**, and **Shashi...",
+          "content": "Chief Minister D.K. Shivakumar, who flew down to Kittur in Belagavi district on Saturday (October 17) evening to meet the farmers who are undertaking a padayatra, made an appeal to them to conclude it at Kittur and promised to do everything to redress their grievances. He assured the gathering of convening a meeting of all stakeholders after Dasara festival. Addressing a massive gathering of sugar...",
+          "quote": "“I understand your situation, pain and anguish. But this is not the problem of you alone. It is the problem of farmers of all sugarcane-growing States and needs to be redressed through a holistic approach,” he said. The Chief Minister said he would convene a meeting of the sugar mill owners, Union and State government officials, sugarcane farmers and also take farmers along with him to meet Union ministers."
+        }
+      ],
+      "notes": "The promise is specific to convening a meeting after Dasara, which is a concrete commitment.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-17",
+      "created_at": "2026-10-17",
+      "url_checked_at": "2026-10-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine administrative meeting without transformational impact.",
       "importance_source": "llm"
     }
   ]
