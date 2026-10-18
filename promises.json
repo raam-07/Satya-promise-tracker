@@ -4,8 +4,8 @@
     "last_updated": "2026-10-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 267,
-    "promises_with_evidence": 267,
+    "total_promises": 268,
+    "promises_with_evidence": 268,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22385,6 +22385,79 @@
       "importance_reason": "The promise is vague and lacks specific, measurable goals.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-17"
+    },
+    {
+      "id": "p268",
+      "person": "Mohan Charan Majhi",
+      "party": "BJP",
+      "role": "Chief Minister of Odisha",
+      "promise": "Construct additional 2,91,666 houses under Antyodaya Gruha Yojana by 2029",
+      "supporting_quote": "Chief Minister Mohan Charan Majhi on Thursday (October 15, 2026) announced construction of additional 2,91,666 houses under the Antyodaya Gruha Yojana by increasing the tenure of the scheme by two years, from 2027 to 2029.",
+      "category": "infrastructure",
+      "made_on": "2026-10-15",
+      "reported_on": "2026-10-18",
+      "deadline": "2029",
+      "source_url": "https://www.thehindu.com/news/national/odisha/odisha-to-provide-additional-291-lakh-houses-for-poor-in-the-state/article71589140.ece",
+      "url": "https://www.thehindu.com/news/national/odisha/odisha-to-provide-additional-291-lakh-houses-for-poor-in-the-state/article71589140.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Odisha+to+provide+additional+2+91+lakh+houses+for+poor+in+the+State",
+      "source_description": "Odisha to provide additional 2.91 lakh houses for poor in the State",
+      "declaration": {
+        "person": "Mohan Charan Majhi",
+        "claim": "Construct additional 2,91,666 houses under Antyodaya Gruha Yojana by 2029",
+        "quote": "Chief Minister Mohan Charan Majhi on Thursday (October 15, 2026) announced construction of additional 2,91,666 houses under the Antyodaya Gruha Yojana by increasing the tenure of the scheme by two years, from 2027 to 2029.",
+        "source_url": "https://www.thehindu.com/news/national/odisha/odisha-to-provide-additional-291-lakh-houses-for-poor-in-the-state/article71589140.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-18",
+        "made_on": "2026-10-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-18",
+          "evidence_url": "https://www.thehindu.com/news/national/odisha/odisha-to-provide-additional-291-lakh-houses-for-poor-in-the-state/article71589140.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new commitment by the Chief Minister to construct additional houses under a specific scheme, which is a significant infrastructure promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/odisha/odisha-to-provide-additional-291-lakh-houses-for-poor-in-the-state/article71589140.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Odisha+to+provide+additional+2+91+lakh+houses+for+poor+in+the+State",
+          "supporting_quote": "Chief Minister Mohan Charan Majhi on Thursday (October 15, 2026) announced construction of additional 2,91,666 houses under the Antyodaya Gruha Yojana by increasing the tenure of the scheme by two years, from 2027 to 2029.",
+          "title": "Odisha to provide additional 2.91 lakh houses for poor in the State",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-18",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 15, 2026, **Chief Minister Mohan Charan Majhi** announced constructing 2,91,666 additional houses under the **Antyodaya Gruha Yojana** by extending its tenure to 2029. The **Chief Minister’s Office** stated the ₹7,550 crore outlay remains unchanged, but ₹3,500 crore from repairs will fund...",
+          "content": "With Odisha readying for panchayat and municipal elections next year, Chief Minister Mohan Charan Majhi on Thursday (October 15, 2026) announced construction of additional 2,91,666 houses under the Antyodaya Gruha Yojana by increasing the tenure of the scheme by two years, from 2027 to 2029. The objective of providing additional 2.91 lakh houses under Antyodaya Gruha Yojana is to provide housing f...",
+          "quote": "Chief Minister Mohan Charan Majhi on Thursday (October 15, 2026) announced construction of additional 2,91,666 houses under the Antyodaya Gruha Yojana by increasing the tenure of the scheme by two years, from 2027 to 2029."
+        }
+      ],
+      "notes": "The article reports a new commitment by the Chief Minister to construct additional houses under a specific scheme, which is a significant infrastructure promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-18",
+      "created_at": "2026-10-18",
+      "url_checked_at": "2026-10-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Aims to provide housing for over 2 lakh families, significantly impacting a large population.",
+      "importance_source": "llm"
     }
   ]
 }
