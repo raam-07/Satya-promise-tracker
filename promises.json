@@ -4,8 +4,8 @@
     "last_updated": "2026-10-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 268,
-    "promises_with_evidence": 268,
+    "total_promises": 269,
+    "promises_with_evidence": 269,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22479,6 +22479,80 @@
       "importance": "critical",
       "importance_reason": "Aims to provide housing for over 2 lakh families, significantly impacting a large population.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p269",
+      "person": "Suvendhu Adhikari",
+      "party": "BJP",
+      "role": "Politician",
+      "promise": "Provide Rs 25 lakh compensation to families of those killed in the stampede at the Chorbagan Durga Puja pandal",
+      "supporting_quote": "I have informed officials to ensure the ₹25 lakh compensation cheque is handed over to the families of the victims immediately. I plan to visit the victims’ families in person in their homes in the next two days and hand over the compensation cheques to them",
+      "category": "welfare",
+      "made_on": "2026-10-18",
+      "reported_on": "2026-10-18",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/kolkata-pandal-stampede-adhikari-orders-independent-probe-promises-compensation-for-victims-families/article71599475.ece",
+      "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-pandal-stampede-adhikari-orders-independent-probe-promises-compensation-for-victims-families/article71599475.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Kolkata+pandal+stampede+Adhikari+orders+independent+probe+promises+compensation+for+victims+families",
+      "source_description": "Kolkata pandal stampede: Adhikari orders independent probe, promises compensation for victims’ families",
+      "declaration": {
+        "person": "Suvendhu Adhikari",
+        "claim": "Provide Rs 25 lakh compensation to families of those killed in the stampede at the Chorbagan Durga Puja pandal",
+        "quote": "I have informed officials to ensure the ₹25 lakh compensation cheque is handed over to the families of the victims immediately. I plan to visit the victims’ families in person in their homes in the next two days and hand over the compensation cheques to them",
+        "source_url": "https://www.thehindu.com/news/national/west-bengal/kolkata-pandal-stampede-adhikari-orders-independent-probe-promises-compensation-for-victims-families/article71599475.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-18",
+        "made_on": "2026-10-18",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-18",
+          "evidence_url": "https://www.thehindu.com/news/national/west-bengal/kolkata-pandal-stampede-adhikari-orders-independent-probe-promises-compensation-for-victims-families/article71599475.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The politician personally committed to providing compensation to the victims' families, which is a new promise not matching any existing ones.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal/kolkata-pandal-stampede-adhikari-orders-independent-probe-promises-compensation-for-victims-families/article71599475.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Kolkata+pandal+stampede+Adhikari+orders+independent+probe+promises+compensation+for+victims+families",
+          "supporting_quote": "I have informed officials to ensure the ₹25 lakh compensation cheque is handed over to the families of the victims immediately. I plan to visit the victims’ families in person in their homes in the next two days and hand over the compensation cheques to them",
+          "title": "Kolkata pandal stampede: Adhikari orders independent probe, promises compensation for victims’ families",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-18",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Suvendu Adhikari**, Chief Minister of **West Bengal**, announced an independent probe led by a sitting judge after 19 people died and 25 were injured in a stampede at the **Chorbagan Durga Puja** pandal on October 17, 2026. The government will provide ₹25 lakh compensation to families. **Kolkata P...",
+          "content": "West Bengal Suvendhu Adhikari, after meeting the victims of the stampede in the Chorbagan Durga Puja pandal in north Kolkata, said that the Government will take responsibility for the tragedy, and launch an independent probe by a fact-team, headed by a sitting judge. Nineteen people, most of them women and children, died and 25 others were injured in a stampede at the pandal in north Kolkata on Sa...",
+          "quote": "I have informed officials to ensure the ₹25 lakh compensation cheque is handed over to the families of the victims immediately. I plan to visit the victims’ families in person in their homes in the next two days and hand over the compensation cheques to them"
+        }
+      ],
+      "notes": "The politician personally committed to providing compensation to the victims' families, which is a new promise not matching any existing ones.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-18",
+      "created_at": "2026-10-18",
+      "url_checked_at": "2026-10-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It is a one-time compensation payout, not a transformational commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-18"
     }
   ]
 }
