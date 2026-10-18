@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-10-17",
+    "last_updated": "2026-10-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 266,
-    "promises_with_evidence": 266,
+    "total_promises": 267,
+    "promises_with_evidence": 267,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22311,6 +22311,80 @@
       "importance": "minor",
       "importance_reason": "It is a routine administrative meeting without transformational impact.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p267",
+      "person": "Nayab Singh Saini",
+      "party": "BJP",
+      "role": "Chief Minister of Haryana",
+      "promise": "build a developed and prosperous Haryana",
+      "supporting_quote": "Haryana Chief Minister Nayab Singh Saini on Saturday (October 17, 2026) said the State government has given fresh impetus to its resolve to build a developed and prosperous Haryana",
+      "category": "other",
+      "made_on": "2026-10-17",
+      "reported_on": "2026-10-17",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/haryana/war-of-words-in-haryana-cm-saini-pitches-prosperity-congress-alleges-rising-crime-debt/article71596746.ece",
+      "url": "https://www.thehindu.com/news/national/haryana/war-of-words-in-haryana-cm-saini-pitches-prosperity-congress-alleges-rising-crime-debt/article71596746.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=War+of+words+in+Haryana+CM+Saini+pitches+prosperity+Congress+alleges+rising+crime+debt",
+      "source_description": "War of words in Haryana: CM Saini pitches prosperity, Congress alleges rising crime, debt",
+      "declaration": {
+        "person": "Nayab Singh Saini",
+        "claim": "build a developed and prosperous Haryana",
+        "quote": "Haryana Chief Minister Nayab Singh Saini on Saturday (October 17, 2026) said the State government has given fresh impetus to its resolve to build a developed and prosperous Haryana",
+        "source_url": "https://www.thehindu.com/news/national/haryana/war-of-words-in-haryana-cm-saini-pitches-prosperity-congress-alleges-rising-crime-debt/article71596746.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-17",
+        "made_on": "2026-10-17",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-18",
+          "evidence_url": "https://www.thehindu.com/news/national/haryana/war-of-words-in-haryana-cm-saini-pitches-prosperity-congress-alleges-rising-crime-debt/article71596746.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the Chief Minister's declaration to build a developed and prosperous Haryana, but does not provide specific details or a timeline.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/haryana/war-of-words-in-haryana-cm-saini-pitches-prosperity-congress-alleges-rising-crime-debt/article71596746.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=War+of+words+in+Haryana+CM+Saini+pitches+prosperity+Congress+alleges+rising+crime+debt",
+          "supporting_quote": "Haryana Chief Minister Nayab Singh Saini on Saturday (October 17, 2026) said the State government has given fresh impetus to its resolve to build a developed and prosperous Haryana",
+          "title": "War of words in Haryana: CM Saini pitches prosperity, Congress alleges rising crime, debt",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 17, 2026, **Nayab Singh Saini** announced the **Haryana** government's resolve to build a prosperous state during its third term. He alleged **Congress** rule caused corruption and regional discrimination. Conversely, **Bhupendra Singh Hooda** accused the **Bharatiya Janata Party** of ris...",
+          "content": "Haryana Chief Minister Nayab Singh Saini on Saturday (October 17, 2026) said the State government has given fresh impetus to its resolve to build a developed and prosperous Haryana, even as the Congress blamed the Bharatiya Janata Party regime in the State is marked by false promises, rising crime, unemployment and mounting debt. Addressing a press conference here, to mark the completion of two ye...",
+          "quote": "Haryana Chief Minister Nayab Singh Saini on Saturday (October 17, 2026) said the State government has given fresh impetus to its resolve to build a developed and prosperous Haryana"
+        }
+      ],
+      "notes": "The article mentions the Chief Minister's declaration to build a developed and prosperous Haryana, but does not provide specific details or a timeline.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-10-18",
+      "created_at": "2026-10-18",
+      "url_checked_at": "2026-10-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "The promise is vague and lacks specific, measurable goals.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-17"
     }
   ]
 }
