@@ -2221,13 +2221,13 @@
       "party": "BJP",
       "role": "Chief Minister",
       "promise": "End mafia raj in Uttar Pradesh",
-      "category": "corruption/governance",
+      "category": "law_and_order",
       "made_on": "2017-03-19",
       "deadline": "ongoing",
       "source_url": "https://timesofindia.indiatimes.com/india/toi-dialogues-how-yogi-government-ended-mafiaraj-in-uttar-pradeshs-gorakhpur/articleshow/111171794.cms",
       "source_description": "Times of India: TOI Dialogues: How Yogi government ended mafiaraj in Uttar Pradesh's Gorakhpur",
       "status": "kept",
-      "status_last_reviewed": "2026-09-27",
+      "status_last_reviewed": "2026-10-18",
       "gemma_suggestion": "kept",
       "gemma_reasoning": "The government successfully dismantled mafia networks and reduced crime rates according to NCRB data.",
       "evidence_articles": [
@@ -2266,6 +2266,25 @@
           "source_domain": "timesofindia.indiatimes.com",
           "evidence_type": "legacy_unclassified",
           "quote_verified": false
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-cm-yogi-adityanath-touts-uttar-pradeshs-shift-from-mafia-rule-to-rule-of-law/article71596877.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Rule+of+Law+established+in+Uttar+Pradesh+by+eliminating+Rule+of+Mafia+says+CM+Yogi",
+          "supporting_quote": "Uttar Pradesh was once under the influence of mafia rule, but the rule of law has now been established in the State.",
+          "title": "Rule of Law established in Uttar Pradesh by eliminating Rule of Mafia, says CM Yogi",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-18",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "outcome",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 17, 2026, **Yogi Adityanath**, **Uttar Pradesh** Chief Minister, addressed the fifth convocation of **Dr. Ram Manohar Lohia National Law University** in **Lucknow**. He stated the **BJP** government established the rule of law by eradicating mafia rule. He noted **India** rose from 5 frag...",
+          "content": "Uttar Pradesh Chief Minister Yogi Adityanath on Saturday (October 17, 2026) said the Bharatiya Janata Party (BJP) government had established the “rule of law” in the State by eradicating the “rule of mafia”. “Uttar Pradesh was once under the influence of mafia rule, but the rule of law has now been established in the State. This is the strongest foundation for development, investment and public tr...",
+          "quote": "Uttar Pradesh was once under the influence of mafia rule, but the rule of law has now been established in the State."
         }
       ],
       "notes": "Yogi Adityanath made ending \"Mafia Raj\" and rampant crime a core promise upon becoming Chief Minister in 2017. Through aggressive policing, encounters, asset seizures, and strict zero-tolerance enforcement, the UP government claims major success in dismantling organized crime networks. Official NCRB statistics reflect notable reductions in key crime categories (such as dacoity, robbery, and crimes against women) compared to previous years and national averages.",
@@ -2275,11 +2294,11 @@
       "url_status": "ok",
       "url_checked_at": "2026-06-25",
       "promise_type": "vision",
-      "evidence_count": 2,
+      "evidence_count": 3,
       "supporting_quote": "NCRB data shows significant decline in crime rates in UP compared to national averages in several categories.",
-      "importance_hint": "minor",
+      "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "A complete end to crime is a transformational, state-wide promise with huge implications for UP's governance and image.",
+      "importance_reason": "Aims to transform law and order across the entire state, affecting millions of people.",
       "importance_source": "llm",
       "url": "https://timesofindia.indiatimes.com/india/toi-dialogues-how-yogi-government-ended-mafiaraj-in-uttar-pradeshs-gorakhpur/articleshow/111171794.cms",
       "archived_url": "https://web.archive.org/web/20260625055755/https://timesofindia.indiatimes.com/india/toi-dialogues-how-yogi-government-ended-mafiaraj-in-uttar-pradeshs-gorakhpur/articleshow/111171794.cms",
@@ -2371,7 +2390,9 @@
         "verified_on": "2026-09-27",
         "verdict_locked": true
       },
-      "implied_deadline": "2020-03-19"
+      "implied_deadline": "2020-03-19",
+      "qwen_suggestion": "kept",
+      "qwen_reasoning": "The article provides evidence that the rule of law has been established in Uttar Pradesh, indicating the end of mafia rule as promised."
     },
     {
       "id": "p019",
