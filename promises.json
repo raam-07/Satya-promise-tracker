@@ -4,8 +4,8 @@
     "last_updated": "2026-10-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 269,
-    "promises_with_evidence": 269,
+    "total_promises": 270,
+    "promises_with_evidence": 270,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22553,6 +22553,80 @@
       "importance_reason": "It is a one-time compensation payout, not a transformational commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-18"
+    },
+    {
+      "id": "p270",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Seek meeting with PM to discuss sugarcane and drought issues",
+      "supporting_quote": "Chief Minister D.K. Shivakumar on Sunday (October 18) said that he had sought an appointment with Prime Minister Narendra Modi to discuss the problems faced by sugarcane growers and the drought situation in Karnataka.",
+      "category": "farmers/agriculture",
+      "made_on": "2026-10-18",
+      "reported_on": "2026-10-19",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-seeks-prime-minister-narendra-modis-appointment-to-discuss-sugarcane-growers-issues-and-drought/article71600737.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-seeks-prime-minister-narendra-modis-appointment-to-discuss-sugarcane-growers-issues-and-drought/article71600737.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Karnataka+CM+seeks+meeting+with+PM+to+discuss+sugarcane+drought",
+      "source_description": "Karnataka CM seeks meeting with PM to discuss sugarcane, drought",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Seek meeting with PM to discuss sugarcane and drought issues",
+        "quote": "Chief Minister D.K. Shivakumar on Sunday (October 18) said that he had sought an appointment with Prime Minister Narendra Modi to discuss the problems faced by sugarcane growers and the drought situation in Karnataka.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-seeks-prime-minister-narendra-modis-appointment-to-discuss-sugarcane-growers-issues-and-drought/article71600737.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-19",
+        "made_on": "2026-10-18",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-19",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-seeks-prime-minister-narendra-modis-appointment-to-discuss-sugarcane-growers-issues-and-drought/article71600737.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the Chief Minister's intention to seek a meeting with the Prime Minister to discuss issues related to sugarcane growers and drought, which is a new declaration.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/karnataka-chief-minister-dk-shivakumar-seeks-prime-minister-narendra-modis-appointment-to-discuss-sugarcane-growers-issues-and-drought/article71600737.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Karnataka+CM+seeks+meeting+with+PM+to+discuss+sugarcane+drought",
+          "supporting_quote": "Chief Minister D.K. Shivakumar on Sunday (October 18) said that he had sought an appointment with Prime Minister Narendra Modi to discuss the problems faced by sugarcane growers and the drought situation in Karnataka.",
+          "title": "Karnataka CM seeks meeting with PM to discuss sugarcane, drought",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-19",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Sunday (October 18), Chief Minister **D.K. Shivakumar** stated at **Mysuru airport** that he sought an appointment with Prime Minister **Narendra Modi** to discuss Karnataka's drought and sugarcane grower problems. He urged opposition leaders to join an all-party delegation for solutions. **Shiva...",
+          "content": "Chief Minister D.K. Shivakumar on Sunday (October 18) said that he had sought an appointment with Prime Minister Narendra Modi to discuss the problems faced by sugarcane growers and the drought situation in Karnataka. He said he would urge Opposition leaders to join an all-party delegation to meet the Prime Minister to seek solutions to the issues. Speaking to reporters at Mysuru airport, Mr. Shiv...",
+          "quote": "Chief Minister D.K. Shivakumar on Sunday (October 18) said that he had sought an appointment with Prime Minister Narendra Modi to discuss the problems faced by sugarcane growers and the drought situation in Karnataka."
+        }
+      ],
+      "notes": "The article mentions the Chief Minister's intention to seek a meeting with the Prime Minister to discuss issues related to sugarcane growers and drought, which is a new declaration.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-19",
+      "created_at": "2026-10-19",
+      "url_checked_at": "2026-10-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a request for a meeting rather than a concrete, large-scale commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-19"
     }
   ]
 }
