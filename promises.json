@@ -4,8 +4,8 @@
     "last_updated": "2026-10-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 270,
-    "promises_with_evidence": 270,
+    "total_promises": 271,
+    "promises_with_evidence": 271,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22627,6 +22627,79 @@
       "importance_reason": "It is a request for a meeting rather than a concrete, large-scale commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-19"
+    },
+    {
+      "id": "p271",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Complete preparations for the Invest Telangana Global Summit 2026 by the end of November",
+      "supporting_quote": "Chief Minister A. Revanth Reddy has directed officials to complete preparations for the Invest Telangana Global Summit 2026 by the end of November, emphasising that the event should be organised on an international scale to attract industrialists and investors from India and abroad.",
+      "category": "economy",
+      "made_on": "2026-10-19",
+      "reported_on": "2026-10-19",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-sets-november-end-deadline-for-global-summit-preparations/article71602995.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-sets-november-end-deadline-for-global-summit-preparations/article71602995.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Revanth+Reddy+sets+November-end+deadline+for+Global+Summit+preparations",
+      "source_description": "Revanth Reddy sets November-end deadline for Global Summit preparations",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Complete preparations for the Invest Telangana Global Summit 2026 by the end of November",
+        "quote": "Chief Minister A. Revanth Reddy has directed officials to complete preparations for the Invest Telangana Global Summit 2026 by the end of November, emphasising that the event should be organised on an international scale to attract industrialists and investors from India and abroad.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-sets-november-end-deadline-for-global-summit-preparations/article71602995.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-19",
+        "made_on": "2026-10-19",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-19",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-sets-november-end-deadline-for-global-summit-preparations/article71602995.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a new directive by the Chief Minister to complete preparations for an upcoming summit by a specific deadline.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/revanth-reddy-sets-november-end-deadline-for-global-summit-preparations/article71602995.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Revanth+Reddy+sets+November-end+deadline+for+Global+Summit+preparations",
+          "supporting_quote": "Chief Minister A. Revanth Reddy has directed officials to complete preparations for the Invest Telangana Global Summit 2026 by the end of November, emphasising that the event should be organised on an international scale to attract industrialists and investors from India and abroad.",
+          "title": "Revanth Reddy sets November-end deadline for Global Summit preparations",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-19",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Chief Minister **A. Revanth Reddy** directed officials to complete preparations for the **Invest Telangana Global Summit 2026**, scheduled for December 7 to 9 at **Bharat Future City**. On October 19, 2026, he inspected **Young India Skills University** construction and inaugurated the **Future City...",
+          "content": "Chief Minister A. Revanth Reddy has directed officials to complete preparations for the Invest Telangana Global Summit 2026 by the end of November, emphasising that the event should be organised on an international scale to attract industrialists and investors from India and abroad. Also read | Telangana invites Tamil Nadu businesses to join its growth journey During a visit to Bharat Future City ...",
+          "quote": "Chief Minister A. Revanth Reddy has directed officials to complete preparations for the Invest Telangana Global Summit 2026 by the end of November, emphasising that the event should be organised on an international scale to attract industrialists and investors from India and abroad."
+        }
+      ],
+      "notes": "The article mentions a new directive by the Chief Minister to complete preparations for an upcoming summit by a specific deadline.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-19",
+      "created_at": "2026-10-19",
+      "url_checked_at": "2026-10-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a one-time event preparation, not a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm"
     }
   ]
 }
