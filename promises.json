@@ -17256,7 +17256,7 @@
         "verification": "raw_source_verified"
       },
       "status": "ongoing",
-      "status_last_reviewed": "2026-09-29",
+      "status_last_reviewed": "2026-10-20",
       "status_history": [
         {
           "status": "ongoing",
@@ -17265,7 +17265,7 @@
         }
       ],
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "The promise is a specific commitment made by Amit Shah to address the drug menace in Punjab within a two-year timeframe.",
+      "qwen_reasoning": "The article reiterates Amit Shah's promise to eradicate the drug menace in Punjab by a specific deadline, aligning with an existing promise.",
       "evidence_articles": [
         {
           "url": "https://www.thehindu.com/news/national/punjab/drug-menace-dominates-bjps-poll-campaign-in-punjab-as-it-cuts-across-caste-religion-age/article71524207.ece",
@@ -17285,6 +17285,25 @@
           "rephrased": "The drug menace in Punjab has been a central issue for over a decade, affecting all castes and religions. Ahead of the 2027 Assembly election, **Bharatiya Janata Party (BJP)** launched its ‘Nasha Mukt Punjab Yatras’ campaign on September 18, aiming to cover all 117 constituencies before culminating ...",
           "content": "The drug menace in Punjab has stayed at the center stage of political and social attention over the past more than a decade and because it cuts across caste, religion and age, it appears to have become the key poll campaign focus for the Bharatiya Janata Party (BJP) in the run-up to the impending Assembly election. With an eye on the Assembly election, which is due in early 2027, the BJP is busy w...",
           "quote": "In March this year, Mr. Shah, who sounded the party’s poll-bugle at the ‘Badlav rally’ in Moga, sought a chance to form the next government, promising that the BJP will free Punjab from the scourge of drugs within two years."
+        },
+        {
+          "url": "https://www.ndtv.com/india-news/amit-shah-meets-family-of-bikramjit-singh-killed-over-anti-drug-campaign-12210088#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Amit+Shah+Meets+Family+Of+Punjab+Man+Killed+Over+Anti-Drug+Campaign",
+          "supporting_quote": "Just a few days ago in Jalandhar, the BJP and specifically Amit Shah made a promise to the people of Punjab that they would completely eradicate the drug menace in the state, rooting it out entirely by December 31, 2029",
+          "title": "Amit Shah Meets Family Of Punjab Man Killed Over Anti-Drug Campaign",
+          "source": "NDTV",
+          "scraped_at": "2026-10-20",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "Union Home Minister **Amit Shah** visited the residence of **Bikramjit Singh** in Gurdaspur, Punjab, who was allegedly killed for opposing drug trade. **Shah** met families of victims from Gurdaspur, Mansa, and Sangrur. **Fatehjang Singh Bajwa** stated the **BJP** aims to eradicate drugs by December...",
+          "content": "Union Home Minister Amit Shah on Tuesday visited the residence of Bikramjit Singh in Punjab's Gurdaspur, who was allegedly killed after raising his voice against the drug trade, and met his family amid growing concerns over drug trafficking and law and order in the northern state. During his visit to Punjab, Shah is scheduled to meet the families of people who recently lost their lives after alleg...",
+          "quote": "Just a few days ago in Jalandhar, the BJP and specifically Amit Shah made a promise to the people of Punjab that they would completely eradicate the drug menace in the state, rooting it out entirely by December 31, 2029"
         }
       ],
       "notes": "The promise is a specific commitment made by Amit Shah to address the drug menace in Punjab within a two-year timeframe.",
@@ -17293,7 +17312,7 @@
       "created_at": "2026-09-29",
       "url_checked_at": "2026-09-29",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Aims to address a widespread and significant societal issue affecting a large population.",
