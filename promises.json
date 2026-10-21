@@ -4,8 +4,8 @@
     "last_updated": "2026-10-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 273,
-    "promises_with_evidence": 273,
+    "total_promises": 274,
+    "promises_with_evidence": 274,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22865,6 +22865,80 @@
       "importance": "critical",
       "importance_reason": "Affecting the entire country and addressing a widespread societal issue.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p274",
+      "person": "Narendra Modi",
+      "party": "BJP",
+      "role": "Prime Minister",
+      "promise": "launch projects worth over Rs 3,242.95 crore in Bhagalpur and neighbouring districts",
+      "supporting_quote": "Sources in the Bihar government said the State Building Construction Department has sent to the Prime Minister’s Office (PMO) projects worth ₹3,242.95 crore in Bhagalpur and neighbouring districts such as Banka, where Panchayat buildings are to be constructed in different village panchayats.",
+      "category": "infrastructure",
+      "made_on": "2026-10-21",
+      "reported_on": "2026-10-21",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-visit-bihars-bhagalpur-on-november-20-to-launch-projects/article71607423.ece",
+      "url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-visit-bihars-bhagalpur-on-november-20-to-launch-projects/article71607423.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=PM+Modi+to+visit+Bihar+s+Bhagalpur+on+November+20+to+launch+projects",
+      "source_description": "PM Modi to visit Bihar’s Bhagalpur on November 20 to launch projects",
+      "declaration": {
+        "person": "Narendra Modi",
+        "claim": "launch projects worth over Rs 3,242.95 crore in Bhagalpur and neighbouring districts",
+        "quote": "Sources in the Bihar government said the State Building Construction Department has sent to the Prime Minister’s Office (PMO) projects worth ₹3,242.95 crore in Bhagalpur and neighbouring districts such as Banka, where Panchayat buildings are to be constructed in different village panchayats.",
+        "source_url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-visit-bihars-bhagalpur-on-november-20-to-launch-projects/article71607423.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-21",
+        "made_on": "2026-10-21",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-21",
+          "evidence_url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-visit-bihars-bhagalpur-on-november-20-to-launch-projects/article71607423.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions the declaration of infrastructure projects worth over Rs 3,242.95 crore in Bhagalpur and neighbouring districts, which is a significant commitment.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/pm-modi-to-visit-bihars-bhagalpur-on-november-20-to-launch-projects/article71607423.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=PM+Modi+to+visit+Bihar+s+Bhagalpur+on+November+20+to+launch+projects",
+          "supporting_quote": "Sources in the Bihar government said the State Building Construction Department has sent to the Prime Minister’s Office (PMO) projects worth ₹3,242.95 crore in Bhagalpur and neighbouring districts such as Banka, where Panchayat buildings are to be constructed in different village panchayats.",
+          "title": "PM Modi to visit Bihar’s Bhagalpur on November 20 to launch projects",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Narendra Modi** is likely to visit **Bhagalpur** district on November 20 to inaugurate the **Adani Power Limited** 2,400 MW Pirpainti Thermal Power project and lay foundation stones for **Vikramshila Central University** and a ₹3,500 crore **Ajgaibinath Greenfield Airport**. **Samrat Choudhary** m...",
+          "content": "Prime Minister Narendra Modi is likely to visit Bihar’s Bhagalpur district on November 20 to inaugurate and lay the foundation stones of several projects related to electricity, higher education, air connectivity and infrastructure development. Chief Minister Samrat Choudhary held a high-level meeting of officials on Wednesday (October 21, 2026) to review preparations for the visit. According to s...",
+          "quote": "Sources in the Bihar government said the State Building Construction Department has sent to the Prime Minister’s Office (PMO) projects worth ₹3,242.95 crore in Bhagalpur and neighbouring districts such as Banka, where Panchayat buildings are to be constructed in different village panchayats."
+        }
+      ],
+      "notes": "The article mentions the declaration of infrastructure projects worth over Rs 3,242.95 crore in Bhagalpur and neighbouring districts, which is a significant commitment.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-21",
+      "created_at": "2026-10-21",
+      "url_checked_at": "2026-10-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "It specifies a set of infrastructure projects in a limited geographic area, not a nationwide or transformational state-level commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-21"
     }
   ]
 }
