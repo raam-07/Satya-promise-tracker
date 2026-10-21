@@ -4,8 +4,8 @@
     "last_updated": "2026-10-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 272,
-    "promises_with_evidence": 272,
+    "total_promises": 273,
+    "promises_with_evidence": 273,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22791,6 +22791,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "Aims to eliminate a major societal issue affecting millions across the country.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p273",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Eliminate the drug menace by the end of 2029",
+      "supporting_quote": "narcotics threaten future generations and provide financial support to organisations involved in anti-national activities as he asked police forces across the country to ensure the drug menace is eliminated by the end of 2029",
+      "category": "law_and_order",
+      "made_on": "2026-10-21",
+      "reported_on": "2026-10-21",
+      "deadline": "2029",
+      "source_url": "https://www.thehindu.com/news/national/police-forces-across-the-country-should-work-together-to-make-india-drug-free-amit-shah/article71607550.ece",
+      "url": "https://www.thehindu.com/news/national/police-forces-across-the-country-should-work-together-to-make-india-drug-free-amit-shah/article71607550.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Police+forces+across+the+country+should+work+together+to+make+India+drug-free+Amit+Shah",
+      "source_description": "Police forces across the country should work together to make India drug-free: Amit Shah",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Eliminate the drug menace by the end of 2029",
+        "quote": "narcotics threaten future generations and provide financial support to organisations involved in anti-national activities as he asked police forces across the country to ensure the drug menace is eliminated by the end of 2029",
+        "source_url": "https://www.thehindu.com/news/national/police-forces-across-the-country-should-work-together-to-make-india-drug-free-amit-shah/article71607550.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-21",
+        "made_on": "2026-10-21",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-21",
+          "evidence_url": "https://www.thehindu.com/news/national/police-forces-across-the-country-should-work-together-to-make-india-drug-free-amit-shah/article71607550.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "Amit Shah declared a national priority to eliminate drugs by 2029, which is a new commitment not matching any existing promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/police-forces-across-the-country-should-work-together-to-make-india-drug-free-amit-shah/article71607550.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Police+forces+across+the+country+should+work+together+to+make+India+drug-free+Amit+Shah",
+          "supporting_quote": "narcotics threaten future generations and provide financial support to organisations involved in anti-national activities as he asked police forces across the country to ensure the drug menace is eliminated by the end of 2029",
+          "title": "Police forces across the country should work together to make India drug-free: Amit Shah",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 21, 2026, Union Home Minister **Amit Shah** visited the **National Police Memorial** to honor martyrs. He urged police forces to eliminate drugs by December 31, 2029, a deadline set by Prime Minister **Narendra Modi**. **Shah** also noted that **Chhattisgarh Police**, **CAPF**, **CRPF**, ...",
+          "content": "Union Home Minister Amit Shah on Wednesday (October 21, 2026) said that narcotics threaten future generations and provide financial support to organisations involved in anti-national activities as he asked police forces across the country to ensure the drug menace is eliminated by the end of 2029. Prime Minister Narendra Modi has set a deadline of December 31, 2029, to make India drugs-free. Payin...",
+          "quote": "narcotics threaten future generations and provide financial support to organisations involved in anti-national activities as he asked police forces across the country to ensure the drug menace is eliminated by the end of 2029"
+        }
+      ],
+      "notes": "Amit Shah declared a national priority to eliminate drugs by 2029, which is a new commitment not matching any existing promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-21",
+      "created_at": "2026-10-21",
+      "url_checked_at": "2026-10-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "Affecting the entire country and addressing a widespread societal issue.",
       "importance_source": "llm"
     }
   ]
