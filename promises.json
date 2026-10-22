@@ -4,8 +4,8 @@
     "last_updated": "2026-10-22",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 277,
-    "promises_with_evidence": 277,
+    "total_promises": 278,
+    "promises_with_evidence": 278,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23160,6 +23160,80 @@
       "importance": "minor",
       "importance_reason": "Filling police vacancies, while important, is a routine governance task.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p278",
+      "person": "Vishnu Deo Sai",
+      "party": "BJP",
+      "role": "Chief Minister of Chhattisgarh",
+      "promise": "Announce financial assistance of ₹5 lakh each to the kin of the deceased and ₹50,000 to each injured person",
+      "supporting_quote": "The State government will provide financial assistance of ₹5 lakh each to the families of the deceased and ₹50,000 each to those injured, he said.",
+      "category": "welfare",
+      "made_on": "2026-10-22",
+      "reported_on": "2026-10-22",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/chhattisgarh/bus-hits-tree-in-chhattisgarh-deaths-injuries-cm-compensation/article71612211.ece",
+      "url": "https://www.thehindu.com/news/national/chhattisgarh/bus-hits-tree-in-chhattisgarh-deaths-injuries-cm-compensation/article71612211.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Six+dead+40+injured+as+bus+hits+tree+in+Chhattisgarh+CM+announces+compensation",
+      "source_description": "Six dead, 40 injured as bus hits tree in Chhattisgarh; CM announces compensation",
+      "declaration": {
+        "person": "Vishnu Deo Sai",
+        "claim": "Announce financial assistance of ₹5 lakh each to the kin of the deceased and ₹50,000 to each injured person",
+        "quote": "The State government will provide financial assistance of ₹5 lakh each to the families of the deceased and ₹50,000 each to those injured, he said.",
+        "source_url": "https://www.thehindu.com/news/national/chhattisgarh/bus-hits-tree-in-chhattisgarh-deaths-injuries-cm-compensation/article71612211.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-22",
+        "made_on": "2026-10-22",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-22",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-22",
+          "evidence_url": "https://www.thehindu.com/news/national/chhattisgarh/bus-hits-tree-in-chhattisgarh-deaths-injuries-cm-compensation/article71612211.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The CM Vishnu Deo Sai personally announced financial assistance in response to a specific incident, which is a new promise.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/chhattisgarh/bus-hits-tree-in-chhattisgarh-deaths-injuries-cm-compensation/article71612211.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Six+dead+40+injured+as+bus+hits+tree+in+Chhattisgarh+CM+announces+compensation",
+          "supporting_quote": "The State government will provide financial assistance of ₹5 lakh each to the families of the deceased and ₹50,000 each to those injured, he said.",
+          "title": "Six dead, 40 injured as bus hits tree in Chhattisgarh; CM announces compensation",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-22",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On Thursday, October 22, 2026, a bus carrying 46 passengers collided with a tree near Semarmathani turn in **Manendragarh-Chirmiri-Bharatpur** district. Six people, including four women, died and 40 were injured. **Superintendent of Police Ratna Singh** stated the driver lost control. **Chief Minist...",
+          "content": "Six persons, including four women, were killed and 40 others injured after a bus collided with a roadside tree in Chhattisgarh's Manendragarh-Chirmiri-Bharatpur (MCB) district on Thursday (October 22, 2026), police said. Chief Minister Vishnu Deo Sai expressed grief over the accident and announced financial assistance of ₹5 lakh each to the kin of the deceased and ₹50,000 to each injured person. T...",
+          "quote": "The State government will provide financial assistance of ₹5 lakh each to the families of the deceased and ₹50,000 each to those injured, he said."
+        }
+      ],
+      "notes": "The CM Vishnu Deo Sai personally announced financial assistance in response to a specific incident, which is a new promise.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-22",
+      "created_at": "2026-10-22",
+      "url_checked_at": "2026-10-22",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a one-time financial assistance scheme, not a transformational commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-22"
     }
   ]
 }
