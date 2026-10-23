@@ -67,4 +67,4 @@ jobs:
           set -o pipefail
           T0=$(date +%s)
           python eval_pipeline.py 2>&1 | tee /tmp/eval.txt
-          echo "::notice title=Eval ${{ matrix.model }} ($(( ($(date +%s) - T0) / 60 )) min)::$(grep -E 'EVAL_SUMMARY|^\| [0-9]' /tmp/eval.txt | cut -c1-400 | sed ':a;N;$!ba;s/%/%25/g;s/\n/%0A/g')"
+          echo "::notice title=Eval ${{ matrix.model }} ($(( ($(date +%s) - T0) / 60 )) min)::$(grep -E 'EVAL_SUMMARY|^\| [0-9]' /tmp/eval.txt | cut -c1-700 | sed ':a;N;$!ba;s/%/%25/g;s/\n/%0A/g')"
