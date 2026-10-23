@@ -4,8 +4,8 @@
     "last_updated": "2026-10-23",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 281,
-    "promises_with_evidence": 281,
+    "total_promises": 282,
+    "promises_with_evidence": 282,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23456,6 +23456,79 @@
       "importance_reason": "It is a single infrastructure project, not a transformational commitment affecting a large population or resources.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-23"
+    },
+    {
+      "id": "p282",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Provide daily employment to workers through a special scheme after Sankranti for four months until May",
+      "supporting_quote": "The CM announced that a special scheme will be introduced after Sankranti for four months until May, to provide daily employment to workers.",
+      "category": "jobs/employment",
+      "made_on": "2026-10-23",
+      "reported_on": "2026-10-23",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/news/national/telangana/el-nino-induced-water-and-power-crisis-likely-to-persist-until-july-revanth/article71617402.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/el-nino-induced-water-and-power-crisis-likely-to-persist-until-july-revanth/article71617402.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=El+Nino-induced+water+and+power+crisis+likely+to+persist+until+July+Revanth",
+      "source_description": "El Nino-induced water and power crisis likely to persist until July: Revanth",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Provide daily employment to workers through a special scheme after Sankranti for four months until May",
+        "quote": "The CM announced that a special scheme will be introduced after Sankranti for four months until May, to provide daily employment to workers.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/el-nino-induced-water-and-power-crisis-likely-to-persist-until-july-revanth/article71617402.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-23",
+        "made_on": "2026-10-23",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-23",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-23",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/el-nino-induced-water-and-power-crisis-likely-to-persist-until-july-revanth/article71617402.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article mentions a new employment scheme announced by the Chief Minister, but no further details or implementation status are provided.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/el-nino-induced-water-and-power-crisis-likely-to-persist-until-july-revanth/article71617402.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=El+Nino-induced+water+and+power+crisis+likely+to+persist+until+July+Revanth",
+          "supporting_quote": "The CM announced that a special scheme will be introduced after Sankranti for four months until May, to provide daily employment to workers.",
+          "title": "El Nino-induced water and power crisis likely to persist until July: Revanth",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-23",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**A. Revanth Reddy** warned **Telangana** faces a drinking water crisis until July next year due to El Nino, which affects agriculture and electricity. With less than 200 tmc feet in reservoirs and 15 lakh of 30 lakh pump sets dried up, he urged conservation. He announced a special employment scheme...",
+          "content": "Chief Minister A. Revanth Reddy warned that Telangana could face prolonged drinking water crisis until July next year due to the impact of El Nino, affecting agricultural operations and increased electricity consumption. Addressing a high-level meeting on the State’s preparedness to tackle El Nino-related conditions on Friday, Mr. Revanth Reddy said the government had been alerting people about th...",
+          "quote": "The CM announced that a special scheme will be introduced after Sankranti for four months until May, to provide daily employment to workers."
+        }
+      ],
+      "notes": "The article mentions a new employment scheme announced by the Chief Minister, but no further details or implementation status are provided.",
+      "qwen_confidence": "low",
+      "qwen_assessed_at": "2026-10-23",
+      "created_at": "2026-10-23",
+      "url_checked_at": "2026-10-23",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a temporary, state-level employment scheme rather than a transformational, national-level commitment.",
+      "importance_source": "llm"
     }
   ]
 }
