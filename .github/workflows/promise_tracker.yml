@@ -15,6 +15,17 @@ on:
         required: false
         type: boolean
         default: false
+      eval:
+        description: 'Run the evaluation test cases (eval_pipeline.py) and exit: nothing is written'
+        required: false
+        type: boolean
+        default: false
+      model:
+        description: 'Large model for this run (default: the live one)'
+        required: false
+        type: choice
+        options: [default, gemma, qwen]
+        default: default
 
 concurrency:
   group: satya-promise-tracker
@@ -30,6 +41,10 @@ jobs:
   track_promises:
     runs-on: ubuntu-latest
     timeout-minutes: 300
+    env:
+      # The large model (extraction, matching, critic). GEMMA_SWITCH: the live default.
+      LIVE_MODEL: qwen
+      PICK: ${{ github.event.inputs.model || 'default' }}
     permissions:
       contents: write  # Added permission to commit and push changes back to the repository
       actions: write
@@ -72,12 +87,24 @@ jobs:
             --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu \
             --no-cache-dir
 
+      - name: Which large model
+        run: |
+          M="$PICK"; [ "$M" = default ] && M="$LIVE_MODEL"
+          if [ "$M" = gemma ]; then
+            echo "MODEL_GATE_PATH=./models/gemma-4-12b-it-Q4_K_M.gguf" >> $GITHUB_ENV
+            echo "CACHE_KEY=promise-tracker-gemma4-12b-gemma2b-v1" >> $GITHUB_ENV
+          else
+            echo "MODEL_GATE_PATH=./models/Qwen2.5-14B-Instruct-Q5_K_M.gguf" >> $GITHUB_ENV
+            echo "CACHE_KEY=promise-tracker-qwen14b-gemma2b-q5-v1" >> $GITHUB_ENV
+          fi
+          echo "large model: $M"
+
       - name: Cache local models
         id: cache-models
         uses: actions/cache@v4
         with:
           path: ./models
-          key: promise-tracker-qwen14b-gemma2b-q5-v1
+          key: ${{ env.CACHE_KEY }}
 
       - name: Download local LLM models
         if: steps.cache-models.outputs.cache-hit != 'true'
@@ -109,17 +136,13 @@ jobs:
                   shutil.rmtree(temp_cache)
                   os.makedirs(temp_cache, exist_ok=True)
               
-          # Qwen 14B gate/extractor
-          model_gate = "./models/Qwen2.5-14B-Instruct-Q5_K_M.gguf"
+          # The large model (MODEL_GATE_PATH): Gemma 4 12B, or Qwen 14B
+          model_gate = os.environ["MODEL_GATE_PATH"]
           if not os.path.exists(model_gate):
-              print("Downloading Qwen 14B...")
-              hf_hub_download(
-                  repo_id="bartowski/Qwen2.5-14B-Instruct-GGUF",
-                  filename="Qwen2.5-14B-Instruct-Q5_K_M.gguf",
-                  local_dir="./models",
-                  local_dir_use_symlinks=False,
-                  cache_dir=temp_cache
-              )
+              name = os.path.basename(model_gate)
+              repo = "unsloth/gemma-4-12b-it-GGUF" if name.startswith("gemma-4") else "bartowski/Qwen2.5-14B-Instruct-GGUF"
+              print(f"Downloading {name} from {repo}...")
+              hf_hub_download(repo_id=repo, filename=name, local_dir="./models", local_dir_use_symlinks=False, cache_dir=temp_cache)
               if os.path.exists(temp_cache):
                   shutil.rmtree(temp_cache)
           '
@@ -133,14 +156,20 @@ jobs:
         run: |
           # Safe, non-destructive schema migration. Legacy entries are marked
           # unverified rather than having their historical claims rewritten.
+          if [ "${{ github.event.inputs.eval }}" = "true" ]; then
+            set -o pipefail
+            python eval_pipeline.py 2>&1 | tee /tmp/eval.txt
+            echo "::notice title=Eval $(basename "$MODEL_GATE_PATH")::$(grep -E 'EVAL_SUMMARY|^\| [0-9]' /tmp/eval.txt | cut -c1-300 | sed ':a;N;$!ba;s/%/%25/g;s/\n/%0A/g')"
+            exit 0
+          fi
           python promise_tracker_pipeline.py --migrate-schema
           if [ "${{ github.event.inputs.recategorize }}" = "true" ]; then
             python promise_tracker_pipeline.py --recategorize
           elif [ "${{ github.event.inputs.backfill_importance }}" = "true" ]; then
             python promise_tracker_pipeline.py --backfill-importance
           else
-            # Soft deadline 250 min (hard timeout 300). Qwen needs ~10-15 min per
-            # qualifying article, so a promise-heavy batch can't finish all 500.
+            # Soft deadline 250 min (hard timeout 300). The large model needs ~10-15 min per
+            # qualifying article (Qwen 14B; Gemma 4 12B is faster), so a promise-heavy batch can't finish all 500.
             # Pipeline stops cleanly between articles, saves completed work,
             # defers the rest; has_more re-dispatches the next run.
             DEADLINE=$(( $(date +%s) + 250*60 ))
@@ -148,6 +177,7 @@ jobs:
           fi
 
       - name: Guard — block accidental promise deletions
+        if: github.event.inputs.eval != 'true'
         run: |
           python - << 'EOF'
           import json, subprocess, sys
@@ -169,6 +199,7 @@ jobs:
           EOF
 
       - name: Commit and Push Changes
+        if: github.event.inputs.eval != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -209,6 +240,7 @@ jobs:
 
       # The site reads promises.json from this repo.
       - name: Publish promises.json
+        if: github.event.inputs.eval != 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -221,7 +253,7 @@ jobs:
           echo "::warning::could not publish promises.json"
 
       - name: Trigger Self Loop
-        if: steps.run-step.outputs.has_more == 'true'
+        if: steps.run-step.outputs.has_more == 'true' && github.event.inputs.eval != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -233,7 +265,7 @@ jobs:
             -d '{"ref":"main"}'
 
       - name: Revalidate Content Cache
-        if: steps.run-step.outputs.has_more != 'true'
+        if: steps.run-step.outputs.has_more != 'true' && github.event.inputs.eval != 'true'
         run: |
           echo "Final batch complete. Revalidating all content caches..."
           curl -s -X POST "https://satyadheesh.in/api/revalidate?secret=${{ secrets.REVALIDATE_SECRET }}"

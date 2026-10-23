@@ -1,0 +1,70 @@
+name: Promise tracker eval
+
+# The evaluation test cases (eval_pipeline.py, eval_articles.json) on one or more large models, side by side, without
+# touching the live pipeline (own concurrency, writes nothing). Added 24 Oct 2026 for the Qwen 14B -> Gemma 4 12B move.
+on:
+  workflow_dispatch:
+    inputs:
+      models:
+        description: 'Models to test (JSON list): gemma, qwen'
+        default: '["gemma","qwen"]'
+
+env:
+  CORE_TOKEN: ${{ secrets.CORE_TOKEN }}
+  PYTHONPATH: ${{ github.workspace }}/.ci
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        model: ${{ fromJSON(github.event.inputs.models) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}-core
+          token: ${{ secrets.CORE_TOKEN }}
+          ref: main
+      - name: Free disk space
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/share/powershell /usr/share/swift
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt "llama-cpp-python>=0.3.35" huggingface_hub \
+            --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu --no-cache-dir
+      - name: Model
+        run: |
+          if [ "${{ matrix.model }}" = gemma ]; then
+            echo "MODEL_GATE_PATH=./models/gemma-4-12b-it-Q4_K_M.gguf" >> $GITHUB_ENV
+            echo "CACHE_KEY=promise-tracker-gemma4-12b-gemma2b-v1" >> $GITHUB_ENV
+          else
+            echo "MODEL_GATE_PATH=./models/Qwen2.5-14B-Instruct-Q5_K_M.gguf" >> $GITHUB_ENV
+            echo "CACHE_KEY=promise-tracker-qwen14b-gemma2b-q5-v1" >> $GITHUB_ENV
+          fi
+      - uses: actions/cache/restore@v4
+        with:
+          path: ./models
+          key: ${{ env.CACHE_KEY }}
+      - name: Download if missing
+        run: |
+          python -c '
+          import os
+          from huggingface_hub import hf_hub_download
+          p = os.environ["MODEL_GATE_PATH"]; name = os.path.basename(p)
+          if not os.path.exists(p):
+              repo = "unsloth/gemma-4-12b-it-GGUF" if name.startswith("gemma-4") else "bartowski/Qwen2.5-14B-Instruct-GGUF"
+              print("downloading", name, "from", repo)
+              hf_hub_download(repo_id=repo, filename=name, local_dir="./models")
+          '
+          ls -la models
+      - name: Eval
+        run: |
+          set -o pipefail
+          T0=$(date +%s)
+          python eval_pipeline.py 2>&1 | tee /tmp/eval.txt
+          echo "::notice title=Eval ${{ matrix.model }} ($(( ($(date +%s) - T0) / 60 )) min)::$(grep -E 'EVAL_SUMMARY|^\| [0-9]' /tmp/eval.txt | cut -c1-400 | sed ':a;N;$!ba;s/%/%25/g;s/\n/%0A/g')"
