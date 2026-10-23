@@ -4,8 +4,8 @@
     "last_updated": "2026-10-23",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 278,
-    "promises_with_evidence": 278,
+    "total_promises": 279,
+    "promises_with_evidence": 279,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23234,6 +23234,80 @@
       "importance_reason": "It is a one-time financial assistance scheme, not a transformational commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-22"
+    },
+    {
+      "id": "p279",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Strengthen intelligence-sharing and operational coordination among southern States",
+      "supporting_quote": "Calling for a united front against criminal networks operating across State borders, Telangana Chief Minister A. Revanth Reddy on Friday (October 23, 2026) urged southern States to strengthen intelligence-sharing and operational coordination, stressing that no State could effectively combat crime in isolation.",
+      "category": "law_and_order",
+      "made_on": "2026-10-23",
+      "reported_on": "2026-10-23",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/telangana/southern-states-should-strengthen-intelligence-sharing-operational-coordination-telangana-cm/article71615221.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/southern-states-should-strengthen-intelligence-sharing-operational-coordination-telangana-cm/article71615221.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Southern+States+should+strengthen+intelligence-sharing+operational+coordination+Telangana+CM",
+      "source_description": "Southern States should strengthen intelligence-sharing, operational coordination: Telangana CM",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Strengthen intelligence-sharing and operational coordination among southern States",
+        "quote": "Calling for a united front against criminal networks operating across State borders, Telangana Chief Minister A. Revanth Reddy on Friday (October 23, 2026) urged southern States to strengthen intelligence-sharing and operational coordination, stressing that no State could effectively combat crime in isolation.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/southern-states-should-strengthen-intelligence-sharing-operational-coordination-telangana-cm/article71615221.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-23",
+        "made_on": "2026-10-23",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-23",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-23",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/southern-states-should-strengthen-intelligence-sharing-operational-coordination-telangana-cm/article71615221.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "The article reports a new declaration by A. Revanth Reddy to strengthen intelligence-sharing and operational coordination among southern States.",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/southern-states-should-strengthen-intelligence-sharing-operational-coordination-telangana-cm/article71615221.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Southern+States+should+strengthen+intelligence-sharing+operational+coordination+Telangana+CM",
+          "supporting_quote": "Calling for a united front against criminal networks operating across State borders, Telangana Chief Minister A. Revanth Reddy on Friday (October 23, 2026) urged southern States to strengthen intelligence-sharing and operational coordination, stressing that no State could effectively combat crime in isolation.",
+          "title": "Southern States should strengthen intelligence-sharing, operational coordination: Telangana CM",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-23",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 23, 2026, **Telangana Chief Minister A. Revanth Reddy** inaugurated the Southern States’ Police Coordination Committee meeting at **TGICCC** in Hyderabad. He urged southern states to share intelligence against cybercrime and narcotics. **DGP C. V. Anand** reported restoring ₹16.42 crore t...",
+          "content": "Calling for a united front against criminal networks operating across State borders, Telangana Chief Minister A. Revanth Reddy on Friday (October 23, 2026) urged southern States to strengthen intelligence-sharing and operational coordination, stressing that no State could effectively combat crime in isolation. Inaugurating the Southern States’ Police Coordination Committee meeting at the Telangana...",
+          "quote": "Calling for a united front against criminal networks operating across State borders, Telangana Chief Minister A. Revanth Reddy on Friday (October 23, 2026) urged southern States to strengthen intelligence-sharing and operational coordination, stressing that no State could effectively combat crime in isolation."
+        }
+      ],
+      "notes": "The article reports a new declaration by A. Revanth Reddy to strengthen intelligence-sharing and operational coordination among southern States.",
+      "qwen_confidence": "medium",
+      "qwen_assessed_at": "2026-10-23",
+      "created_at": "2026-10-23",
+      "url_checked_at": "2026-10-23",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "It is a routine governance action aimed at improving inter-state coordination, not a transformational commitment affecting a large population or resources.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-23"
     }
   ]
 }
