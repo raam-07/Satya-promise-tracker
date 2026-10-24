@@ -32,7 +32,8 @@ on:
         default: default
 
 concurrency:
-  group: satya-promise-tracker
+  # A replay test writes nothing, so it gets its own queue and never holds up a live run.
+  group: ${{ (github.event.inputs.replay != '' && github.event.inputs.replay != '0' && github.event.inputs.replay != null) && 'promise-replay' || 'satya-promise-tracker' }}
   cancel-in-progress: false
 
 
@@ -172,7 +173,7 @@ jobs:
             T0=$(date +%s)
             python promise_tracker_pipeline.py --replay "$N" 2>&1 | tee /tmp/replay.txt
             MIN=$(( ($(date +%s) - T0) / 60 ))
-            grep -E 'REPLAY:|Regex screening|Discarded as noise|Loading|Evaluating Article|"politician"|"promise_text"|"verdict"|Extractor: (Failed|Discarding)|Discarding|Critic (Rejected|Approved)|Matched|Updated existing|Created new|Dry run complete|CRITICAL|Traceback|Error' /tmp/replay.txt \
+            grep -E 'REPLAY:|not a promise|no promise in this article|invalid JSON|Regex screening|Discarded as noise|Loading|Evaluating Article|"politician"|"promise_text"|"verdict"|Extractor: (Failed|Discarding)|Discarding|Critic (Rejected|Approved)|Matched|Updated existing|Created new|Dry run complete|CRITICAL|Traceback|Error' /tmp/replay.txt \
               | sed -E 's/^[0-9-]+ [0-9:,]+ - //' | cut -c1-220 > /tmp/replay_short.txt || true
             echo "::notice title=Replay $(basename "$MODEL_GATE_PATH") ($MIN min)::$(head -c 60000 /tmp/replay_short.txt | sed ':a;N;$!ba;s/%/%25/g;s/\r//g;s/\n/%0A/g')"
             exit 0
