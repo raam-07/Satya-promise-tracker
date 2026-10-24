@@ -20,6 +20,10 @@ on:
         required: false
         type: boolean
         default: false
+      replay:
+        description: 'Test: dry-run the N latest already-processed articles + 6 newest evidence articles and exit (0 = normal run; nothing is written)'
+        required: false
+        default: '0'
       model:
         description: 'Large model for this run (default: the live one)'
         required: false
@@ -162,6 +166,17 @@ jobs:
             echo "::notice title=Eval $(basename "$MODEL_GATE_PATH")::$(grep -E 'EVAL_SUMMARY|^\| [0-9]' /tmp/eval.txt | cut -c1-300 | sed ':a;N;$!ba;s/%/%25/g;s/\n/%0A/g')"
             exit 0
           fi
+          N="${{ github.event.inputs.replay }}"
+          if [ -n "$N" ] && [ "$N" != "0" ]; then
+            set -o pipefail
+            T0=$(date +%s)
+            python promise_tracker_pipeline.py --replay "$N" 2>&1 | tee /tmp/replay.txt
+            MIN=$(( ($(date +%s) - T0) / 60 ))
+            grep -E 'REPLAY:|Regex screening|Discarded as noise|Loading|Evaluating Article|"politician"|"promise_text"|"verdict"|Extractor: (Failed|Discarding)|Discarding|Critic (Rejected|Approved)|Matched|Updated existing|Created new|Dry run complete|CRITICAL|Traceback|Error' /tmp/replay.txt \
+              | sed -E 's/^[0-9-]+ [0-9:,]+ - //' | cut -c1-220 > /tmp/replay_short.txt || true
+            echo "::notice title=Replay $(basename "$MODEL_GATE_PATH") ($MIN min)::$(head -c 60000 /tmp/replay_short.txt | sed ':a;N;$!ba;s/%/%25/g;s/\r//g;s/\n/%0A/g')"
+            exit 0
+          fi
           python promise_tracker_pipeline.py --migrate-schema
           if [ "${{ github.event.inputs.recategorize }}" = "true" ]; then
             python promise_tracker_pipeline.py --recategorize
@@ -177,7 +192,7 @@ jobs:
           fi
 
       - name: Guard — block accidental promise deletions
-        if: github.event.inputs.eval != 'true'
+        if: github.event.inputs.eval != 'true' && (github.event.inputs.replay == '' || github.event.inputs.replay == '0' || github.event.inputs.replay == null)
         run: |
           python - << 'EOF'
           import json, subprocess, sys
@@ -199,7 +214,7 @@ jobs:
           EOF
 
       - name: Commit and Push Changes
-        if: github.event.inputs.eval != 'true'
+        if: github.event.inputs.eval != 'true' && (github.event.inputs.replay == '' || github.event.inputs.replay == '0' || github.event.inputs.replay == null)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -240,7 +255,7 @@ jobs:
 
       # The site reads promises.json from this repo.
       - name: Publish promises.json
-        if: github.event.inputs.eval != 'true'
+        if: github.event.inputs.eval != 'true' && (github.event.inputs.replay == '' || github.event.inputs.replay == '0' || github.event.inputs.replay == null)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -253,7 +268,7 @@ jobs:
           echo "::warning::could not publish promises.json"
 
       - name: Trigger Self Loop
-        if: steps.run-step.outputs.has_more == 'true' && github.event.inputs.eval != 'true'
+        if: steps.run-step.outputs.has_more == 'true' && github.event.inputs.eval != 'true' && (github.event.inputs.replay == '' || github.event.inputs.replay == '0' || github.event.inputs.replay == null)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -265,7 +280,7 @@ jobs:
             -d '{"ref":"main"}'
 
       - name: Revalidate Content Cache
-        if: steps.run-step.outputs.has_more != 'true' && github.event.inputs.eval != 'true'
+        if: steps.run-step.outputs.has_more != 'true' && github.event.inputs.eval != 'true' && (github.event.inputs.replay == '' || github.event.inputs.replay == '0' || github.event.inputs.replay == null)
         run: |
           echo "Final batch complete. Revalidating all content caches..."
           curl -s -X POST "https://satyadheesh.in/api/revalidate?secret=${{ secrets.REVALIDATE_SECRET }}"
