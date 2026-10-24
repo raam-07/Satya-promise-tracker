@@ -21,7 +21,7 @@ on:
         type: boolean
         default: false
       replay:
-        description: 'Test: dry-run the N latest already-processed articles + 6 newest evidence articles and exit (0 = normal run; nothing is written)'
+        description: 'Test, writes nothing: N latest processed articles + 6 newest evidence articles; or N/K:OFF = N latest + K evidence articles skipping OFF (0 = normal run)'
         required: false
         default: '0'
       model:
@@ -33,7 +33,7 @@ on:
 
 concurrency:
   # A replay test writes nothing, so it gets its own queue and never holds up a live run.
-  group: ${{ (github.event.inputs.replay != '' && github.event.inputs.replay != '0' && github.event.inputs.replay != null) && 'promise-replay' || 'satya-promise-tracker' }}
+  group: ${{ (github.event.inputs.replay != '' && github.event.inputs.replay != '0' && github.event.inputs.replay != null) && format('promise-replay-{0}', github.event.inputs.replay) || 'satya-promise-tracker' }}
   cancel-in-progress: false
 
 
@@ -171,7 +171,8 @@ jobs:
           if [ -n "$N" ] && [ "$N" != "0" ]; then
             set -o pipefail
             T0=$(date +%s)
-            python promise_tracker_pipeline.py --replay "$N" 2>&1 | tee /tmp/replay.txt
+            EV=6; case "$N" in */*) EV="${N#*/}"; N="${N%%/*}";; esac
+            python promise_tracker_pipeline.py --replay "$N" --replay-evidence "$EV" 2>&1 | tee /tmp/replay.txt
             MIN=$(( ($(date +%s) - T0) / 60 ))
             grep -E 'REPLAY:|not a promise|no promise in this article|invalid JSON|Regex screening|Discarded as noise|Loading|Evaluating Article|"politician"|"promise_text"|"verdict"|Extractor: (Failed|Discarding)|Discarding|Critic (Rejected|Approved)|Matched|Updated existing|Created new|Dry run complete|CRITICAL|Traceback|Error' /tmp/replay.txt \
               | sed -E 's/^[0-9-]+ [0-9:,]+ - //' | cut -c1-220 > /tmp/replay_short.txt || true
