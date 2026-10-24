@@ -47,7 +47,7 @@ jobs:
     timeout-minutes: 300
     env:
       # The large model (extraction, matching, critic): Gemma 4 12B since 24 Oct; input model=qwen still runs the old one.
-      LIVE_MODEL: gemma
+      LIVE_MODEL: qwen
       PICK: ${{ github.event.inputs.model || 'default' }}
     permissions:
       contents: write  # Added permission to commit and push changes back to the repository
