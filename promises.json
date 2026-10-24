@@ -4,8 +4,8 @@
     "last_updated": "2026-10-24",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 282,
-    "promises_with_evidence": 282,
+    "total_promises": 283,
+    "promises_with_evidence": 283,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23528,6 +23528,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "It is a temporary, state-level employment scheme rather than a transformational, national-level commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p283",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Unveil Aerospace and Defence Policy 2.0 aligned with Telangana Rising Vision 2047",
+      "supporting_quote": "The government would soon unveil its Aerospace and Defence Policy 2.0, aligned with the Telangana Rising Vision 2047, he said.",
+      "category": "economy",
+      "made_on": "2026-10-24",
+      "reported_on": "2026-10-24",
+      "deadline": "2047",
+      "source_url": "https://www.thehindu.com/news/national/telangana/telangana-to-unveil-new-aerospace-and-defence-policy-20-soon-says-revanth/article71621205.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/telangana-to-unveil-new-aerospace-and-defence-policy-20-soon-says-revanth/article71621205.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Telangana+to+unveil+new+Aerospace+and+Defence+Policy+2+0+soon+says+Revanth",
+      "source_description": "Telangana to unveil new Aerospace and Defence Policy 2.0 soon, says Revanth",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Unveil Aerospace and Defence Policy 2.0 aligned with Telangana Rising Vision 2047",
+        "quote": "The government would soon unveil its Aerospace and Defence Policy 2.0, aligned with the Telangana Rising Vision 2047, he said.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/telangana-to-unveil-new-aerospace-and-defence-policy-20-soon-says-revanth/article71621205.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-24",
+        "made_on": "2026-10-24",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-24",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-24",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/telangana-to-unveil-new-aerospace-and-defence-policy-20-soon-says-revanth/article71621205.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/telangana-to-unveil-new-aerospace-and-defence-policy-20-soon-says-revanth/article71621205.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Telangana+to+unveil+new+Aerospace+and+Defence+Policy+2+0+soon+says+Revanth",
+          "supporting_quote": "The government would soon unveil its Aerospace and Defence Policy 2.0, aligned with the Telangana Rising Vision 2047, he said.",
+          "title": "Telangana to unveil new Aerospace and Defence Policy 2.0 soon, says Revanth",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-24",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**A. Revanth Reddy**, Chief Minister of **Telangana**, announced the state aims to become India’s largest defence industrial hub during the **Raksha Expo-2026** curtain-raiser. He urged companies to double investments in aerospace, AI, and drone technology before unveiling **Aerospace and Defence Po...",
+          "content": "Chief Minister A. Revanth Reddy said Telangana aimed to emerge as the country’s largest industrial hub for the defence industry, calling upon domestic and global companies to step up investments in defence manufacturing, aerospace, space technology, cybersecurity, artificial intelligence (AI) and drone technology. Addressing the curtain-raiser for Raksha Expo-2026, he said the State had the necess...",
+          "quote": "The government would soon unveil its Aerospace and Defence Policy 2.0, aligned with the Telangana Rising Vision 2047, he said."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-24",
+      "created_at": "2026-10-24",
+      "url_checked_at": "2026-10-24",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "The unveiling of a policy document is an administrative and planning step rather than a large-scale, transformational delivery of resources or infrastructure.",
       "importance_source": "llm"
     }
   ]
