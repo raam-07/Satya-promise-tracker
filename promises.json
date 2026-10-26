@@ -4,8 +4,8 @@
     "last_updated": "2026-10-26",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 284,
-    "promises_with_evidence": 284,
+    "total_promises": 285,
+    "promises_with_evidence": 285,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23662,6 +23662,98 @@
           "rephrased": "Union Home Minister **Amit Shah** announced that **Operation Trident** smashed an international narco-cartel across 38 locations in **Assam**, **Mizoram**, and **Manipur** on October 23, 2026. The operation arrested 18 people, froze 1,424 bank accounts, and attached properties worth ₹17.82 crore. Ag...",
           "content": "Amit Shah hails ‘lethal blow’ to international narco-cartel following anti-narcotics operation in Assam, Mizoram and Manipur The operation carried out by multiple agencies brought to light hawala transactions worth ₹100 crore, froze 1,424 bank accounts, and attached properties worth ₹17.82 crore Union Home Minister Amit Shah. File. | Photo Credit: PTI A barrage of simultaneous crackdowns under Ope...",
           "quote": "The offensive attests to India's Himalayan resolve to realise the mission of eradicating every drug network by 31 December 2029."
+        },
+        {
+          "url": "https://www.ndtv.com/india-news/international-narco-cartel-busted-in-northeast-under-operation-trident-union-home-minister-amit-shah-12232629#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=International+Narco-Cartel+Busted+In+Northeast+Under+Op+Trident+Amit+Shah",
+          "supporting_quote": "Earlier on October 21, speaking at Police Commemoration Day in New Delhi, HM Shah announced that the Union Home Ministry has decided that during the remaining part of 2026, as well as in 2027, 2028 and 2029, a united fight will be waged against drugs over the next three-and-a-half years, and the country will be free from the drug problem by December 31, 2029.",
+          "title": "International Narco-Cartel Busted In Northeast Under 'Op Trident': Amit Shah",
+          "source": "NDTV",
+          "scraped_at": "2026-10-25",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Union Home Minister Amit Shah** announced that anti-narcotics agencies dismantled an international narco-cartel during **Operation Trident** on 23 October. The crackdown across 38 locations in Assam, Mizoram and Manipur arrested 18 people, froze 1,424 bank accounts, seized ₹12 lakh cash and 500 de...",
+          "content": "Anti-narcotics agencies conducted coordinated operations across Assam, Mizoram and Manipur under 'Operation Trident', dismantling an international narco-cartel and arresting 18 people, the Central government announced on Sunday. Union Home Minister Amit Shah announced the success of the operation in a post on X, describing it as another major action against drug trafficking. \"Modi Govt deals anoth...",
+          "quote": "Earlier on October 21, speaking at Police Commemoration Day in New Delhi, HM Shah announced that the Union Home Ministry has decided that during the remaining part of 2026, as well as in 2027, 2028 and 2029, a united fight will be waged against drugs over the next three-and-a-half years, and the country will be free from the drug problem by December 31, 2029."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-26",
+      "created_at": "2026-10-26",
+      "url_checked_at": "2026-10-26",
+      "promise_type": "specific",
+      "evidence_count": 2,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "A nationwide, transformational goal targeting a systemic national security and public health crisis.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p285",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Build the Kittur Channamma Freedom Park in the Kittur Fort in Belagavi district at a cost of ₹40 crore",
+      "supporting_quote": "The State government will build the Kittur Channamma Freedom Park in the Kittur Fort in Belagavi district at a cost of ₹40 crore, Chief Minister D.K. Shivakumar said on Sunday.",
+      "category": "infrastructure",
+      "made_on": "2026-10-25",
+      "reported_on": "2026-10-25",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/freedom-park-will-come-up-in-kittur-fort-says-cm-shivakumar/article71624274.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/freedom-park-will-come-up-in-kittur-fort-says-cm-shivakumar/article71624274.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Freedom+Park+will+come+up+in+Kittur+Fort+says+CM+Shivakumar",
+      "source_description": "Freedom Park will come up in Kittur Fort, says CM Shivakumar",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Build the Kittur Channamma Freedom Park in the Kittur Fort in Belagavi district at a cost of ₹40 crore",
+        "quote": "The State government will build the Kittur Channamma Freedom Park in the Kittur Fort in Belagavi district at a cost of ₹40 crore, Chief Minister D.K. Shivakumar said on Sunday.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/freedom-park-will-come-up-in-kittur-fort-says-cm-shivakumar/article71624274.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-25",
+        "made_on": "2026-10-25",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-26",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-26",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/freedom-park-will-come-up-in-kittur-fort-says-cm-shivakumar/article71624274.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/freedom-park-will-come-up-in-kittur-fort-says-cm-shivakumar/article71624274.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Freedom+Park+will+come+up+in+Kittur+Fort+says+CM+Shivakumar",
+          "supporting_quote": "The State government will build the Kittur Channamma Freedom Park in the Kittur Fort in Belagavi district at a cost of ₹40 crore, Chief Minister D.K. Shivakumar said on Sunday.",
+          "title": "Freedom Park will come up in Kittur Fort, says CM Shivakumar",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-25",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister D.K. Shivakumar** announced on Sunday that the State government will build the **Kittur Channamma Freedom Park** in **Kittur Fort**, **Belagavi district** for ₹40 crore. He also approved the ₹520 crore **Channavrushabhendra Irrigation Project**. The **North-West Road Transport Corpo...",
+          "content": "The State government will build the Kittur Channamma Freedom Park in the Kittur Fort in Belagavi district at a cost of ₹40 crore, Chief Minister D.K. Shivakumar said on Sunday. The State government will also accord financial approval for the Channavrushabhendra Irrigation Project estimated to cost ₹520 crore as it will benefit the Kittur region, he said at the valedictory function of Kittur Utsav....",
+          "quote": "The State government will build the Kittur Channamma Freedom Park in the Kittur Fort in Belagavi district at a cost of ₹40 crore, Chief Minister D.K. Shivakumar said on Sunday."
         }
       ],
       "notes": "",
@@ -23671,10 +23763,11 @@
       "url_checked_at": "2026-10-26",
       "promise_type": "specific",
       "evidence_count": 1,
-      "importance_hint": "critical",
-      "importance": "critical",
-      "importance_reason": "A nationwide, transformational goal targeting a systemic national security and public health crisis.",
-      "importance_source": "llm"
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a single, localized infrastructure project with a specific budget and location.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-25"
     }
   ]
 }
