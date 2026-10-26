@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-10-24",
+    "last_updated": "2026-10-26",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 283,
-    "promises_with_evidence": 283,
+    "total_promises": 284,
+    "promises_with_evidence": 284,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23601,6 +23601,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "The unveiling of a policy document is an administrative and planning step rather than a large-scale, transformational delivery of resources or infrastructure.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p284",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Eradicate every drug network by 31 December 2029",
+      "supporting_quote": "The offensive attests to India's Himalayan resolve to realise the mission of eradicating every drug network by 31 December 2029.",
+      "category": "law_and_order",
+      "made_on": "2026-10-25",
+      "reported_on": "2026-10-25",
+      "deadline": "2029",
+      "source_url": "https://www.thehindu.com/news/national/amit-shah-hails-lethal-blow-to-international-narco-cartel-following-anti-narcotics-operation-in-assam-mizoram-and-manipur/article71622593.ece",
+      "url": "https://www.thehindu.com/news/national/amit-shah-hails-lethal-blow-to-international-narco-cartel-following-anti-narcotics-operation-in-assam-mizoram-and-manipur/article71622593.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Amit+Shah+hails+lethal+blow+to+international+narco-cartel+following+anti-narcotics+operation+in+Assam+Mizoram+and+Manipur",
+      "source_description": "Amit Shah hails ‘lethal blow’ to international narco-cartel following anti-narcotics operation in Assam, Mizoram and Manipur",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Eradicate every drug network by 31 December 2029",
+        "quote": "The offensive attests to India's Himalayan resolve to realise the mission of eradicating every drug network by 31 December 2029.",
+        "source_url": "https://www.thehindu.com/news/national/amit-shah-hails-lethal-blow-to-international-narco-cartel-following-anti-narcotics-operation-in-assam-mizoram-and-manipur/article71622593.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-25",
+        "made_on": "2026-10-25",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-26",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-26",
+          "evidence_url": "https://www.thehindu.com/news/national/amit-shah-hails-lethal-blow-to-international-narco-cartel-following-anti-narcotics-operation-in-assam-mizoram-and-manipur/article71622593.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/amit-shah-hails-lethal-blow-to-international-narco-cartel-following-anti-narcotics-operation-in-assam-mizoram-and-manipur/article71622593.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Amit+Shah+hails+lethal+blow+to+international+narco-cartel+following+anti-narcotics+operation+in+Assam+Mizoram+and+Manipur",
+          "supporting_quote": "The offensive attests to India's Himalayan resolve to realise the mission of eradicating every drug network by 31 December 2029.",
+          "title": "Amit Shah hails ‘lethal blow’ to international narco-cartel following anti-narcotics operation in Assam, Mizoram and Manipur",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-25",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Union Home Minister **Amit Shah** announced that **Operation Trident** smashed an international narco-cartel across 38 locations in **Assam**, **Mizoram**, and **Manipur** on October 23, 2026. The operation arrested 18 people, froze 1,424 bank accounts, and attached properties worth ₹17.82 crore. Ag...",
+          "content": "Amit Shah hails ‘lethal blow’ to international narco-cartel following anti-narcotics operation in Assam, Mizoram and Manipur The operation carried out by multiple agencies brought to light hawala transactions worth ₹100 crore, froze 1,424 bank accounts, and attached properties worth ₹17.82 crore Union Home Minister Amit Shah. File. | Photo Credit: PTI A barrage of simultaneous crackdowns under Ope...",
+          "quote": "The offensive attests to India's Himalayan resolve to realise the mission of eradicating every drug network by 31 December 2029."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-26",
+      "created_at": "2026-10-26",
+      "url_checked_at": "2026-10-26",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "A nationwide, transformational goal targeting a systemic national security and public health crisis.",
       "importance_source": "llm"
     }
   ]
