@@ -4,8 +4,8 @@
     "last_updated": "2026-10-27",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 285,
-    "promises_with_evidence": 285,
+    "total_promises": 286,
+    "promises_with_evidence": 286,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23768,6 +23768,80 @@
       "importance_reason": "This is a single, localized infrastructure project with a specific budget and location.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-25"
+    },
+    {
+      "id": "p286",
+      "person": "Ashwini Vaishnaw",
+      "party": "BJP",
+      "role": "Railways and IT Minister",
+      "promise": "The government will issue a consultation paper on artificial intelligence (AI) in the coming weeks.",
+      "supporting_quote": "The Narendra Modi government will issue a consultation paper on artificial intelligence (AI) in the coming weeks, IT Minister Ashwini Vaishnaw said at the NDTV World Summit 2026.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-10-27",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/artificial-intelligence/ai-consultation-paper-experts-want-rules-on-agents-deepfakes-schools-12242635#publisher=newsstand",
+      "url": "https://www.ndtv.com/artificial-intelligence/ai-consultation-paper-experts-want-rules-on-agents-deepfakes-schools-12242635#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=AI+Consultation+Paper+Experts+Want+Rules+On+Agents+Deepfakes+Schools",
+      "source_description": "AI Consultation Paper: Experts Want Rules On Agents, Deepfakes, Schools",
+      "declaration": {
+        "person": "Ashwini Vaishnaw",
+        "claim": "The government will issue a consultation paper on artificial intelligence (AI) in the coming weeks.",
+        "quote": "The Narendra Modi government will issue a consultation paper on artificial intelligence (AI) in the coming weeks, IT Minister Ashwini Vaishnaw said at the NDTV World Summit 2026.",
+        "source_url": "https://www.ndtv.com/artificial-intelligence/ai-consultation-paper-experts-want-rules-on-agents-deepfakes-schools-12242635#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-10-27",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-27",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-27",
+          "evidence_url": "https://www.ndtv.com/artificial-intelligence/ai-consultation-paper-experts-want-rules-on-agents-deepfakes-schools-12242635#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/artificial-intelligence/ai-consultation-paper-experts-want-rules-on-agents-deepfakes-schools-12242635#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=AI+Consultation+Paper+Experts+Want+Rules+On+Agents+Deepfakes+Schools",
+          "supporting_quote": "The Narendra Modi government will issue a consultation paper on artificial intelligence (AI) in the coming weeks, IT Minister Ashwini Vaishnaw said at the NDTV World Summit 2026.",
+          "title": "AI Consultation Paper: Experts Want Rules On Agents, Deepfakes, Schools",
+          "source": "NDTV",
+          "scraped_at": "2026-10-27",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Ashwini Vaishnaw**, **IT Minister**, announced at the **NDTV World Summit 2026** that the **Narendra Modi** government will issue an AI consultation paper in coming weeks. Experts **Dr Srinivas Padmanabhuni**, **Sagar Vishnoi**, and **Ansh Mehra** advised including human-centric controls, risk-bas...",
+          "content": "The Narendra Modi government will issue a consultation paper on artificial intelligence (AI) in the coming weeks, IT Minister Ashwini Vaishnaw said at the NDTV World Summit 2026. \"That consultation paper will be where we will seek all the inputs from society, from citizens, from industries, and stakeholders,\" he said. Vaishnaw stressed that some principles are already settled - AI must be human-ce...",
+          "quote": "The Narendra Modi government will issue a consultation paper on artificial intelligence (AI) in the coming weeks, IT Minister Ashwini Vaishnaw said at the NDTV World Summit 2026."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-27",
+      "created_at": "2026-10-27",
+      "url_checked_at": "2026-10-27",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "Issuing a consultation paper is a routine administrative action and does not constitute a large-scale, nation-shaping commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-27"
     }
   ]
 }
