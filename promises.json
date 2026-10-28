@@ -23799,7 +23799,7 @@
         "verification": "raw_source_verified"
       },
       "status": "ongoing",
-      "status_last_reviewed": "2026-10-27",
+      "status_last_reviewed": "2026-10-28",
       "status_history": [
         {
           "status": "ongoing",
@@ -23828,6 +23828,25 @@
           "rephrased": "**Ashwini Vaishnaw**, **IT Minister**, announced at the **NDTV World Summit 2026** that the **Narendra Modi** government will issue an AI consultation paper in coming weeks. Experts **Dr Srinivas Padmanabhuni**, **Sagar Vishnoi**, and **Ansh Mehra** advised including human-centric controls, risk-bas...",
           "content": "The Narendra Modi government will issue a consultation paper on artificial intelligence (AI) in the coming weeks, IT Minister Ashwini Vaishnaw said at the NDTV World Summit 2026. \"That consultation paper will be where we will seek all the inputs from society, from citizens, from industries, and stakeholders,\" he said. Vaishnaw stressed that some principles are already settled - AI must be human-ce...",
           "quote": "The Narendra Modi government will issue a consultation paper on artificial intelligence (AI) in the coming weeks, IT Minister Ashwini Vaishnaw said at the NDTV World Summit 2026."
+        },
+        {
+          "url": "https://www.ndtv.com/artificial-intelligence/india-weighs-us-style-frontier-ai-safeguards-as-government-prepares-new-law-12246199#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=India+Weighs+US-Style+Frontier+AI+Safeguards+As+Government+Prepares+New+Law",
+          "supporting_quote": "Union Electronics and IT Minister Ashwini Vaishnaw has said that the government will release a consultation paper on a new AI law in the coming weeks.",
+          "title": "India Weighs US-Style Frontier AI Safeguards As Government Prepares New Law",
+          "source": "NDTV",
+          "scraped_at": "2026-10-28",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Union Electronics and IT Minister Ashwini Vaishnaw** announced that the government will release a consultation paper in the coming weeks regarding a new AI law. The framework may regulate \"frontier models\" through pre-release sandbox testing, human oversight, and liability frameworks to address de...",
+          "content": "India's proposed artificial intelligence law may bring some of the world's most powerful AI models under a separate safety framework, potentially requiring developers to demonstrate that adequate safeguards are in place before releasing systems capable of causing significant harm. The approach would mark a shift from India's largely incremental, technology-neutral regulation towards closer scrutin...",
+          "quote": "Union Electronics and IT Minister Ashwini Vaishnaw has said that the government will release a consultation paper on a new AI law in the coming weeks."
         }
       ],
       "notes": "",
@@ -23836,7 +23855,7 @@
       "created_at": "2026-10-27",
       "url_checked_at": "2026-10-27",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "Issuing a consultation paper is a routine administrative action and does not constitute a large-scale, nation-shaping commitment.",
