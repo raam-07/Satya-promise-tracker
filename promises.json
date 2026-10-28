@@ -4,8 +4,8 @@
     "last_updated": "2026-10-28",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 287,
-    "promises_with_evidence": 287,
+    "total_promises": 288,
+    "promises_with_evidence": 288,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23935,6 +23935,79 @@
       "importance_reason": "This is a specific, reactive administrative action regarding a single incident rather than a nation-shaping policy.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-28"
+    },
+    {
+      "id": "p288",
+      "person": "Krishna Byre Gowda",
+      "party": "INC",
+      "role": "Minister of Bengaluru Development",
+      "promise": "Launch a month-long drive starting November 1 to address local civic issues, prioritizing repairing roads and improving junctions in selected wards.",
+      "supporting_quote": "Greater Bengaluru Development Minister Krishna Byre Gowda said on Wednesday that, under the campaign, the corporations would undertake a month-long drive to address local civic issues, with priority given to repairing roads and improving junctions.",
+      "category": "infrastructure",
+      "made_on": "2026-10-28",
+      "reported_on": "2026-10-28",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-new-campaign-focusing-infra-fix-from-november-1/article71636546.ece",
+      "url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-new-campaign-focusing-infra-fix-from-november-1/article71636546.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=GBA+to+launch+new+campaign+focusing+infra+fix+from+November+1",
+      "source_description": "GBA to launch new campaign focusing infra fix from November 1",
+      "declaration": {
+        "person": "Krishna Byre Gowda",
+        "claim": "Launch a month-long drive starting November 1 to address local civic issues, prioritizing repairing roads and improving junctions in selected wards.",
+        "quote": "Greater Bengaluru Development Minister Krishna Byre Gowda said on Wednesday that, under the campaign, the corporations would undertake a month-long drive to address local civic issues, with priority given to repairing roads and improving junctions.",
+        "source_url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-new-campaign-focusing-infra-fix-from-november-1/article71636546.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-28",
+        "made_on": "2026-10-28",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-28",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-28",
+          "evidence_url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-new-campaign-focusing-infra-fix-from-november-1/article71636546.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/bangalore/gba-to-launch-new-campaign-focusing-infra-fix-from-november-1/article71636546.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=GBA+to+launch+new+campaign+focusing+infra+fix+from+November+1",
+          "supporting_quote": "Greater Bengaluru Development Minister Krishna Byre Gowda said on Wednesday that, under the campaign, the corporations would undertake a month-long drive to address local civic issues, with priority given to repairing roads and improving junctions.",
+          "title": "GBA to launch new campaign focusing infra fix from November 1",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-28",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Greater Bengaluru Authority** (**GBA**) will launch the “Ward One” campaign on November 1 to address infrastructure and sanitation issues. **Krishna Byre Gowda**, **Greater Bengaluru Development Minister**, announced a month-long drive involving **Bescom**, **BDA**, **Traffic Police**, railway age...",
+          "content": "Even as the Freedom from Waste campaign is under way, the Greater Bengaluru Authority (GBA) will launch a new campaign, titled “Ward One”, from November 1, focusing on addressing infrastructure issues. Greater Bengaluru Development Minister Krishna Byre Gowda said on Wednesday that, under the campaign, the corporations would undertake a month-long drive to address local civic issues, with priority...",
+          "quote": "Greater Bengaluru Development Minister Krishna Byre Gowda said on Wednesday that, under the campaign, the corporations would undertake a month-long drive to address local civic issues, with priority given to repairing roads and improving junctions."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-28",
+      "created_at": "2026-10-28",
+      "url_checked_at": "2026-10-28",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a localized, routine administrative action focused on specific wards rather than a transformational state-wide or national commitment.",
+      "importance_source": "llm"
     }
   ]
 }
