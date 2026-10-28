@@ -4,8 +4,8 @@
     "last_updated": "2026-10-28",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 286,
-    "promises_with_evidence": 286,
+    "total_promises": 287,
+    "promises_with_evidence": 287,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -23861,6 +23861,80 @@
       "importance_reason": "Issuing a consultation paper is a routine administrative action and does not constitute a large-scale, nation-shaping commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-27"
+    },
+    {
+      "id": "p287",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Hand over the investigation to the CID if the Leader of the Opposition, Ritabrata Banerjee, files an FIR over an alleged attempt to loot a vehicle carrying organisational documents and affidavits.",
+      "supporting_quote": "Mr. Adhikari said the State government would hand over the investigation to the CID if the Leader of the Opposition, Ritabrata Banerjee, files an FIR over an alleged attempt to loot a vehicle carrying organisational documents and affidavits.",
+      "category": "law_and_order",
+      "made_on": "2026-10-28",
+      "reported_on": "2026-10-28",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/cities/kolkata/suvendu-advises-mamata-to-rest-at-home-raises-allegations-over-aides-murder/article71636137.ece",
+      "url": "https://www.thehindu.com/news/cities/kolkata/suvendu-advises-mamata-to-rest-at-home-raises-allegations-over-aides-murder/article71636137.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Suvendu+advises+Mamata+to+rest+at+home+raises+allegations+over+aide+s+murder",
+      "source_description": "Suvendu advises Mamata to rest at home, raises allegations over aide’s murder",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Hand over the investigation to the CID if the Leader of the Opposition, Ritabrata Banerjee, files an FIR over an alleged attempt to loot a vehicle carrying organisational documents and affidavits.",
+        "quote": "Mr. Adhikari said the State government would hand over the investigation to the CID if the Leader of the Opposition, Ritabrata Banerjee, files an FIR over an alleged attempt to loot a vehicle carrying organisational documents and affidavits.",
+        "source_url": "https://www.thehindu.com/news/cities/kolkata/suvendu-advises-mamata-to-rest-at-home-raises-allegations-over-aides-murder/article71636137.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-28",
+        "made_on": "2026-10-28",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-28",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-28",
+          "evidence_url": "https://www.thehindu.com/news/cities/kolkata/suvendu-advises-mamata-to-rest-at-home-raises-allegations-over-aides-murder/article71636137.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/cities/kolkata/suvendu-advises-mamata-to-rest-at-home-raises-allegations-over-aides-murder/article71636137.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Suvendu+advises+Mamata+to+rest+at+home+raises+allegations+over+aide+s+murder",
+          "supporting_quote": "Mr. Adhikari said the State government would hand over the investigation to the CID if the Leader of the Opposition, Ritabrata Banerjee, files an FIR over an alleged attempt to loot a vehicle carrying organisational documents and affidavits.",
+          "title": "Suvendu advises Mamata to rest at home, raises allegations over aide’s murder",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-28",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "On October 28, 2026, **West Bengal Chief Minister Suvendu Adhikari** told **Mamata Banerjee** to retire from politics. Following the election of **Hasirani Rath** and **Sakharav Sarkar**, he defended vacating Nandigram while keeping Bhabanipur. He alleged his aide **Chandranath Rath** was murdered f...",
+          "content": "Making allegations against the higher-ups in the Trinamool Congress over the murder of his aide Chandranath Rath, West Bengal Chief Minister Suvendu Adhikari on Wednesday (October 28, 2026) advised Trinamool Congress chairperson Mamata Banerjee to stay away from electoral politics and take rest at home. Speaking in the West Bengal Assembly after two newly elected MLAs of the Bharatiya Janata Party...",
+          "quote": "Mr. Adhikari said the State government would hand over the investigation to the CID if the Leader of the Opposition, Ritabrata Banerjee, files an FIR over an alleged attempt to loot a vehicle carrying organisational documents and affidavits."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-28",
+      "created_at": "2026-10-28",
+      "url_checked_at": "2026-10-28",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a specific, reactive administrative action regarding a single incident rather than a nation-shaping policy.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-28"
     }
   ]
 }
