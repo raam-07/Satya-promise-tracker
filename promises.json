@@ -4,8 +4,8 @@
     "last_updated": "2026-10-29",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 289,
-    "promises_with_evidence": 289,
+    "total_promises": 290,
+    "promises_with_evidence": 290,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -24082,6 +24082,79 @@
       "importance_reason": "This is a specific infrastructure project involving a limited number of institutions and a relatively small budget.",
       "importance_source": "llm",
       "implied_deadline": "2029-10-29"
+    },
+    {
+      "id": "p290",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Increase the State’s contribution to India’s Gross Domestic Product (GDP) to 10% by 2047",
+      "supporting_quote": "Chief Minister A. Revanth Reddy set a target of increasing the State’s contribution to India’s Gross Domestic Product (GDP) to 10% by 2047, from the current level of nearly 5%, as he outlined the State’s economic vision at the curtain-raiser for the Invest Telangana Global Summit 2026.",
+      "category": "economy",
+      "made_on": "2026-10-29",
+      "reported_on": "2026-10-29",
+      "deadline": "2047",
+      "source_url": "https://www.thehindu.com/news/national/telangana/invest-in-telangana-and-thrive-cm-tells-business-heads/article71642007.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/invest-in-telangana-and-thrive-cm-tells-business-heads/article71642007.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Invest+in+Telangana+and+thrive+CM+tells+business+heads",
+      "source_description": "Invest in Telangana and thrive, CM tells business heads",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Increase the State’s contribution to India’s Gross Domestic Product (GDP) to 10% by 2047",
+        "quote": "Chief Minister A. Revanth Reddy set a target of increasing the State’s contribution to India’s Gross Domestic Product (GDP) to 10% by 2047, from the current level of nearly 5%, as he outlined the State’s economic vision at the curtain-raiser for the Invest Telangana Global Summit 2026.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/invest-in-telangana-and-thrive-cm-tells-business-heads/article71642007.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-29",
+        "made_on": "2026-10-29",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-29",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-29",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/invest-in-telangana-and-thrive-cm-tells-business-heads/article71642007.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/invest-in-telangana-and-thrive-cm-tells-business-heads/article71642007.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Invest+in+Telangana+and+thrive+CM+tells+business+heads",
+          "supporting_quote": "Chief Minister A. Revanth Reddy set a target of increasing the State’s contribution to India’s Gross Domestic Product (GDP) to 10% by 2047, from the current level of nearly 5%, as he outlined the State’s economic vision at the curtain-raiser for the Invest Telangana Global Summit 2026.",
+          "title": "Invest in Telangana and thrive, CM tells business heads",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-29",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**A. Revanth Reddy** announced a vision to increase **Telangana**'s GDP contribution from nearly 5% to 10% by 2047, targeting a $3 trillion economy. At a New Delhi event on October 29, he invited businesses to the **Invest Telangana Global Summit 2026** at **Bharat Future City** from December 7 to 9...",
+          "content": "Chief Minister A. Revanth Reddy set a target of increasing the State’s contribution to India’s Gross Domestic Product (GDP) to 10% by 2047, from the current level of nearly 5%, as he outlined the State’s economic vision at the curtain-raiser for the Invest Telangana Global Summit 2026. Addressing business heads at the curtain raiser in New Delhi on Thursday (October 29), he invited the businesses ...",
+          "quote": "Chief Minister A. Revanth Reddy set a target of increasing the State’s contribution to India’s Gross Domestic Product (GDP) to 10% by 2047, from the current level of nearly 5%, as he outlined the State’s economic vision at the curtain-raiser for the Invest Telangana Global Summit 2026."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-29",
+      "created_at": "2026-10-29",
+      "url_checked_at": "2026-10-29",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "A transformational, state-wide economic goal aiming to significantly alter the state's share of the national economy.",
+      "importance_source": "llm"
     }
   ]
 }
