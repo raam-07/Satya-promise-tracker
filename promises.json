@@ -4,8 +4,8 @@
     "last_updated": "2026-10-29",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 288,
-    "promises_with_evidence": 288,
+    "total_promises": 289,
+    "promises_with_evidence": 289,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -24008,6 +24008,80 @@
       "importance": "minor",
       "importance_reason": "This is a localized, routine administrative action focused on specific wards rather than a transformational state-wide or national commitment.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p289",
+      "person": "C. Joseph Vijay",
+      "party": "TVK",
+      "role": "Chief Minister of Tamil Nadu",
+      "promise": "establish advanced electrical laboratories at another 40 government-run ITIs in the State at an estimated cost of ₹6.80 crore",
+      "supporting_quote": "During the event, an MoU was signed with the company to establish advanced electrical laboratories at another 40 government-run ITIs in the State, at an estimated cost of ₹6.80 crore.",
+      "category": "education",
+      "made_on": "2026-10-29",
+      "reported_on": "2026-10-29",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-inaugurates-advanced-electrical-labs-in-30-government-itis/article71635149.ece",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-inaugurates-advanced-electrical-labs-in-30-government-itis/article71635149.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Vijay+inaugurates+advanced+electrical+labs+in+30+government+ITIs",
+      "source_description": "Vijay inaugurates advanced electrical labs in 30 government ITIs",
+      "declaration": {
+        "person": "C. Joseph Vijay",
+        "claim": "establish advanced electrical laboratories at another 40 government-run ITIs in the State at an estimated cost of ₹6.80 crore",
+        "quote": "During the event, an MoU was signed with the company to establish advanced electrical laboratories at another 40 government-run ITIs in the State, at an estimated cost of ₹6.80 crore.",
+        "source_url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-inaugurates-advanced-electrical-labs-in-30-government-itis/article71635149.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-29",
+        "made_on": "2026-10-29",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-29",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-29",
+          "evidence_url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-inaugurates-advanced-electrical-labs-in-30-government-itis/article71635149.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-inaugurates-advanced-electrical-labs-in-30-government-itis/article71635149.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Vijay+inaugurates+advanced+electrical+labs+in+30+government+ITIs",
+          "supporting_quote": "During the event, an MoU was signed with the company to establish advanced electrical laboratories at another 40 government-run ITIs in the State, at an estimated cost of ₹6.80 crore.",
+          "title": "Vijay inaugurates advanced electrical labs in 30 government ITIs",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-29",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Chief Minister **C. Joseph Vijay** inaugurated advanced electrical laboratories at 30 government-run **Industrial Training Institutes (ITIs)** across 23 districts on Wednesday, supported by **Schneider Electric India Private Limited** at a cost of ₹5.10 crore. The project benefits 9,250 students ann...",
+          "content": "Chief Minister C. Joseph Vijay on Wednesday inaugurated advanced electrical laboratories established at 30 government-run Industrial Training Institutes (ITIs) across the State, with the support of Schneider Electric India Private Limited, during an event held at the government ITI at Guindy in Chennai. According to a press release, the advanced electrical laboratories were established at 30 gover...",
+          "quote": "During the event, an MoU was signed with the company to establish advanced electrical laboratories at another 40 government-run ITIs in the State, at an estimated cost of ₹6.80 crore."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-29",
+      "created_at": "2026-10-29",
+      "url_checked_at": "2026-10-29",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a specific infrastructure project involving a limited number of institutions and a relatively small budget.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-29"
     }
   ]
 }
