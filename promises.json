@@ -4,8 +4,8 @@
     "last_updated": "2026-10-30",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 290,
-    "promises_with_evidence": 290,
+    "total_promises": 291,
+    "promises_with_evidence": 291,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -24155,6 +24155,80 @@
       "importance": "critical",
       "importance_reason": "A transformational, state-wide economic goal aiming to significantly alter the state's share of the national economy.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p291",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "complete surveys, identify the extent of encroachments, and take steps to establish a colony named after Telangana martyr Srikanthachary in Erravelli villages",
+      "supporting_quote": "Regarding the disputed land in the Erravelli villages, he said the government would complete the surveys, identify the extent of encroachments, and take steps to establish a colony named after Telangana martyr Srikanthachary.",
+      "category": "welfare",
+      "made_on": "2026-10-30",
+      "reported_on": "2026-10-30",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-says-govt-protected-15-lakh-crore-worth-public-lands-since-december-2023/article71644459.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-says-govt-protected-15-lakh-crore-worth-public-lands-since-december-2023/article71644459.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Telangana+CM+Revanth+says+Govt+protected+1+5+lakh+crore+worth+public+lands+since+December+2023",
+      "source_description": "Telangana CM Revanth says Govt protected ₹1.5 lakh crore worth public lands since December 2023",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "complete surveys, identify the extent of encroachments, and take steps to establish a colony named after Telangana martyr Srikanthachary in Erravelli villages",
+        "quote": "Regarding the disputed land in the Erravelli villages, he said the government would complete the surveys, identify the extent of encroachments, and take steps to establish a colony named after Telangana martyr Srikanthachary.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-says-govt-protected-15-lakh-crore-worth-public-lands-since-december-2023/article71644459.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-10-30",
+        "made_on": "2026-10-30",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-10-30",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-10-30",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-says-govt-protected-15-lakh-crore-worth-public-lands-since-december-2023/article71644459.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-says-govt-protected-15-lakh-crore-worth-public-lands-since-december-2023/article71644459.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Telangana+CM+Revanth+says+Govt+protected+1+5+lakh+crore+worth+public+lands+since+December+2023",
+          "supporting_quote": "Regarding the disputed land in the Erravelli villages, he said the government would complete the surveys, identify the extent of encroachments, and take steps to establish a colony named after Telangana martyr Srikanthachary.",
+          "title": "Telangana CM Revanth says Govt protected ₹1.5 lakh crore worth public lands since December 2023",
+          "source": "The Hindu",
+          "scraped_at": "2026-10-30",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**A. Revanth Reddy**, **Telangana** Chief Minister, announced on October 30, 2026, that his government protected ₹1.5 lakh crore in assets. He alleged **K. Chandrashekar Rao**, **Bharat Rashtra Samithi (BRS)** leaders, and relatives like **Damodar Rao** and **Goldstone Prasad** tried to grab land. T...",
+          "content": "Telangana Chief Minister A. Revanth Reddy said that his government had protected public land and assets worth nearly ₹1.5 lakh crore in the three years since assuming office, by pursuing legal battles and presenting strong arguments before courts. The Supreme Court's latest verdict declaring that land parcels — worth nearly ₹50,000 crore — in Miyapur belonged to the Telangana government reflected ...",
+          "quote": "Regarding the disputed land in the Erravelli villages, he said the government would complete the surveys, identify the extent of encroachments, and take steps to establish a colony named after Telangana martyr Srikanthachary."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-10-30",
+      "created_at": "2026-10-30",
+      "url_checked_at": "2026-10-30",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a localized administrative action involving a specific village and a single colony project.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-10-30"
     }
   ]
 }
