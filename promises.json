@@ -4,8 +4,8 @@
     "last_updated": "2026-11-01",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 206,
-    "promises_with_evidence": 206,
+    "total_promises": 207,
+    "promises_with_evidence": 207,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -18296,6 +18296,80 @@
       "importance": "critical",
       "importance_reason": "Aims to address a widespread and significant issue affecting a large population across the state.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p207",
+      "person": "Sharan Prakash Patil",
+      "party": "party unconfirmed",
+      "role": "Politician",
+      "promise": "Set up a ₹100 crore super speciality hospital in Yadgir",
+      "supporting_quote": "the Minister announced that a ₹100 crore super speciality hospital will be set up in Yadgir.",
+      "category": "health",
+      "made_on": "2026-11-01",
+      "reported_on": "2026-11-01",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/kannada-rajyotsava-minister-praises-stalwarts-sacrifices-for-karnataka-unification-highlights-states-welfare-programmes/article71652456.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/kannada-rajyotsava-minister-praises-stalwarts-sacrifices-for-karnataka-unification-highlights-states-welfare-programmes/article71652456.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Kannada+Rajyotsava+Minister+praises+stalwarts+sacrifices+for+Karnataka+unification+highlights+State+s+welfare+programmes",
+      "source_description": "Kannada Rajyotsava: Minister praises stalwarts’ sacrifices for Karnataka unification, highlights State’s welfare programmes",
+      "declaration": {
+        "person": "Sharan Prakash Patil",
+        "claim": "Set up a ₹100 crore super speciality hospital in Yadgir",
+        "quote": "the Minister announced that a ₹100 crore super speciality hospital will be set up in Yadgir.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/kannada-rajyotsava-minister-praises-stalwarts-sacrifices-for-karnataka-unification-highlights-states-welfare-programmes/article71652456.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-01",
+        "made_on": "2026-11-01",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-01",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-01",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/kannada-rajyotsava-minister-praises-stalwarts-sacrifices-for-karnataka-unification-highlights-states-welfare-programmes/article71652456.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/kannada-rajyotsava-minister-praises-stalwarts-sacrifices-for-karnataka-unification-highlights-states-welfare-programmes/article71652456.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Kannada+Rajyotsava+Minister+praises+stalwarts+sacrifices+for+Karnataka+unification+highlights+State+s+welfare+programmes",
+          "supporting_quote": "the Minister announced that a ₹100 crore super speciality hospital will be set up in Yadgir.",
+          "title": "Kannada Rajyotsava: Minister praises stalwarts’ sacrifices for Karnataka unification, highlights State’s welfare programmes",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-01",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Sharan Prakash Patil**, Minister for Medical Education and Yadgir District In-charge, announced a ₹100 crore super speciality hospital in **Yadgir** during **Kannada Rajyotsava** on November 1, 2026. He highlighted the implementation of five guarantee schemes, including a ₹108.23 crore allocation ...",
+          "content": "Minister for Medical Education and Yadgir District In-charge Sharan Prakash Patil on Sunday (November 1, 2026) lauded the sacrifices of stalwarts whose efforts brought Kannada-speaking regions together under a single state. Speaking after unfurling the national flag at the District Sports Ground to mark Kannada Rajyotsava in Yadgir on Sunday (November 1, 2026), Dr. Patil recalled that the erstwhil...",
+          "quote": "the Minister announced that a ₹100 crore super speciality hospital will be set up in Yadgir."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-01",
+      "created_at": "2026-11-01",
+      "url_checked_at": "2026-11-01",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a single project (one hospital) rather than a transformational, large-scale national or state-wide healthcare overhaul.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-01"
     }
   ]
 }
