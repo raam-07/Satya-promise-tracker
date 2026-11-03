@@ -4,8 +4,8 @@
     "last_updated": "2026-11-03",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 209,
-    "promises_with_evidence": 209,
+    "total_promises": 210,
+    "promises_with_evidence": 210,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -18518,6 +18518,80 @@
       "importance_reason": "This is a single project/route expansion rather than a nation-shaping transformational commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-01"
+    },
+    {
+      "id": "p210",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Take up the issue of reservation under Scheduled Tribes category for Golla and Kadu Golla communities",
+      "supporting_quote": "He also promised to take up the issue of reservation under Scheduled Tribes category for Golla and Kadu Golla communities, which make up sizeable chunk of the electorate.",
+      "category": "welfare",
+      "made_on": "2026-11-03",
+      "reported_on": "2026-11-03",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/activities-pick-up-across-political-spectrum-with-announcement-of-hiriyur-bypoll-dates-imminent/article71662397.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/activities-pick-up-across-political-spectrum-with-announcement-of-hiriyur-bypoll-dates-imminent/article71662397.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=news+national+karnataka+activities+pick+up+across+political+spectrum+with+announcement+of+hiriyur+bypoll+dates+imminent",
+      "source_description": "Activities pick up across political spectrum with announcement of Hiriyur bypoll dates imminent",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Take up the issue of reservation under Scheduled Tribes category for Golla and Kadu Golla communities",
+        "quote": "He also promised to take up the issue of reservation under Scheduled Tribes category for Golla and Kadu Golla communities, which make up sizeable chunk of the electorate.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/activities-pick-up-across-political-spectrum-with-announcement-of-hiriyur-bypoll-dates-imminent/article71662397.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-03",
+        "made_on": "2026-11-03",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-03",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-03",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/activities-pick-up-across-political-spectrum-with-announcement-of-hiriyur-bypoll-dates-imminent/article71662397.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/activities-pick-up-across-political-spectrum-with-announcement-of-hiriyur-bypoll-dates-imminent/article71662397.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=news+national+karnataka+activities+pick+up+across+political+spectrum+with+announcement+of+hiriyur+bypoll+dates+imminent",
+          "supporting_quote": "He also promised to take up the issue of reservation under Scheduled Tribes category for Golla and Kadu Golla communities, which make up sizeable chunk of the electorate.",
+          "title": "Activities pick up across political spectrum with announcement of Hiriyur bypoll dates imminent",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-03",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "The **BJP** formed a 12-member committee to manage the upcoming Hiriyur Assembly constituency bypoll following the death of former Minister **D. Sudhakar**. Union Minister **H.D. Kumaraswamy** met with leaders to discuss candidate selection, while Chief Minister **D.K. Shivakumar** claimed surveys s...",
+          "content": "With the announcement of the date of the bypoll to Hiriyur Assembly constituency in Chitradurga district expected shortly, political activity has gathered momentum across the political spectrum. The bypoll has been necessitated owing to the demise of former Minister D. Sudhakar. While Chief Minister D.K. Shivakumar on Tuesday was in Hiriyur to launch several development projects, the National Demo...",
+          "quote": "He also promised to take up the issue of reservation under Scheduled Tribes category for Golla and Kadu Golla communities, which make up sizeable chunk of the electorate."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-03",
+      "created_at": "2026-11-03",
+      "url_checked_at": "2026-11-03",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a specific community-level reservation issue rather than a nation-shaping or transformational state-wide policy.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-03"
     }
   ]
 }
