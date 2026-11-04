@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-11-03",
+    "last_updated": "2026-11-04",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 210,
-    "promises_with_evidence": 210,
+    "total_promises": 211,
+    "promises_with_evidence": 211,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -18592,6 +18592,80 @@
       "importance_reason": "This is a specific community-level reservation issue rather than a nation-shaping or transformational state-wide policy.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-03"
+    },
+    {
+      "id": "p211",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Convene a special session for discussion on the special intensive revision (SIR) of electoral rolls.",
+      "supporting_quote": "I want to tell you, Rahul-ji, that the Narendra Modi government is prepared to discuss every single issue. Let Parliament function; we are even ready to convene a special session for discussion on SIR.",
+      "category": "corruption/governance",
+      "made_on": "2026-11-03",
+      "reported_on": "2026-11-04",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/chhattisgarh/amit-shah-compares-india-blocs-mock-parliament-to-maoists-jantana-sarkar/article71661569.ece",
+      "url": "https://www.thehindu.com/news/national/chhattisgarh/amit-shah-compares-india-blocs-mock-parliament-to-maoists-jantana-sarkar/article71661569.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Amit+Shah+compares+INDIA+bloc+s+mock+Parliament+to+Maoists+Jantana+Sarkar",
+      "source_description": "Amit Shah compares INDIA bloc’s mock Parliament to Maoists’ Jantana Sarkar",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Convene a special session for discussion on the special intensive revision (SIR) of electoral rolls.",
+        "quote": "I want to tell you, Rahul-ji, that the Narendra Modi government is prepared to discuss every single issue. Let Parliament function; we are even ready to convene a special session for discussion on SIR.",
+        "source_url": "https://www.thehindu.com/news/national/chhattisgarh/amit-shah-compares-india-blocs-mock-parliament-to-maoists-jantana-sarkar/article71661569.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-04",
+        "made_on": "2026-11-03",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-04",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-04",
+          "evidence_url": "https://www.thehindu.com/news/national/chhattisgarh/amit-shah-compares-india-blocs-mock-parliament-to-maoists-jantana-sarkar/article71661569.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/chhattisgarh/amit-shah-compares-india-blocs-mock-parliament-to-maoists-jantana-sarkar/article71661569.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Amit+Shah+compares+INDIA+bloc+s+mock+Parliament+to+Maoists+Jantana+Sarkar",
+          "supporting_quote": "I want to tell you, Rahul-ji, that the Narendra Modi government is prepared to discuss every single issue. Let Parliament function; we are even ready to convene a special session for discussion on SIR.",
+          "title": "Amit Shah compares INDIA bloc’s mock Parliament to Maoists’ Jantana Sarkar",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-04",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Union Home Minister **Amit Shah** stated on November 3, 2026, that the government is ready for an in-house debate regarding the special intensive revision of electoral rolls. He accused **Rahul Gandhi** and the **Congress** party of staging a mock parliament at **Mallikarjun Kharge**’s residence to ...",
+          "content": "Comparing the Indian National Developmental Inclusive Alliance’s (INDIA) recent mock Parliament session held over allegations of irregularities in the special intensive revision (SIR) of electoral rolls to Jantana Sarkar – a parallel, unconstitutional government run by the Maoists in their erstwhile strongholds – Union Home Minister Amit Shah on Tuesday (November 3, 2026) said the government was r...",
+          "quote": "I want to tell you, Rahul-ji, that the Narendra Modi government is prepared to discuss every single issue. Let Parliament function; we are even ready to convene a special session for discussion on SIR."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-04",
+      "created_at": "2026-11-04",
+      "url_checked_at": "2026-11-04",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a procedural administrative action regarding electoral roll maintenance rather than a transformational national policy.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-04"
     }
   ]
 }
