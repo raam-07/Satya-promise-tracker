@@ -4,8 +4,8 @@
     "last_updated": "2026-11-04",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 214,
-    "promises_with_evidence": 214,
+    "total_promises": 215,
+    "promises_with_evidence": 215,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -18888,6 +18888,79 @@
       "importance_reason": "This is a routine distribution of development grants to local bodies rather than a transformational, nation-shaping commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-04"
+    },
+    {
+      "id": "p215",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Integrate the State’s fragmented skilling efforts into a single unified system with an estimated investment of ₹5,000 crore to train 30 lakh beneficiaries over the next seven years.",
+      "supporting_quote": "Chief Minister D.K. Shivakumar has announced a plan to integrate the State’s fragmented skilling efforts into a single unified system, budgeting an estimated investment of ₹5,000 crore to train 30 lakh beneficiaries over the next seven years.",
+      "category": "jobs/employment",
+      "made_on": "2026-11-05",
+      "reported_on": "2026-11-04",
+      "deadline": "2033",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/state-will-integrate-all-its-skilling-efforts-into-a-single-unified-system-cm/article71666725.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/state-will-integrate-all-its-skilling-efforts-into-a-single-unified-system-cm/article71666725.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Karnataka+will+integrate+all+its+skilling+efforts+into+a+single+unified+system+CM",
+      "source_description": "Karnataka will integrate all its skilling efforts into a single unified system: CM",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Integrate the State’s fragmented skilling efforts into a single unified system with an estimated investment of ₹5,000 crore to train 30 lakh beneficiaries over the next seven years.",
+        "quote": "Chief Minister D.K. Shivakumar has announced a plan to integrate the State’s fragmented skilling efforts into a single unified system, budgeting an estimated investment of ₹5,000 crore to train 30 lakh beneficiaries over the next seven years.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/state-will-integrate-all-its-skilling-efforts-into-a-single-unified-system-cm/article71666725.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-04",
+        "made_on": "2026-11-05",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-04",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-04",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/state-will-integrate-all-its-skilling-efforts-into-a-single-unified-system-cm/article71666725.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/state-will-integrate-all-its-skilling-efforts-into-a-single-unified-system-cm/article71666725.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Karnataka+will+integrate+all+its+skilling+efforts+into+a+single+unified+system+CM",
+          "supporting_quote": "Chief Minister D.K. Shivakumar has announced a plan to integrate the State’s fragmented skilling efforts into a single unified system, budgeting an estimated investment of ₹5,000 crore to train 30 lakh beneficiaries over the next seven years.",
+          "title": "Karnataka will integrate all its skilling efforts into a single unified system: CM",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-04",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister D.K. Shivakumar** announced a plan to integrate Karnataka's fragmented skilling efforts into a unified system with an estimated ₹5,000 crore investment. The initiative aims to train 30 lakh beneficiaries over seven years to meet shifting market demands. A new **State Vision Group**,...",
+          "content": "Chief Minister D.K. Shivakumar has announced a plan to integrate the State’s fragmented skilling efforts into a single unified system, budgeting an estimated investment of ₹5,000 crore to train 30 lakh beneficiaries over the next seven years. Speaking at the Bengaluru Skill Summit on Wednesday, the Chief Minister also revealed the formation of a new State Vision Group for skill development, chaire...",
+          "quote": "Chief Minister D.K. Shivakumar has announced a plan to integrate the State’s fragmented skilling efforts into a single unified system, budgeting an estimated investment of ₹5,000 crore to train 30 lakh beneficiaries over the next seven years."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-04",
+      "created_at": "2026-11-04",
+      "url_checked_at": "2026-11-04",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "A large-scale, transformational state-level commitment involving a massive investment and a target of 30 lakh beneficiaries.",
+      "importance_source": "llm"
     }
   ]
 }
