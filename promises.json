@@ -4,8 +4,8 @@
     "last_updated": "2026-11-05",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 216,
-    "promises_with_evidence": 216,
+    "total_promises": 217,
+    "promises_with_evidence": 217,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -19034,6 +19034,80 @@
       "importance": "minor",
       "importance_reason": "This is a specific infrastructure repair project rather than a transformational, nation-shaping commitment.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p217",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Provide 100 per cent employer EPF contribution reimbursement for women and transgender employees in MSMEs for 10 years, and 75 per cent for women in eligible service units.",
+      "supporting_quote": "We are extending substantial employer EPF contribution reimbursements, leading with 100 per cent reimbursement for women and transgender employees in MSMEs for 10 years, 75 per cent for women in eligible service units, and robust support for large and strategic industrial projects.",
+      "category": "economy",
+      "made_on": null,
+      "reported_on": "2026-11-05",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/bengal-bets-big-on-industry-jobs-green-push-and-investment-incentives-in-new-policy-launched-by-suvendu-adhikari-12289670#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/bengal-bets-big-on-industry-jobs-green-push-and-investment-incentives-in-new-policy-launched-by-suvendu-adhikari-12289670#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Bengal+Bets+Big+On+Industry+Jobs+Green+Push+And+Investment+Incentives+In+New+Policy",
+      "source_description": "Bengal Bets Big On Industry: Jobs, Green Push, And Investment Incentives In New Policy",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Provide 100 per cent employer EPF contribution reimbursement for women and transgender employees in MSMEs for 10 years, and 75 per cent for women in eligible service units.",
+        "quote": "We are extending substantial employer EPF contribution reimbursements, leading with 100 per cent reimbursement for women and transgender employees in MSMEs for 10 years, 75 per cent for women in eligible service units, and robust support for large and strategic industrial projects.",
+        "source_url": "https://www.ndtv.com/india-news/bengal-bets-big-on-industry-jobs-green-push-and-investment-incentives-in-new-policy-launched-by-suvendu-adhikari-12289670#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-11-05",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-05",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-05",
+          "evidence_url": "https://www.ndtv.com/india-news/bengal-bets-big-on-industry-jobs-green-push-and-investment-incentives-in-new-policy-launched-by-suvendu-adhikari-12289670#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/bengal-bets-big-on-industry-jobs-green-push-and-investment-incentives-in-new-policy-launched-by-suvendu-adhikari-12289670#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Bengal+Bets+Big+On+Industry+Jobs+Green+Push+And+Investment+Incentives+In+New+Policy",
+          "supporting_quote": "We are extending substantial employer EPF contribution reimbursements, leading with 100 per cent reimbursement for women and transgender employees in MSMEs for 10 years, 75 per cent for women in eligible service units, and robust support for large and strategic industrial projects.",
+          "title": "Bengal Bets Big On Industry: Jobs, Green Push, And Investment Incentives In New Policy",
+          "source": "NDTV",
+          "scraped_at": "2026-11-05",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "The **West Bengal** government launched a new industrial promotion policy on Thursday to attract large investments and revive the state's industrial sector. Chief Minister **Suvendu Adhikari** announced incentives including employer EPF contribution reimbursements for women and transgender employees...",
+          "content": "The West Bengal government rolled out its new industrial promotion policy in a bid to attract big-ticket investments on Thursday. With the chief minister of the state, top ministers, and industrialists in attendance, the state laid down the roadmap to revive its industrial sector. With a focus on incentives to attract more investments, the state announced job creation with a prime focus on women. ...",
+          "quote": "We are extending substantial employer EPF contribution reimbursements, leading with 100 per cent reimbursement for women and transgender employees in MSMEs for 10 years, 75 per cent for women in eligible service units, and robust support for large and strategic industrial projects."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-05",
+      "created_at": "2026-11-05",
+      "url_checked_at": "2026-11-05",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a specific subsidy/incentive scheme for a particular sector (MSMEs) rather than a nation-shaping economic transformation.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-05"
     }
   ]
 }
