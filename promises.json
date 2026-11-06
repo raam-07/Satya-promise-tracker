@@ -1,11 +1,11 @@
 {
   "metadata": {
     "version": "1.0",
-    "last_updated": "2026-11-05",
+    "last_updated": "2026-11-06",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 217,
-    "promises_with_evidence": 217,
+    "total_promises": 218,
+    "promises_with_evidence": 218,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -19108,6 +19108,80 @@
       "importance_reason": "This is a specific subsidy/incentive scheme for a particular sector (MSMEs) rather than a nation-shaping economic transformation.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-05"
+    },
+    {
+      "id": "p218",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Offer up to 120% assistance to a thrust sector unit in a priority area on the share of fixed capital investment (FCI) made in plant and machinery.",
+      "supporting_quote": "The West Bengal Investment Promotion Policy, 2026 that comes into effect from May 9, 2026 the day when the first BJP government in the State took office, offers up to 120 % assistance to a thrust sector unit in a priority area on the share of fixed capital investment (FCI) made in plant and machinery.",
+      "category": "economy",
+      "made_on": "2026-11-05",
+      "reported_on": "2026-11-06",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-govts-new-investment-policy-promotes-job-linked-growth-incentives-for-plant-and-machinery/article71670833.ece",
+      "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-govts-new-investment-policy-promotes-job-linked-growth-incentives-for-plant-and-machinery/article71670833.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=West+Bengal+govt+s+new+investment+policy+promotes+job-linked+growth+incentives+for+plant+and+machinery",
+      "source_description": "West Bengal govt’s new investment policy promotes job-linked growth, incentives for plant and machinery",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Offer up to 120% assistance to a thrust sector unit in a priority area on the share of fixed capital investment (FCI) made in plant and machinery.",
+        "quote": "The West Bengal Investment Promotion Policy, 2026 that comes into effect from May 9, 2026 the day when the first BJP government in the State took office, offers up to 120 % assistance to a thrust sector unit in a priority area on the share of fixed capital investment (FCI) made in plant and machinery.",
+        "source_url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-govts-new-investment-policy-promotes-job-linked-growth-incentives-for-plant-and-machinery/article71670833.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-06",
+        "made_on": "2026-11-05",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-06",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-06",
+          "evidence_url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-govts-new-investment-policy-promotes-job-linked-growth-incentives-for-plant-and-machinery/article71670833.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-govts-new-investment-policy-promotes-job-linked-growth-incentives-for-plant-and-machinery/article71670833.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=West+Bengal+govt+s+new+investment+policy+promotes+job-linked+growth+incentives+for+plant+and+machinery",
+          "supporting_quote": "The West Bengal Investment Promotion Policy, 2026 that comes into effect from May 9, 2026 the day when the first BJP government in the State took office, offers up to 120 % assistance to a thrust sector unit in a priority area on the share of fixed capital investment (FCI) made in plant and machinery.",
+          "title": "West Bengal govt’s new investment policy promotes job-linked growth, incentives for plant and machinery",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-06",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "The **Bharatiya Janata Party (BJP)** government in **West Bengal** announced a new investment promotion policy on November 5, 2026. The policy offers up to 120% assistance for fixed capital investment in plant and machinery for thrust sector units in priority areas. It includes employer EPF reimburs...",
+          "content": "Offering incentives to industries that employ more women and assistance for investments in plant and machinery, as well as a fixed timeline for approval of projects, the Bharatiya Janata Party (BJP) government in West Bengal on Thursday (November 5, 2026) announced a new investment promotion policy. The West Bengal Investment Promotion Policy, 2026 that comes into effect from May 9, 2026 the day w...",
+          "quote": "The West Bengal Investment Promotion Policy, 2026 that comes into effect from May 9, 2026 the day when the first BJP government in the State took office, offers up to 120 % assistance to a thrust sector unit in a priority area on the share of fixed capital investment (FCI) made in plant and machinery."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-06",
+      "created_at": "2026-11-06",
+      "url_checked_at": "2026-11-06",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "This is a specific industrial subsidy/incentive for a particular sector rather than a nation-shaping or transformational state-wide commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-06"
     }
   ]
 }
