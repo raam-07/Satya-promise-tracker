@@ -4,8 +4,8 @@
     "last_updated": "2026-11-06",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 218,
-    "promises_with_evidence": 218,
+    "total_promises": 219,
+    "promises_with_evidence": 219,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -19182,6 +19182,79 @@
       "importance_reason": "This is a specific industrial subsidy/incentive for a particular sector rather than a nation-shaping or transformational state-wide commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-06"
+    },
+    {
+      "id": "p219",
+      "person": "Jagat Prakash Nadda",
+      "party": "party unconfirmed",
+      "role": "Politician",
+      "promise": "Complete the All India Institute of Medical Sciences (AIIMS) at Awantipora in south Kashmir by March 2027",
+      "supporting_quote": "Union Health Minister Jagat Prakash Nadda on Thursday (November 5, 2026) announced that the All India Institute of Medical Sciences (AIIMS) at Awantipora in south Kashmir would be completed by March 2027.",
+      "category": "health",
+      "made_on": "2026-11-05",
+      "reported_on": "2026-11-06",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jks-health-sector-receives-a-shot-in-arm-as-union-minister-jp-nadda-sets-aiims-deadline-for-march/article71670638.ece",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jks-health-sector-receives-a-shot-in-arm-as-union-minister-jp-nadda-sets-aiims-deadline-for-march/article71670638.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=J+K+s+health+sector+receives+a+shot+in+arm+as+Union+Minister+J+P+Nadda+sets+AIIMS+deadline+for+March",
+      "source_description": "J&K’s health sector receives a shot in arm as Union Minister J.P. Nadda sets AIIMS deadline for March",
+      "declaration": {
+        "person": "Jagat Prakash Nadda",
+        "claim": "Complete the All India Institute of Medical Sciences (AIIMS) at Awantipora in south Kashmir by March 2027",
+        "quote": "Union Health Minister Jagat Prakash Nadda on Thursday (November 5, 2026) announced that the All India Institute of Medical Sciences (AIIMS) at Awantipora in south Kashmir would be completed by March 2027.",
+        "source_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jks-health-sector-receives-a-shot-in-arm-as-union-minister-jp-nadda-sets-aiims-deadline-for-march/article71670638.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-06",
+        "made_on": "2026-11-05",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-06",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-06",
+          "evidence_url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jks-health-sector-receives-a-shot-in-arm-as-union-minister-jp-nadda-sets-aiims-deadline-for-march/article71670638.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jks-health-sector-receives-a-shot-in-arm-as-union-minister-jp-nadda-sets-aiims-deadline-for-march/article71670638.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=J+K+s+health+sector+receives+a+shot+in+arm+as+Union+Minister+J+P+Nadda+sets+AIIMS+deadline+for+March",
+          "supporting_quote": "Union Health Minister Jagat Prakash Nadda on Thursday (November 5, 2026) announced that the All India Institute of Medical Sciences (AIIMS) at Awantipora in south Kashmir would be completed by March 2027.",
+          "title": "J&K’s health sector receives a shot in arm as Union Minister J.P. Nadda sets AIIMS deadline for March",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-06",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Union Health Minister **Jagat Prakash Nadda** announced that the **All India Institute of Medical Sciences (AIIMS)** at Awantipora will be completed by March 2027. The minister directed agencies to prioritize essential procurements, including 180 medical equipment items worth ₹59.41 crore. Academic ...",
+          "content": "Union Health Minister Jagat Prakash Nadda on Thursday (November 5, 2026) announced that the All India Institute of Medical Sciences (AIIMS) at Awantipora in south Kashmir would be completed by March 2027. “AIIMS, Awantipora, is a priority project. The concerned agencies should maintain the momentum and complete the remaining construction works by March 2027,” Mr. Nadda said while reviewing the pro...",
+          "quote": "Union Health Minister Jagat Prakash Nadda on Thursday (November 5, 2026) announced that the All India Institute of Medical Sciences (AIIMS) at Awantipora in south Kashmir would be completed by March 2027."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-06",
+      "created_at": "2026-11-06",
+      "url_checked_at": "2026-11-06",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "The construction of a single hospital, even a large one like AIIMS, is a specific infrastructure project rather than a nation-shaping transformational commitment.",
+      "importance_source": "llm"
     }
   ]
 }
