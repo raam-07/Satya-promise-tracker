@@ -4,8 +4,8 @@
     "last_updated": "2026-11-06",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 219,
-    "promises_with_evidence": 219,
+    "total_promises": 220,
+    "promises_with_evidence": 220,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -19255,6 +19255,80 @@
       "importance": "minor",
       "importance_reason": "The construction of a single hospital, even a large one like AIIMS, is a specific infrastructure project rather than a nation-shaping transformational commitment.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p220",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Continue the Gruha Lakshmi scheme which provides monthly cash deposits to poor women.",
+      "supporting_quote": "The Chief Minister declared that there was no question of discontinuing the scheme.",
+      "category": "welfare",
+      "made_on": "2026-11-06",
+      "reported_on": "2026-11-06",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/rural-women-narrate-stories-on-how-gruaha-lakshmi-scheme-helped-build-their-lives/article71675677.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/rural-women-narrate-stories-on-how-gruaha-lakshmi-scheme-helped-build-their-lives/article71675677.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Rural+women+narrate+stories+on+how+Gruaha+Lakshmi+scheme+helped+build+their+lives",
+      "source_description": "Rural women narrate stories on how Gruaha Lakshmi scheme helped build their lives",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Continue the Gruha Lakshmi scheme which provides monthly cash deposits to poor women.",
+        "quote": "The Chief Minister declared that there was no question of discontinuing the scheme.",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/rural-women-narrate-stories-on-how-gruaha-lakshmi-scheme-helped-build-their-lives/article71675677.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-06",
+        "made_on": "2026-11-06",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-06",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-06",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/rural-women-narrate-stories-on-how-gruaha-lakshmi-scheme-helped-build-their-lives/article71675677.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/rural-women-narrate-stories-on-how-gruaha-lakshmi-scheme-helped-build-their-lives/article71675677.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Rural+women+narrate+stories+on+how+Gruaha+Lakshmi+scheme+helped+build+their+lives",
+          "supporting_quote": "The Chief Minister declared that there was no question of discontinuing the scheme.",
+          "title": "Rural women narrate stories on how Gruaha Lakshmi scheme helped build their lives",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-06",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister D.K. Shivakumar** met **Gruha Lakshmi** scheme beneficiaries in Bengaluru to gather feedback on the program's three-year implementation. Beneficiaries reported using the monthly cash deposits for education, healthcare, and livestock businesses. **D.K. Shivakumar** stated that ₹86,00...",
+          "content": "Chief Minister D.K. Shivakumar’s interaction with Gruha Lakshmi scheme beneficiaries in Bengaluru on Friday turned out to be a forum for hearing stories about how the monthly cash deposit by the scheme helped poor women not just build their lives, but also make significant achievements like helping their wards pursue higher education. At the interaction, which was held at the Chief Minister’s home...",
+          "quote": "The Chief Minister declared that there was no question of discontinuing the scheme."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-06",
+      "created_at": "2026-11-06",
+      "url_checked_at": "2026-11-06",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "This is a continuation of an existing welfare scheme rather than a new, transformational, nation-shaping commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-06"
     }
   ]
 }
