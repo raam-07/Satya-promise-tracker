@@ -4,8 +4,8 @@
     "last_updated": "2026-11-07",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 220,
-    "promises_with_evidence": 220,
+    "total_promises": 221,
+    "promises_with_evidence": 221,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -19348,6 +19348,80 @@
       "importance_reason": "This is a continuation of an existing welfare scheme rather than a new, transformational, nation-shaping commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-06"
+    },
+    {
+      "id": "p221",
+      "person": "Rajnath Singh",
+      "party": "BJP",
+      "role": "Defence Minister",
+      "promise": "All Agniveers will be eligible for enrollment as regular soldiers after completing an additional two-year tenure, subject to willingness and selection criteria.",
+      "supporting_quote": "After completing an additional two-year tenure, all Agniveers will be eligible for enrollment as regular soldiers, subject to their willingness and meeting the selection criteria, Defence Minister Rajnath Singh said on Saturday (November 7, 2026).",
+      "category": "jobs/employment",
+      "made_on": "2026-11-07",
+      "reported_on": "2026-11-07",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/all-agniveers-eligible-for-regular-enrollment-post-2-year-tenure-extension-rajnath-singh/article71678219.ece",
+      "url": "https://www.thehindu.com/news/national/all-agniveers-eligible-for-regular-enrollment-post-2-year-tenure-extension-rajnath-singh/article71678219.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=All+Agniveers+eligible+for+regular+enrollment+post+2-year+tenure+extension+Rajnath+Singh",
+      "source_description": "All Agniveers eligible for regular enrollment post 2-year tenure extension: Rajnath Singh",
+      "declaration": {
+        "person": "Rajnath Singh",
+        "claim": "All Agniveers will be eligible for enrollment as regular soldiers after completing an additional two-year tenure, subject to willingness and selection criteria.",
+        "quote": "After completing an additional two-year tenure, all Agniveers will be eligible for enrollment as regular soldiers, subject to their willingness and meeting the selection criteria, Defence Minister Rajnath Singh said on Saturday (November 7, 2026).",
+        "source_url": "https://www.thehindu.com/news/national/all-agniveers-eligible-for-regular-enrollment-post-2-year-tenure-extension-rajnath-singh/article71678219.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-07",
+        "made_on": "2026-11-07",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-07",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-07",
+          "evidence_url": "https://www.thehindu.com/news/national/all-agniveers-eligible-for-regular-enrollment-post-2-year-tenure-extension-rajnath-singh/article71678219.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/all-agniveers-eligible-for-regular-enrollment-post-2-year-tenure-extension-rajnath-singh/article71678219.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=All+Agniveers+eligible+for+regular+enrollment+post+2-year+tenure+extension+Rajnath+Singh",
+          "supporting_quote": "After completing an additional two-year tenure, all Agniveers will be eligible for enrollment as regular soldiers, subject to their willingness and meeting the selection criteria, Defence Minister Rajnath Singh said on Saturday (November 7, 2026).",
+          "title": "All Agniveers eligible for regular enrollment post 2-year tenure extension: Rajnath Singh",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-07",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Defence Minister Rajnath Singh** announced on November 7, 2026, that all **Agniveers** will be eligible for regular soldier enrollment after an additional two-year tenure. This decision followed a **Cabinet** meeting chaired by **Prime Minister Narendra Modi**. The change allows nearly all of the ...",
+          "content": "After completing an additional two-year tenure, all Agniveers will be eligible for enrollment as regular soldiers, subject to their willingness and meeting the selection criteria, Defence Minister Rajnath Singh said on Saturday (November 7, 2026). Mr. Singh's remarks during an interaction with air warriors at West Bengal's Bagdogra Air Force station came three days after the government announced t...",
+          "quote": "After completing an additional two-year tenure, all Agniveers will be eligible for enrollment as regular soldiers, subject to their willingness and meeting the selection criteria, Defence Minister Rajnath Singh said on Saturday (November 7, 2026)."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "url_checked_at": "2026-11-07",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "This is a specific policy adjustment regarding a single recruitment scheme rather than a nation-shaping economic or structural transformation.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-07"
     }
   ]
 }
