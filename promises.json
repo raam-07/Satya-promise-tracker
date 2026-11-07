@@ -4,8 +4,8 @@
     "last_updated": "2026-11-07",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 222,
-    "promises_with_evidence": 222,
+    "total_promises": 223,
+    "promises_with_evidence": 223,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -19496,6 +19496,79 @@
       "importance_reason": "This is a symbolic outreach and interaction program rather than a large-scale, transformational policy or infrastructure commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-07"
+    },
+    {
+      "id": "p223",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "The radial road connecting Shamshabad with Kodangal will be completed by December 2027",
+      "supporting_quote": "Chief Minister A. Revanth Reddy said the radial road connecting Shamshabad with Kodangal would be completed by December 2027",
+      "category": "infrastructure",
+      "made_on": "2026-11-07",
+      "reported_on": "2026-11-07",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/news/national/telangana/radial-road-from-shamshabad-to-kodangal-will-be-completed-by-dec-2027-says-cm/article71678984.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/radial-road-from-shamshabad-to-kodangal-will-be-completed-by-dec-2027-says-cm/article71678984.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Radial+road+from+Shamshabad+to+Kodangal+will+be+completed+by+Dec+2027+says+CM",
+      "source_description": "Radial road from Shamshabad to Kodangal will be completed by Dec. 2027, says CM",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "The radial road connecting Shamshabad with Kodangal will be completed by December 2027",
+        "quote": "Chief Minister A. Revanth Reddy said the radial road connecting Shamshabad with Kodangal would be completed by December 2027",
+        "source_url": "https://www.thehindu.com/news/national/telangana/radial-road-from-shamshabad-to-kodangal-will-be-completed-by-dec-2027-says-cm/article71678984.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-07",
+        "made_on": "2026-11-07",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-07",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-07",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/radial-road-from-shamshabad-to-kodangal-will-be-completed-by-dec-2027-says-cm/article71678984.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/radial-road-from-shamshabad-to-kodangal-will-be-completed-by-dec-2027-says-cm/article71678984.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Radial+road+from+Shamshabad+to+Kodangal+will+be+completed+by+Dec+2027+says+CM",
+          "supporting_quote": "Chief Minister A. Revanth Reddy said the radial road connecting Shamshabad with Kodangal would be completed by December 2027",
+          "title": "Radial road from Shamshabad to Kodangal will be completed by Dec. 2027, says CM",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-07",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister A. Revanth Reddy** announced that the radial road connecting Shamshabad with Kodangal will be completed by December 2027. He stated the project will allow travel from the international airport to Kodangal in about 70 minutes to attract investors. The development includes a 250-acre ...",
+          "content": "Chief Minister A. Revanth Reddy said the radial road connecting Shamshabad with Kodangal would be completed by December 2027 and it would enable people to reach Kodangal from the international airport in about 70 minutes, making the region attractive for domestic and foreign investors. Addressing a meeting with nearly 100 industrialists at the launch of the Kodangal Rural Agriculture Region Econom...",
+          "quote": "Chief Minister A. Revanth Reddy said the radial road connecting Shamshabad with Kodangal would be completed by December 2027"
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-07",
+      "created_at": "2026-11-07",
+      "url_checked_at": "2026-11-07",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a single infrastructure project (a road) rather than a nation- or state-shaping transformational commitment.",
+      "importance_source": "llm"
     }
   ]
 }
