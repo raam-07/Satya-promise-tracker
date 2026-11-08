@@ -4,8 +4,8 @@
     "last_updated": "2026-11-08",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 223,
-    "promises_with_evidence": 223,
+    "total_promises": 224,
+    "promises_with_evidence": 224,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -19568,6 +19568,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "This is a single infrastructure project (a road) rather than a nation- or state-shaping transformational commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p224",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Institute the 'Seema Mitra' award from 2027 to recognise exceptional contributions by BSF, SSB, and state police personnel.",
+      "supporting_quote": "\"We will give the 'Seema Mitra' award from next year for BSF, SSB and West Bengal police personnel,\" Mr. Adhikari said.",
+      "category": "welfare",
+      "made_on": "2026-11-08",
+      "reported_on": "2026-11-08",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-to-institute-seema-mitra-award-for-bsf-ssb-police-personnel-from-2027-suvendu/article71681031.ece",
+      "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-to-institute-seema-mitra-award-for-bsf-ssb-police-personnel-from-2027-suvendu/article71681031.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=West+Bengal+to+institute+Seema+Mitra+award+for+BSF+SSB+police+personnel+from+2027+Suvendu",
+      "source_description": "West Bengal to institute 'Seema Mitra' award for BSF, SSB, police personnel from 2027: Suvendu",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Institute the 'Seema Mitra' award from 2027 to recognise exceptional contributions by BSF, SSB, and state police personnel.",
+        "quote": "\"We will give the 'Seema Mitra' award from next year for BSF, SSB and West Bengal police personnel,\" Mr. Adhikari said.",
+        "source_url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-to-institute-seema-mitra-award-for-bsf-ssb-police-personnel-from-2027-suvendu/article71681031.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-08",
+        "made_on": "2026-11-08",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-08",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-08",
+          "evidence_url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-to-institute-seema-mitra-award-for-bsf-ssb-police-personnel-from-2027-suvendu/article71681031.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-to-institute-seema-mitra-award-for-bsf-ssb-police-personnel-from-2027-suvendu/article71681031.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=West+Bengal+to+institute+Seema+Mitra+award+for+BSF+SSB+police+personnel+from+2027+Suvendu",
+          "supporting_quote": "\"We will give the 'Seema Mitra' award from next year for BSF, SSB and West Bengal police personnel,\" Mr. Adhikari said.",
+          "title": "West Bengal to institute 'Seema Mitra' award for BSF, SSB, police personnel from 2027: Suvendu",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-08",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**West Bengal Chief Minister Suvendu Adhikari** announced on November 8, 2026, that his government will institute the 'Seema Mitra' award from 2027. The award recognizes exceptional contributions by **BSF**, **SSB**, and state police personnel in securing borders. He also apologized for previous gov...",
+          "content": "West Bengal Chief Minister Suvendu Adhikari on Sunday (November 8, 2026) announced that his government would institute the 'Seema Mitra' award from 2027 to recognise exceptional contributions by BSF, SSB, and state police personnel in securing the country's borders. A selection committee would be constituted to decide the awardees, he said, while addressing BSF personnel at a border outpost in Hin...",
+          "quote": "\"We will give the 'Seema Mitra' award from next year for BSF, SSB and West Bengal police personnel,\" Mr. Adhikari said."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-08",
+      "created_at": "2026-11-08",
+      "url_checked_at": "2026-11-08",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a symbolic award and recognition scheme rather than a transformational, large-scale policy change.",
       "importance_source": "llm"
     }
   ]
