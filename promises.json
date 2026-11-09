@@ -4,8 +4,8 @@
     "last_updated": "2026-11-09",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 225,
-    "promises_with_evidence": 225,
+    "total_promises": 226,
+    "promises_with_evidence": 226,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -18254,7 +18254,7 @@
         "verification": "raw_source_verified"
       },
       "status": "ongoing",
-      "status_last_reviewed": "2026-10-31",
+      "status_last_reviewed": "2026-11-09",
       "status_history": [
         {
           "status": "ongoing",
@@ -18263,7 +18263,7 @@
         }
       ],
       "qwen_suggestion": "ongoing",
-      "qwen_reasoning": "The promise is a clear, specific commitment made directly by Amit Shah, aimed at a significant societal issue in Punjab.",
+      "qwen_reasoning": "",
       "evidence_articles": [
         {
           "url": "https://www.ndtv.com/india-news/drug-free-punjab-by-2029-end-amit-shahs-big-promise-ahead-of-polls-12122391#publisher=newsstand",
@@ -18283,6 +18283,25 @@
           "rephrased": "**Union Home Minister Amit Shah** launched an attack on the **Aam Aadmi Party** government in Punjab during a rally in Jalandhar. He promised to make the state drug-free by December 31, 2029, if the **BJP** wins the 2027 assembly elections. **Shah** alleged **Bhagwant Mann** increased drug trade and...",
           "content": "Union Home Minister Amit Shah launched a sharp attack on the Aam Aadmi Party government in Punjab on Wednesday, making drug menace the BJP's central political plank for the 2027 assembly elections and promising to make the state drug-free by the last day of 2029 if the party comes to power. Addressing a massive rally in Jalandhar as the BJP's \"Nasha Mukt Punjab Yatra\" ended, Shah directly appealed...",
           "quote": "\"I promise the youth of Punjab that if you vote for the BJP, we will make Punjab drug-free before December 31, 2029,\" he said."
+        },
+        {
+          "url": "https://www.thehindu.com/news/national/gujarat/amit-shah-sets-2028-deadline-for-drug-free-gujarat-urges-citizens-to-report-narcotics-sales/article71682050.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Amit+Shah+sets+2028+deadline+for+drug-free+Gujarat+urges+citizens+to+report+narcotics+sales",
+          "supporting_quote": "Mr. Shah said that while the deadline to make India drug-free is December 31, 2029, Gujarat needs to achieve the status by December 31, 2028.",
+          "title": "Amit Shah sets 2028 deadline for drug-free Gujarat, urges citizens to report narcotics sales",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Union Home Minister Amit Shah** asserted on November 9, 2026, that public support is essential to eradicate narcotics. He stated the goal is a drug-free India by December 31, 2029, with **Gujarat** aiming for this status by December 31, 2028. **Shah** urged citizens to report drug sales via a dedi...",
+          "content": "Union Home Minister Amit Shah on Monday (November 9, 2026) asserted that governments alone cannot eradicate narcotics without active public support, and urged citizens to report drug abuse to the authorities via dedicated helplines. Addressing a gathering here after launching development projects worth ₹1,024 crore, Mr. Shah said that while the deadline to make India drug-free is December 31, 2029...",
+          "quote": "Mr. Shah said that while the deadline to make India drug-free is December 31, 2029, Gujarat needs to achieve the status by December 31, 2028."
         }
       ],
       "notes": "Union Home Minister Amit Shah pledged at the culmination of the Nasha Mukt Punjab Yatra that Punjab will be made completely narcotics-free by December 31, 2029.",
@@ -18291,10 +18310,10 @@
       "created_at": "2026-09-30",
       "url_checked_at": "2026-09-30",
       "promise_type": "specific",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "importance_hint": "critical",
       "importance": "critical",
-      "importance_reason": "Aims to address a widespread and significant issue affecting a large population across the state.",
+      "importance_reason": "A state-wide, transformational goal addressing a systemic socio-economic crisis affecting the entire population of Punjab.",
       "importance_source": "llm"
     },
     {
@@ -19715,6 +19734,99 @@
       "importance": "critical",
       "importance_reason": "A state-wide, transformational commitment to eliminate a systemic socio-economic crisis affecting the entire state of Punjab.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p226",
+      "person": "Himanta Biswa Sarma",
+      "party": "BJP",
+      "role": "Chief Minister of Assam",
+      "promise": "Support all dairy farmers to run their business profitably and attain the goal of 10 lakh lts milk production per day in Assam",
+      "supporting_quote": "Across Assam, we are supporting all dairy farmers to run their business profitably and attain the goal of 10 lakh lts milk production per day,",
+      "category": "farmers/agriculture",
+      "made_on": "2026-11-08",
+      "reported_on": "2026-11-09",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/moo-shkil-to-resist-himanta-sarma-drinks-milk-given-by-muslim-farmer-at-rally-12302988#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/moo-shkil-to-resist-himanta-sarma-drinks-milk-given-by-muslim-farmer-at-rally-12302988#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Moo-shkil+To+Resist+Himanta+Sarma+Drinks+Milk+Given+By+Muslim+Farmer+At+Rally",
+      "source_description": "\"Moo-shkil To Resist\": Himanta Sarma Drinks Milk Given By Muslim Farmer At Rally",
+      "declaration": {
+        "person": "Himanta Biswa Sarma",
+        "claim": "Support all dairy farmers to run their business profitably and attain the goal of 10 lakh lts milk production per day in Assam",
+        "quote": "Across Assam, we are supporting all dairy farmers to run their business profitably and attain the goal of 10 lakh lts milk production per day,",
+        "source_url": "https://www.ndtv.com/india-news/moo-shkil-to-resist-himanta-sarma-drinks-milk-given-by-muslim-farmer-at-rally-12302988#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-11-09",
+        "made_on": "2026-11-08",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-09",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-09",
+          "evidence_url": "https://www.ndtv.com/india-news/moo-shkil-to-resist-himanta-sarma-drinks-milk-given-by-muslim-farmer-at-rally-12302988#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/moo-shkil-to-resist-himanta-sarma-drinks-milk-given-by-muslim-farmer-at-rally-12302988#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Moo-shkil+To+Resist+Himanta+Sarma+Drinks+Milk+Given+By+Muslim+Farmer+At+Rally",
+          "supporting_quote": "Across Assam, we are supporting all dairy farmers to run their business profitably and attain the goal of 10 lakh lts milk production per day,",
+          "title": "\"Moo-shkil To Resist\": Himanta Sarma Drinks Milk Given By Muslim Farmer At Rally",
+          "source": "NDTV",
+          "scraped_at": "2026-11-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Himanta Biswa Sarma**, the **Assam Chief Minister**, drank cow milk from a plastic bottle offered by a Muslim dairy farmer, **Md Sohab Ali**, during a victory celebration in Nagaon. The event followed an **NDA** candidate's win in the Nagaon Lok Sabha by-election. **Sarma** stated the government a...",
+          "content": "Assam Chief Minister Himanta Biswa Sarma gulped down milk from a plastic bottle offered to him by a Muslim dairy farmer on stage during a victory celebration in Nagaon's Samaguri on Saturday. The farmer, identified as Md Sohab Ali by Sarma in a social media post, brought milk produced at his own farm and presented it to the Chief Minister. Sarma accepted the offering and drank some of it in front ...",
+          "quote": "Across Assam, we are supporting all dairy farmers to run their business profitably and attain the goal of 10 lakh lts milk production per day,"
+        },
+        {
+          "url": "https://www.ndtv.com/india-news/moo-shkil-to-resist-himanta-sarma-drinks-milk-given-by-muslim-farmer-at-rally-12302990#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Moo-shkil+To+Resist+Himanta+Sarma+Drinks+Milk+Given+By+Muslim+Farmer+At+Rally",
+          "supporting_quote": "Across Assam, we are supporting all dairy farmers to run their business profitably and attain the goal of 10 lakh lts milk production per day,",
+          "title": "\"Moo-shkil To Resist\": Himanta Sarma Drinks Milk Given By Muslim Farmer At Rally",
+          "source": "NDTV",
+          "scraped_at": "2026-11-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Himanta Biswa Sarma**, the **Assam Chief Minister**, drank cow milk from a plastic bottle offered by a Muslim dairy farmer, **Md Sohab Ali**, during a victory celebration in Nagaon. The event followed a **BJP** win in the Nagaon Lok Sabha by-election. **Sarma** stated the government aims to reach ...",
+          "content": "Assam Chief Minister Himanta Biswa Sarma gulped down milk from a plastic bottle offered to him by a Muslim dairy farmer on stage during a victory celebration in Nagaon's Samaguri on Saturday. The farmer, identified as Md Sohab Ali by Sarma in a social media post, brought milk produced at his own farm and presented it to the Chief Minister. Sarma accepted the offering and drank some of it in front ...",
+          "quote": "Across Assam, we are supporting all dairy farmers to run their business profitably and attain the goal of 10 lakh lts milk production per day,"
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-09",
+      "created_at": "2026-11-09",
+      "url_checked_at": "2026-11-09",
+      "promise_type": "specific",
+      "evidence_count": 2,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a sectoral goal for a specific state rather than a nation-shaping or transformational flagship commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-09"
     }
   ]
 }
