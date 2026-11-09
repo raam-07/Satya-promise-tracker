@@ -4,8 +4,8 @@
     "last_updated": "2026-11-09",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 224,
-    "promises_with_evidence": 224,
+    "total_promises": 225,
+    "promises_with_evidence": 225,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -19641,6 +19641,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "This is a symbolic award and recognition scheme rather than a transformational, large-scale policy change.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p225",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Eliminate the drug trade in Punjab by December 31, 2029",
+      "supporting_quote": "Shah reiterated his commitment to eliminating the drug trade in Punjab by December 31, 2029, challenging the state's political leadership to focus on eradicating the menace rather than trading allegations.",
+      "category": "law_and_order",
+      "made_on": null,
+      "reported_on": "2026-11-09",
+      "deadline": "2029",
+      "source_url": "https://www.ndtv.com/india-news/analysis-politics-of-drugs-bjp-looks-to-turn-punjab-aaps-biggest-challenge-into-electoral-gains-12302076#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/analysis-politics-of-drugs-bjp-looks-to-turn-punjab-aaps-biggest-challenge-into-electoral-gains-12302076#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Analysis+Politics+Of+Drugs+BJP+Looks+To+Turn+Punjab+AAP+s+Biggest+Challenge+Into+Electoral+Gains",
+      "source_description": "Analysis | Politics Of Drugs: BJP Looks To Turn Punjab AAP's Biggest Challenge Into Electoral Gains",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Eliminate the drug trade in Punjab by December 31, 2029",
+        "quote": "Shah reiterated his commitment to eliminating the drug trade in Punjab by December 31, 2029, challenging the state's political leadership to focus on eradicating the menace rather than trading allegations.",
+        "source_url": "https://www.ndtv.com/india-news/analysis-politics-of-drugs-bjp-looks-to-turn-punjab-aaps-biggest-challenge-into-electoral-gains-12302076#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-11-09",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-09",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-09",
+          "evidence_url": "https://www.ndtv.com/india-news/analysis-politics-of-drugs-bjp-looks-to-turn-punjab-aaps-biggest-challenge-into-electoral-gains-12302076#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/analysis-politics-of-drugs-bjp-looks-to-turn-punjab-aaps-biggest-challenge-into-electoral-gains-12302076#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Analysis+Politics+Of+Drugs+BJP+Looks+To+Turn+Punjab+AAP+s+Biggest+Challenge+Into+Electoral+Gains",
+          "supporting_quote": "Shah reiterated his commitment to eliminating the drug trade in Punjab by December 31, 2029, challenging the state's political leadership to focus on eradicating the menace rather than trading allegations.",
+          "title": "Analysis | Politics Of Drugs: BJP Looks To Turn Punjab AAP's Biggest Challenge Into Electoral Gains",
+          "source": "NDTV",
+          "scraped_at": "2026-11-09",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "The **BJP** is attempting to turn the drug menace into a principal political weapon against the **AAP** government in Punjab ahead of the 2027 assembly elections. Recent incidents, including an attack on anti-drug activist **Amandeep Singh** and the killing of **Parvinder Singh Jhota**, have raised ...",
+          "content": "Analysis | Politics Of Drugs: BJP Looks To Turn Punjab AAP's Biggest Challenge Into Electoral Gains The BJP is attempting to turn the drug menace into one of its principal political weapons against the AAP government in Punjab, ahead of the assembly election The drug menace in Punjab is no longer just a political talking point; it is increasingly becoming a test of the Bhagwant Mann government's c...",
+          "quote": "Shah reiterated his commitment to eliminating the drug trade in Punjab by December 31, 2029, challenging the state's political leadership to focus on eradicating the menace rather than trading allegations."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-09",
+      "created_at": "2026-11-09",
+      "url_checked_at": "2026-11-09",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "A state-wide, transformational commitment to eliminate a systemic socio-economic crisis affecting the entire state of Punjab.",
       "importance_source": "llm"
     }
   ]
