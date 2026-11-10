@@ -4,8 +4,8 @@
     "last_updated": "2026-11-10",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 230,
-    "promises_with_evidence": 230,
+    "total_promises": 231,
+    "promises_with_evidence": 231,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20122,6 +20122,79 @@
       "importance_reason": "While culturally significant, it is a localized urban development and infrastructure project rather than a nation-shaping economic or systemic transformation.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-10"
+    },
+    {
+      "id": "p231",
+      "person": "Mohan Yadav",
+      "party": "BJP",
+      "role": "Chief Minister of Madhya Pradesh",
+      "promise": "Lay the foundation stone for a new zoo and rescue centre in Ujjain on November 17, 2026.",
+      "supporting_quote": "He also announced that the foundation stone for a new zoo and rescue centre in Ujjain will be laid on November 17.",
+      "category": "infrastructure",
+      "made_on": "2026-11-10",
+      "reported_on": "2026-11-10",
+      "deadline": "2026",
+      "source_url": "https://www.thehindu.com/news/national/madhya-pradesh/sir-removed-bangladeshi-infiltrators-from-voter-lists-claims-mp-cm-yadav/article71686928.ece",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/sir-removed-bangladeshi-infiltrators-from-voter-lists-claims-mp-cm-yadav/article71686928.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=SIR+removed+Bangladeshi+infiltrators+from+voter+lists+claims+MP+CM+Yadav",
+      "source_description": "SIR removed Bangladeshi infiltrators from voter lists, claims MP CM Yadav",
+      "declaration": {
+        "person": "Mohan Yadav",
+        "claim": "Lay the foundation stone for a new zoo and rescue centre in Ujjain on November 17, 2026.",
+        "quote": "He also announced that the foundation stone for a new zoo and rescue centre in Ujjain will be laid on November 17.",
+        "source_url": "https://www.thehindu.com/news/national/madhya-pradesh/sir-removed-bangladeshi-infiltrators-from-voter-lists-claims-mp-cm-yadav/article71686928.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-10",
+        "made_on": "2026-11-10",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-10",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-10",
+          "evidence_url": "https://www.thehindu.com/news/national/madhya-pradesh/sir-removed-bangladeshi-infiltrators-from-voter-lists-claims-mp-cm-yadav/article71686928.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/madhya-pradesh/sir-removed-bangladeshi-infiltrators-from-voter-lists-claims-mp-cm-yadav/article71686928.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=SIR+removed+Bangladeshi+infiltrators+from+voter+lists+claims+MP+CM+Yadav",
+          "supporting_quote": "He also announced that the foundation stone for a new zoo and rescue centre in Ujjain will be laid on November 17.",
+          "title": "SIR removed Bangladeshi infiltrators from voter lists, claims MP CM Yadav",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-10",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Mohan Yadav**, the **Madhya Pradesh** Chief Minister, claimed on November 10, 2026, that a special intensive revision of electoral rolls removed illegal Bangladeshi infiltrators. During a function in Ujjain, he launched development projects worth ₹1,211.34 crore ahead of the 2028 Simhastha Kumbh. ...",
+          "content": "Madhya Pradesh Chief Minister Mohan Yadav on Tuesday (November 10, 2026) claimed that the special intensive revision (SIR) of electoral rolls weeded out illegal Bangladeshi infiltrators from voter lists, asserting that citizens remain steadfast with the ruling alliance to safeguard democracy. Mr. Yadav was speaking at a Diwali Milan function in Ujjain, where he launched development projects worth ...",
+          "quote": "He also announced that the foundation stone for a new zoo and rescue centre in Ujjain will be laid on November 17."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-10",
+      "created_at": "2026-11-10",
+      "url_checked_at": "2026-11-10",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a single, localized infrastructure project and a symbolic gesture rather than a nation-shaping commitment.",
+      "importance_source": "llm"
     }
   ]
 }
