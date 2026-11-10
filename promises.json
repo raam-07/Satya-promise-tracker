@@ -4,8 +4,8 @@
     "last_updated": "2026-11-10",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 229,
-    "promises_with_evidence": 229,
+    "total_promises": 230,
+    "promises_with_evidence": 230,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20048,6 +20048,80 @@
       "importance_reason": "This is a routine administrative allocation for a specific cultural institution rather than a nation-shaping or transformational policy.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-09"
+    },
+    {
+      "id": "p230",
+      "person": "Akhilesh Yadav",
+      "party": "SP",
+      "role": "Samajwadi Party President",
+      "promise": "Develop Ayodhya with world-class infrastructure and transform it into the global capital of Sanatan pilgrimage.",
+      "supporting_quote": "\"We will provide world-class infrastructure and make Ayodhya the 'global capital of Sanatan pilgrimage',\" Mr. Yadav said.",
+      "category": "infrastructure",
+      "made_on": "2026-11-09",
+      "reported_on": "2026-11-10",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/akhilesh-vows-to-make-ayodhya-global-capital-of-sanatan-pilgrimage/article71686121.ece",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/akhilesh-vows-to-make-ayodhya-global-capital-of-sanatan-pilgrimage/article71686121.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Akhilesh+vows+to+make+Ayodhya+global+capital+of+Sanatan+pilgrimage",
+      "source_description": "Akhilesh vows to make Ayodhya ‘global capital of Sanatan pilgrimage’",
+      "declaration": {
+        "person": "Akhilesh Yadav",
+        "claim": "Develop Ayodhya with world-class infrastructure and transform it into the global capital of Sanatan pilgrimage.",
+        "quote": "\"We will provide world-class infrastructure and make Ayodhya the 'global capital of Sanatan pilgrimage',\" Mr. Yadav said.",
+        "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/akhilesh-vows-to-make-ayodhya-global-capital-of-sanatan-pilgrimage/article71686121.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-10",
+        "made_on": "2026-11-09",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-10",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-10",
+          "evidence_url": "https://www.thehindu.com/news/national/uttar-pradesh/akhilesh-vows-to-make-ayodhya-global-capital-of-sanatan-pilgrimage/article71686121.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/akhilesh-vows-to-make-ayodhya-global-capital-of-sanatan-pilgrimage/article71686121.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Akhilesh+vows+to+make+Ayodhya+global+capital+of+Sanatan+pilgrimage",
+          "supporting_quote": "\"We will provide world-class infrastructure and make Ayodhya the 'global capital of Sanatan pilgrimage',\" Mr. Yadav said.",
+          "title": "Akhilesh vows to make Ayodhya ‘global capital of Sanatan pilgrimage’",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-10",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Samajwadi Party** president **Akhilesh Yadav** promised to develop Ayodhya with world-class infrastructure and transform it into a \"global capital of Sanatan pilgrimage\" if his party wins the next elections. He pledged to restore local economy, introduce a transparent temple system, and investigat...",
+          "content": "Samajwadi Party president Akhilesh Yadav has promised to develop Ayodhya with world-class infrastructure and transform it into the \"global capital of Sanatan pilgrimage\" if his party comes to power in Uttar Pradesh after the elections next year. In a post on X late Monday night (November 9, 2026), Mr. Yadav, who prominently raised the alleged donation theft at the Ram temple in June, said his part...",
+          "quote": "\"We will provide world-class infrastructure and make Ayodhya the 'global capital of Sanatan pilgrimage',\" Mr. Yadav said."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-10",
+      "created_at": "2026-11-10",
+      "url_checked_at": "2026-11-10",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "While culturally significant, it is a localized urban development and infrastructure project rather than a nation-shaping economic or systemic transformation.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-10"
     }
   ]
 }
