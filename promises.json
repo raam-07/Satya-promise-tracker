@@ -4,8 +4,8 @@
     "last_updated": "2026-11-11",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 231,
-    "promises_with_evidence": 231,
+    "total_promises": 232,
+    "promises_with_evidence": 232,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20195,6 +20195,80 @@
       "importance": "minor",
       "importance_reason": "This is a single, localized infrastructure project and a symbolic gesture rather than a nation-shaping commitment.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p232",
+      "person": "Samrat Choudhary",
+      "party": "BJP",
+      "role": "Chief Minister of Bihar",
+      "promise": "Launch a campaign to identify eligible individuals not covered by the social security pension scheme and ensure they are enrolled and receive benefits",
+      "supporting_quote": "The Chief Minister directed all concerned officials to launch a campaign to identify eligible individuals who are not yet covered by the social security pension scheme and to ensure they are enrolled and receive its benefits.",
+      "category": "welfare",
+      "made_on": "2026-11-10",
+      "reported_on": "2026-11-11",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/bihar/bihar-cm-suspends-15-officers-for-negligence-of-duty/article71686309.ece",
+      "url": "https://www.thehindu.com/news/national/bihar/bihar-cm-suspends-15-officers-for-negligence-of-duty/article71686309.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Bihar+CM+suspends+15+officers+for+negligence+of+duty",
+      "source_description": "Bihar CM suspends 15 officers for negligence of duty",
+      "declaration": {
+        "person": "Samrat Choudhary",
+        "claim": "Launch a campaign to identify eligible individuals not covered by the social security pension scheme and ensure they are enrolled and receive benefits",
+        "quote": "The Chief Minister directed all concerned officials to launch a campaign to identify eligible individuals who are not yet covered by the social security pension scheme and to ensure they are enrolled and receive its benefits.",
+        "source_url": "https://www.thehindu.com/news/national/bihar/bihar-cm-suspends-15-officers-for-negligence-of-duty/article71686309.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-11",
+        "made_on": "2026-11-10",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-11",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-11",
+          "evidence_url": "https://www.thehindu.com/news/national/bihar/bihar-cm-suspends-15-officers-for-negligence-of-duty/article71686309.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/bihar-cm-suspends-15-officers-for-negligence-of-duty/article71686309.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Bihar+CM+suspends+15+officers+for+negligence+of+duty",
+          "supporting_quote": "The Chief Minister directed all concerned officials to launch a campaign to identify eligible individuals who are not yet covered by the social security pension scheme and to ensure they are enrolled and receive its benefits.",
+          "title": "Bihar CM suspends 15 officers for negligence of duty",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Bihar Chief Minister Samrat Choudhary** suspended 15 officers on November 10, 2026, for negligence regarding the ‘Sahyog’ Programme. The action targeted nine officers from the **Revenue and Land Reforms Department (RLRD)**, four from the **Public Health Engineering Department**, and two others fro...",
+          "content": "Bihar Chief Minister Samrat Choudhary on Tuesday (November 10, 2026) suspended 15 officers with immediate effect for negligence and failure to ensure the quality resolution of applications under the ‘Sahyog’ (Assistance) Programme. The action has been taken and departmental proceedings have also been initiated against them for failing to process applications in a timely manner, Nine officers of Re...",
+          "quote": "The Chief Minister directed all concerned officials to launch a campaign to identify eligible individuals who are not yet covered by the social security pension scheme and to ensure they are enrolled and receive its benefits."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-11",
+      "created_at": "2026-11-11",
+      "url_checked_at": "2026-11-11",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "This is a routine administrative process of identifying and enrolling beneficiaries for an existing scheme rather than a transformational, nation-shaping commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-11"
     }
   ]
 }
