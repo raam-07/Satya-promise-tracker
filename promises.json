@@ -4,8 +4,8 @@
     "last_updated": "2026-11-11",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 234,
-    "promises_with_evidence": 234,
+    "total_promises": 235,
+    "promises_with_evidence": 235,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20414,6 +20414,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "This is a specific infrastructure project involving a set number of schemes rather than a transformational, state-wide policy shift.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p235",
+      "person": "N. Chandrababu Naidu",
+      "party": "TDP",
+      "role": "Chief Minister",
+      "promise": "Complete the Amaravati capital city and Polavaram irrigation projects by March 2027",
+      "supporting_quote": "He said that the State had set a target of completing the Amaravati capital city and Polavaram irrigation projects by March 2027.",
+      "category": "infrastructure",
+      "made_on": "2026-11-12",
+      "reported_on": "2026-11-11",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/cm-naidu-urges-singapore-to-focus-on-integrated-model-township-in-andhra-pradesh/article71690724.ece",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cm-naidu-urges-singapore-to-focus-on-integrated-model-township-in-andhra-pradesh/article71690724.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=CM+Naidu+urges+Singapore+to+focus+on+integrated+model+township+in+Andhra+Pradesh",
+      "source_description": "CM Naidu urges Singapore to focus on integrated model township in Andhra Pradesh",
+      "declaration": {
+        "person": "N. Chandrababu Naidu",
+        "claim": "Complete the Amaravati capital city and Polavaram irrigation projects by March 2027",
+        "quote": "He said that the State had set a target of completing the Amaravati capital city and Polavaram irrigation projects by March 2027.",
+        "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/cm-naidu-urges-singapore-to-focus-on-integrated-model-township-in-andhra-pradesh/article71690724.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-11",
+        "made_on": "2026-11-12",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-11",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-11",
+          "evidence_url": "https://www.thehindu.com/news/national/andhra-pradesh/cm-naidu-urges-singapore-to-focus-on-integrated-model-township-in-andhra-pradesh/article71690724.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/cm-naidu-urges-singapore-to-focus-on-integrated-model-township-in-andhra-pradesh/article71690724.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=CM+Naidu+urges+Singapore+to+focus+on+integrated+model+township+in+Andhra+Pradesh",
+          "supporting_quote": "He said that the State had set a target of completing the Amaravati capital city and Polavaram irrigation projects by March 2027.",
+          "title": "CM Naidu urges Singapore to focus on integrated model township in Andhra Pradesh",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-11",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister N. Chandrababu Naidu** urged **Singapore** to develop an integrated model township in **Andhra Pradesh** during a meeting with a delegation led by **Minister Gan Siow Huang**. The state aims to complete the Amaravati capital and Polavaram irrigation projects by March 2027. Plans inc...",
+          "content": "Chief Minister N. Chandrababu Naidu has urged Singapore to focus on developing an integrated model township in Andhra Pradesh as part of the strategic partnership. Speaking at the third Joint Implementation Steering Committee (JISC) meeting with a 14-member Singapore delegation led by Singapore Minister Gan Siow Huang at his camp office in Amaravati on Wednesday, Mr. Naidu called for a coordinated...",
+          "quote": "He said that the State had set a target of completing the Amaravati capital city and Polavaram irrigation projects by March 2027."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-11",
+      "created_at": "2026-11-11",
+      "url_checked_at": "2026-11-11",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "These are flagship, multi-billion dollar infrastructure projects that define the state's economic and geographic development.",
       "importance_source": "llm"
     }
   ]
