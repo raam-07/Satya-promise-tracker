@@ -4,8 +4,8 @@
     "last_updated": "2026-11-12",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 235,
-    "promises_with_evidence": 235,
+    "total_promises": 236,
+    "promises_with_evidence": 236,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20488,6 +20488,80 @@
       "importance": "critical",
       "importance_reason": "These are flagship, multi-billion dollar infrastructure projects that define the state's economic and geographic development.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p236",
+      "person": "V.D. Satheesan",
+      "party": "INC",
+      "role": "Chief Minister of Kerala",
+      "promise": "Set up a consortium of State agencies (KFC, KSIDC) and investment banks to provide funds for start-ups to scale up globally.",
+      "supporting_quote": "The government will be setting up a consortium of State agencies like Kerala Financial Corporation (KFC), Kerala State Industrial Development Corporation (KSIDC) and investment banks to ensure that start-ups receive required funds to translate ideas into products and scale them up on global scale, he said.",
+      "category": "economy",
+      "made_on": "2026-11-12",
+      "reported_on": "2026-11-12",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/kerala/keralam-govt-to-transform-start-up-mission-to-a-scale-up-mission-says-chief-minister-vd-satheesan/article71694835.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/keralam-govt-to-transform-start-up-mission-to-a-scale-up-mission-says-chief-minister-vd-satheesan/article71694835.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Keralam+govt+to+transform+start-up+mission+to+a+scale-up+mission+says+Chief+Minister+V+D+Satheesan",
+      "source_description": "Keralam govt. to transform start-up mission to a ‘scale-up mission’, says Chief Minister V.D. Satheesan",
+      "declaration": {
+        "person": "V.D. Satheesan",
+        "claim": "Set up a consortium of State agencies (KFC, KSIDC) and investment banks to provide funds for start-ups to scale up globally.",
+        "quote": "The government will be setting up a consortium of State agencies like Kerala Financial Corporation (KFC), Kerala State Industrial Development Corporation (KSIDC) and investment banks to ensure that start-ups receive required funds to translate ideas into products and scale them up on global scale, he said.",
+        "source_url": "https://www.thehindu.com/news/national/kerala/keralam-govt-to-transform-start-up-mission-to-a-scale-up-mission-says-chief-minister-vd-satheesan/article71694835.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-12",
+        "made_on": "2026-11-12",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-12",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-12",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/keralam-govt-to-transform-start-up-mission-to-a-scale-up-mission-says-chief-minister-vd-satheesan/article71694835.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/keralam-govt-to-transform-start-up-mission-to-a-scale-up-mission-says-chief-minister-vd-satheesan/article71694835.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Keralam+govt+to+transform+start-up+mission+to+a+scale-up+mission+says+Chief+Minister+V+D+Satheesan",
+          "supporting_quote": "The government will be setting up a consortium of State agencies like Kerala Financial Corporation (KFC), Kerala State Industrial Development Corporation (KSIDC) and investment banks to ensure that start-ups receive required funds to translate ideas into products and scale them up on global scale, he said.",
+          "title": "Keralam govt. to transform start-up mission to a ‘scale-up mission’, says Chief Minister V.D. Satheesan",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-12",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister V.D. Satheesan** announced that the **Kerala State Startup Mission** will shift its focus from a start-up mission to a scale-up mission in Keralam. The government plans to establish a consortium including **Kerala Financial Corporation** and **Kerala State Industrial Development Cor...",
+          "content": "Signalling a shift in approach regarding start-ups in Keralam, Chief Minister V.D. Satheesan said the government’s focus will be to transform the start-up mission to a scale-up mission. He was speaking after inaugurating the eighth edition of the three-day Huddle Global 2026, organised by the Kerala State Startup Mission at Kovalam here on Thursday. He said that Keralam became the first State in I...",
+          "quote": "The government will be setting up a consortium of State agencies like Kerala Financial Corporation (KFC), Kerala State Industrial Development Corporation (KSIDC) and investment banks to ensure that start-ups receive required funds to translate ideas into products and scale them up on global scale, he said."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-12",
+      "created_at": "2026-11-12",
+      "url_checked_at": "2026-11-12",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a specific administrative mechanism/scheme for startup funding rather than a nation-shaping or transformational economic shift.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-12"
     }
   ]
 }
