@@ -4,8 +4,8 @@
     "last_updated": "2026-11-12",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 236,
-    "promises_with_evidence": 236,
+    "total_promises": 237,
+    "promises_with_evidence": 237,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20562,6 +20562,79 @@
       "importance_reason": "This is a specific administrative mechanism/scheme for startup funding rather than a nation-shaping or transformational economic shift.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-12"
+    },
+    {
+      "id": "p237",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Complete the construction of the new Osmania General Hospital and make it available to the public by December 2027",
+      "supporting_quote": "He also set December 2027 as the deadline for completing the construction of the new Osmania General Hospital and making it available to the public.",
+      "category": "health",
+      "made_on": "2026-11-12",
+      "reported_on": "2026-11-12",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/news/national/telangana/tims-hospitals-will-be-fully-operational-by-june-2-says-chief-minister/article71695185.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/tims-hospitals-will-be-fully-operational-by-june-2-says-chief-minister/article71695185.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=TIMS+hospitals+will+be+fully+operational+by+June+2+says+Chief+Minister",
+      "source_description": "TIMS hospitals will be fully operational by June 2, says Chief Minister",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Complete the construction of the new Osmania General Hospital and make it available to the public by December 2027",
+        "quote": "He also set December 2027 as the deadline for completing the construction of the new Osmania General Hospital and making it available to the public.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/tims-hospitals-will-be-fully-operational-by-june-2-says-chief-minister/article71695185.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-12",
+        "made_on": "2026-11-12",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-12",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-12",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/tims-hospitals-will-be-fully-operational-by-june-2-says-chief-minister/article71695185.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/tims-hospitals-will-be-fully-operational-by-june-2-says-chief-minister/article71695185.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=TIMS+hospitals+will+be+fully+operational+by+June+2+says+Chief+Minister",
+          "supporting_quote": "He also set December 2027 as the deadline for completing the construction of the new Osmania General Hospital and making it available to the public.",
+          "title": "TIMS hospitals will be fully operational by June 2, says Chief Minister",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-12",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister A. Revanth Reddy** directed officials to complete the **TIMS hospitals** at Alwal and LB Nagar, **Warangal Super Speciality Hospital**, and **NIMS** expansion by June 2 next year. He set a December 2027 deadline for the new **Osmania General Hospital**. The plan includes a unified r...",
+          "content": "Chief Minister A. Revanth Reddy has directed officials to ensure that the TIMS hospitals at Alwal and LB Nagar, Warangal Super Speciality Hospital and the expansion works at NIMS are completed by June 2 next year and made fully operational. He also set December 2027 as the deadline for completing the construction of the new Osmania General Hospital and making it available to the public. At a revie...",
+          "quote": "He also set December 2027 as the deadline for completing the construction of the new Osmania General Hospital and making it available to the public."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-12",
+      "created_at": "2026-11-12",
+      "url_checked_at": "2026-11-12",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "The construction of a single hospital is a routine infrastructure project rather than a nation- or state-shaping transformational commitment.",
+      "importance_source": "llm"
     }
   ]
 }
