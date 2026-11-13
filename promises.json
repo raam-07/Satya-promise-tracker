@@ -4,8 +4,8 @@
     "last_updated": "2026-11-13",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 238,
-    "promises_with_evidence": 238,
+    "total_promises": 239,
+    "promises_with_evidence": 239,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20707,6 +20707,79 @@
       "importance_hint": "critical",
       "importance": "minor",
       "importance_reason": "This is a specific sectoral investment and capacity target rather than a nation-shaping or transformational flagship commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p239",
+      "person": "Samrat Choudhary",
+      "party": "BJP",
+      "role": "Chief Minister of Bihar",
+      "promise": "Establish a system by 2030 that ensures the people of Bihar are no longer compelled to migrate to other states in search of employment.",
+      "supporting_quote": "The government is committed to establishing a system by 2030 that ensures the people of Bihar are no longer compelled to migrate to other states in search of employment.",
+      "category": "jobs/employment",
+      "made_on": "2026-11-12",
+      "reported_on": "2026-11-13",
+      "deadline": "2030",
+      "source_url": "https://www.thehindu.com/news/national/bihar/bihar-government-issues-ration-cards-to-nearly-24-lakh-new-beneficiaries/article71693893.ece",
+      "url": "https://www.thehindu.com/news/national/bihar/bihar-government-issues-ration-cards-to-nearly-24-lakh-new-beneficiaries/article71693893.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Bihar+government+issues+ration+cards+to+nearly+24+lakh+new+beneficiaries",
+      "source_description": "Bihar government issues ration cards to nearly 24 lakh new beneficiaries",
+      "declaration": {
+        "person": "Samrat Choudhary",
+        "claim": "Establish a system by 2030 that ensures the people of Bihar are no longer compelled to migrate to other states in search of employment.",
+        "quote": "The government is committed to establishing a system by 2030 that ensures the people of Bihar are no longer compelled to migrate to other states in search of employment.",
+        "source_url": "https://www.thehindu.com/news/national/bihar/bihar-government-issues-ration-cards-to-nearly-24-lakh-new-beneficiaries/article71693893.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-13",
+        "made_on": "2026-11-12",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-13",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-13",
+          "evidence_url": "https://www.thehindu.com/news/national/bihar/bihar-government-issues-ration-cards-to-nearly-24-lakh-new-beneficiaries/article71693893.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/bihar-government-issues-ration-cards-to-nearly-24-lakh-new-beneficiaries/article71693893.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Bihar+government+issues+ration+cards+to+nearly+24+lakh+new+beneficiaries",
+          "supporting_quote": "The government is committed to establishing a system by 2030 that ensures the people of Bihar are no longer compelled to migrate to other states in search of employment.",
+          "title": "Bihar government issues ration cards to nearly 24 lakh new beneficiaries",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-13",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "The **Bihar government** issued ration cards to 23.75 lakh new beneficiaries and granted licenses for 1,448 new Public Distribution System shops on November 12, 2026. Chief Minister **Samrat Choudhary** stated the government aims to add one crore new card holders this financial year. The initiative ...",
+          "content": "As part of the welfare scheme for poor families, the Bihar government on Thursday (November 12, 2026) issued ration cards to 23.75 lakh new beneficiaries. Along with it, the State government also granted licenses for 1,448 new Public Distribution System (PDS) shops. A total of 2.09 crore ration card holders are in the State, benefiting 8.48 crore people. Chief Minister Samrat Choudhary led Nationa...",
+          "quote": "The government is committed to establishing a system by 2030 that ensures the people of Bihar are no longer compelled to migrate to other states in search of employment."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-13",
+      "created_at": "2026-11-13",
+      "url_checked_at": "2026-11-13",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "This is a transformational, state-wide structural commitment aimed at solving a systemic socio-economic issue affecting the entire population of Bihar.",
       "importance_source": "llm"
     }
   ]
