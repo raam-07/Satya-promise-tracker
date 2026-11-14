@@ -4,8 +4,8 @@
     "last_updated": "2026-11-14",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 239,
-    "promises_with_evidence": 239,
+    "total_promises": 240,
+    "promises_with_evidence": 240,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -20780,6 +20780,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "This is a transformational, state-wide structural commitment aimed at solving a systemic socio-economic issue affecting the entire population of Bihar.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p240",
+      "person": "Nara Chandrababu Naidu",
+      "party": "TDP",
+      "role": "Chief Minister",
+      "promise": "Put Amaravati among the top five global quantum hubs by 2030",
+      "supporting_quote": "To put Amaravati among the top five global quantum hubs by 2030, competing alongside established centres in Chicago, Munich, Singapore, and Australia, Andhra Pradesh started with regulation.",
+      "category": "infrastructure",
+      "made_on": null,
+      "reported_on": "2026-11-14",
+      "deadline": "2030",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/from-policy-to-talent-amaravati-quantum-valleys-innovation-blueprint/article71692805.ece",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/from-policy-to-talent-amaravati-quantum-valleys-innovation-blueprint/article71692805.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=From+policy+to+talent+Amaravati+Quantum+Valley+s+innovation+blueprint",
+      "source_description": "From policy to talent: Amaravati Quantum Valley’s innovation blueprint",
+      "declaration": {
+        "person": "Nara Chandrababu Naidu",
+        "claim": "Put Amaravati among the top five global quantum hubs by 2030",
+        "quote": "To put Amaravati among the top five global quantum hubs by 2030, competing alongside established centres in Chicago, Munich, Singapore, and Australia, Andhra Pradesh started with regulation.",
+        "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/from-policy-to-talent-amaravati-quantum-valleys-innovation-blueprint/article71692805.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-14",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-14",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-14",
+          "evidence_url": "https://www.thehindu.com/news/national/andhra-pradesh/from-policy-to-talent-amaravati-quantum-valleys-innovation-blueprint/article71692805.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/from-policy-to-talent-amaravati-quantum-valleys-innovation-blueprint/article71692805.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=From+policy+to+talent+Amaravati+Quantum+Valley+s+innovation+blueprint",
+          "supporting_quote": "To put Amaravati among the top five global quantum hubs by 2030, competing alongside established centres in Chicago, Munich, Singapore, and Australia, Andhra Pradesh started with regulation.",
+          "title": "From policy to talent: Amaravati Quantum Valley’s innovation blueprint",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-14",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Andhra Pradesh** became the first Indian State to introduce a dedicated Quantum Policy to establish the **Amaravati Quantum Valley**. Supported by **Narendra Modi**, the initiative aims to make the region a top five global quantum hub by 2030. The policy focuses on original R&D and commercial appl...",
+          "content": "A quantum processor cooled to near absolute zero draws headlines, yet hardware alone does not build an industry. Its real value depends on the researchers, institutions, and policies surrounding it. When Chief Minister Nara Chandrababu Naidu outlined his vision for the Amaravati Quantum Valley (AQV), a project backed by Prime Minister Narendra Modi, the goal extended well past installing isolated ...",
+          "quote": "To put Amaravati among the top five global quantum hubs by 2030, competing alongside established centres in Chicago, Munich, Singapore, and Australia, Andhra Pradesh started with regulation."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-14",
+      "created_at": "2026-11-14",
+      "url_checked_at": "2026-11-14",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a specific regional development goal for a single city rather than a nation-shaping or transformational state-wide commitment.",
       "importance_source": "llm"
     }
   ]
