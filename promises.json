@@ -4,8 +4,8 @@
     "last_updated": "2026-11-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 243,
-    "promises_with_evidence": 243,
+    "total_promises": 244,
+    "promises_with_evidence": 244,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21095,6 +21095,79 @@
       "importance_reason": "This is a targeted fiscal benefit for a specific group rather than a nation-shaping or large-scale transformational policy.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-14"
+    },
+    {
+      "id": "p244",
+      "person": "Akhilesh Yadav",
+      "party": "SP",
+      "role": "Samajwadi Party President",
+      "promise": "Provide a special welfare package for Scheduled Castes (SCs) and Scheduled Tribes (STs)",
+      "supporting_quote": "He also pledged a special welfare package for Scheduled Castes (SCs) and Scheduled Tribes (STs).",
+      "category": "welfare",
+      "made_on": "2026-11-15",
+      "reported_on": "2026-11-15",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/dalits-will-pull-the-rug-out-from-under-the-bjps-feet-says-samajwadi-party-chief-at-rally/article71704769.ece",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/dalits-will-pull-the-rug-out-from-under-the-bjps-feet-says-samajwadi-party-chief-at-rally/article71704769.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Samajwadi+Party+chief+Akhilesh+Yadav+says+Dalits+will+vote+BJP+out+of+power+in+2027+UP+election",
+      "source_description": "Samajwadi Party chief Akhilesh Yadav says Dalits will vote BJP out of power in 2027 UP election",
+      "declaration": {
+        "person": "Akhilesh Yadav",
+        "claim": "Provide a special welfare package for Scheduled Castes (SCs) and Scheduled Tribes (STs)",
+        "quote": "He also pledged a special welfare package for Scheduled Castes (SCs) and Scheduled Tribes (STs).",
+        "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/dalits-will-pull-the-rug-out-from-under-the-bjps-feet-says-samajwadi-party-chief-at-rally/article71704769.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-15",
+        "made_on": "2026-11-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-15",
+          "evidence_url": "https://www.thehindu.com/news/national/uttar-pradesh/dalits-will-pull-the-rug-out-from-under-the-bjps-feet-says-samajwadi-party-chief-at-rally/article71704769.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/dalits-will-pull-the-rug-out-from-under-the-bjps-feet-says-samajwadi-party-chief-at-rally/article71704769.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Samajwadi+Party+chief+Akhilesh+Yadav+says+Dalits+will+vote+BJP+out+of+power+in+2027+UP+election",
+          "supporting_quote": "He also pledged a special welfare package for Scheduled Castes (SCs) and Scheduled Tribes (STs).",
+          "title": "Samajwadi Party chief Akhilesh Yadav says Dalits will vote BJP out of power in 2027 UP election",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Akhilesh Yadav**, president of the **Samajwadi Party**, introduced the slogan “Save vote, save constitution” during a rally in Agra. He urged workers to guard against electoral manipulation during the Special Summary Revision. **Yadav** claimed the **BJP** is losing votes and promised social justi...",
+          "content": "Samajwadi Party president Akhilesh Yadav coined a fresh slogan on Sunday, “Save vote, save constitution,” as he promised to establish the rule of law and social justice if voted into power in the upcoming Uttar Pradesh State Assembly elections slated for 2027. Responding to Chief Minister Yogi Adityanath’s remarks about a drop in Hindu votes, the party president urged workers to stay vigilant agai...",
+          "quote": "He also pledged a special welfare package for Scheduled Castes (SCs) and Scheduled Tribes (STs)."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-15",
+      "created_at": "2026-11-15",
+      "url_checked_at": "2026-11-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "A general welfare package for a demographic group is a routine policy area rather than a specific, nation-shaping transformational commitment.",
+      "importance_source": "llm"
     }
   ]
 }
