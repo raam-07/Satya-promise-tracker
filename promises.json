@@ -4,8 +4,8 @@
     "last_updated": "2026-11-15",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 244,
-    "promises_with_evidence": 244,
+    "total_promises": 245,
+    "promises_with_evidence": 245,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21168,6 +21168,80 @@
       "importance": "minor",
       "importance_reason": "A general welfare package for a demographic group is a routine policy area rather than a specific, nation-shaping transformational commitment.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p245",
+      "person": "D.K. Shivakumar",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Induct a woman into the Cabinet",
+      "supporting_quote": "“I have brought the matter of inducting a woman into the Cabinet to the attention of the Congress high command in Delhi. I cannot say whether the process will happen tomorrow, but they have told me that they will call me to Delhi to discuss it. This is something that needs to be done and we will definitely see it through.”",
+      "category": "welfare",
+      "made_on": "2026-11-15",
+      "reported_on": "2026-11-15",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/will-discuss-induction-of-woman-minister-with-high-command-karnataka-cm/article71705417.ece",
+      "url": "https://www.thehindu.com/news/national/karnataka/will-discuss-induction-of-woman-minister-with-high-command-karnataka-cm/article71705417.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Will+discuss+induction+of+woman+Minister+with+high+command+Karnataka+CM",
+      "source_description": "Will discuss induction of woman Minister with high command: Karnataka CM",
+      "declaration": {
+        "person": "D.K. Shivakumar",
+        "claim": "Induct a woman into the Cabinet",
+        "quote": "“I have brought the matter of inducting a woman into the Cabinet to the attention of the Congress high command in Delhi. I cannot say whether the process will happen tomorrow, but they have told me that they will call me to Delhi to discuss it. This is something that needs to be done and we will definitely see it through.”",
+        "source_url": "https://www.thehindu.com/news/national/karnataka/will-discuss-induction-of-woman-minister-with-high-command-karnataka-cm/article71705417.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-15",
+        "made_on": "2026-11-15",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-15",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-15",
+          "evidence_url": "https://www.thehindu.com/news/national/karnataka/will-discuss-induction-of-woman-minister-with-high-command-karnataka-cm/article71705417.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/karnataka/will-discuss-induction-of-woman-minister-with-high-command-karnataka-cm/article71705417.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Will+discuss+induction+of+woman+Minister+with+high+command+Karnataka+CM",
+          "supporting_quote": "“I have brought the matter of inducting a woman into the Cabinet to the attention of the Congress high command in Delhi. I cannot say whether the process will happen tomorrow, but they have told me that they will call me to Delhi to discuss it. This is something that needs to be done and we will definitely see it through.”",
+          "title": "Will discuss induction of woman Minister with high command: Karnataka CM",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-15",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister D.K. Shivakumar** told party sources he is seeking to induct a woman into the **Cabinet** before the Winter Session in Belagavi. Two berths remain vacant following the resignation of **B. Nagendra**. The **Congress** high command will discuss the appointment in Delhi. Internal press...",
+          "content": "The discussion on Cabinet expansion to fill the remaining two berths appears to be gaining traction again, especially with a little over a fortnight left for the commencement of the Winter Session of the legislature in Belagavi. The absence of a woman minister in the Cabinet has been a particular point of contention. While the Cabinet headed by Chief Minister D.K. Shivakumar was expanded in August...",
+          "quote": "“I have brought the matter of inducting a woman into the Cabinet to the attention of the Congress high command in Delhi. I cannot say whether the process will happen tomorrow, but they have told me that they will call me to Delhi to discuss it. This is something that needs to be done and we will definitely see it through.”"
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-15",
+      "created_at": "2026-11-15",
+      "url_checked_at": "2026-11-15",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a symbolic administrative action and a single-person appointment rather than a large-scale, nation-shaping policy.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-15"
     }
   ]
 }
