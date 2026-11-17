@@ -4,8 +4,8 @@
     "last_updated": "2026-11-17",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 249,
-    "promises_with_evidence": 249,
+    "total_promises": 250,
+    "promises_with_evidence": 250,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21537,6 +21537,80 @@
       "importance": "minor",
       "importance_reason": "Hosting a single business forum is a symbolic event and does not constitute a nation-shaping economic transformation.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p250",
+      "person": "Suvendu Adhikari",
+      "party": "BJP",
+      "role": "Chief Minister of West Bengal",
+      "promise": "Organise a mass recitation of the Bhagavad Gita involving 10 lakh people at Kolkata’s Brigade Parade Ground on December 29.",
+      "supporting_quote": "He announced that a mass recitation of the Bhagavad Gita involving 10 lakh people would be organised at Kolkata’s Brigade Parade Ground on December 29.",
+      "category": "other",
+      "made_on": null,
+      "reported_on": "2026-11-17",
+      "deadline": "ongoing",
+      "source_url": "https://indianexpress.com/article/cities/kolkata/bengal-bjp-chief-samik-bhattacharya-conversion-charge-suvendu-adhikari-verify-facts-10967378/",
+      "url": "https://indianexpress.com/article/cities/kolkata/bengal-bjp-chief-samik-bhattacharya-conversion-charge-suvendu-adhikari-verify-facts-10967378/",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Bengal+BJP+chief+doubles+down+on+conversion+charge+Suvendu+says+will+verify+facts+and+then+act",
+      "source_description": "Bengal BJP chief doubles down on conversion charge, Suvendu says will verify facts and then act",
+      "declaration": {
+        "person": "Suvendu Adhikari",
+        "claim": "Organise a mass recitation of the Bhagavad Gita involving 10 lakh people at Kolkata’s Brigade Parade Ground on December 29.",
+        "quote": "He announced that a mass recitation of the Bhagavad Gita involving 10 lakh people would be organised at Kolkata’s Brigade Parade Ground on December 29.",
+        "source_url": "https://indianexpress.com/article/cities/kolkata/bengal-bjp-chief-samik-bhattacharya-conversion-charge-suvendu-adhikari-verify-facts-10967378/",
+        "source_domain": "indianexpress.com",
+        "reported_on": "2026-11-17",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-17",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-17",
+          "evidence_url": "https://indianexpress.com/article/cities/kolkata/bengal-bjp-chief-samik-bhattacharya-conversion-charge-suvendu-adhikari-verify-facts-10967378/"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://indianexpress.com/article/cities/kolkata/bengal-bjp-chief-samik-bhattacharya-conversion-charge-suvendu-adhikari-verify-facts-10967378/",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Bengal+BJP+chief+doubles+down+on+conversion+charge+Suvendu+says+will+verify+facts+and+then+act",
+          "supporting_quote": "He announced that a mass recitation of the Bhagavad Gita involving 10 lakh people would be organised at Kolkata’s Brigade Parade Ground on December 29.",
+          "title": "Bengal BJP chief doubles down on conversion charge, Suvendu says will verify facts and then act",
+          "source": "Indian Express",
+          "scraped_at": "2026-11-17",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "indianexpress.com",
+          "quote_verified": true,
+          "rephrased": "**Suvendu Adhikari**, the **West Bengal** Chief Minister, stated on Tuesday that action will be taken if allegations of religious conversion in missionary schools are proven true. Following claims by **Samik Bhattacharya** regarding conversions and restrictions on teachers, **Adhikari** said he woul...",
+          "content": "West Bengal Chief Minister Suvendu Adhikari on Tuesday said that action will be taken if allegations of religious conversion in missionary schools are found to be true. Last week, state BJP president Samik Bhattacharya had alleged religious conversions by missionary schools in West Bengal and claimed that a Kolkata missionary school had prohibited women teachers from wearing “saffron-coloured sare...",
+          "quote": "He announced that a mass recitation of the Bhagavad Gita involving 10 lakh people would be organised at Kolkata’s Brigade Parade Ground on December 29."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-17",
+      "created_at": "2026-11-17",
+      "url_checked_at": "2026-11-17",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a one-time symbolic event and a cultural gesture rather than a transformational policy or infrastructure commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-17"
     }
   ]
 }
