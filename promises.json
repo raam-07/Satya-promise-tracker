@@ -4,8 +4,8 @@
     "last_updated": "2026-11-18",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 250,
-    "promises_with_evidence": 250,
+    "total_promises": 251,
+    "promises_with_evidence": 251,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21611,6 +21611,79 @@
       "importance_reason": "This is a one-time symbolic event and a cultural gesture rather than a transformational policy or infrastructure commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-17"
+    },
+    {
+      "id": "p251",
+      "person": "Nirmala Sitharaman",
+      "party": "BJP",
+      "role": "Finance Minister",
+      "promise": "Implement a framework for faceless assessment for CGST taxpayers starting from fiscal year 2027-28.",
+      "supporting_quote": "After the 57th GST Council meeting on October 8, Finance Minister Nirmala Sitharaman had said that the framework for faceless assessment for CGST taxpayers will be put up for consultation and will be implemented from fiscal year 2027-28.",
+      "category": "economy",
+      "made_on": "2026-10-08",
+      "reported_on": "2026-11-18",
+      "deadline": "2027",
+      "source_url": "https://www.thehindu.com/business/too-soon-issue-draft-framework-for-centralised-assessment-of-cgst-taxpayers-cbic-chief/article71714986.ece",
+      "url": "https://www.thehindu.com/business/too-soon-issue-draft-framework-for-centralised-assessment-of-cgst-taxpayers-cbic-chief/article71714986.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Too+soon+issue+draft+framework+for+centralised+assessment+of+CGST+taxpayers+CBIC+chief",
+      "source_description": "Too soon issue draft framework for centralised assessment of CGST taxpayers: CBIC chief",
+      "declaration": {
+        "person": "Nirmala Sitharaman",
+        "claim": "Implement a framework for faceless assessment for CGST taxpayers starting from fiscal year 2027-28.",
+        "quote": "After the 57th GST Council meeting on October 8, Finance Minister Nirmala Sitharaman had said that the framework for faceless assessment for CGST taxpayers will be put up for consultation and will be implemented from fiscal year 2027-28.",
+        "source_url": "https://www.thehindu.com/business/too-soon-issue-draft-framework-for-centralised-assessment-of-cgst-taxpayers-cbic-chief/article71714986.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-18",
+        "made_on": "2026-10-08",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-18",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-18",
+          "evidence_url": "https://www.thehindu.com/business/too-soon-issue-draft-framework-for-centralised-assessment-of-cgst-taxpayers-cbic-chief/article71714986.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/business/too-soon-issue-draft-framework-for-centralised-assessment-of-cgst-taxpayers-cbic-chief/article71714986.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Too+soon+issue+draft+framework+for+centralised+assessment+of+CGST+taxpayers+CBIC+chief",
+          "supporting_quote": "After the 57th GST Council meeting on October 8, Finance Minister Nirmala Sitharaman had said that the framework for faceless assessment for CGST taxpayers will be put up for consultation and will be implemented from fiscal year 2027-28.",
+          "title": "Too soon issue draft framework for centralised assessment of CGST taxpayers: CBIC chief",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-18",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "The **CBIC** will soon release a draft framework for faceless and centralised assessment for 70 lakh taxpayers registered under the **Central GST (CGST)**. **Vivek Chaturvedi** said the framework aims to provide a centralized administration for large taxpayers and a faceless system for others. The p...",
+          "content": "The CBIC will soon release a draft framework for faceless and centralised assessment for 70 lakh taxpayers registered under the Central GST (CGST), a senior official said on Wednesday (November 18, 2026). The new framework is likely to be implemented from next fiscal beginning April 1, 2027. Central Board of Indirect Taxes and Customs (CBIC) chairman Vivek Chaturvedi said the CGST-registered taxpa...",
+          "quote": "After the 57th GST Council meeting on October 8, Finance Minister Nirmala Sitharaman had said that the framework for faceless assessment for CGST taxpayers will be put up for consultation and will be implemented from fiscal year 2027-28."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-18",
+      "created_at": "2026-11-18",
+      "url_checked_at": "2026-11-18",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "This is a specific administrative/procedural reform for a single tax category rather than a nation-shaping economic transformation.",
+      "importance_source": "llm"
     }
   ]
 }
