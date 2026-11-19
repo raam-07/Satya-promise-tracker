@@ -4,8 +4,8 @@
     "last_updated": "2026-11-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 252,
-    "promises_with_evidence": 252,
+    "total_promises": 253,
+    "promises_with_evidence": 253,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21758,6 +21758,80 @@
       "importance_reason": "This is a routine expansion of an existing state-level scheme rather than a transformational, nation-shaping commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-19"
+    },
+    {
+      "id": "p253",
+      "person": "A. Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "Construct 8 lakh Indiramma houses",
+      "supporting_quote": "On the Congress welfare schemes, he said one crore sarees would be distributed from November 26, and 8 lakh Indiramma houses would be constructed.",
+      "category": "welfare",
+      "made_on": "2026-11-20",
+      "reported_on": "2026-11-19",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/telangana/cm-launches-indiramma-family-life-insurance-scheme/article71721517.ece",
+      "url": "https://www.thehindu.com/news/national/telangana/cm-launches-indiramma-family-life-insurance-scheme/article71721517.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=CM+launches+Indiramma+family+life+insurance+scheme",
+      "source_description": "CM launches Indiramma family life insurance scheme",
+      "declaration": {
+        "person": "A. Revanth Reddy",
+        "claim": "Construct 8 lakh Indiramma houses",
+        "quote": "On the Congress welfare schemes, he said one crore sarees would be distributed from November 26, and 8 lakh Indiramma houses would be constructed.",
+        "source_url": "https://www.thehindu.com/news/national/telangana/cm-launches-indiramma-family-life-insurance-scheme/article71721517.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-19",
+        "made_on": "2026-11-20",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-19",
+          "evidence_url": "https://www.thehindu.com/news/national/telangana/cm-launches-indiramma-family-life-insurance-scheme/article71721517.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/telangana/cm-launches-indiramma-family-life-insurance-scheme/article71721517.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=CM+launches+Indiramma+family+life+insurance+scheme",
+          "supporting_quote": "On the Congress welfare schemes, he said one crore sarees would be distributed from November 26, and 8 lakh Indiramma houses would be constructed.",
+          "title": "CM launches Indiramma family life insurance scheme",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-19",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Chief Minister **A. Revanth Reddy** launched the **Indiramma Family Insurance** scheme in Siddipet on Thursday to provide ₹5 lakh insurance cover to every family in the State. During the event, he announced plans to distribute one crore sarees and construct 8 lakh Indiramma houses. He also claimed t...",
+          "content": "Chief Minister A. Revanth Reddy launched the Indiramma Family Insurance scheme in Siddipet on Thursday, which provides ₹5 lakh insurance cover to every family in State. Addressing a public meeting with an impressive gathering, Mr. Reddy expressed the confidence that the Congress will retain power in the 2028 elections, given the introduction of new welfare schemes, while continuing the schemes of ...",
+          "quote": "On the Congress welfare schemes, he said one crore sarees would be distributed from November 26, and 8 lakh Indiramma houses would be constructed."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-19",
+      "created_at": "2026-11-19",
+      "url_checked_at": "2026-11-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "This is a large-scale housing project, but it constitutes a routine state-level infrastructure/welfare scheme rather than a nation-shaping transformational commitment.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-20"
     }
   ]
 }
