@@ -4,8 +4,8 @@
     "last_updated": "2026-11-19",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 253,
-    "promises_with_evidence": 253,
+    "total_promises": 254,
+    "promises_with_evidence": 254,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -21832,6 +21832,80 @@
       "importance_reason": "This is a large-scale housing project, but it constitutes a routine state-level infrastructure/welfare scheme rather than a nation-shaping transformational commitment.",
       "importance_source": "llm",
       "implied_deadline": "2029-11-20"
+    },
+    {
+      "id": "p254",
+      "person": "A Revanth Reddy",
+      "party": "Congress",
+      "role": "Chief Minister",
+      "promise": "The Congress candidate who defeats Harish Rao from Siddipet in the next elections will be inducted into the Cabinet.",
+      "supporting_quote": "The Chief Minister announced that the Congress candidate who defeats Harish Rao from Siddipet in the next elections will be inducted into the Cabinet.",
+      "category": "welfare",
+      "made_on": null,
+      "reported_on": "2026-11-19",
+      "deadline": "ongoing",
+      "source_url": "https://www.ndtv.com/india-news/bitten-by-mad-dogs-revanth-reddy-jabs-dissenting-congress-mlas-12351521#publisher=newsstand",
+      "url": "https://www.ndtv.com/india-news/bitten-by-mad-dogs-revanth-reddy-jabs-dissenting-congress-mlas-12351521#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Bitten+By+Mad+Dogs+Revanth+Reddy+Jabs+Dissenting+Congress+MLAs",
+      "source_description": "\"Bitten By Mad Dogs\": Revanth Reddy Jabs Dissenting Congress MLAs",
+      "declaration": {
+        "person": "A Revanth Reddy",
+        "claim": "The Congress candidate who defeats Harish Rao from Siddipet in the next elections will be inducted into the Cabinet.",
+        "quote": "The Chief Minister announced that the Congress candidate who defeats Harish Rao from Siddipet in the next elections will be inducted into the Cabinet.",
+        "source_url": "https://www.ndtv.com/india-news/bitten-by-mad-dogs-revanth-reddy-jabs-dissenting-congress-mlas-12351521#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-11-19",
+        "made_on": null,
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-19",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-19",
+          "evidence_url": "https://www.ndtv.com/india-news/bitten-by-mad-dogs-revanth-reddy-jabs-dissenting-congress-mlas-12351521#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/india-news/bitten-by-mad-dogs-revanth-reddy-jabs-dissenting-congress-mlas-12351521#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Bitten+By+Mad+Dogs+Revanth+Reddy+Jabs+Dissenting+Congress+MLAs",
+          "supporting_quote": "The Chief Minister announced that the Congress candidate who defeats Harish Rao from Siddipet in the next elections will be inducted into the Cabinet.",
+          "title": "\"Bitten By Mad Dogs\": Revanth Reddy Jabs Dissenting Congress MLAs",
+          "source": "NDTV",
+          "scraped_at": "2026-11-19",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**A Revanth Reddy** criticized dissenting **Congress** MLAs during a public meeting in Siddipet, claiming they were \"bitten by mad dogs\" for publicly criticizing the government. The Chief Minister targeted remarks at **Komatireddy Raj Gopal Reddy** and **Anirudh Reddy** over their allegations regard...",
+          "content": "Telangana Chief Minister A Revanth Reddy on Thursday took a dig at dissenting Congress MLAs with the remark that they seem to have been “bitten by mad dogs” and that party workers will take them to a “mental hospital”. Addressing a public meeting in Siddipet, he said some people within the party were criticising the government in public while praising its achievements in private. “They say bad thi...",
+          "quote": "The Chief Minister announced that the Congress candidate who defeats Harish Rao from Siddipet in the next elections will be inducted into the Cabinet."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-19",
+      "created_at": "2026-11-19",
+      "url_checked_at": "2026-11-19",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a localized, individual political promise regarding a specific seat and cabinet induction rather than a nation- or state-shaping policy.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-19"
     }
   ]
 }
