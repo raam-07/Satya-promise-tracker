@@ -4,8 +4,8 @@
     "last_updated": "2026-11-20",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 256,
-    "promises_with_evidence": 256,
+    "total_promises": 257,
+    "promises_with_evidence": 257,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22051,6 +22051,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "This is a single-institution project and does not constitute a nation-wide or transformational state-wide commitment.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p257",
+      "person": "V.D. Satheesan",
+      "party": "INC",
+      "role": "Chief Minister of Kerala",
+      "promise": "Increase the number of nursing seats in Keralam from 10,000 to 30,000 within three years",
+      "supporting_quote": "He said the government planned to increase the number of nursing seats in Keralam from 10,000 to 30,000 within three years.",
+      "category": "education",
+      "made_on": "2026-11-20",
+      "reported_on": "2026-11-20",
+      "deadline": "2029",
+      "source_url": "https://www.thehindu.com/news/national/kerala/cm-promises-action-over-alleged-attacks-on-youth-congress-workers-student-activists/article71725388.ece",
+      "url": "https://www.thehindu.com/news/national/kerala/cm-promises-action-over-alleged-attacks-on-youth-congress-workers-student-activists/article71725388.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=CM+promises+action+over+alleged+attacks+on+Youth+Congress+workers+student+activists",
+      "source_description": "CM promises action over alleged attacks on Youth Congress workers, student activists",
+      "declaration": {
+        "person": "V.D. Satheesan",
+        "claim": "Increase the number of nursing seats in Keralam from 10,000 to 30,000 within three years",
+        "quote": "He said the government planned to increase the number of nursing seats in Keralam from 10,000 to 30,000 within three years.",
+        "source_url": "https://www.thehindu.com/news/national/kerala/cm-promises-action-over-alleged-attacks-on-youth-congress-workers-student-activists/article71725388.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-20",
+        "made_on": "2026-11-20",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-20",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-20",
+          "evidence_url": "https://www.thehindu.com/news/national/kerala/cm-promises-action-over-alleged-attacks-on-youth-congress-workers-student-activists/article71725388.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/kerala/cm-promises-action-over-alleged-attacks-on-youth-congress-workers-student-activists/article71725388.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=CM+promises+action+over+alleged+attacks+on+Youth+Congress+workers+student+activists",
+          "supporting_quote": "He said the government planned to increase the number of nursing seats in Keralam from 10,000 to 30,000 within three years.",
+          "title": "CM promises action over alleged attacks on Youth Congress workers, student activists",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-20",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Chief Minister **V.D. Satheesan** promised strict action against those responsible for alleged attacks and police atrocities against **Youth Congress** workers during the previous government’s tenure. Speaking in Kannur on November 20, he stated that investigation and special investigation teams hav...",
+          "content": "Chief Minister V.D. Satheesan has promised strict action against those found responsible for alleged attacks and police atrocities against Youth Congress workers and student activists during the previous government’s tenure. He said that his government would pursue the cases without compromise. Speaking at the concluding ceremony of the Youth Congress’s Gen India campaign in Kannur on Friday (Nove...",
+          "quote": "He said the government planned to increase the number of nursing seats in Keralam from 10,000 to 30,000 within three years."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-20",
+      "created_at": "2026-11-20",
+      "url_checked_at": "2026-11-20",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "minor",
+      "importance": "minor",
+      "importance_reason": "This is a specific expansion of a single professional course rather than a transformational, nation-shaping policy.",
       "importance_source": "llm"
     }
   ]
