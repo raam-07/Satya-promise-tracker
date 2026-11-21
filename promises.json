@@ -4,8 +4,8 @@
     "last_updated": "2026-11-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 258,
-    "promises_with_evidence": 258,
+    "total_promises": 259,
+    "promises_with_evidence": 259,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22197,6 +22197,79 @@
       "importance_hint": "critical",
       "importance": "critical",
       "importance_reason": "A large-scale, state-wide industrial infrastructure commitment affecting the entire state's economy and manufacturing capacity.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p259",
+      "person": "Rekha Gupta",
+      "party": "BJP",
+      "role": "Chief Minister of Delhi",
+      "promise": "End the three mountains of garbage (landfill sites) by the end of 2027",
+      "supporting_quote": "The chief minister also announced the government has set a target to end the three mountains of garbage (landfill sites) by the end of 2027.",
+      "category": "infrastructure",
+      "made_on": "2026-11-21",
+      "reported_on": "2026-11-21",
+      "deadline": "2027",
+      "source_url": "https://www.ndtv.com/delhi-news/delhis-air-quality-better-this-year-than-in-last-10-years-chief-minister-rekha-gupta-delhi-aqi-delhi-pollution-news-12358250#publisher=newsstand",
+      "url": "https://www.ndtv.com/delhi-news/delhis-air-quality-better-this-year-than-in-last-10-years-chief-minister-rekha-gupta-delhi-aqi-delhi-pollution-news-12358250#publisher=newsstand",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Delhi+s+Air+Quality+Better+This+Year+Than+In+Last+10+Years+Rekha+Gupta",
+      "source_description": "Delhi's Air Quality Better This Year Than In Last 10 Years: Rekha Gupta",
+      "declaration": {
+        "person": "Rekha Gupta",
+        "claim": "End the three mountains of garbage (landfill sites) by the end of 2027",
+        "quote": "The chief minister also announced the government has set a target to end the three mountains of garbage (landfill sites) by the end of 2027.",
+        "source_url": "https://www.ndtv.com/delhi-news/delhis-air-quality-better-this-year-than-in-last-10-years-chief-minister-rekha-gupta-delhi-aqi-delhi-pollution-news-12358250#publisher=newsstand",
+        "source_domain": "ndtv.com",
+        "reported_on": "2026-11-21",
+        "made_on": "2026-11-21",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-21",
+          "evidence_url": "https://www.ndtv.com/delhi-news/delhis-air-quality-better-this-year-than-in-last-10-years-chief-minister-rekha-gupta-delhi-aqi-delhi-pollution-news-12358250#publisher=newsstand"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.ndtv.com/delhi-news/delhis-air-quality-better-this-year-than-in-last-10-years-chief-minister-rekha-gupta-delhi-aqi-delhi-pollution-news-12358250#publisher=newsstand",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Delhi+s+Air+Quality+Better+This+Year+Than+In+Last+10+Years+Rekha+Gupta",
+          "supporting_quote": "The chief minister also announced the government has set a target to end the three mountains of garbage (landfill sites) by the end of 2027.",
+          "title": "Delhi's Air Quality Better This Year Than In Last 10 Years: Rekha Gupta",
+          "source": "NDTV",
+          "scraped_at": "2026-11-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "ndtv.com",
+          "quote_verified": true,
+          "rephrased": "**Delhi Chief Minister Rekha Gupta** stated on Saturday that strict enforcement and regulations improved the city's air quality this year compared to the past 10 years. During an event at **Kamla Nehru College**, she announced plans to construct hostels for 10,000 students and a target to end three ...",
+          "content": "Delhi Chief Minister Rekha Gupta on Saturday said strict enforcement and regulations had improved the city's air quality this year compared to the past 10 years. Gupta's remarks came after inaugurating a new academic block at Kamla Nehru College and university-special buses for students. At Kamala Nehru College's College Day celebrations, inaugurated the new ‘Vande Mataram' Academic Block and laun...",
+          "quote": "The chief minister also announced the government has set a target to end the three mountains of garbage (landfill sites) by the end of 2027."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-21",
+      "created_at": "2026-11-21",
+      "url_checked_at": "2026-11-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "This is a specific waste management project/infrastructure goal rather than a nation-shaping or transformational state-wide policy.",
       "importance_source": "llm"
     }
   ]
