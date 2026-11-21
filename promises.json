@@ -4,8 +4,8 @@
     "last_updated": "2026-11-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 259,
-    "promises_with_evidence": 259,
+    "total_promises": 260,
+    "promises_with_evidence": 260,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22271,6 +22271,80 @@
       "importance": "minor",
       "importance_reason": "This is a specific waste management project/infrastructure goal rather than a nation-shaping or transformational state-wide policy.",
       "importance_source": "llm"
+    },
+    {
+      "id": "p260",
+      "person": "Amit Shah",
+      "party": "BJP",
+      "role": "Union Home Minister",
+      "promise": "Provide one of the country’s most attractive rehabilitation and resettlement packages for those affected by the Siang Upper Multipurpose Project (SUMP).",
+      "supporting_quote": "Mr. Shah also assured people that the government would provide “one of the country’s most attractive” rehabilitation and resettlement packages for those affected by the project.",
+      "category": "welfare",
+      "made_on": "2026-11-21",
+      "reported_on": "2026-11-21",
+      "deadline": "ongoing",
+      "source_url": "https://www.thehindu.com/news/national/arunachal-pradesh/concerns-of-siang-valley-people-over-dam-project-to-be-addressed-through-dialogue-amit-shah/article71728387.ece",
+      "url": "https://www.thehindu.com/news/national/arunachal-pradesh/concerns-of-siang-valley-people-over-dam-project-to-be-addressed-through-dialogue-amit-shah/article71728387.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=Concerns+of+Siang+Valley+people+over+dam+project+to+be+addressed+through+dialogue+Amit+Shah",
+      "source_description": "Concerns of Siang Valley people over dam project to be addressed through dialogue: Amit Shah",
+      "declaration": {
+        "person": "Amit Shah",
+        "claim": "Provide one of the country’s most attractive rehabilitation and resettlement packages for those affected by the Siang Upper Multipurpose Project (SUMP).",
+        "quote": "Mr. Shah also assured people that the government would provide “one of the country’s most attractive” rehabilitation and resettlement packages for those affected by the project.",
+        "source_url": "https://www.thehindu.com/news/national/arunachal-pradesh/concerns-of-siang-valley-people-over-dam-project-to-be-addressed-through-dialogue-amit-shah/article71728387.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-21",
+        "made_on": "2026-11-21",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-21",
+          "evidence_url": "https://www.thehindu.com/news/national/arunachal-pradesh/concerns-of-siang-valley-people-over-dam-project-to-be-addressed-through-dialogue-amit-shah/article71728387.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/arunachal-pradesh/concerns-of-siang-valley-people-over-dam-project-to-be-addressed-through-dialogue-amit-shah/article71728387.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=Concerns+of+Siang+Valley+people+over+dam+project+to+be+addressed+through+dialogue+Amit+Shah",
+          "supporting_quote": "Mr. Shah also assured people that the government would provide “one of the country’s most attractive” rehabilitation and resettlement packages for those affected by the project.",
+          "title": "Concerns of Siang Valley people over dam project to be addressed through dialogue: Amit Shah",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "Union Home Minister **Amit Shah** assured the people of the Siang Valley on November 21, 2026, that concerns regarding the proposed 11,200-MW **Siang Upper Multipurpose Project (SUMP)** would be addressed through dialogue. He stated the government will provide attractive rehabilitation packages and ...",
+          "content": "Asserting that the proposed 11,200-MW Siang Upper Multipurpose Project (SUMP) is of national importance and crucial for Arunachal Pradesh’s development and strategic interests, Union Home Minister Amit Shah on Saturday (November 21, 2026) assured the people of the Siang Valley that their concerns would be addressed through dialogue. The region’s culture and religious beliefs would not be compromis...",
+          "quote": "Mr. Shah also assured people that the government would provide “one of the country’s most attractive” rehabilitation and resettlement packages for those affected by the project."
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-21",
+      "created_at": "2026-11-21",
+      "url_checked_at": "2026-11-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "minor",
+      "importance_reason": "This is a project-specific resettlement package rather than a nation-shaping or transformational policy.",
+      "importance_source": "llm",
+      "implied_deadline": "2029-11-21"
     }
   ]
 }
