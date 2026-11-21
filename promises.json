@@ -4,8 +4,8 @@
     "last_updated": "2026-11-21",
     "description": "Satya Promise Tracker — key promises made by Indian political leaders, linked to verified news evidence",
     "maintainer": "Satya Project",
-    "total_promises": 257,
-    "promises_with_evidence": 257,
+    "total_promises": 258,
+    "promises_with_evidence": 258,
     "links_last_checked": "2026-06-25",
     "link_check_stats": {
       "ok": 182,
@@ -22124,6 +22124,79 @@
       "importance_hint": "minor",
       "importance": "minor",
       "importance_reason": "This is a specific expansion of a single professional course rather than a transformational, nation-shaping policy.",
+      "importance_source": "llm"
+    },
+    {
+      "id": "p258",
+      "person": "Samrat Choudhary",
+      "party": "BJP",
+      "role": "Chief Minister of Bihar",
+      "promise": "Ensure 24x7 availability of affordable, quality and uninterrupted power to industries by 2030",
+      "supporting_quote": "The state government aims to ensure 24×7 availability of affordable, quality and uninterrupted power to industries by 2030,",
+      "category": "infrastructure",
+      "made_on": "2026-11-20",
+      "reported_on": "2026-11-21",
+      "deadline": "2030",
+      "source_url": "https://www.thehindu.com/news/national/bihar/mous-signed-of-172-lakh-crore-for-six-energy-projects-in-bihar/article71724476.ece",
+      "url": "https://www.thehindu.com/news/national/bihar/mous-signed-of-172-lakh-crore-for-six-energy-projects-in-bihar/article71724476.ece",
+      "url_status": "ok",
+      "archived_url": "",
+      "archive_source": "none",
+      "search_fallback_url": "https://www.google.com/search?q=MoUs+signed+of+1+72+lakh+crore+for+six+energy+projects+in+Bihar",
+      "source_description": "MoUs signed of ₹1.72 lakh crore for six energy projects in Bihar",
+      "declaration": {
+        "person": "Samrat Choudhary",
+        "claim": "Ensure 24x7 availability of affordable, quality and uninterrupted power to industries by 2030",
+        "quote": "The state government aims to ensure 24×7 availability of affordable, quality and uninterrupted power to industries by 2030,",
+        "source_url": "https://www.thehindu.com/news/national/bihar/mous-signed-of-172-lakh-crore-for-six-energy-projects-in-bihar/article71724476.ece",
+        "source_domain": "thehindu.com",
+        "reported_on": "2026-11-21",
+        "made_on": "2026-11-20",
+        "quote_verified": true,
+        "verification": "raw_source_verified"
+      },
+      "status": "ongoing",
+      "status_last_reviewed": "2026-11-21",
+      "status_history": [
+        {
+          "status": "ongoing",
+          "changed_at": "2026-11-21",
+          "evidence_url": "https://www.thehindu.com/news/national/bihar/mous-signed-of-172-lakh-crore-for-six-energy-projects-in-bihar/article71724476.ece"
+        }
+      ],
+      "qwen_suggestion": "ongoing",
+      "qwen_reasoning": "",
+      "evidence_articles": [
+        {
+          "url": "https://www.thehindu.com/news/national/bihar/mous-signed-of-172-lakh-crore-for-six-energy-projects-in-bihar/article71724476.ece",
+          "url_status": "ok",
+          "archived_url": "",
+          "archive_source": "none",
+          "search_fallback_url": "https://www.google.com/search?q=MoUs+signed+of+1+72+lakh+crore+for+six+energy+projects+in+Bihar",
+          "supporting_quote": "The state government aims to ensure 24×7 availability of affordable, quality and uninterrupted power to industries by 2030,",
+          "title": "MoUs signed of ₹1.72 lakh crore for six energy projects in Bihar",
+          "source": "The Hindu",
+          "scraped_at": "2026-11-21",
+          "relevance_score": 100,
+          "qwen_validated": true,
+          "evidence_type": "declaration",
+          "source_domain": "thehindu.com",
+          "quote_verified": true,
+          "rephrased": "**Chief Minister Samrat Choudhary** and other officials signed Memoranda of Understanding for six energy projects in **Bihar** on November 20, 2026. These projects involve a total investment of ₹1,72,885 crore to establish two nuclear power plants and four pumped storage projects. The initiative aim...",
+          "content": "In a step towards promoting industrial development and attracting investment in Bihar, Memoranda of Understanding (MoUs) were signed for six energy projects on Friday (November 20, 2026) during the Entrepreneurs’ Interaction and MoU Exchange Ceremony organised under Bihar Business Connect–2026. These projects envisage a total investment of ₹1,72,885 crore in the state’s energy sector. The projects...",
+          "quote": "The state government aims to ensure 24×7 availability of affordable, quality and uninterrupted power to industries by 2030,"
+        }
+      ],
+      "notes": "",
+      "qwen_confidence": "high",
+      "qwen_assessed_at": "2026-11-21",
+      "created_at": "2026-11-21",
+      "url_checked_at": "2026-11-21",
+      "promise_type": "specific",
+      "evidence_count": 1,
+      "importance_hint": "critical",
+      "importance": "critical",
+      "importance_reason": "A large-scale, state-wide industrial infrastructure commitment affecting the entire state's economy and manufacturing capacity.",
       "importance_source": "llm"
     }
   ]
